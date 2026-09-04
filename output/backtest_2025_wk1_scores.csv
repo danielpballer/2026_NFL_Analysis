@@ -1,0 +1,6 @@
+method,log_loss,brier,accuracy
+p_blend,0.5354,0.1756,0.8125
+p_model,0.5311,0.1749,0.8125
+p_market_spread,0.5452,0.1794,0.8125
+p_market_ml,0.5592,0.1873,0.8125
+coin_flip,0.6931,0.25,0.5

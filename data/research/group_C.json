@@ -1,0 +1,404 @@
+{
+  "collected_on": "2026-09-04",
+  "research_notes": "Collected via WebSearch only (WebFetch unavailable). Session search budget was exhausted after ~48 searches, so some items (coordinator names for ARI/MIA, James Pearce Jr. suspension length, DeShon Elliott injury type, Titans/Dolphins/Raiders Week 1 practice reports) could not be confirmed. Official NFL.com Week 1 injury report showed no entries for any of the 8 teams as of 2026-09-04 (first practice reports are not due until the game week). Stale 2024-season search hits (Russell Wilson calf, Roman Wilson knee, Antonio Hamilton groin, Kyle Pitts hamstring) were deliberately excluded.",
+  "teams": {
+    "ATL": {
+      "record_2025": "8-9, missed playoffs (tied atop NFC South with CAR and TB, lost tiebreakers); HC Raheem Morris and GM Terry Fontenot fired",
+      "qb": {
+        "starter": "Michael Penix Jr. (expected, not officially announced as of Sept 4)",
+        "backup": "Tua Tagovailoa",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Penix is returning from ACL surgery (2025 injury) and was only recently cleared for team drills; he did not play in the preseason. Tua Tagovailoa (new to team in 2026 after release from Miami) started preseason games but struggled (two fumbles) and is not expected to win the job. HC Kevin Stefanski said he had no timeline on naming a QB1; NFL Network's Cameron Wolfe reported Sept 2 that the Falcons plan to start Penix 'eventually'/as soon as he is ready. Cooper Rush is QB3; Falcons kept 4 QBs on the 53. Kirk Cousins was released (post-June 1) and is now the Raiders' starter."
+      },
+      "injuries": [
+        {"player": "Michael Penix Jr.", "position": "QB", "status": "Questionable", "injury": "Recovering from ACL surgery; recently cleared for team drills, did not play in preseason; expected to be Week 1 starter if ready", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49806953/falcons-not-announced-qb1-michael-penix-jr-tua-tagovailoa"},
+        {"player": "Jalon Walker", "position": "OLB/EDGE", "status": "IR", "injury": "Torn ACL in training camp; out for entire 2026 season (2025 1st-round pick, 5.5 sacks as rookie)", "starter": true, "source": "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season"},
+        {"player": "James Pearce Jr.", "position": "EDGE", "status": "Suspended", "injury": "Moved to reserve/suspended list at 53-man cutdown (length of suspension not confirmed in search results)", "starter": true, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Beaux Collins", "position": "WR", "status": "IR", "injury": "Injured reserve, designated to return (min. 4 games)", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Darren Hall", "position": "CB", "status": "IR", "injury": "Placed on injured reserve at cutdown", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Trey Sermon", "position": "RB", "status": "IR", "injury": "Placed on injured reserve at cutdown", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Malik Verdon", "position": "LB", "status": "IR", "injury": "Placed on injured reserve at cutdown", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "J.D. Bertrand", "position": "LB", "status": "IR", "injury": "Placed on injured reserve (LB Josh Woods signed to replace him)", "starter": false, "source": "https://www.atlantafalcons.com/news/falcons-sign-josh-woods-53-man-roster-jd-bertrand-injured-reserve"},
+        {"player": "DeAngelo Malone", "position": "LB/EDGE", "status": "PUP", "injury": "Reserve/PUP to start season (min. 4 games)", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Storm Norton", "position": "OL", "status": "PUP", "injury": "Reserve/PUP to start season (min. 4 games)", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Anterio Thompson", "position": "DT", "status": "NFI", "injury": "Reserve/non-football injury list", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"},
+        {"player": "Billy Bowman Jr.", "position": "DB", "status": "Returning-expected-to-play", "injury": "Activated from Reserve/PUP and added to active roster at cutdown", "starter": false, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster"}
+      ],
+      "offseason": {
+        "new_head_coach": "Kevin Stefanski (from Browns; replaced Raheem Morris; Matt Ryan named president of football, Ian Cunningham GM)",
+        "new_oc": "Tommy Rees",
+        "new_dc": null,
+        "key_departures": ["QB Kirk Cousins (released post-June 1, signed with Raiders)", "WR Darnell Mooney (released)", "WR KhaDarel Hodge (released)", "LB Kaden Elliss (leading tackler, signed with Saints)", "HC Raheem Morris / GM Terry Fontenot (fired)"],
+        "key_arrivals": ["QB Tua Tagovailoa", "QB Cooper Rush", "TE Austin Hooper", "WR Olamide Zaccheaus", "OL coach Bill Callahan", "ST coordinator Aukerman (from Dolphins)"],
+        "notable_rookies": ["CB Avieon Terrell (2nd round, No. 48, projected early starter)", "WR/KR Zachariah Branch (3rd round, No. 79)", "LB Harold Perkins Jr."]
+      },
+      "context_notes": [
+        "DC Jeff Ulbrich and RB coach Michael Pitre were retained from the 2025 staff; DC is not new.",
+        "Falcons had no 2026 first-round pick (traded to Rams in the 2025 James Pearce Jr. trade-up).",
+        "Pass rush badly depleted for Week 1: Jalon Walker (IR, ACL) and James Pearce Jr. (suspended) are both unavailable.",
+        "QB1 has not been formally announced as of Sept 4; Penix (ACL recovery, no preseason snaps) is the expected starter with Tua as backup. Decision involves GM Cunningham, HC Stefanski, president Matt Ryan and owner Arthur Blank.",
+        "Official NFL.com Week 1 injury report showed no Falcons entries as of Sept 4 (practice reports not yet filed).",
+        "Kickoff Sept 13, 1 p.m. ET at Acrisure Stadium. Falcons trying to end a seven-year playoff drought."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/49806953/falcons-not-announced-qb1-michael-penix-jr-tua-tagovailoa",
+        "https://www.nfl.com/news/michael-penix-jr-out-falcons-preseason-finale-falcons-qb1-decision",
+        "https://www.profootballrumors.com/2026/09/falcons-undecided-on-starting-qb",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-02/wolfe-falcons-plan-to-start-penix-eventually",
+        "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season",
+        "https://www.cbssports.com/nfl/news/jalon-walker-injury-falcons-edge/",
+        "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+        "https://www.atlantafalcons.com/news/falcons-sign-josh-woods-53-man-roster-jd-bertrand-injured-reserve",
+        "https://www.atlantafalcons.com/news/atlanta-falcons-2026-coaching-staff",
+        "https://www.thefalcoholic.com/atlanta-falcons-free-agecy/92390/atlanta-falcons-free-agency-2026-first-wave-of-signings-earns-lukewarm-grades",
+        "https://www.nfl.com/news/falcons-firing-hc-raheem-morris-following-two-seasons-with-team",
+        "https://www.cbsnews.com/atlanta/news/atlanta-falcons-hire-kevin-stefanski-as-next-head-coach-after-meeting-with-arthur-blank-matt-ryan/",
+        "https://www.ajc.com/sports/2026/05/which-falcons-draft-picks-will-play-most-as-rookies-we-rank-all-6-selections/",
+        "https://www.cbsnews.com/atlanta/news/falcons-keep-4-quarterbacks-on-initial-53-man-roster-for-2026-season/",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    },
+    "PIT": {
+      "record_2025": "10-7, won AFC North; lost Wild Card round 30-6 to Texans; Mike Tomlin stepped down after 19 seasons",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "Mason Rudolph",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Rodgers (42) re-signed for what he has said is the final season of his career, reuniting with new HC Mike McCarthy. Depth chart: Rodgers, Rudolph, Will Howard, rookie Drew Allar; Steelers kept 4 QBs on the 53."
+      },
+      "injuries": [
+        {"player": "DeShon Elliott", "position": "S", "status": "IR", "injury": "Placed on IR (designated to return) at cutdown in a surprise move; out at least the first four games", "starter": true, "source": "https://www.steelernation.com/2026/08/30/steelers-starter-surprising-designation"},
+        {"player": "Jack Driscoll", "position": "OT", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://steelersnow.com/pittsburgh-steelers-player-roster/"},
+        {"player": "Donte Kent", "position": "CB", "status": "PUP", "injury": "Transferred to reserve/PUP at cutdown (min. 4 games)", "starter": false, "source": "https://steelersnow.com/pittsburgh-steelers-player-roster/"},
+        {"player": "DK Metcalf", "position": "WR", "status": "Returning-expected-to-play", "injury": "Undisclosed injury for much of training camp; returned to practice and expected to be ready for Week 1", "starter": true, "source": "https://www.rotowire.com/football/headlines/dk-metcalf-injury-expected-to-be-ready-for-week-1-635597"},
+        {"player": "Michael Pittman Jr.", "position": "WR", "status": "Returning-expected-to-play", "injury": "Hamstring during camp; expected to be available Week 1 vs. Falcons", "starter": true, "source": "https://bleacherreport.com/articles/25474796-new-dk-metcalf-michael-pittman-jr-injury-update-status-steelers-vs-falcons-week-1"},
+        {"player": "Welschof / Moon", "position": "LB", "status": "IR", "injury": "Two linebackers (Welschof and Moon) placed on injured reserve during preseason", "starter": false, "source": "https://www.si.com/nfl/steelers/news/pittsburgh-steelers-place-two-linebackers-welschof-moon-injured-reserve"}
+      ],
+      "offseason": {
+        "new_head_coach": "Mike McCarthy (replaced Mike Tomlin, who stepped down after 19 seasons)",
+        "new_oc": "Brian Angelichio (first season as OC; West Coast-style system)",
+        "new_dc": "Patrick Graham (from Raiders; replaced Teryl Austin)",
+        "key_departures": ["OT Broderick Jones (traded to Cowboys at cutdown)", "RB Kaleb Johnson (traded to Packers at cutdown)", "LB Elandon Roberts (released at cutdown)", "HC Mike Tomlin (stepped down)"],
+        "key_arrivals": ["WR Michael Pittman Jr. (trade)", "RB Rico Dowdle (FA)", "CB Jamel Dean (FA)", "DT Sebastian Joseph-Day (FA)", "S Jaquan Brisker (FA)", "S Darnell Savage (FA)", "WR Kayshon Boutte (trade)"],
+        "notable_rookies": ["OT Max Iheanachor (1st round)", "WR Germie Bernard (2nd round)", "OT Gennings Dunker (3rd round)", "WR Kaden Wetjen (4th round)", "TE Riley Nowakowski (5th round)", "QB Drew Allar (QB4)"]
+      },
+      "context_notes": [
+        "Entire coaching leadership is new: HC McCarthy, OC Angelichio, DC Graham. Rodgers played under McCarthy in Green Bay.",
+        "Rodgers has publicly declared 2026 the final season of his 22-year career.",
+        "Starting safety DeShon Elliott's IR placement was described as surprising; he misses at least Weeks 1-4.",
+        "Steelers traded away 2023 1st-round OT Broderick Jones and 2025 3rd-round RB Kaleb Johnson at cutdown; rookie 1st-rounder Max Iheanachor is in the tackle mix.",
+        "Official NFL.com Week 1 injury report showed no Steelers entries as of Sept 4 (practice reports not yet filed).",
+        "Home opener at Acrisure Stadium, Sept 13, 1 p.m. ET. Pittsburgh has not won a playoff game since 2016."
+      ],
+      "sources": [
+        "https://www.steelers.com/news/steelers-release-initial-2026-depth-chart",
+        "https://www.cbsnews.com/pittsburgh/news/pittsburgh-steelers-initial-depth-chart-2026-season/",
+        "https://www.nbcnews.com/sports/nfl/pittsburgh-steelers-2026-nfl-season-preview-guide-aaron-rodgers-rcna593127",
+        "https://www.pff.com/news/nfl-pittsburgh-steelers-2026-preview",
+        "https://www.espn.com/nfl/story/_/id/48791209/steelers-sign-aaron-rodgers-quarterback-2026-offense-mike-mccarthy",
+        "https://www.steelernation.com/2026/09/02/steelers-what-to-watch",
+        "https://steelersnow.com/pittsburgh-steelers-player-roster/",
+        "https://www.steelernation.com/2026/08/30/steelers-starter-surprising-designation",
+        "https://www.steelcityunderground.com/2026/08/31/steelers-set-initial-53-man-roster-after-flurry-of-cuts-and-trades/",
+        "https://stillcurtain.com/pittsburgh-steelers-official-53-man-roster-leaves-out-shocking-veterans-start-season-01m11zh5vcy5",
+        "https://www.si.com/nfl/steelers/news/pittsburgh-steelers-place-two-linebackers-welschof-moon-injured-reserve",
+        "https://www.rotowire.com/football/headlines/dk-metcalf-injury-expected-to-be-ready-for-week-1-635597",
+        "https://bleacherreport.com/articles/25474796-new-dk-metcalf-michael-pittman-jr-injury-update-status-steelers-vs-falcons-week-1",
+        "https://en.wikipedia.org/wiki/2025_Pittsburgh_Steelers_season",
+        "https://www.nfl.com/news/mike-tomlin-stepping-down-as-head-coach-of-steelers-after-19-seasons",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    },
+    "NYJ": {
+      "record_2025": "3-14, missed playoffs (first NFL team ever to finish a season without an interception; opened 0-7); HC Aaron Glenn retained",
+      "qb": {
+        "starter": "Geno Smith",
+        "backup": "Not confirmed in search results",
+        "starter_new_to_team": true,
+        "starter_is_rookie": false,
+        "notes": "Acquired from the Raiders in March 2026 for a swap of late-round picks (Jets sent a 2026 6th, received Smith plus a 7th) as a bridge QB. Smith previously played for the Jets 2013-16. New OC Frank Reich called him a 'perfect fit.'"
+      },
+      "injuries": [
+        {"player": "Breece Hall", "position": "RB", "status": "Returning-expected-to-play", "injury": "Groin strain suffered mid-August (2-3 week timeline); expected to be ready for Week 1 vs. Titans", "starter": true, "source": "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans"},
+        {"player": "Kenyon Sadiq", "position": "TE", "status": "Returning-expected-to-play", "injury": "Hernia; HC Glenn said he remains on track to play Week 1", "starter": true, "source": "https://roundtable.io/sports/nfl/jets/news/jets-expect-breece-hall-kenyon-sadiq-to-play-in-week-1-against-titans"},
+        {"player": "D'Angelo Ponds", "position": "RB", "status": "Returning-expected-to-play", "injury": "Calf; on track to play Week 1 per Glenn", "starter": false, "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz"},
+        {"player": "Nahshon Wright", "position": "CB", "status": "Questionable", "injury": "Returned to practice on a limited basis in late August", "starter": false, "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz"},
+        {"player": "Qwan'tez Stiggers", "position": "CB", "status": "Questionable", "injury": "Returned to practice on a limited basis in late August", "starter": false, "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz"},
+        {"player": "Garrett Wilson", "position": "WR", "status": "Returning-expected-to-play", "injury": "Played only 7 games in 2025 due to injury; expected fully healthy for 2026 opener", "starter": true, "source": "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans"},
+        {"player": "Anez Cooper", "position": "OL", "status": "IR", "injury": "2026 draft pick on short-term IR, designated to return (min. 4 games)", "starter": false, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster"},
+        {"player": "VJ Payne", "position": "DB", "status": "IR", "injury": "2026 draft pick on short-term IR, designated to return (min. 4 games)", "starter": false, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster"},
+        {"player": "Tre Brown", "position": "CB", "status": "IR", "injury": "Season-ending IR (no return designation)", "starter": false, "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/"},
+        {"player": "Chip Trayanum", "position": "RB", "status": "IR", "injury": "Season-ending IR (no return designation)", "starter": false, "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/"},
+        {"player": "Mykal Walker", "position": "LB", "status": "IR", "injury": "Season-ending IR (no return designation)", "starter": false, "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/"},
+        {"player": "Tyler Baron", "position": "EDGE", "status": "PUP", "injury": "Reserve/PUP; must miss at least four games", "starter": false, "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/"}
+      ],
+      "offseason": {
+        "new_head_coach": null,
+        "new_oc": "Frank Reich",
+        "new_dc": "Brian Duker (HC Aaron Glenn will call defensive plays)",
+        "key_departures": ["EDGE Jermaine Johnson II (traded to Titans, Feb 2026)", "CB Sauce Gardner (traded to Colts, Nov 2025)", "DT Quinnen Williams (traded to Cowboys, Nov 2025)"],
+        "key_arrivals": ["QB Geno Smith (trade from Raiders)", "S Minkah Fitzpatrick (trade)", "LB DeMario Davis (FA)"],
+        "notable_rookies": ["EDGE David Bailey (No. 2 overall pick)", "TE Kenyon Sadiq (1st round)", "WR Omar Cooper Jr. (1st round)"]
+      },
+      "context_notes": [
+        "Second season under Aaron Glenn after a historically bad 3-14 debut; 12 of 22 assistants replaced, both coordinators new, Glenn takes over defensive play-calling.",
+        "Jets traded 2025 starters Sauce Gardner and Quinnen Williams midseason 2025 and EDGE Jermaine Johnson to Tennessee in Feb 2026 (Johnson now faces his old team in Week 1).",
+        "Initial 53-man roster stood at 52 with a spot deliberately held open.",
+        "Official NFL.com Week 1 injury report showed no Jets entries as of Sept 4 (practice reports not yet filed); Glenn said he hopes the team is at full strength for Week 1.",
+        "Road game at Nissan Stadium, Nashville, Sept 13."
+      ],
+      "sources": [
+        "https://www.newyorkjets.com/news/jets-have-placed-the-ball-back-in-geno-smiths-hands-in-2026",
+        "https://www.profootballnetwork.com/geno-smith-jets-trade-march-2026/",
+        "https://www.profootballrumors.com/2026/07/offseason-in-review-new-york-jets-7",
+        "https://bleacherreport.com/articles/25414922-jets-2026-nfl-schedule-released-geno-smith-aaron-glenns-1st-season-together",
+        "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans",
+        "https://roundtable.io/sports/nfl/jets/news/jets-expect-breece-hall-kenyon-sadiq-to-play-in-week-1-against-titans",
+        "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz",
+        "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster",
+        "https://www.espn.com/nfl/story/_/id/47622002/new-york-jets-first-season-disaster-aaron-glenn",
+        "https://en.wikipedia.org/wiki/2025_New_York_Jets_season",
+        "https://www.jetnation.com/jetsdepthchart/",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    },
+    "TEN": {
+      "record_2025": "3-14, missed playoffs; HC replaced by Robert Saleh",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "Mitchell Trubisky",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Ward (2025 No. 1 overall pick) enters year two as QB1. Trubisky (new FA signing) is the official No. 2; Will Levis was released at cutdown. Hendon Hooker also on the depth chart."
+      },
+      "injuries": [
+        {"player": "Dorian Mausi", "position": "LB", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html"},
+        {"player": "Joshua Williams", "position": "CB", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html"},
+        {"player": "Cedric Gray", "position": "LB", "status": "Questionable", "injury": "Titans issued repeated updates on an injured Cedric Gray during camp; Week 1 status not confirmed in search results", "starter": false, "source": "https://www.si.com/nfl/titans/news/tennessee-titans-offer-another-update-injured-cedric-gray"},
+        {"player": "Jackie Marshall", "position": "DL", "status": "Questionable", "injury": "Rookie made the 53 despite missing time sidelined during camp", "starter": false, "source": "https://paulkuharsky.com/news/titans-initial-53-man-roster-cuts-waiver-claims"}
+      ],
+      "offseason": {
+        "new_head_coach": "Robert Saleh",
+        "new_oc": "Brian Daboll (former Giants HC / Bills OC)",
+        "new_dc": null,
+        "key_departures": ["QB Will Levis (released at cutdown)"],
+        "key_arrivals": ["EDGE Jermaine Johnson II (trade from Jets)", "DL John Franklin-Myers (3 yrs, $63M)", "WR Wan'Dale Robinson (Daboll reunion)", "QB Mitchell Trubisky", "CB Cor'Dale Flott", "S Jamal Adams"],
+        "notable_rookies": ["EDGE Keldric Faulk", "RB Nicholas Singleton", "G Fernando Carmona (won starting RG job over Cordell Volson)", "DL Jackie Marshall"]
+      },
+      "context_notes": [
+        "Complete regime change: Saleh (HC) and Daboll (OC) lured at least nine players they had previously coached; Titans had $92M+ in cap space.",
+        "New DC name not confirmed in search results.",
+        "Jermaine Johnson faces his former team (Jets) in Week 1; Jamal Adams (ex-Jet) also set for first look vs. Jets.",
+        "Official NFL.com Week 1 injury report showed no Titans entries as of Sept 4 (practice reports not yet filed).",
+        "Home game at Nissan Stadium, Sept 13. Both teams went 3-14 in 2025."
+      ],
+      "sources": [
+        "https://www.tennesseetitans.com/news/20-things-that-caught-my-eye-on-the-first-unofficial-depth-chart-for-the-titans-in-2026",
+        "https://www.el-balad.com/17041542",
+        "https://www.tennesseetitans.com/news/titans-finalize-coaching-staff-under-robert-saleh",
+        "https://www.nfl.com/news/titans-free-agent-additions-ward-simmons-saleh-daboll-selling-points",
+        "https://sports.yahoo.com/articles/titans-free-agency-tracker-live-151500770.html",
+        "https://en.wikipedia.org/wiki/2026_Tennessee_Titans_season",
+        "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html",
+        "https://paulkuharsky.com/news/titans-initial-53-man-roster-cuts-waiver-claims",
+        "https://titansized.com/titans-official-53-man-roster-leaves-out-shocking-veterans-to-start-the-season",
+        "https://www.si.com/nfl/titans/news/tennessee-titans-get-first-look-at-star-db-jamal-adams-vs-jets-01j7pfxhtjyd",
+        "https://www.si.com/nfl/titans/news/tennessee-titans-offer-another-update-injured-cedric-gray",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    },
+    "ARI": {
+      "record_2025": "3-14, missed playoffs (started 2-0, lost 14 of last 15, nine-game losing streak); HC Jonathan Gannon fired (15-36 over 3 seasons)",
+      "qb": {
+        "starter": "Jacoby Brissett",
+        "backup": "Gardner Minshew",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Brissett (career year in 2025 after replacing Kyler Murray) skipped Phase 1 of the offseason program seeking a starter-level extension; dispute resolved in July with a revised deal ($15.5M base, up to $21M for 2026). Minshew signed and rookie Carson Beck (QB3) drafted for competition. Kyler Murray departed to Vikings."
+      },
+      "injuries": [
+        {"player": "James Conner", "position": "RB", "status": "IR", "injury": "IR, designated to return; misses at least the first four games", "starter": true, "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season"},
+        {"player": "Zach Carter", "position": "DL", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season"},
+        {"player": "Tip Reiman", "position": "TE", "status": "PUP", "injury": "Reserve/PUP; misses first four games", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season"},
+        {"player": "Garrett Williams", "position": "CB (nickel)", "status": "Questionable", "injury": "Activated from PUP on Aug 20; questionable for Week 1", "starter": true, "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/"},
+        {"player": "Will Johnson", "position": "CB", "status": "Questionable", "injury": "Cardinals provided Week 1 update alongside Garrett Williams; on active 53-man roster", "starter": true, "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/"}
+      ],
+      "offseason": {
+        "new_head_coach": "Mike LaFleur (former Rams OC; replaced Jonathan Gannon)",
+        "new_oc": null,
+        "new_dc": null,
+        "key_departures": ["QB Kyler Murray (signed 1-year deal with Vikings)", "EDGE BJ Ojulari (cut at 53-man deadline)", "HC Jonathan Gannon (fired)"],
+        "key_arrivals": ["QB Gardner Minshew"],
+        "notable_rookies": ["RB Jeremiyah Love (No. 3 overall pick, Notre Dame) - likely lead back with Conner on IR", "QB Carson Beck (QB3)"]
+      },
+      "context_notes": [
+        "Coordinator names under LaFleur not confirmed in search results (fields left null).",
+        "With James Conner on IR, rookie No. 3 pick Jeremiyah Love is positioned for a heavy Week 1 workload.",
+        "Brissett contract dispute resolved in July; he is the clear starter.",
+        "Official NFL.com / CBS injury pages showed no active Cardinals injuries as of Sept 4 (practice reports not yet filed).",
+        "Road game at SoFi Stadium vs. Chargers, Sept 13; SI framed Chargers C Tyler Biadasz's season-ending injury as opening the door for a Cardinals upset."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/cardinals/onsi/projecting-arizona-cardinals-week-1-starting-lineup-right-now-2026",
+        "https://www.si.com/nfl/cardinals/onsi/6-instant-reactions-arizona-cardinals-first-2026-depth-chart",
+        "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season",
+        "https://arizonasports.com/nfl/arizona-cardinals/cardinals-lock-in-initial-53-man-roster",
+        "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/",
+        "https://www.cbssports.com/nfl/news/jacoby-brissett-cardinals-offseason-program-contract/",
+        "https://www.profootballrumors.com/2026/07/cardinals-qb-jacoby-brissett-agree-to-revised-deal",
+        "https://www.foxnews.com/sports/cardinals-end-jacoby-brissett-contract-dispute-deal-worth-21m-2026-season-reports",
+        "https://sports.yahoo.com/nfl/article/2026-nfl-offseason-preview-arizona-cardinals-have-to-figure-out-whats-next-with-kyler-murray-as-mike-lafleur-takes-control-as-head-coach-182106247.html",
+        "https://www.espn.com/nfl/story/_/id/47512424/sources-cardinals-fire-jonathan-gannon-15-36-record",
+        "https://arizonasports.com/nfl/arizona-cardinals/mike-lafleur-coach",
+        "https://www.si.com/nfl/cardinals/onsi/tyler-biadasz-injury-news-could-open-door-arizona-cardinals-upset-los-angeles-chargers",
+        "https://www.cbssports.com/nfl/teams/ari/arizona-cardinals/injuries/"
+      ]
+    },
+    "LAC": {
+      "record_2025": "11-6, 2nd in AFC West; lost Wild Card round 16-3 to Patriots (second straight one-and-done under Jim Harbaugh)",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "Not confirmed in search results (Trey Lance was a 2026 free agent)",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Herbert played through a broken hand late in 2025. Now operating in new OC Mike McDaniel's system."
+      },
+      "injuries": [
+        {"player": "Tyler Biadasz", "position": "C", "status": "IR", "injury": "Season-ending IR; ACL plus additional ligament damage to left knee in joint practice vs. 49ers", "starter": true, "source": "https://www.nfl.com/news/chargers-place-veteran-c-tyler-biadasz-knee-on-season-ending-injured-reserve"},
+        {"player": "Rashawn Slater", "position": "LT", "status": "Questionable", "injury": "Missed all of 2025 (torn patellar tendon); same-knee issue sidelined him ~2 weeks in camp; returned as limited participant, trending toward playing Week 1", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashawn-slater-returns-to-chargers-practice"},
+        {"player": "Joe Alt", "position": "RT", "status": "Returning-expected-to-play", "injury": "Returned from 2025 season-ending injury; on initial 53 and expected to start", "starter": true, "source": "https://www.chargers.com/news/initial-53-man-roster-2026"},
+        {"player": "Denzel Perryman", "position": "LB", "status": "IR", "injury": "Moved to IR to start the season; no clear-cut replacement at LB", "starter": true, "source": "https://www.si.com/nfl/chargers/onsi/chargers-injury-news-creates-more-question-week-1"},
+        {"player": "Branson Taylor", "position": "OL", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://www.chargers.com/news/initial-53-man-roster-2026"},
+        {"player": "Isaiah World", "position": "OT", "status": "NFI", "injury": "UDFA (Oregon) tore ACL in CFP loss to Indiana; reserve/NFI", "starter": false, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-ot-isaiah-world-on-nfi-list"}
+      ],
+      "offseason": {
+        "new_head_coach": null,
+        "new_oc": "Mike McDaniel (former Dolphins HC; replaced Greg Roman, who was fired after the playoff loss)",
+        "new_dc": "Chris O'Leary (replaced Jesse Minter, who departed)",
+        "key_departures": ["OC Greg Roman (fired)", "DC Jesse Minter (departed)", "RB Najee Harris (free agent)", "QB Trey Lance (free agent)"],
+        "key_arrivals": ["C Tyler Biadasz (FA; now on season-ending IR)", "TE Charlie Kolar (FA)", "DT Dalvin Tomlinson (FA)", "EDGE Khalil Mack (re-signed, 1 yr/$18M fully guaranteed)"],
+        "notable_rookies": []
+      },
+      "context_notes": [
+        "GM Joe Hortiz was again frugal in free agency despite ample cap space; local media describe Harbaugh/Hortiz as on the hot seat after an 'uninspired' offseason and consecutive early playoff exits.",
+        "Both coordinators are new; the offense scored only one TD across two playoff appearances under Roman.",
+        "Offensive line is the key Week 1 concern: starting C Biadasz lost for the year, LT Slater limited after a same-knee issue, RT Alt returning from 2025 season-ender.",
+        "Official NFL.com / CBS injury pages showed no active Chargers injuries as of Sept 4 (practice reports not yet filed).",
+        "Home game at SoFi Stadium, Sept 13."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/chargers-place-veteran-c-tyler-biadasz-knee-on-season-ending-injured-reserve",
+        "https://www.si.com/nfl/chargers/onsi/chargers-injuries-latest-update-tyler-biadasz-rashawn-slater",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashawn-slater-returns-to-chargers-practice",
+        "https://boltbeat.com/chargers-get-a-much-needed-positive-rashawn-slater-update-after-tyler-biadasz-injury",
+        "https://www.si.com/nfl/chargers/onsi/chargers-injury-news-creates-more-question-week-1",
+        "https://www.chargers.com/news/initial-53-man-roster-2026",
+        "https://sports.yahoo.com/articles/chargers-initial-53-man-roster-025345942.html",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-ot-isaiah-world-on-nfi-list",
+        "https://www.espn.com/nfl/story/_/id/47735344/chargers-officially-hire-mike-mcdaniel-offensive-coordinator",
+        "https://www.espn.com/nfl/story/_/id/48269421/los-angeles-chargers-2026-offseason-free-agency-questions",
+        "https://www.espn.com/nfl/story/_/id/48022804/chargers-2026-free-agency-tracker-offseason-moves-signings",
+        "https://lasportsreport.com/chargers/251688/chargers-frugal-offseason-puts-joe-hortiz-jim-harbaugh-on-hot-seat-in-2026/",
+        "https://bleacherreport.com/articles/25351304-chargers-2026-free-agents-targets-and-draft-needs-after-nfl-playoff-loss",
+        "https://www.cbssports.com/nfl/teams/LAC/los-angeles-chargers/injuries/"
+      ]
+    },
+    "MIA": {
+      "record_2025": "7-10, missed playoffs (2-7 start; GM Chris Grier fired midseason, HC Mike McDaniel fired Jan 8, 2026)",
+      "qb": {
+        "starter": "Malik Willis",
+        "backup": "Kyle McCord",
+        "starter_new_to_team": true,
+        "starter_is_rookie": false,
+        "notes": "Willis signed a 3-year, $67.5M free-agent deal after one impressive 2025 start (vs. Ravens) for Green Bay. Tua Tagovailoa was released post-June 1 (record $99.2M dead cap over two years) and is now in Atlanta. Brady Cook is QB3."
+      },
+      "injuries": [
+        {"player": "Kenneth Grant", "position": "DT", "status": "IR", "injury": "IR, designated to return (2025 1st-round pick); out at least four games", "starter": true, "source": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"},
+        {"player": "Trey Moore", "position": "LB", "status": "IR", "injury": "IR, designated to return (min. 4 games)", "starter": false, "source": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"},
+        {"player": "Zach Sieler", "position": "DT", "status": "Returning-expected-to-play", "injury": "Dealt with an injury in camp; HC Hafley said he will suit up for Week 1 vs. Raiders", "starter": true, "source": "https://heavy.com/sports/nfl/miami-dolphins/zach-sieler-injury-update-week-1/"},
+        {"player": "Will Kacmarek", "position": "TE", "status": "Returning-expected-to-play", "injury": "Rookie starter missed time; Hafley expected him to return to practice the week before the opener and be available Week 1", "starter": true, "source": "https://heavy.com/sports/nfl/miami-dolphins/injury-update-regular-season-rookie/"}
+      ],
+      "offseason": {
+        "new_head_coach": "Jeff Hafley (former Packers DC; replaced Mike McDaniel); new GM Jon-Eric Sullivan (from Packers)",
+        "new_oc": null,
+        "new_dc": null,
+        "key_departures": ["QB Tua Tagovailoa (released post-June 1, signed with Falcons)", "WR Tyreek Hill (released Feb 2026)", "WR Jaylen Waddle (traded to Broncos)", "HC Mike McDaniel (fired; now Chargers OC)", "GM Chris Grier (fired)"],
+        "key_arrivals": ["QB Malik Willis (3 yrs/$67.5M)", "QB Kyle McCord", "QB Brady Cook"],
+        "notable_rookies": ["TE Will Kacmarek (rookie starter)"]
+      },
+      "context_notes": [
+        "Full organizational reset: new owner-level leadership structure with first-time HC Hafley and first-time GM Sullivan, both from Green Bay; described by national media as a 'full rebuild'.",
+        "Offense lost its QB and both star WRs (Hill, Waddle) in the same offseason; Malik Willis is a first-year full-time starter.",
+        "Coordinator names under Hafley were not confirmed in search results.",
+        "Official NFL.com Week 1 injury report showed no Dolphins entries as of Sept 4 (practice reports not yet filed).",
+        "Road opener at Allegiant Stadium, Las Vegas, Sept 13 (cross-country travel, East-to-West)."
+      ],
+      "sources": [
+        "https://www.thephinsider.com/miami-dolphins-depth-chart/121506/miami-dolphins-depth-chart-2026-preseason-release-week-1-malik-willis-caleb-douglas-devon-achane",
+        "https://www.pff.com/news/nfl-miami-dolphins-2026-preview",
+        "https://www.foxnews.com/outkick-sports/miami-dolphins-enter-full-rebuild-malik-willis-quarterback-jeff-hafley-head-coach",
+        "https://www.axios.com/local/miami/2026/03/09/dolphins-tagovailoa-malik-willis-new-quarterback",
+        "https://www.cbssports.com/nfl/news/dolphins-hire-jeff-hafley-head-coach-replace-mike-mcdaniel/",
+        "https://www.washingtontimes.com/news/2026/sep/2/miami-dolphins-enter-new-era-hafley-sullivan-roster-full-new-faces/",
+        "https://www.espn.com/nfl/story/_/id/47948025/miami-dolphins-cut-tyreek-hill-answering-biggest-questions-injury-whats-next",
+        "https://www.espn.com/nfl/story/_/id/47550188/sources-dolphins-fire-coach-mike-mcdaniel-7-10-season",
+        "https://defector.com/why-your-team-sucks-2026-miami-dolphins",
+        "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026",
+        "https://heavy.com/sports/nfl/miami-dolphins/zach-sieler-injury-update-week-1/",
+        "https://heavy.com/sports/nfl/miami-dolphins/injury-update-regular-season-rookie/",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    },
+    "LV": {
+      "record_2025": "3-14, missed playoffs (league-worst record); HC Pete Carroll fired after one season",
+      "qb": {
+        "starter": "Kirk Cousins",
+        "backup": "Fernando Mendoza",
+        "starter_new_to_team": true,
+        "starter_is_rookie": false,
+        "notes": "Cousins signed essentially a 1-year, $20M deal after his release from Atlanta; HC Klint Kubiak officially named him the Week 1 starter over No. 1 overall pick Fernando Mendoza (rookie, backup). Aidan O'Connell is QB3."
+      },
+      "injuries": [
+        {"player": "Ashton Jeanty", "position": "RB", "status": "Questionable", "injury": "Low-ankle sprain in training camp; returned to practice Sept 1; Kubiak optimistic he plays Week 1; not placed on IR", "starter": true, "source": "https://bleacherreport.com/articles/25495665-ashton-jeantys-injury-status-revealed-raiders-hc-ahead-week-1-vs-dolphins"},
+        {"player": "Brock Bowers", "position": "TE", "status": "Returning-expected-to-play", "injury": "Played through a left PCL injury/bone bruise in 2025 and finished the year on IR; reported fully healthy for 2026 opener", "starter": true, "source": "https://www.draftsharks.com/fantasy/points-outlook/brock-bowers/35006"},
+        {"player": "Carter Runyon", "position": "TE", "status": "IR", "injury": "IR, designated to return (likely to practice squad)", "starter": false, "source": "https://www.reviewjournal.com/sports/raiders/raiders-announce-initial-53-man-roster-ahead-of-2026-season-3872267/"},
+        {"player": "Keyron Crawford", "position": "DE", "status": "IR", "injury": "Reserve/injured with no return designation; out for season", "starter": false, "source": "https://www.yardbarker.com/nfl/articles/las_vegas_raiders_initial_53_man_roster_helped_reveal_devastating_news_for_one_rookie_as_the_2026_season_nears_its_start/s1_17313_44239902"}
+      ],
+      "offseason": {
+        "new_head_coach": "Klint Kubiak (named Feb 9, 2026; OC of 2025 champion Seahawks; replaced Pete Carroll)",
+        "new_oc": "Andrew Janocko",
+        "new_dc": "Rob Leonard (replaced Patrick Graham, who left for Steelers)",
+        "key_departures": ["QB Geno Smith (traded to Jets for late-round pick swap)", "DC Patrick Graham (to Steelers)", "HC Pete Carroll (fired)"],
+        "key_arrivals": ["QB Kirk Cousins (FA, ~1 yr/$20M)", "C Tyler Linderbaum"],
+        "notable_rookies": ["QB Fernando Mendoza (No. 1 overall pick; backup)"]
+      },
+      "context_notes": [
+        "Maxx Crosby trade to Baltimore for two first-round picks was agreed then controversially nixed by the Ravens; Crosby remains a Raider and trade rumors have quieted.",
+        "Kubiak said he would be comfortable with any of Cousins, Mendoza or O'Connell starting; Mendoza is the QB of the future and could take over in-season.",
+        "Jeanty's availability is the biggest Week 1 question; he practiced Sept 1 for the first time since the ankle injury.",
+        "Official NFL.com Week 1 injury report showed no Raiders entries as of Sept 4 (practice reports not yet filed).",
+        "Home opener at Allegiant Stadium, Sept 13."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/raiders-name-kirk-cousins-starting-fernando-mendoza-officially-backup",
+        "https://www.cbssports.com/nfl/news/klint-kubiak-names-kirk-cousins-starter-over-no-1-pick-fernando-mendoza/",
+        "https://www.raiders.com/news/raiders-2026-position-breakdown-quarterbacks-kirk-cousins-fernando-mendoza-aidan-oconnell-jacob-clark",
+        "https://www.profootballrumors.com/2026/08/offseason-in-review-las-vegas-raiders-5",
+        "https://www.pff.com/news/nfl-las-vegas-raiders-2026-preview",
+        "https://en.wikipedia.org/wiki/2026_Las_Vegas_Raiders_season",
+        "https://mynews4.com/news/local/pete-carroll-fired-las-vegas-raiders-head-coach-future-2026-nfl-sports-mark-davis-jon-spytek-tom-brady-sports-football",
+        "https://bleacherreport.com/articles/25495665-ashton-jeantys-injury-status-revealed-raiders-hc-ahead-week-1-vs-dolphins",
+        "https://sports.yahoo.com/articles/latest-ashton-jeanty-injury-gives-194754603.html",
+        "https://www.thebiglead.com/ashton-jeanty-injury-update-raiders-practice-optimism-week-1/",
+        "https://www.reviewjournal.com/sports/raiders/raiders-announce-initial-53-man-roster-ahead-of-2026-season-3872267/",
+        "https://www.yardbarker.com/nfl/articles/las_vegas_raiders_initial_53_man_roster_helped_reveal_devastating_news_for_one_rookie_as_the_2026_season_nears_its_start/s1_17313_44239902",
+        "https://www.draftsharks.com/fantasy/points-outlook/brock-bowers/35006",
+        "https://www.profootballnetwork.com/geno-smith-jets-trade-march-2026/",
+        "https://www.nfl.com/injuries/league/2026/reg1"
+      ]
+    }
+  }
+}

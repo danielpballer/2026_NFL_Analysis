@@ -1,0 +1,22 @@
+{
+  "season": 2026,
+  "collected_on": "2026-09-04",
+  "_doc": "Manual head-coach changes that the nflverse coach field misses (it still lists the 2025 coach for these teams). Teams whose change is already visible in games.csv (BAL, CLE, PIT, TEN, MIA, LV, NYG) are detected automatically.",
+  "teams": {
+    "ATL": {
+      "new_coach": "Kevin Stefanski",
+      "previous": "Raheem Morris",
+      "source": "data/research/group_C.json"
+    },
+    "ARI": {
+      "new_coach": "Mike LaFleur",
+      "previous": "Jonathan Gannon",
+      "source": "data/research/group_C.json"
+    },
+    "BUF": {
+      "new_coach": "Joe Brady",
+      "previous": "Sean McDermott",
+      "source": "data/research/group_B.json"
+    }
+  }
+}

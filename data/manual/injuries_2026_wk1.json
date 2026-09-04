@@ -1,0 +1,3041 @@
+{
+  "season": 2026,
+  "week": 1,
+  "collected_on": "2026-09-04",
+  "method": "web search summaries cross-checked with nflverse roster_2026 status codes; see data/research/",
+  "warnings": [
+    "Jaylon Jones: research says CHI, roster says IND; dropped",
+    "Devin Neal: research says NO, roster says JAX; dropped",
+    "Sam Hagen: research says IND, roster says HOU; dropped",
+    "Isiah Pacheco: research says KC, roster says DET; dropped"
+  ],
+  "teams": {
+    "NE": {
+      "players": [
+        {
+          "player": "Bryce Baringer",
+          "position": "P",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Placed on injured reserve after roster deadline.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135865/patriots-place-bryce-baringer-khalil-jacobs-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Eric Butler",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Reverted to IR after being waived/injured.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135744/isaiah-iton-eric-butler-revert-patriots-injured-reserve-nfl-roster-cuts",
+          "roster_status": "CUT/W03"
+        },
+        {
+          "player": "Henry Anderson",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on IR at cutdown.",
+          "source": "https://www.bostonglobe.com/2026/08/29/sports/patriots-nfl-roster-cuts/",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Isaiah Iton",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Reverted to IR after being waived/injured.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135744/isaiah-iton-eric-butler-revert-patriots-injured-reserve-nfl-roster-cuts",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Khalil Jacobs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve after roster deadline.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135865/patriots-place-bryce-baringer-khalil-jacobs-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Kristian Wilkerson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on IR at cutdown.",
+          "source": "https://www.bostonglobe.com/2026/08/29/sports/patriots-nfl-roster-cuts/",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Marcus Bryant",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (designated to return). Tackle depth is down to rookies Caleb Lomu and Dametrious Crownover.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135389/patriots-initial-53-man-roster-nfl-cutdown-day-2026",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Harold Landry III",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Reserve/PUP; has not practiced all summer; must miss at least first 4 games.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135389/patriots-initial-53-man-roster-nfl-cutdown-day-2026",
+          "roster_status": "RES/R04",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Brenden Schooler",
+          "position": "S",
+          "status": "NFI",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/NFI; special-teams ace out at least first 4 games.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/135389/patriots-initial-53-man-roster-nfl-cutdown-day-2026",
+          "roster_status": "RES/R05"
+        },
+        {
+          "player": "Christian Gonzalez",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Hamstring injury during training camp; has returned to practice; multiple outlets describe his Week 1 status vs Seattle as uncertain (Vrabel 'alarming update' headline). No official designation yet.",
+          "source": "https://www.si.com/nfl/seahawks/onsi/christian-gonzalez-patriots-seahawks-week-1-status",
+          "roster_status": "ACT/A01",
+          "slot": "CB1"
+        },
+        {
+          "player": "TreVeyon Henderson",
+          "position": "RB",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Right ankle, slipped making a cut in 11-on-11 on Aug 24; has not practiced since (still sidelined Sept 2-3). Boston Globe: avoided serious injury, should be 'good to go' for Week 1. No official designation yet.",
+          "source": "https://www.patspulpit.com/new-england-patriots-news/136106/patriots-practice-report-treveyon-henderson-sidelined-as-seattle-prep-continues",
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
+        }
+      ],
+      "notes": [
+        "Week 1 is the NFL Kickoff game, Wednesday Sept 9 at Lumen Field - a Super Bowl LX rematch (Seattle won 29-13).",
+        "HC Mike Vrabel enters year 2; OC Josh McDaniels returns (2025 AP Assistant Coach of the Year).",
+        "Drake Maye did not play in the preseason (12 teams sat their QB1, including Seattle's Darnold).",
+        "As of Sept 4 the official NFL.com Week 1 injury page showed no listed injuries for the Patriots (first formal report not yet issued).",
+        "Roster went 91 -> 53 with 42 transactions; claimed TE Cameron Latu and LB Darius Muasau, released C Ben Brown and LB K.J. Britt."
+      ],
+      "sources": [
+        "https://985thesportshub.com/2026/03/23/patriots-make-notable-update-to-quarterback-depth-chart/",
+        "https://en.wikipedia.org/wiki/2025_New_England_Patriots_season",
+        "https://www.bostonglobe.com/2026/08/29/sports/patriots-nfl-roster-cuts/",
+        "https://www.espn.com/nfl/story/_/id/47959515/patriots-zak-kuhr-elevated-interim-role-full-d-coordinator",
+        "https://www.espn.com/nfl/story/_/id/48937845/sources-eagles-agree-trade-aj-brown-patriots-2-picks",
+        "https://www.espn.com/nfl/story/_/id/49756779/why-new-england-patriots-qb-drake-maye-didnt-play-preseason-matter-week-1-vs-seattle-seahawks",
+        "https://www.nbcboston.com/news/sports/nfl/new-england-patriots/2026-free-agency-signings-roster-moves/3897161/",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-03/reiss-treveyon-henderson-ankle-not-practicing",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/patriots-qb-drake-maye-starting-off-with-the-bang-week-1-rematch--seahawks",
+        "https://www.patriots.com/news/rookie-report-camp-observations-from-all-nine-patriots-draft-picks-and-undrafted-rookies",
+        "https://www.patspulpit.com/new-england-patriots-draft/126720/full-2026-draft-class-tracker-caleb-lomu",
+        "https://www.patspulpit.com/new-england-patriots-news/135389/patriots-initial-53-man-roster-nfl-cutdown-day-2026",
+        "https://www.patspulpit.com/new-england-patriots-news/135865/patriots-place-bryce-baringer-khalil-jacobs-injured-reserve",
+        "https://www.patspulpit.com/new-england-patriots-news/136106/patriots-practice-report-treveyon-henderson-sidelined-as-seattle-prep-continues",
+        "https://www.patspulpit.com/new-england-patriots-training-camp/133060/tommy-devito-finding-his-flow-state-patriots-qb2",
+        "https://www.si.com/nfl/seahawks/onsi/christian-gonzalez-patriots-seahawks-week-1-status",
+        "https://www.yardbarker.com/nfl/articles/patriots_mike_vrabel_shares_alarming_christian_gonzalez_update_for_week_1_game_vs_seahawks/s1_13132_44258268"
+      ]
+    },
+    "SEA": {
+      "players": [
+        {
+          "player": "Bud Clark",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Irv Charles",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Jake Bobo",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Mason Richman",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Robbie Ouzts",
+          "position": "FB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Zach Charbonnet",
+          "position": "RB",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Torn ACL in January (NFC playoffs), February knee surgery; reserve/PUP, out at least first 4 games (can start practicing Week 3).",
+          "source": "https://www.fox13seattle.com/sports/seahawks-53-man-roster-projection-2026-season",
+          "roster_status": "RES/R04",
+          "slot": "RB2"
+        },
+        {
+          "player": "Nick Emmanwori",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Ankle surgery in July; did not practice during preseason; ESPN's Brady Henderson calls him 'iffy' for Week 1. Has passed his physical and was warming up with teammates Thursday Sept 3.",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-news/173594/seahawks-nick-emmanwori-iffy-for-week-1",
+          "roster_status": "ACT/A01",
+          "slot": "S"
+        }
+      ],
+      "notes": [
+        "Defending Super Bowl champions hosting the Kickoff game (Wed Sept 9) vs the team they beat in Super Bowl LX.",
+        "HC Mike Macdonald and DC Aden Durde return; Durde led the NFL's No. 1 scoring defense (17.2 ppg) in 2025 and interviewed for the Browns HC job.",
+        "Backfield is the biggest change: Walker gone, Charbonnet on PUP; rookie Price / Emanuel Wilson / George Holani committee.",
+        "JSN was 2025 AP Offensive Player of the Year (1,793 yds, 119 rec). DeMarcus Lawrence, Uchenna Nwosu, Byron Murphy, Leonard Williams all return on the DL.",
+        "As of Sept 4 the official NFL.com Week 1 injury page showed no listed injuries for the Seahawks (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://12thmanrising.com/seattle-seahawks-2026-free-agency-tracker-guide-to-signings-leavings-trades",
+        "https://en.wikipedia.org/wiki/2025_Seattle_Seahawks_season",
+        "https://lindyssports.com/nfl/seahawks-hire-new-oc-as-klint-kubiak-departs-for-raiders",
+        "https://sports.yahoo.com/nfl/breaking-news/article/seahawks-wr-jaxon-smith-njigba-agree-to-4-year-1686-million-extension-133829694.html",
+        "https://www.espn.com/nfl/draft2026/story/_/id/48432300/seattle-seahawks-nfl-draft-picks-2026-selection-analysis-depth-chart",
+        "https://www.espn.com/nfl/story/_/id/48084500/seattle-seahawks-2026-free-agency-tracker-offseason-moves-signings-contract",
+        "https://www.espn.com/nfl/story/_/id/48961312/seahawks-sam-darnold-sees-little-transition-brian-fleury-offense",
+        "https://www.espn.com/nfl/story/_/id/49427873/seahawks-nick-emmanwori-ankle-surgery-expected-play-week-1",
+        "https://www.fieldgulls.com/seattle-seahawks-injury-report/172165/seahawks-star-nick-emmanwori-passes-physical-pup-week-1-return-nfl-news",
+        "https://www.fieldgulls.com/seattle-seahawks-news/173594/seahawks-nick-emmanwori-iffy-for-week-1",
+        "https://www.fieldgulls.com/seattle-seahawks-roster/173590/seattle-seahawks-2026-initial-53-man-roster",
+        "https://www.fieldgulls.com/seattle-seahawks-roster/173739/nfl-news-4-waived-seahawks-players-injured-reserve",
+        "https://www.fox13seattle.com/sports/seahawks-53-man-roster-projection-2026-season",
+        "https://www.pro-football-reference.com/boxscores/202602080nwe.htm",
+        "https://www.rotowire.com/football/nfl-depth-charts/seattle-seahawks-depth-chart-sea",
+        "https://www.seahawks.com/news/meet-the-seahawks-2026-draft-class",
+        "https://www.si.com/nfl/seahawks/onsi/seattle-seahawks-aden-durde-earns-breakout-coach-recognition"
+      ]
+    },
+    "SF": {
+      "players": [
+        {
+          "player": "Mykel Williams",
+          "position": "DL",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Recovering from ACL tear; remains on reserve/PUP, out at least first 4 weeks.",
+          "source": "https://sfstandard.com/2026/08/30/49ers-53-man-roster-set-surprises-cuts/",
+          "roster_status": "RES/R04",
+          "slot": "DE"
+        },
+        {
+          "player": "Sam Okuayinonu",
+          "position": "DE",
+          "status": "Out",
+          "starter": false,
+          "star": false,
+          "injury": "Foot injury; did not travel to Australia; officially ruled out for Week 1. Was expected to start opposite Bosa.",
+          "source": "https://clutchpoints.com/nfl/san-francisco-49ers/49ers-news-week-1-injury-report-rams-downgrade",
+          "roster_status": "ACT/A01",
+          "slot": "DE"
+        },
+        {
+          "player": "George Kittle",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Torn Achilles in Jan 11 playoff win at Philadelphia (surgery 3 days later). Activated from PUP, practiced without setbacks, made the trip to Australia; Rapoport reports an 'optimistic sense' he plays, though one SI report called him 'likely out'.",
+          "source": "https://www.nfl.com/news/george-kittle-achilles-chance-49ers-rams-week-1-australia",
+          "roster_status": "ACT/A01",
+          "slot": "TE1"
+        },
+        {
+          "player": "Keion White",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Listed questionable for Week 1; favorite to start in Okuayinonu's place.",
+          "source": "https://www.cbssports.com/fantasy/football/news/49ers-keion-white-questionable-to-face-rams",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Renardo Green",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring injury suffered vs Chargers in preseason (~Aug 20); did not practice Wed Sept 2; Week 1 status 'up in the air'.",
+          "source": "https://athlonsports.com/nfl/san-francisco-49ers/four-49ers-stars-back-at-practice-wednesday",
+          "roster_status": "ACT/A01",
+          "slot": "CB2"
+        },
+        {
+          "player": "Romello Height",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Rookie edge dealing with an ankle injury; listed questionable.",
+          "source": "https://clutchpoints.com/nfl/san-francisco-49ers/49ers-news-week-1-injury-report-rams-downgrade",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Dominick Puni",
+          "position": "OG",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Concussion; returned to practice Monday Aug 31.",
+          "source": "https://www.49erswebzone.com/articles/202863-updates-mustapha-players-returned-practice/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "position": "FB",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Finger injury in early August; expected to play Week 1.",
+          "source": "https://athlonsports.com/nfl/san-francisco-49ers/four-49ers-stars-back-at-practice-wednesday",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Malik Mustapha",
+          "position": "S",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring strain; returned to (non-padded) practice Monday Aug 31.",
+          "source": "https://www.49erswebzone.com/articles/202863-updates-mustapha-players-returned-practice/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Mike Evans",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Among players 'dealing with injuries' who made the trip; took steps toward playing at Wednesday practice in Melbourne (specific injury not captured).",
+          "source": "https://athlonsports.com/nfl/san-francisco-49ers/four-49ers-stars-back-at-practice-wednesday",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Vederian Lowe",
+          "position": "OT",
+          "status": "Probable",
+          "starter": false,
+          "star": false,
+          "injury": "High-ankle sprain; returned to practice Monday Aug 31.",
+          "source": "https://www.49erswebzone.com/articles/202863-updates-mustapha-players-returned-practice/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Missed camp time with calf tightness / workload management (413 touches in 2025, age 30); back in full team drills and healthy.",
+          "source": "https://sports.yahoo.com/articles/christian-mccaffrey-injury-latest-49ers-171745301.html",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Nick Bosa",
+          "position": "DE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": true,
+          "injury": "Torn right ACL Week 3 of 2025; tendinitis in the surgically repaired knee limited him early in camp. Took part in 11-on-11 for first time Wed Sept 2 in Melbourne (full participation) and said 'I'm flying out there, I'm going to play.'",
+          "source": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/nick-bosa-injury-update-week-1-rams/1960370/",
+          "roster_status": "ACT/A01",
+          "slot": "EDGE"
+        }
+      ],
+      "notes": [
+        "Historic first NFL game in Australia: Thursday Sept 10, 5:35 pm PT (Friday Sept 11, 11:35 am local) at the MCG in Melbourne, on Netflix. First of two 49ers-Rams meetings.",
+        "49ers traveled early (arrived Thursday Sept 3) and held three full game-week practices at AAMI Park (Mon-Wed); Rams stayed home longer before traveling.",
+        "Betting line reportedly moved toward the Rams after opening.",
+        "Pass-rush depth is thin: Okuayinonu out, Mykel Williams on PUP, Huff retired; Bosa returning from ACL.",
+        "Brandon Aiyuk (WR) was placed on the reserve/left-squad list and has not played since his Week 7 2024 ACL/MCL tear; not part of the 2026 receiver group per search results (current-status detail not captured).",
+        "Two players with hamstring issues ('Martin' and 'Gifford') were expected to be placed on IR after the initial 53 (positions/first names not captured)."
+      ],
+      "sources": [
+        "https://athlonsports.com/nfl/san-francisco-49ers/four-49ers-stars-back-at-practice-wednesday",
+        "https://clutchpoints.com/nfl/san-francisco-49ers/49ers-news-week-1-injury-report-rams-downgrade",
+        "https://en.wikipedia.org/wiki/2025_San_Francisco_49ers_season",
+        "https://sfstandard.com/2026/08/30/49ers-53-man-roster-set-surprises-cuts/",
+        "https://sports.yahoo.com/articles/49ers-backup-quarterback-san-franciscos-070002373.html",
+        "https://sports.yahoo.com/articles/christian-mccaffrey-injury-latest-49ers-171745301.html",
+        "https://www.49erswebzone.com/articles/200500-nfl-selections-projected-rookie-salaries/",
+        "https://www.49erswebzone.com/articles/202863-updates-mustapha-players-returned-practice/",
+        "https://www.49erswebzone.com/news/202928-49ers-rams-preview-week/",
+        "https://www.cbssports.com/fantasy/football/news/49ers-keion-white-questionable-to-face-rams",
+        "https://www.espn.com/nfl/story/_/id/48083531/san-francisco-49ers-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.espn.com/nfl/story/_/id/49702970/49ers-activate-star-te-george-kittle-pup-list",
+        "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/nick-bosa-injury-update-week-1-rams/1960370/",
+        "https://www.nfl.com/news/george-kittle-achilles-chance-49ers-rams-week-1-australia",
+        "https://www.ninersnation.com/san-francisco-49ers-news/24480975/49ers-depth-key-spot-takes-hit-likely-starter-ruled-out-week-1",
+        "https://www.profootballrumors.com/2026/04/49ers-finalize-2026-coaching-staff",
+        "https://www.si.com/betting/49ers-vs-rams-opening-odds-for-thursday-night-football-in-week-1-line-movement-towards-la",
+        "https://www.si.com/nfl/49ers/news/49ers-te-george-kittle-likely-out-against-the-rams",
+        "https://www.si.com/onsi/fantasy/injuries/week-1-49ers-rams-melbourne-australia-injury-update-fantasy-football-george-kittle",
+        "https://www.thesportingtribune.com/2026/09/03/rams-stay-home-while-49ers-head-down-under"
+      ]
+    },
+    "LA": {
+      "players": [
+        {
+          "player": "Justin Dedich",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "July hand injury; placed on IR at cutdown, out at least 4 games.",
+          "source": "https://www.therams.com/news/rams-final-moves-ahead-of-2026-53-man-roster-deadline-include-trade-three-on-ir-waived-28-players-five-terminated-vested-veterans-one-waived-injured",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Keagen Trost",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Rookie lineman placed on IR at cutdown, out at least 4 games.",
+          "source": "https://www.therams.com/news/rams-final-moves-ahead-of-2026-53-man-roster-deadline-include-trade-three-on-ir-waived-28-players-five-terminated-vested-veterans-one-waived-injured",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Matthew Caldwell",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on IR at cutdown.",
+          "source": "https://www.therams.com/news/rams-final-moves-ahead-of-2026-53-man-roster-deadline-include-trade-three-on-ir-waived-28-players-five-terminated-vested-veterans-one-waived-injured",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Matthew Stafford",
+          "position": "QB",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Back soreness limited him early in training camp; targeted and expected to be ready for Week 1.",
+          "source": "https://www.cbssports.com/nfl/news/matthew-stafford-injury-rams-qb-will-begin-training-camp-limited-due-to-back-issue",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": true,
+          "injury": "Psoas soreness (previously groin); returned to practice and has stayed healthy; Rams expect him available for the opener. Separate off-field risk: civil lawsuit alleging he bit a woman - possible league discipline still unresolved as of early Sept.",
+          "source": "https://www.profootballnetwork.com/puka-nacua-injury-update-rams-week-1/",
+          "roster_status": "ACT/A01",
+          "slot": "WR1"
+        }
+      ],
+      "notes": [
+        "Week 1 in Melbourne, Australia (Thursday Sept 10, 5:35 pm PT on Netflix); Rams chose to stay home and travel later than the 49ers.",
+        "HC Sean McVay, OC Nate Scheelhaase and DC Chris Shula (3rd season as DC) all return - continuity on staff while the defense added Garrett, Donald, McDuffie and Watson.",
+        "Stafford extension reported to be in the works; he is 38 and Simpson is viewed as the successor.",
+        "Puka Nacua's potential NFL discipline from the civil suit was expected to be clarified before travel to Australia; no decision captured in search results.",
+        "Official NFL.com Week 1 injury page showed no listed injuries as of Sept 4 (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Los_Angeles_Rams_season",
+        "https://ramblinfan.com/adam-schefters-puka-nacua-bomb-puts-week-1-status-doubt",
+        "https://www.cbssports.com/nfl/news/aaron-donald-unretires-returns-to-rams-for-2026-season/",
+        "https://www.cbssports.com/nfl/news/matthew-stafford-injury-rams-qb-will-begin-training-camp-limited-due-to-back-issue",
+        "https://www.espn.com/nfl/story/_/id/48015721/rams-2026-free-agency-tracker-offseason-moves-signings-trades",
+        "https://www.nfl.com/news/aaron-donald-unretires-rams-2026-season",
+        "https://www.nfl.com/news/ty-simpson-rams-no-13-overall-pick-2026-nfl-draft",
+        "https://www.profootballnetwork.com/puka-nacua-injury-update-rams-week-1/",
+        "https://www.si.com/nfl/rams/onsi/los-angeles-2026-free-agency-tracker-latest-signings-loses-news-rumors",
+        "https://www.si.com/nfl/rams/onsi/rams-depth-chart-backup-quarterback-decision",
+        "https://www.therams.com/news/no-decision-yet-on-whether-stetson-bennett-iv-or-ty-simpson-will-be-backup-quarterback-for-week-1-after-thursday-night-s-preseason-finale-against-chargers",
+        "https://www.therams.com/news/rams-2026-coaching-staff-set",
+        "https://www.therams.com/news/rams-final-moves-ahead-of-2026-53-man-roster-deadline-include-trade-three-on-ir-waived-28-players-five-terminated-vested-veterans-one-waived-injured",
+        "https://www.thesportingtribune.com/2026/09/03/rams-stay-home-while-49ers-head-down-under",
+        "https://www.turfshowtimes.com/los-angeles-rams-roster/147574/rams-53-man-roster-takeaways-reaction"
+      ]
+    },
+    "CHI": {
+      "players": [
+        {
+          "player": "Brittain Brown",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Coby Bryant",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "New free-agent signing placed on IR with designation to return.",
+          "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-initial-53-man-roster-cutdown-deadline",
+          "roster_status": "RES/R01",
+          "slot": "S"
+        },
+        {
+          "player": "Dallis Flowers",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Hayden Large",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR with designation to return.",
+          "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-initial-53-man-roster-cutdown-deadline",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Ray-Ray McCloud III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Ruben Hyppolite II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Tony Fields II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Kyler Gordon",
+          "position": "CB",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Reserve/PUP; must miss first 4 games.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R04",
+          "slot": "NCB"
+        },
+        {
+          "player": "Noah Sewell",
+          "position": "LB",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP; must miss first 4 games.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Shemar Turner",
+          "position": "DL",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Reserve/PUP; must miss first 4 games.",
+          "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive",
+          "roster_status": "RES/R04",
+          "slot": "DT"
+        },
+        {
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Suffered an injury at practice in the week before the opener (details not captured).",
+          "source": "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers",
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
+        },
+        {
+          "player": "Kyle Monangai",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Knee injury being managed through camp.",
+          "source": "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Luther Burden III",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Groin injury (Aug 10) kept him out of the rest of the preseason; team expects him back for the opener.",
+          "source": "https://chicago.suntimes.com/bears/2026/08/10/bears-luther-burden-groin-injury-preseason-miss-nfl-wide-receiver-practice-tyrique-stevenson",
+          "roster_status": "ACT/A01",
+          "slot": "WR3"
+        },
+        {
+          "player": "Rome Odunze",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Injured at practice; initial testing indicated he is 'all good'.",
+          "source": "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "HC Ben Johnson, OC Declan Doyle and DC Dennis Allen all enter year 2 - continuity, but Allen described as potentially on the hot seat if the defense struggles.",
+        "Secondary is depleted for Week 1: Kyler Gordon on PUP, Coby Bryant on IR, plus Jaylon Jones and Dallis Flowers on season-ending IR.",
+        "Offensive line reshuffled: Dalman retired, Bradbury acquired to start at center.",
+        "WR corps changed after the DJ Moore trade: Odunze, Burden, Raymond.",
+        "Yahoo framed Chicago as having an early Week 1 edge because of Carolina's tackle injuries.",
+        "Official NFL.com Week 1 injury page showed no listed injuries as of Sept 4 (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://atozsports.com/nfl/chicago-bears-news/bears-2026-free-agency-tracker-signings-re-signings-departures/",
+        "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers",
+        "https://chicago.suntimes.com/bears/2026/08/10/bears-luther-burden-groin-injury-preseason-miss-nfl-wide-receiver-practice-tyrique-stevenson",
+        "https://chicago.suntimes.com/bears/2026/08/13/bears-will-sit-qb-caleb-williams-vs-browns-in-preseason-opener-backup-tyson-bagent-to-start",
+        "https://chicago.suntimes.com/bears/2026/08/26/bears-qb-caleb-williams-up-and-down-camp-continues-but-coach-ben-johnson-happy-with-is-progress",
+        "https://en.wikipedia.org/wiki/2025_Chicago_Bears_season",
+        "https://sports.yahoo.com/articles/bears-early-week-1-edge-224257950.html",
+        "https://www.espn.com/nfl/draft2026/story/_/id/48451000/chicago-bears-nfl-draft-picks-2026-selection-analysis-depth-chart",
+        "https://www.espn.com/nfl/story/_/id/48054614/chicago-bears-2026-free-agency-tracker-offseason-moves-signings",
+        "https://www.si.com/nfl/bears/onsi/chicago-bears-initial-53-man-roster-cutdown-deadline",
+        "https://www.si.com/nfl/bears/onsi/will-dennis-allen-be-on-the-hot-seat-if-bears-defense-struggles-this-season",
+        "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+      ]
+    },
+    "CAR": {
+      "players": [
+        {
+          "player": "Kemoko Turay",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve.",
+          "source": "https://www.si.com/nfl/panthers/news/panthers-place-kemoko-turay-on-injured-reserve",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Nic Scourton",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Torn right ACL on first day of camp (July 23); out for the 2026 season.",
+          "source": "https://en.wikipedia.org/wiki/Nic_Scourton",
+          "roster_status": "RES/R01",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Ikem Ekwonu",
+          "position": "LT",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Reserve/PUP; out at least first 4 games.",
+          "source": "https://www.panthers.com/news/panthers-make-moves-to-get-to-roster-limit-53-man-roster-transactions-cuts-injured-reserve-pup-nfi",
+          "roster_status": "RES/R04",
+          "slot": "LT"
+        },
+        {
+          "player": "Tershawn Wharton",
+          "position": "DT",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Reserve/PUP; out at least first 4 games.",
+          "source": "https://www.panthers.com/news/panthers-make-moves-to-get-to-roster-limit-53-man-roster-transactions-cuts-injured-reserve-pup-nfi",
+          "roster_status": "RES/R04",
+          "slot": "DT"
+        },
+        {
+          "player": "Taylor Moton",
+          "position": "RT",
+          "status": "NFI",
+          "starter": true,
+          "star": false,
+          "injury": "Blood clots in lungs; reserve/non-football illness - out at least first 4 games (eligible to practice after 2 weeks).",
+          "source": "https://www.panthers.com/news/panthers-make-moves-to-get-to-roster-limit-53-man-roster-transactions-cuts-injured-reserve-pup-nfi",
+          "roster_status": "RES/R27",
+          "slot": "RT"
+        }
+      ],
+      "notes": [
+        "HC Dave Canales (year 3) retained DC Ejiro Evero; Peter Hansen promoted to assistant DC.",
+        "Both starting offensive tackles (Ekwonu, Moton) and DT Wharton are out for at least the first four games - a major Week 1 handicap up front.",
+        "2025 division title came at 8-9; first Bryce Young vs Caleb Williams matchup as starters (Carolina traded the No. 1 pick that became Williams).",
+        "Home opener Sunday Sept 13, 1 pm ET on Fox.",
+        "Official NFL.com Week 1 injury page showed no listed injuries as of Sept 4 (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Carolina_Panthers_season",
+        "https://en.wikipedia.org/wiki/Nic_Scourton",
+        "https://sports.yahoo.com/articles/bears-early-week-1-edge-224257950.html",
+        "https://www.espn.com/nfl/story/_/id/48089128/carolina-panthers-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.espn.com/nfl/story/_/id/49793914/bryce-young-brad-idzik-how-carolina-panthers-quarterback-new-playcaller-mesh-2026",
+        "https://www.nfl.com/news/panthers-retain-defensive-coordinator-ejiro-evero-name-brad-idzik-offensive-coordinator",
+        "https://www.panthers.com/news/panthers-announce-2026-coaching-staff",
+        "https://www.panthers.com/news/panthers-draft-picks-2026-trades-moves-nfl-list",
+        "https://www.panthers.com/news/panthers-initial-53-man-roster-analysis",
+        "https://www.panthers.com/news/panthers-make-moves-to-get-to-roster-limit-53-man-roster-transactions-cuts-injured-reserve-pup-nfi",
+        "https://www.pff.com/news/nfl-carolina-panthers-2026-preview",
+        "https://www.si.com/nfl/panthers/news/panthers-place-kemoko-turay-on-injured-reserve"
+      ]
+    },
+    "TB": {
+      "players": [
+        {
+          "player": "Anthony Nelson",
+          "position": "OLB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing (injury not specified).",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Christian Rozeboom",
+          "position": "ILB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Not practicing (injury not specified); new free-agent signing from Carolina.",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Toe sprain; not practicing in the week before the opener; team 'hopeful' he can play at Cincinnati.",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01",
+          "slot": "WR1"
+        },
+        {
+          "player": "Jalen McMillan",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Not practicing; team hopeful he can suit up vs Bengals.",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01",
+          "slot": "WR3"
+        },
+        {
+          "player": "Justin Skule",
+          "position": "OT",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing (injury not specified).",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Rueben Bain Jr.",
+          "position": "EDGE",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Named in Pewter Report's Bucs injury update alongside Egbuka/McMillan; details not captured (search budget exhausted).",
+          "source": "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "RESEARCH GAP: only one search completed for Tampa Bay before the web-search budget ran out. 2025 record/playoff result, QB depth chart, coaching changes, IR/PUP list and draft class were NOT verified this session. Carolina won the 2025 NFC South, so Tampa Bay did not win the division.",
+        "If Egbuka and McMillan cannot play, the Bucs would start Chris Godwin Jr., rookie Ted Hurst III and second-year WR Tez Johnson, with Kam Johnson in reserve.",
+        "SI/Bengals coverage called the Bucs' WR health a 'significant injury question mark' for Week 1.",
+        "Official NFL.com Week 1 injury page showed no listed injuries as of Sept 4 (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://www.cincyjungle.com/cincinnati-bengals-news/196410/emeka-egbuka-injury-buccaneers-week-1",
+        "https://www.espn.com/nfl/story/_/id/48089128/carolina-panthers-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.nfl.com/injuries/",
+        "https://www.pewterreport.com/rueben-bain-jr-emeka-egbuka-bucs-injury/",
+        "https://www.si.com/nfl/bengals/onsi/bengals-week-1-opponent-facing-significant-injury-question-mark-01m08r4sjvy5"
+      ]
+    },
+    "CIN": {
+      "players": [
+        {
+          "player": "Dax Hill",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Returning to individual drills only (working back from injury).",
+          "source": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-jamarr-chase-tee-higgins-get-injury-updates-ahead-of-week-1/",
+          "roster_status": "not-on-2026-roster-file",
+          "slot": "CB2"
+        },
+        {
+          "player": "Shemar Stewart",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Remains on the rehab field; not practicing with the team.",
+          "source": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-jamarr-chase-tee-higgins-get-injury-updates-ahead-of-week-1/",
+          "roster_status": "ACT/A01",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Bryan Cook",
+          "position": "S",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Reported 'good to go'.",
+          "source": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-jamarr-chase-tee-higgins-get-injury-updates-ahead-of-week-1/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": true,
+          "injury": "Knee injury; limited in practice the week before the opener.",
+          "source": "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-jamarr-chase-tee-higgins-get-injury-updates-ahead-of-week-1/",
+          "roster_status": "ACT/A01",
+          "slot": "WR1"
+        },
+        {
+          "player": "Tee Higgins",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Heel contusion; limited in practice.",
+          "source": "https://sports.yahoo.com/articles/tee-higgins-injury-latest-bengals-152538571.html",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        }
+      ],
+      "notes": [
+        "RESEARCH GAP: only one search completed for Cincinnati before the web-search budget ran out. 2025 record/playoff result, QB depth chart, coaching changes, IR/PUP list, free agency and draft class were NOT verified this session.",
+        "Both star receivers (Chase - knee; Higgins - heel) were limited in the final practice week; Dax Hill and Shemar Stewart were not in full team work.",
+        "Official NFL.com Week 1 injury page showed no listed injuries as of Sept 4 (first formal report not yet issued)."
+      ],
+      "sources": [
+        "https://heavy.com/sports/nfl/cincinnati-bengals/bengals-jamarr-chase-tee-higgins-get-injury-updates-ahead-of-week-1/",
+        "https://sports.yahoo.com/articles/tee-higgins-injury-latest-bengals-152538571.html",
+        "https://www.espn.com/nfl/team/injuries/_/name/cin/cincinnati-bengals",
+        "https://www.nfl.com/injuries/",
+        "https://www.si.com/nfl/bengals/onsi/bengals-week-1-opponent-facing-significant-injury-question-mark-01m08r4sjvy5"
+      ]
+    },
+    "NO": {
+      "players": [
+        {
+          "player": "Barry Wesley",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR at cutdown (injury not specified)",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "CUT/W03"
+        },
+        {
+          "player": "Dalys Beanum",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR at cutdown (injury not specified)",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "CUT/W03"
+        },
+        {
+          "player": "David Long Jr.",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR at cutdown (injury not specified)",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Jaylan Ford",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on IR/designated to return at cutdown (injury not specified)",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Jordyn Tyson",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring; No. 8 overall pick placed on IR/designated to return at cutdown, expected to miss ~2 months; ruled out for Lions",
+          "source": "https://www.prideofdetroit.com/detroit-lions-news/169844/saints-injuries-alvin-kamara-jordyn-tyson-detroit-lions-miss-week-1",
+          "roster_status": "RES/R48",
+          "slot": "WR2"
+        },
+        {
+          "player": "Mike Heldman",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR at cutdown (injury not specified)",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Mason Tipton",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP at cutdown (injury not specified); out at least 4 games",
+          "source": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "status": "Out",
+          "starter": true,
+          "star": true,
+          "injury": "Sprained MCL suffered in Aug 18 joint practice vs Cowboys; reported out 4-6 weeks ('at least a month'); not placed on IR; did not practice Wednesday Sept 2; Moore has not formally ruled him out but multiple reports say he will miss Week 1",
+          "source": "https://sports.yahoo.com/articles/latest-saints-injury-updates-alvin-131816851.html",
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
+        },
+        {
+          "player": "Cameron Jordan",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring suffered early in training camp; not placed on IR; Moore not ready to rule him out or guarantee availability for opener",
+          "source": "https://heavy.com/sports/nfl/detroit-lions/major-break-saints-starter-miss-week-1/",
+          "roster_status": "ACT/A01",
+          "slot": "EDGE"
+        }
+      ],
+      "notes": [
+        "HC Kellen Moore enters 2nd season; OC Doug Nussmeier and DC Brandon Staley both return (defense reached top half of league in DVOA under Staley in 2025).",
+        "Cameron Jordan reached free agency in March but is on the 2026 roster (hamstring); he was not placed on IR, signaling a shorter timeline.",
+        "Saints entered offseason ~$24M over the cap (27th in NFL) and used restructures (Chase Young, Chris Olave) to create room.",
+        "With Kamara likely out and Devin Neal on IR, FA signing Travis Etienne is the probable Week 1 lead back.",
+        "Road opener at Ford Field (indoor)."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_New_Orleans_Saints_season",
+        "https://heavy.com/sports/nfl/detroit-lions/major-break-saints-starter-miss-week-1/",
+        "https://sports.yahoo.com/articles/latest-saints-injury-updates-alvin-131816851.html",
+        "https://sports.yahoo.com/articles/orleans-saints-2026-free-agency-154218537.html",
+        "https://sports.yahoo.com/articles/saints-2026-training-camp-preview-155530884.html",
+        "https://sports.yahoo.com/nfl/article/2026-nfl-offseason-preview-new-orleans-saints-have-the-head-coach-and-maybe-the-qb-too-181907278.html",
+        "https://www.espn.com/nfl/story/_/id/47541318/saints-committed-tyler-shough-starting-qb-2026",
+        "https://www.espn.com/nfl/story/_/id/48080236/new-orleans-saints-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.espn.com/nfl/story/_/id/48839516/new-orleans-saints-2026-nfl-draft-picks-ranked-starters-projects",
+        "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season",
+        "https://www.prideofdetroit.com/detroit-lions-news/169844/saints-injuries-alvin-kamara-jordyn-tyson-detroit-lions-miss-week-1"
+      ]
+    },
+    "DET": {
+      "players": [
+        {
+          "player": "Isiah Pacheco",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Back; placed on injured reserve, will miss at least first four games including opener",
+          "source": "https://www.yardbarker.com/nfl/articles/detroit_lions_suffer_brutal_injury_news_just_before_week_1/s1_17355_44249139",
+          "roster_status": "RES/R01",
+          "slot": "RB2"
+        },
+        {
+          "player": "Christian Izien",
+          "position": "DB",
+          "status": "Doubtful",
+          "starter": true,
+          "star": false,
+          "injury": "Injured in Tuesday (Sept 1) practice; FA signee competing for starting nickel job; not expected to be long-term",
+          "source": "https://heavy.com/sports/nfl/detroit-lions/christian-izien-suffers-injury-doubtful-saints/",
+          "roster_status": "ACT/A01",
+          "slot": "NCB"
+        },
+        {
+          "player": "Aidan Hutchinson",
+          "position": "EDGE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Fully healthy; had 14.5 sacks in 2025 after returning from 2024 broken leg; says he 'can't wait' for Week 1",
+          "source": "https://www.si.com/college/michigan/football/aidan-hutchinson-says-injury-is-an-afterthought-and-can-t-wait-for-week",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "HC Dan Campbell returns; DC Kelvin Sheppard returns for 2nd season; Petzing is Detroit's second new OC in two years after Ben Johnson left for Chicago in 2025.",
+        "Lions' Week 1 injury report is short; CBS Detroit notes 'big names' are on it but details beyond Pacheco/Izien were not retrieved.",
+        "Home opener at Ford Field; Lions missed playoffs in 2025 after entering as Super Bowl favorites."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Detroit_Lions_season",
+        "https://heavy.com/sports/nfl/detroit-lions/christian-izien-suffers-injury-doubtful-saints/",
+        "https://sports.yahoo.com/articles/meet-6-rookies-made-detroit-160539917.html",
+        "https://www.cbsnews.com/detroit/news/lions-dont-have-long-injury-report-for-game-with-saints-but-big-names-are-on-it/",
+        "https://www.detroitlions.com/news/detroit-lions-2026-draft-in-review-miller-moore",
+        "https://www.detroitlions.com/news/detroit-lions-breaking-down-free-agency-signings-mays-borom-pacheco",
+        "https://www.espn.com/nfl/story/_/id/48092610/lions-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.espn.com/nfl/story/_/id/48949829/new-detroit-lions-oc-drew-petzing-leaving-strong-first-impression-2026-nfl-otas-offseason",
+        "https://www.prideofdetroit.com/detroit-lions-news/169844/saints-injuries-alvin-kamara-jordyn-tyson-detroit-lions-miss-week-1",
+        "https://www.si.com/college/michigan/football/aidan-hutchinson-says-injury-is-an-afterthought-and-can-t-wait-for-week",
+        "https://www.yardbarker.com/nfl/articles/detroit_lions_suffer_brutal_injury_news_just_before_week_1/s1_17355_44249139"
+      ]
+    },
+    "BUF": {
+      "players": [
+        {
+          "player": "Tyrell Shavers",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Knee; moved to reserve/PUP at cutdown, out at least 4 games",
+          "source": "https://www.buffalobills.com/news/position-by-position-look-at-bills-initial-53-man-roster-2026",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Jalon Kilgore",
+          "position": "S",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing as of early September",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Javon Solomon",
+          "position": "OLB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing as of early September",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Jordan Hancock",
+          "position": "NCB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing as of early September",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Jude Bowry",
+          "position": "OT",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing as of early September",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Undisclosed; sidelined at practice for weeks, missed practice Tuesday Sept 1; team optimistic he will be available Week 1",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        },
+        {
+          "player": "Ty Johnson",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Not practicing as of early September (injury unspecified)",
+          "source": "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "First season under HC Joe Brady after McDermott's departure; biggest game-day change expected on defense under new DC Jim Leonhard.",
+        "Bills do not have to issue an official injury report until Week 1 game week, so Shakir's exact injury is unknown.",
+        "Road opener at Houston (NRG Stadium, indoor). Houston beat Buffalo in the 2025 regular season with backup Davis Mills starting for the Texans."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Buffalo_Bills_season",
+        "https://en.wikipedia.org/wiki/2026_Buffalo_Bills_season",
+        "https://www.buffalobills.com/news/position-by-position-look-at-bills-initial-53-man-roster-2026",
+        "https://www.buffalorumblings.com/buffalo-bills-opinion/135335/grading-the-buffalo-bills-2026-offseason",
+        "https://www.espn.com/nfl/story/_/id/48015515/bills-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.fantasypros.com/nfl/news/605372/khalil-shakir-undisclosed-misses-practice-tuesday.php",
+        "https://www.nfl.com/games/bills-at-texans-2026-reg-1",
+        "https://www.si.com/nfl/bills/onsi/injuries-bills-khalil-shakir-ty-johnson-head-list-worrisome",
+        "https://www.si.com/nfl/bills/onsi/transactions-tracking-buffalo-bills-offseason-moves-nfl-free-agency-2026"
+      ]
+    },
+    "HOU": {
+      "players": [
+        {
+          "player": "Braden Smith",
+          "position": "RT",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Injured in late-August joint practice; placed on IR, out at least first 4 games; FA signee from Colts was projected starting RT",
+          "source": "https://www.buffalorumblings.com/buffalo-bills-analysis/139375/braden-smiths-injury-a-big-one-for-texans-before-buffalo-bills-game-in-week-1",
+          "roster_status": "RES/R01",
+          "slot": "RT"
+        },
+        {
+          "player": "Jayden Higgins",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Torn ACL in red-zone drill Tuesday Sept 1; starting WR out for entire 2026 season",
+          "source": "https://sports.yahoo.com/articles/top-playmaker-bills-week-1-232549919.html",
+          "roster_status": "RES/R01",
+          "slot": "WR2"
+        },
+        {
+          "player": "Ossai",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Undisclosed; placed on injured reserve",
+          "source": "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Speed (reported as LB E.J. Speed)",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Torn quadriceps tendon; will miss entire 2026 season",
+          "source": "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale",
+          "roster_status": "not-on-2026-roster-file",
+          "slot": "LB"
+        },
+        {
+          "player": "Hansen",
+          "position": "UNKNOWN",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Ankle; considered week-to-week",
+          "source": "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Brooks",
+          "position": "UNKNOWN",
+          "status": "Probable",
+          "starter": false,
+          "star": false,
+          "injury": "Hand; back at practice",
+          "source": "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Woodaz",
+          "position": "LB",
+          "status": "Probable",
+          "starter": false,
+          "star": false,
+          "injury": "Thumb; expected to be ready for Sept 13 opener",
+          "source": "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale",
+          "roster_status": "not-on-2026-roster-file"
+        }
+      ],
+      "notes": [
+        "HC DeMeco Ryans returns; OC Nick Caley (hired 2025 from Rams to replace Bobby Slowik) is in his 2nd season; OL coach Cole Popovich.",
+        "Extensions in March for Trent Brown, Danielle Hunter, Ed Ingram, Dalton Schultz, M.J. Stewart.",
+        "Losing Higgins (ACL) and Smith (IR) in the two weeks before Week 1 hits the two areas (WR2, RT) Houston rebuilt this offseason.",
+        "Home opener at NRG Stadium; Texans' first injury report vs Bills reportedly lists multiple key players (SI Texans Daily) - full list not retrieved."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/assessing-impact-texans-losing-rt-173127688.html",
+        "https://sports.yahoo.com/articles/texans-backup-quarterback-houstons-2026-085001206.html",
+        "https://sports.yahoo.com/articles/top-playmaker-bills-week-1-232549919.html",
+        "https://www.battleredblog.com/houston-texans-analysis/73973/post-mortem-on-the-2025-26-houston-texans",
+        "https://www.buffalorumblings.com/buffalo-bills-analysis/139375/braden-smiths-injury-a-big-one-for-texans-before-buffalo-bills-game-in-week-1",
+        "https://www.espn.com/nfl/story/_/id/47978352/houston-texans-2026-free-agency-tracker-offseason-moves-signings-trade",
+        "https://www.espn.com/nfl/story/_/id/48023606/houston-texans-cj-stroud-polarizing-three-years-trade-rumors-contract",
+        "https://www.espn.com/nfl/story/_/id/49147104/nfl-offseason-grades-2026-free-agency-draft-trades-extensions-coaching-changes",
+        "https://www.houstontexans.com/news/houston-texans-2026-free-agency-tracker",
+        "https://www.si.com/nfl/texans/onsi/news/houston-texans-first-injury-report-buffalo-bills-game-lists-multiple-key-players",
+        "https://www.si.com/nfl/texans/onsi/texans-injury-tracker-latest-updates-before-preseason-finale"
+      ]
+    },
+    "BAL": {
+      "players": [
+        {
+          "player": "Nnamdi Madubuike",
+          "position": "DT",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Did not take part in 11-on-11 work during camp; not placed on IR (team expects him back within 4 games) but Week 1 uncertain",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nnamdi-madubuike-doing-more-and-more-but-ravens-uncertain-about-week-1",
+          "roster_status": "ACT/A01",
+          "slot": "DT"
+        },
+        {
+          "player": "Zay Flowers",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Quad contusion, day-to-day; missed practice time but expected to be ready to suit up vs Colts",
+          "source": "https://athlonsports.com/nfl/trending/ravens-zay-flowers-injury-update-week-1-colts",
+          "roster_status": "ACT/A01",
+          "slot": "WR1"
+        }
+      ],
+      "notes": [
+        "Harbaugh was fired after the 2025 finale; reports cite his refusal to part with his offensive coordinator and loss of locker-room support. Entire coaching regime is new in 2026.",
+        "Baltimore Sun (Sept 3): Ravens named season-long captains and 'approach Week 1 in good health'.",
+        "Losing Linderbaum at center with a rookie starting at guard means a reworked interior OL in front of Jackson in a new scheme.",
+        "Road opener at Indianapolis (Lucas Oil Stadium, indoor)."
+      ],
+      "sources": [
+        "https://athlonsports.com/nfl/trending/ravens-zay-flowers-injury-update-week-1-colts",
+        "https://atozsports.com/nfl/baltimore-ravens-news/ravens-new-regime-lamar-jackson-are-both-getting-off-on-the-right-foot-as-2026-offseason-workout-program-opens-in-baltimore/",
+        "https://heavy.com/sports/nfl/baltimore-ravens/good-zay-flowers-news-colts-game/",
+        "https://heavy.com/sports/nfl/baltimore-ravens/lamar-jackson-vigorously-sent-warning-offense/",
+        "https://www.baltimoreravens.com/news/ravens-restructure-lamar-jackson-contract-salary-cap",
+        "https://www.baltimoresun.com/2026/09/03/ravens-captains-injury-updates-week-1-colts/",
+        "https://www.espn.com/nfl/story/_/id/46348460/balitmore-ravens-end-2025-nfl-season-john-harbaugh-fired-lamar-jackson",
+        "https://www.espn.com/nfl/story/_/id/48111840/baltimore-ravens-lamar-jackson-2026-contract-extension-new-deal",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nnamdi-madubuike-doing-more-and-more-but-ravens-uncertain-about-week-1",
+        "https://www.nfl.com/news/ravens-fire-hc-john-harbaugh-after-his-18th-season-ends-with-missing-playoffs",
+        "https://www.pff.com/news/nfl-baltimore-ravens-2026-preview"
+      ]
+    },
+    "IND": {
+      "players": [
+        {
+          "player": "Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP; will miss at least first four games",
+          "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Offseason ankle surgery; returned to practice ~Sept 1, team hopes he can play Week 1",
+          "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-tuesday-sept-1",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        },
+        {
+          "player": "Keenan Allen",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Will play in Week 1 opener per reports (prior ailment unspecified)",
+          "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-tuesday-sept-1",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Tyler Warren",
+          "position": "TE",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Groin; expected to miss about a week of practice but Week 1 status 'not in any danger'",
+          "source": "https://sports.yahoo.com/fantasy/article/nfl-training-camp-injury-report-tracking-the-latest-news-updates-for-2026-fantasy-football-163938278.html",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Daniel Jones",
+          "position": "QB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Torn Achilles (Week 14, 2025); fully cleared for camp, expected Week 1 starter ~9 months post-surgery",
+          "source": "https://www.espn.com/nfl/story/_/id/49463610/colts-daniel-jones-says-fully-cleared-achilles-injury",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "HC Shane Steichen and DC Lou Anarumo (hired 2025) return; 2026 described as a 'make or break' offseason for Steichen/GM Chris Ballard after the historic 2025 collapse.",
+        "Colts lost their starting RT (Smith) to Week 1 opponent-adjacent Texans and lost two starting edge rushers (Paye, Ebukam) and two safeties in free agency.",
+        "Home opener at Lucas Oil Stadium; Jones's mobility/durability on a surgically repaired Achilles is the central question."
+      ],
+      "sources": [
+        "https://1075thefan.com/731174/takeaways-from-colts-first-depth-chart-of-2026/",
+        "https://en.wikipedia.org/wiki/2025_Indianapolis_Colts_season",
+        "https://heavy.com/sports/nfl/indianapolis-colts/anthony-richardson-sr-statement-backup-qb/",
+        "https://sports.yahoo.com/articles/colts-2026-free-agency-departures-100836575.html",
+        "https://sports.yahoo.com/fantasy/article/nfl-training-camp-injury-report-tracking-the-latest-news-updates-for-2026-fantasy-football-163938278.html",
+        "https://www.colts.com/news/daniel-jones-achilles-recovery-rehab-training-camp-availability-week-1-nfl-season-opener-will-he-play",
+        "https://www.espn.com/nfl/story/_/id/48054795/indianapolis-colts-2026-free-agency-tracker-offseason-moves-signings-trades",
+        "https://www.espn.com/nfl/story/_/id/49463610/colts-daniel-jones-says-fully-cleared-achilles-injury",
+        "https://www.nfl.com/draft/tracker/2026/teams/indianapolis-colts",
+        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-tuesday-sept-1",
+        "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+      ]
+    },
+    "CLE": {
+      "players": [
+        {
+          "player": "Jeremiah Owusu-Koramoah",
+          "position": "LB",
+          "status": "PUP",
+          "starter": true,
+          "star": false,
+          "injury": "Placed on reserve/PUP (Friday); out at least first four games",
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/cle/cleveland-browns",
+          "roster_status": "RES/R04",
+          "slot": "LB"
+        }
+      ],
+      "notes": [
+        "Entirely new coaching staff under Monken (Switzer OC, Rutenberg DC, Byron Storer ST; veteran Dom Capers on staff). Monken uses heavy two-TE sets.",
+        "Garrett reportedly lobbied for Jim Schwartz to be HC before being traded; Browns lose their best player and pair Verse with a rebuilt OL (Jenkins, Howard, rookie Fano).",
+        "Detailed Browns Week 1 injury report was not found; only Owusu-Koramoah's PUP designation surfaced.",
+        "Road opener at Jacksonville (outdoor, September heat)."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Cleveland_Browns_season",
+        "https://en.wikipedia.org/wiki/2026_Cleveland_Browns_season",
+        "https://sports.yahoo.com/articles/browns-name-deshaun-watson-starting-232206424.html",
+        "https://www.cbssports.com/nfl/news/browns-modify-myles-garrett-contract-trade-rumors/",
+        "https://www.clevelandbrowns.com/news/browns-name-coordinators-for-the-2026-coaching-staff",
+        "https://www.espn.com/nfl/draft2026/story/_/id/48452321/cleveland-browns-nfl-draft-picks-2026-selection-analysis-depth-chart",
+        "https://www.espn.com/nfl/story/_/id/47754909/browns-hiring-todd-monken-new-coach",
+        "https://www.espn.com/nfl/story/_/id/48080244/cleveland-browns-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.espn.com/nfl/team/injuries/_/name/cle/cleveland-browns",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-announce-their-2026-coaching-staff",
+        "https://www.nfl.com/news/browns-deshaun-watson-starting-qb-week-1-2026-season",
+        "https://www.rotowire.com/football/article/cleveland-browns-starting-quarterback-2026-124745"
+      ]
+    },
+    "JAX": {
+      "players": [
+        {
+          "player": "Cole Van Lanen",
+          "position": "OL",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Knee; activated from Active/PUP late in camp; Coen says practice in lead-up to Week 1 determines whether he plays",
+          "source": "https://www.jaguars.com/news/roster-moves-jaguars-activate-ol-cole-van-lanen-from-pup-list",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "LeQuint Allen",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Listed among notable end-of-camp injuries (type/status not specified)",
+          "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-sorting-out-pre-week-1-injury-news-what-it-means-for-brian-thomas-jr",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Brian Thomas Jr.",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Shoulder (end of camp); practiced Wednesday Sept 2 with no non-contact jersey or limitations, 'will be ready to go'",
+          "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-sorting-out-pre-week-1-injury-news-what-it-means-for-brian-thomas-jr",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Jakobi Meyers",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Wrist (end of camp); practiced Wednesday without apparent limitation but status 'worth monitoring'",
+          "source": "https://blackandteal.com/latest-injury-update-suggests-jaguars-are-the-getting-cavalry-vs-browns-brian-thomas-jr-jakobi-meyers",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        },
+        {
+          "player": "Travis Hunter",
+          "position": "WR",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Season-ending LCL repair surgery in Nov 2025 (no other knee damage); expected back to full activity within 6 months; no reports found of him missing Week 1",
+          "source": "https://www.espn.com/nfl/story/_/id/46933393/travis-hunter-season-lcl-injury-jacksonville-jaguars",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        }
+      ],
+      "notes": [
+        "Continuity edge: HC Liam Coen (2nd yr), OC Grant Udinski, DC Anthony Campanile and ST Heath Farwell all return despite Udinski (Browns) and Campanile (Dolphins) drawing head-coach interest.",
+        "Jaguars were 5-4 when Hunter was lost in 2025 and still reached the playoffs, losing a 3-point Wild Card game at Buffalo.",
+        "Home opener at EverBank Stadium vs a Browns team with a first-year staff; Jaguars beat the Colts in Week 14 2025 (game in which Daniel Jones tore his Achilles)."
+      ],
+      "sources": [
+        "https://blackandteal.com/latest-injury-update-suggests-jaguars-are-the-getting-cavalry-vs-browns-brian-thomas-jr-jakobi-meyers",
+        "https://en.wikipedia.org/wiki/2025_Buffalo_Bills_season",
+        "https://www.espn.com/nfl/story/_/id/46933393/travis-hunter-season-lcl-injury-jacksonville-jaguars",
+        "https://www.espn.com/nfl/story/_/id/48084055/jacksonville-jaguars-2026-free-agency-tracker-offseason-moves-signings-contract-trades",
+        "https://www.jaguars.com/game-day/2026/reg-week1/browns-at-jaguars/",
+        "https://www.jaguars.com/news/k000591-2026-jaguars-free-agent-tracker",
+        "https://www.jaguars.com/news/roster-moves-jaguars-activate-ol-cole-van-lanen-from-pup-list",
+        "https://www.jaguars.com/news/roster-reduction-jaguars-move-to-53-players-x8887",
+        "https://www.si.com/nfl/jaguars/onsi/jacksonville-4-biggest-questions-facing-after-trimming-roster-cole-van-lanen-status",
+        "https://www.si.com/nfl/jaguars/onsi/jacksonville-sorting-out-pre-week-1-injury-news-what-it-means-for-brian-thomas-jr"
+      ]
+    },
+    "ATL": {
+      "players": [
+        {
+          "player": "Beaux Collins",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve, designated to return (min. 4 games)",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Darren Hall",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "J.D. Bertrand",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve (LB Josh Woods signed to replace him)",
+          "source": "https://www.atlantafalcons.com/news/falcons-sign-josh-woods-53-man-roster-jd-bertrand-injured-reserve",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jalon Walker",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Torn ACL in training camp; out for entire 2026 season (2025 1st-round pick, 5.5 sacks as rookie)",
+          "source": "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season",
+          "roster_status": "RES/R01",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Malik Verdon",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Trey Sermon",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Placed on injured reserve at cutdown",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "DeAngelo Malone",
+          "position": "LB",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP to start season (min. 4 games)",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Storm Norton",
+          "position": "OL",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP to start season (min. 4 games)",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Anterio Thompson",
+          "position": "DT",
+          "status": "NFI",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/non-football injury list",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R05"
+        },
+        {
+          "player": "James Pearce Jr.",
+          "position": "EDGE",
+          "status": "Suspended",
+          "starter": true,
+          "star": false,
+          "injury": "Moved to reserve/suspended list at 53-man cutdown (length of suspension not confirmed in search results)",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "RES/R40",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Michael Penix Jr.",
+          "position": "QB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Recovering from ACL surgery; recently cleared for team drills, did not play in preseason; expected to be Week 1 starter if ready",
+          "source": "https://www.espn.com/nfl/story/_/id/49806953/falcons-not-announced-qb1-michael-penix-jr-tua-tagovailoa",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Billy Bowman Jr.",
+          "position": "DB",
+          "status": "Returning-expected-to-play",
+          "starter": false,
+          "star": false,
+          "injury": "Activated from Reserve/PUP and added to active roster at cutdown",
+          "source": "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "DC Jeff Ulbrich and RB coach Michael Pitre were retained from the 2025 staff; DC is not new.",
+        "Falcons had no 2026 first-round pick (traded to Rams in the 2025 James Pearce Jr. trade-up).",
+        "Pass rush badly depleted for Week 1: Jalon Walker (IR, ACL) and James Pearce Jr. (suspended) are both unavailable.",
+        "QB1 has not been formally announced as of Sept 4; Penix (ACL recovery, no preseason snaps) is the expected starter with Tua as backup. Decision involves GM Cunningham, HC Stefanski, president Matt Ryan and owner Arthur Blank.",
+        "Official NFL.com Week 1 injury report showed no Falcons entries as of Sept 4 (practice reports not yet filed).",
+        "Kickoff Sept 13, 1 p.m. ET at Acrisure Stadium. Falcons trying to end a seven-year playoff drought."
+      ],
+      "sources": [
+        "https://www.ajc.com/sports/2026/05/which-falcons-draft-picks-will-play-most-as-rookies-we-rank-all-6-selections/",
+        "https://www.atlantafalcons.com/news/atlanta-falcons-2026-coaching-staff",
+        "https://www.atlantafalcons.com/news/atlanta-falcons-2026-roster",
+        "https://www.atlantafalcons.com/news/falcons-sign-josh-woods-53-man-roster-jd-bertrand-injured-reserve",
+        "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season",
+        "https://www.cbsnews.com/atlanta/news/atlanta-falcons-hire-kevin-stefanski-as-next-head-coach-after-meeting-with-arthur-blank-matt-ryan/",
+        "https://www.cbsnews.com/atlanta/news/falcons-keep-4-quarterbacks-on-initial-53-man-roster-for-2026-season/",
+        "https://www.cbssports.com/nfl/news/jalon-walker-injury-falcons-edge/",
+        "https://www.espn.com/nfl/story/_/id/49806953/falcons-not-announced-qb1-michael-penix-jr-tua-tagovailoa",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-02/wolfe-falcons-plan-to-start-penix-eventually",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/falcons-firing-hc-raheem-morris-following-two-seasons-with-team",
+        "https://www.nfl.com/news/michael-penix-jr-out-falcons-preseason-finale-falcons-qb1-decision",
+        "https://www.profootballrumors.com/2026/09/falcons-undecided-on-starting-qb",
+        "https://www.thefalcoholic.com/atlanta-falcons-free-agecy/92390/atlanta-falcons-free-agency-2026-first-wave-of-signings-earns-lukewarm-grades"
+      ]
+    },
+    "PIT": {
+      "players": [
+        {
+          "player": "DeShon Elliott",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Placed on IR (designated to return) at cutdown in a surprise move; out at least the first four games",
+          "source": "https://www.steelernation.com/2026/08/30/steelers-starter-surprising-designation",
+          "roster_status": "RES/R48",
+          "slot": "S"
+        },
+        {
+          "player": "Jack Driscoll",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://steelersnow.com/pittsburgh-steelers-player-roster/",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Donte Kent",
+          "position": "CB",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Transferred to reserve/PUP at cutdown (min. 4 games)",
+          "source": "https://steelersnow.com/pittsburgh-steelers-player-roster/",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "DK Metcalf",
+          "position": "WR",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Undisclosed injury for much of training camp; returned to practice and expected to be ready for Week 1",
+          "source": "https://www.rotowire.com/football/headlines/dk-metcalf-injury-expected-to-be-ready-for-week-1-635597",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring during camp; expected to be available Week 1 vs. Falcons",
+          "source": "https://bleacherreport.com/articles/25474796-new-dk-metcalf-michael-pittman-jr-injury-update-status-steelers-vs-falcons-week-1",
+          "roster_status": "not-on-2026-roster-file"
+        }
+      ],
+      "notes": [
+        "Entire coaching leadership is new: HC McCarthy, OC Angelichio, DC Graham. Rodgers played under McCarthy in Green Bay.",
+        "Rodgers has publicly declared 2026 the final season of his 22-year career.",
+        "Starting safety DeShon Elliott's IR placement was described as surprising; he misses at least Weeks 1-4.",
+        "Steelers traded away 2023 1st-round OT Broderick Jones and 2025 3rd-round RB Kaleb Johnson at cutdown; rookie 1st-rounder Max Iheanachor is in the tackle mix.",
+        "Official NFL.com Week 1 injury report showed no Steelers entries as of Sept 4 (practice reports not yet filed).",
+        "Home opener at Acrisure Stadium, Sept 13, 1 p.m. ET. Pittsburgh has not won a playoff game since 2016."
+      ],
+      "sources": [
+        "https://bleacherreport.com/articles/25474796-new-dk-metcalf-michael-pittman-jr-injury-update-status-steelers-vs-falcons-week-1",
+        "https://en.wikipedia.org/wiki/2025_Pittsburgh_Steelers_season",
+        "https://steelersnow.com/pittsburgh-steelers-player-roster/",
+        "https://stillcurtain.com/pittsburgh-steelers-official-53-man-roster-leaves-out-shocking-veterans-start-season-01m11zh5vcy5",
+        "https://www.cbsnews.com/pittsburgh/news/pittsburgh-steelers-initial-depth-chart-2026-season/",
+        "https://www.espn.com/nfl/story/_/id/48791209/steelers-sign-aaron-rodgers-quarterback-2026-offense-mike-mccarthy",
+        "https://www.nbcnews.com/sports/nfl/pittsburgh-steelers-2026-nfl-season-preview-guide-aaron-rodgers-rcna593127",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/mike-tomlin-stepping-down-as-head-coach-of-steelers-after-19-seasons",
+        "https://www.pff.com/news/nfl-pittsburgh-steelers-2026-preview",
+        "https://www.rotowire.com/football/headlines/dk-metcalf-injury-expected-to-be-ready-for-week-1-635597",
+        "https://www.si.com/nfl/steelers/news/pittsburgh-steelers-place-two-linebackers-welschof-moon-injured-reserve",
+        "https://www.steelcityunderground.com/2026/08/31/steelers-set-initial-53-man-roster-after-flurry-of-cuts-and-trades/",
+        "https://www.steelernation.com/2026/08/30/steelers-starter-surprising-designation",
+        "https://www.steelernation.com/2026/09/02/steelers-what-to-watch",
+        "https://www.steelers.com/news/steelers-release-initial-2026-depth-chart"
+      ]
+    },
+    "NYJ": {
+      "players": [
+        {
+          "player": "Anez Cooper",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "2026 draft pick on short-term IR, designated to return (min. 4 games)",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Chip Trayanum",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR (no return designation)",
+          "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Mykal Walker",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR (no return designation)",
+          "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Tre Brown",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Season-ending IR (no return designation)",
+          "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "VJ Payne",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "2026 draft pick on short-term IR, designated to return (min. 4 games)",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Tyler Baron",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP; must miss at least four games",
+          "source": "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Nahshon Wright",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Returned to practice on a limited basis in late August",
+          "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Qwan'tez Stiggers",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Returned to practice on a limited basis in late August",
+          "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Breece Hall",
+          "position": "RB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Groin strain suffered mid-August (2-3 week timeline); expected to be ready for Week 1 vs. Titans",
+          "source": "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "D'Angelo Ponds",
+          "position": "RB",
+          "status": "Returning-expected-to-play",
+          "starter": false,
+          "star": false,
+          "injury": "Calf; on track to play Week 1 per Glenn",
+          "source": "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Played only 7 games in 2025 due to injury; expected fully healthy for 2026 opener",
+          "source": "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Kenyon Sadiq",
+          "position": "TE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Hernia; HC Glenn said he remains on track to play Week 1",
+          "source": "https://roundtable.io/sports/nfl/jets/news/jets-expect-breece-hall-kenyon-sadiq-to-play-in-week-1-against-titans",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Second season under Aaron Glenn after a historically bad 3-14 debut; 12 of 22 assistants replaced, both coordinators new, Glenn takes over defensive play-calling.",
+        "Jets traded 2025 starters Sauce Gardner and Quinnen Williams midseason 2025 and EDGE Jermaine Johnson to Tennessee in Feb 2026 (Johnson now faces his old team in Week 1).",
+        "Initial 53-man roster stood at 52 with a spot deliberately held open.",
+        "Official NFL.com Week 1 injury report showed no Jets entries as of Sept 4 (practice reports not yet filed); Glenn said he hopes the team is at full strength for Week 1.",
+        "Road game at Nissan Stadium, Nashville, Sept 13."
+      ],
+      "sources": [
+        "https://bleacherreport.com/articles/25414922-jets-2026-nfl-schedule-released-geno-smith-aaron-glenns-1st-season-together",
+        "https://en.wikipedia.org/wiki/2025_New_York_Jets_season",
+        "https://jetsxfactor.com/2026/08/30/new-york-jets-announce-initial-53-man-roster-2026/",
+        "https://roundtable.io/sports/nfl/jets/news/jets-expect-breece-hall-kenyon-sadiq-to-play-in-week-1-against-titans",
+        "https://thejetpress.com/injured-jets-trending-right-direction-with-week-1-on-horizon-01m0tee23mpz",
+        "https://www.espn.com/nfl/story/_/id/47622002/new-york-jets-first-season-disaster-aaron-glenn",
+        "https://www.jetnation.com/jetsdepthchart/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-put-2026-draft-picks-anez-cooper-and-vj-payne-on-ir-set-initial-53-man-roster",
+        "https://www.newyorkjets.com/news/jets-have-placed-the-ball-back-in-geno-smiths-hands-in-2026",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans",
+        "https://www.profootballnetwork.com/geno-smith-jets-trade-march-2026/",
+        "https://www.profootballrumors.com/2026/07/offseason-in-review-new-york-jets-7"
+      ]
+    },
+    "TEN": {
+      "players": [
+        {
+          "player": "Dorian Mausi",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Joshua Williams",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Cedric Gray",
+          "position": "LB",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Titans issued repeated updates on an injured Cedric Gray during camp; Week 1 status not confirmed in search results",
+          "source": "https://www.si.com/nfl/titans/news/tennessee-titans-offer-another-update-injured-cedric-gray",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Jackie Marshall",
+          "position": "DL",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Rookie made the 53 despite missing time sidelined during camp",
+          "source": "https://paulkuharsky.com/news/titans-initial-53-man-roster-cuts-waiver-claims",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Complete regime change: Saleh (HC) and Daboll (OC) lured at least nine players they had previously coached; Titans had $92M+ in cap space.",
+        "New DC name not confirmed in search results.",
+        "Jermaine Johnson faces his former team (Jets) in Week 1; Jamal Adams (ex-Jet) also set for first look vs. Jets.",
+        "Official NFL.com Week 1 injury report showed no Titans entries as of Sept 4 (practice reports not yet filed).",
+        "Home game at Nissan Stadium, Sept 13. Both teams went 3-14 in 2025."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Tennessee_Titans_season",
+        "https://paulkuharsky.com/news/titans-initial-53-man-roster-cuts-waiver-claims",
+        "https://sports.yahoo.com/articles/titans-free-agency-tracker-live-151500770.html",
+        "https://sports.yahoo.com/articles/titans-roster-announced-2026-season-224435562.html",
+        "https://titansized.com/titans-official-53-man-roster-leaves-out-shocking-veterans-to-start-the-season",
+        "https://www.el-balad.com/17041542",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/titans-free-agent-additions-ward-simmons-saleh-daboll-selling-points",
+        "https://www.si.com/nfl/titans/news/tennessee-titans-get-first-look-at-star-db-jamal-adams-vs-jets-01j7pfxhtjyd",
+        "https://www.si.com/nfl/titans/news/tennessee-titans-offer-another-update-injured-cedric-gray",
+        "https://www.tennesseetitans.com/news/20-things-that-caught-my-eye-on-the-first-unofficial-depth-chart-for-the-titans-in-2026",
+        "https://www.tennesseetitans.com/news/titans-finalize-coaching-staff-under-robert-saleh"
+      ]
+    },
+    "ARI": {
+      "players": [
+        {
+          "player": "James Conner",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "IR, designated to return; misses at least the first four games",
+          "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season",
+          "roster_status": "RES/R48",
+          "slot": "RB1"
+        },
+        {
+          "player": "Zach Carter",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season",
+          "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Tip Reiman",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP; misses first four games",
+          "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Garrett Williams",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Activated from PUP on Aug 20; questionable for Week 1",
+          "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/",
+          "roster_status": "ACT/A01",
+          "slot": "NCB"
+        },
+        {
+          "player": "Will Johnson",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Cardinals provided Week 1 update alongside Garrett Williams; on active 53-man roster",
+          "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/",
+          "roster_status": "ACT/A01",
+          "slot": "CB1"
+        }
+      ],
+      "notes": [
+        "Coordinator names under LaFleur not confirmed in search results (fields left null).",
+        "With James Conner on IR, rookie No. 3 pick Jeremiyah Love is positioned for a heavy Week 1 workload.",
+        "Brissett contract dispute resolved in July; he is the clear starter.",
+        "Official NFL.com / CBS injury pages showed no active Cardinals injuries as of Sept 4 (practice reports not yet filed).",
+        "Road game at SoFi Stadium vs. Chargers, Sept 13; SI framed Chargers C Tyler Biadasz's season-ending injury as opening the door for a Cardinals upset."
+      ],
+      "sources": [
+        "https://arizonasports.com/nfl/arizona-cardinals/cardinals-lock-in-initial-53-man-roster",
+        "https://arizonasports.com/nfl/arizona-cardinals/mike-lafleur-coach",
+        "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/",
+        "https://sports.yahoo.com/nfl/article/2026-nfl-offseason-preview-arizona-cardinals-have-to-figure-out-whats-next-with-kyler-murray-as-mike-lafleur-takes-control-as-head-coach-182106247.html",
+        "https://www.cbssports.com/nfl/news/jacoby-brissett-cardinals-offseason-program-contract/",
+        "https://www.cbssports.com/nfl/teams/ari/arizona-cardinals/injuries/",
+        "https://www.espn.com/nfl/story/_/id/47512424/sources-cardinals-fire-jonathan-gannon-15-36-record",
+        "https://www.foxnews.com/sports/cardinals-end-jacoby-brissett-contract-dispute-deal-worth-21m-2026-season-reports",
+        "https://www.profootballrumors.com/2026/07/cardinals-qb-jacoby-brissett-agree-to-revised-deal",
+        "https://www.si.com/nfl/cardinals/onsi/6-instant-reactions-arizona-cardinals-first-2026-depth-chart",
+        "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-finalize-53-man-roster-2026-season",
+        "https://www.si.com/nfl/cardinals/onsi/projecting-arizona-cardinals-week-1-starting-lineup-right-now-2026",
+        "https://www.si.com/nfl/cardinals/onsi/tyler-biadasz-injury-news-could-open-door-arizona-cardinals-upset-los-angeles-chargers"
+      ]
+    },
+    "LAC": {
+      "players": [
+        {
+          "player": "Branson Taylor",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://www.chargers.com/news/initial-53-man-roster-2026",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Denzel Perryman",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Moved to IR to start the season; no clear-cut replacement at LB",
+          "source": "https://www.si.com/nfl/chargers/onsi/chargers-injury-news-creates-more-question-week-1",
+          "roster_status": "RES/R01",
+          "slot": "LB"
+        },
+        {
+          "player": "Tyler Biadasz",
+          "position": "C",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Season-ending IR; ACL plus additional ligament damage to left knee in joint practice vs. 49ers",
+          "source": "https://www.nfl.com/news/chargers-place-veteran-c-tyler-biadasz-knee-on-season-ending-injured-reserve",
+          "roster_status": "RES/R01",
+          "slot": "C"
+        },
+        {
+          "player": "Isaiah World",
+          "position": "OT",
+          "status": "NFI",
+          "starter": false,
+          "star": false,
+          "injury": "UDFA (Oregon) tore ACL in CFP loss to Indiana; reserve/NFI",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-ot-isaiah-world-on-nfi-list",
+          "roster_status": "RES/R05"
+        },
+        {
+          "player": "Rashawn Slater",
+          "position": "LT",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Missed all of 2025 (torn patellar tendon); same-knee issue sidelined him ~2 weeks in camp; returned as limited participant, trending toward playing Week 1",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashawn-slater-returns-to-chargers-practice",
+          "roster_status": "ACT/A01",
+          "slot": "LT"
+        },
+        {
+          "player": "Joe Alt",
+          "position": "RT",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Returned from 2025 season-ending injury; on initial 53 and expected to start",
+          "source": "https://www.chargers.com/news/initial-53-man-roster-2026",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "GM Joe Hortiz was again frugal in free agency despite ample cap space; local media describe Harbaugh/Hortiz as on the hot seat after an 'uninspired' offseason and consecutive early playoff exits.",
+        "Both coordinators are new; the offense scored only one TD across two playoff appearances under Roman.",
+        "Offensive line is the key Week 1 concern: starting C Biadasz lost for the year, LT Slater limited after a same-knee issue, RT Alt returning from 2025 season-ender.",
+        "Official NFL.com / CBS injury pages showed no active Chargers injuries as of Sept 4 (practice reports not yet filed).",
+        "Home game at SoFi Stadium, Sept 13."
+      ],
+      "sources": [
+        "https://bleacherreport.com/articles/25351304-chargers-2026-free-agents-targets-and-draft-needs-after-nfl-playoff-loss",
+        "https://boltbeat.com/chargers-get-a-much-needed-positive-rashawn-slater-update-after-tyler-biadasz-injury",
+        "https://lasportsreport.com/chargers/251688/chargers-frugal-offseason-puts-joe-hortiz-jim-harbaugh-on-hot-seat-in-2026/",
+        "https://sports.yahoo.com/articles/chargers-initial-53-man-roster-025345942.html",
+        "https://www.cbssports.com/nfl/teams/LAC/los-angeles-chargers/injuries/",
+        "https://www.chargers.com/news/initial-53-man-roster-2026",
+        "https://www.espn.com/nfl/story/_/id/47735344/chargers-officially-hire-mike-mcdaniel-offensive-coordinator",
+        "https://www.espn.com/nfl/story/_/id/48022804/chargers-2026-free-agency-tracker-offseason-moves-signings",
+        "https://www.espn.com/nfl/story/_/id/48269421/los-angeles-chargers-2026-offseason-free-agency-questions",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-ot-isaiah-world-on-nfi-list",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashawn-slater-returns-to-chargers-practice",
+        "https://www.nfl.com/news/chargers-place-veteran-c-tyler-biadasz-knee-on-season-ending-injured-reserve",
+        "https://www.si.com/nfl/chargers/onsi/chargers-injuries-latest-update-tyler-biadasz-rashawn-slater",
+        "https://www.si.com/nfl/chargers/onsi/chargers-injury-news-creates-more-question-week-1"
+      ]
+    },
+    "MIA": {
+      "players": [
+        {
+          "player": "Kenneth Grant",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "IR, designated to return (2025 1st-round pick); out at least four games",
+          "source": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026",
+          "roster_status": "RES/R48",
+          "slot": "DT"
+        },
+        {
+          "player": "Trey Moore",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (min. 4 games)",
+          "source": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Will Kacmarek",
+          "position": "TE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Rookie starter missed time; Hafley expected him to return to practice the week before the opener and be available Week 1",
+          "source": "https://heavy.com/sports/nfl/miami-dolphins/injury-update-regular-season-rookie/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Zach Sieler",
+          "position": "DT",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Dealt with an injury in camp; HC Hafley said he will suit up for Week 1 vs. Raiders",
+          "source": "https://heavy.com/sports/nfl/miami-dolphins/zach-sieler-injury-update-week-1/",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Full organizational reset: new owner-level leadership structure with first-time HC Hafley and first-time GM Sullivan, both from Green Bay; described by national media as a 'full rebuild'.",
+        "Offense lost its QB and both star WRs (Hill, Waddle) in the same offseason; Malik Willis is a first-year full-time starter.",
+        "Coordinator names under Hafley were not confirmed in search results.",
+        "Official NFL.com Week 1 injury report showed no Dolphins entries as of Sept 4 (practice reports not yet filed).",
+        "Road opener at Allegiant Stadium, Las Vegas, Sept 13 (cross-country travel, East-to-West)."
+      ],
+      "sources": [
+        "https://defector.com/why-your-team-sucks-2026-miami-dolphins",
+        "https://heavy.com/sports/nfl/miami-dolphins/injury-update-regular-season-rookie/",
+        "https://heavy.com/sports/nfl/miami-dolphins/zach-sieler-injury-update-week-1/",
+        "https://www.axios.com/local/miami/2026/03/09/dolphins-tagovailoa-malik-willis-new-quarterback",
+        "https://www.cbssports.com/nfl/news/dolphins-hire-jeff-hafley-head-coach-replace-mike-mcdaniel/",
+        "https://www.espn.com/nfl/story/_/id/47550188/sources-dolphins-fire-coach-mike-mcdaniel-7-10-season",
+        "https://www.espn.com/nfl/story/_/id/47948025/miami-dolphins-cut-tyreek-hill-answering-biggest-questions-injury-whats-next",
+        "https://www.foxnews.com/outkick-sports/miami-dolphins-enter-full-rebuild-malik-willis-quarterback-jeff-hafley-head-coach",
+        "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.pff.com/news/nfl-miami-dolphins-2026-preview",
+        "https://www.thephinsider.com/miami-dolphins-depth-chart/121506/miami-dolphins-depth-chart-2026-preseason-release-week-1-malik-willis-caleb-douglas-devon-achane",
+        "https://www.washingtontimes.com/news/2026/sep/2/miami-dolphins-enter-new-era-hafley-sullivan-roster-full-new-faces/"
+      ]
+    },
+    "LV": {
+      "players": [
+        {
+          "player": "Carter Runyon",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR, designated to return (likely to practice squad)",
+          "source": "https://www.reviewjournal.com/sports/raiders/raiders-announce-initial-53-man-roster-ahead-of-2026-season-3872267/",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Keyron Crawford",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/injured with no return designation; out for season",
+          "source": "https://www.yardbarker.com/nfl/articles/las_vegas_raiders_initial_53_man_roster_helped_reveal_devastating_news_for_one_rookie_as_the_2026_season_nears_its_start/s1_17313_44239902",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Low-ankle sprain in training camp; returned to practice Sept 1; Kubiak optimistic he plays Week 1; not placed on IR",
+          "source": "https://bleacherreport.com/articles/25495665-ashton-jeantys-injury-status-revealed-raiders-hc-ahead-week-1-vs-dolphins",
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
+        },
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Played through a left PCL injury/bone bruise in 2025 and finished the year on IR; reported fully healthy for 2026 opener",
+          "source": "https://www.draftsharks.com/fantasy/points-outlook/brock-bowers/35006",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Maxx Crosby trade to Baltimore for two first-round picks was agreed then controversially nixed by the Ravens; Crosby remains a Raider and trade rumors have quieted.",
+        "Kubiak said he would be comfortable with any of Cousins, Mendoza or O'Connell starting; Mendoza is the QB of the future and could take over in-season.",
+        "Jeanty's availability is the biggest Week 1 question; he practiced Sept 1 for the first time since the ankle injury.",
+        "Official NFL.com Week 1 injury report showed no Raiders entries as of Sept 4 (practice reports not yet filed).",
+        "Home opener at Allegiant Stadium, Sept 13."
+      ],
+      "sources": [
+        "https://bleacherreport.com/articles/25495665-ashton-jeantys-injury-status-revealed-raiders-hc-ahead-week-1-vs-dolphins",
+        "https://en.wikipedia.org/wiki/2026_Las_Vegas_Raiders_season",
+        "https://mynews4.com/news/local/pete-carroll-fired-las-vegas-raiders-head-coach-future-2026-nfl-sports-mark-davis-jon-spytek-tom-brady-sports-football",
+        "https://sports.yahoo.com/articles/latest-ashton-jeanty-injury-gives-194754603.html",
+        "https://www.cbssports.com/nfl/news/klint-kubiak-names-kirk-cousins-starter-over-no-1-pick-fernando-mendoza/",
+        "https://www.draftsharks.com/fantasy/points-outlook/brock-bowers/35006",
+        "https://www.nfl.com/injuries/league/2026/reg1",
+        "https://www.nfl.com/news/raiders-name-kirk-cousins-starting-fernando-mendoza-officially-backup",
+        "https://www.pff.com/news/nfl-las-vegas-raiders-2026-preview",
+        "https://www.profootballnetwork.com/geno-smith-jets-trade-march-2026/",
+        "https://www.profootballrumors.com/2026/08/offseason-in-review-las-vegas-raiders-5",
+        "https://www.raiders.com/news/raiders-2026-position-breakdown-quarterbacks-kirk-cousins-fernando-mendoza-aidan-oconnell-jacob-clark",
+        "https://www.reviewjournal.com/sports/raiders/raiders-announce-initial-53-man-roster-ahead-of-2026-season-3872267/",
+        "https://www.thebiglead.com/ashton-jeanty-injury-update-raiders-practice-optimism-week-1/",
+        "https://www.yardbarker.com/nfl/articles/las_vegas_raiders_initial_53_man_roster_helped_reveal_devastating_news_for_one_rookie_as_the_2026_season_nears_its_start/s1_17313_44239902"
+      ]
+    },
+    "GB": {
+      "players": [
+        {
+          "player": "Collin Oliver",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return, out at least 4 games",
+          "source": "https://sports.yahoo.com/articles/packers-place-wr-savion-williams-224203180.html",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Savion Williams",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "High ankle sprain; IR designated for return, out at least 4 games",
+          "source": "https://sports.yahoo.com/articles/packers-place-wr-savion-williams-224203180.html",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Trey Dean III",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (per nflverse roster status R01); listed SS2 on depth chart",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jordon Riley",
+          "position": "DL",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP to open season",
+          "source": "https://sports.yahoo.com/articles/green-bay-packers-set-initial-223843407.html",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Luke Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP, misses at least first 4 games",
+          "source": "https://sports.yahoo.com/articles/green-bay-packers-set-initial-223843407.html",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Micah Parsons",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": true,
+          "star": true,
+          "injury": "Torn ACL/meniscus (2025); Reserve/PUP, out at least first 4 games, targeting Week 6 vs DAL; had back sprain in camp",
+          "source": "https://sports.yahoo.com/articles/packers-micah-parsons-moved-pup-211014529.html",
+          "roster_status": "RES/R04",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Josh Jacobs",
+          "position": "RB",
+          "status": "Out",
+          "starter": true,
+          "star": true,
+          "injury": "Commissioner's Exempt List after being charged with two misdemeanors (battery, criminal damage to property) from May incident; cannot practice or play",
+          "source": "https://www.espn.com/nfl/story/_/id/49774523/packers-rb-josh-jacobs-placed-commission-exempt-list",
+          "roster_status": "EXE/E02",
+          "slot": "RB1"
+        },
+        {
+          "player": "Aaron Banks",
+          "position": "LG",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Knee (2025); not a full participant in camp/preseason; LaFleur said he could miss the opener",
+          "source": "https://www.yardbarker.com/nfl/articles/packers_week_1_preparation_takes_another_hit_as_2_offensive_line_starters_face_uncertain_status_against_vikings/s1_17313_44253542",
+          "roster_status": "ACT/A01",
+          "slot": "LG"
+        },
+        {
+          "player": "Zach Bako-Bewele",
+          "position": "RT",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Knee (2025); not a full participant in camp/preseason; LaFleur said he could miss the opener",
+          "source": "https://www.yardbarker.com/nfl/articles/packers_week_1_preparation_takes_another_hit_as_2_offensive_line_starters_face_uncertain_status_against_vikings/s1_17313_44253542",
+          "roster_status": "ACT/A01",
+          "slot": "OL"
+        },
+        {
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Torn ACL in Week 9 of 2025; reported ahead of Parsons' schedule and listed TE1 on depth chart",
+          "source": "https://www.si.com/nfl/vikings/onsi/how-many-stars-will-packers-be-missing-week-1-against-vikings",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Week 1 backfield is Kaleb Johnson (trade from PIT) and MarShawn Lloyd (depth-chart RB1) with Jacobs on exempt list.",
+        "Pass rush without Parsons: depth chart shows Lukas Van Ness, Barryn Sorrell at OLB spots; defense installs a new scheme under Gannon.",
+        "Both OL starters (Banks, Bako-Bewele) uncertain; Jordan Morgan LT, Sean Rhyan C, Jacob Monk RG per depth chart.",
+        "Search summary of NFL.com Week 1 injury page showed no formal injury designations yet for GB or MIN as of Sept 4 (official report not yet issued).",
+        "Fourth straight season without an NFC North title; road divisional opener at U.S. Bank Stadium (dome)."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Green_Bay_Packers_season",
+        "https://sports.yahoo.com/articles/green-bay-packers-set-initial-223843407.html",
+        "https://sports.yahoo.com/articles/packers-micah-parsons-moved-pup-211014529.html",
+        "https://sports.yahoo.com/articles/vikings-packers-week-1-game-233048804.html",
+        "https://www.cbssports.com/nfl/news/micah-parsons-makes-packers-practice-debut-week-1-status-uncertain-due-to-back-sprain-per-report",
+        "https://www.espn.com/nfl/story/_/id/48089099/green-bay-packers-2026-free-agency-tracker-offseason-moves-signings-contract",
+        "https://www.espn.com/nfl/story/_/id/49774523/packers-rb-josh-jacobs-placed-commission-exempt-list",
+        "https://www.packers.com/news/incoming-free-agents-fit-packers-vision-for-2026-and-beyond-april-8",
+        "https://www.sharpfootballanalysis.com/analysis/green-bay-packers-draft-class/",
+        "https://www.yardbarker.com/nfl/articles/kaleb_johnson_trade_becomes_more_significant_for_packers_after_josh_jacobs_placed_on_commissioners_exempt_list/s1_13132_44238605",
+        "https://www.yardbarker.com/nfl/articles/packers_week_1_preparation_takes_another_hit_as_2_offensive_line_starters_face_uncertain_status_against_vikings/s1_17313_44253542"
+      ]
+    },
+    "MIN": {
+      "players": [
+        {
+          "player": "Jamal Adams",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse status R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Marcus Allen",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Waived/injured Aug 30, reverted to IR",
+          "source": "https://www.startribune.com/minnesota-vikings-53-man-roster-cuts-practice-squad-waivers-jj-mccarthy-kyler-murray-2026-nfl-season/601883823",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Michael Jurgens",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Tyreek Chappell",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01); listed NB2 on depth chart",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Caleb Tiernan",
+          "position": "OT",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Ankle, missed several weeks of camp; expected healthy by Week 1 but is a rookie backup",
+          "source": "https://vikingsterritory.com/2026/news/top_news/pair-injured-vikings-w1-gb",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Theo Jackson",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Described as a medium-level injury; working to return for Week 1 and likely to start opposite Josh Metellus",
+          "source": "https://vikingsterritory.com/2026/news/top_news/pair-injured-vikings-w1-gb",
+          "roster_status": "ACT/A01",
+          "slot": "S"
+        }
+      ],
+      "notes": [
+        "New GM Nolan Teasley (from Seattle) shed expensive veterans; roster is one of the youngest in franchise history.",
+        "Coaching staff intact: Kevin O'Connell HC, Wes Phillips OC, Brian Flores DC (stayed for at least one more year), Frank Smith assistant HC.",
+        "Aaron Jones restructured ($5.6M) and remains RB1; Byron Murphy Jr. restructured and remains (nickel per depth chart).",
+        "Christian Darrisaw (foot) and Donovan Jackson (ankle) left the Week 18 loss to GB early in Jan 2026; both are listed as starters on the Sept 4 depth chart and no 2026 Week 1 concern was found.",
+        "Home opener at U.S. Bank Stadium; GB is missing Parsons and Jacobs, so this is viewed as a must-win for MIN in a division race.",
+        "NFL.com Week 1 injury page showed no formal designations yet as of Sept 4."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/parsons-jacobs-sidelined-vikings-must-221736470.html",
+        "https://vikingsterritory.com/2026/news/top_news/pair-injured-vikings-w1-gb",
+        "https://www.cbsnews.com/minnesota/news/minnesota-vikings-name-starting-qb-2026-season-kyler-murray-jj-mccarthy/",
+        "https://www.dailynorseman.com/minnesota-vikings-draft/94222/nfl-draft-order-2026-updated-1st-round-picks-week-18",
+        "https://www.kare11.com/article/sports/nfl/vikings/2026-vikings-free-agency-tracker-key-acquisitions-departures/89-3b9fba5f-1106-462e-b442-affc3c8c857d",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-announce-full-2026-coaching-staff",
+        "https://www.nfl.com/news/vikings-sign-kyler-murray-one-year-deal-release-cardinals",
+        "https://www.startribune.com/minnesota-vikings-53-man-roster-cuts-practice-squad-waivers-jj-mccarthy-kyler-murray-2026-nfl-season/601883823",
+        "https://www.startribune.com/minnesota-vikings-53-man-roster-nolan-teasley-salary-cap-spending-harrison-smith-nfl-draft-2026/601882362",
+        "https://www.startribune.com/minnesota-vikings-kyler-murray-jj-mccarthy-quarterback-competition-kevin-oconnell-nfl-training-camp/601875045",
+        "https://www.vikings.com/news/2026-draft-picks-selections-nfl-minnesota",
+        "https://www.vikings.com/news/nolan-teasley-general-manager-hired-anounced-nfl-2026"
+      ]
+    },
+    "WAS": {
+      "players": [
+        {
+          "player": "Dorance Armstrong",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve list (nflverse status R40); listed SLB2 on depth chart",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R40"
+        },
+        {
+          "player": "Jer'Zhan (Johnny) Newton",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Torn pectoral, surgery in August; IR to start season, out a big chunk of the year",
+          "source": "https://www.washingtontimes.com/news/2026/aug/19/washington-commanders-injury-concerns-grow-jerzhan-newton-sees/",
+          "roster_status": "not-on-2026-roster-file",
+          "slot": "DT"
+        },
+        {
+          "player": "Jeremy McNichols",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return",
+          "source": "https://www.si.com/nfl/commanders/onsi/commanders-trey-amos-jeremy-mcnichols-injured-reserve-designated-to-return",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Laremy Tunsil",
+          "position": "LT",
+          "status": "IR",
+          "starter": true,
+          "star": true,
+          "injury": "Torn right triceps (surgery); IR, out at least 4 games and 'significant time, if not the season' per Schefter",
+          "source": "https://www.phillyvoice.com/eagles-week-1-opponent-suffers-major-injury-loss-laremy-tunsil-commanders/",
+          "roster_status": "RES/R01",
+          "slot": "LT"
+        },
+        {
+          "player": "Trey Amos",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Ankle injury after return from 2025 fractured fibula; IR designated for return, out at least 4 games",
+          "source": "https://www.hogshaven.com/washington-commanders-roster/436247/washington-commanders-designate-larmey-tunsil-johnny-newton-trey-amos-return-injured-reserve-jeremy-mcnichols",
+          "roster_status": "RES/R48",
+          "slot": "CB2"
+        },
+        {
+          "player": "Deatrich Wise",
+          "position": "DL",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP (nflverse R04)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Nick Allegretti",
+          "position": "C",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Calf injury on first day of camp, had not practiced since; learning new position (center)",
+          "source": "https://sports.yahoo.com/articles/commanders-injury-updates-key-starters-085107803.html",
+          "roster_status": "ACT/A01",
+          "slot": "C"
+        },
+        {
+          "player": "Daron Payne",
+          "position": "DT",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Returned to practice after camp injury",
+          "source": "https://sports.yahoo.com/articles/commanders-injury-updates-key-starters-085107803.html",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Returned to practice after camp injury; RB1 per depth chart",
+          "source": "https://sports.yahoo.com/articles/commanders-injury-updates-key-starters-085107803.html",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "K'Lavon Chaisson",
+          "position": "EDGE",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Returned to practice after camp injury",
+          "source": "https://sports.yahoo.com/articles/commanders-injury-updates-key-starters-085107803.html",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Offensive line reshuffled: Tunsil out, Brandon Coleman at LT, Allegretti moving to center (injured), Josh Conerly Jr. RT per depth chart.",
+        "Cornerback depth thin: at one point only 3 CBs on the roster after cutting Fabian Moreau; Amos on IR.",
+        "Dan Quinn and Adam Peters have a .500 regular-season record over two seasons; pressure after 5-12 collapse and both coordinators replaced.",
+        "New 3-4 defense under Daronte Jones; PhillyVoice framed WAS as 'missing several important players' for Week 1 at PHI."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025_Washington_Commanders_season",
+        "https://sports.yahoo.com/articles/commanders-injury-updates-key-starters-085107803.html",
+        "https://www.cbssports.com/nfl/news/commanders-fire-coordinators-kliff-kingsbury-joe-whitt-jr/",
+        "https://www.espn.com/nfl/story/_/id/48092511/commanders-2026-free-agency-tracker-offseason-moves-signings-contract",
+        "https://www.espn.com/nfl/story/_/id/48631833/washington-commanders-revamp-defense-2026-nfl-draft-sonny-styles",
+        "https://www.hogshaven.com/washington-commanders-analysis/424354/best-decisions-gm-adam-peters-2026-nfl-offseason-bobby-wagner-daronte-jones-laremy-tunsil",
+        "https://www.hogshaven.com/washington-commanders-roster/436247/washington-commanders-designate-larmey-tunsil-johnny-newton-trey-amos-return-injured-reserve-jeremy-mcnichols",
+        "https://www.phillyvoice.com/eagles-week-1-opponent-commanders-will-be-missing-several-important-players-and-waived-players-who-make-sense/",
+        "https://www.phillyvoice.com/eagles-week-1-opponent-suffers-major-injury-loss-laremy-tunsil-commanders/",
+        "https://www.si.com/nfl/commanders/onsi/commanders-53-man-roster-cuts-cornerbacks-shy-tuttle-return",
+        "https://www.washingtontimes.com/news/2026/aug/19/washington-commanders-injury-concerns-grow-jerzhan-newton-sees/"
+      ]
+    },
+    "PHI": {
+      "players": [
+        {
+          "player": "Andre' Sam",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01); listed FS2",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Grant Calcaterra",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Jakorian Bennett",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Johnny Wilson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Tucker Large",
+          "position": "DB",
+          "status": "NFI",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/NFI (nflverse R05)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R05"
+        },
+        {
+          "player": "Jonathan Greenard",
+          "position": "EDGE",
+          "status": "Doubtful",
+          "starter": true,
+          "star": false,
+          "injury": "Pectoral injury lifting weights before camp; on active/PUP, Fangio said 'another couple of weeks' in late Aug; Garafolo: might not be ready for Week 1",
+          "source": "https://www.nfl.com/videos/garafolo-jonathan-greenard-pectoral-might-not-be-ready-for-eagles-week-1-game-vs-commanders-the-insiders",
+          "roster_status": "ACT/A01",
+          "slot": "EDGE"
+        }
+      ],
+      "notes": [
+        "Vic Fangio put off retirement and returns as DC; new offense under first-time OC Sean Mannion.",
+        "Greenard's availability is the main Week 1 question; Nolan Smith Jr. is the other starting OLB per depth chart.",
+        "A.J. Brown's status was a 2026 free-agency talking point (ESPN headline); depth chart lists DeVonta Smith as WR1 in the 3WR set - Brown's roster status not confirmed by search results.",
+        "Home opener at Lincoln Financial Field vs a division rival missing its LT (Tunsil) and DT (Newton)."
+      ],
+      "sources": [
+        "https://atozsports.com/nfl/philadelphia-eagles-news/eagles-2026-free-agency-tracker-biggest-signings-departures-major-moves/",
+        "https://en.wikipedia.org/wiki/2025_Philadelphia_Eagles_season",
+        "https://sports.yahoo.com/articles/eagles-backup-quarterback-philadelphias-2026-084001082.html",
+        "https://www.espn.com/nfl/story/_/id/48103716/2026-nfl-free-agency-questions-kyler-murray-malik-willis-aj-brown-seahawks-vikings-rbs",
+        "https://www.espn.com/nfl/story/_/id/49582563/eagles-olb-greenard-another-couple-weeks-pec-injury",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/coaching-staff-2026-nick-sirianni-jerrod-johnson-promotions-new-hires/720309/",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/jonathan-greenard-injury-vic-fangio-start-of-season/747343/",
+        "https://www.nfl.com/videos/garafolo-jonathan-greenard-pectoral-might-not-be-ready-for-eagles-week-1-game-vs-commanders-the-insiders",
+        "https://www.philadelphiaeagles.com/news/eagles-sean-mannion-offensive-coordinator-hire",
+        "https://www.phillyvoice.com/eagles-2026-free-agency-tracker-signings-retirements-departing-players-gains-losses-howie-roseman/"
+      ]
+    },
+    "DAL": {
+      "players": [
+        {
+          "player": "Devin Moore",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Rookie (Rd 4); IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Kelvin Gilliam",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Marist Liufau",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Matt Hennessy",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Princeton Fant",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        }
+      ],
+      "notes": [
+        "Two first-round picks (Micah Parsons trade capital) went to defense: Caleb Downs and Malachi Lawrence.",
+        "Defensive front per depth chart: Quinnen Williams and Kenny Clark (both acquired via 2025 trades) with Rashan Gary and Donovan Ezeiruaku on the edges.",
+        "Reports framed the Week 1 matchup as giving Dallas a 'massive injury advantage' over the Giants; a Yahoo report on stars' availability exists but its details could not be retrieved.",
+        "NFL.com Week 1 injury page showed no formal designations for DAL as of Sept 4.",
+        "Coordinators for 2026 were not confirmed by search results; Brian Schottenheimer enters year 2 as HC.",
+        "Sunday Night Football road game at MetLife Stadium vs Giants under new HC John Harbaugh."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/cowboys-injury-news-stars-availability-194919307.html",
+        "https://thelandryhat.com/dallas-cowboys-week-1-clash-vs-giants-quietly-handed-dallas-massive-injury-advantage",
+        "https://www.nfl.com/games/cowboys-at-giants-2026-reg-1",
+        "https://www.phillyvoice.com/eagles-2026-free-agency-tracker-signings-retirements-departing-players-gains-losses-howie-roseman/",
+        "nflverse roster_2026.csv / depth_charts_2026.csv / draft_picks.csv / games.csv"
+      ]
+    },
+    "NYG": {
+      "players": [
+        {
+          "player": "Calvin Austin III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Gunner Olszewski",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jarrick Bernard-Converse",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Korie Black",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Roy Robertson-Harris",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Malik Nabers",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "Torn ACL early in 2025; not on PUP, took part in 9 of 10 open camp practices, cutting and landing on the knee; ESPN says trending toward playing but not certain",
+          "source": "https://sports.yahoo.com/articles/cowboys-injury-news-stars-availability-194919307.html",
+          "roster_status": "ACT/A01",
+          "slot": "WR1"
+        }
+      ],
+      "notes": [
+        "First season under John Harbaugh, with several ex-Ravens (Likely, Ricard) imported; two top-10 picks starting on Day 1.",
+        "Malik Nabers' return from ACL is the key skill-position storyline; Cam Skattebo listed RB1.",
+        "Both punt returners on the roster (Austin, Olszewski) are on IR.",
+        "Hosting SNF Week 1 vs Dallas; 4-13 in 2025 means a big talent/coaching reset.",
+        "NFL.com Week 1 injury page showed no formal designations for NYG as of Sept 4."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/cowboys-injury-news-stars-availability-194919307.html",
+        "https://www.bigblueview.com/new-york-giants-game-information/169969/ny-giants-vs-cowboys-nfl-week-1-news-injuries-analysis-and-more",
+        "https://www.giants.com/news/dallas-cowboys-week-1-sunday-night-football-nbc-2026-season-john-harbaugh-jaxson-dart-schedule-release",
+        "https://www.giants.com/news/latest-news-notes-roster-moves-john-harbaugh-malik-nabers-jaxson-dart-odell-beckham-jr-dallas-cowboys-season-opener",
+        "https://www.yardbarker.com/nfl/articles/nfc_notes_terry_mclaurin_cam_skattebo_commanders_eagles_giants/s1_17039_44234897",
+        "nflverse roster_2026.csv / depth_charts_2026.csv / draft_picks.csv / games.csv"
+      ]
+    },
+    "DEN": {
+      "players": [
+        {
+          "player": "Caleb Lohner",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Drew Sanders",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "IR designated for return (nflverse R48)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Levelle Bailey",
+          "position": "ILB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01); listed ILB2",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Matt Henningsen",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Michael Deiter",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Nick Gargiulo",
+          "position": "OL",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP (nflverse R04); listed LG2",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Jonathon Cooper",
+          "position": "OLB",
+          "status": "Out",
+          "starter": true,
+          "star": false,
+          "injury": "Placed on NFL Commissioner's Exempt List; will miss Week 1",
+          "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-broncos-week-1-jonathon-cooper-nfl-commissioner-exempt-list/",
+          "roster_status": "EXE/E02",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Bo Nix",
+          "position": "QB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Fractured ankle in 2025 playoffs; expected full for camp, listed QB1",
+          "source": "https://www.cbssports.com/nfl/news/2026-monday-night-football-schedule/",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Coming off a 14-3 season and an AFC Championship loss; reigning division champ opening on the road on MNF at Arrowhead.",
+        "Starting pass rusher Jonathon Cooper unavailable (exempt list); Nik Bonitto and Dondrea Tillman listed as OLB starters.",
+        "Offense breaks in a first-time play-caller (Davis Webb) with a QB coming back from a fractured ankle.",
+        "Pat Surtain II, Zach Allen, Riley Moss listed as healthy starters on depth chart."
+      ],
+      "sources": [
+        "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-broncos-week-1-jonathon-cooper-nfl-commissioner-exempt-list/",
+        "https://bleacherreport.com/articles/25426980-mahomes-chiefs-vs-nixs-broncos-revealed-1st-monday-night-football-game-2026-nfl-schedule",
+        "https://www.cbssports.com/nfl/news/2026-monday-night-football-schedule/",
+        "https://www.cbssports.com/nfl/news/nfl-coaching-grades-2026-offensive-defensive-coordinator-hires/",
+        "https://www.foxsports.com/stories/nfl/2026-nfl-preview-10-new-coordinators-who-could-shape-upcoming-season",
+        "nflverse roster_2026.csv / depth_charts_2026.csv / draft_picks.csv / games.csv"
+      ]
+    },
+    "KC": {
+      "players": [
+        {
+          "player": "C.J. Hanson",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Chris Oladokun",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "EJ Smith",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Ethan Downs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jimmy Holiday",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Matt Waletzko",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Injured reserve (nflverse R01)",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R01"
+        },
+        {
+          "player": "Omarr Norman-Lott",
+          "position": "DT",
+          "status": "PUP",
+          "starter": false,
+          "star": false,
+          "injury": "Reserve/PUP (nflverse R04); listed DT2",
+          "source": "nflverse roster_2026.csv",
+          "roster_status": "RES/R04"
+        },
+        {
+          "player": "Josh Simmons",
+          "position": "LT",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Health for Week 1 in question per KC reporting; listed LT1",
+          "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-r-mason-thomas-hamstring-latest-addition-injury-list-ahead-week-1-broncos/",
+          "roster_status": "ACT/A01",
+          "slot": "LT"
+        },
+        {
+          "player": "R Mason Thomas",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "Hamstring; latest addition to KC injury list before Week 1",
+          "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-r-mason-thomas-hamstring-latest-addition-injury-list-ahead-week-1-broncos/",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "star": false,
+          "injury": "Torn ACL (Dec 2025); ahead of schedule, listed QB1",
+          "source": "https://www.cbssports.com/nfl/news/2026-monday-night-football-schedule/",
+          "roster_status": "ACT/A01"
+        }
+      ],
+      "notes": [
+        "Mahomes' ACL comeback and the offensive line (Josh Simmons' health at LT; Jaylon Moore vs UDFA Kahlil Benson at RT) are the main Week 1 questions.",
+        "Travis Kelce listed TE1 on the Sept 4 depth chart (playing in 2026); Rashee Rice WR1.",
+        "6-11 in 2025 - first losing season of the Mahomes era; Bieniemy returns as OC to reset the offense.",
+        "Home MNF opener vs the 14-3 division champion Broncos."
+      ],
+      "sources": [
+        "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-r-mason-thomas-hamstring-latest-addition-injury-list-ahead-week-1-broncos/",
+        "https://bleacherreport.com/articles/25426980-mahomes-chiefs-vs-nixs-broncos-revealed-1st-monday-night-football-game-2026-nfl-schedule",
+        "https://www.cbssports.com/nfl/news/2026-monday-night-football-schedule/",
+        "https://www.foxsports.com/stories/nfl/2026-nfl-preview-10-new-coordinators-who-could-shape-upcoming-season",
+        "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+        "nflverse roster_2026.csv / depth_charts_2026.csv / games.csv"
+      ]
+    }
+  }
+}

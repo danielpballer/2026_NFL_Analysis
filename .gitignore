@@ -1,0 +1,7 @@
+# Raw downloads are re-fetched by `python -m nflsim.fetch_data`
+data/raw/*.csv.gz
+data/raw/depth_charts_*.csv
+data/raw/play_by_play_*.csv
+__pycache__/
+*.pyc
+.pytest_cache/

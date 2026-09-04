@@ -1,0 +1,231 @@
+{
+  "collected_on": "2026-09-04",
+  "method_note": "Collected via WebSearch only (direct weather-site fetches blocked). Values 5-10 days out come from search-snippet summaries of extended/long-range model forecasts (world-weather.info, AccuWeather monthly, timeanddate, local TV outlooks) blended with climatology; treat anything beyond ~7 days as low-to-medium confidence. temp_f is a best estimate for kickoff time, not the daily high.",
+  "tropical_outlook": "Quiet season: 2026 Atlantic has produced only five named storms and zero hurricanes as of Sept 4 (most tranquil since 1941; strong El Nino, dry air and shear suppressing development; NOAA holds a below-normal outlook). Tropical Storm Edouard (5th named storm) made landfall in SW Louisiana near Johnson Bayou on Tue Sept 1 and its remnants dumped 12+ inches on East Texas with major flooding; Houston had a Flood Watch Wed Sept 2-3 and lingering tropical moisture/scattered storms through the Labor Day weekend. As of the latest NHC outlook, no tropical cyclone formation is expected in the Atlantic basin during the next 7 days, though Houston outlets mention a weak area of disturbed weather in the Gulf that may keep rain chances elevated in SE Texas. No system currently threatens Jacksonville, Houston, Charlotte, Tampa or the mid-Atlantic for the Sept 13-14 weekend; residual Gulf moisture is the only tropical-related factor and it mainly affects Houston (roof will be closed anyway) and adds to Jacksonville's normal afternoon-storm risk. Re-check NHC on Sept 10-11.",
+  "games": {
+    "2026_01_NE_SEA": {
+      "venue": "Lumen Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 68,
+      "wind_mph": 8,
+      "precip_chance_pct": 10,
+      "conditions": "mostly sunny, mild evening",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Wed Sept 9, 5:20pm PT kickoff. Extended forecasts show Wednesday as the warmest day of the stretch (highs 72-77F, dry, light wind); kickoff temp likely upper 60s cooling to low 60s by the 4th quarter. NWS Seattle AFD notes an upper trough over the PNW Fri-Sun Sept 4-6 with showers, then ~55% of ensembles building ridging early next week with model divergence, so a small chance the dry/warm signal erodes. Climatology for Sept 9: high ~72, low ~55, ~20% rain chance, wind 6-8 mph.",
+      "sources": [
+        "https://forecast.weather.gov/MapClick.php?lat=47.59935214019424&lon=-122.3319160938263",
+        "https://forecast.weather.gov/product.php?site=sew&issuedby=sew&product=AFD&format=CI&version=1&glossary=1",
+        "https://world-weather.info/forecast/usa/seattle/september-2026/",
+        "https://www.accuweather.com/en/us/seattle/98104/september-weather/351409"
+      ]
+    },
+    "2026_01_SF_LA": {
+      "venue": "Melbourne Cricket Ground",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 57,
+      "wind_mph": 10,
+      "precip_chance_pct": 20,
+      "conditions": "mostly sunny, cool early-spring morning",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Fri Sept 11, 10:35am AEST kickoff (Thu Sept 10, 5:35pm PT). MCG is confirmed open-air (Ticketmaster: 'the MCG has an open roof and is considered an outdoor event... weather protection isn't guaranteed'). Extended forecast: cool/showery early in the week, clearing from Wed Sept 9 with winds dropping; Thu 10th high ~16C (61F), Fri 11th high ~19C (66F) and clear, warming further into the weekend. A late-morning kickoff means game temps roughly 12-17C (54-63F). Melbourne September climatology: avg high 17C/63F, low 8-9C/48F, ~10 rain days/month (~29% daily chance), avg wind ~8 mph; spring is the most changeable season so a fast-moving front can still bring a shower.",
+      "sources": [
+        "https://help.ticketmaster.com.au/hc/en-au/articles/44950945995025-2026-NFL-Melbourne-Game",
+        "https://www.mcg.org.au/events/2026/september/los-angeles-rams-v-san-francisco-49ers",
+        "https://www.timeanddate.com/weather/australia/melbourne/ext",
+        "https://weatherspark.com/m/144227/9/Average-Weather-in-September-in-Melbourne-Victoria-Australia",
+        "https://www.therams.com/news/rams-san-francisco-49ers-game-friday-september-11-melbourne-australia"
+      ]
+    },
+    "2026_01_CHI_CAR": {
+      "venue": "Bank of America Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 79,
+      "wind_mph": 6,
+      "precip_chance_pct": 10,
+      "conditions": "clear/sunny, warm",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 1pm ET. Long-range forecast: clear, high 82F / low 62F. Charlotte just came off a near-record early-September heat wave (mid-upper 90s) that a cold front ends Sept 5-6, with 'back in the 80s but still above average' through the following week. Mid-September climatology: high ~82, low ~62, ~25% daily rain chance, wind 5-7 mph. Low weather impact expected.",
+      "sources": [
+        "https://www.timeanddate.com/weather/usa/charlotte/ext",
+        "https://www.wbtv.com/2026/09/01/september-heat-wave-grip-carolinas-this-week/",
+        "https://www.wbtv.com/2026/09/01/near-record-heat-expected-charlotte-region-first-alert-forecast-here/",
+        "https://forecast.weather.gov/MapClick.php?lat=35.2271&lon=-80.8431"
+      ]
+    },
+    "2026_01_TB_CIN": {
+      "venue": "Paycor Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 84,
+      "wind_mph": 6,
+      "precip_chance_pct": 10,
+      "conditions": "mostly sunny, warm, light SE breeze",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 1pm ET. Long-range forecast: mostly sunny, high near 88F, overnight low mid-60s, light SE wind 4-7 mph, no precipitation expected; local outlook headlined 'sunny skies and warm temperatures Sept 8-14'. That runs a few degrees above mid-September climatology (high ~82, low ~58, 23% daily rain chance, avg wind ~9.6 mph), so kickoff estimate blended to ~84F.",
+      "sources": [
+        "https://www.yahoo.com/news/articles/cincinnati-weather-sunny-skies-warm-111809501.html",
+        "https://world-weather.info/forecast/usa/cincinnati/september-2026/",
+        "https://weatherspark.com/m/15856/9/Average-Weather-in-September-in-Cincinnati-Ohio-United-States",
+        "https://forecast.weather.gov/MapClick.php?lat=39.1089&lon=-84.5133"
+      ]
+    },
+    "2026_01_BUF_HOU": {
+      "venue": "NRG Stadium",
+      "roof": "retractable (expected CLOSED)",
+      "forecast_available": true,
+      "temp_f": 92,
+      "wind_mph": 8,
+      "precip_chance_pct": 30,
+      "conditions": "hot and humid outside; scattered afternoon storms possible; roof almost certainly closed so effectively indoor",
+      "source_type": "forecast",
+      "confidence": "high",
+      "notes": "Sun Sept 13, 12pm CT. AccuWeather long-range: high 93F / low 75F; Space City Weather says Sunday is a toss-up between lingering tropical-moisture showers or high pressure clearing things out into the low-mid 90s, and no meaningful cold front shows up through mid-September. Texans policy is to consider opening the roof only when game-time temp is projected 50-80F with no rain threat; they have essentially never opened it for a September day game, and the outside forecast (90s, humid, storm chance) makes a closed roof a near-certainty. Treat as dome conditions (no wind/heat effect on play). Edouard remnants caused flooding in E Texas Sept 1-3 but should be long gone by game day.",
+      "sources": [
+        "https://www.accuweather.com/en/us/houston/77002/september-weather/351197",
+        "https://spacecityweather.com/",
+        "https://www.houstonpress.com/news/will-the-texans-ever-again-open-the-roof-6739613/",
+        "https://www.click2houston.com/weather/2025/09/12/will-mondays-weather-lead-to-an-open-roof-at-texans-home-opener/",
+        "https://stadiumroofstatus.com/stadiuminfo.php?stadium=3",
+        "https://www.houstonpublicmedia.org/articles/news/weather/2026/09/03/561057/texas-flooding-storm-tropical-storm-edouard-power-polk-county/"
+      ]
+    },
+    "2026_01_BAL_IND": {
+      "venue": "Lucas Oil Stadium",
+      "roof": "retractable (status uncertain; lean CLOSED if heat persists)",
+      "forecast_available": true,
+      "temp_f": 88,
+      "wind_mph": 8,
+      "precip_chance_pct": 15,
+      "conditions": "hot, mostly sunny; showers possible by evening",
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Sun Sept 13, 1pm ET. One long-range model (world-weather.info) shows Sept 13 as the hottest day of its 16-day window at 97F with NW wind and showers arriving that evening, then rain Monday morning; that is extreme vs climatology (high ~80, low ~58) and should be discounted. Local outlets (WISH-TV, Sept 3) describe a heat wave ending with a Sept 5-6 front, mid-80s for Labor Day, then heat rebuilding to ~90 by mid-next-week. Best estimate: upper 80s to ~90 at kickoff, low rain risk during the game, front approaching afterward. Roof: Colts keep it closed below 40F and can only close mid-game for rain; they opened it for the 2024 opener in pleasant weather but have kept it closed for heat/'operational issues' before. Roof status is announced game-day on @ColtsLife; with upper-80s/90 temps a closed roof is somewhat more likely than open. If open, wind impact minimal (~8 mph).",
+      "sources": [
+        "https://world-weather.info/forecast/usa/indianapolis/september-2026/",
+        "https://www.wishtv.com/weather/one-more-stretch-of-dangerous-heat-before-storms-bring-a-weekend-cooldown-sep-3-2026/",
+        "https://www.accuweather.com/en/us/indianapolis/46204/september-weather/348323",
+        "https://www.wthr.com/article/sports/nfl/indianapolis-colts/lucas-oil-stadium-roof-to-be-open-during-indianapolis-colts-season-opener-against-houston-texans/531-b8b80527-0759-4a5f-8bb6-aeb6c9c38f48",
+        "https://www.colts.com/game-day/stadium/",
+        "https://stadiumroofstatus.com/stadiuminfo.php?stadium=2"
+      ]
+    },
+    "2026_01_CLE_JAX": {
+      "venue": "EverBank Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 91,
+      "wind_mph": 8,
+      "precip_chance_pct": 50,
+      "conditions": "hot and humid (heat index 100+), afternoon thunderstorms likely",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 1pm ET. Long-range forecast: high ~95F with another risk of afternoon thunderstorms, winds calming that night. Action News Jax describes a very hot stretch (mid-upper 90s, heat index 100-105) with scattered afternoon/evening storms daily fed by Gulf moisture; the pattern is expected to persist. Kickoff temp near 90-92 with typical 1-4pm storm timing overlapping the game; lightning delays are a real possibility (~1-in-3 in this pattern). Sept climatology: high ~87, low ~70, ~45% daily rain chance, wind 7-9 mph (sea breeze). No tropical system threatens the area.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/jacksonville_1/september-2026/",
+        "https://www.actionnewsjax.com/news/local/first-alert-weather-very-hot-week-ahead-with-few-isolated-afternoon-storms/6AMAPWA3SFD73PHZNATFPPTLQA/",
+        "https://www.actionnewsjax.com/news/local/first-alert-weather-very-hot-weekend-ahead-with-more-storms/BOF5IL6SEZHHPCXVCU54AGDTMY/",
+        "https://www.accuweather.com/en/us/jacksonville/32202/september-weather/347935",
+        "https://forecast.weather.gov/MapClick.php?lat=30.326&lon=-81.6568"
+      ]
+    },
+    "2026_01_ATL_PIT": {
+      "venue": "Acrisure Stadium",
+      "roof": "outdoors",
+      "forecast_available": false,
+      "temp_f": 80,
+      "wind_mph": 8,
+      "precip_chance_pct": 25,
+      "conditions": "partly cloudy, warm and humid (climatology, nudged warm)",
+      "source_type": "climatology",
+      "confidence": "low",
+      "notes": "Sun Sept 13, 1pm ET. No specific point forecast for Sept 13 surfaced (NWS/local forecasts run through ~Sept 10). Mid-September climatology: high ~75F, low ~58F, avg wind 8.5 mph, ~28% daily rain chance, cloudy ~36% of the time. Local outlets say heat and humidity 'spike over the next week' after Labor Day with long-range highs up to ~90, so the estimate is nudged to ~80F at kickoff. Neighboring Cincinnati long-range is sunny/upper 80s the same day, suggesting a warm, mostly dry ridge over the Ohio Valley.",
+      "sources": [
+        "https://weatherspark.com/m/19773/9/Average-Weather-in-September-in-Pittsburgh-Pennsylvania-United-States",
+        "https://wanderlog.com/weather/58199/9/pittsburgh-weather-in-september",
+        "https://www.cbsnews.com/pittsburgh/weather/",
+        "https://www.weather25.com/north-america/usa/pennsylvania/pittsburgh?page=month&month=September",
+        "https://forecast.weather.gov/MapClick.php?lat=40.4385&lon=-79.9973"
+      ]
+    },
+    "2026_01_NYJ_TEN": {
+      "venue": "Nissan Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 89,
+      "wind_mph": 6,
+      "precip_chance_pct": 20,
+      "conditions": "morning clouds clearing, hot afternoon; rain arriving Sunday night after the game",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 12pm CT. Long-range forecast: clouds in the morning clearing by afternoon, high near 92F, then moderate rain Sunday night with lows ~71F. Local outlets note rain chances stay low then return 'next week' as fronts become more frequent. Game window (noon-3pm) should be dry but hot/humid; a front-driven rain risk is mostly post-game, but timing errors of several hours at this range mean a ~20% chance of showers reaching the 4th quarter. Sept climatology: high ~85, low ~62, ~8 rain days/month, wind 5-7 mph.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/nashville_1/september-2026/",
+        "https://www.accuweather.com/en/us/nashville/37243/september-weather/351090",
+        "https://www.weather25.com/north-america/usa/tennessee/nashville?page=month&month=September",
+        "https://forecast.weather.gov/MapClick.php?textField1=36.1627&textField2=-86.7816"
+      ]
+    },
+    "2026_01_WAS_PHI": {
+      "venue": "Lincoln Financial Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 77,
+      "wind_mph": 8,
+      "precip_chance_pct": 10,
+      "conditions": "sunny, pleasant",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 4:25pm ET. Long-range forecasts agree: partly cloudy morning then sunny, high ~77-78F, low ~64F, 0 mm precipitation. Matches mid-September climatology (high ~77, low ~60, ~25% daily rain chance, wind 7-9 mph). Late-afternoon kickoff should be mid-70s falling to upper 60s. Minimal weather impact.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/philadelphia_1/september-2026/",
+        "https://www.weather25.com/north-america/usa/pennsylvania/philadelphia?page=month&month=September",
+        "https://www.timeanddate.com/weather/usa/philadelphia/ext",
+        "https://forecast.weather.gov/MapClick.php?lat=39.94888&lon=-75.15002400000003"
+      ]
+    },
+    "2026_01_DAL_NYG": {
+      "venue": "MetLife Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 68,
+      "wind_mph": 7,
+      "precip_chance_pct": 10,
+      "conditions": "clear, comfortable evening",
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sun Sept 13, 8:20pm ET. Long-range forecast for NYC: 0 mm precipitation, high 25C/77F, low 15C/59F; mid-September climatology is high ~75, low ~61, ~25% daily rain chance, wind 7-9 mph. A night kickoff means temps in the upper 60s dropping into the low 60s, light wind, dry. Minimal weather impact. No specific East Rutherford point forecast surfaced; NYC used as proxy (same airmass).",
+      "sources": [
+        "https://world-weather.info/forecast/usa/new_york/september-2026/",
+        "https://en.climate-data.org/north-america/united-states-of-america/new-york/new-york-1091/t/september-9/",
+        "https://www.accuweather.com/en/us/east-rutherford/07073/weather-forecast/344423",
+        "https://forecast.weather.gov/MapClick.php?lat=40.81&lon=-74.08"
+      ]
+    },
+    "2026_01_DEN_KC": {
+      "venue": "Arrowhead Stadium",
+      "roof": "outdoors",
+      "forecast_available": false,
+      "temp_f": 78,
+      "wind_mph": 12,
+      "precip_chance_pct": 30,
+      "conditions": "partly cloudy, warm evening, breezy; thunderstorm chance (climatology)",
+      "source_type": "climatology",
+      "confidence": "low",
+      "notes": "Mon Sept 14, 7:15pm CT. No reliable point forecast for Sept 14 surfaced (KSHB/NWS run through ~Sept 10). Mid-September climatology: high ~83F, low ~65F, avg wind ~14 mph (windiest of the Week 1 outdoor venues), ~22% daily rain chance (~10 rain days/month, 4.5 in). KC has been in a historic heat wave since Aug 29 (hottest opening nine days of September since 1947 if it holds through Sept 9), and NWS mentioned below-normal temperatures for the following week, implying a front passes between Sept 9 and 14; that transition makes a storm chance around Sept 14 plausible, but timing is unknowable at this range. Some undated aggregator snippets about 'Monday storms / enhanced severe risk' in KC appear to be from other years and were disregarded. Wind is the main variable to re-check closer to game day.",
+      "sources": [
+        "https://weatherspark.com/m/9847/9/Average-Weather-in-September-in-Kansas-City-Missouri-United-States",
+        "https://www.weather.gov/eax/kcrecnorm-sep",
+        "https://wanderlog.com/weather/58219/9/kansas-city-weather-in-september",
+        "https://www.kshb.com/weather/forecast/7-day-forecast",
+        "https://forecast.weather.gov/MapClick.php?lat=39.099792&lon=-94.578559"
+      ]
+    }
+  }
+}

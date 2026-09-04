@@ -176,3 +176,14 @@ The blend weight is a documented parameter so it can be changed.
   climatology.
 - Preseason ratings carry wide uncertainty. Even a strong Week 1 favorite loses
   roughly one time in four.
+
+## Status (Sept 4, 2026)
+
+All ten stages are implemented and run end to end (`make inputs && make run`). Outputs are in
+`output/`, the method summary is in `README.md`. Two deviations from the plan above:
+
+- Injury research for Tampa Bay and Cincinnati is thinner than for the other 30 teams because
+  the session's web search budget ran out; both are flagged in the report.
+- The nflverse 2026 roster file's reserve and exempt status codes were used as a structured
+  cross-check on the search-derived injury list, which caught four players attributed to the
+  wrong team.

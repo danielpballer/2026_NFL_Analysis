@@ -1,0 +1,243 @@
+{
+  "season": 2026,
+  "week": 1,
+  "collected_on": "2026-09-04",
+  "teams": {
+    "ARI": {
+      "starter": "Jacoby Brissett",
+      "pbp_name": "J.Brissett",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "ATL": {
+      "starter": "Michael Penix Jr.",
+      "pbp_name": "M.Penix",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Penix expected to start but not officially named as of Sept 4; returning from ACL with no preseason snaps (value trimmed for rust). Tua Tagovailoa is the backup and would be a similar-value fallback.",
+      "value_override": -1.2,
+      "extra_sd": 1.5
+    },
+    "BAL": {
+      "starter": "Lamar Jackson",
+      "pbp_name": "L.Jackson",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "BUF": {
+      "starter": "Josh Allen",
+      "pbp_name": "J.Allen",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Josh Allen under new HC Joe Brady."
+    },
+    "CAR": {
+      "starter": "Bryce Young",
+      "pbp_name": "B.Young",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "CHI": {
+      "starter": "Caleb Williams",
+      "pbp_name": "C.Williams",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "CIN": {
+      "starter": "Joe Burrow",
+      "pbp_name": "J.Burrow",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Joe Burrow healthy after an injury-shortened 2025; Cincinnati coverage was thin in the research pass."
+    },
+    "CLE": {
+      "starter": "Deshaun Watson",
+      "pbp_name": "D.Watson",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Deshaun Watson named Week 1 starter over Shedeur Sanders on Aug 31; value based on his 2024 play (no 2025 snaps)."
+    },
+    "DAL": {
+      "starter": "Dak Prescott",
+      "pbp_name": "D.Prescott",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Sam Howell is the new backup."
+    },
+    "DEN": {
+      "starter": "Bo Nix",
+      "pbp_name": "B.Nix",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Bo Nix expected back from the playoff ankle fracture.",
+      "extra_sd": 0.5
+    },
+    "DET": {
+      "starter": "Jared Goff",
+      "pbp_name": "J.Goff",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "GB": {
+      "starter": "Jordan Love",
+      "pbp_name": "J.Love",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "HOU": {
+      "starter": "C.J. Stroud",
+      "pbp_name": "C.Stroud",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "IND": {
+      "starter": "Daniel Jones",
+      "pbp_name": "D.Jones",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Daniel Jones starting about nine months after an Achilles tear; Anthony Richardson named QB2 on Sept 3.",
+      "value_override": 0.2,
+      "extra_sd": 1.0
+    },
+    "JAX": {
+      "starter": "Trevor Lawrence",
+      "pbp_name": "T.Lawrence",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "KC": {
+      "starter": "Patrick Mahomes",
+      "pbp_name": "P.Mahomes",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Mahomes listed QB1 coming off a December 2025 ACL tear, reported ahead of schedule; value trimmed for rust and variance widened. Justin Fields is QB2.",
+      "value_override": 1.5,
+      "extra_sd": 1.5
+    },
+    "LA": {
+      "starter": "Matthew Stafford",
+      "pbp_name": "M.Stafford",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Stafford dealt with back soreness in camp but is expected to start."
+    },
+    "LAC": {
+      "starter": "Justin Herbert",
+      "pbp_name": "J.Herbert",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "LV": {
+      "starter": "Kirk Cousins",
+      "pbp_name": "K.Cousins",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Kirk Cousins (signed from ATL) named starter over No. 1 overall pick Fernando Mendoza."
+    },
+    "MIA": {
+      "starter": "Malik Willis",
+      "pbp_name": "M.Willis",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Malik Willis is a first-year full-time starter (signed from GB); tiny 2024-25 sample overridden with a below-average prior.",
+      "value_override": -1.5
+    },
+    "MIN": {
+      "starter": "Kyler Murray",
+      "pbp_name": "K.Murray",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Kyler Murray (acquired from ARI) beat out J.J. McCarthy."
+    },
+    "NE": {
+      "starter": "Drake Maye",
+      "pbp_name": "D.Maye",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Drake Maye did not play in the preseason; healthy."
+    },
+    "NO": {
+      "starter": "Tyler Shough",
+      "pbp_name": "T.Shough",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Tyler Shough year two; modest development bump.",
+      "value_override": -0.7
+    },
+    "NYG": {
+      "starter": "Jaxson Dart",
+      "pbp_name": "J.Dart",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Jaxson Dart year two under new HC John Harbaugh; modest development bump.",
+      "value_override": -0.5,
+      "extra_sd": 0.5
+    },
+    "NYJ": {
+      "starter": "Geno Smith",
+      "pbp_name": "G.Smith",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Geno Smith acquired from LV; his 2025 season in Las Vegas was poor, 2024 was solid."
+    },
+    "PHI": {
+      "starter": "Jalen Hurts",
+      "pbp_name": "J.Hurts",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "PIT": {
+      "starter": "Aaron Rodgers",
+      "pbp_name": "A.Rodgers",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Aaron Rodgers has declared 2026 his final season; reunited with Mike McCarthy."
+    },
+    "SEA": {
+      "starter": "Sam Darnold",
+      "pbp_name": "S.Darnold",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "SF": {
+      "starter": "Brock Purdy",
+      "pbp_name": "B.Purdy",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    },
+    "TB": {
+      "starter": "Baker Mayfield",
+      "pbp_name": "B.Mayfield",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Baker Mayfield; Tampa Bay coverage was thin in the research pass, so this entry is from the depth chart only."
+    },
+    "TEN": {
+      "starter": "Cam Ward",
+      "pbp_name": "C.Ward",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Cam Ward year two under new HC Robert Saleh and OC Brian Daboll; modest development bump applied to his rookie-year value.",
+      "value_override": -4.5
+    },
+    "WAS": {
+      "starter": "Jayden Daniels",
+      "pbp_name": "J.Daniels",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": ""
+    }
+  }
+}
