@@ -182,8 +182,9 @@ The blend weight is a documented parameter so it can be changed.
 All ten stages are implemented and run end to end (`make inputs && make run`). Outputs are in
 `output/`, the method summary is in `README.md`. Two deviations from the plan above:
 
-- Injury research for Tampa Bay and Cincinnati is thinner than for the other 30 teams because
-  the session's web search budget ran out; both are flagged in the report.
+- Injury research was done in two passes. The Sept 4 pass ran out of search budget with Tampa
+  Bay and Cincinnati thin; a Sept 5 follow-up pass completed those teams, filled the gaps for
+  Dallas, the Giants, Denver and Kansas City, and refreshed game-week status for the rest.
 - The nflverse 2026 roster file's reserve and exempt status codes were used as a structured
   cross-check on the search-derived injury list, which caught four players attributed to the
   wrong team.

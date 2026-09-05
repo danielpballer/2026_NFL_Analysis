@@ -15,9 +15,9 @@
       "pbp_name": "M.Penix",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Penix expected to start but not officially named as of Sept 4; returning from ACL with no preseason snaps (value trimmed for rust). Tua Tagovailoa is the backup and would be a similar-value fallback.",
+      "notes": "Stefanski still had not named a starter as of Sept 5; Penix (ACL return, no preseason snaps) is the reported favorite over Tua Tagovailoa after Tua's poor preseason. Value trimmed for rust and variance widened for the open competition.",
       "value_override": -1.2,
-      "extra_sd": 1.5
+      "extra_sd": 2.0
     },
     "BAL": {
       "starter": "Lamar Jackson",
@@ -52,14 +52,15 @@
       "pbp_name": "J.Burrow",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Joe Burrow healthy after an injury-shortened 2025; Cincinnati coverage was thin in the research pass."
+      "notes": "Joe Burrow healthy after missing nine games in 2025 (Cincinnati went 1-8 without him)."
     },
     "CLE": {
       "starter": "Deshaun Watson",
       "pbp_name": "D.Watson",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Deshaun Watson named Week 1 starter over Shedeur Sanders on Aug 31; value based on his 2024 play (no 2025 snaps)."
+      "notes": "Deshaun Watson named Week 1 starter over Shedeur Sanders on Aug 31; first start since October 2024 after two Achilles ruptures. Value from his 2024 play, variance widened.",
+      "extra_sd": 1.5
     },
     "DAL": {
       "starter": "Dak Prescott",
@@ -73,7 +74,7 @@
       "pbp_name": "B.Nix",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Bo Nix expected back from the playoff ankle fracture.",
+      "notes": "Bo Nix recovered from playoff ankle surgery; new OC Davis Webb.",
       "extra_sd": 0.5
     },
     "DET": {
@@ -118,9 +119,9 @@
       "pbp_name": "P.Mahomes",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Mahomes listed QB1 coming off a December 2025 ACL tear, reported ahead of schedule; value trimmed for rust and variance widened. Justin Fields is QB2.",
-      "value_override": 1.5,
-      "extra_sd": 1.5
+      "notes": "Mahomes was a full participant throughout camp after the December 2025 ACL/LCL tear and is on track to start; small rust trim kept. Justin Fields is QB2.",
+      "value_override": 1.8,
+      "extra_sd": 1.0
     },
     "LA": {
       "starter": "Matthew Stafford",
@@ -222,7 +223,7 @@
       "pbp_name": "B.Mayfield",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Baker Mayfield; Tampa Bay coverage was thin in the research pass, so this entry is from the depth chart only."
+      "notes": "Baker Mayfield in a new offense under OC Zac Robinson; Mike Evans left for San Francisco."
     },
     "TEN": {
       "starter": "Cam Ward",

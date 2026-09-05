@@ -1,0 +1,762 @@
+{
+  "collected_on": "2026-09-05",
+  "note": "Follow-up pass filling the gaps flagged on Sept 4 (TB, CIN, DAL, NYG, DEN, KC) and refreshing game-week status for the other teams.",
+  "teams": {
+    "TB": {
+      "record_2025": "8-9, 2nd NFC South, missed playoffs",
+      "qb": {
+        "starter": "Baker Mayfield",
+        "backup": "Jalon Daniels",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Mayfield returns; new OC Zac Robinson installing offense"
+      },
+      "injuries": [
+        {
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Toe sprain from mid-August joint practice; day-to-day, Bowles 'hopeful' but not a lock",
+          "source": "https://www.joebucsfan.com/2026/09/lingering-issues-for-emeka-egbuka-jalen-mcmillan/"
+        },
+        {
+          "player": "Jalen McMillan",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Knee bruise; day-to-day, missed multiple weeks",
+          "source": "https://www.profootballnetwork.com/emeka-egbuka-injury-update-will-he-play-week-1/"
+        },
+        {
+          "player": "Rueben Bain Jr.",
+          "position": "EDGE",
+          "status": "Probable",
+          "starter": true,
+          "injury": "AC joint sprain in joint practice, 'nothing serious'; Bowles says available Week 1",
+          "source": "https://www.espn.com/nfl/story/_/id/49731749/sources-buccaneers-rookie-bain-ac-sprain-serious"
+        },
+        {
+          "player": "Tristan Wirfs",
+          "position": "LT",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Hamstring in conditioning test, missed three weeks of camp, back at practice",
+          "source": "https://www.buccaneers.com/news/tristan-wirfs-among-bucs-returning-to-practice-monday"
+        },
+        {
+          "player": "Vita Vea",
+          "position": "DT",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Back tweak at start of camp, returned for joint practice",
+          "source": "https://atozsports.com/nfl/tampa-bay-buccaneers-news/buccaneers-jaguars-joint-practice-baker-mayfield-vita-vea-tristan-wirfs-injury-uupdates/"
+        },
+        {
+          "player": "Josh Hayes",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "IR, designated to return",
+          "source": "https://www.buccaneers.com/news/bucs-go-heavy-in-trenches-on-first-53-man-roster-of-2026"
+        }
+      ],
+      "offseason": {
+        "new_head_coach": null,
+        "new_oc": "Zac Robinson",
+        "new_dc": null,
+        "key_departures": [
+          "Mike Evans (SF)",
+          "Jamel Dean (PIT)"
+        ],
+        "key_arrivals": [
+          "Alex Anzalone",
+          "Al-Quadin Muhammad",
+          "Kenneth Gainwell"
+        ],
+        "notable_rookies": [
+          "EDGE Rueben Bain Jr. (No. 15)"
+        ]
+      },
+      "context_notes": [
+        "Five assistants replaced including OC Josh Grizzard and STC; Bowles enters fifth season.",
+        "Mike Evans left after 12 seasons; Egbuka is WR1 if healthy.",
+        "Collected Sept 5, 2026 in a follow-up pass."
+      ],
+      "sources": [
+        "https://www.buccaneers.com/news/buccaneers-make-changes-2026-coaching-staff",
+        "https://www.si.com/nfl/buccaneers/onsi/tampa-bay-buccaneers-offseason-the-good-bad-and-ugly-2026"
+      ]
+    },
+    "CIN": {
+      "record_2025": "6-11, 3rd AFC North; Burrow missed nine games (turf toe), 1-8 without him",
+      "qb": {
+        "starter": "Joe Burrow",
+        "backup": "Joe Flacco",
+        "starter_new_to_team": false,
+        "starter_is_rookie": false,
+        "notes": "Healthy after injury-shortened 2025"
+      },
+      "injuries": [
+        {
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Hyperextended knee in practice; limited all week, Taylor expects him to play",
+          "source": "https://www.espn.com/nfl/story/_/id/49796201/chase-higgins-ready-bengals-opener"
+        },
+        {
+          "player": "Tee Higgins",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Heel contusion; limited, expected to play",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-tee-higgins-out-of-practice-tuesday-but-bengals-expect-them-for-week-1"
+        },
+        {
+          "player": "Dax Hill",
+          "position": "CB",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Soft-tissue injury; individual drills only this week",
+          "source": "https://www.si.com/nfl/bengals/onsi/zac-taylor-updates-ja-marr-chase-s-injury-status-as-week-1-preparation-begins-01m1c7bk29sh"
+        },
+        {
+          "player": "Shemar Stewart",
+          "position": "EDGE",
+          "status": "Doubtful",
+          "starter": true,
+          "injury": "Knee; still on the rehab field",
+          "source": "https://www.si.com/nfl/bengals/onsi/zac-taylor-updates-ja-marr-chase-s-injury-status-as-week-1-preparation-begins-01m1c7bk29sh"
+        },
+        {
+          "player": "Ja'Sir Taylor",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "Hamstring, IR designated to return",
+          "source": "https://sports.yahoo.com/articles/cincinnati-bengals-cut-33-players-220457869.html"
+        },
+        {
+          "player": "Brian Parker Jr.",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "Knee, IR designated to return",
+          "source": "https://sports.yahoo.com/articles/cincinnati-bengals-cut-33-players-220457869.html"
+        }
+      ],
+      "offseason": {
+        "new_head_coach": null,
+        "new_oc": null,
+        "new_dc": null,
+        "key_departures": [
+          "Trey Hendrickson (BAL)",
+          "Joseph Ossai"
+        ],
+        "key_arrivals": [
+          "DT Dexter Lawrence (trade, No. 10 pick)",
+          "EDGE Boye Mafe",
+          "DT Jonathan Allen",
+          "S Bryan Cook"
+        ],
+        "notable_rookies": [
+          "No first-round pick (traded for Lawrence)"
+        ]
+      },
+      "context_notes": [
+        "Defensive line rebuilt around Lawrence, Allen and Mafe after Hendrickson left.",
+        "Collected Sept 5, 2026 in a follow-up pass."
+      ],
+      "sources": [
+        "https://www.bengals.com/news/bengals-2026-free-agency-tracker",
+        "https://www.bengals.com/news/dexter-lawrence-trade-giants-bengals-roster-update-2026"
+      ]
+    },
+    "DAL": {
+      "injuries": [
+        {
+          "player": "Marist Liufau",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "Broken forearm, IR designated to return",
+          "source": "https://www.footballnationusa.com/post/2026-nfl-injury-report-week-1-fantasy-outlook"
+        },
+        {
+          "player": "Tyler Guyton",
+          "position": "LT",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Sore elbow in camp, deemed minor",
+          "source": "https://www.dallascowboys.com/news/tyler-guyton-demarvion-overshown-headline-cowboys-injury-list-updates"
+        },
+        {
+          "player": "DeMarvion Overshown",
+          "position": "LB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Sore leg in camp, unrelated to repaired knee",
+          "source": "https://www.dallascowboys.com/news/tyler-guyton-demarvion-overshown-headline-cowboys-injury-list-updates"
+        }
+      ],
+      "context_notes": [
+        "Reported as the healthier side entering Week 1; Sam Howell is the backup after Joe Milton was waived."
+      ],
+      "sources": []
+    },
+    "NYG": {
+      "injuries": [
+        {
+          "player": "Malik Nabers",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "ACL/meniscus return; full-contact team periods, practiced in final session of the week, trending right direction but undecided",
+          "source": "https://www.cbssports.com/nfl/news/malik-nabers-injury-status-giants-wr-shares-honest-assessment-of-progress-week-1-availability/"
+        },
+        {
+          "player": "Andrew Thomas",
+          "position": "LT",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Minor offseason issues no longer bothering him",
+          "source": "https://www.giants.com/news/training-camp-tracker-latest-news-notes-roster-moves-transactions"
+        },
+        {
+          "player": "Abdul Carter",
+          "position": "EDGE",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Hand/finger issue in camp, fine",
+          "source": "https://www.giants.com/news/training-camp-tracker-latest-news-notes-roster-moves-transactions"
+        },
+        {
+          "player": "Dante Miller",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": false,
+          "injury": "Groin, soft tissue",
+          "source": "https://www.giants.com/news/training-camp-tracker-latest-news-notes-roster-moves-transactions"
+        }
+      ],
+      "context_notes": [
+        "Dexter Lawrence was traded to Cincinnati for the No. 10 pick."
+      ],
+      "sources": []
+    },
+    "DEN": {
+      "injuries": [
+        {
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Leg strain, out since Aug 5, back to full practice",
+          "source": "https://atozsports.com/nfl/denver-broncos-news/broncos-good-news-jaylen-waddle-luke-wattenberg-marvin-mims-injuries-drew-sanders-development/"
+        },
+        {
+          "player": "Luke Wattenberg",
+          "position": "C",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Back in team drills",
+          "source": "https://atozsports.com/nfl/denver-broncos-news/broncos-good-news-jaylen-waddle-luke-wattenberg-marvin-mims-injuries-drew-sanders-development/"
+        },
+        {
+          "player": "Michael Deiter",
+          "position": "C",
+          "status": "IR",
+          "starter": false,
+          "injury": "Quad, season-ending (third-string center)",
+          "source": "https://sports.yahoo.com/articles/broncos-6-players-injured-going-130218711.html"
+        },
+        {
+          "player": "Drew Sanders",
+          "position": "OLB",
+          "status": "IR",
+          "starter": false,
+          "injury": "Season-ending IR",
+          "source": "https://sports.yahoo.com/articles/broncos-6-players-injured-going-130218711.html"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "Short-term IR",
+          "source": "https://sports.yahoo.com/articles/broncos-6-players-injured-going-130218711.html"
+        },
+        {
+          "player": "Bo Nix",
+          "position": "QB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Recovered from playoff ankle surgery",
+          "source": "https://sports.yahoo.com/articles/sean-payton-expects-chiefs-qb-130110138.html"
+        }
+      ],
+      "context_notes": [
+        "Six players on IR entering Week 1, all depth pieces."
+      ],
+      "sources": []
+    },
+    "KC": {
+      "injuries": [
+        {
+          "player": "Josh Simmons",
+          "position": "LT",
+          "status": "Doubtful",
+          "starter": true,
+          "injury": "Lingering back injury, not seen at practice this week; Jaylon Moore and UDFA Kahlil Benson taking first-team reps",
+          "source": "https://www.yardbarker.com/nfl/articles/chiefs_suffer_fresh_injury_blow_as_key_player_misses_practice_before_broncos_clash/s1_17730_44257406"
+        },
+        {
+          "player": "Trey Smith",
+          "position": "RG",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hip injury",
+          "source": "https://athlonsports.com/nfl/trending/chiefs-dealt-disappointing-news-before-broncos-game"
+        },
+        {
+          "player": "Chris Jones",
+          "position": "DT",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Back; returned to practice after missing Wednesday",
+          "source": "https://athlonsports.com/nfl/trending/chiefs-dealt-disappointing-news-before-broncos-game"
+        },
+        {
+          "player": "R Mason Thomas",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": false,
+          "injury": "Hamstring, watched practice from sideline",
+          "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-r-mason-thomas-hamstring-latest-addition-injury-list-ahead-week-1-broncos/"
+        },
+        {
+          "player": "Patrick Mahomes",
+          "position": "QB",
+          "status": "Returning-expected-to-play",
+          "starter": true,
+          "injury": "Full participant throughout camp after Dec 2025 ACL/LCL; on track to start",
+          "source": "https://www.kctv5.com/2026/09/03/chiefs-qb-patrick-mahomes-appears-track-start-week-1-against-denver-broncos/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "NE": {
+      "injuries": [
+        {
+          "player": "TreVeyon Henderson",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Ankle, has not practiced since Aug 24; status up in the air for Wednesday opener",
+          "source": "https://nesn.com/new-england-patriots/news/patriots-latest-practice-absence-raises-week-1-question/3b37a3b985c2537212537290"
+        },
+        {
+          "player": "Christian Gonzalez",
+          "position": "CB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Returned to practice late August and looked like himself",
+          "source": "https://www.nbcsportsboston.com/nfl/new-england-patriots/christian-gonzalez-practices-treveyon-henderson-hurt/800523/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "SF": {
+      "injuries": [
+        {
+          "player": "George Kittle",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Achilles (Jan 11); two positive practice days, travelled to Australia, trending toward playing but some outlets list him likely out",
+          "source": "https://bleacherreport.com/articles/25495492-george-kittle-nick-bosa-injury-updates-given-john-lynch-latest-49ers-stars-status-vs-rams"
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Workload managed toward full speed",
+          "source": "https://www.espn.com/nfl/story/_/id/49427696/san-francisco-49ers-training-camp-2026-intel-updates"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "SEA": {
+      "injuries": [
+        {
+          "player": "Nick Emmanwori",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "July ankle surgery, passed physical, 'iffy' for Week 1",
+          "source": "https://www.fieldgulls.com/seattle-seahawks-news/173594/seahawks-nick-emmanwori-iffy-for-week-1"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "GB": {
+      "injuries": [
+        {
+          "player": "Aaron Banks",
+          "position": "LG",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Knee tendinitis; LaFleur says chance he misses opener",
+          "source": "https://www.yardbarker.com/nfl/articles/packers_week_1_preparation_takes_another_hit_as_2_offensive_line_starters_face_uncertain_status_against_vikings/s1_17313_44253542"
+        },
+        {
+          "player": "Zach Bako-Bewele",
+          "position": "RT",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Patellar tendon; chance he misses opener",
+          "source": "https://www.yardbarker.com/nfl/articles/packers_week_1_preparation_takes_another_hit_as_2_offensive_line_starters_face_uncertain_status_against_vikings/s1_17313_44253542"
+        },
+        {
+          "player": "Josh Jacobs",
+          "position": "RB",
+          "status": "Out",
+          "starter": true,
+          "injury": "Commissioner's Exempt List after misdemeanor charges; likely out Week 1",
+          "source": "https://www.cbssports.com/nfl/news/josh-jacobs-injury-packers-star-rb-vikings"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "WAS": {
+      "injuries": [
+        {
+          "player": "Trey Amos",
+          "position": "CB",
+          "status": "Out",
+          "starter": true,
+          "injury": "Sprained ankle, out Week 1",
+          "source": "https://www.fantasynerds.com/news/story/2026/08/31/commanders-cb-trey-amos-out-for-week-1-vs-eagles-rasul-douglas-to-face-former-team-1611616"
+        },
+        {
+          "player": "Nick Allegretti",
+          "position": "C",
+          "status": "Doubtful",
+          "starter": true,
+          "injury": "Calf on first day of camp, has not practiced since",
+          "source": "https://heavy.com/sports/nfl/philadelphia-eagles/commanders-dealt-bad-news-injury-front-week-1-eagles/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "NO": {
+      "injuries": [
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "status": "Out",
+          "starter": true,
+          "injury": "MCL sprain Aug 18, at least one month; 'somewhat shocking' if available",
+          "source": "https://www.cbssports.com/nfl/news/alvin-kamara-injury-saints-mcl-sprain-running-back-options/"
+        },
+        {
+          "player": "Cameron Jordan",
+          "position": "EDGE",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hamstring; Moore offering no guarantees",
+          "source": "https://sports.yahoo.com/articles/latest-saints-injury-updates-alvin-131816851.html"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "DET": {
+      "injuries": [
+        {
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hip flared up after a hit; Campbell would not guarantee availability",
+          "source": "https://profootballmania.com/nfl-injuries/team/detroit-lions/"
+        },
+        {
+          "player": "Christian Izien",
+          "position": "NCB",
+          "status": "Doubtful",
+          "starter": true,
+          "injury": "Undisclosed; Campbell says may miss opener",
+          "source": "https://www.detroitnews.com/story/sports/nfl/lions/2026/08/26/christian-izien-lions-db-could-miss-season-opener-vs-saints/91475927007/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "CHI": {
+      "injuries": [
+        {
+          "player": "Rome Odunze",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Left Thursday practice early (right leg), 'should be all good'",
+          "source": "https://chicago.suntimes.com/bears/2026/09/03/bears-practice-report-rb-dandre-swift-wr-rome-odunze-leave-with-injuries"
+        },
+        {
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Left practice early, reported as a cramp",
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rome-odunze-dandre-swift-left-bears-practice-early"
+        },
+        {
+          "player": "Luther Burden III",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Groin, has returned to practice",
+          "source": "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers"
+        },
+        {
+          "player": "Kyle Monangai",
+          "position": "RB",
+          "status": "Out",
+          "starter": false,
+          "injury": "Hyperextended knee, week to week",
+          "source": "https://bleacherreport.com/articles/25495935-dandre-swift-rome-odunze-injured-practice-latest-bears-stars-ahead-week-1-vs-panthers"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "MIN": {
+      "injuries": [
+        {
+          "player": "Theo Jackson",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Working back for Week 1",
+          "source": "https://sports.yahoo.com/articles/pair-injured-vikings-trying-back-232500165.html"
+        },
+        {
+          "player": "Caleb Tiernan",
+          "position": "OT",
+          "status": "Questionable",
+          "starter": false,
+          "injury": "Rookie working back",
+          "source": "https://sports.yahoo.com/articles/pair-injured-vikings-trying-back-232500165.html"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "CAR": {
+      "injuries": [
+        {
+          "player": "Devin Lloyd",
+          "position": "LB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Knee soreness after joint practice, not viewed as major",
+          "source": "https://www.panthers.com/news/five-takeaways-from-tuesday-s-practice-following-roster-cuts-bobby-okereke-haynes-king-injury-updates-bears-opener"
+        },
+        {
+          "player": "Jaelan Phillips",
+          "position": "EDGE",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Returned to practice after minor injury",
+          "source": "https://sports.yahoo.com/articles/panthers-major-injury-updates-dave-165748274.html"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "ARI": {
+      "injuries": [
+        {
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "High ankle sprain; back doing side work, LaFleur 'confident he's progressing'",
+          "source": "https://bleacherreport.com/articles/25495054-jeremiyah-love-injury-updated-provided-cardinals-hc-latest-rbs-status-week-1"
+        },
+        {
+          "player": "Garrett Williams",
+          "position": "NCB",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Achilles return, ramp-up period, decision late in week",
+          "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/"
+        },
+        {
+          "player": "Will Johnson",
+          "position": "CB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Team not too worried about Week 1",
+          "source": "https://heavy.com/sports/nfl/arizona-cardinals/will-johnson-garrett-williams-injury-updates/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "LA": {
+      "injuries": [
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Psoas, back at practice and healthy; not on exempt list, league review still pending",
+          "source": "https://www.deseret.com/sports/2026/09/01/puka-nacua-week-one-status-los-angeles-rams/"
+        },
+        {
+          "player": "Alaric Jackson",
+          "position": "LT",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Under league review but not on exempt list",
+          "source": "https://www.ninersnation.com/san-francisco-49ers-schedule/162144/will-the-49ers-benefit-from-any-rams-suspensions-ahead-of-week-1"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "JAX": {
+      "injuries": [
+        {
+          "player": "Brian Thomas Jr.",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Shoulder, back to full practice",
+          "source": "https://www.fantasypros.com/nfl/news/605657/brian-thomas-jr-shoulder-practicing-full.php"
+        },
+        {
+          "player": "Jakobi Meyers",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Hand, limited but no non-contact jersey",
+          "source": "https://blackandteal.com/latest-injury-update-suggests-jaguars-are-the-getting-cavalry-vs-browns-brian-thomas-jr-jakobi-meyers"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "IND": {
+      "injuries": [
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Ankle surgery; Ballard 'hope' is he plays",
+          "source": "https://www.profootballnetwork.com/tyler-warren-injury-update-will-he-play-in-week-1/"
+        },
+        {
+          "player": "Tyler Warren",
+          "position": "TE",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Adductor, participating in practice",
+          "source": "https://sports.yahoo.com/articles/tyler-warren-injury-latest-colts-172833669.html"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "BAL": {
+      "injuries": [
+        {
+          "player": "Zay Flowers",
+          "position": "WR",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Lower body; back practicing in full, good to go",
+          "source": "https://athlonsports.com/nfl/trending/ravens-zay-flowers-injury-update-week-1-colts"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "BUF": {
+      "injuries": [
+        {
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Undisclosed, sidelined since Aug 15; optimism he plays",
+          "source": "https://x.com/mzenitz/status/2095229419887427829"
+        },
+        {
+          "player": "Ty Johnson",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": false,
+          "injury": "Lower leg",
+          "source": "https://www.fantasypros.com/nfl/news/605372/khalil-shakir-undisclosed-misses-practice-tuesday.php"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "NYJ": {
+      "injuries": [
+        {
+          "player": "Breece Hall",
+          "position": "RB",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Groin strain Aug 17, expected ready for Week 1",
+          "source": "https://www.nfl.com/news/breece-hall-groin-expected-to-be-ready-for-jets-week-1-game-vs-titans"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "MIA": {
+      "injuries": [
+        {
+          "player": "Will Kacmarek",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hafley expects him to practice next week",
+          "source": "https://heavy.com/sports/nfl/miami-dolphins/injury-update-regular-season-rookie/"
+        }
+      ],
+      "context_notes": [],
+      "sources": []
+    },
+    "CLE": {
+      "context_notes": [
+        "Deshaun Watson's first start since October 2024; he re-ruptured the Achilles during rehab and missed all of 2025."
+      ],
+      "injuries": [],
+      "sources": []
+    },
+    "ATL": {
+      "context_notes": [
+        "As of Sept 4-5 Stefanski still has not named a Week 1 starter between Penix and Tagovailoa; Penix is described as the favorite after Tua's poor preseason."
+      ],
+      "injuries": [],
+      "sources": []
+    }
+  }
+}

@@ -29,7 +29,7 @@ def markdown_report(df: pd.DataFrame, season: int, week: int) -> str:
     wx = load_json(f"weather_{season}_wk{week}.json")
     L = []
     L.append(f"# {season} NFL Week {week} Moneyline Simulation\n")
-    L.append(f"Generated {date.today().isoformat()}. Injuries collected {inj.get('collected_on', 'n/a')}, weather collected {wx.get('collected_on', 'n/a')}.")
+    L.append(f"Generated {date.today().isoformat()}. Injuries collected {inj.get('collected_on', 'n/a')} (follow-up pass Sept 5), weather collected {wx.get('collected_on', 'n/a')}.")
     L.append(f"Each game simulated {C.N_SIMS:,} times. Market weight in the blend: {C.MARKET_WEIGHT:.2f}. See PLAN.md for the method.\n")
     L.append("## Summary\n")
     L.append("| Kickoff (ET) | Matchup | Pick | Win prob | Confidence | Fair ML | Market ML | Proj score | Model vs market |")

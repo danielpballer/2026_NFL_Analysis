@@ -68,7 +68,9 @@ make test
   from web search summaries with source URLs recorded in `data/research/`.
 - The nflverse opening lines predate most training-camp news; blending them with the model is
   how late injury information enters the prediction.
-- Tampa Bay and Cincinnati research was thinner than the other 30 teams because the search
-  budget ran out; their entries are flagged in the report.
+- Research was collected in two passes: Sept 4 for all teams (`data/research/group_A-D.json`)
+  and a Sept 5 follow-up (`data/research/group_E_followup.json`) that completed Tampa Bay,
+  Cincinnati, Dallas, the Giants, Denver and Kansas City and refreshed game-week status
+  elsewhere. Official practice reports are not published until game week.
 - Forecasts for Sept 13 and 14 were mostly beyond the reliable range on Sept 4 and are marked
   medium or low confidence.

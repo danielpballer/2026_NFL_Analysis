@@ -33,7 +33,8 @@ def match_override(team: str, name: str, players: dict) -> dict:
     key = f"{team}|{name}"
     if key in players:
         return players[key]
-    cands = [k for k in players if k.startswith(team + "|") and _last(k.split("|", 1)[1]) == _last(name)]
+    cands = [k for k in players if k.startswith(team + "|") and _last(k.split("|", 1)[1]) == _last(name)
+             and k.split("|", 1)[1][:1].lower() == name[:1].lower()]
     return players[cands[0]] if len(cands) == 1 else {}
 
 
@@ -95,7 +96,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                 best[k] = p
         e["players"] = sorted(best.values(), key=lambda p: (-sev[p["status"]], p["player"]))
         e["sources"] = sorted(set(e["sources"]))
-    out = {"season": season, "week": week, "collected_on": "2026-09-04", "method": "web search summaries cross-checked with nflverse roster_2026 status codes; see data/research/", "warnings": warnings, "teams": teams}
+    out = {"season": season, "week": week, "collected_on": "2026-09-05", "method": "web search summaries cross-checked with nflverse roster_2026 status codes; see data/research/", "warnings": warnings, "teams": teams}
     (C.MANUAL / f"injuries_{season}_wk{week}.json").write_text(json.dumps(out, indent=2))
     return out
 
