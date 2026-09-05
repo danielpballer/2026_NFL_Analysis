@@ -33,6 +33,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: SEA** (65.0%, Moderate). Projected: NE 20, SEA 25. Simulated margin sd 13.3.
 
+A Super Bowl rematch between the two best teams of 2025 by the model's ratings, with Seattle still ahead on the strength of last year's defense. New England took the bigger offseason hit: Harold Landry opens on PUP, TreVeyon Henderson has not practiced in two weeks, and the roster turned over heavily even with A.J. Brown arriving. Add Lumen Field, one of the loudest home edges in the league, and the model lands on Seattle by about five, a shade more than the market's 3.5.
+
 - Ratings from 2025 (points vs average, regressed): SEA +7.8, NE +4.7. After QB, coaching and injury adjustments: SEA +7.1, NE +2.6.
 - Quarterbacks: SEA Sam Darnold (+0.0 vs 2025 QB play), NE Drake Maye (+0.0).
 - SEA injuries (-0.7 pts): Bud Clark (DB, IR) -0.10; Irv Charles (WR, IR) -0.14; Jake Bobo (WR, IR) -0.14; Mason Richman (OL, IR) -0.12; Nick Emmanwori (S, Questionable) -0.18.
@@ -45,6 +47,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: LA** (65.6%, Moderate). Projected: SF 22, LA 27. Simulated margin sd 12.8.
 
+The Rams were the second-best team in football last year and added Myles Garrett and an unretired Aaron Donald to the pass rush, so their rating barely moves. San Francisco's slips because Kittle is a game-time call after his Achilles, Bosa is only just back, and Mykel Williams opens on PUP. Melbourne is a true neutral site, so no home edge applies, and the model has the Rams by five.
+
 - Ratings from 2025 (points vs average, regressed): LA +7.6, SF +1.9. After QB, coaching and injury adjustments: LA +7.0, SF +0.2.
 - Quarterbacks: LA Matthew Stafford (+0.0 vs 2025 QB play), SF Brock Purdy (+0.6).
 - LA injuries (-0.5 pts): Justin Dedich (OL, IR) -0.12; Keagen Trost (OL, IR) -0.12; Alaric Jackson (LT, Probable) -0.10; Puka Nacua (WR, Probable) -0.18.
@@ -56,6 +60,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### ATL @ PIT — 2026-09-13 13:00 ET
 
 **Pick: PIT** (60.6%, Moderate). Projected: ATL 19, PIT 23. Simulated margin sd 13.5.
+
+Two teams that finished near average last year, both breaking in entirely new coaching staffs, which widens the range of outcomes. Atlanta's problem is specific: Jalon Walker and James Pearce Jr. are both out, gutting the edge rush, and the starting quarterback still had not been named as of Sept 5. Pittsburgh gets Rodgers reunited with McCarthy at home, and the model and market agree almost exactly on Steelers by three and a half.
 
 - Ratings from 2025 (points vs average, regressed): PIT -0.8, ATL -0.9. After QB, coaching and injury adjustments: PIT -1.5, ATL -3.6.
 - Quarterbacks: PIT Aaron Rodgers (+0.0 vs 2025 QB play), ATL Michael Penix Jr. (-0.2).
@@ -71,6 +77,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: BAL** (52.1%, Coin flip). Projected: BAL 25, IND 24. Simulated margin sd 13.4.
 
+This is the sharpest disagreement with the market on the slate. Indianapolis rated slightly better than Baltimore last year, and while Lamar Jackson's healthy return adds a point to the Ravens, Baltimore also has a rookie head coach and a new offense to install. The model makes the Colts small home favorites where the book has Baltimore by 3.5, and the blend of the two lands almost exactly at a coin flip.
+
 - Ratings from 2025 (points vs average, regressed): IND +2.6, BAL +0.8. After QB, coaching and injury adjustments: IND +2.5, BAL +1.4.
 - Quarterbacks: IND Daniel Jones (+0.3 vs 2025 QB play), BAL Lamar Jackson (+1.0).
 - IND injuries (-0.5 pts): Musgrave (TE, PUP) -0.12; Alec Pierce (WR, Questionable) -0.25; Keenan Allen (WR, Probable) -0.06.
@@ -83,6 +91,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### BUF @ HOU — 2026-09-13 13:00 ET
 
 **Pick: BUF** (50.5%, Coin flip). Projected: BUF 22, HOU 22. Simulated margin sd 13.3.
+
+Buffalo and Houston rated identically last year, so the small details decide it. Houston lost right tackle Braden Smith and receiver Jayden Higgins for the season, while Buffalo's only real question is Khalil Shakir, but the Bills also have a first-year head coach in Joe Brady. Houston gets the roof closed and a modest home edge, the market leans Buffalo by 1.5, and the blend leaves this a genuine toss-up.
 
 - Ratings from 2025 (points vs average, regressed): HOU +4.6, BUF +4.6. After QB, coaching and injury adjustments: HOU +3.2, BUF +3.6.
 - Quarterbacks: HOU C.J. Stroud (+0.3 vs 2025 QB play), BUF Josh Allen (+0.1).
@@ -97,6 +107,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: CHI** (58.9%, Lean). Projected: CHI 25, CAR 22. Simulated margin sd 13.3.
 
+Chicago was the better team by about four points last year and the gap holds after adjustments. Carolina's offensive line is the story: both starting tackles, Ekwonu and Moton, are out at least four games, a rookie starts at right tackle, and edge Nic Scourton is done for the year. The Bears have their own nicks and Kyler Gordon on PUP, but the model still gives Chicago about three on the road, a little more than the market.
+
 - Ratings from 2025 (points vs average, regressed): CAR -2.4, CHI +1.7. After QB, coaching and injury adjustments: CAR -5.5, CHI -0.2.
 - Quarterbacks: CAR Bryce Young (+0.0 vs 2025 QB play), CHI Caleb Williams (+0.0).
 - CAR injuries (-3.2 pts): Kemoko Turay (EDGE, IR) -0.20; Nic Scourton (EDGE, IR) -0.80; Ikem Ekwonu (LT, PUP) -1.00; Tershawn Wharton (DT, PUP) -0.45; Taylor Moton (RT, NFI) -0.60; Jaelan Phillips (EDGE, Probable) -0.08.
@@ -107,6 +119,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### CLE @ JAX — 2026-09-13 13:00 ET
 
 **Pick: JAX** (73.9%, High). Projected: CLE 15, JAX 24. Simulated margin sd 13.4.
+
+The widest talent gap of the week. Jacksonville rated as a top-six team last year and returns its staff and skill players healthy, while Cleveland rated in the bottom three and starts Deshaun Watson in his first game since October 2024 after two Achilles ruptures. The model's own margin is near ten; the market at 7.5 and a 50 percent thunderstorm chance in Jacksonville heat pull the final number back to about eight.
 
 - Ratings from 2025 (points vs average, regressed): JAX +4.0, CLE -5.0. After QB, coaching and injury adjustments: JAX +3.6, CLE -4.8.
 - Quarterbacks: JAX Trevor Lawrence (+0.0 vs 2025 QB play), CLE Deshaun Watson (+0.1).
@@ -121,6 +135,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: DET** (71.0%, High). Projected: NO 21, DET 28. Simulated margin sd 13.3.
 
+Detroit was a solid playoff-caliber team last year and hosts indoors. New Orleans is missing Alvin Kamara for at least a month, rookie receiver Jordyn Tyson is on IR, and Cameron Jordan is questionable, which costs the Saints nearly three points before Tyler Shough's modest year-two bump gives one back. Model and market both say Lions by seven.
+
 - Ratings from 2025 (points vs average, regressed): DET +2.7, NO -2.3. After QB, coaching and injury adjustments: DET +1.9, NO -3.8.
 - Quarterbacks: DET Jared Goff (+0.0 vs 2025 QB play), NO Tyler Shough (+1.2).
 - DET injuries (-0.8 pts): Christian Izien (DB, Doubtful) -0.30; Sam LaPorta (TE, Questionable) -0.39; Aidan Hutchinson (EDGE, Returning-expected-to-play) -0.06.
@@ -132,6 +148,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### NYJ @ TEN — 2026-09-13 13:00 ET
 
 **Pick: TEN** (61.6%, Moderate). Projected: NYJ 17, TEN 21. Simulated margin sd 13.4.
+
+Two of the three worst teams in the league last year, but the Jets rated more than three points below the Titans. Tennessee spent heavily in free agency, has Cam Ward in year two under Robert Saleh and Brian Daboll, and Jermaine Johnson faces the team that traded him. Geno Smith is an upgrade for New York but not a large one after his poor 2025 in Las Vegas. The model likes the Titans by nearly seven; the market has them by 1.5, so the blend settles just under four.
 
 - Ratings from 2025 (points vs average, regressed): TEN -5.7, NYJ -9.1. After QB, coaching and injury adjustments: TEN -4.7, NYJ -9.9.
 - Quarterbacks: TEN Cam Ward (+0.8 vs 2025 QB play), NYJ Geno Smith (+0.3).
@@ -147,6 +165,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: CIN** (57.0%, Lean). Projected: TB 25, CIN 27. Simulated margin sd 13.3.
 
+Cincinnati's 2025 rating is poor because the team went 1-8 without Joe Burrow, so his healthy return is the largest quarterback adjustment on the slate at plus 2.2. Tampa Bay lost Mike Evans, is breaking in a new offensive coordinator, and has Egbuka and McMillan day-to-day at receiver. Even so, the model only makes the Bengals slight favorites on its own; the market's 3.5 carries the final number to about two.
+
 - Ratings from 2025 (points vs average, regressed): CIN -3.2, TB -0.3. After QB, coaching and injury adjustments: CIN -2.5, TB -1.6.
 - Quarterbacks: CIN Joe Burrow (+2.2 vs 2025 QB play), TB Baker Mayfield (+0.1).
 - CIN injuries (-1.5 pts): Brian Parker Jr. (OL, IR) -0.12; Ja'Sir Taylor (CB, IR) -0.17; Shemar Stewart (DE, Doubtful) -0.68; Dax Hill (CB, Questionable) -0.23; Ja'Marr Chase (WR, Probable) -0.18; Tee Higgins (WR, Probable) -0.06.
@@ -160,6 +180,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: LAC** (72.8%, High). Projected: ARI 19, LAC 27. Simulated margin sd 13.4.
 
+The Chargers should win, but the model thinks the market's 10.5-point spread is too rich. Los Angeles lost starting center Tyler Biadasz for the year, left tackle Rashawn Slater is questionable after a knee setback, and Denzel Perryman is on IR. Arizona is bad and has its own issues, with James Conner on IR and rookie Jeremiyah Love nursing a high ankle sprain, so the model still has the Chargers by about eight after blending, just not by double digits.
+
 - Ratings from 2025 (points vs average, regressed): LAC +0.6, ARI -2.6. After QB, coaching and injury adjustments: LAC -1.1, ARI -4.2.
 - Quarterbacks: LAC Justin Herbert (+0.3 vs 2025 QB play), ARI Jacoby Brissett (-0.4).
 - LAC injuries (-2.0 pts): Branson Taylor (OL, IR) -0.12; Denzel Perryman (LB, IR) -0.35; Tyler Biadasz (C, IR) -0.50; Isaiah World (OT, NFI) -0.20; Rashawn Slater (LT, Questionable) -0.79.
@@ -172,6 +194,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: MIN** (58.1%, Lean). Projected: GB 22, MIN 24. Simulated margin sd 12.8.
 
+Green Bay rated three points better than Minnesota last year, but almost none of that survives the offseason. Micah Parsons opens on PUP, Josh Jacobs is on the exempt list, and two starting linemen may miss the opener, a 3.3-point hit. Minnesota gets the largest quarterback swing of the week in Kyler Murray replacing the McCarthy and Wentz combination, plus a dome home edge. The model has the Vikings by nearly four; the market says 1.5.
+
 - Ratings from 2025 (points vs average, regressed): MIN -0.5, GB +2.4. After QB, coaching and injury adjustments: MIN +1.5, GB -0.7.
 - Quarterbacks: MIN Kyler Murray (+2.8 vs 2025 QB play), GB Jordan Love (+0.3).
 - MIN injuries (-0.8 pts): Jamal Adams (LB, IR) -0.09; Marcus Allen (S, IR) -0.10; Michael Jurgens (OL, IR) -0.12; Tyreek Chappell (CB, IR) -0.17; Caleb Tiernan (OT, Questionable) -0.09; Theo Jackson (S, Questionable) -0.18.
@@ -183,6 +207,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### MIA @ LV — 2026-09-13 16:25 ET
 
 **Pick: LV** (57.7%, Lean). Projected: MIA 19, LV 22. Simulated margin sd 13.5.
+
+Two bottom-tier teams with new head coaches, so the variance is high and the edge is small. Las Vegas benefits from swapping Geno Smith for Kirk Cousins, which the model counts as a 1.5-point upgrade, while Miami downgrades from Tua to first-year starter Malik Willis after also losing Hill and Waddle. The Raiders' best player, Ashton Jeanty, is a game-time call. The model gives Las Vegas about one at home; the market's 3.5 pulls the blend to two and a half.
 
 - Ratings from 2025 (points vs average, regressed): LV -7.3, MIA -3.7. After QB, coaching and injury adjustments: LV -5.8, MIA -5.3.
 - Quarterbacks: LV Kirk Cousins (+1.5 vs 2025 QB play), MIA Malik Willis (-1.2).
@@ -198,6 +224,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 
 **Pick: PHI** (72.6%, High). Projected: WAS 19, PHI 26. Simulated margin sd 12.8.
 
+Philadelphia rated as a playoff team last year and Washington did not, and the offseason widened the gap. The Commanders are without left tackle Laremy Tunsil and interior lineman Johnny Newton for an extended stretch, cornerback Trey Amos is out, and center Nick Allegretti has not practiced since the first day of camp, a four-point injury hit. Jonathan Greenard being doubtful for Philadelphia barely offsets that. The model has the Eagles by nearly ten; the market says 5.5.
+
 - Ratings from 2025 (points vs average, regressed): PHI +2.1, WAS -3.7. After QB, coaching and injury adjustments: PHI +0.9, WAS -7.2.
 - Quarterbacks: PHI Jalen Hurts (+0.1 vs 2025 QB play), WAS Jayden Daniels (+0.5).
 - PHI injuries (-1.3 pts): Andre' Sam (S, IR) -0.10; Grant Calcaterra (TE, IR) -0.12; Jakorian Bennett (CB, IR) -0.17; Johnny Wilson (WR, IR) -0.14; Tucker Large (DB, NFI) -0.10; Jonathan Greenard (EDGE, Doubtful) -0.68.
@@ -208,6 +236,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### DAL @ NYG — 2026-09-13 20:20 ET
 
 **Pick: DAL** (51.6%, Coin flip). Projected: DAL 24, NYG 24. Simulated margin sd 12.9.
+
+The market makes Dallas a 2.5-point road favorite; the model has the Giants slightly ahead at home. The two teams rated within half a point of each other last year, New York gets a year-two bump for Jaxson Dart, and while John Harbaugh is a new coach and Malik Nabers is questionable, Dallas lost Micah Parsons in the offseason and is not much healthier. The blend is a dead heat, and Dallas is the pick only by the thinnest margin.
 
 - Ratings from 2025 (points vs average, regressed): NYG -1.8, DAL -2.3. After QB, coaching and injury adjustments: NYG -2.8, DAL -3.0.
 - Quarterbacks: NYG Jaxson Dart (+0.5 vs 2025 QB play), DAL Dak Prescott (+0.1).
@@ -222,6 +252,8 @@ Win probability is the pick's chance to win, fair moneyline is what that probabi
 ### DEN @ KC — 2026-09-14 20:15 ET
 
 **Pick: KC** (56.1%, Lean). Projected: DEN 20, KC 22. Simulated margin sd 12.9.
+
+Denver was the better team last year by a point and a half, and Kansas City's advantage now rests on Arrowhead and Mahomes, who was a full participant all camp after his December ACL tear. The Chiefs' concern is the offensive line: left tackle Josh Simmons is doubtful with a back injury and Trey Smith is dealing with a hip. Denver has Jonathon Cooper on the exempt list but got Waddle and its center back. The model has this near a pick; the market's three points make Kansas City a modest favorite.
 
 - Ratings from 2025 (points vs average, regressed): KC +0.9, DEN +2.5. After QB, coaching and injury adjustments: KC -0.7, DEN +0.9.
 - Quarterbacks: KC Patrick Mahomes (+0.5 vs 2025 QB play), DEN Bo Nix (+0.1).

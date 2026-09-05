@@ -26,6 +26,7 @@ def write_outputs(df: pd.DataFrame, season: int, week: int) -> None:
 
 def markdown_report(df: pd.DataFrame, season: int, week: int) -> str:
     inj = load_json(f"injuries_{season}_wk{week}.json")
+    narr = load_json(f"narratives_{season}_wk{week}.json").get("games", {})
     wx = load_json(f"weather_{season}_wk{week}.json")
     L = []
     L.append(f"# {season} NFL Week {week} Moneyline Simulation\n")
@@ -48,6 +49,8 @@ def markdown_report(df: pd.DataFrame, season: int, week: int) -> str:
     for _, r in df.iterrows():
         L.append(f"### {r.away} @ {r.home} — {r.kickoff}{' (neutral site)' if r.neutral_site else ''}\n")
         L.append(f"**Pick: {r.predicted_winner}** ({r.win_probability:.1%}, {r.confidence}). Projected: {r.away} {r.proj_away_pts:.0f}, {r.home} {r.proj_home_pts:.0f}. Simulated margin sd {r.margin_sd:.1f}.\n")
+        if r.game_id in narr:
+            L.append(narr[r.game_id] + "\n")
         L.append(f"- Ratings from 2025 (points vs average, regressed): {r.home} {r.home_rating_2025:+.1f}, {r.away} {r.away_rating_2025:+.1f}. After QB, coaching and injury adjustments: {r.home} {r.home_rating_adj:+.1f}, {r.away} {r.away_rating_adj:+.1f}.")
         L.append(f"- Quarterbacks: {r.home} {r.home_qb} ({r.home_qb_adj:+.1f} vs 2025 QB play), {r.away} {r.away_qb} ({r.away_qb_adj:+.1f}).")
         for side, team in (("home", r.home), ("away", r.away)):
