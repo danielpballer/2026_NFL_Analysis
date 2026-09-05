@@ -19,6 +19,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     rows = json.load(open(C.OUTPUT / f"week{week}_{season}_predictions.json"))
     pure = json.load(open(C.OUTPUT / f"week{week}_{season}_pure_vs_blend.json"))
     narr = json.load(open(C.MANUAL / f"narratives_{season}_wk{week}.json"))["games"]
+    value = json.load(open(C.OUTPUT / f"week{week}_{season}_value.json"))
     NAMES = {"ARI":"Cardinals","ATL":"Falcons","BAL":"Ravens","BUF":"Bills","CAR":"Panthers","CHI":"Bears","CIN":"Bengals","CLE":"Browns","DAL":"Cowboys","DEN":"Broncos","DET":"Lions","GB":"Packers","HOU":"Texans","IND":"Colts","JAX":"Jaguars","KC":"Chiefs","LA":"Rams","LAC":"Chargers","LV":"Raiders","MIA":"Dolphins","MIN":"Vikings","NE":"Patriots","NO":"Saints","NYG":"Giants","NYJ":"Jets","PHI":"Eagles","PIT":"Steelers","SEA":"Seahawks","SF":"49ers","TB":"Buccaneers","TEN":"Titans","WAS":"Commanders"}
     def ml(x): x=int(x); return f"+{x}" if x>0 else str(x)
     def window(r):
@@ -100,6 +101,24 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     up=[f"{pk} {bp:.0%} to {pq:.0%}" for d,pk,bp,pq in shifts if d>0][:3]
     down=[f"{pk} {bp:.0%} to {pq:.0%}" for d,pk,bp,pq in shifts if d<0][:2]
     shift_text=(f"The other thirteen picks hold at any weighting, but their probabilities move. Pure data is more confident in {', '.join(up)}, and less confident in {', '.join(down)}, where the market's number is the main reason the favorite is priced so heavily.")
+    vrows = []
+    for l in value:
+        if l["ev_per_dollar"] <= 0.02:
+            continue
+        mlt = f"+{l['market_ml']}" if l["market_ml"] > 0 else str(l["market_ml"])
+        tag = "pick" if l["is_pick"] else "underdog"
+        vrows.append(f"<tr><td>{l['side']} {mlt} ({l['matchup']})<span class='pickmark'>{tag}</span></td>"
+                     f"<td class='num'>{l['model_p']:.0%}</td><td class='num'>{mlt}</td><td class='num'>{l['implied_p']:.0%}</td>"
+                     f"<td class='num pos'>{l['ev_per_dollar']:+.0%}</td><td class='num'>{l['quarter_kelly']:.1%}</td></tr>")
+    favs = [l for l in value if l["is_pick"] and l["model_p"] >= 0.7]
+    fp = 1.0; fd = 1.0
+    for l in favs:
+        fp *= l["model_p"]; fd *= (1 + l["market_ml"] / 100) if l["market_ml"] > 0 else (1 + 100 / -l["market_ml"])
+    value_note = (f"Everything not listed is negative expected value at the opening price, including most heavy favorites. "
+                  f"A parlay of the {len(favs)} High-confidence picks ({', '.join(l['side'] for l in favs)}) hits about {fp:.0%} of the time and pays {fd-1:.1f} to 1, "
+                  f"an expected return of {fp*fd-1:+.0%}: parlays multiply the book's margin and the model's error together. "
+                  f"Prices here are the nflverse opening lines; compare with current odds before acting, because the largest edges come from injury news the opening line did not know about.")
+    page = page.replace('{{VALUE}}', ''.join(vrows)).replace('{{VALUE_NOTE}}', value_note)
     page = page.replace('{{GAMES}}',''.join(out)).replace('{{TIERS}}',tier_html).replace('{{FLIPS}}',''.join(flip_rows)).replace('{{SHIFTS}}',shift_text)
     if fragment:
         return page
