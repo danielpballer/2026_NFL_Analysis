@@ -237,7 +237,7 @@ Philadelphia rated as a playoff team last year and Washington did not, and the o
 
 **Pick: DAL** (51.6%, Coin flip). Projected: DAL 24, NYG 24. Simulated margin sd 12.9.
 
-The market makes Dallas a 2.5-point road favorite; the model has the Giants slightly ahead at home. The two teams rated within half a point of each other last year, New York gets a year-two bump for Jaxson Dart, and while John Harbaugh is a new coach and Malik Nabers is questionable, Dallas lost Micah Parsons in the offseason and is not much healthier. The blend is a dead heat, and Dallas is the pick only by the thinnest margin.
+The market makes Dallas a 2.5-point road favorite; the model has the Giants slightly ahead at home. The two teams rated within half a point of each other last year, New York gets a year-two bump for Jaxson Dart, and home field covers the rest. John Harbaugh is a new coach and Malik Nabers is questionable, but Dallas has its own turnover, with two rookie first-rounders starting on defense and Sam Howell newly installed as the backup. The blend is a dead heat, and Dallas is the pick only by the thinnest margin.
 
 - Ratings from 2025 (points vs average, regressed): NYG -1.8, DAL -2.3. After QB, coaching and injury adjustments: NYG -2.8, DAL -3.0.
 - Quarterbacks: NYG Jaxson Dart (+0.5 vs 2025 QB play), DAL Dak Prescott (+0.1).
