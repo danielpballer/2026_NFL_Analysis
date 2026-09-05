@@ -1,0 +1,98 @@
+{
+  "2026_01_NE_SEA": {
+    "p_home_pure": 0.7023,
+    "p_home_market": 0.6069,
+    "pick_pure": "SEA",
+    "flip": false
+  },
+  "2026_01_SF_LA": {
+    "p_home_pure": 0.709,
+    "p_home_market": 0.6069,
+    "pick_pure": "LA",
+    "flip": false
+  },
+  "2026_01_ATL_PIT": {
+    "p_home_pure": 0.6069,
+    "p_home_market": 0.6066,
+    "pick_pure": "PIT",
+    "flip": false
+  },
+  "2026_01_BAL_IND": {
+    "p_home_pure": 0.5781,
+    "p_home_market": 0.3991,
+    "pick_pure": "IND",
+    "flip": true
+  },
+  "2026_01_BUF_HOU": {
+    "p_home_pure": 0.5392,
+    "p_home_market": 0.4581,
+    "pick_pure": "HOU",
+    "flip": true
+  },
+  "2026_01_CHI_CAR": {
+    "p_home_pure": 0.3897,
+    "p_home_market": 0.428,
+    "pick_pure": "CHI",
+    "flip": false
+  },
+  "2026_01_CLE_JAX": {
+    "p_home_pure": 0.7759,
+    "p_home_market": 0.7205,
+    "pick_pure": "JAX",
+    "flip": false
+  },
+  "2026_01_NO_DET": {
+    "p_home_pure": 0.713,
+    "p_home_market": 0.7074,
+    "pick_pure": "DET",
+    "flip": false
+  },
+  "2026_01_NYJ_TEN": {
+    "p_home_pure": 0.696,
+    "p_home_market": 0.5502,
+    "pick_pure": "TEN",
+    "flip": false
+  },
+  "2026_01_TB_CIN": {
+    "p_home_pure": 0.5235,
+    "p_home_market": 0.6066,
+    "pick_pure": "CIN",
+    "flip": false
+  },
+  "2026_01_ARI_LAC": {
+    "p_home_pure": 0.6384,
+    "p_home_market": 0.7927,
+    "pick_pure": "LAC",
+    "flip": false
+  },
+  "2026_01_GB_MIN": {
+    "p_home_pure": 0.6159,
+    "p_home_market": 0.549,
+    "pick_pure": "MIN",
+    "flip": false
+  },
+  "2026_01_MIA_LV": {
+    "p_home_pure": 0.5429,
+    "p_home_market": 0.6069,
+    "pick_pure": "LV",
+    "flip": false
+  },
+  "2026_01_WAS_PHI": {
+    "p_home_pure": 0.7858,
+    "p_home_market": 0.6649,
+    "pick_pure": "PHI",
+    "flip": false
+  },
+  "2026_01_DAL_NYG": {
+    "p_home_pure": 0.5586,
+    "p_home_market": 0.4269,
+    "pick_pure": "NYG",
+    "flip": true
+  },
+  "2026_01_DEN_KC": {
+    "p_home_pure": 0.5182,
+    "p_home_market": 0.5919,
+    "pick_pure": "KC",
+    "flip": false
+  }
+}
