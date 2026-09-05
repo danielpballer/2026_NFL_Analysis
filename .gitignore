@@ -5,3 +5,4 @@ data/raw/play_by_play_*.csv
 __pycache__/
 *.pyc
 .pytest_cache/
+output/week1_2026_slate_fragment.html

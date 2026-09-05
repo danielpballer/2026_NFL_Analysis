@@ -5,8 +5,9 @@ For every game it produces a predicted winner, a win probability, a confidence t
 moneyline, projected score, and the reasoning behind it (last season's strength, quarterback
 situation, injuries and player status, coaching changes, venue and weather, and the market line).
 
-Results: [`output/week1_2026_report.md`](output/week1_2026_report.md)
-(also `output/week1_2026_predictions.csv` and `.json`).
+Results: [`output/week1_2026_report.md`](output/week1_2026_report.md), the interactive page
+[`output/week1_2026_slate.html`](output/week1_2026_slate.html) (open it in a browser), and
+`output/week1_2026_predictions.csv` / `.json`.
 
 The step-by-step approach is documented in [`PLAN.md`](PLAN.md).
 
@@ -45,7 +46,7 @@ The step-by-step approach is documented in [`PLAN.md`](PLAN.md).
 pip install -r requirements.txt
 make fetch      # downloads nflverse files (about 90 MB)
 make inputs     # rebuilds data/manual/injuries_2026_wk1.json from data/research
-make run        # writes output/week1_2026_*.csv/.json/.md
+make run        # writes output/week1_2026_*.csv/.json/.md and the HTML page
 make backtest   # optional: 2025 Week 1 validation
 make test
 ```

@@ -13,6 +13,8 @@ inputs:           ## rebuild injuries JSON from data/research + overrides
 
 run:              ## build Week 1 predictions into output/
 	$(PY) -m nflsim.run_week1
+	$(PY) -m nflsim.compare
+	$(PY) -m nflsim.page
 
 backtest:         ## score the method on 2025 Week 1 using 2024 data
 	$(PY) -m nflsim.backtest
@@ -21,4 +23,4 @@ test:
 	$(PY) -m pytest -q tests
 
 clean:
-	rm -rf output/*.csv output/*.json output/*.md data/processed/*
+	rm -rf output/*.csv output/*.json output/*.md output/*.html data/processed/*
