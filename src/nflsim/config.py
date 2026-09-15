@@ -7,15 +7,20 @@ MANUAL = ROOT / "data" / "manual"
 PROCESSED = ROOT / "data" / "processed"
 OUTPUT = ROOT / "output"
 
-SEASON = 2026
-WEEK = 1
-PRIOR_SEASON = 2025
+import os
+
+SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 2))
+PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
 RAW_FILES = {
     "games.csv": f"{NFLVERSE}/schedules/games.csv",
     "play_by_play_2025.csv.gz": f"{NFLVERSE}/pbp/play_by_play_2025.csv.gz",
     "play_by_play_2024.csv.gz": f"{NFLVERSE}/pbp/play_by_play_2024.csv.gz",
+    "play_by_play_2026.csv.gz": f"{NFLVERSE}/pbp/play_by_play_2026.csv.gz",
+    "injuries_2026.csv": f"{NFLVERSE}/injuries/injuries_2026.csv",
+    "roster_weekly_2026.csv": f"{NFLVERSE}/weekly_rosters/roster_weekly_2026.csv",
     "roster_2026.csv": f"{NFLVERSE}/rosters/roster_2026.csv",
     "depth_charts_2026.csv": f"{NFLVERSE}/depth_charts/depth_charts_2026.csv",
     "injuries_2025.csv": f"{NFLVERSE}/injuries/injuries_2025.csv",
@@ -31,6 +36,11 @@ RIDGE_LAMBDA = 30.0            # shrinkage on per-team EPA coefficients (in play
 EPA_VS_MARGIN_BLEND = 0.7      # weight of EPA rating vs adjusted point margin rating
 OFFSEASON_KEEP_OFF = 0.62      # fraction of last year's offensive rating retained
 OFFSEASON_KEEP_DEF = 0.48      # defense regresses harder year to year
+
+# ---- In-season rating update (added after Week 1) --------------------------------------
+PRIOR_GAMES = 9.0              # the preseason rating counts as this many games of evidence
+PERF_EPA_WEIGHT = 0.7          # game performance = this * net EPA (in points) + (1 - this) * capped margin
+PERF_MARGIN_CAP = 28.0
 
 # ---- Stage 3: quarterbacks -------------------------------------------------------
 DROPBACKS_PER_GAME = 36.0
@@ -73,7 +83,8 @@ WEATHER_EXTRA_SD = 0.5
 
 # ---- Stage 6/7: blend and simulation ---------------------------------------------------
 MARKET_WEIGHT = 0.55
-MARGIN_SD = 13.3
+MARGIN_SD = 12.7               # sd of (result - closing spread), 2023-2025 regular seasons
+EARLY_SEASON_SD = 1.0          # extra sd in Week 1, tapering to zero by Week 4 (team quality is less known)
 TOTAL_SD = 10.0
 N_SIMS = 20000
 SEED = 20260913

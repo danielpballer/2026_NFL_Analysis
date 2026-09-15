@@ -1,4 +1,4 @@
-"""Stage 6-8 orchestrator: build every Week 1 prediction and write the outputs."""
+"""Stage 6-8 orchestrator: build every prediction for the configured week and write the outputs."""
 from __future__ import annotations
 
 import json
@@ -9,20 +9,22 @@ import numpy as np
 import pandas as pd
 
 from . import config as C
-from .adjustments import (GameContext, head_coach_changes, injury_adjustment, load_json, qb_adjustment)
+from .adjustments import (GameContext, head_coach_changes, injury_adjustment, load_json, load_week_json, qb_adjustment)
 from .qb import qb_values, team_primary_qb
+from .ratings import current_ratings
 from .report import write_outputs
 from .schedule import devig, moneyline_to_prob, prob_to_moneyline, week_slate
-from .simulate import blend_margin, confidence_tier, simulate_game
-from .strength import team_strength
+from .simulate import base_sd, blend_margin, confidence_tier, simulate_game
 
 
 def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool = True) -> pd.DataFrame:
     slate = week_slate(season, week)
-    strength = team_strength(season - 1)
+    ratings = current_ratings(season, week)
+    C.PROCESSED.mkdir(parents=True, exist_ok=True)
+    ratings.round(3).to_csv(C.PROCESSED / f"ratings_{season}_wk{week}.csv")
     qvals = qb_values(season - 1)
     tqb = team_primary_qb(season - 1)
-    qb_manual = load_json(f"qb_{season}.json")
+    qb_manual = load_week_json("qb", season, week)
     injuries = load_json(f"injuries_{season}_wk{week}.json")
     weather = load_json(f"weather_{season}_wk{week}.json").get("games", {})
     coaching = head_coach_changes(season)
@@ -36,7 +38,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
         ctx = GameContext(g.game_id, home, away, bool(g.neutral_site), bool(g.div_game), roof, wx)
         side = {}
         for team in (home, away):
-            base = float(strength.loc[team, "rating_regressed"])
+            base = float(ratings.loc[team, "rating"])
             new_hc = team in coaching
             base_hc = base * (1 - C.NEW_HC_REGRESSION) if new_hc else base
             q = qb_adjustment(team, qb_manual, qvals, tqb)
@@ -52,7 +54,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
         final_margin = blended * wx_mult
         extras = [wx_sd, h["qb_extra_sd"], a["qb_extra_sd"], h["injury_extra_sd"], a["injury_extra_sd"],
                   C.NEW_HC_EXTRA_SD if h["new_hc"] else 0.0, C.NEW_HC_EXTRA_SD if a["new_hc"] else 0.0]
-        sd = math.sqrt(C.MARGIN_SD ** 2 + sum(e ** 2 for e in extras)) + (C.DIVISION_GAME_SD_ADJ if ctx.div_game else 0.0)
+        sd = math.sqrt(base_sd(week) ** 2 + sum(e ** 2 for e in extras)) + (C.DIVISION_GAME_SD_ADJ if ctx.div_game else 0.0)
         total = float(g.total_line) if not pd.isna(g.total_line) else 44.0
         if wx_note not in ("indoor", "benign"):
             total -= 0.5 * max(0.0, float(ctx.weather.get("wind_mph", 8) or 8) - C.WIND_FREE)
@@ -76,7 +78,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             "final_margin_home": round(final_margin, 2), "margin_sd": round(sd, 2),
             "proj_home_pts": round(sim["mean_home_pts"], 1), "proj_away_pts": round(sim["mean_away_pts"], 1),
             "proj_total": round(total, 1),
-            "home_rating_2025": round(h["base"], 2), "away_rating_2025": round(a["base"], 2),
+            "home_rating_prior": round(h["base"], 2), "away_rating_prior": round(a["base"], 2),
             "home_rating_adj": round(h["rating"], 2), "away_rating_adj": round(a["rating"], 2),
             "home_field_pts": round(hfa + travel, 2),
             "home_qb": h["qb"], "away_qb": a["qb"], "home_qb_adj": round(h["qb_adj"], 2), "away_qb_adj": round(a["qb_adj"], 2),

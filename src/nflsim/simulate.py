@@ -6,6 +6,11 @@ import numpy as np
 from . import config as C
 
 
+def base_sd(week: int) -> float:
+    """Margin sd before game-specific widening: wider early in the season."""
+    return C.MARGIN_SD + C.EARLY_SEASON_SD * max(0.0, (4 - week) / 3.0)
+
+
 def blend_margin(model_margin: float, market_margin: float | None, w_market: float = C.MARKET_WEIGHT) -> float:
     if market_margin is None or np.isnan(market_margin):
         return model_margin

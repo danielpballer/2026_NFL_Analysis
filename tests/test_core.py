@@ -64,3 +64,16 @@ def test_home_field_and_weather():
     assert mult < 1.0 and sd > 0 and "wind" in note
     neutral = GameContext("g", "LA", "SF", True, True, "dome", {})
     assert neutral.home_field() == 0.0 and neutral.weather_factor()[0] == 1.0
+
+
+def test_base_sd_schedule():
+    from nflsim.simulate import base_sd
+    assert base_sd(1) > base_sd(2) > base_sd(4) == base_sd(10) == C.MARGIN_SD
+
+
+def test_rating_update_math():
+    # one game worth of evidence against a prior worth PRIOR_GAMES games
+    prior, perf = 2.0, 22.0
+    updated = (C.PRIOR_GAMES * prior + perf) / (C.PRIOR_GAMES + 1)
+    assert prior < updated < perf
+    assert abs(updated - 4.0) < 1e-9

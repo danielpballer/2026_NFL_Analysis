@@ -30,7 +30,7 @@ def markdown_report(df: pd.DataFrame, season: int, week: int) -> str:
     wx = load_json(f"weather_{season}_wk{week}.json")
     L = []
     L.append(f"# {season} NFL Week {week} Moneyline Simulation\n")
-    L.append(f"Generated {date.today().isoformat()}. Injuries collected {inj.get('collected_on', 'n/a')} (follow-up pass Sept 5), weather collected {wx.get('collected_on', 'n/a')}.")
+    L.append(f"Generated {date.today().isoformat()}. Injuries collected {inj.get('collected_on', 'n/a')}, weather collected {wx.get('collected_on', 'n/a')}.")
     L.append(f"Each game simulated {C.N_SIMS:,} times. Market weight in the blend: {C.MARKET_WEIGHT:.2f}. See PLAN.md for the method.\n")
     L.append("## Summary\n")
     L.append("| Kickoff (ET) | Matchup | Pick | Win prob | Confidence | Fair ML | Market ML | Proj score | Model vs market |")
@@ -51,7 +51,7 @@ def markdown_report(df: pd.DataFrame, season: int, week: int) -> str:
         L.append(f"**Pick: {r.predicted_winner}** ({r.win_probability:.1%}, {r.confidence}). Projected: {r.away} {r.proj_away_pts:.0f}, {r.home} {r.proj_home_pts:.0f}. Simulated margin sd {r.margin_sd:.1f}.\n")
         if r.game_id in narr:
             L.append(narr[r.game_id] + "\n")
-        L.append(f"- Ratings from 2025 (points vs average, regressed): {r.home} {r.home_rating_2025:+.1f}, {r.away} {r.away_rating_2025:+.1f}. After QB, coaching and injury adjustments: {r.home} {r.home_rating_adj:+.1f}, {r.away} {r.away_rating_adj:+.1f}.")
+        L.append(f"- Ratings entering the week (points vs average): {r.home} {r.home_rating_prior:+.1f}, {r.away} {r.away_rating_prior:+.1f}. After QB, coaching and injury adjustments: {r.home} {r.home_rating_adj:+.1f}, {r.away} {r.away_rating_adj:+.1f}.")
         L.append(f"- Quarterbacks: {r.home} {r.home_qb} ({r.home_qb_adj:+.1f} vs 2025 QB play), {r.away} {r.away_qb} ({r.away_qb_adj:+.1f}).")
         for side, team in (("home", r.home), ("away", r.away)):
             d = r[f"{side}_injury_details"]

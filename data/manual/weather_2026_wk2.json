@@ -1,0 +1,254 @@
+{
+  "collected_on": "2026-09-15",
+  "tropical_outlook": "No tropical threat identified for the Week 2 weekend. Search results referencing the NHC outlook indicate the tropical Atlantic and waters near Florida are quiet with no development expected over the next seven days; NOAA's updated seasonal outlook calls for a below-normal 2026 Atlantic season. Nothing found that would affect Tampa, Baltimore, or the Northeast on Sept 19-20. Tampa's 70% rain chance is ordinary late-summer sea-breeze/convective storms, not a tropical system. Caveat: search snippets only, NHC page not fetched directly; re-check the NHC 7-day graphical outlook later in the week.",
+  "games": {
+    "2026_02_DET_BUF": {
+      "venue": "Highmark Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 65,
+      "wind_mph": 8,
+      "precip_chance_pct": 15,
+      "conditions": "mostly cloudy, mild",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Buffalo forecast for Thu Sept 17: high 75F mostly cloudy, overnight low 54F partly cloudy. 8:15pm kickoff implies mid-60s falling into the upper 50s by the 4th quarter. No rain signal in the snippet; wind not stated, estimated light (Orchard Park can gust, so re-check day-of). Note this is the first season in the new Highmark Stadium.",
+      "sources": [
+        "https://www.timeanddate.com/weather/usa/buffalo/ext",
+        "https://www.nflweather.com/team/bills",
+        "https://forecast.weather.gov/MapClick.php?lat=42.76718000000005&lon=-78.74387999999999"
+      ]
+    },
+    "2026_02_CAR_ATL": {
+      "venue": "Mercedes-Benz Stadium",
+      "roof": "retractable",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 0,
+      "precip_chance_pct": 0,
+      "conditions": "indoor (roof closed); outside sunny, hot, dry, high ~91F",
+      "roof_closed_expected": true,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Atlanta Sunday: sunny, high near 91F, 0% rain chance, W wind 5-10 kt per NWS via local report. Roof almost always closed for Falcons games; with low-90s heat expect closed. Effective game conditions climate-controlled. Some uncertainty whether the local report refers to the Sept 20 Sunday vs. an earlier Sunday.",
+      "sources": [
+        "https://hoodline.com/2026/09/hotlanta-scores-dry-sunday-before-95-degree-heat-roasts-workweek/",
+        "https://forecast.weather.gov/MapClick.php?lat=33.74831000000006&lon=-84.39110999999997"
+      ]
+    },
+    "2026_02_NO_BAL": {
+      "venue": "M&T Bank Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 83,
+      "wind_mph": 7,
+      "precip_chance_pct": 30,
+      "conditions": "humid, morning showers/fog clearing to partly sunny by kickoff",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Local report for Sunday: humid and foggy with showers through ~10am (90% morning PoP, 0.25-0.5 in), fading late morning; partly sunny afternoon with high ~87F, low near 70F. 1pm kickoff should be mostly post-rain but muggy and possibly a damp field. Wind not stated, assumed light. Uncertain whether the report is for Sept 20 specifically; treat as medium confidence.",
+      "sources": [
+        "https://hoodline.com/2026/09/baltimore-bakes-in-muggy-sunday-before-fall-like-monday-cooldown/",
+        "https://forecast.weather.gov/MapClick.php?lat=39.292715100000066&lon=-76.62035579999997"
+      ]
+    },
+    "2026_02_MIN_CHI": {
+      "venue": "Soldier Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 68,
+      "wind_mph": 10,
+      "precip_chance_pct": 40,
+      "conditions": "cloudy, cooler, light afternoon showers possible, easterly lake breeze",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Chicago Sunday described as cooler with light showers developing during the afternoon and fading in the evening; overnight low ~63F with overcast skies and a light east wind. Daytime high not given in snippets; upper 60s to ~70F estimated from the 63F low. East wind off the lake at Soldier Field is the main passing-game factor if it strengthens; 10 mph is an estimate. Noon local kickoff overlaps the shower window.",
+      "sources": [
+        "https://hoodline.com/2026/09/chicago-s-cooler-sunday-comes-before-changing-conditions/",
+        "https://meteostate.com/forecast/us/chicago/",
+        "https://forecast.weather.gov/zipcity.php?inputstring=chicago%2CIL"
+      ]
+    },
+    "2026_02_CIN_HOU": {
+      "venue": "NRG Stadium",
+      "roof": "retractable",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 0,
+      "precip_chance_pct": 0,
+      "conditions": "indoor (roof closed); outside hot and humid, high ~93F, chance of sea-breeze storms",
+      "roof_closed_expected": true,
+      "source_type": "forecast",
+      "confidence": "high",
+      "notes": "Houston Sept 20: high 93F / low 73F. Houston has been under heat advisories with scattered sea-breeze showers; a possible first weak front around Sunday the 20th could bring storm chances. Texans keep the roof closed in heat, so game conditions are climate-controlled regardless.",
+      "sources": [
+        "https://www.accuweather.com/en/us/houston/77002/september-weather/351197",
+        "https://www.click2houston.com/weather/2026/09/13/houston-under-a-heat-advisory-sunday-with-a-chance-for-sea-breeze-showers/",
+        "https://spacecityweather.com/"
+      ]
+    },
+    "2026_02_PIT_NE": {
+      "venue": "Gillette Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 71,
+      "wind_mph": 9,
+      "precip_chance_pct": 35,
+      "conditions": "partly to mostly cloudy, chance of showers, mild",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Boston-area sources disagree: one shows Sept 20 high 72F / low 59F; NWS-style snippet shows partly sunny high ~76F with a 40% chance of showers and mostly cloudy skies. Foxborough-specific day-5 forecast not found. Treat as mild with a moderate shower risk; wind not stated, estimated. Re-check Thursday/Friday.",
+      "sources": [
+        "https://www.timeanddate.com/weather/usa/boston/ext",
+        "https://forecast.weather.gov/MapClick.php?lat=42.36000061035156&lon=-71.05638885498047",
+        "https://forecast.weather.gov/MapClick.php?lon=-71.243355&lat=42.081216"
+      ]
+    },
+    "2026_02_GB_NYJ": {
+      "venue": "MetLife Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 78,
+      "wind_mph": 8,
+      "precip_chance_pct": 20,
+      "conditions": "partly sunny, warm, pleasant",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Newark forecast: Sept 19 high 79F/low 60F, Sept 20 high 80F/low 61F, described as pleasant. Regional September 2026 outlook for NYC/Jersey City shows highs 67-84F. No rain signal found, but the Baltimore/Boston shower systems suggest a small chance; wind assumed light. No tropical concern.",
+      "sources": [
+        "https://www.timeanddate.com/weather/usa/newark/ext",
+        "https://www.accuweather.com/en/us/newark/07102/september-weather/349530",
+        "https://forecast.weather.gov/MapClick.php?lon=-74.1723667&lat=40.735657"
+      ]
+    },
+    "2026_02_CLE_TB": {
+      "venue": "Raymond James Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 89,
+      "wind_mph": 8,
+      "precip_chance_pct": 70,
+      "conditions": "hot and humid, showers and thunderstorms likely",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "NWS-style forecast for Tampa Sunday: showers and thunderstorms likely, 70% PoP, high 88-92F, overnight lows near 80F. Morning brighter with storm threat building in the afternoon, so a 1pm kickoff carries real lightning-delay risk in the 2nd half. Typical Gulf-coast September convection, not a tropical system; heat index likely 100F+. Wind light apart from storm gusts.",
+      "sources": [
+        "https://forecast.weather.gov/MapClick.php?lat=27.947516299000483&lon=-82.45842937599968",
+        "https://www.accuweather.com/en/us/tampa/33602/weather-forecast/347937",
+        "https://www.weather.gov/tbw/tampabaytropicalweather"
+      ]
+    },
+    "2026_02_PHI_TEN": {
+      "venue": "Nissan Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 76,
+      "wind_mph": 6,
+      "precip_chance_pct": 20,
+      "conditions": "partly cloudy, mild",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "AccuWeather monthly shows Sept 20 high 78F / low 63F for Nashville, slightly below the mid-September norm (~82F/65F). No precipitation detail in snippets; assumed low chance. Wind not stated, assumed light. Noon local kickoff at the mid-70s.",
+      "sources": [
+        "https://www.accuweather.com/en/us/nashville/37243/september-weather/351090",
+        "https://www.weather2travel.com/tennessee/nashville/september/"
+      ]
+    },
+    "2026_02_JAX_DEN": {
+      "venue": "Empower Field at Mile High",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 76,
+      "wind_mph": 8,
+      "precip_chance_pct": 24,
+      "conditions": "partly cloudy, warm, dry air",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Sept 20 Denver: partly cloudy, high 78F / low 50F, 24% chance of precipitation (afternoon mountain-shower type). Local outlets describe a hot Sunday before a cooler, stormier week, suggesting warm and mostly dry game conditions. 2:05pm local kickoff near the daily high. Altitude (5,280 ft) is the constant factor. Wind not stated, assumed light.",
+      "sources": [
+        "https://www.weather25.com/north-america/usa/colorado/denver?page=month&month=September",
+        "https://kdvr.com/weather/weather-forecast/denver-weather-hot-sunday-before-cooler-stormy-week-ahead/",
+        "https://forecast.weather.gov/MapClick.php?textField1=39.7392&textField2=-104.9903"
+      ]
+    },
+    "2026_02_SEA_ARI": {
+      "venue": "State Farm Stadium",
+      "roof": "retractable",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 0,
+      "precip_chance_pct": 0,
+      "conditions": "indoor (roof closed); outside sunny and very hot, 101-110F",
+      "roof_closed_expected": true,
+      "source_type": "forecast",
+      "confidence": "high",
+      "notes": "Glendale/Phoenix Sept 20: sunny and hot, highs 101F (Glendale) to ~110F (NWS Phoenix point forecast), low 78F, SSW wind 5-10 mph gusting 20. Roof will certainly be closed; climate-controlled game conditions.",
+      "sources": [
+        "https://www.accuweather.com/en/us/glendale/85301/september-weather/331843",
+        "https://forecast.weather.gov/MapClick.php?lat=33.52722&lon=-112.29528",
+        "https://forecast.weather.gov/MapClick.php?zoneid=AZZ544"
+      ]
+    },
+    "2026_02_WAS_DAL": {
+      "venue": "AT&T Stadium",
+      "roof": "retractable",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 0,
+      "precip_chance_pct": 0,
+      "conditions": "indoor (roof closed); outside sun and clouds, high ~95F",
+      "roof_closed_expected": true,
+      "source_type": "forecast",
+      "confidence": "high",
+      "notes": "DFW Sunday: sun and clouds, high 95F / low 75F, north wind 5-10 mph, no rain mentioned. Cowboys keep the roof closed in heat; climate-controlled game conditions for the 3:25pm local kickoff.",
+      "sources": [
+        "https://www.nbcdfw.com/weather/nbc-5-weather-forecast/3806840/",
+        "https://forecast.weather.gov/MapClick.php?lat=32.7782&lon=-96.7951"
+      ]
+    },
+    "2026_02_MIA_SF": {
+      "venue": "Levi's Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 74,
+      "wind_mph": 8,
+      "precip_chance_pct": 2,
+      "conditions": "mostly sunny, pleasant",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "high",
+      "notes": "Santa Clara Sept 20: mostly sunny, high 75F / low 57F, 2% chance of precipitation; light and variable wind becoming west 5-10 mph in the afternoon with gusts to ~18 mph. Ideal conditions; 1:25pm local kickoff in the low-to-mid 70s. Sun-side heat on the east stands is the only nuisance.",
+      "sources": [
+        "https://forecast.weather.gov/MapClick.php?lat=37.352395&lon=-121.953076",
+        "https://www.accuweather.com/en/us/san-jose/95110/weather-forecast/347630",
+        "https://forecast.weather.gov/MapClick.php?zoneid=CAZ513"
+      ]
+    },
+    "2026_02_IND_KC": {
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 15,
+      "precip_chance_pct": 70,
+      "conditions": "rain likely, breezy, possible thunderstorms",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Kansas City Sept 20: 70% chance of precipitation, high 79-80F / low 63-64F, winds 7-22 mph (two sources agree). 7:20pm local kickoff is after the daily high, so expect low-to-mid 70s cooling to upper 60s, with rain and gusty winds a genuine factor for SNF. Most weather-impacted outdoor game of the week alongside Tampa. Timing of the rain relative to kickoff is unresolved at day 5.",
+      "sources": [
+        "https://www.timeanddate.com/weather/usa/kansas-city/ext",
+        "https://www.theweather.com/kansas-city.htm",
+        "https://forecast.weather.gov/MapClick.php?lon=-94.627&lat=39.114"
+      ]
+    }
+  }
+}

@@ -18,6 +18,14 @@ def load_json(name: str) -> dict:
     return json.loads(p.read_text()) if p.exists() else {}
 
 
+def load_week_json(base: str, season: int, week: int) -> dict:
+    """Prefer a week-specific file (base_{season}_wk{week}.json), else the season file."""
+    for name in (f"{base}_{season}_wk{week}.json", f"{base}_{season}.json"):
+        if (MANUAL / name).exists():
+            return load_json(name)
+    return {}
+
+
 # ---------------------------------------------------------------- coaching -------------------
 def head_coach_changes(season: int) -> dict[str, dict]:
     """Teams whose Week 1 head coach differs from the coach who finished the prior season."""

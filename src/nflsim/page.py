@@ -17,20 +17,26 @@ TEMPLATE = C.ROOT / "src" / "nflsim" / "templates" / "week1_page.html"
 
 def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) -> str:
     rows = json.load(open(C.OUTPUT / f"week{week}_{season}_predictions.json"))
+    for r in rows:  # older outputs used the 2025-specific column names
+        r.setdefault("home_rating_prior", r.get("home_rating_2025"))
+        r.setdefault("away_rating_prior", r.get("away_rating_2025"))
     pure = json.load(open(C.OUTPUT / f"week{week}_{season}_pure_vs_blend.json"))
-    narr = json.load(open(C.MANUAL / f"narratives_{season}_wk{week}.json"))["games"]
+    npath = C.MANUAL / f"narratives_{season}_wk{week}.json"
+    narr = json.load(open(npath))["games"] if npath.exists() else {}
     value = json.load(open(C.OUTPUT / f"week{week}_{season}_value.json"))
     NAMES = {"ARI":"Cardinals","ATL":"Falcons","BAL":"Ravens","BUF":"Bills","CAR":"Panthers","CHI":"Bears","CIN":"Bengals","CLE":"Browns","DAL":"Cowboys","DEN":"Broncos","DET":"Lions","GB":"Packers","HOU":"Texans","IND":"Colts","JAX":"Jaguars","KC":"Chiefs","LA":"Rams","LAC":"Chargers","LV":"Raiders","MIA":"Dolphins","MIN":"Vikings","NE":"Patriots","NO":"Saints","NYG":"Giants","NYJ":"Jets","PHI":"Eagles","PIT":"Steelers","SEA":"Seahawks","SF":"49ers","TB":"Buccaneers","TEN":"Titans","WAS":"Commanders"}
     def ml(x): x=int(x); return f"+{x}" if x>0 else str(x)
+    import datetime as _d
     def window(r):
-        k=r['kickoff']
-        if k.startswith('2026-09-09'): return ('Wednesday, Sept 9','Kickoff game')
-        if k.startswith('2026-09-10'): return ('Thursday, Sept 10','Melbourne, neutral site')
-        if k.startswith('2026-09-14'): return ('Monday, Sept 14','Monday Night Football')
-        t=k.split(' ')[1]
-        if t=='13:00': return ('Sunday, Sept 13','Early window, 1:00 ET')
-        if t=='16:25': return ('Sunday, Sept 13','Late window, 4:25 ET')
-        return ('Sunday, Sept 13','Sunday Night Football')
+        day, t, _ = r['kickoff'].split(' ')
+        d = _d.date.fromisoformat(day); label = d.strftime('%A, %b %-d')
+        wd = d.weekday()
+        if wd == 3: return (label, 'Thursday Night Football')
+        if wd == 0: return (label, 'Monday Night Football')
+        if wd != 6: return (label, 'Kickoff game')
+        if t <= '13:30': return (label, 'Early window, 1:00 ET')
+        if t <= '17:00': return (label, 'Late window, 4:05 and 4:25 ET')
+        return (label, 'Sunday Night Football')
     groups={}
     for r in rows: groups.setdefault(window(r),[]).append(r)
     tier_cls={'Very High':'t-vhigh','High':'t-high','Moderate':'t-mod','Lean':'t-lean','Coin flip':'t-flip'}
@@ -65,7 +71,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
      </summary>
      <div class="why">
       <p class="story">{esc(narr.get(r['game_id'],''))}</p>
-      <div class="kv"><span>2025 rating (pts vs avg, regressed)</span><span class="num">{r['home']} {r['home_rating_2025']:+.1f} · {r['away']} {r['away_rating_2025']:+.1f}</span></div>
+      <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">{r['home']} {r['home_rating_prior']:+.1f} · {r['away']} {r['away_rating_prior']:+.1f}</span></div>
       <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">{r['home']} {r['home_rating_adj']:+.1f} · {r['away']} {r['away_rating_adj']:+.1f}</span></div>
       <div class="kv"><span>Quarterbacks</span><span>{r['home']} {esc(r['home_qb'])} <span class="num">({r['home_qb_adj']:+.1f})</span> · {r['away']} {esc(r['away_qb'])} <span class="num">({r['away_qb_adj']:+.1f})</span></span></div>
       <div class="kv"><span>{r['home']} injuries <span class="num">({r['home_injury_pts']:+.1f})</span></span><span>{inj(r['home_injury_details'])}</span></div>
@@ -118,7 +124,30 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
                   f"A parlay of the {len(favs)} High-confidence picks ({', '.join(l['side'] for l in favs)}) hits about {fp:.0%} of the time and pays {fd-1:.1f} to 1, "
                   f"an expected return of {fp*fd-1:+.0%}: parlays multiply the book's margin and the model's error together. "
                   f"Prices here are the nflverse opening lines; compare with current odds before acting, because the largest edges come from injury news the opening line did not know about.")
+    # track record from every evaluated week plus the pre-season backtest
+    track = []
+    bt = C.OUTPUT / "backtest_2025_wk1_scores.csv"
+    labels = {"p_blend": "Model + market blend", "blend": "Model + market blend", "p_model": "Model only", "pure_model": "Model only",
+              "p_market_spread": "Market spread only", "market_spread": "Market spread only", "p_market_ml": "Market moneyline only", "market_ml": "Market moneyline only"}
+    import csv
+    if bt.exists():
+        for r in csv.DictReader(open(bt)):
+            if r["method"] in labels:
+                track.append(f"<tr><td>2025 wk 1 (backtest)</td><td>{labels[r['method']]}</td><td class='num'>{float(r['log_loss']):.3f}</td><td class='num'>{float(r['brier']):.3f}</td><td class='num'>{round(float(r['accuracy'])*16)} / 16</td></tr>")
+    for w in range(1, week):
+        f = C.OUTPUT / f"week{w}_{season}_evaluation_scores.csv"
+        if f.exists():
+            for r in csv.DictReader(open(f)):
+                if r["method"] in labels:
+                    track.append(f"<tr><td>{season} wk {w}</td><td>{labels[r['method']]}</td><td class='num'>{float(r['log_loss']):.3f}</td><td class='num'>{float(r['brier']):.3f}</td><td class='num'>{round(float(r['accuracy'])*16)} / 16</td></tr>")
+    changes_path = C.MANUAL / f"model_changes_{season}_wk{week}.html"
+    changes = changes_path.read_text() if changes_path.exists() else ""
+    nflips = sum(1 for r in rows if pure[r['game_id']]['flip'])
+    flip_intro = (f"Run the data alone and {nflips} pick{'s' if nflips != 1 else ''} flip{'' if nflips != 1 else 's'}." if nflips else "Run the data alone and no pick flips; the market only moves the probabilities.")
+    import datetime as _dt
     page = page.replace('{{VALUE}}', ''.join(vrows)).replace('{{VALUE_NOTE}}', value_note)
+    page = page.replace('{{WEEK}}', str(week)).replace('{{NGAMES}}', str(len(rows))).replace('{{BUILT}}', f"built {_dt.date.today().strftime('%b %-d, %Y')}")
+    page = page.replace('{{TRACK}}', ''.join(track)).replace('{{CHANGES}}', changes).replace('{{FLIP_INTRO}}', flip_intro)
     page = page.replace('{{GAMES}}',''.join(out)).replace('{{TIERS}}',tier_html).replace('{{FLIPS}}',''.join(flip_rows)).replace('{{SHIFTS}}',shift_text)
     if fragment:
         return page

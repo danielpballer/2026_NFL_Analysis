@@ -1,0 +1,98 @@
+{
+  "2026_02_DET_BUF": {
+    "p_home_pure": 0.6384,
+    "p_home_market": 0.6411,
+    "pick_pure": "BUF",
+    "flip": false
+  },
+  "2026_02_CAR_ATL": {
+    "p_home_pure": 0.626,
+    "p_home_market": 0.4556,
+    "pick_pure": "ATL",
+    "flip": false
+  },
+  "2026_02_CIN_HOU": {
+    "p_home_pure": 0.6573,
+    "p_home_market": 0.5957,
+    "pick_pure": "HOU",
+    "flip": false
+  },
+  "2026_02_CLE_TB": {
+    "p_home_pure": 0.6851,
+    "p_home_market": 0.7556,
+    "pick_pure": "TB",
+    "flip": false
+  },
+  "2026_02_GB_NYJ": {
+    "p_home_pure": 0.3126,
+    "p_home_market": 0.3619,
+    "pick_pure": "GB",
+    "flip": false
+  },
+  "2026_02_MIN_CHI": {
+    "p_home_pure": 0.5365,
+    "p_home_market": 0.6726,
+    "pick_pure": "CHI",
+    "flip": false
+  },
+  "2026_02_NO_BAL": {
+    "p_home_pure": 0.709,
+    "p_home_market": 0.7547,
+    "pick_pure": "BAL",
+    "flip": false
+  },
+  "2026_02_PHI_TEN": {
+    "p_home_pure": 0.3151,
+    "p_home_market": 0.2876,
+    "pick_pure": "PHI",
+    "flip": false
+  },
+  "2026_02_PIT_NE": {
+    "p_home_pure": 0.69,
+    "p_home_market": 0.6727,
+    "pick_pure": "NE",
+    "flip": false
+  },
+  "2026_02_JAX_DEN": {
+    "p_home_pure": 0.376,
+    "p_home_market": 0.5818,
+    "pick_pure": "JAX",
+    "flip": false
+  },
+  "2026_02_LV_LAC": {
+    "p_home_pure": 0.613,
+    "p_home_market": 0.7157,
+    "pick_pure": "LAC",
+    "flip": false
+  },
+  "2026_02_MIA_SF": {
+    "p_home_pure": 0.847,
+    "p_home_market": 0.8633,
+    "pick_pure": "SF",
+    "flip": false
+  },
+  "2026_02_SEA_ARI": {
+    "p_home_pure": 0.2838,
+    "p_home_market": 0.3622,
+    "pick_pure": "SEA",
+    "flip": false
+  },
+  "2026_02_WAS_DAL": {
+    "p_home_pure": 0.5405,
+    "p_home_market": 0.6119,
+    "pick_pure": "DAL",
+    "flip": false
+  },
+  "2026_02_IND_KC": {
+    "p_home_pure": 0.6949,
+    "p_home_market": 0.7017,
+    "pick_pure": "KC",
+    "flip": false
+  },
+  "2026_02_NYG_LA": {
+    "p_home_pure": 0.6928,
+    "p_home_market": 0.7147,
+    "pick_pure": "LA",
+    "flip": false
+  }
+}

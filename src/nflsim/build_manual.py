@@ -11,7 +11,8 @@ import pandas as pd
 
 from . import config as C
 
-RESEARCH = C.ROOT / "data" / "research"
+RESEARCH_ROOT = C.ROOT / "data" / "research"
+OFFICIAL_STATUS = {"Out": "Out", "Doubtful": "Doubtful", "Questionable": "Questionable"}
 STATUS_NORMALISE = {"exempt": "Suspended", "commissioner exempt": "Suspended", "ir-return": "IR", "ir (designated to return)": "IR"}
 POS_NORMALISE = {"T": "OT", "OT": "OT", "G": "G", "OL": "OL", "C": "C", "DE": "DE", "EDGE": "EDGE", "OLB": "OLB", "DT": "DT",
                  "DL": "DL", "NT": "NT", "LB": "LB", "ILB": "ILB", "CB": "CB", "S": "S", "FS": "S", "SS": "S", "DB": "DB",
@@ -39,7 +40,12 @@ def match_override(team: str, name: str, players: dict) -> dict:
 
 
 def roster_index() -> dict[str, tuple[str, str]]:
-    r = pd.read_csv(C.RAW / "roster_2026.csv", low_memory=False)
+    weekly = C.RAW / f"roster_weekly_{C.SEASON}.csv"
+    if weekly.exists():
+        r = pd.read_csv(weekly, low_memory=False)
+        r = r[r.week == r.week.max()]
+    else:
+        r = pd.read_csv(C.RAW / "roster_2026.csv", low_memory=False)
     out = {}
     for _, x in r.iterrows():
         key = re.sub(r"[^a-z]", "", str(x.full_name).lower())
@@ -47,12 +53,34 @@ def roster_index() -> dict[str, tuple[str, str]]:
     return out
 
 
+def official_report(season: int, week: int) -> list[dict]:
+    """Rows from the nflverse injuries file for this week (published Wed-Fri of game week)."""
+    path = C.RAW / f"injuries_{season}.csv"
+    if not path.exists():
+        return []
+    inj = pd.read_csv(path)
+    inj = inj[(inj.season == season) & (inj.week == week) & (inj.game_type == "REG") & inj.report_status.isin(OFFICIAL_STATUS)]
+    return [{"team": r.team, "player": r.full_name, "position": r.position, "status": OFFICIAL_STATUS[r.report_status],
+             "injury": f"official report: {r.report_primary_injury}", "starter": True, "source": "nflverse injuries file"}
+            for _, r in inj.iterrows()]
+
+
 def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
     ovr = json.loads((C.MANUAL / "player_overrides.json").read_text())
+    week_ovr = C.MANUAL / f"player_overrides_{season}_wk{week}.json"
+    if week_ovr.exists():
+        extra = json.loads(week_ovr.read_text())
+        ovr["players"].update(extra.get("players", {}))
+        ovr["drop"] = ovr.get("drop", []) + extra.get("drop", [])
     roster = roster_index()
     teams: dict[str, dict] = {}
     warnings = []
-    for f in sorted(RESEARCH.glob("group_*.json")):
+    research_dir = RESEARCH_ROOT / f"wk{week}"
+    official = official_report(season, week)
+    for row in official:
+        teams.setdefault(row["team"], {"players": [], "notes": [], "sources": []})["players"].append(
+            {**{k: v for k, v in row.items() if k != "team"}, "position": norm_pos(row["position"]), "star": False, "roster_status": "official-report"})
+    for f in sorted(research_dir.glob("group_*.json")):
         d = json.loads(f.read_text())
         for team, info in d.get("teams", {}).items():
             entry = teams.setdefault(team, {"players": [], "notes": [], "sources": []})
@@ -86,6 +114,10 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                     row["roster_status"] = "not-on-2026-roster-file"
                 row.update(match_override(team, name, ovr["players"]))
                 entry["players"].append(row)
+    for team, e in teams.items():
+        for p in e["players"]:
+            if p.get("roster_status") == "official-report":
+                p.update(match_override(team, p["player"], ovr["players"]))
     # de-duplicate by name within team (keep the most severe status)
     sev = {s: i for i, s in enumerate(["Returning-expected-to-play", "Probable", "Questionable", "Doubtful", "Out", "Suspended", "NFI", "PUP", "IR"])}
     for team, e in teams.items():
@@ -96,7 +128,9 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                 best[k] = p
         e["players"] = sorted(best.values(), key=lambda p: (-sev[p["status"]], p["player"]))
         e["sources"] = sorted(set(e["sources"]))
-    out = {"season": season, "week": week, "collected_on": "2026-09-05", "method": "web search summaries cross-checked with nflverse roster_2026 status codes; see data/research/", "warnings": warnings, "teams": teams}
+    collected = max([json.loads(f.read_text()).get("collected_on", "") for f in research_dir.glob("*.json")] or ["n/a"])
+    out = {"season": season, "week": week, "collected_on": collected, "official_report_rows": len(official),
+           "method": f"web search summaries (data/research/wk{week}) plus the official nflverse injury report when published, cross-checked with roster status codes", "warnings": warnings, "teams": teams}
     (C.MANUAL / f"injuries_{season}_wk{week}.json").write_text(json.dumps(out, indent=2))
     return out
 

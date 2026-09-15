@@ -1,4 +1,4 @@
-<title>Week 1 Slate 2026</title>
+<title>Week {{WEEK}} Slate 2026</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
@@ -100,14 +100,14 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 <div class="wrap">
  <header class="masthead">
   <div>
-   <div class="eyebrow">2026 NFL season · moneyline simulation · built Sept 4, updated Sept 5, 2026</div>
-   <h1>Week 1 Slate</h1>
-   <p class="lede">Sixteen games, each simulated 20,000 times from opponent-adjusted 2025 efficiency, this year's quarterbacks, injuries and player status, coaching changes, venue and weather, blended with the opening market line. The blue bar starts on the picked team's side and shows that team's win probability; the grey marker is the market's probability for the same team with the vig removed, so a bar that reaches past the marker means the model likes the pick more than the book does. Click any game for the reasoning.</p>
+   <div class="eyebrow">2026 NFL season · moneyline simulation · {{BUILT}}</div>
+   <h1>Week {{WEEK}} Slate</h1>
+   <p class="lede">{{NGAMES}} games, each simulated 20,000 times from team ratings (opponent-adjusted 2025 efficiency, updated with every 2026 game played), this week's quarterbacks, injuries and player status, coaching changes, venue and weather, blended with the market line. The blue bar starts on the picked team's side and shows that team's win probability; the grey marker is the market's probability for the same team with the vig removed, so a bar that reaches past the marker means the model likes the pick more than the book does. Click any game for the reasoning.</p>
   </div>
   <div class="tiers">{{TIERS}}</div>
  </header>
  <section class="split">
-  <div class="split-h"><h2>If the market had no vote</h2><span>Every prediction blends the model's own margin (45%) with the opening spread (55%). Run the data alone and three picks flip; all three are the coin-flip games.</span></div>
+  <div class="split-h"><h2>If the market had no vote</h2><span>Every prediction blends the model's own margin (45%) with the market spread (55%). {{FLIP_INTRO}}</span></div>
   <div class="tbl"><table class="bt flips"><tr><th>Game</th><th>Published pick (blend)</th><th>Pure data</th><th>Market only</th><th>Why the data leans the other way</th></tr>{{FLIPS}}</table></div>
   <p class="split-note">{{SHIFTS}}</p>
  </section>
@@ -123,20 +123,16 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
    <h3>Reading the numbers</h3>
    <ul>
     <li>Confidence: High is 70 percent or better, Moderate 60 to 70, Lean 55 to 60, Coin flip under 55. A High pick still loses about three times in ten.</li>
-    <li>Fair moneyline is what the simulated probability implies. Market is the nflverse opening line, which predates most camp injuries.</li>
+    <li>Fair moneyline is what the simulated probability implies. Market is the nflverse line at build time; compare with current prices before acting.</li>
     <li>"vs market" is the pick's model probability minus the market's vig-free probability. Positive means the model likes the pick more than the book does.</li>
-    <li>Injury and weather inputs come from web search summaries on Sept 4 and 5 and should be refreshed on game day.</li>
+    <li>Injury and weather inputs come from web search summaries and, once published, the official injury report; refresh on game day.</li>
    </ul>
   </div>
   <div>
-   <h3>Validation on 2025 Week 1</h3>
-   <p>The same pipeline, fed only 2024 data plus 2025 opening lines, scored against last year's actual Week 1 results. Lower is better for log loss and Brier; 16 games, so a sanity check rather than proof.</p>
-   <div class="tbl"><table class="bt"><tr><th>Method</th><th>Log loss</th><th>Brier</th><th>Winners</th></tr>
-   <tr><td>Model + market blend</td><td class="num">0.535</td><td class="num">0.176</td><td class="num">13 / 16</td></tr>
-   <tr><td>Model only</td><td class="num">0.531</td><td class="num">0.175</td><td class="num">13 / 16</td></tr>
-   <tr><td>Market spread only</td><td class="num">0.545</td><td class="num">0.179</td><td class="num">13 / 16</td></tr>
-   <tr><td>Market moneyline only</td><td class="num">0.559</td><td class="num">0.187</td><td class="num">13 / 16</td></tr>
-   <tr><td>Coin flip</td><td class="num">0.693</td><td class="num">0.250</td><td class="num">8 / 16</td></tr></table></div>
+   <h3>Track record</h3>
+   <p>Each completed week scored against actual results. Lower is better for log loss and Brier. The 2025 row is the pre-season backtest (2024 data plus 2025 opening lines).</p>
+   <div class="tbl"><table class="bt"><tr><th>Week</th><th>Method</th><th>Log loss</th><th>Brier</th><th>Winners</th></tr>{{TRACK}}</table></div>
+   {{CHANGES}}
   </div>
  </footer>
 </div>
