@@ -12,13 +12,13 @@
       "schedule_projected_starter": "Jacoby Brissett"
     },
     "ATL": {
-      "starter": "Michael Penix Jr.",
-      "pbp_name": "M.Penix",
+      "starter": "Cooper Rush (likely)",
+      "pbp_name": "C.Rush",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Stefanski still had not named a starter as of Sept 5; Penix (ACL return, no preseason snaps) is the reported favorite over Tua Tagovailoa after Tua's poor preseason. Value trimmed for rust and variance widened for the open competition.",
-      "value_override": -1.2,
-      "extra_sd": 2.0,
+      "notes": "Starter undecided as of Monday: Cooper Rush (2 INT in Week 1) unless Michael Penix Jr. (ACL rehab) or Tua Tagovailoa (oblique) is cleared. Value blends roughly 70 percent Rush with 30 percent Penix or Tua.",
+      "value_override": -2.8,
+      "extra_sd": 1.5,
       "schedule_projected_starter": "Tua Tagovailoa"
     },
     "BAL": {
@@ -67,7 +67,7 @@
       "new_to_team": false,
       "rookie": false,
       "notes": "Deshaun Watson named Week 1 starter over Shedeur Sanders on Aug 31; first start since October 2024 after two Achilles ruptures. Value from his 2024 play, variance widened.",
-      "extra_sd": 1.5,
+      "extra_sd": 1.0,
       "schedule_projected_starter": "Deshaun Watson"
     },
     "DAL": {
@@ -84,7 +84,7 @@
       "new_to_team": false,
       "rookie": false,
       "notes": "Bo Nix recovered from playoff ankle surgery; new OC Davis Webb.",
-      "extra_sd": 0.5,
+      "extra_sd": 0.0,
       "schedule_projected_starter": "Bo Nix"
     },
     "DET": {
@@ -116,9 +116,9 @@
       "pbp_name": "D.Jones",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Daniel Jones starting about nine months after an Achilles tear; Anthony Richardson named QB2 on Sept 3.",
+      "notes": "Daniel Jones started and finished Week 1 in his return from the Achilles tear.",
       "value_override": 0.2,
-      "extra_sd": 1.0,
+      "extra_sd": 0.5,
       "schedule_projected_starter": "Daniel Jones"
     },
     "JAX": {
@@ -134,9 +134,9 @@
       "pbp_name": "P.Mahomes",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Mahomes was a full participant throughout camp after the December 2025 ACL/LCL tear and is on track to start; small rust trim kept. Justin Fields is QB2.",
+      "notes": "Mahomes returned from the ACL/LCL tear in Week 1 (2 TD, 1 INT) and came out healthy.",
       "value_override": 1.8,
-      "extra_sd": 1.0,
+      "extra_sd": 0.5,
       "schedule_projected_starter": "Patrick Mahomes"
     },
     "LA": {
@@ -173,12 +173,13 @@
       "schedule_projected_starter": "Malik Willis"
     },
     "MIN": {
-      "starter": "Kyler Murray",
-      "pbp_name": "K.Murray",
-      "new_to_team": true,
+      "starter": "Carson Wentz",
+      "pbp_name": "C.Wentz",
+      "new_to_team": false,
       "rookie": false,
-      "notes": "Kyler Murray (acquired from ARI) beat out J.J. McCarthy.",
-      "schedule_projected_starter": "Kyler Murray"
+      "notes": "Kyler Murray is in concussion protocol after the first quarter of Week 1 and listed doubtful; Carson Wentz (3 TD in relief) is expected to start in Chicago.",
+      "schedule_projected_starter": "Kyler Murray",
+      "extra_sd": 1.0
     },
     "NE": {
       "starter": "Drake Maye",
@@ -232,12 +233,14 @@
       "schedule_projected_starter": "Aaron Rodgers"
     },
     "SEA": {
-      "starter": "Sam Darnold",
-      "pbp_name": "S.Darnold",
+      "starter": "Drew Lock",
+      "pbp_name": "D.Lock",
       "new_to_team": false,
       "rookie": false,
-      "notes": "",
-      "schedule_projected_starter": "Drew Lock"
+      "notes": "Sam Darnold (hip/glute strain on the opening series of Week 1) is expected to miss Week 2; Drew Lock starts with Jalen Milroe backing up.",
+      "schedule_projected_starter": "Drew Lock",
+      "value_override": -2.0,
+      "extra_sd": 1.0
     },
     "SF": {
       "starter": "Brock Purdy",

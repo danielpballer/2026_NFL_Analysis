@@ -46,10 +46,10 @@ def roster_index() -> dict[str, tuple[str, str]]:
         r = r[r.week == r.week.max()]
     else:
         r = pd.read_csv(C.RAW / "roster_2026.csv", low_memory=False)
-    out = {}
+    out: dict[str, list] = {}
     for _, x in r.iterrows():
         key = re.sub(r"[^a-z]", "", str(x.full_name).lower())
-        out[key] = (x.team, x.status, x.status_description_abbr)
+        out.setdefault(key, []).append((x.team, x.status, x.status_description_abbr))
     return out
 
 
@@ -100,10 +100,11 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                        "injury": p.get("injury", ""), "source": p.get("source", "")}
                 rk = re.sub(r"[^a-z]", "", name.lower())
                 if rk in roster:
-                    rteam, rstatus, rcode = roster[rk]
-                    if rteam != team:
-                        warnings.append(f"{name}: research says {team}, roster says {rteam}; dropped")
+                    hits = [h for h in roster[rk] if h[0] == team]
+                    if not hits:
+                        warnings.append(f"{name}: research says {team}, roster says {sorted({h[0] for h in roster[rk]})}; dropped")
                         continue
+                    rteam, rstatus, rcode = hits[0]
                     row["roster_status"] = f"{rstatus}/{rcode}"
                     if rstatus in ("RES",) and status in ("Questionable", "Probable", "Returning-expected-to-play"):
                         warnings.append(f"{name}: roster reserve list but research status {status}; using roster (IR)")
@@ -118,12 +119,12 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
         for p in e["players"]:
             if p.get("roster_status") == "official-report":
                 p.update(match_override(team, p["player"], ovr["players"]))
-    # de-duplicate by name within team (keep the most severe status)
+    # de-duplicate by name, then by first initial + last name + position, within team (keep the most severe status)
     sev = {s: i for i, s in enumerate(["Returning-expected-to-play", "Probable", "Questionable", "Doubtful", "Out", "Suspended", "NFI", "PUP", "IR"])}
     for team, e in teams.items():
         best = {}
         for p in e["players"]:
-            k = p["player"]
+            k = f"{p['player'][:1].lower()}|{_last(p['player'])}"
             if k not in best or sev[p["status"]] > sev[best[k]["status"]]:
                 best[k] = p
         e["players"] = sorted(best.values(), key=lambda p: (-sev[p["status"]], p["player"]))

@@ -1,0 +1,247 @@
+{
+  "collected_on": "2026-09-15",
+  "method_note": "WebSearch only (45 searches). Monday/Tuesday reports for Sunday teams are pre-first-practice; Thursday teams (DET/BUF) had estimated Monday reports. Items marked 'not found' were not confirmed by any search result.",
+  "teams": {
+    "DET": {
+      "week1_result": "W 31-30 (OT) vs NO (home, Ford Field)",
+      "qb": {
+        "starter": "Jared Goff",
+        "backup": "Joshua Dobbs (per most recent SI depth chart; an OTA-era report listed Teddy Bridgewater - treat backup as Dobbs, unconfirmed)",
+        "changed_from_week1": false,
+        "notes": "Goff played full game and threw the OT-winning TD to Amon-Ra St. Brown. No QB injury."
+      },
+      "injuries": [
+        {"player": "Christian Mahogany", "position": "LG", "status": "Doubtful", "injury": "Hip (initially announced as knee; knee scans clean) - fell awkwardly while pulling on a Gibbs run on 2nd possession Week 1, carted off. Est. DNP Monday. Campbell: not serious long-term but 'could be tough to get him ready for Thursday'.", "starter": true, "source": "https://sports.yahoo.com/articles/dan-campbell-provides-christian-mahogany-223936591.html"},
+        {"player": "Blake Miller", "position": "RT", "status": "Questionable", "injury": "Knee - rookie starting RT, est. DNP on Monday's Week 2 report; Campbell said he'd feel better about Miller than Mahogany, decision closer to Thursday.", "starter": true, "source": "https://sports.yahoo.com/articles/ot-blake-millers-status-jeopardy-214128759.html"},
+        {"player": "Juice Scruggs", "position": "C", "status": "Questionable", "injury": "Knee - starting center (filling in for Cade Mays), est. limited on Monday's report.", "starter": true, "source": "https://www.prideofdetroit.com/detroit-lions-injuries/173056/lions-bills-injury-report-3-offensive-linemen-start-week-injured"},
+        {"player": "Cade Mays", "position": "C", "status": "IR", "injury": "Broken wrist - on injured reserve, expected to miss at least first four games (carry-over from Week 1).", "starter": true, "source": "https://sports.yahoo.com/articles/lions-news-key-o-lineman-050053669.html"},
+        {"player": "Izien (first name not captured in search results)", "position": "DB (position not confirmed)", "status": "Returning-expected-to-play", "injury": "Groin - was unavailable Week 1 vs Saints; listed as full participant on Monday's Week 2 report.", "starter": false, "source": "https://sports.yahoo.com/articles/detroit-lions-release-initial-week-201124694.html"},
+        {"player": "Derrick Moore", "position": "DE", "status": "Probable", "injury": "Hamstring - rookie, dealt with it before Week 1; Campbell expected him to play Week 1. Not listed on Monday's Week 2 report in results found.", "starter": false, "source": "https://heavy.com/sports/nfl/detroit-lions/lions-campbell-reveals-derrick-moore-status/"}
+      ],
+      "context_notes": [
+        "Three of five starting OL (Mahogany LG, Scruggs C, Miller RT) on Monday's estimated report for a short week; Mays (C) already on IR - OL depth is the main Week 2 concern at Buffalo.",
+        "Lions squandered a 21-point lead vs Saints before winning in OT; Saints QB Shough threw for 410 yards on that defense.",
+        "Thursday Night Football at Buffalo is the first regular-season game at the new Highmark Stadium (Bills home opener)."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/detroit-lions-release-initial-week-201124694.html",
+        "https://www.prideofdetroit.com/detroit-lions-injuries/173056/lions-bills-injury-report-3-offensive-linemen-start-week-injured",
+        "https://sports.yahoo.com/articles/dan-campbell-provides-christian-mahogany-223936591.html",
+        "https://sports.yahoo.com/articles/ot-blake-millers-status-jeopardy-214128759.html",
+        "https://sports.yahoo.com/articles/lions-news-key-o-lineman-050053669.html",
+        "https://www.espn.com/nfl/recap/_/gameId/401872923",
+        "https://www.si.com/nfl/lions/onsi/detroit-lions-2026-week-one-updated-depth-chart"
+      ]
+    },
+    "BUF": {
+      "week1_result": "W 36-31 at HOU",
+      "qb": {
+        "starter": "Josh Allen",
+        "backup": "not found in search results",
+        "changed_from_week1": false,
+        "notes": "Allen 20/29, 334 yds, 2 pass TD + 2 rush TD vs Houston; no injury reported."
+      },
+      "injuries": [
+        {"player": "Taron Johnson", "position": "CB (nickel)", "status": "Questionable", "injury": "Quad - new; est. DNP on Monday's first Week 2 report.", "starter": true, "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html"},
+        {"player": "James Cook", "position": "RB", "status": "Questionable", "injury": "Hamstring - new; visited medical tent briefly early in Week 1 game, added to Week 2 report.", "starter": true, "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html"},
+        {"player": "Terrel Bernard", "position": "LB", "status": "Probable", "injury": "Calf - est. limited Monday; reported likely to play Thursday.", "starter": true, "source": "https://sports.yahoo.com/articles/bills-vs-lions-injury-detroits-143958100.html"},
+        {"player": "Cole Bishop", "position": "S", "status": "Probable", "injury": "Knee/groin - briefly left Week 1 game after tackling David Montgomery, returned to start 2nd half (7 tackles); est. full participant Monday.", "starter": true, "source": "https://sports.yahoo.com/articles/bills-vs-lions-injury-detroits-143958100.html"},
+        {"player": "Bradley Chubb", "position": "EDGE", "status": "Probable", "injury": "Thumb - est. full participant Monday; expected to play.", "starter": true, "source": "https://sports.yahoo.com/articles/bills-vs-lions-injury-detroits-143958100.html"},
+        {"player": "T.J. Sanders", "position": "DL", "status": "Questionable", "injury": "Knee - suffered in practice Week 1 week; inactive vs Houston; est. limited Monday.", "starter": false, "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html"},
+        {"player": "Ty Johnson", "position": "RB", "status": "Questionable", "injury": "Hamstring - injured Aug. 8 intrasquad practice, missed 1+ month; was questionable Week 1; est. limited Monday.", "starter": false, "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html"},
+        {"player": "Jordan Hancock", "position": "DB", "status": "Probable", "injury": "Quad - played Week 1 on special teams only (23 snaps); est. full participant Monday.", "starter": false, "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html"}
+      ],
+      "context_notes": [
+        "Week 2 is Buffalo's home opener and the first regular-season game at the new Highmark Stadium.",
+        "D.J. Moore (WR1) had a 43-yd TD; Josh Palmer caught the 34-yd go-ahead TD with 1:36 left. Dawson Knox is starting TE.",
+        "Week 1 depth chart: Allen QB, Cook RB, Moore WR1."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html",
+        "https://sports.yahoo.com/articles/bills-vs-lions-injury-detroits-143958100.html",
+        "https://www.twobillsdrive.com/2026/09/15/bills-vs-lions-injury-update-detroits-offensive-line-limps-into-thursday-night-football/",
+        "https://www.footballnationusa.com/post/bills-36-texans-31-recap-josh-allen-week-1-2026",
+        "https://www.si.com/nfl/bills/onsi/depth-chart-week-1-buffalo-bills-answer-eight-questions-heading-into-sunday-opener"
+      ]
+    },
+    "CAR": {
+      "week1_result": "L 37-59 vs CHI (home) - highest-scoring Week 1 game in NFL history",
+      "qb": {
+        "starter": "Bryce Young",
+        "backup": "Kenny Pickett (Andy Dalton was traded to PHI in March 2026)",
+        "changed_from_week1": false,
+        "notes": "No injury to Young reported; he is a team captain."
+      },
+      "injuries": [
+        {"player": "Bobby Brown III", "position": "DT", "status": "Questionable", "injury": "Back - was limited early Week 1 week, then in and out of Bears game (left in 2nd half, helped off, returned); 'will be evaluated this week'.", "starter": true, "source": "https://www.si.com/nfl/panthers/onsi/what-happened-to-bobby-brown-panthers-d-line-gets-even-thinner"},
+        {"player": "Derrick Brown", "position": "DT", "status": "Probable", "injury": "Went to medical tent during Bears game, returned to game. No further designation reported.", "starter": true, "source": "https://www.si.com/nfl/panthers/onsi/what-happened-to-bobby-brown-panthers-d-line-gets-even-thinner"},
+        {"player": "Patrick Jones II", "position": "EDGE", "status": "Out", "injury": "Back - ruled out Week 1, described as week-to-week.", "starter": true, "source": "https://www.panthers.com/news/week-1-friday-injury-report-pat-jones-out-jonathon-brooks-clear-panthers-chicago-bears"},
+        {"player": "Taylor Moton", "position": "RT", "status": "NFI", "injury": "Blood clot in lungs - must miss at least first four games (reserve list; exact list designation not confirmed).", "starter": true, "source": "https://www.catscratchreader.com/carolina-panthers-injuries/60804/panthers-injury-report-transactions-week-1"},
+        {"player": "Brady Christensen", "position": "OL", "status": "IR", "injury": "Hamstring - out at least first four games.", "starter": false, "source": "https://www.catscratchreader.com/carolina-panthers-injuries/60804/panthers-injury-report-transactions-week-1"},
+        {"player": "Nic Scourton", "position": "EDGE", "status": "IR", "injury": "Torn ACL in training camp - out for the 2026 season.", "starter": true, "source": "https://atozsports.com/nfl/carolina-panthers-news/panthers-major-injury-updates-dave-canales-xavier-legette-chuba-hubbard/"},
+        {"player": "Jonathon Brooks", "position": "RB", "status": "Probable", "injury": "Knee soreness in camp; cleared/full participant and no designation for Week 1.", "starter": false, "source": "https://www.panthers.com/news/week-1-friday-injury-report-pat-jones-out-jonathon-brooks-clear-panthers-chicago-bears"}
+      ],
+      "context_notes": [
+        "Defense allowed a franchise-record 59 points; team 'looking for answers'. Caleb Williams had 2 pass + 2 rush TD; D'Andre Swift 124 yds, 3 TD against them.",
+        "D-line already thin (Scourton out for year, Jones out) before Bobby Brown/Derrick Brown scares.",
+        "Chuba Hubbard, Tetairoa McMillan expected active Week 2; Hubbard recovered from camp hamstring. Darren Waller (TE) joined late in camp.",
+        "Panthers at Falcons, Sun Sept 20, 1 p.m. ET, FOX."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872661",
+        "https://www.panthers.com/news/rapid-reactions-as-injuries-pile-up-panthers-fall-to-bears",
+        "https://www.si.com/nfl/panthers/onsi/what-happened-to-bobby-brown-panthers-d-line-gets-even-thinner",
+        "https://www.panthers.com/news/week-1-friday-injury-report-pat-jones-out-jonathon-brooks-clear-panthers-chicago-bears",
+        "https://www.catscratchreader.com/carolina-panthers-injuries/60804/panthers-injury-report-transactions-week-1",
+        "https://sports.yahoo.com/articles/panthers-backup-quarterback-carolinas-2026-075002217.html",
+        "https://www.wbtv.com/2026/09/15/panthers-looking-answers-after-allowing-franchise-record-59-points-bears/"
+      ]
+    },
+    "ATL": {
+      "week1_result": "L 13-20 at PIT",
+      "qb": {
+        "starter": "UNDECIDED as of Mon 9/14 - candidates: Michael Penix Jr. (if full practice week, no setbacks), Tua Tagovailoa (if oblique allows), else Cooper Rush again",
+        "backup": "Cooper Rush (if Penix or Tua starts)",
+        "changed_from_week1": true,
+        "notes": "Week 1 starter Cooper Rush (12/22, 143 yds, 1 TD, 2 INT; played through back spasms). HC Kevin Stefanski said Monday he has 'no updates' on Tua/Penix and no timeline to name a starter. Tua (oblique, hurt in practice Thu before Week 1) is day-to-day/week-to-week. Penix (rehab from 2025 torn ACL) targeting Week 2 or 3 and has said he needs to clear a mental hurdle before taking live hits. Team reportedly 'hoping' Penix is ready for Week 2."
+      },
+      "injuries": [
+        {"player": "Michael Penix Jr.", "position": "QB", "status": "Questionable", "injury": "Knee (torn ACL last season) - inactive Week 1; eyeing Week 2 or 3 debut.", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/falcons-michael-penix-eyeing-return-for-week-2-or-3/"},
+        {"player": "Tua Tagovailoa", "position": "QB", "status": "Questionable", "injury": "Oblique - suffered in practice Thursday before Week 1, ruled out vs PIT; day-to-day/week-to-week.", "starter": true, "source": "https://www.thefalcoholic.com/atlanta-falcons-depth-chart/96202/kevin-stefanski-tua-tagovailoa-michael-penix-jr-cooper-rush-quarterback-injuries-starter"},
+        {"player": "Cooper Rush", "position": "QB", "status": "Probable", "injury": "Back spasms - started and finished Week 1.", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/falcons-michael-penix-eyeing-return-for-week-2-or-3/"},
+        {"player": "Da'Shawn Hand", "position": "DT", "status": "IR", "injury": "Torn quad - 7 snaps into Week 1 vs PIT; Stefanski confirmed season over, surgery coming.", "starter": false, "source": "https://www.yardbarker.com/nfl/articles/kevin_stefanski_confirms_devastating_season_ending_blow_for_falcons_defender_after_torn_quad/s1_17730_44304249"},
+        {"player": "Drake London", "position": "WR", "status": "Questionable", "injury": "Shoulder - left Week 1 game early; no Week 2 designation yet.", "starter": true, "source": "https://www.si.com/nfl/falcons/news/another-atlanta-falcon-joins-growing-list-of-injured-receivers"},
+        {"player": "Darnell Mooney", "position": "WR", "status": "Questionable", "injury": "Shoulder - lingering issue, did not suit up Week 1.", "starter": true, "source": "https://www.si.com/nfl/falcons/news/another-atlanta-falcon-joins-growing-list-of-injured-receivers"},
+        {"player": "Billy Bowman", "position": "CB", "status": "Out", "injury": "Achilles - ruled out Week 1; no update found.", "starter": false, "source": "https://www.cbssports.com/nfl/news/nfl-week-1-injuries-tracker-rome-odunze-alvin-kamara/"},
+        {"player": "Cameron Williams", "position": "OL", "status": "Out", "injury": "Ankle - ruled out Week 1; no update found.", "starter": false, "source": "https://www.cbssports.com/nfl/news/nfl-week-1-injuries-tracker-rome-odunze-alvin-kamara/"}
+      ],
+      "context_notes": [
+        "Kevin Stefanski is Falcons head coach; QB room is Tua Tagovailoa / Michael Penix Jr. / Cooper Rush.",
+        "Bijan Robinson healthy and productive (83 rush, 90 rec yds, TD) in Week 1.",
+        "WR corps banged up (London shoulder, Mooney shoulder) on top of QB uncertainty; D-line lost Hand for season.",
+        "Home opener vs Panthers Sun Sept 20, 1 p.m. ET at Mercedes-Benz Stadium."
+      ],
+      "sources": [
+        "https://www.thefalcoholic.com/atlanta-falcons-depth-chart/96202/kevin-stefanski-tua-tagovailoa-michael-penix-jr-cooper-rush-quarterback-injuries-starter",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-have-no-updates-on-week-2-quarterback-situation",
+        "https://www.cbssports.com/fantasy/football/news/falcons-michael-penix-eyeing-return-for-week-2-or-3/",
+        "https://sports.yahoo.com/articles/falcons-rumors-atlanta-hoping-michael-184903095.html",
+        "https://bleacherreport.com/articles/25499549-michael-penix-jr-tua-injury-updates-new-rumors-falcons-qbs-week-2-vs-panthers",
+        "https://www.yardbarker.com/nfl/articles/kevin_stefanski_confirms_devastating_season_ending_blow_for_falcons_defender_after_torn_quad/s1_17730_44304249",
+        "https://www.si.com/nfl/falcons/news/another-atlanta-falcon-joins-growing-list-of-injured-receivers"
+      ]
+    },
+    "NO": {
+      "week1_result": "L 30-31 (OT) at DET",
+      "qb": {
+        "starter": "Tyler Shough",
+        "backup": "Spencer Rattler (listed as primary backup on initial depth chart; Zach Wilson also on 53-man roster, competition was not fully settled per Kellen Moore)",
+        "changed_from_week1": false,
+        "notes": "Shough 35/56, career-high 410 yds, 3 TD, 2 INT, 1 lost fumble; rallied from 21 down to force OT. Healthy for Week 2."
+      },
+      "injuries": [
+        {"player": "Alvin Kamara", "position": "RB", "status": "Questionable", "injury": "Sprained MCL (Aug. joint practice vs DAL; Schefter: at least a month) - returned to practice Wed 9/9 but inactive Week 1. Moore Monday: 'progressing well', 'will be a part of this here shortly', stopped short of confirming Week 2.", "starter": true, "source": "https://heavy.com/sports/nfl/new-orleans-saints/alvin-kamara-injury-news-ravens-game/"},
+        {"player": "Cameron Jordan", "position": "DE", "status": "Out", "injury": "Hamstring (one recap listed ankle) - inactive Week 1, has not practiced yet; not on IR, could return by ~Week 4.", "starter": true, "source": "https://www.si.com/nfl/saints/onsi/saints-practice-notebook-alvin-kamara-returns-cam-jordan-still-out-01m245g71a43"},
+        {"player": "Chris Olave", "position": "WR", "status": "Probable", "injury": "Calf cramping - left Week 1 game twice (trainers checked lower right leg) but returned; not considered serious. 10 catches, 182 yds.", "starter": true, "source": "https://sports.yahoo.com/articles/saints-chris-olave-injury-scare-194645747.html"}
+      ],
+      "context_notes": [
+        "Saints open as 8.5-point underdogs at Baltimore.",
+        "Three Saints were listed OUT on the Friday Week 1 report; only Kamara and Jordan were identified in results.",
+        "Noah Fant (TE) and Bryce Lance (WR) were targets in OT; Lance was the target on the failed game-winning 2-pt try.",
+        "Kellen Moore is head coach."
+      ],
+      "sources": [
+        "https://www.neworleanssaints.com/news/2026-nfl-week-1-detroit-lions-vs-new-orleans-saints-game-recap",
+        "https://heavy.com/sports/nfl/new-orleans-saints/alvin-kamara-injury-news-ravens-game/",
+        "https://www.si.com/nfl/saints/onsi/saints-practice-notebook-alvin-kamara-returns-cam-jordan-still-out-01m245g71a43",
+        "https://sports.yahoo.com/articles/saints-chris-olave-injury-scare-194645747.html",
+        "https://www.canalstreetchronicles.com/new-orleans-saints-odds/114571/what-are-the-odds-saints-open-as-8-5-point-underdogs-for-week-2-at-the-ravens",
+        "https://www.deseret.com/sports/2026/08/31/zach-wilson-spencer-rattler-saints-backup-quarterback-tyler-shough/"
+      ]
+    },
+    "BAL": {
+      "week1_result": "W 41-23 at IND",
+      "qb": {
+        "starter": "Lamar Jackson",
+        "backup": "Tyler Huntley (Joe Fagnano QB3)",
+        "changed_from_week1": false,
+        "notes": "Jackson 324 pass yds, 1 TD; no injury reported."
+      },
+      "injuries": [
+        {"player": "Zay Flowers", "position": "WR", "status": "Questionable", "injury": "Hamstring - aggravated a preseason (joint practice vs MIN) hamstring issue during Week 1 (5 rec, 150 yds, TD before exiting); ruled out in-game. MRI scheduled; not considered serious, day-to-day per coach Jesse Minter.", "starter": true, "source": "https://www.baltimoreravens.com/news/zay-flowers-jakobi-lane-injury-updates-ravens-jesse-minter"},
+        {"player": "Ja'Kobi Lane", "position": "WR", "status": "Out", "injury": "Fractured wrist - rookie WR3, hurt in 1st half Week 1; expected to miss several weeks (IR decision pending).", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49931127/jakobi-lane-zay-flowers-questionable-ravens"},
+        {"player": "T.J. Tampa", "position": "CB", "status": "Out", "injury": "Knee - ruled out in 1st half Week 1; team: 'could be more than a week'.", "starter": false, "source": "https://sports.yahoo.com/articles/ravens-waiting-information-jakobi-lane-193145166.html"}
+      ],
+      "context_notes": [
+        "Offense looked strong (Jackson + Derrick Henry) but WR depth is the concern with Flowers and Lane both hurt; snap-count shuffling at WR.",
+        "Roquan Smith and Marlon Humphrey played well in Week 1.",
+        "Jesse Minter is referenced as Ravens head coach in Monday injury update."
+      ],
+      "sources": [
+        "https://www.baltimoreravens.com/news/zay-flowers-jakobi-lane-injury-updates-ravens-jesse-minter",
+        "https://www.espn.com/nfl/story/_/id/49931127/jakobi-lane-zay-flowers-questionable-ravens",
+        "https://www.cbssports.com/fantasy/football/news/ravens-zay-flowers-day-to-day-heading-into-week-2/",
+        "https://sports.yahoo.com/articles/ravens-waiting-information-jakobi-lane-193145166.html",
+        "https://www.nfl.com/news/notable-injuries-news-from-sunday-s-week-1-games-2026",
+        "https://www.baltimoreravens.com/photos/ravens-2026-week-1-depth-chart"
+      ]
+    },
+    "MIN": {
+      "week1_result": "W 39-22 vs GB (home, U.S. Bank Stadium)",
+      "qb": {
+        "starter": "Carson Wentz (expected; Kyler Murray in concussion protocol)",
+        "backup": "J.J. McCarthy (was No. 3/emergency QB in Week 1 with Wentz No. 2; Week 2 No. 2 not confirmed)",
+        "changed_from_week1": true,
+        "notes": "Week 1 starter Kyler Murray suffered a concussion on a 1st-quarter scramble (hit by Lukas Van Ness/Javon Bullard after sliding), did not return. In protocol; O'Connell Monday: day-by-day, 'came in feeling pretty good', attended meetings. Schefter called it 'troubling/concerning' and Wentz is likely to start at Chicago. Wentz went 12/19, 133 yds, 3 TD in relief."
+      },
+      "injuries": [
+        {"player": "Kyler Murray", "position": "QB", "status": "Doubtful", "injury": "Concussion - 1st quarter Week 1 vs GB; in NFL concussion protocol as of Mon 9/14.", "starter": true, "source": "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-carson-wentz-starting-qb-chicago-bears-jj-mccarthy/601885777"},
+        {"player": "J.J. McCarthy", "position": "QB", "status": "Probable", "injury": "Ankle (preseason) - designated No. 3 QB for Week 1; not expected to start Week 2.", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49883304/vikings-say-mccarthy-no-3-qb-wentz-no-2-week-1"}
+      ],
+      "context_notes": [
+        "Vikings entered Week 1 essentially fully healthy; no other in-game injuries surfaced in searches.",
+        "Justin Jefferson, Jordan Addison, T.J. Hockenson outlook tied to Wentz starting.",
+        "Wentz would make his 100th NFL start if he starts in Chicago."
+      ],
+      "sources": [
+        "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-carson-wentz-starting-qb-chicago-bears-jj-mccarthy/601885777",
+        "https://www.nfl.com/news/vikings-qb-kyler-murray-evaluated-concussion-packers",
+        "https://www.nationalfootballpost.com/2026/09/14/vikings-expected-to-start-qb-carson-wentz-in-week-2",
+        "https://www.espn.com/nfl/story/_/id/49883304/vikings-say-mccarthy-no-3-qb-wentz-no-2-week-1",
+        "https://www.vikings.com/news/injury-report-week-1-green-bay-packers-2026"
+      ]
+    },
+    "CHI": {
+      "week1_result": "W 59-37 at CAR",
+      "qb": {
+        "starter": "Caleb Williams",
+        "backup": "Tyson Bagent (dealing with back injury - see injuries)",
+        "changed_from_week1": false,
+        "notes": "Williams: 200+ pass yds, 2 pass TD, 50+ rush yds, 2 rush TD (franchise first). No injury."
+      },
+      "injuries": [
+        {"player": "Tyson Bagent", "position": "QB", "status": "Questionable", "injury": "Back - injured in Aug. 18 practice; listed DNP on a pre-Week-1 report. Week 2 status not yet published.", "starter": false, "source": "https://sports.yahoo.com/articles/latest-bears-rome-odunze-ozzy-200533656.html"},
+        {"player": "Rome Odunze", "position": "WR", "status": "Probable", "injury": "Calf - limited all Week 1 week, questionable, but played vs CAR. Carry-over monitoring.", "starter": true, "source": "https://www.chicagobears.com/news/injury-update-rome-odunze-among-four-players-questionable-for-sunday-s-season-opener-vs-panthers"},
+        {"player": "Ozzy Trapilo", "position": "LT", "status": "Questionable", "injury": "Knee - still working back from a serious knee procedure; limited on Week 1 report.", "starter": true, "source": "https://sports.yahoo.com/articles/latest-bears-rome-odunze-ozzy-200533656.html"},
+        {"player": "Tyrique Stevenson", "position": "CB", "status": "Questionable", "injury": "Shoulder - battled it throughout the Week 1 game and struggled; was day-to-day pre-Week 1.", "starter": true, "source": "https://www.shawlocal.com/bears/2026/09/14/what-ben-johnson-chicago-bears-said-monday-after-season-opening-win-over-panthers/"},
+        {"player": "Kyle Monangai", "position": "RB", "status": "Probable", "injury": "Hyperextended knee Aug. 16; returned and played Week 1.", "starter": false, "source": "https://www.si.com/nfl/bears/onsi/kyle-monangai-luther-burden-d-andre-swift-and-more-bears-injury-updates-entering-week-1"},
+        {"player": "Kyler Gordon", "position": "CB (nickel)", "status": "PUP", "injury": "On reserve/PUP - out at least first four games.", "starter": true, "source": "https://www.si.com/nfl/bears/onsi/kyle-monangai-luther-burden-d-andre-swift-and-more-bears-injury-updates-entering-week-1"},
+        {"player": "Noah Sewell", "position": "LB", "status": "PUP", "injury": "On reserve/PUP - out at least first four games.", "starter": false, "source": "https://www.si.com/nfl/bears/onsi/kyle-monangai-luther-burden-d-andre-swift-and-more-bears-injury-updates-entering-week-1"},
+        {"player": "Shemar Turner", "position": "DL", "status": "PUP", "injury": "On reserve/PUP - out at least first four games.", "starter": false, "source": "https://www.si.com/nfl/bears/onsi/kyle-monangai-luther-burden-d-andre-swift-and-more-bears-injury-updates-entering-week-1"}
+      ],
+      "context_notes": [
+        "Jaylon Johnson (CB) played Week 1 (forced a fumble but was beaten deep several times); Ben Johnson said both starting CBs must play better. Older search hits about a Jaylon Johnson IR stint appear to be from 2025, not 2026.",
+        "D'Andre Swift 18 carries, 124 yds, 3 TD; Bears' first Week 2 injury report not released until Wednesday (Sunday game).",
+        "Bears host Vikings Sun Sept 20, 1 p.m. ET; opponent QB likely Carson Wentz."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872661",
+        "https://www.shawlocal.com/bears/2026/09/14/what-ben-johnson-chicago-bears-said-monday-after-season-opening-win-over-panthers/",
+        "https://www.chicagobears.com/news/injury-update-rome-odunze-among-four-players-questionable-for-sunday-s-season-opener-vs-panthers",
+        "https://www.si.com/nfl/bears/onsi/kyle-monangai-luther-burden-d-andre-swift-and-more-bears-injury-updates-entering-week-1",
+        "https://sports.yahoo.com/articles/latest-bears-rome-odunze-ozzy-200533656.html",
+        "https://heavy.com/sports/nfl/chicago-bears/kyler-murray-vikings-quarterback-update-news/"
+      ]
+    }
+  }
+}

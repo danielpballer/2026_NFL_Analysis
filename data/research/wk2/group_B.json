@@ -1,0 +1,260 @@
+{
+  "collected_on": "2026-09-15",
+  "method_note": "WebSearch only (45 searches). Only items confirmed in 2026-dated results are included. Several search hits were stale 2024/2025 articles (e.g. Tee Higgins/Ja'Marr Chase vs Texans, David Njoku IR, Myles Garrett) and were deliberately excluded.",
+  "teams": {
+    "CIN": {
+      "week1_result": "W 33-27 vs TB",
+      "qb": {
+        "starter": "Joe Burrow",
+        "backup": "Joe Flacco",
+        "changed_from_week1": false,
+        "notes": "Burrow started and won Week 1; no injury reported. Flacco reported as the 2026 backup (training-camp reporting)."
+      },
+      "injuries": [
+        {"player": "Shemar Stewart", "position": "DE", "status": "Questionable", "injury": "Knee (buckled in camp 11-on-11 drill; ~5 weeks rehab). Only Bengal inactive due to injury in Week 1, described as precautionary after practicing all three days that week.", "starter": true, "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/198923/demetrius-knight-jr-shemar-stewart-texans-bucs"},
+        {"player": "Demetrius Knight Jr.", "position": "LB", "status": "Probable", "injury": "Sidelined late 4th quarter Week 1 vs TB; turned out to be cramping only.", "starter": true, "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/198923/demetrius-knight-jr-shemar-stewart-texans-bucs"},
+        {"player": "DJ Turner II", "position": "CB", "status": "Probable", "injury": "Hamstring; limited Thu/Fri before Week 1 but played vs TB.", "starter": true, "source": "https://www.bengals.com/news/buccaneers-bengals-injury-report-week-1-2026"},
+        {"player": "Brian Parker II", "position": "G", "status": "IR", "injury": "Knee; placed on IR (designated for return) at roster cutdown, out at least first four games.", "starter": false, "source": "https://atozsports.com/nfl/cincinnati-bengals-news/bengals-53-man-roster-roster-cuts-injured-reserve/"},
+        {"player": "Ja'Sir Taylor", "position": "CB", "status": "IR", "injury": "Hamstring; placed on IR (designated for return) at roster cutdown, out at least first four games.", "starter": false, "source": "https://atozsports.com/nfl/cincinnati-bengals-news/bengals-53-man-roster-roster-cuts-injured-reserve/"}
+      ],
+      "context_notes": [
+        "Bengals came out of Week 1 with no new injuries; team has a chance to have the entire 53-man roster healthy for the trip to Houston.",
+        "Cincinnati scored 24 of its 33 points off four Tampa Bay turnovers (all fumbles, three by Mayfield).",
+        "Bengals doubled down on second-year LBs Barrett Carter and Demetrius Knight Jr. as starters in 2026."
+      ],
+      "sources": [
+        "https://www.cincyjungle.com/cincinnati-bengals-injuries/198923/demetrius-knight-jr-shemar-stewart-texans-bucs",
+        "https://sports.yahoo.com/articles/bengals-beat-bucs-stayed-clean-221449734.html",
+        "https://www.bengals.com/news/buccaneers-bengals-injury-report-week-1-2026",
+        "https://atozsports.com/nfl/cincinnati-bengals-news/bengals-53-man-roster-roster-cuts-injured-reserve/",
+        "https://www.bengals.com/news/quick-hits-training-camp-2026-demetrius-knight-shemar-stewart"
+      ]
+    },
+    "HOU": {
+      "week1_result": "L 31-36 vs BUF",
+      "qb": {
+        "starter": "C.J. Stroud",
+        "backup": "Davis Mills",
+        "changed_from_week1": false,
+        "notes": "Stroud threw for 274 yards and 2 TD in Week 1; no injury reported. Mills is the only other QB on the initial 53."
+      },
+      "injuries": [
+        {"player": "Henry To'oTo'o", "position": "LB", "status": "Out", "injury": "Shoulder, injured with 2:34 left in 4th quarter vs BUF (tackling Dawson Knox); seen in a sling postgame. DeMeco Ryans (Mon 9/14) said he will 'miss some time'; IR decision not yet made. Jake Hansen expected to start in his place.", "starter": true, "source": "https://www.houstonchronicle.com/sports/texans/article/henry-to-oto-o-injury-update-22430704.php"},
+        {"player": "Jake Hummel", "position": "LB", "status": "Out", "injury": "Groin/abdominal injury in 3rd quarter vs BUF; expected to miss Week 2, listed week-to-week.", "starter": false, "source": "https://sports.yahoo.com/articles/texans-dealing-significant-injury-concern-011628896.html"},
+        {"player": "Kayden McDonald", "position": "DT", "status": "IR", "injury": "Ankle; rookie placed on IR before Week 1, eligible to return Week 5.", "starter": false, "source": "https://sports.yahoo.com/articles/houston-texans-place-rookie-kayden-210124972.html"},
+        {"player": "Braden Smith", "position": "OT", "status": "IR", "injury": "Torn plantar fascia; placed on IR Sept 1, eligible to return Week 5.", "starter": true, "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"},
+        {"player": "E.J. Speed", "position": "LB", "status": "IR", "injury": "Quad; on IR, eligible to return Week 5.", "starter": true, "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"},
+        {"player": "Tank Dell", "position": "WR", "status": "IR", "injury": "On IR to open season; will miss at least first four games.", "starter": false, "source": "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-1-injury-report"},
+        {"player": "Jayden Higgins", "position": "WR", "status": "IR", "injury": "Torn ACL suffered in training camp; season-ending.", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-1-injury-report"},
+        {"player": "Trent Brown", "position": "OT", "status": "Probable", "injury": "Wrist; full participant before Week 1 and started at RT.", "starter": true, "source": "https://www.houstontexans.com/news/week-1-injury-report-texans-vs-bills"},
+        {"player": "Will Anderson Jr.", "position": "EDGE", "status": "Probable", "injury": "Missed one practice for rest only; off injury report and played Week 1.", "starter": true, "source": "https://athlonsports.com/nfl/trending/final-injury-report-for-bills-texans-will-keon-coleman-will-anderson-jr-play"}
+      ],
+      "context_notes": [
+        "Linebacker depth is the major Week 2 concern: To'oTo'o and Hummel both hurt Sunday, on top of E.J. Speed already on IR; Jake Hansen likely to start.",
+        "Receiving corps thin with Tank Dell (IR) and Jayden Higgins (ACL) out; Nico Collins remains the lead WR.",
+        "Late mistakes cost Houston in a 36-31 loss despite a strong Stroud outing."
+      ],
+      "sources": [
+        "https://www.houstonchronicle.com/sports/texans/article/henry-to-oto-o-injury-update-22430704.php",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/henry-tootoo-will-be-out-for-some-time-with-shoulder-injury",
+        "https://sports.yahoo.com/articles/texans-dealing-significant-injury-concern-011628896.html",
+        "https://www.rotowire.com/football/headlines/jake-hummel-injury-questionable-to-return-abdominal-issue-637099",
+        "https://sports.yahoo.com/articles/houston-texans-place-rookie-kayden-210124972.html",
+        "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+        "https://www.houstonpress.com/news/houston-texans-reveal-initial-53-man-roster-for-2026-season/",
+        "https://www.houstonchronicle.com/sports/texans/article/cj-stroud-houston-bills-opener-22430022.php"
+      ]
+    },
+    "PIT": {
+      "week1_result": "W 20-17 vs ATL",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "Mason Rudolph",
+        "changed_from_week1": false,
+        "notes": "Rodgers (one-year, $25M deal) started Week 1; no injury reported. Steelers kept four QBs: Rodgers, Rudolph, Will Howard, rookie Drew Allar."
+      },
+      "injuries": [
+        {"player": "Jamel Dean", "position": "CB", "status": "Probable", "injury": "Right foot/ankle caught on a pass play in 1st half vs ATL; briefly to medical tent, ankle taped, returned and finished game.", "starter": true, "source": "https://steelersdepot.com/2026/09/steelers-injury-recap-pittsburgh-suffers-bumps-and-bruises-against-atlanta/"},
+        {"player": "Troy Fautanu", "position": "OT", "status": "Probable", "injury": "Undisclosed; trainers attended to him in 2nd half vs ATL, missed one snap (Max Iheanachor debuted), returned.", "starter": true, "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/174563/troy-fauntau-leaves-week-1-game-vs-falcons-with-injury-max-iheanachor-pittsburgh-steelers"},
+        {"player": "Joey Porter Jr.", "position": "CB", "status": "Probable", "injury": "Back (aggravated day 1 of camp, activated off PUP at cutdown); limited on Week 1 report but played.", "starter": true, "source": "https://sports.yahoo.com/articles/steelers-vs-falcons-week-1-204129399.html"},
+        {"player": "DeShon Elliott", "position": "S", "status": "IR", "injury": "Placed on IR designated to return at cutdown; must miss first four games.", "starter": true, "source": "https://steelersdepot.com/2026/08/pittsburgh-steelers-2026-initial-53-man-roster/"},
+        {"player": "Jack Driscoll", "position": "OT", "status": "IR", "injury": "Placed on IR designated to return at cutdown; must miss first four games.", "starter": false, "source": "https://steelersdepot.com/2026/08/pittsburgh-steelers-2026-initial-53-man-roster/"},
+        {"player": "Donte Kent", "position": "CB", "status": "PUP", "injury": "Reserve/PUP at cutdown; out at least first four games.", "starter": false, "source": "https://steelersdepot.com/2026/08/pittsburgh-steelers-2026-initial-53-man-roster/"}
+      ],
+      "context_notes": [
+        "HC Mike McCarthy (first season) said Monday the team came out of the opener healthy; first Week 2 injury report due Wednesday.",
+        "Offense was held to 264 yards; both Pittsburgh TDs came off Cooper Rush turnovers.",
+        "Week 2 opponent New England will be without WR A.J. Brown (IR)."
+      ],
+      "sources": [
+        "https://www.ajc.com/sports/2026/09/falcons-week-1-roundup-steelers-win-opener-20-17/",
+        "https://steelersdepot.com/2026/09/steelers-injury-recap-pittsburgh-suffers-bumps-and-bruises-against-atlanta/",
+        "https://steelersnow.com/steelers-get-good-news-on-injury-front-ahead-of-patriots-game/",
+        "https://steelersdepot.com/2026/08/pittsburgh-steelers-2026-initial-53-man-roster/",
+        "https://985thesportshub.com/2026/05/18/the-patriots-week-2-opponent-now-has-a-quarterback-aaron-rodgers/",
+        "https://www.yardbarker.com/nfl/articles/steelers_announce_unexpected_quarterback_news_after_aaron_rodgers_decision/s1_17615_44244041"
+      ]
+    },
+    "NE": {
+      "week1_result": "L 10-13 at SEA",
+      "qb": {
+        "starter": "Drake Maye",
+        "backup": "Tommy DeVito",
+        "changed_from_week1": false,
+        "notes": "Maye threw three 4th-quarter INTs in the opener; no injury reported. QB room is Maye, DeVito, rookie Behren Morton (Dobbs released in offseason). A Maye in-game incident was reported as possible NFL discipline."
+      },
+      "injuries": [
+        {"player": "A.J. Brown", "position": "WR", "status": "IR", "injury": "High right-ankle sprain, 3rd quarter of opener at SEA; placed on IR Sept 11, out minimum four games (PIT, JAX, BUF, LV).", "starter": true, "source": "https://www.patriots.com/news/analysis-patriots-place-wr-a-j-brown-on-injured-reserve-sign-dt-daquan-jones"},
+        {"player": "TreVeyon Henderson", "position": "RB", "status": "Questionable", "injury": "Ankle; missed all Week 1 practices and was inactive at SEA. Returned to practice Monday 9/14, trending toward Week 2 debut vs PIT.", "starter": true, "source": "https://www.nationalfootballpost.com/2026/09/14/patriots-rb-treveyon-henderson-ankle-returns-to-practice"},
+        {"player": "Nick Emmanwori", "position": "S", "status": "Questionable", "injury": "Ankle; questionable on Week 1 report. Week 2 status not yet updated.", "starter": true, "source": "https://www.patriots.com/news/week-1-injury-report-patriots-at-seahawks"},
+        {"player": "Tory Horton", "position": "WR", "status": "Questionable", "injury": "Hamstring; questionable on Week 1 report. Week 2 status not yet updated.", "starter": false, "source": "https://www.patriots.com/news/week-1-injury-report-patriots-at-seahawks"}
+      ],
+      "context_notes": [
+        "With Brown on IR, WR load falls to Romeo Doubs, DeMario Douglas, Mack Hollins, Kyle Williams and TE Hunter Henry.",
+        "Patriots signed veteran DT DaQuan Jones to fill Brown's roster spot.",
+        "Offense sputtered in the Super Bowl LX rematch loss; Henderson's potential return would restore the lead back."
+      ],
+      "sources": [
+        "https://www.patriots.com/news/analysis-patriots-place-wr-a-j-brown-on-injured-reserve-sign-dt-daquan-jones",
+        "https://www.boston.com/sports/new-england-patriots/2026/09/11/a-j-brown-injured-reserve-report-patriots-daquan-jones/",
+        "https://www.nationalfootballpost.com/2026/09/14/patriots-rb-treveyon-henderson-ankle-returns-to-practice",
+        "https://www.patriots.com/news/week-1-injury-report-patriots-at-seahawks",
+        "https://sports.yahoo.com/nfl/live/patriots-vs-seahawks-score-live-updates-highlights-stats-where-to-watch-week-1-season-opener-super-bowl-lx-rematch-222000691.html",
+        "https://www.patspulpit.com/new-england-patriots-news/135389/patriots-initial-53-man-roster-nfl-cutdown-day-2026",
+        "https://sports.yahoo.com/articles/drake-maye-incident-patriots-seahawks-163649003.html"
+      ]
+    },
+    "GB": {
+      "week1_result": "L 22-39 at MIN",
+      "qb": {
+        "starter": "Jordan Love",
+        "backup": "Tyrod Taylor",
+        "changed_from_week1": false,
+        "notes": "Love threw for 387 yards but under 50% completions, sacked 4 times / hit 15 times, with a pick-six thrown from the end zone; no injury reported. Taylor is QB2; Kyle McCord and Kyron Drones are developmental."
+      },
+      "injuries": [
+        {"player": "Micah Parsons", "position": "EDGE", "status": "PUP", "injury": "Torn ACL recovery; reserve/PUP, out at least first four games.", "starter": true, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Josh Jacobs", "position": "RB", "status": "Suspended", "injury": "Commissioner's Exempt List; cannot practice or play, no return date set. (Listed as Suspended per vocabulary; technically exempt list.)", "starter": true, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Luke Musgrave", "position": "TE", "status": "PUP", "injury": "Neck; reserve/PUP, out at least first four games. GM Gutekunst 'really hopeful' he plays at some point in 2026.", "starter": false, "source": "https://sports.yahoo.com/articles/packers-vs-vikings-whos-whos-155343836.html"},
+        {"player": "Jordon Riley", "position": "DL", "status": "PUP", "injury": "Reserve/PUP, out at least first four games.", "starter": false, "source": "https://sports.yahoo.com/articles/packers-vs-vikings-whos-whos-155343836.html"},
+        {"player": "Ty'Ron Hopper", "position": "LB", "status": "Questionable", "injury": "Achilles; inactive Week 1 at MIN, questionable for Week 2.", "starter": false, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Josh Whyle", "position": "TE", "status": "Questionable", "injury": "Neck; was questionable to return during Week 1 at MIN, questionable for Week 2.", "starter": false, "source": "https://www.cbssports.com/nfl/players/2962513/josh-whyle/"},
+        {"player": "Brandon Cisse", "position": "CB", "status": "Questionable", "injury": "Cramps during Week 1 at MIN; questionable for Week 2.", "starter": false, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Warren Brinson", "position": "DL", "status": "Questionable", "injury": "Calf; ruled out for Week 1, questionable for Week 2.", "starter": false, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Aaron Banks", "position": "G", "status": "Questionable", "injury": "Questionable for Week 1 (played) and again questionable for Week 2.", "starter": true, "source": "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats"},
+        {"player": "Zach Bako-Bewele", "position": "OT", "status": "Questionable", "injury": "Questionable for Week 1 at MIN (right tackle); Week 2 status not yet updated.", "starter": true, "source": "https://www.startribune.com/minnesota-vikings-green-bay-packers-injury-report-updates-2026-nfl-week-1-game-us-bank-stadium/601884956"}
+      ],
+      "context_notes": [
+        "Pass protection collapsed in Week 1 (4 sacks, 15 QB hits) with two OL starters (Banks, Bako-Bewele) already banged up.",
+        "Love's first career pick-six (thrown from the end zone) and a 4th-quarter INT swung the game; Love issued a 'tough admission' postgame.",
+        "Without Parsons (PUP) and Jacobs (exempt list) through at least Week 4."
+      ],
+      "sources": [
+        "https://www.packers.com/news/game-recap-5-takeaways-from-packers-season-opening-loss-to-vikings-week-1-2026",
+        "https://www.nbcsports.com/nfl/news/packers-vs-jets-prediction-odds-expert-picks-qb-matchup-injury-update-betting-trends-and-stats",
+        "https://sports.yahoo.com/articles/packers-vs-vikings-whos-whos-155343836.html",
+        "https://www.startribune.com/minnesota-vikings-green-bay-packers-injury-report-updates-2026-nfl-week-1-game-us-bank-stadium/601884956",
+        "https://www.cbssports.com/nfl/news/watch-jordan-loves-head-scratching-throw-from-end-zone-leads-to-packers-qbs-first-career-pick-six/",
+        "https://www.packers.com/news/countdown-to-camp-jordan-love-has-new-qb2-2026",
+        "https://www.wbay.com/2026/09/14/clock-packers-collapse-vs-vikings-week-1/"
+      ]
+    },
+    "NYJ": {
+      "week1_result": "W 23-10 at TEN",
+      "qb": {
+        "starter": "Geno Smith",
+        "backup": "Not confirmed in search results",
+        "changed_from_week1": false,
+        "notes": "Geno Smith started his first Jets game in 3,612 days and was 'accurate' in the win; no injury reported. Backup QB not found in available results."
+      },
+      "injuries": [
+        {"player": "Minkah Fitzpatrick", "position": "S", "status": "Doubtful", "injury": "Strained left groin after six plays in Week 1 at TEN (chasing Cam Ward); did not return. MRI Monday 9/14; results not yet public as of 9/15. Jets re-signed S Dean Clark to practice squad, signaling an expected absence.", "starter": true, "source": "https://www.si.com/nfl/jets/onsi/jets-dean-clark-signing-hints-minkah-fitzpatrick-injury-is-worse-than-expected-01m2gbhqjnas"},
+        {"player": "Omar Cooper Jr.", "position": "WR", "status": "Doubtful", "injury": "Ankle sprain (suspected high-ankle) after four offensive plays in Week 1 at TEN in his NFL debut; X-rays negative, MRI pending; rookie first-round pick.", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49930796/jets-wr-cooper-safety-fitzpatrick-hurt-titans"},
+        {"player": "Joseph Ossai", "position": "EDGE", "status": "Out", "injury": "Ruptured plantar fascia in preseason finale; out Week 1, listed week-to-week.", "starter": true, "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/"},
+        {"player": "Tim Patrick", "position": "WR", "status": "IR", "injury": "Groin; out Week 1 and reported headed to injured reserve.", "starter": false, "source": "https://thejetpress.com/tim-patrick-headed-injured-reserve-which-could-be-good-news-for-joseph-ossai-01m2bf7bqc1g"},
+        {"player": "Kene Nwangwu", "position": "RB", "status": "Doubtful", "injury": "Groin/back; doubtful for Week 1. Week 2 status not yet updated.", "starter": false, "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/"},
+        {"player": "D'Angelo Ponds", "position": "CB", "status": "Doubtful", "injury": "Calf; doubtful for Week 1. Week 2 status not yet updated.", "starter": false, "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/"},
+        {"player": "Breece Hall", "position": "RB", "status": "Probable", "injury": "Groin; no game designation for Week 1 and played.", "starter": true, "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/"},
+        {"player": "Isaiah Davis", "position": "RB", "status": "Probable", "injury": "Knee; practiced fully and was available Week 1.", "starter": false, "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/"}
+      ],
+      "context_notes": [
+        "Jets lost their marquee offseason safety (Fitzpatrick) and first-round WR (Cooper) within the first quarter of the opener; both statuses hinge on MRIs.",
+        "Aaron Glenn's revamped defense controlled Cam Ward in Robert Saleh's Titans debut.",
+        "Week 2 is the Jets' home opener vs Green Bay."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/49930796/jets-wr-cooper-safety-fitzpatrick-hurt-titans",
+        "https://jetsxfactor.com/2026/09/13/ny-jets-lose-omar-cooper-jr-minkah-fitzpatrick-to-injuries-vs-titans/",
+        "https://www.si.com/nfl/jets/onsi/jets-dean-clark-signing-hints-minkah-fitzpatrick-injury-is-worse-than-expected-01m2gbhqjnas",
+        "https://www.therx.com/nfl/jets-rookie-wr-omar-cooper-jr-suspected-to-have-suffered-high-ankle-sprain-in-week-1-win/47473/",
+        "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/",
+        "https://thejetpress.com/tim-patrick-headed-injured-reserve-which-could-be-good-news-for-joseph-ossai-01m2bf7bqc1g",
+        "https://www.newyorkjets.com/news/jets-vs-titans-week-1-2026-geno-smith-demario-davis-homecoming-09-13-2026",
+        "https://www.si.com/nfl/jets/onsi/5-things-we-learned-in-jets-23-10-week-1-win-against-titans-01m2dj3teqd3"
+      ]
+    },
+    "CLE": {
+      "week1_result": "L 10-34 at JAX",
+      "qb": {
+        "starter": "Deshaun Watson",
+        "backup": "Shedeur Sanders",
+        "changed_from_week1": false,
+        "notes": "Watson (16/22, 205 yds, 1 TD, 1 INT incl. pick on opening drive) retained as starter by HC Todd Monken on Monday after film review despite 34-10 loss; Browns did not score a TD until under two minutes left. Rookie Taylen Green is QB3 and may be active as a dual-threat package QB. Dillon Gabriel on IR (back)."
+      },
+      "injuries": [
+        {"player": "Dylan Sampson", "position": "RB", "status": "Out", "injury": "Left knee, Week 1 at JAX; ruled out in-game, brace and crutches postgame. ESPN's Jeremy Fowler (9/14): expected to miss 'significant time'; IR stint in play, no final diagnosis yet. Raheim Sanders expected to take larger role.", "starter": true, "source": "https://www.profootballrumors.com/2026/09/browns-rb-dylan-sampson-to-miss-time-with-knee-injury"},
+        {"player": "Zion Johnson", "position": "G", "status": "Questionable", "injury": "Knee, left Week 1 at JAX and later returned; Monken said initial evaluations were 'good' with a clearer picture expected Wednesday.", "starter": true, "source": "https://heavy.com/sports/nfl/cleveland-browns/good-injury-news-zion-johnson/"},
+        {"player": "Dillon Gabriel", "position": "QB", "status": "IR", "injury": "Back, injured in preseason finale vs NE; IR designated to return, eligible after Week 4.", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49776263/browns-keep-3-qbs-roster-put-dillon-gabriel-back-ir"},
+        {"player": "Joe Royer", "position": "TE", "status": "NFI", "injury": "Reserve/non-football illness list; did not participate in camp.", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49776263/browns-keep-3-qbs-roster-put-dillon-gabriel-back-ir"}
+      ],
+      "context_notes": [
+        "Monken publicly backed Watson as QB1 for Week 2 ('confirmed it when I looked at the tape') despite widespread calls to consider Shedeur Sanders.",
+        "Loss of Sampson removes the Browns' primary pass-catching back and kickoff returner.",
+        "Zion Johnson is Joel Bitonio's replacement at LG; his availability matters for a line that struggled in Jacksonville."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/browns-deshaun-watson-starting-qb-week-2-game-buccaneers",
+        "https://www.espn.com/nfl/story/_/id/49941705/coach-monken-expects-stick-watson-browns-qb1-week-2",
+        "https://sports.yahoo.com/nfl/breaking-news/article/deshaun-watson-will-start-in-week-2-for-browns-vs-bucs-after-week-1-dud-180545113.html",
+        "https://www.profootballrumors.com/2026/09/browns-rb-dylan-sampson-to-miss-time-with-knee-injury",
+        "https://www.rotowire.com/football/headlines/dylan-sampson-injury-in-line-for-extended-absence-637447",
+        "https://www.dawgsbynature.com/cleveland-browns-news/132583/browns-zion-johnson-joel-bitonios-replacement-injured-in-week-1-versus-jaguars-returns",
+        "https://heavy.com/sports/nfl/cleveland-browns/good-injury-news-zion-johnson/",
+        "https://www.espn.com/nfl/story/_/id/49776263/browns-keep-3-qbs-roster-put-dillon-gabriel-back-ir",
+        "https://www.totalprosports.com/nfl/cleveland-browns/browns-reveal-shedeur-sanders-2026-plans-depth-chart/"
+      ]
+    },
+    "TB": {
+      "week1_result": "L 27-33 at CIN",
+      "qb": {
+        "starter": "Baker Mayfield",
+        "backup": "Jake Browning",
+        "changed_from_week1": false,
+        "notes": "Mayfield lost three fumbles (four team turnovers, all fumbles) in a 'reckless' opener; ran for a TD; no injury reported. Browning is QB2; Connor Bazelak / Jalon Daniels competing for QB3."
+      },
+      "injuries": [
+        {"player": "Jacob Parrish", "position": "CB", "status": "Questionable", "injury": "Back strain/sprain during Week 1 at CIN; X-ray and MRI negative, day-to-day, team optimistic for Week 2 vs CLE.", "starter": true, "source": "https://www.si.com/nfl/buccaneers/onsi/todd-bowles-delivers-injury-update-on-buccaneers-jacob-parrish-and-it-s-a-big-one-2026"},
+        {"player": "Jalen McMillan", "position": "WR", "status": "Questionable", "injury": "Knee (injured early August); doubtful and inactive Week 1, has a chance to suit up Week 2 vs CLE.", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-11/mcmillan-knee-listed-as-doubtful-for-week-1"},
+        {"player": "Sean Tucker", "position": "RB", "status": "Questionable", "injury": "Hamstring (final preseason game); doubtful and inactive Week 1. Week 2 status not yet updated.", "starter": false, "source": "https://www.buccaneers.com/news/buccaneers-bengals-injury-report-sept-11-week-1-2026"},
+        {"player": "Emeka Egbuka", "position": "WR", "status": "Probable", "injury": "Sprained toe in joint practice vs NYJ; full participant and played Week 1.", "starter": true, "source": "https://www.si.com/nfl/buccaneers/onsi/buccaneers-have-great-news-on-week-1-injury-report-ahead-of-bengals-game-2026"},
+        {"player": "Rueben Bain Jr.", "position": "EDGE", "status": "Probable", "injury": "Limited Sept 9 practice before Week 1; no game designation reported.", "starter": true, "source": "https://www.buccaneers.com/news/buccaneers-bengals-injury-report-sept-9-week-1-2026"}
+      ],
+      "context_notes": [
+        "Turnovers, not health, decided Week 1: 24 of Cincinnati's 33 points came off four Tampa Bay fumbles; Mayfield spoke about ball security postgame.",
+        "Bucky Irving looked explosive in new OC Zac Robinson's wide-zone scheme (7 catches, rushing TD, 5.6 YPC) after knee/shoulder injuries in 2025.",
+        "Rookie LB Josiah Trotter returned an interception for a TD; Bucs started two rookies on defense per the Week 1 depth chart.",
+        "Week 2 vs Cleveland is Tampa Bay's 2026 home opener."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/buccaneers/onsi/todd-bowles-delivers-injury-update-on-buccaneers-jacob-parrish-and-it-s-a-big-one-2026",
+        "https://atozsports.com/nfl/tampa-bay-buccaneers-news/buccaneers-jacob-parrish-injury-update/",
+        "https://www.buccaneers.com/news/buccaneers-bengals-injury-report-sept-11-week-1-2026",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-11/mcmillan-knee-listed-as-doubtful-for-week-1",
+        "https://www.si.com/nfl/buccaneers/onsi/week-1-overreactions-from-buccaneers-33-27-loss-to-bengals-2026",
+        "https://www.bucsnation.com/tampa-bay-buccaneers-analysis/68477/buccaneers-week-1-top-performers-at-cincinnati-bengals",
+        "https://www.buccaneers.com/news/next-game-cleveland-browns-vs-tampa-bay-buccaneers-nfl-season-week-2-2026",
+        "https://www.si.com/nfl/buccaneers/onsi/predicting-the-buccaneers-depth-chart-ahead-of-training-camp-2026"
+      ]
+    }
+  }
+}

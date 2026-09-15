@@ -188,3 +188,12 @@ All ten stages are implemented and run end to end (`make inputs && make run`). O
 - The nflverse 2026 roster file's reserve and exempt status codes were used as a structured
   cross-check on the search-derived injury list, which caught four players attributed to the
   wrong team.
+
+## Status (Sept 15, 2026): Week 1 scored, Week 2 predicted
+
+Week 1 went 12-4 with log loss 0.628, level with the market spread and better than the market
+moneyline; the pure model was 11-4 at 0.640. Changes made before Week 2, with the reasoning in
+`output/week1_2026_postmortem.md`: in-season rating updates (`nflsim.ratings`), margin variance
+re-estimated from 2023 to 2025 results with an early-season allowance, official injury report
+ingestion, and per-week input files (`make run WEEK=N`). Week 2 research was collected Sept 15 in
+`data/research/wk2/`; Week 2 outputs are in `output/week2_2026_*`.
