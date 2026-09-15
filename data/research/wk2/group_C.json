@@ -1,0 +1,243 @@
+{
+  "collected_on": "2026-09-15",
+  "teams": {
+    "PHI": {
+      "week1_result": "W 24-22 vs WAS",
+      "qb": {
+        "starter": "Jalen Hurts",
+        "backup": "Andy Dalton",
+        "changed_from_week1": false,
+        "notes": "Hurts started and finished Week 1. Andy Dalton was the active No. 2 in Week 1; Tanner McKee was inactive as the emergency third QB. No QB injury."
+      },
+      "injuries": [
+        {"player": "Landon Dickerson", "position": "G", "status": "IR", "injury": "Right knee bone bruise (rolled up on in camp practice); played through it in Week 1, placed on IR Sept 14 - out at least through Week 5, earliest return Week 6", "starter": true, "source": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/landon-dickerson-injured-reserve-nick-sirianni-drew-kendall-knee-injury/751278/"},
+        {"player": "Jonathan Greenard", "position": "EDGE", "status": "Questionable", "injury": "Pectoral strain suffered lifting weights just before camp; missed all of camp, returned to practice Week 1 (limited) and was ruled out vs WAS. Could make Eagles debut Week 2 at TEN; no firm word yet", "starter": true, "source": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-update-jonathan-greenard-out-commanders-eli-stowers/750639/"},
+        {"player": "Eli Stowers", "position": "TE", "status": "IR", "injury": "Quadriceps and hamstring injuries; rookie 2nd-round pick ruled out Week 1 and placed on IR Sept 12 - misses at least four games", "starter": false, "source": "https://www.inquirer.com/eagles/eli-stowers-tight-end-injury-eagles-commanders-nfl-20260912.html"}
+      ],
+      "context_notes": [
+        "Drew Kendall (2025 5th-round pick) is expected to start at LG in place of Dickerson against Jeffery Simmons and the Titans DL.",
+        "WR Hollywood Brown played zero offensive snaps in Week 1 and was not used on special teams; Sirianni said the team will 'make a better effort' to get him involved in Week 2. Dontayvion Wicks operated as WR2.",
+        "Rookie WR Makai Lemon played a heavy snap share in Week 1 that local coverage expects to be scaled back.",
+        "SI headline references Sirianni responding to a C.J. Gardner-Johnson ejection in the Week 1 game (details not confirmed via search).",
+        "Eagles won 24-22 but ESPN analysts were unimpressed; opponent Titans have a new HC (Robert Saleh)."
+      ],
+      "sources": [
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/landon-dickerson-injured-reserve-nick-sirianni-drew-kendall-knee-injury/751278/",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-update-jonathan-greenard-out-commanders-eli-stowers/750639/",
+        "https://www.inquirer.com/eagles/eli-stowers-tight-end-injury-eagles-commanders-nfl-20260912.html",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/andy-dalton-jalen-hurts-tanner-mckee-jonathan-greenard/750903/",
+        "https://www.bleedinggreennation.com/news/182839/eagles-commander-snap-counts-dontayvion-wicks-flashes-as-wr2",
+        "https://heavy.com/sports/nfl/philadelphia-eagles/eagles-nick-sirianni-sends-clear-message-hollywood-brown/",
+        "https://www.bleedinggreennation.com/news/182642/eagles-vs-commanders-live-score-updates-highlights-injury-news",
+        "https://www.inquirer.com/eagles/nfl-week-2-titans-nashville-robert-saleh-cam-ward-jalen-hurts-20260915.html"
+      ]
+    },
+    "TEN": {
+      "week1_result": "L 10-23 vs NYJ",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "Mitchell Trubisky",
+        "changed_from_week1": false,
+        "notes": "Ward (team captain) started Week 1 and was healthy; overwhelmed by pressure behind a struggling OL. Trubisky listed No. 2 on the depth chart; Will Levis and Hendon Hooker were waived at cutdown (Hooker to practice squad)."
+      },
+      "injuries": [
+        {"player": "Cedric Gray", "position": "LB", "status": "Returning-expected-to-play", "injury": "Concussion from a UTV accident the weekend before Week 1; missed Week 1 vs NYJ. HC Robert Saleh said Monday he has cleared protocol and should be available vs PHI", "starter": true, "source": "https://www.tennesseetitans.com/news/hot-topics-from-titans-hc-robert-saleh-s-zoom-call-on-monday-x2613"},
+        {"player": "Chimere Dike", "position": "WR/KR", "status": "Probable", "injury": "Evaluated for a concussion during Week 1 after a teammate was pushed into him on a punt return; cleared and returned to the game (later lost a fumble on a kickoff return)", "starter": false, "source": "https://sports.yahoo.com/articles/coach-changed-roster-same-result-174504827.html"},
+        {"player": "Keldric Faulk", "position": "EDGE", "status": "Probable", "injury": "Brief right shoulder injury in the preseason; returned to practice before Week 1 and had no game designation", "starter": false, "source": "https://www.si.com/nfl/titans/onsi/lb-cedric-gray-confirmed-out-for-week-1-what-it-means-for-titans-vs-jets-01m28k1nazy0"}
+      ],
+      "context_notes": [
+        "First season under new HC Robert Saleh; Titans lost their opener despite a busy offseason and open with two home games (PHI next).",
+        "Offense could not sustain drives; OL gave up steady pressure on Ward, who scrambled 4 times for 21 yards. Eagles pass rush expected to feast.",
+        "Rookie LB Anthony Hill Jr. and James Williams filled in for Gray in Week 1; Mohamoud Diabate was elevated for depth.",
+        "Cedric Gray was the only Titan with a game designation on the Week 1 report."
+      ],
+      "sources": [
+        "https://www.tennesseetitans.com/news/hot-topics-from-titans-hc-robert-saleh-s-zoom-call-on-monday-x2613",
+        "https://www.tennesseetitans.com/news/week-1-injury-report-titans-vs-jets",
+        "https://sports.yahoo.com/articles/coach-changed-roster-same-result-174504827.html",
+        "https://sports.yahoo.com/articles/titans-news-cam-ward-already-213834836.html",
+        "https://sports.yahoo.com/articles/titans-unofficial-depth-chart-ahead-120045581.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-11/cedric-gray-concussion-wont-play-vs-jets"
+      ]
+    },
+    "JAX": {
+      "week1_result": "W 34-10 vs CLE",
+      "qb": {
+        "starter": "Trevor Lawrence",
+        "backup": "Nick Mullens",
+        "changed_from_week1": false,
+        "notes": "Lawrence 18/23, 245 yds, 4 TD, 0 INT (150.6 rating) in Week 1; healthy. Nick Mullens was elevated from the practice squad as the Week 1 backup; Quinn Ewers was inactive (emergency QB) - too new to the roster."
+      },
+      "injuries": [
+        {"player": "Brian Thomas Jr.", "position": "WR", "status": "Probable", "injury": "Shoulder - reaggravated a pre-existing shoulder issue in the 2nd quarter of Week 1, returned to finish the game; limited in practice this week, HC Liam Coen 'fully imagines' he plays at DEN", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-thomas-will-be-limited-in-practice-but-jaguars-expect-him-to-play-in-week-2"},
+        {"player": "B.J. Green II", "position": "DE", "status": "Out", "injury": "Elbow injury in the 1st quarter of Week 1 vs CLE, did not return; not expected to play at DEN in Week 2", "starter": false, "source": "https://sports.yahoo.com/articles/b-j-green-ii-suffers-230926596.html"},
+        {"player": "LeQuint Allen Jr.", "position": "RB", "status": "Probable", "injury": "Hip - missed much of camp, questionable for Week 1 but active and played vs CLE", "starter": false, "source": "https://www.jaguars.com/news/in-and-out-2026-week-1-allen-van-lanen-active-for-opener"}
+      ],
+      "context_notes": [
+        "Week 1 inactives: QB Quinn Ewers, S Jalen Huskey, TE Tanner Koziol, OL Daniel Faalele, DE Bryan Thomas Jr., DE Wesley Williams - all healthy scratches.",
+        "RT Cole Van Lanen (knee), WR Jakobi Meyers (thumb) and LT Anton Harrison (foot) carried Week 1 report tags but all were active with no designation.",
+        "Travis Hunter played 29 defensive snaps at CB and only 4 on offense in Week 1; local coverage says the two-way experiment is 'flopping' but the team looked dominant regardless.",
+        "Defense posted 5 sacks and 2 takeaways; TD catches by Parker Washington, Josh Cameron, Brenton Strange and Jakobi Meyers."
+      ],
+      "sources": [
+        "https://www.jaguars.com/news/game-report-2026-week-1-jaguars-34-browns-10",
+        "https://www.jaguars.com/news/in-and-out-2026-week-1-allen-van-lanen-active-for-opener",
+        "https://www.si.com/nfl/jaguars/onsi/jacksonville-complete-inactives-for-week-1-vs-browns-the-quinn-ewers-decision-is-made",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-thomas-will-be-limited-in-practice-but-jaguars-expect-him-to-play-in-week-2",
+        "https://sports.yahoo.com/articles/b-j-green-ii-suffers-230926596.html",
+        "https://clutchpoints.com/nfl/jacksonville-jaguars/jaguars-news-travis-hunter-experiment-flopping-but-jacksonville-looks-awesome-anyway"
+      ]
+    },
+    "DEN": {
+      "week1_result": "L 10-31 at KC (Mon Sept 14)",
+      "qb": {
+        "starter": "Bo Nix",
+        "backup": "Jarrett Stidham",
+        "changed_from_week1": false,
+        "notes": "Nix (back from the 2025 season-ending ankle fracture) started and finished the Monday-night loss; no injury reported. Stidham is the primary backup."
+      },
+      "injuries": [
+        {"player": "Marvin Mims Jr.", "position": "WR/PR", "status": "Probable", "injury": "Hip - left on the 2nd drive vs KC (questionable to return), went to the locker room briefly and returned to the game. Had also carried a foot injury from the preseason finale (full participant in Week 1)", "starter": false, "source": "https://www.milehighreport.com/denver-broncos-news/184948/marvin-mims-jr-exits-monday-night-football-matchup-versus-chiefs-due-to-hip-injury"}
+      ],
+      "context_notes": [
+        "Broncos had no injury designations entering Week 1 and Mims was the only in-game injury found.",
+        "Offense was described as a Payton-era low: 218 total yards, 3-of-12 on third down; Payton said the loss 'starts with me, starts with our coaching staff.'",
+        "Short week after Monday night; Payton said prep 'becomes a little more mental' with film review Tuesday before turning to JAX at home Sept 20."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872931/broncos-chiefs",
+        "https://www.milehighreport.com/denver-broncos-news/184948/marvin-mims-jr-exits-monday-night-football-matchup-versus-chiefs-due-to-hip-injury",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-have-no-injury-designations-for-monday-night",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-broncos-loss-starts-with-me-starts-with-our-coaching-staff",
+        "https://clutchpoints.com/nfl/denver-broncos/broncos-news-sean-payton-short-week-plan-after-crushed-by-chiefs",
+        "https://www.cbssports.com/nfl/news/bo-nix-injury-update-broncos-qb/"
+      ]
+    },
+    "LV": {
+      "week1_result": "W 27-13 vs MIA",
+      "qb": {
+        "starter": "Kirk Cousins",
+        "backup": "Fernando Mendoza",
+        "changed_from_week1": false,
+        "notes": "Cousins threw 3 TD in his Raiders debut (300th career TD pass) under new HC Klint Kubiak; healthy. Rookie Fernando Mendoza was the active backup and did not play. (Geno Smith is no longer with the Raiders - now with the Jets.)"
+      },
+      "injuries": [
+        {"player": "Brock Bowers", "position": "TE", "status": "Questionable", "injury": "Knee - meniscus trim on Sept 8, missed Week 1; Kubiak said Monday he is day-to-day and the team believes there is a realistic chance he returns Week 2 at LAC", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49943075/brock-bowers-working-tail-rejoin-raiders-coach-says"},
+        {"player": "Darien Porter", "position": "CB", "status": "Questionable", "injury": "Foot - limped off late in Week 1 vs MIA and did not finish; replaced by rookie 5th-rounder Zeke Masses. Kubiak called him day-to-day", "starter": true, "source": "https://heavy.com/sports/nfl/las-vegas-raiders/brock-bowers-darien-porter-injury-update/"},
+        {"player": "Dont'e Thornton", "position": "WR", "status": "IR", "injury": "Placed on injured reserve before Week 1; must miss at least the first four games", "starter": false, "source": "https://www.profootballnetwork.com/brock-bowers-raiders-injury-week-1-2026-dolphins/"},
+        {"player": "Ashton Jeanty", "position": "RB", "status": "Probable", "injury": "Ankle sprain in the preseason; full participant in Week 1 practices, started and starred vs MIA", "starter": true, "source": "https://www.yardbarker.com/nfl/articles/raiders_get_huge_ashton_jeanty_boost/s1_17391_44284263"}
+      ],
+      "context_notes": [
+        "First regular-season game of the Klint Kubiak era; Cousins-Jeanty two-pronged attack overwhelmed Miami.",
+        "Michael Mayer handled the starting TE role with Bowers out; if Bowers is limited again Mayer stays the primary target at TE.",
+        "Porter was the only in-game injury of note; Kubiak's Monday tone suggested neither Bowers nor Porter is expected to miss much time."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872928",
+        "https://www.espn.com/nfl/story/_/id/49943075/brock-bowers-working-tail-rejoin-raiders-coach-says",
+        "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-says-brock-bowers-is-day-to-day-3886325/",
+        "https://heavy.com/sports/nfl/las-vegas-raiders/brock-bowers-darien-porter-injury-update/",
+        "https://www.raiders.com/news/las-vegas-raiders-miami-dolphins-nfl-week-1-2026-injury-report",
+        "https://www.profootballnetwork.com/brock-bowers-raiders-injury-week-1-2026-dolphins/",
+        "https://www.4for4.com/news/raiders-believe-brock-bowers-could-return-week-2"
+      ]
+    },
+    "LAC": {
+      "week1_result": "L 14-26 vs ARI",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "Trey Lance",
+        "changed_from_week1": false,
+        "notes": "Herbert started and finished the upset loss; no injury. Per Next Gen Stats he averaged 8.9 yds/att before McConkey left and 3.9 after. Trey Lance won the preseason backup battle over DJ Uiagalelei per local coverage (backup listing based on preseason reporting)."
+      },
+      "injuries": [
+        {"player": "Ladd McConkey", "position": "WR", "status": "Questionable", "injury": "Rib/chest - took a hard legal hit from ARI LB Mack Wilson late in the 3rd quarter of Week 1 (5-82-1 before exiting), did not return; Harbaugh says day-to-day, status vs LV up in the air", "starter": true, "source": "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1"},
+        {"player": "KeAndre Lambert-Smith", "position": "WR", "status": "Doubtful", "injury": "Hamstring in Week 1; Harbaugh said it 'looks like he's going to miss some time' and IR is being considered", "starter": false, "source": "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1"},
+        {"player": "Elijah Molden", "position": "S", "status": "Questionable", "injury": "Hamstring in Week 1 vs ARI; day-to-day per Harbaugh", "starter": true, "source": "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1"},
+        {"player": "Tyler Biadasz", "position": "C", "status": "IR", "injury": "Knee (ACL damage plus other structural damage) suffered in the preseason; placed on IR at cutdown, long-term absence", "starter": true, "source": "https://justblogbaby.com/chargers-dealt-devastating-injury-news-that-could-tilt-balance-in-raiders-favor-tyler-biadasz"},
+        {"player": "Deane Leonard", "position": "CB", "status": "Questionable", "injury": "Abdomen - did not practice all of Week 1 and was inactive vs ARI; no Week 2 update found (4th CB / core special-teamer)", "starter": false, "source": "https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65402/chargers-cardinals-injury-report-deane-leonard-tuli-tuipulotu"},
+        {"player": "Tuli Tuipulotu", "position": "EDGE", "status": "Probable", "injury": "Hip - limited all of Week 1 practice, listed questionable, but played vs ARI", "starter": true, "source": "https://www.chargers.com/news/cardinals-inactives-week-1-2026"}
+      ],
+      "context_notes": [
+        "Stunning home loss to Arizona; Herbert and the offensive line struggled (line already without Biadasz at center).",
+        "New OC Mike McDaniel in his first season with the Chargers.",
+        "Week 1 healthy scratches included OL Trevor Penning, OL Alex Harkey, OL Logan Taylor and S RJ Mickens; rookie S Genesis Smith was active over Mickens.",
+        "Bowers (LV) could be back for this game, which changes the Chargers' defensive matchup at TE."
+      ],
+      "sources": [
+        "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ladd-mcconkey-day-to-day-with-rib-injury",
+        "https://www.chargers.com/news/cardinals-inactives-week-1-2026",
+        "https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65402/chargers-cardinals-injury-report-deane-leonard-tuli-tuipulotu",
+        "https://justblogbaby.com/chargers-dealt-devastating-injury-news-that-could-tilt-balance-in-raiders-favor-tyler-biadasz",
+        "https://www.si.com/nfl/chargers/onsi/chargers-backup-battle-justin-herbert-limping-along-trey-lance-uiagalelei",
+        "https://bettorsinsider.com/nfl/2026/09/13/chargers-stunned-by-cardinals-in-week-1-upset-as-herbert-offensive-line-struggle/",
+        "https://www.chargers.com/news/raiders-afc-west-week-2-fantasy"
+      ]
+    },
+    "SEA": {
+      "week1_result": "W 13-10 vs NE (Wed Sept 9 kickoff game)",
+      "qb": {
+        "starter": "Drew Lock",
+        "backup": "Jalen Milroe",
+        "changed_from_week1": true,
+        "notes": "Sam Darnold started Week 1 but left on the opening possession (5 snaps) with a right hip injury, later described by Mike Macdonald as 'an unusual muscle strain in his hip area' / glute. MRI showed no fracture; IR not being considered. Multiple reports (NFL Network, Rapoport) say he will miss Week 2 at ARI and could return as soon as Week 3 vs WAS, though some reports float 4-6 weeks. Drew Lock (16/22, 187 yds, 1 TD in relief) starts; Jalen Milroe (Week 1 emergency QB) moves to backup and Seattle is expected to add a third QB."
+      },
+      "injuries": [
+        {"player": "Sam Darnold", "position": "QB", "status": "Out", "injury": "Right hip/glute muscle strain on the first series of Week 1 vs NE; expected to miss Week 2, possible Week 3 return, 4-6 weeks per some reports; not going on IR", "starter": true, "source": "https://www.nfl.com/news/sam-darnold-hip-injury-miss-seahawks-week-2-game-cardinals"},
+        {"player": "Nick Emmanwori", "position": "S/NB", "status": "Questionable", "injury": "Ankle surgery before camp; limited in Week 1 practice, listed questionable and inactive vs NE - has not yet made 2026 debut", "starter": true, "source": "https://www.seahawks.com/news/nick-emmanwori-tory-horton-inactive-for-seahawks-opener-vs-patriots"},
+        {"player": "Tory Horton", "position": "WR", "status": "Questionable", "injury": "Hamstring; limited in Week 1 practice, listed questionable and inactive vs NE - has not yet made 2026 debut", "starter": false, "source": "https://www.seahawks.com/news/nick-emmanwori-tory-horton-inactive-for-seahawks-opener-vs-patriots"}
+      ],
+      "context_notes": [
+        "Super Bowl LX rematch; Seattle won 13-10 with Lock leading a comeback after Darnold's exit.",
+        "Emmanwori's absence was noticeable against New England's short passing game; his return would be a meaningful boost vs ARI.",
+        "Seattle has an extra-long week (Wednesday game) before the Sept 20 trip to Arizona, which upset LAC 26-14 in Week 1.",
+        "Odds movement: the Darnold news shifted the Week 2 line at ARI."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/sam-darnold-hip-injury-miss-seahawks-week-2-game-cardinals",
+        "https://www.espn.com/nfl/story/_/id/49905618/seattle-seahawks-qb-drew-lock-sam-darnold-injury",
+        "https://www.espn.com/nfl/story/_/id/49882128/2026-nfl-week-1-new-england-patriots-seattle-seahawks-drake-maye-sam-darnold",
+        "https://www.seahawks.com/news/2026-week-1-seahawks-vs-patriots-injury-updates",
+        "https://www.seahawks.com/news/nick-emmanwori-tory-horton-inactive-for-seahawks-opener-vs-patriots",
+        "https://www.si.com/nfl/seahawks/onsi/seattle-seahawks-early-injury-concerns-heading-into-week-2-vs-cardinals",
+        "https://arizonasports.com/nfl/arizona-cardinals/report-seahawks-qb-sam-darnold-out-for-week-2-against-cardinals-could-miss-4-6-weeks",
+        "https://www.si.com/nfl/seahawks/onsi/seahawks-hc-mike-macdonald-delivers-great-news-sam-darnold-injury"
+      ]
+    },
+    "ARI": {
+      "week1_result": "W 26-14 at LAC",
+      "qb": {
+        "starter": "Jacoby Brissett",
+        "backup": "Carson Beck",
+        "changed_from_week1": false,
+        "notes": "Brissett (27/37, 277 yds, 1 TD) started and won at LAC; healthy. Kyler Murray is no longer with Arizona - he is the Vikings' QB and entered concussion protocol after his Minnesota debut. Rookie 3rd-round pick Carson Beck is reported as the No. 2 (one source also mentions Gardner Minshew II; backup listing not fully confirmed)."
+      },
+      "injuries": [
+        {"player": "James Conner", "position": "RB", "status": "IR", "injury": "Ankle (also carrying over the 2025 season-ending foot surgery); placed on IR at cutdown with designation to return - misses at least the first four games (earliest return Week 5)", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-james-conner-on-ir-among-their-moves-to-53"},
+        {"player": "Chase Bisontis", "position": "G", "status": "IR", "injury": "Torn MCL in the preseason; 2nd-round rookie on IR, potentially season-ending", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/injury-report-arizona-cardinals-trending-toward-losing-starter-week-1-los-angeles-chargers"},
+        {"player": "Isaiah Adams", "position": "RG", "status": "Questionable", "injury": "Undisclosed - ruled out for Week 1 (HC Mike LaFleur: 'trending well' but not ready); Jon Gaines II started at RG. No Week 2 update found", "starter": true, "source": "https://sports.yahoo.com/articles/cardinals-injury-report-3-ruled-232511254.html"},
+        {"player": "Garrett Williams", "position": "CB (slot)", "status": "Questionable", "injury": "Returning from a serious injury; ruled out for Week 1. No Week 2 update found", "starter": true, "source": "https://sports.yahoo.com/articles/cardinals-injury-report-3-ruled-232511254.html"},
+        {"player": "Dadrion Taylor-Demerson", "position": "S", "status": "Questionable", "injury": "Ruled out for Week 1 (injury not specified in results). No Week 2 update found", "starter": false, "source": "https://sports.yahoo.com/articles/cardinals-injury-report-3-ruled-232511254.html"},
+        {"player": "Jeremiyah Love", "position": "RB", "status": "Probable", "injury": "High-ankle sprain in his preseason debut; questionable/game-time decision for Week 1 but was active, made his NFL debut and contributed vs LAC", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-reveal-week-1-inactives-los-angeles-chargers-jeremiyah-love-cleared-for-nfl-debut"},
+        {"player": "Josh Sweat", "position": "EDGE", "status": "Probable", "injury": "Returned to the field for the first time in the 2026 regular season in Week 1 (had been sidelined in camp/preseason); played vs LAC", "starter": true, "source": "https://www.si.com/nfl/seahawks/onsi/seahawks-week-2-matchup-transformed-cardinals-stunning-upset-chargers"}
+      ],
+      "context_notes": [
+        "New HC Mike LaFleur's debut was a 26-14 upset at LAC; Trey McBride 9-95-1, Tyler Allgeier and rookie Jeremiyah Love split RB work with Conner on IR.",
+        "LB Mack Wilson delivered the hit that knocked LAC WR Ladd McConkey out of the game.",
+        "The Week 2 line vs SEA moved after Darnold was ruled out; Seattle's coverage says the Cardinals can no longer be taken lightly."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/seahawks/onsi/seahawks-week-2-matchup-transformed-cardinals-stunning-upset-chargers",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-james-conner-on-ir-among-their-moves-to-53",
+        "https://www.draftsharks.com/fantasy-football-news/82412/james-conner-to-open-2026-on-ir-missing-cardinals-first-4-games",
+        "https://sports.yahoo.com/articles/cardinals-injury-report-3-ruled-232511254.html",
+        "https://www.si.com/nfl/cardinals/onsi/injury-report-arizona-cardinals-trending-toward-losing-starter-week-1-los-angeles-chargers",
+        "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-reveal-week-1-inactives-los-angeles-chargers-jeremiyah-love-cleared-for-nfl-debut",
+        "https://heavy.com/sports/nfl/arizona-cardinals/mike-lafleur-cardinals-ready-week-1/",
+        "https://bleacherreport.com/articles/25493351-cheat-sheet-every-nfl-teams-backup-qbs-2026-season-after-roster-cuts",
+        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-sept-14"
+      ]
+    }
+  }
+}
