@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 2,
-  "collected_on": "2026-09-15",
+  "collected_on": "2026-09-16",
   "teams": {
     "ARI": {
       "starter": "Jacoby Brissett",
@@ -16,7 +16,7 @@
       "pbp_name": "C.Rush",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Starter undecided as of Monday: Cooper Rush (2 INT in Week 1) unless Michael Penix Jr. (ACL rehab) or Tua Tagovailoa (oblique) is cleared. Value blends roughly 70 percent Rush with 30 percent Penix or Tua.",
+      "notes": "Stefanski still would not name a starter Wednesday; Cooper Rush (full practice) is the likely starter, Tua Tagovailoa did not practice (oblique), Penix is cleared for full practice but says he is not all the way back. Modeled as roughly 70 percent Rush.",
       "value_override": -2.8,
       "extra_sd": 1.5,
       "schedule_projected_starter": "Tua Tagovailoa"
@@ -173,13 +173,14 @@
       "schedule_projected_starter": "Malik Willis"
     },
     "MIN": {
-      "starter": "Carson Wentz",
+      "starter": "Kyler Murray or Carson Wentz",
       "pbp_name": "C.Wentz",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Kyler Murray is in concussion protocol after the first quarter of Week 1 and listed doubtful; Carson Wentz (3 TD in relief) is expected to start in Chicago.",
+      "notes": "Murray was a limited participant Wednesday and the team will start him if he clears concussion protocol; otherwise Carson Wentz (3 TD in relief). Modeled as an even split between Murray (+0.5) and Wentz (-1.2).",
       "schedule_projected_starter": "Kyler Murray",
-      "extra_sd": 1.0
+      "extra_sd": 1.0,
+      "value_override": -0.35
     },
     "NE": {
       "starter": "Drake Maye",
@@ -237,7 +238,7 @@
       "pbp_name": "D.Lock",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Sam Darnold (hip/glute strain on the opening series of Week 1) is expected to miss Week 2; Drew Lock starts with Jalen Milroe backing up.",
+      "notes": "Sam Darnold officially ruled out (glute strain, no surgery); Drew Lock starts, Jalen Milroe backs up.",
       "schedule_projected_starter": "Drew Lock",
       "value_override": -2.0,
       "extra_sd": 1.0

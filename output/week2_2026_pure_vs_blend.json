@@ -1,13 +1,13 @@
 {
   "2026_02_DET_BUF": {
-    "p_home_pure": 0.6433,
-    "p_home_market": 0.6411,
+    "p_home_pure": 0.6639,
+    "p_home_market": 0.6419,
     "pick_pure": "BUF",
     "flip": false
   },
   "2026_02_CAR_ATL": {
-    "p_home_pure": 0.6052,
-    "p_home_market": 0.4556,
+    "p_home_pure": 0.5997,
+    "p_home_market": 0.4239,
     "pick_pure": "ATL",
     "flip": false
   },
@@ -18,20 +18,20 @@
     "flip": false
   },
   "2026_02_CLE_TB": {
-    "p_home_pure": 0.6858,
-    "p_home_market": 0.7556,
+    "p_home_pure": 0.686,
+    "p_home_market": 0.755,
     "pick_pure": "TB",
     "flip": false
   },
   "2026_02_GB_NYJ": {
-    "p_home_pure": 0.3283,
-    "p_home_market": 0.3619,
+    "p_home_pure": 0.3224,
+    "p_home_market": 0.3943,
     "pick_pure": "GB",
     "flip": false
   },
   "2026_02_MIN_CHI": {
-    "p_home_pure": 0.5064,
-    "p_home_market": 0.6726,
+    "p_home_pure": 0.5043,
+    "p_home_market": 0.6411,
     "pick_pure": "CHI",
     "flip": false
   },
@@ -42,56 +42,56 @@
     "flip": false
   },
   "2026_02_PHI_TEN": {
-    "p_home_pure": 0.3617,
+    "p_home_pure": 0.3735,
     "p_home_market": 0.2876,
     "pick_pure": "PHI",
     "flip": false
   },
   "2026_02_PIT_NE": {
-    "p_home_pure": 0.6148,
-    "p_home_market": 0.6727,
+    "p_home_pure": 0.6105,
+    "p_home_market": 0.6726,
     "pick_pure": "NE",
     "flip": false
   },
   "2026_02_JAX_DEN": {
-    "p_home_pure": 0.3351,
-    "p_home_market": 0.5818,
+    "p_home_pure": 0.3261,
+    "p_home_market": 0.5822,
     "pick_pure": "JAX",
     "flip": false
   },
   "2026_02_LV_LAC": {
-    "p_home_pure": 0.5775,
-    "p_home_market": 0.7157,
+    "p_home_pure": 0.5924,
+    "p_home_market": 0.7017,
     "pick_pure": "LAC",
     "flip": false
   },
   "2026_02_MIA_SF": {
-    "p_home_pure": 0.8388,
-    "p_home_market": 0.8633,
+    "p_home_pure": 0.8411,
+    "p_home_market": 0.8631,
     "pick_pure": "SF",
     "flip": false
   },
   "2026_02_SEA_ARI": {
     "p_home_pure": 0.3361,
-    "p_home_market": 0.3622,
+    "p_home_market": 0.3945,
     "pick_pure": "SEA",
     "flip": false
   },
   "2026_02_WAS_DAL": {
-    "p_home_pure": 0.5962,
-    "p_home_market": 0.6119,
+    "p_home_pure": 0.6047,
+    "p_home_market": 0.6419,
     "pick_pure": "DAL",
     "flip": false
   },
   "2026_02_IND_KC": {
-    "p_home_pure": 0.6602,
-    "p_home_market": 0.7017,
+    "p_home_pure": 0.6448,
+    "p_home_market": 0.701,
     "pick_pure": "KC",
     "flip": false
   },
   "2026_02_NYG_LA": {
-    "p_home_pure": 0.6569,
-    "p_home_market": 0.7147,
+    "p_home_pure": 0.6659,
+    "p_home_market": 0.7157,
     "pick_pure": "LA",
     "flip": false
   }

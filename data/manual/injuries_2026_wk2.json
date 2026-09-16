@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 2,
-  "collected_on": "2026-09-15",
+  "collected_on": "2026-09-16",
   "official_report_rows": 0,
   "method": "web search summaries (data/research/wk2) plus the official nflverse injury report when published, cross-checked with roster status codes",
   "warnings": [
@@ -36,26 +36,26 @@
           "slot": "RB2"
         },
         {
-          "player": "Christian Mahogany",
-          "position": "LG",
-          "status": "Doubtful",
-          "starter": true,
-          "star": false,
-          "injury": "Hip (initially announced as knee; knee scans clean) - fell awkwardly while pulling on a Gibbs run on 2nd possession Week 1, carted off. Est. DNP Monday. Campbell: not serious long-term but 'could be tough to get him ready for Thursday'.",
-          "source": "https://sports.yahoo.com/articles/dan-campbell-provides-christian-mahogany-223936591.html",
-          "roster_status": "ACT/A01",
-          "slot": "LG"
-        },
-        {
           "player": "Blake Miller",
           "position": "RT",
-          "status": "Questionable",
+          "status": "Out",
           "starter": true,
           "star": false,
           "injury": "Knee - rookie starting RT, est. DNP on Monday's Week 2 report; Campbell said he'd feel better about Miller than Mahogany, decision closer to Thursday.",
           "source": "https://sports.yahoo.com/articles/ot-blake-millers-status-jeopardy-214128759.html",
           "roster_status": "ACT/A01",
           "slot": "RT"
+        },
+        {
+          "player": "Christian Mahogany",
+          "position": "LG",
+          "status": "Out",
+          "starter": true,
+          "star": false,
+          "injury": "Hip (initially announced as knee; knee scans clean) - fell awkwardly while pulling on a Gibbs run on 2nd possession Week 1, carted off. Est. DNP Monday. Campbell: not serious long-term but 'could be tough to get him ready for Thursday'.",
+          "source": "https://sports.yahoo.com/articles/dan-campbell-provides-christian-mahogany-223936591.html",
+          "roster_status": "ACT/A01",
+          "slot": "LG"
         },
         {
           "player": "Juice Scruggs",
@@ -117,17 +117,6 @@
           "roster_status": "RES/R04"
         },
         {
-          "player": "James Cook",
-          "position": "RB",
-          "status": "Questionable",
-          "starter": true,
-          "star": true,
-          "injury": "Hamstring - new; visited medical tent briefly early in Week 1 game, added to Week 2 report.",
-          "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html",
-          "roster_status": "ACT/A01",
-          "slot": "RB1"
-        },
-        {
           "player": "T.J. Sanders",
           "position": "DL",
           "status": "Questionable",
@@ -168,6 +157,17 @@
           "injury": "Knee/groin - briefly left Week 1 game after tackling David Montgomery, returned to start 2nd half (7 tackles); est. full participant Monday.",
           "source": "https://sports.yahoo.com/articles/bills-vs-lions-injury-detroits-143958100.html",
           "roster_status": "ACT/A01"
+        },
+        {
+          "player": "James Cook",
+          "position": "RB",
+          "status": "Probable",
+          "starter": true,
+          "star": true,
+          "injury": "Hamstring - new; visited medical tent briefly early in Week 1 game, added to Week 2 report.",
+          "source": "https://sports.yahoo.com/articles/bills-first-week-2-injury-203718295.html",
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
         },
         {
           "player": "Jordan Hancock",
@@ -302,6 +302,16 @@
           "source": "https://www.si.com/nfl/panthers/onsi/what-happened-to-bobby-brown-panthers-d-line-gets-even-thinner",
           "roster_status": "ACT/A01",
           "slot": "DT"
+        },
+        {
+          "player": "Jalen Coker",
+          "position": "WR3",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Rolled ankle Week 1, walking boot Monday, expects to play",
+          "source": "https://www.panthers.com/news/know-your-foe-week-2-atlanta-falcons",
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Jonathon Brooks",
@@ -464,6 +474,16 @@
           "injury": "Ankle - ruled out Week 1; no update found.",
           "source": "https://www.cbssports.com/nfl/news/nfl-week-1-injuries-tracker-rome-odunze-alvin-kamara/",
           "roster_status": "RES/R01"
+        },
+        {
+          "player": "Chris Lindstrom",
+          "position": "RG",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Concussion protocol after leaving Week 1 (Wed report)",
+          "source": "https://www.rotowire.com/football/headlines/tua-tagovailoa-injury-not-practicing-wednesday-637607",
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Drake London",
@@ -676,6 +696,16 @@
           "injury": "carried over from Week 1: Injured reserve (nflverse status R01)",
           "source": "data/manual/injuries_2026_wk1.json",
           "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Broken thumb, short-term IR (announced Wed Sept 16); DeeJay Dallas signed",
+          "source": "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-carson-wentz-starting-qb-chicago-bears-jj-mccarthy/601885777",
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Marcus Allen",
@@ -996,6 +1026,17 @@
           "slot": "LB"
         },
         {
+          "player": "Henry To'oTo'o",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Shoulder, injured with 2:34 left in 4th quarter vs BUF (tackling Dawson Knox); seen in a sling postgame. DeMeco Ryans (Mon 9/14) said he will 'miss some time'; IR decision not yet made. Jake Hansen expected to start in his place.",
+          "source": "https://www.houstonchronicle.com/sports/texans/article/henry-to-oto-o-injury-update-22430704.php",
+          "roster_status": "RES/R01",
+          "slot": "LB"
+        },
+        {
           "player": "Jayden Higgins",
           "position": "WR",
           "status": "IR",
@@ -1036,17 +1077,6 @@
           "source": "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-1-injury-report",
           "roster_status": "RES/R48",
           "slot": "WR3"
-        },
-        {
-          "player": "Henry To'oTo'o",
-          "position": "LB",
-          "status": "Out",
-          "starter": true,
-          "star": false,
-          "injury": "Shoulder, injured with 2:34 left in 4th quarter vs BUF (tackling Dawson Knox); seen in a sling postgame. DeMeco Ryans (Mon 9/14) said he will 'miss some time'; IR decision not yet made. Jake Hansen expected to start in his place.",
-          "source": "https://www.houstonchronicle.com/sports/texans/article/henry-to-oto-o-injury-update-22430704.php",
-          "roster_status": "ACT/A01",
-          "slot": "LB"
         },
         {
           "player": "Jake Hummel",
@@ -1147,7 +1177,8 @@
           "star": false,
           "injury": "Back (aggravated day 1 of camp, activated off PUP at cutdown); limited on Week 1 report but played.",
           "source": "https://sports.yahoo.com/articles/steelers-vs-falcons-week-1-204129399.html",
-          "roster_status": "ACT/I01"
+          "roster_status": "ACT/I01",
+          "slot": "CB1"
         },
         {
           "player": "Troy Fautanu",
@@ -1281,7 +1312,7 @@
         {
           "player": "TreVeyon Henderson",
           "position": "RB",
-          "status": "Probable",
+          "status": "Questionable",
           "starter": true,
           "star": false,
           "injury": "Ankle; missed all Week 1 practices and was inactive at SEA. Returned to practice Monday 9/14, trending toward Week 2 debut vs PIT.",
@@ -1335,7 +1366,7 @@
           "star": false,
           "injury": "carried over from Week 1: Injured reserve (per nflverse roster status R01); listed SS2 on depth chart",
           "source": "data/manual/injuries_2026_wk1.json",
-          "roster_status": "RES/R01"
+          "roster_status": "CUT/W03"
         },
         {
           "player": "Jordon Riley",
@@ -1542,6 +1573,28 @@
           "slot": "EDGE"
         },
         {
+          "player": "Minkah Fitzpatrick",
+          "position": "S",
+          "status": "Out",
+          "starter": true,
+          "star": true,
+          "injury": "Strained left groin after six plays in Week 1 at TEN (chasing Cam Ward); did not return. MRI Monday 9/14; results not yet public as of 9/15. Jets re-signed S Dean Clark to practice squad, signaling an expected absence.",
+          "source": "https://www.si.com/nfl/jets/onsi/jets-dean-clark-signing-hints-minkah-fitzpatrick-injury-is-worse-than-expected-01m2gbhqjnas",
+          "roster_status": "ACT/A01",
+          "slot": "S"
+        },
+        {
+          "player": "Omar Cooper Jr.",
+          "position": "WR",
+          "status": "Out",
+          "starter": true,
+          "star": false,
+          "injury": "Ankle sprain (suspected high-ankle) after four offensive plays in Week 1 at TEN in his NFL debut; X-rays negative, MRI pending; rookie first-round pick.",
+          "source": "https://www.espn.com/nfl/story/_/id/49930796/jets-wr-cooper-safety-fitzpatrick-hurt-titans",
+          "roster_status": "ACT/A01",
+          "slot": "WR2"
+        },
+        {
           "player": "D'Angelo Ponds",
           "position": "CB",
           "status": "Doubtful",
@@ -1560,28 +1613,6 @@
           "injury": "Groin/back; doubtful for Week 1. Week 2 status not yet updated.",
           "source": "https://www.jetnation.com/2026/09/11/jets-injury-report-josaeph-ossai-tim-patrick-out-for-week-1-vs-titans/",
           "roster_status": "ACT/I01"
-        },
-        {
-          "player": "Minkah Fitzpatrick",
-          "position": "S",
-          "status": "Doubtful",
-          "starter": true,
-          "star": true,
-          "injury": "Strained left groin after six plays in Week 1 at TEN (chasing Cam Ward); did not return. MRI Monday 9/14; results not yet public as of 9/15. Jets re-signed S Dean Clark to practice squad, signaling an expected absence.",
-          "source": "https://www.si.com/nfl/jets/onsi/jets-dean-clark-signing-hints-minkah-fitzpatrick-injury-is-worse-than-expected-01m2gbhqjnas",
-          "roster_status": "ACT/A01",
-          "slot": "S"
-        },
-        {
-          "player": "Omar Cooper Jr.",
-          "position": "WR",
-          "status": "Doubtful",
-          "starter": true,
-          "star": false,
-          "injury": "Ankle sprain (suspected high-ankle) after four offensive plays in Week 1 at TEN in his NFL debut; X-rays negative, MRI pending; rookie first-round pick.",
-          "source": "https://www.espn.com/nfl/story/_/id/49930796/jets-wr-cooper-safety-fitzpatrick-hurt-titans",
-          "roster_status": "ACT/A01",
-          "slot": "WR2"
         },
         {
           "player": "Breece Hall",
@@ -1662,7 +1693,7 @@
           "star": false,
           "injury": "Left knee, Week 1 at JAX; ruled out in-game, brace and crutches postgame. ESPN's Jeremy Fowler (9/14): expected to miss 'significant time'; IR stint in play, no final diagnosis yet. Raheim Sanders expected to take larger role.",
           "source": "https://www.profootballrumors.com/2026/09/browns-rb-dylan-sampson-to-miss-time-with-knee-injury",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "RB2"
         },
         {
@@ -1839,7 +1870,7 @@
           "star": true,
           "injury": "Right knee bone bruise (rolled up on in camp practice); played through it in Week 1, placed on IR Sept 14 - out at least through Week 5, earliest return Week 6",
           "source": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/landon-dickerson-injured-reserve-nick-sirianni-drew-kendall-knee-injury/751278/",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "LG"
         },
         {
@@ -1851,6 +1882,16 @@
           "injury": "carried over from Week 1: Reserve/NFI (nflverse R05)",
           "source": "data/manual/injuries_2026_wk1.json",
           "roster_status": "RES/R05"
+        },
+        {
+          "player": "Cooper DeJean",
+          "position": "CB1",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "'Dinged up' vs WAS, not in pads Wednesday",
+          "source": "https://heavy.com/sports/nfl/philadelphia-eagles/cooper-dejean-injury-before-titans-game/",
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Jonathan Greenard",
@@ -2086,12 +2127,22 @@
         },
         {
           "player": "Marvin Mims Jr.",
-          "position": "WR",
-          "status": "Probable",
-          "starter": false,
+          "position": "WR3",
+          "status": "Questionable",
+          "starter": true,
           "star": false,
-          "injury": "Hip - left on the 2nd drive vs KC (questionable to return), went to the locker room briefly and returned to the game. Had also carried a foot injury from the preseason finale (full participant in Week 1)",
-          "source": "https://www.milehighreport.com/denver-broncos-news/184948/marvin-mims-jr-exits-monday-night-football-matchup-versus-chiefs-due-to-hip-injury",
+          "injury": "Foot, estimated DNP Wednesday",
+          "source": "https://www.denverbroncos.com/news/injury-report-pair-of-broncos-estimated-as-nonparticipants-ahead-of-week-2-game-vs-jaguars",
+          "roster_status": "ACT/A01"
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB1",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring, estimated DNP Wednesday",
+          "source": "https://www.denverbroncos.com/news/injury-report-pair-of-broncos-estimated-as-nonparticipants-ahead-of-week-2-game-vs-jaguars",
           "roster_status": "ACT/A01"
         }
       ],
@@ -2140,6 +2191,16 @@
           "injury": "carried over from Week 1: Reserve/injured with no return designation; out for season",
           "source": "data/manual/injuries_2026_wk1.json",
           "roster_status": "RES/R01"
+        },
+        {
+          "player": "Jackson Powers-Johnson",
+          "position": "C",
+          "status": "Out",
+          "starter": true,
+          "star": false,
+          "injury": "Ruled out for Week 2 (team injury report)",
+          "source": "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-monday-night-football-espn",
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Brock Bowers",
@@ -2242,7 +2303,7 @@
           "star": false,
           "injury": "Hamstring in Week 1; Harbaugh said it 'looks like he's going to miss some time' and IR is being considered",
           "source": "https://www.chargers.com/news/ladd-mcconkey-injury-fantasy-jm-harbaugh-week-1",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "WR3"
         },
         {
@@ -2526,6 +2587,16 @@
     "WAS": {
       "players": [
         {
+          "player": "Dorance Armstrong",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "carried over from Week 1: Reserve list (nflverse status R40); listed SLB2 on depth chart",
+          "source": "data/manual/injuries_2026_wk1.json",
+          "roster_status": "ACT/A01"
+        },
+        {
           "player": "Jeremy McNichols",
           "position": "RB",
           "status": "IR",
@@ -2566,16 +2637,6 @@
           "injury": "Still recovering from 2025 quadriceps tear; opened season on PUP.",
           "source": "https://www.phillyvoice.com/eagles-commanders-week-1-injury-report-analysis-2026-jonathan-greenard-laremy-tunsil/",
           "roster_status": "RES/R04"
-        },
-        {
-          "player": "Dorance Armstrong",
-          "position": "EDGE",
-          "status": "Suspended",
-          "starter": false,
-          "star": false,
-          "injury": "carried over from Week 1: Reserve list (nflverse status R40); listed SLB2 on depth chart",
-          "source": "data/manual/injuries_2026_wk1.json",
-          "roster_status": "EXE/E02"
         },
         {
           "player": "Trey Amos",
@@ -2628,7 +2689,8 @@
           "star": false,
           "injury": "Ankle injury in Week 1 at PHI, did not return; not ruled out for Week 2.",
           "source": "https://www.fox5dc.com/news/dan-quinn-addresses-injuries-following-commanders-season-opening-loss-eagles",
-          "roster_status": "ACT/A01"
+          "roster_status": "ACT/A01",
+          "slot": "S"
         }
       ],
       "notes": [
@@ -2711,17 +2773,6 @@
           "slot": "LG"
         },
         {
-          "player": "DeMarvion Overshown",
-          "position": "LB",
-          "status": "Out",
-          "starter": true,
-          "star": false,
-          "injury": "Hamstring strain 4th quarter Week 1 vs NYG; Schottenheimer says 1-2 weeks, no IR expected.",
-          "source": "https://www.dallascowboys.com/news/malik-hooker-demarvion-overshown-to-miss-a-couple-weeks-with-injuries",
-          "roster_status": "ACT/A01",
-          "slot": "LB"
-        },
-        {
           "player": "Malik Davis",
           "position": "RB",
           "status": "Out",
@@ -2735,13 +2786,24 @@
         {
           "player": "Malik Hooker",
           "position": "S",
-          "status": "Out",
+          "status": "Doubtful",
           "starter": true,
           "star": false,
           "injury": "Fractured forearm 3rd quarter Week 1 vs NYG; surgery Tuesday; expected to avoid IR, 1-2+ weeks, return targeted around Week 4.",
           "source": "https://www.dallascowboys.com/news/malik-hooker-demarvion-overshown-to-miss-a-couple-weeks-with-injuries",
           "roster_status": "ACT/A01",
           "slot": "S"
+        },
+        {
+          "player": "DeMarvion Overshown",
+          "position": "LB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring strain 4th quarter Week 1 vs NYG; Schottenheimer says 1-2 weeks, no IR expected.",
+          "source": "https://www.dallascowboys.com/news/malik-hooker-demarvion-overshown-to-miss-a-couple-weeks-with-injuries",
+          "roster_status": "ACT/A01",
+          "slot": "LB"
         }
       ],
       "notes": [
@@ -2867,20 +2929,11 @@
           "position": "RB",
           "status": "Probable",
           "starter": true,
-          "star": false,
+          "star": true,
           "injury": "Left Week 1 briefly with cramps, returned; 10 carries 68 yds, 5 rec 20 yds.",
           "source": "https://www.yardbarker.com/nfl/articles/49ers_injury_news_kyle_shanahan_shares_updates_on_dezhaun_stribling_jake_tonges_after_win_vs_rams/s1_17111_44288897",
-          "roster_status": "ACT/A01"
-        },
-        {
-          "player": "Trent Williams",
-          "position": "LT",
-          "status": "Probable",
-          "starter": true,
-          "star": false,
-          "injury": "Left Week 1 briefly with cramps, returned.",
-          "source": "https://www.yardbarker.com/nfl/articles/49ers_injury_news_kyle_shanahan_shares_updates_on_dezhaun_stribling_jake_tonges_after_win_vs_rams/s1_17111_44288897",
-          "roster_status": "ACT/A01"
+          "roster_status": "ACT/A01",
+          "slot": "RB1"
         }
       ],
       "notes": [
@@ -2888,7 +2941,8 @@
         "Fred Warner also returned from injury and made an impact.",
         "Shanahan gave effusive praise to CB Renardo Green after the snap-count review.",
         "TE depth thin for Week 2 with Tonges out; WR depth hit by Stribling.",
-        "Week 2 home opener vs MIA, Sept 20, 4:25 pm ET."
+        "Week 2 home opener vs MIA, Sept 20, 4:25 pm ET.",
+        "A low-quality aggregator (nfl-sports.com) claimed McCaffrey was placed on IR on Sept 15-16; no reputable outlet corroborates it and Tuesday reporting had him healthy after Melbourne. Treated as active; re-check Friday."
       ],
       "sources": [
         "https://ca.sports.yahoo.com/news/49ers-stars-christian-mccaffrey-george-kittle-and-nick-bosa-all-cleared-to-play-vs-rams-in-australia-043234910.html",
@@ -3033,23 +3087,23 @@
         {
           "player": "Chamarri Conner",
           "position": "S",
-          "status": "Questionable",
+          "status": "Doubtful",
           "starter": true,
           "star": false,
           "injury": "Knee; ruled out for Week 1 ('a stretch' per Reid). Week 2 hinges on Wednesday practice.",
           "source": "https://www.arrowheadpride.com/kansas-city-chiefs-news/209997/andy-reid-declares-josh-simmons-chamarri-conner-out-chiefs-opener",
-          "roster_status": "ACT/A01",
+          "roster_status": "ACT/I01",
           "slot": "S"
         },
         {
           "player": "Josh Simmons",
           "position": "LT",
-          "status": "Questionable",
+          "status": "Doubtful",
           "starter": true,
           "star": false,
           "injury": "Back injury; had not returned to practice and was ruled out for Week 1. Undrafted rookie Kahlil Benson started at LT. Week 2 hinges on Wednesday practice.",
           "source": "https://www.arrowheadpride.com/kansas-city-chiefs-news/209997/andy-reid-declares-josh-simmons-chamarri-conner-out-chiefs-opener",
-          "roster_status": "ACT/A01",
+          "roster_status": "ACT/I01",
           "slot": "LT"
         },
         {
@@ -3212,17 +3266,6 @@
           "slot": "EDGE"
         },
         {
-          "player": "Aaron Donald",
-          "position": "DT",
-          "status": "Questionable",
-          "starter": true,
-          "star": true,
-          "injury": "Ruled out Week 1 (rest/ramp-up after un-retiring, signed Aug 30); McVay has not decided on Week 2 availability.",
-          "source": "https://www.yardbarker.com/nfl/articles/rams_sean_mcvay_gives_big_aaron_donald_week_2_update_after_myles_garrett_blow/s1_13132_44303142",
-          "roster_status": "ACT/A01",
-          "slot": "DT"
-        },
-        {
           "player": "Omar Speights",
           "position": "ILB",
           "status": "Questionable",
@@ -3231,6 +3274,17 @@
           "injury": "Hip pointer Week 1 vs SF; 'feeling better than anticipated'.",
           "source": "https://www.therams.com/news/rams-injury-updates-week-2-2026-giants-myles-garrett-kam-curl-davis-allen-nate-landman-omar-speights-monday-night-football",
           "roster_status": "ACT/A01"
+        },
+        {
+          "player": "Aaron Donald",
+          "position": "DT",
+          "status": "Probable",
+          "starter": true,
+          "star": true,
+          "injury": "Ruled out Week 1 (rest/ramp-up after un-retiring, signed Aug 30); McVay has not decided on Week 2 availability.",
+          "source": "https://www.yardbarker.com/nfl/articles/rams_sean_mcvay_gives_big_aaron_donald_week_2_update_after_myles_garrett_blow/s1_13132_44303142",
+          "roster_status": "ACT/A01",
+          "slot": "DT"
         },
         {
           "player": "Davis Allen",

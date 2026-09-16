@@ -4,12 +4,12 @@
     "DET|Christian Mahogany": {
       "slot": "LG",
       "starter": true,
-      "status": "Doubtful"
+      "status": "Out"
     },
     "DET|Blake Miller": {
       "slot": "RT",
       "starter": true,
-      "status": "Questionable"
+      "status": "Out"
     },
     "DET|Juice Scruggs": {
       "slot": "C",
@@ -36,7 +36,7 @@
       "slot": "RB1",
       "star": true,
       "starter": true,
-      "status": "Questionable"
+      "status": "Probable"
     },
     "BUF|Terrel Bernard": {
       "slot": "LB",
@@ -231,12 +231,12 @@
     "DAL|Malik Hooker": {
       "slot": "S",
       "starter": true,
-      "status": "Out"
+      "status": "Doubtful"
     },
     "DAL|DeMarvion Overshown": {
       "slot": "LB",
       "starter": true,
-      "status": "Out"
+      "status": "Questionable"
     },
     "DAL|Tyler Smith": {
       "slot": "LG",
@@ -289,12 +289,12 @@
     "KC|Josh Simmons": {
       "slot": "LT",
       "starter": true,
-      "status": "Questionable"
+      "status": "Doubtful"
     },
     "KC|Chamarri Conner": {
       "slot": "S",
       "starter": true,
-      "status": "Questionable"
+      "status": "Doubtful"
     },
     "KC|Chris Jones": {
       "slot": "DT",
@@ -318,7 +318,7 @@
       "slot": "DT",
       "star": true,
       "starter": true,
-      "status": "Questionable"
+      "status": "Probable"
     },
     "LA|Nate Landman": {
       "slot": "LB",
@@ -350,7 +350,7 @@
     "NE|TreVeyon Henderson": {
       "slot": "RB1",
       "starter": true,
-      "status": "Probable"
+      "status": "Questionable"
     },
     "NE|Christian Gonzalez": {
       "slot": "CB1",
@@ -361,7 +361,7 @@
     "HOU|Henry To'oTo'o": {
       "slot": "LB",
       "starter": true,
-      "status": "Out"
+      "status": "IR"
     },
     "HOU|Jake Hummel": {
       "slot": "LB",
@@ -387,12 +387,12 @@
       "slot": "S",
       "star": true,
       "starter": true,
-      "status": "Doubtful"
+      "status": "Out"
     },
     "NYJ|Omar Cooper Jr.": {
       "slot": "WR2",
       "starter": true,
-      "status": "Doubtful"
+      "status": "Out"
     },
     "NYJ|Joseph Ossai": {
       "slot": "EDGE",
@@ -454,6 +454,33 @@
       "slot": "WR1",
       "starter": true,
       "status": "Probable"
+    },
+    "DET|Christian Izien": {
+      "slot": "NCB",
+      "starter": true,
+      "status": "Probable"
+    },
+    "LA|Puka Nacua": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "WAS|Tyler Owens": {
+      "slot": "S",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "PIT|Joey Porter Jr.": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Probable"
+    },
+    "SF|Christian McCaffrey": {
+      "slot": "RB1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
     }
   },
   "drop": [
@@ -473,6 +500,7 @@
     "TB|Baker Mayfield",
     "NYJ|Geno Smith",
     "GB|Jordan Love",
-    "HOU|Speed (reported as LB E.J. Speed)"
+    "HOU|Speed (reported as LB E.J. Speed)",
+    "SF|Trent Williams"
   ]
 }

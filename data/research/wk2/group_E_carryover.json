@@ -1,5 +1,5 @@
 {
-  "collected_on": "2026-09-15",
+  "collected_on": "2026-09-16",
   "note": "Automatic carry-over of Week 1 IR/PUP/NFI/suspension absences; remove via the wk2 drop list if a player was activated.",
   "teams": {
     "NE": {
@@ -145,7 +145,9 @@
           "source": "data/manual/injuries_2026_wk1.json"
         }
       ],
-      "context_notes": [],
+      "context_notes": [
+        "A low-quality aggregator (nfl-sports.com) claimed McCaffrey was placed on IR on Sept 15-16; no reputable outlet corroborates it and Tuesday reporting had him healthy after Melbourne. Treated as active; re-check Friday."
+      ],
       "sources": []
     },
     "LA": {
@@ -305,6 +307,14 @@
           "starter": true,
           "injury": "carried over from Week 1: Blood clots in lungs; reserve/non-football illness - out at least first 4 games (eligible to practice after 2 weeks).",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Jalen Coker",
+          "position": "WR3",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Rolled ankle Week 1, walking boot Monday, expects to play",
+          "source": "https://www.panthers.com/news/know-your-foe-week-2-atlanta-falcons"
         }
       ],
       "context_notes": [],
@@ -583,6 +593,14 @@
           "starter": true,
           "injury": "carried over from Week 1: Moved to reserve/suspended list at 53-man cutdown (length of suspension not confirmed in search results)",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Chris Lindstrom",
+          "position": "RG",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Concussion protocol after leaving Week 1 (Wed report)",
+          "source": "https://www.rotowire.com/football/headlines/tua-tagovailoa-injury-not-practicing-wednesday-637607"
         }
       ],
       "context_notes": [],
@@ -801,6 +819,14 @@
           "starter": false,
           "injury": "carried over from Week 1: Reserve/injured with no return designation; out for season",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Jackson Powers-Johnson",
+          "position": "C",
+          "status": "Out",
+          "starter": true,
+          "injury": "Ruled out for Week 2 (team injury report)",
+          "source": "https://www.raiders.com/news/las-vegas-raiders-los-angeles-chargers-nfl-week-2-injury-report-monday-night-football-espn"
         }
       ],
       "context_notes": [],
@@ -893,6 +919,14 @@
           "starter": false,
           "injury": "carried over from Week 1: Injured reserve (nflverse R01); listed NB2 on depth chart",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "Broken thumb, short-term IR (announced Wed Sept 16); DeeJay Dallas signed",
+          "source": "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-carson-wentz-starting-qb-chicago-bears-jj-mccarthy/601885777"
         }
       ],
       "context_notes": [],
@@ -985,6 +1019,14 @@
           "starter": false,
           "injury": "carried over from Week 1: Reserve/NFI (nflverse R05)",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Cooper DeJean",
+          "position": "CB1",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "'Dinged up' vs WAS, not in pads Wednesday",
+          "source": "https://heavy.com/sports/nfl/philadelphia-eagles/cooper-dejean-injury-before-titans-game/"
         }
       ],
       "context_notes": [],
@@ -1147,6 +1189,22 @@
           "starter": true,
           "injury": "Commissioner's Exempt List, carried over",
           "source": "data/research/wk1/group_D.json"
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB1",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hamstring, estimated DNP Wednesday",
+          "source": "https://www.denverbroncos.com/news/injury-report-pair-of-broncos-estimated-as-nonparticipants-ahead-of-week-2-game-vs-jaguars"
+        },
+        {
+          "player": "Marvin Mims Jr.",
+          "position": "WR3",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Foot, estimated DNP Wednesday",
+          "source": "https://www.denverbroncos.com/news/injury-report-pair-of-broncos-estimated-as-nonparticipants-ahead-of-week-2-game-vs-jaguars"
         }
       ],
       "context_notes": [],
