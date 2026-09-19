@@ -1,5 +1,5 @@
 {
-  "collected_on": "2026-09-16",
+  "collected_on": "2026-09-19",
   "note": "Automatic carry-over of Week 1 IR/PUP/NFI/suspension absences; remove via the wk2 drop list if a player was activated.",
   "teams": {
     "NE": {
@@ -146,7 +146,8 @@
         }
       ],
       "context_notes": [
-        "A low-quality aggregator (nfl-sports.com) claimed McCaffrey was placed on IR on Sept 15-16; no reputable outlet corroborates it and Tuesday reporting had him healthy after Melbourne. Treated as active; re-check Friday."
+        "A low-quality aggregator (nfl-sports.com) claimed McCaffrey was placed on IR on Sept 15-16; no reputable outlet corroborates it and Tuesday reporting had him healthy after Melbourne. Treated as active; re-check Friday.",
+        "Friday official report lists no McCaffrey designation: the IR claim was false; he is active."
       ],
       "sources": []
     },
@@ -175,6 +176,22 @@
           "starter": false,
           "injury": "carried over from Week 1: Placed on IR at cutdown.",
           "source": "data/manual/injuries_2026_wk1.json"
+        },
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "injury": "Hip; added to report and did not practice Friday (Monday game, official report not yet in nflverse)",
+          "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-friday-sept-18"
+        },
+        {
+          "player": "Aaron Donald",
+          "position": "DT",
+          "status": "Probable",
+          "starter": true,
+          "injury": "Plans to make season debut Monday",
+          "source": "https://www.bigblueview.com/new-york-giants-discussion/171826/giants-at-rams-aaron-donald-will-play-puka-nacua-doesnt-practice"
         }
       ],
       "context_notes": [],

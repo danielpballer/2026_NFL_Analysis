@@ -30,9 +30,18 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
     coaching = head_coach_changes(season)
     coaching.update(load_json(f"coaching_{season}.json").get("teams", {}))
 
+    # games already played keep the row published before kickoff (closing lines and late news must not rewrite them)
+    prev_path = C.OUTPUT / f"week{week}_{season}_predictions.json"
+    frozen = {}
+    if prev_path.exists():
+        for r in json.loads(prev_path.read_text()):
+            frozen[r["game_id"]] = r
     rows = []
     for _, g in slate.iterrows():
         home, away = g.home_team, g.away_team
+        if not pd.isna(g.result) and g.game_id in frozen:
+            rows.append(frozen[g.game_id])
+            continue
         wx = weather.get(g.game_id, {})
         roof = wx.get("roof") or str(g.roof)   # weather file may correct the schedule's roof (e.g. Melbourne)
         ctx = GameContext(g.game_id, home, away, bool(g.neutral_site), bool(g.div_game), roof, wx)

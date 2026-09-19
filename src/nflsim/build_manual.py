@@ -115,10 +115,24 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                     row["roster_status"] = "not-on-2026-roster-file"
                 row.update(match_override(team, name, ovr["players"]))
                 entry["players"].append(row)
+    GAME_STATUSES = {"Out", "Doubtful", "Questionable", "Probable", "Returning-expected-to-play"}
+    official_by_team: dict[str, dict[str, str]] = {}
+    for row in official:
+        official_by_team.setdefault(row["team"], {})[f"{row['player'][:1].lower()}|{_last(row['player'])}"] = row["status"]
     for team, e in teams.items():
         for p in e["players"]:
             if p.get("roster_status") == "official-report":
-                p.update(match_override(team, p["player"], ovr["players"]))
+                ov = {k: v for k, v in match_override(team, p["player"], ovr["players"]).items() if k != "status"}
+                p.update(ov)
+            elif team in official_by_team and p["status"] in GAME_STATUSES:
+                # the official report is authoritative once published: anyone it lists gets that status,
+                # anyone it omits is active (reserve-list players are untouched)
+                key = f"{p['player'][:1].lower()}|{_last(p['player'])}"
+                if key in official_by_team[team]:
+                    p["status"] = official_by_team[team][key]
+                else:
+                    p["status"] = "Probable"
+                    p["injury"] = (p.get("injury") or "") + " [not on official report: active]"
     # de-duplicate by name, then by first initial + last name + position, within team (keep the most severe status)
     sev = {s: i for i, s in enumerate(["Returning-expected-to-play", "Probable", "Questionable", "Doubtful", "Out", "Suspended", "NFI", "PUP", "IR"])}
     for team, e in teams.items():

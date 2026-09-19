@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 2,
-  "collected_on": "2026-09-16",
+  "collected_on": "2026-09-19",
   "teams": {
     "ARI": {
       "starter": "Jacoby Brissett",
@@ -12,13 +12,13 @@
       "schedule_projected_starter": "Jacoby Brissett"
     },
     "ATL": {
-      "starter": "Cooper Rush (likely)",
+      "starter": "Cooper Rush",
       "pbp_name": "C.Rush",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Stefanski still would not name a starter Wednesday; Cooper Rush (full practice) is the likely starter, Tua Tagovailoa did not practice (oblique), Penix is cleared for full practice but says he is not all the way back. Modeled as roughly 70 percent Rush.",
-      "value_override": -2.8,
-      "extra_sd": 1.5,
+      "notes": "Stefanski named Cooper Rush the starter Friday; Penix is out and Tua is doubtful.",
+      "value_override": -3.0,
+      "extra_sd": 0.75,
       "schedule_projected_starter": "Tua Tagovailoa"
     },
     "BAL": {
@@ -58,8 +58,10 @@
       "pbp_name": "J.Burrow",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Joe Burrow healthy after missing nine games in 2025 (Cincinnati went 1-8 without him).",
-      "schedule_projected_starter": "Joe Burrow"
+      "notes": "Burrow is officially questionable with back tightness but practiced in full Friday and says he will play; modeled as an 85 percent chance he starts, with Flacco otherwise.",
+      "schedule_projected_starter": "Joe Burrow",
+      "value_override": 1.7,
+      "extra_sd": 1.0
     },
     "CLE": {
       "starter": "Deshaun Watson",
@@ -173,14 +175,14 @@
       "schedule_projected_starter": "Malik Willis"
     },
     "MIN": {
-      "starter": "Kyler Murray or Carson Wentz",
+      "starter": "Carson Wentz",
       "pbp_name": "C.Wentz",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Murray was a limited participant Wednesday and the team will start him if he clears concussion protocol; otherwise Carson Wentz (3 TD in relief). Modeled as an even split between Murray (+0.5) and Wentz (-1.2).",
+      "notes": "Kyler Murray was ruled out (concussion protocol) on Friday; Carson Wentz starts his 100th career game.",
       "schedule_projected_starter": "Kyler Murray",
-      "extra_sd": 1.0,
-      "value_override": -0.35
+      "extra_sd": 0.5,
+      "value_override": null
     },
     "NE": {
       "starter": "Drake Maye",
