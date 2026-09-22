@@ -1,0 +1,246 @@
+{
+  "collected_on": "2026-09-22",
+  "method": "WebSearch only (45 searches). Official Week 3 practice reports not yet published (first practice Wednesday Sept 23); statuses are projections from Monday coach pressers and beat reporting.",
+  "teams": {
+    "HOU": {
+      "week2_result": "L 6-20 vs CIN (0-2)",
+      "qb": {
+        "starter": "C.J. Stroud",
+        "backup": "Davis Mills",
+        "changed_from_week2": false,
+        "notes": "Stroud was seen limping after the Bengals loss but shrugged it off; DeMeco Ryans said Monday 'I have not seen him, so hopefully he's fine.' No indication of a QB change. Graham Mertz is QB3; Josh Johnson was inactive Week 2."
+      },
+      "injuries": [
+        {"player": "Nico Collins", "position": "WR", "status": "Out", "injury": "Grade 1 hamstring strain suffered in practice the week of Sept 14; missed Week 2; Ryans had no update Monday but a source says expectation is he will not play in Week 3 at IND", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/no-update-on-nico-collins-hamstring-injury"},
+        {"player": "Ed Ingram", "position": "OG", "status": "Out", "injury": "Groin injury in practice Thursday Sept 17; inactive Week 2; league source says could be sidelined at least two weeks", "starter": true, "source": "https://heavy.com/sports/nfl/houston-texans/stroud-bad-news-collins-ingram-injury-update/"},
+        {"player": "Henry To'oto'o", "position": "LB", "status": "IR", "injury": "Shoulder; placed on injured reserve before Week 2", "starter": true, "source": "https://sports.yahoo.com/articles/indianapolis-colts-vs-houston-texans-103823512.html"},
+        {"player": "Kayden McDonald", "position": "DT", "status": "IR", "injury": "Ankle; on injured reserve", "starter": false, "source": "https://sports.yahoo.com/articles/indianapolis-colts-vs-houston-texans-103823512.html"},
+        {"player": "Jadeveon Clowney", "position": "DE", "status": "Questionable", "injury": "Inactive Week 2 vs CIN (injury not specified in results); Week 3 status unclear", "starter": false, "source": "https://www.si.com/nfl/texans/onsi/texans-name-7-players-inactive-ahead-of-week-2-game-vs-bengals"},
+        {"player": "C.J. Stroud", "position": "QB", "status": "Probable", "injury": "Limping after Week 2 loss; downplayed it; no injury designation reported", "starter": true, "source": "https://bleacherreport.com/articles/25301148-will-cj-stroud-play-texans-vs-colts-hc-demeco-ryans-updates-qbs-injury-status"}
+      ],
+      "context_notes": [
+        "Texans are 0-2 after scoring zero touchdowns (6 points) vs Cincinnati; Stroud cited third downs and lack of explosive passing without Collins.",
+        "Ryans called the Colts game 'critical'.",
+        "Other Week 2 inactives (Brevin Jordan TE, Jake Hummel LB, Collin Wright CB, Nate Thomas OT) were listed; injury details not confirmed in results.",
+        "Texans expected to use the same receiver personnel as Week 2 if Collins remains out."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/indianapolis-colts-vs-houston-texans-103823512.html",
+        "https://sports.yahoo.com/articles/nico-collins-unlikely-face-colts-002040155.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/no-update-on-nico-collins-hamstring-injury",
+        "https://heavy.com/sports/nfl/houston-texans/stroud-bad-news-collins-ingram-injury-update/",
+        "https://bleacherreport.com/articles/25301148-will-cj-stroud-play-texans-vs-colts-hc-demeco-ryans-updates-qbs-injury-status",
+        "https://www.si.com/nfl/texans/onsi/texans-name-7-players-inactive-ahead-of-week-2-game-vs-bengals",
+        "https://www.si.com/nfl/texans/onsi/4-noteworthy-c-j-stroud-quotes-after-texans-dismal-loss-to-bengals",
+        "https://sports.yahoo.com/articles/texans-backup-quarterback-houstons-2026-085001206.html"
+      ]
+    },
+    "IND": {
+      "week2_result": "L 30-33 (OT) vs KC on SNF (0-2)",
+      "qb": {
+        "starter": "Daniel Jones",
+        "backup": "Anthony Richardson Sr.",
+        "changed_from_week2": false,
+        "notes": "Jones started Week 2 (returning from a torn Achilles suffered last season). Steichen named Richardson the backup Sept 3; Riley Leonard is QB3. No QB injury reported."
+      },
+      "injuries": [
+        {"player": "Alec Pierce", "position": "WR", "status": "Out", "injury": "Aggravated surgically repaired left heel in Week 2 vs KC; X-rays negative; will rehab rather than have a second surgery; not expected to go on IR but out at least several weeks (Steichen: 'I don't know' on Week 3)", "starter": true, "source": "https://sports.yahoo.com/articles/texans-defense-wont-face-colts-010636046.html"},
+        {"player": "Charvarius Ward Sr.", "position": "CB", "status": "Questionable", "injury": "Groin tightness; sat on bench in 2nd half of Week 2; to be monitored through the week", "starter": true, "source": "https://sports.yahoo.com/articles/colts-injury-updates-alec-pierce-100237330.html"},
+        {"player": "Will Mallory", "position": "TE", "status": "IR", "injury": "Thumb; placed on IR (designated to return) Aug 30", "starter": false, "source": "https://www.cbssports.com/fantasy/football/news/colts-will-mallory-opening-season-on-ir/"},
+        {"player": "Montgomery (first name not confirmed in results; likely WR D.J. Montgomery)", "position": "WR", "status": "IR", "injury": "Abdomen; placed on IR (reported as 'Sunday' in a Week 3 preview)", "starter": false, "source": "https://sports.yahoo.com/articles/indianapolis-colts-vs-houston-texans-103823512.html"},
+        {"player": "Tyquan Lewis", "position": "DE", "status": "Questionable", "injury": "Was uncertain for Week 2 vs KC per pre-game report; no Monday update found", "starter": false, "source": "https://www.si.com/nfl/colts/onsi/news/charvarius-ward-tyquan-lewis-unsure-colts-clash-chiefs"}
+      ],
+      "context_notes": [
+        "Colts gave up 41 to Baltimore in Week 1 and 33 to KC in Week 2; lost on a Butker 40-yd FG as OT expired after a replay reversed a Colts fumble-recovery call.",
+        "Losing Pierce removes the Colts' top downfield weapon vs Houston.",
+        "Colts return to practice Wednesday Sept 23."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/texans-defense-wont-face-colts-010636046.html",
+        "https://sports.yahoo.com/articles/colts-injury-updates-alec-pierce-100237330.html",
+        "https://sports.yahoo.com/nfl/breaking-news/article/colts-confirm-that-wr-alec-pierce-aggravated-heel-injury-that-required-offseason-surgery-timeline-remains-unclear-010627991.html",
+        "https://www.espn.com/nfl/recap/_/gameId/401872945",
+        "https://www.colts.com/news/colts-drop-heartbreaker-in-week-2-overtime-loss-to-kansas-city-chiefs",
+        "https://www.colts.com/video/head-coach-shane-steichen-announces-backup-qb-2026-media-availability-september-3",
+        "https://bolavip.com/en/nfl/starting-and-backup-qbs-on-chiefs-vs-colts-depth-charts-today-in-2026-nfl-week-2-snf",
+        "https://www.cbssports.com/fantasy/football/news/colts-will-mallory-opening-season-on-ir/"
+      ]
+    },
+    "NE": {
+      "week2_result": "W 20-3 vs PIT (1-1)",
+      "qb": {
+        "starter": "Drake Maye",
+        "backup": "Not confirmed in search results",
+        "changed_from_week2": false,
+        "notes": "Maye healthy; has 4 INT and 1 TD through two games, decision-making criticized."
+      },
+      "injuries": [
+        {"player": "Mike Onwenu", "position": "RG", "status": "Out", "injury": "Broken right ankle (carted off Q1 vs PIT after T.J. Watt rolled into his legs); Vrabel: not available 'in the short term ... next few weeks'; feared season-ending; IR placement not yet announced", "starter": true, "source": "https://www.bostonglobe.com/2026/09/21/sports/mike-vrabel-mike-onwenu-patriots/"},
+        {"player": "Dre'Mont Jones", "position": "OLB/EDGE", "status": "Questionable", "injury": "Shoulder, left in Q2 vs PIT; Vrabel unsure of progress but tone suggested he may work through it quickly", "starter": true, "source": "https://www.boston.com/sports/new-england-patriots/2026/09/21/patriots-mike-vrabel-mike-onwenu-dremont-jones-injury-comments/"},
+        {"player": "Craig Woodson", "position": "S", "status": "Questionable", "injury": "Shoulder, ruled out during Week 2 vs PIT; no Monday update", "starter": true, "source": "https://sports.yahoo.com/articles/patriots-lose-five-players-injuries-233119368.html"},
+        {"player": "Dell Pettus", "position": "S", "status": "Questionable", "injury": "Ankle on special teams, ruled out during Week 2 vs PIT", "starter": false, "source": "https://sports.yahoo.com/articles/patriots-lose-five-players-injuries-233119368.html"},
+        {"player": "Eli Raridon", "position": "TE", "status": "Questionable", "injury": "Thigh, lost in Q2 vs PIT; reported not to be serious", "starter": false, "source": "https://www.si.com/nfl/patriots/onsi/patriots-get-several-major-injury-updates-heading-into-week-3"},
+        {"player": "Marcus Jones", "position": "CB", "status": "Probable", "injury": "Banged up vs PIT, briefly left and returned to the game", "starter": true, "source": "https://sports.yahoo.com/articles/patriots-lose-five-players-injuries-233119368.html"}
+      ],
+      "context_notes": [
+        "Five players left the Steelers game; Onwenu's loss forces an interior OL reshuffle at right guard.",
+        "Patriots travel to Jacksonville then at Buffalo in Week 4.",
+        "More clarity expected when practice resumes Wednesday."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/patriots/onsi/patriots-get-several-major-injury-updates-heading-into-week-3",
+        "https://www.bostonglobe.com/2026/09/21/sports/mike-vrabel-mike-onwenu-patriots/",
+        "https://www.boston.com/sports/new-england-patriots/2026/09/21/patriots-mike-vrabel-mike-onwenu-dremont-jones-injury-comments/",
+        "https://sports.yahoo.com/articles/patriots-lose-five-players-injuries-233119368.html",
+        "https://www.bostonglobe.com/2026/09/20/sports/patriots-steelers-injuries/",
+        "https://www.nbcsportsboston.com/nfl/new-england-patriots/patriots-injury-luck-mike-onwenu-craig-woodson-updates/803615/"
+      ]
+    },
+    "JAX": {
+      "week2_result": "L 13-20 at DEN (1-1)",
+      "qb": {
+        "starter": "Trevor Lawrence",
+        "backup": "Nick Mullens",
+        "changed_from_week2": false,
+        "notes": "Lawrence healthy and played the full game. Mullens (elevated from practice squad) has been the active backup both weeks; second-year QB Quinn Ewers was a healthy scratch in Weeks 1 and 2."
+      },
+      "injuries": [
+        {"player": "B.J. Green II", "position": "DE", "status": "IR", "injury": "Placed on injured reserve heading into Week 2 (injury not specified in results)", "starter": false, "source": "https://www.bigcatcountry.com/jacksonville-jaguars-injuries/88848/jags-broncos-inactive-players-week-2-nfl"},
+        {"player": "Brian Thomas Jr.", "position": "WR", "status": "Probable", "injury": "Shoulder flare-up (limited in practice Week 2), removed from injury report and played vs DEN", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-18/thomas-shoulder-meyers-thumb-will-play-week-2"},
+        {"player": "Jakobi Meyers", "position": "WR", "status": "Probable", "injury": "Thumb; limited in practice Week 2 but played", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-18/thomas-shoulder-meyers-thumb-will-play-week-2"}
+      ],
+      "context_notes": [
+        "Every Jaguar on the Week 2 injury report suited up; Week 2 inactives were healthy scratches. No in-game injuries vs Denver were reported in search results.",
+        "Loss snapped a nine-game regular-season win streak; Coen blamed poor Thursday/Friday practices, pass protection and lack of pass rush.",
+        "Travis Hunter played (not injured); beat writers call for more offensive involvement."
+      ],
+      "sources": [
+        "https://www.jaguars.com/news/day-after-week-2-loss-to-broncos-move-on-and-respond",
+        "https://www.wruf.com/headlines/2026/09/21/liam-coen-jaguars-struggles-vs-broncos-started-before-kickoff/",
+        "https://www.bigcatcountry.com/jacksonville-jaguars-injuries/88848/jags-broncos-inactive-players-week-2-nfl",
+        "https://www.jaguars.com/news/in-and-out-2026-week-2-mullens-active",
+        "https://www.cbssports.com/fantasy/football/news/jaguars-quinn-ewers-healthy-scratch-in-week-2/",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-18/thomas-shoulder-meyers-thumb-will-play-week-2"
+      ]
+    },
+    "KC": {
+      "week2_result": "W 33-30 (OT) at IND on SNF (2-0)",
+      "qb": {
+        "starter": "Patrick Mahomes",
+        "backup": "Not confirmed in search results",
+        "changed_from_week2": false,
+        "notes": "Mahomes (listed with knee, post-ACL/LCL recovery) practiced fully all of Week 2, threw for 382 yds and 3 TD. No injuries to report after Week 2 per Reid."
+      },
+      "injuries": [
+        {"player": "Josh Simmons", "position": "LT", "status": "Out", "injury": "Back; inactive Weeks 1-2, has not practiced in the regular season; Reid had no new update Monday", "starter": true, "source": "https://sports.yahoo.com/articles/chiefs-share-latest-injury-updates-183330812.html"},
+        {"player": "Chamarri Conner", "position": "S/DB", "status": "Out", "injury": "Knee (swelling); inactive Weeks 1-2, has not practiced; no new update Monday", "starter": true, "source": "https://sports.yahoo.com/articles/chiefs-share-latest-injury-updates-183330812.html"},
+        {"player": "Mansoor Delane", "position": "CB", "status": "Questionable", "injury": "Shoulder; dressed Week 2 but did not play a snap ('extra man'); Reid: 'maybe he's better this week'; Kristian Fulton started in his place", "starter": true, "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-latest-injury-updates-josh-simmons-mansoor-delane-week-3/"},
+        {"player": "Chris Jones", "position": "DT", "status": "Probable", "injury": "Calf; questionable but active Week 2; played ~51% of snaps in Week 1 on a managed count", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/rapoport-chris-jones-calf-good-to-go-for-snf"}
+      ],
+      "context_notes": [
+        "Harrison Butker missed a FG earlier but hit the 40-yd game-winner as OT expired.",
+        "Kenneth Walker (RB) and Mahomes led the game-winning OT drive; Travis Kelce 101 yds; Tyquan Thornton 45-yd TD.",
+        "Rashee Rice, L'Jarius Sneed, Ashton Gillotte, R Mason Thomas all full participants / no designation entering Week 2."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/chiefs-share-latest-injury-updates-183330812.html",
+        "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-latest-injury-updates-josh-simmons-mansoor-delane-week-3/",
+        "https://www.espn.com/nfl/recap/_/gameId/401872945",
+        "https://sports.yahoo.com/articles/final-chiefs-injury-report-ahead-210950258.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/rapoport-chris-jones-calf-good-to-go-for-snf",
+        "https://www.nfl.com/news/nfl-week-2-sunday-aftermath-top-5-storylines"
+      ]
+    },
+    "MIA": {
+      "week2_result": "L 13-35 at SF (0-2)",
+      "qb": {
+        "starter": "Malik Willis",
+        "backup": "Kyle McCord",
+        "changed_from_week2": false,
+        "notes": "Willis 14/23, 197 yds, 4 sacks vs SF; Hafley wants more consistency but no QB change indicated. Brady Cook is emergency QB3. Willis appeared on the Week 2 injury report but practiced fully."
+      },
+      "injuries": [
+        {"player": "Caleb Douglas", "position": "WR", "status": "Questionable", "injury": "Ankle, suffered Week 2 at SF; Hafley says 'too early to tell'; Jalen Tolbert could step in", "starter": true, "source": "https://sports.yahoo.com/articles/miami-dolphins-jeff-hafley-updates-210636345.html"},
+        {"player": "Chop Robinson", "position": "EDGE", "status": "Questionable", "injury": "Concussion in practice week of Sept 14; missed Week 2; Hafley says he has made progress in protocol", "starter": true, "source": "https://sports.yahoo.com/articles/know-chop-robinson-dolphins-injury-174559611.html"},
+        {"player": "Jaylen Wright", "position": "RB", "status": "Questionable", "injury": "Day-to-day (injury not specified); more known when practice resumes Wednesday", "starter": false, "source": "https://sports.yahoo.com/articles/dolphins-hafley-addresses-injuries-potential-210346916.html"},
+        {"player": "Kenneth Grant", "position": "DT", "status": "IR", "injury": "Leg injury mid-August; IR with designation to return; eligible after 4 games (Week 5 earliest), seen in walking boot in early September", "starter": true, "source": "https://dolphinnation.com/2026/09/02/kenneth-grant-boot-puts-dolphins-week-5-return-in-doubt/"}
+      ],
+      "context_notes": [
+        "First-year HC Jeff Hafley (replaced Mike McDaniel); Dolphins outscored 62-26 through two games and are described as rebuilding.",
+        "Minkah Fitzpatrick is NOT on the Dolphins in 2026 (with the Jets per results); Malik Harrison was waived Aug 31 and is on the Giants practice squad. Neither belongs on the MIA report.",
+        "Week 2 inactives also included Jalen Tolbert WR, Marcellas Dial Jr. CB, DJ Campbell G, Chukwuebuka Godrick T, Justin Joly TE (largely healthy scratches).",
+        "Week 3 is the Dolphins' home opener vs the 2-0 Chiefs."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872942",
+        "https://sports.yahoo.com/articles/dolphins-hafley-addresses-injuries-potential-210346916.html",
+        "https://sports.yahoo.com/articles/miami-dolphins-jeff-hafley-updates-210636345.html",
+        "https://sports.yahoo.com/articles/know-chop-robinson-dolphins-injury-174559611.html",
+        "https://www.thephinsider.com/miami-dolphins-injuries/122784/dolphins-vs-49ers-inactive-list-injuries-hit-starters",
+        "https://www.cbssports.com/fantasy/football/news/dolphins-caleb-douglas-status-iffy-for-week-3/",
+        "https://dolphinnation.com/2026/09/02/kenneth-grant-boot-puts-dolphins-week-5-return-in-doubt/",
+        "https://clutchpoints.com/nfl/miami-dolphins/dolphins-news-jeff-hafley-wont-make-kenneth-grant-injury-return-promise-ir-designation"
+      ]
+    },
+    "TEN": {
+      "week2_result": "L 20-24 vs PHI (0-2)",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "Mitchell Trubisky (per Aug 8 official depth chart; Will Levis QB3)",
+        "changed_from_week2": false,
+        "notes": "Ward healthy: 13/20, 183 yds, 2 rushing TD vs PHI. Titans blew a 20-17 lead with 1:56 left."
+      },
+      "injuries": [
+        {"player": "Cor'Dale Flott", "position": "CB", "status": "Questionable", "injury": "Quad, bothered since Thursday Sept 17; inactive Week 2; Saleh 'hopeful' he is available vs NYG", "starter": true, "source": "https://www.tennesseetitans.com/news/hot-topics-from-titans-hc-robert-saleh-s-zoom-call-on-monday-x3451"},
+        {"player": "Fernando Carmona Jr.", "position": "RG", "status": "Questionable", "injury": "Shoulder injury during Week 2 vs PHI (played every offensive snap as starting RG); being checked, no update from Saleh Monday", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/titans-fernando-carmona-injured-in-loss/"},
+        {"player": "James Williams", "position": "LB", "status": "Questionable", "injury": "Elbow; inactive Week 2 vs PHI", "starter": false, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/flott-leads-titans-week-2-inactives"}
+      ],
+      "context_notes": [
+        "Third straight 0-2 start; first-year HC Robert Saleh said watching the tape would make them 'feel sick'; questions about Saleh's defense after late collapse.",
+        "Other Week 2 inactives (Antonio Mafi G, Brandon Crenshaw-Dickson T, Kylen Granson TE, Jackie Marshall DT) appear to be healthy scratches.",
+        "Marcus Harris, Jaylon Jones, Micah Robinson absorbed CB snaps with Flott out."
+      ],
+      "sources": [
+        "https://www.tennesseetitans.com/news/hot-topics-from-titans-hc-robert-saleh-s-zoom-call-on-monday-x3451",
+        "https://www.wral.com/news/ap/7f6ab-saleh-s-titans-fall-to-0-2-after-blowing-a-late-lead-in-a-24-20-loss-to-the-eagles/",
+        "https://sports.yahoo.com/articles/fernando-carmona-jr-injury-titans-141851968.html",
+        "https://www.cbssports.com/fantasy/football/news/titans-fernando-carmona-injured-in-loss/",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/flott-leads-titans-week-2-inactives",
+        "https://www.si.com/nfl/titans/onsi/titans-mill-doubts-about-robert-saleh-s-defense-persist-after-week-2-loss-to-eagles-01m31z6txb2y",
+        "https://www.tennesseetitans.com/news/20-things-that-caught-my-eye-on-the-first-unofficial-depth-chart-for-the-titans-in-2026"
+      ]
+    },
+    "NYG": {
+      "week2_result": "L 6-28 at LAR on MNF (0-2)",
+      "qb": {
+        "starter": "Jameis Winston (expected)",
+        "backup": "Not confirmed in search results (Dart is the injured starter; Giants carried 3 QBs in camp)",
+        "changed_from_week2": true,
+        "notes": "Jaxson Dart (Week 2 starter) sprained his MCL on the first series vs LAR and was ruled out; X-rays negative, MRI Tuesday Sept 22 (results not yet released in searches). Lip-readers claim a staffer told HC John Harbaugh 'out four to six weeks.' Winston finished the game and is lined up to start vs TEN; team says no QB decision until all information is in."
+      },
+      "injuries": [
+        {"player": "Jaxson Dart", "position": "QB", "status": "Out", "injury": "Sprained MCL (left knee), Week 2 first series at LAR; MRI Sept 22; expected to miss weeks (unconfirmed 4-6 wk timeline), not season-ending", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50001578/giants-qb-jaxson-dart-exits-mnf-game-vs-rams-knee-injury"},
+        {"player": "Malik Nabers", "position": "WR", "status": "Questionable", "injury": "Dislocated right shoulder late Q1 vs LAR, popped it back in and returned to the game; X-rays Tuesday", "starter": true, "source": "https://sports.yahoo.com/nfl/breaking-news/article/giants-wr-malik-nabers-says-his-shoulders-ok-but-needs-x-rays-brian-burns-andrew-thomas-injured-late-vs-rams-010137004.html"},
+        {"player": "Brian Burns", "position": "EDGE", "status": "Questionable", "injury": "Low ankle sprain, Q4 vs LAR (per Harbaugh); timetable TBD", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-burns-andrew-thomas-injured-in-fourth-quarter"},
+        {"player": "Andrew Thomas", "position": "LT", "status": "Questionable", "injury": "Groin, left on final possession vs LAR", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-burns-andrew-thomas-injured-in-fourth-quarter"},
+        {"player": "Arvell Reese", "position": "LB/DEF (rookie)", "status": "Probable", "injury": "Seen with trainers Q1 vs LAR (undisclosed), returned and did not appear hampered", "starter": true, "source": "https://www.si.com/nfl/giants/onsi/jaxson-dart-headlines-extensive-list-of-injured-giants-01m33jjwbvy8"}
+      ],
+      "context_notes": [
+        "First-year HC John Harbaugh (with GM Joe Schoen); Giants 0-2.",
+        "Short week after Monday night game before hosting TEN at 1 p.m. Sunday.",
+        "Four core starters (Dart, Nabers, Burns, Thomas) all injured in the same game; Tuesday medical exams pending."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50001578/giants-qb-jaxson-dart-exits-mnf-game-vs-rams-knee-injury",
+        "https://www.cbssports.com/nfl/news/jaxson-dart-injury-update-giants-qb-knee/",
+        "https://sports.yahoo.com/articles/jaxson-dart-mri-tuesday-033037026.html",
+        "https://www.thebiglead.com/jaxson-dart-injury-return-timeline-giants-sideline-lip-reading/",
+        "https://sports.yahoo.com/nfl/breaking-news/article/giants-wr-malik-nabers-says-his-shoulders-ok-but-needs-x-rays-brian-burns-andrew-thomas-injured-late-vs-rams-010137004.html",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-burns-andrew-thomas-injured-in-fourth-quarter",
+        "https://www.si.com/nfl/giants/onsi/jaxson-dart-headlines-extensive-list-of-injured-giants-01m33jjwbvy8",
+        "https://www.si.com/nfl/giants/onsi/giants-how-the-depth-chart-stacks-up-after-2026-draft-01kq3j6rj5cb",
+        "https://www.rotowire.com/football/nfl-depth-charts/new-york-giants-depth-chart-nyg"
+      ]
+    }
+  }
+}
