@@ -1,0 +1,614 @@
+{
+  "_doc": "Week 3 additions to player_overrides.json (same schema). Applied on top of the season file.",
+  "players": {
+    "ATL|A.J. Terrell": {
+      "slot": "CB1",
+      "star": true,
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "ATL|Samson Ebukam": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "ATL|Brian Robinson": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "ATL|Jawaan Taylor": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "ATL|Chris Lindstrom": {
+      "slot": "RG",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "ATL|Drake London": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "GB|Jayden Reed": {
+      "slot": "WR1",
+      "starter": true,
+      "status": "IR"
+    },
+    "GB|Zach Bako-Bewele": {
+      "slot": "RT",
+      "starter": true,
+      "status": "IR"
+    },
+    "GB|Javon Hargrave": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "GB|Aaron Banks": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "GB|Warren Brinson": {
+      "slot": "DT",
+      "starter": false,
+      "status": "Out"
+    },
+    "GB|Edgerrin Cooper": {
+      "slot": "LB",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LAC|David Njoku": {
+      "slot": "TE1",
+      "starter": true,
+      "status": "IR"
+    },
+    "LAC|Charlie Kolar": {
+      "slot": "TE2",
+      "starter": false,
+      "status": "IR"
+    },
+    "LAC|Kayode Awosika": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Out"
+    },
+    "LAC|Dalvin Tomlinson": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Out"
+    },
+    "LAC|Trey Pipkins": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LAC|Ladd McConkey": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "LAC|Derwin James": {
+      "slot": "S",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "BUF|DJ Moore": {
+      "slot": "WR1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BUF|Ed Oliver": {
+      "slot": "DT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BUF|James Cook": {
+      "slot": "RB1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "CAR|Jonathon Brooks": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "Doubtful"
+    },
+    "CAR|Nick Scott": {
+      "slot": "S",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CAR|Patrick Jones II": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CAR|Bobby Brown III": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CLE|Teven Jenkins": {
+      "slot": "G",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "CLE|Tyson Campbell": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NYJ|David Onyemata": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Out"
+    },
+    "NYJ|Mason Taylor": {
+      "slot": "TE1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NYJ|Minkah Fitzpatrick": {
+      "slot": "S",
+      "star": true,
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "NYJ|Omar Cooper Jr.": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "NYJ|Arian Smith": {
+      "slot": "WR3",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "DET|Brian Branch": {
+      "slot": "S",
+      "star": true,
+      "starter": true,
+      "status": "PUP"
+    },
+    "DET|Kerby Joseph": {
+      "slot": "S",
+      "star": true,
+      "starter": true,
+      "status": "PUP"
+    },
+    "DET|Christian Mahogany": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "DET|Blake Miller": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "DET|D.J. Reed": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "HOU|Nico Collins": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Out"
+    },
+    "HOU|Ed Ingram": {
+      "slot": "RG",
+      "starter": true,
+      "status": "Out"
+    },
+    "HOU|Jadeveon Clowney": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "HOU|Henry To'oTo'o": {
+      "slot": "LB",
+      "starter": true,
+      "status": "IR"
+    },
+    "IND|Alec Pierce": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Out"
+    },
+    "IND|Charvarius Ward": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NE|Mike Onwenu": {
+      "slot": "RG",
+      "star": true,
+      "starter": true,
+      "status": "Out"
+    },
+    "NE|Dre'Mont Jones": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NE|Craig Woodson": {
+      "slot": "S",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NE|Dell Pettus": {
+      "slot": "S",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "NE|TreVeyon Henderson": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Probable"
+    },
+    "KC|Josh Simmons": {
+      "slot": "LT",
+      "starter": true,
+      "status": "Out"
+    },
+    "KC|Chamarri Conner": {
+      "slot": "S",
+      "starter": true,
+      "status": "Out"
+    },
+    "KC|Mansoor Delane": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "KC|Chris Jones": {
+      "slot": "DT",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "MIA|Chop Robinson": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "MIA|Caleb Douglas": {
+      "slot": "WR3",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "MIA|Jaylen Wright": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "TEN|Cordale Flott": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "TEN|Fernando Carmona Jr.": {
+      "slot": "RG",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NYG|Malik Nabers": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NYG|Brian Burns": {
+      "slot": "EDGE",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NYG|Andrew Thomas": {
+      "slot": "LT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CIN|B.J. Hill": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PIT|Rico Dowdle": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PIT|Troy Fautanu": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PIT|Joey Porter Jr.": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PIT|Michael Pittman Jr.": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SEA|Jadarian Price": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SEA|Brandon Pili": {
+      "slot": "NT",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "SEA|Anthony Bradford": {
+      "slot": "RG",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "WAS|Sam Cosmi": {
+      "slot": "RG",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "WAS|Brandon Coleman": {
+      "slot": "LT",
+      "starter": true,
+      "status": "Probable"
+    },
+    "WAS|Javon Kinlaw": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "ARI|Will Johnson": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Out"
+    },
+    "ARI|Garrett Williams": {
+      "slot": "NCB",
+      "starter": true,
+      "status": "Out"
+    },
+    "SF|Demarcus Robinson": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "IR"
+    },
+    "SF|Mike Evans": {
+      "slot": "WR1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SF|Ricky Pearsall": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "IR"
+    },
+    "SF|Christian Kirk": {
+      "slot": "WR3",
+      "starter": true,
+      "status": "IR"
+    },
+    "SF|James Thompson Jr.": {
+      "slot": "DT",
+      "starter": false,
+      "status": "Out"
+    },
+    "SF|Romello Height": {
+      "slot": "DE",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "MIN|Brian O'Neill": {
+      "slot": "RT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "MIN|Tyrion Ingram-Dawkins": {
+      "slot": "DL",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "MIN|Jauan Jennings": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Probable"
+    },
+    "TB|Jacob Parrish": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BAL|Zay Flowers": {
+      "slot": "WR1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BAL|Nnamdi Madubuike": {
+      "slot": "DT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BAL|Teddye Buchanan": {
+      "slot": "LB",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "BAL|Ronnie Stanley": {
+      "slot": "LT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BAL|Trey Hendrickson": {
+      "slot": "EDGE",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "BAL|Ja'Kobi Lane": {
+      "slot": "WR3",
+      "starter": false,
+      "status": "IR"
+    },
+    "DAL|P.J. Locke": {
+      "slot": "S",
+      "starter": true,
+      "status": "Out"
+    },
+    "DAL|Cobie Durant": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Out"
+    },
+    "DAL|Malik Hooker": {
+      "slot": "S",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "DAL|DeMarvion Overshown": {
+      "slot": "LB",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "LV|Brock Bowers": {
+      "slot": "TE1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "LV|Darien Porter": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LV|Treydan Stukes": {
+      "slot": "S",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "LV|Jackson Powers-Johnson": {
+      "slot": "C",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NO|Kelvin Banks Jr.": {
+      "slot": "LT",
+      "starter": true,
+      "status": "IR"
+    },
+    "NO|Martin Emerson": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "NO|Alvin Kamara": {
+      "slot": "RB1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "LA|Puka Nacua": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LA|Kam Kinchens": {
+      "slot": "S",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LA|Aaron Donald": {
+      "slot": "DT",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "DEN|J.K. Dobbins": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "DEN|RJ Harvey": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "DEN|Marvin Mims Jr.": {
+      "slot": "WR3",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PHI|Dallas Goedert": {
+      "slot": "TE1",
+      "starter": true,
+      "status": "Out"
+    },
+    "PHI|Saquon Barkley": {
+      "slot": "RB1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "PHI|Jonathan Greenard": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "PHI|Cooper DeJean": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Probable"
+    },
+    "CHI|Kyler Gordon": {
+      "slot": "NCB",
+      "starter": true,
+      "status": "PUP"
+    }
+  },
+  "drop": [
+    "ATL|Michael Penix Jr.",
+    "ATL|Tua Tagovailoa",
+    "ATL|Cooper Rush",
+    "MIN|Kyler Murray",
+    "MIN|Carson Wentz",
+    "SEA|Sam Darnold",
+    "WAS|Jayden Daniels",
+    "NYG|Jaxson Dart",
+    "CIN|Joe Burrow",
+    "HOU|C.J. Stroud",
+    "BUF|Josh Allen",
+    "GB|Jordan Love",
+    "CLE|Deshaun Watson",
+    "MIA|Minkah Fitzpatrick",
+    "MIA|Malik Harrison",
+    "DET|Jared Goff",
+    "CHI|Caleb Williams",
+    "LV|Aidan O'Connell",
+    "CHI|Caleb Williams",
+    "PHI|Tanner McKee",
+    "BAL|Cooper Rush",
+    "IND|Montgomery (first name not confirmed in results; likely WR D.J. Montgomery)"
+  ]
+}

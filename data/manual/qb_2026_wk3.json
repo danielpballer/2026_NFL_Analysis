@@ -12,13 +12,13 @@
       "schedule_projected_starter": "Jacoby Brissett"
     },
     "ATL": {
-      "starter": "Cooper Rush",
-      "pbp_name": "C.Rush",
+      "starter": "Michael Penix Jr.",
+      "pbp_name": "M.Penix",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Stefanski named Cooper Rush the starter Friday; Penix is out and Tua is doubtful.",
-      "value_override": -3.0,
-      "extra_sd": 0.75,
+      "notes": "Penix named the Week 3 starter Monday, his first game since the 2025 ACL tear, on a short week at Lambeau; Tua may dress as backup. Value trimmed for rust.",
+      "value_override": -1.0,
+      "extra_sd": 1.5,
       "schedule_projected_starter": "Michael Penix Jr."
     },
     "BAL": {
@@ -46,30 +46,32 @@
       "schedule_projected_starter": "Bryce Young"
     },
     "CHI": {
-      "starter": "Caleb Williams",
-      "pbp_name": "C.Williams",
+      "starter": "Tyson Bagent",
+      "pbp_name": "T.Bagent",
       "new_to_team": false,
       "rookie": false,
-      "notes": "",
-      "schedule_projected_starter": "Tyson Bagent"
+      "notes": "Caleb Williams was carted off in the fourth quarter Sunday with a non-contact hamstring injury and will not practice this week; Tyson Bagent is taking first-team reps and projected to start Monday night.",
+      "schedule_projected_starter": "Tyson Bagent",
+      "value_override": -4.0,
+      "extra_sd": 1.0
     },
     "CIN": {
       "starter": "Joe Burrow",
       "pbp_name": "J.Burrow",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Burrow is officially questionable with back tightness but practiced in full Friday and says he will play; modeled as an 85 percent chance he starts, with Flacco otherwise.",
+      "notes": "Burrow played through back tightness in Houston (sacked five times); Taylor reported no setbacks Monday.",
       "schedule_projected_starter": "Joe Burrow",
-      "value_override": 1.7,
-      "extra_sd": 1.0
+      "value_override": null,
+      "extra_sd": 0.5
     },
     "CLE": {
       "starter": "Deshaun Watson",
       "pbp_name": "D.Watson",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Deshaun Watson named Week 1 starter over Shedeur Sanders on Aug 31; first start since October 2024 after two Achilles ruptures. Value from his 2024 play, variance widened.",
-      "extra_sd": 1.0,
+      "notes": "Watson remains the starter; local reports hint at groundwork for a change but nothing announced.",
+      "extra_sd": 0.75,
       "schedule_projected_starter": "Deshaun Watson"
     },
     "DAL": {
@@ -120,7 +122,7 @@
       "rookie": false,
       "notes": "Daniel Jones started and finished Week 1 in his return from the Achilles tear.",
       "value_override": 0.2,
-      "extra_sd": 0.5,
+      "extra_sd": 0.0,
       "schedule_projected_starter": "Daniel Jones"
     },
     "JAX": {
@@ -136,9 +138,9 @@
       "pbp_name": "P.Mahomes",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Mahomes returned from the ACL/LCL tear in Week 1 (2 TD, 1 INT) and came out healthy.",
+      "notes": "Mahomes threw for 382 and 3 TD in Indianapolis; fully back.",
       "value_override": 1.8,
-      "extra_sd": 0.5,
+      "extra_sd": 0.0,
       "schedule_projected_starter": "Patrick Mahomes"
     },
     "LA": {
@@ -175,11 +177,11 @@
       "schedule_projected_starter": "Malik Willis"
     },
     "MIN": {
-      "starter": "Carson Wentz",
-      "pbp_name": "C.Wentz",
+      "starter": "Kyler Murray",
+      "pbp_name": "K.Murray",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Kyler Murray was ruled out (concussion protocol) on Friday; Carson Wentz starts his 100th career game.",
+      "notes": "Murray cleared concussion protocol Monday and starts in Tampa; Wentz returns to backup.",
       "schedule_projected_starter": "Kyler Murray",
       "extra_sd": 0.5,
       "value_override": null
@@ -202,13 +204,13 @@
       "schedule_projected_starter": "Tyler Shough"
     },
     "NYG": {
-      "starter": "Jaxson Dart",
-      "pbp_name": "J.Dart",
+      "starter": "Jameis Winston",
+      "pbp_name": "J.Winston",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Jaxson Dart year two under new HC John Harbaugh; modest development bump.",
-      "value_override": -0.5,
-      "extra_sd": 0.5,
+      "notes": "Jaxson Dart sprained his MCL on the first series Monday night (reportedly 4 to 6 weeks); Jameis Winston expected to start on a short week.",
+      "value_override": null,
+      "extra_sd": 0.75,
       "schedule_projected_starter": "Jaxson Dart"
     },
     "NYJ": {
@@ -236,13 +238,13 @@
       "schedule_projected_starter": "Aaron Rodgers"
     },
     "SEA": {
-      "starter": "Drew Lock",
+      "starter": "Drew Lock (Darnold possible)",
       "pbp_name": "D.Lock",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Sam Darnold officially ruled out (glute strain, no surgery); Drew Lock starts, Jalen Milroe backs up.",
+      "notes": "Macdonald says there is a chance Darnold practices this week; Lock (4 TD, 0 INT in two wins) starts if he is not cleared. Modeled as roughly 70 percent Lock.",
       "schedule_projected_starter": "Drew Lock",
-      "value_override": -2.0,
+      "value_override": -1.2,
       "extra_sd": 1.0
     },
     "SF": {
@@ -271,12 +273,14 @@
       "schedule_projected_starter": "Cam Ward"
     },
     "WAS": {
-      "starter": "Jayden Daniels",
-      "pbp_name": "J.Daniels",
+      "starter": "Marcus Mariota",
+      "pbp_name": "M.Mariota",
       "new_to_team": false,
       "rookie": false,
-      "notes": "",
-      "schedule_projected_starter": "Jayden Daniels"
+      "notes": "Jayden Daniels dislocated his left elbow in Dallas and is out indefinitely; Marcus Mariota named the starter.",
+      "schedule_projected_starter": "Jayden Daniels",
+      "value_override": null,
+      "extra_sd": 0.75
     }
   }
 }

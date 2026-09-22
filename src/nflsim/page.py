@@ -43,7 +43,8 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     def esc(s): return html.escape(str(s)) if s is not None else ''
     def inj(d):
         if not d: return 'no material absences found'
-        parts=[p.strip() for p in d.split(';')]
+        import re as _re
+        parts=[m.group(0).strip() for m in _re.finditer(r"[^;]*?\(\w[^()]*, [^()]*\) -\d+\.\d+", d)]
         parts=[p for p in parts if abs(float(p.rsplit('-',1)[1]))>=0.15]
         return esc('; '.join(parts)) if parts else 'only depth-chart absences'
     out=[]
