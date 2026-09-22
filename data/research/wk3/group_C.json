@@ -1,0 +1,263 @@
+{
+  "collected_on": "2026-09-22",
+  "search_budget_note": "45 WebSearch queries used. Items marked uncertain could not be verified as 2026-specific; several search hits for CIN/ARI Week 3 were recycled 2025 (or older) articles and were discarded.",
+  "teams": {
+    "CIN": {
+      "week2_result": "W 20-6 at HOU (now 2-0)",
+      "qb": {
+        "starter": "Joe Burrow",
+        "backup": "not confirmed in searches",
+        "changed_from_week2": false,
+        "notes": "Burrow was questionable (back tightness) entering Week 2, practiced in full Friday, played and went 20/31 for 207 yds, 2 TD (both to Ja'Marr Chase) but was sacked 5 times. Post-game: 'I'm good to go... a little sore.' Zac Taylor on Monday said Burrow came out of the game 'good' with no setbacks; may not be a full participant early in the week. Some outlets describe the issue as a rib injury but the official Week 2 listing was back."
+      },
+      "injuries": [
+        {"player": "Joe Burrow", "position": "QB", "status": "Probable", "injury": "Back tightness since Week 1; questionable Week 2, played full game; no setbacks per Taylor 9/21", "starter": true, "source": "https://www.cincyjungle.com/cincinnati-bengals-news/199687/joe-burrow-injury-update-back-houston-texans-steelers-zac-taylor"},
+        {"player": "B.J. Hill", "position": "DT", "status": "Questionable", "injury": "Achilles; listed questionable on Week 2 report vs HOU. One preview lists him OUT for the Steelers game but that could not be verified as current (2026) -- treat as Questionable pending Wednesday report", "starter": true, "source": "https://www.cbssports.com/nfl/news/nfl-week-2-injury-report-joe-burrow/"}
+      ],
+      "context_notes": [
+        "Bengals 2-0 after beating TB (Week 1) and HOU (Week 2).",
+        "Offensive line allowed 5 sacks at Houston; pass protection is a concern against Pittsburgh's rush.",
+        "No in-game Week 2 Bengals injuries surfaced in searches; the official Week 2 report listed only Burrow and Hill.",
+        "Searches for the Week 3 report returned stale 2020/2025 articles (Tee Higgins shoulder, Su'a-Filo, Trae Waynes) which were discarded."
+      ],
+      "sources": [
+        "https://www.bengals.com/news/texans-bengals-injury-report-week-2-2026",
+        "https://www.cincyjungle.com/cincinnati-bengals-news/199687/joe-burrow-injury-update-back-houston-texans-steelers-zac-taylor",
+        "https://heavy.com/sports/nfl/cincinnati-bengals/joe-burrow-injury-update-win-texans/",
+        "https://www.cbssports.com/nfl/news/nfl-week-2-injury-report-joe-burrow/",
+        "https://www.fox19.com/video/2026/09/21/zac-taylor-talks-with-reporters-bengals-move-2-0-2/",
+        "https://www.si.com/betting/bengals-vs-steelers-prediction-odds-spread-injuries-trends-for-nfl-week-3-01m32wwcjkpw"
+      ]
+    },
+    "PIT": {
+      "week2_result": "L 3-20 at NE (now 1-1)",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "Mason Rudolph (Will Howard, Drew Allar behind him)",
+        "changed_from_week2": false,
+        "notes": "Rodgers started at New England; was strip-sacked (Barmore/Ponder scoop-and-score) and took a 36-yard-loss blindside sack. He was pulled late in the blowout (Fautanu 'played every snap even after Rodgers was pulled'); no injury reported for Rodgers."
+      },
+      "injuries": [
+        {"player": "Rico Dowdle", "position": "RB", "status": "Questionable", "injury": "Toe; hurt in 2nd quarter at NE 9/20, returned for start of 3rd quarter, then shut down for rest of game (carted to locker room). 7 car/22 yds. No official Week 3 designation yet", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/rico-dowdle-heads-to-locker-room-in-week-2"},
+        {"player": "Troy Fautanu", "position": "OT", "status": "Questionable", "injury": "Left ankle; missed Wed practice before Week 2, limited Thu, questionable, played every snap at NE, then seen in walking boot on left foot after game (possibly precautionary)", "starter": true, "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/175045/troy-fautanu-seen-in-walking-boot-after-loss-to-patriots-rico-dowdle"},
+        {"player": "Joey Porter Jr.", "position": "CB", "status": "Questionable", "injury": "Back; has missed time, flares up at full speed; exploring second opinion (Schefter) amid possible Week 3 return vs CIN", "starter": true, "source": "https://steelersdepot.com/2026/09/schefter-porter-exploring-second-opinion-on-back-injury-amid-possible-week-3-return/"},
+        {"player": "Michael Pittman Jr.", "position": "WR", "status": "Questionable", "injury": "Foot; was OUT for Week 2 at NE; questionable for Bengals game", "starter": true, "source": "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-could-lose-starting-michael-pittman-bengals"}
+      ],
+      "context_notes": [
+        "Offense managed 3 points and 188 total yards at New England; NE outgained PIT 357-188.",
+        "Jaylen Warren handled the backfield after Dowdle exited; Travis Homer and Eli Heidenreich are the depth backs.",
+        "Darnell Washington (TE) appeared on the Week 2 pre-game report along with Porter and Pittman (per BTSC headline); status for Week 3 not confirmed.",
+        "Home game (Bengals at Steelers, Acrisure Stadium)."
+      ],
+      "sources": [
+        "https://www.pff.com/news/nfl-week-2-recap-pittsburgh-steelers-3-new-england-patriots-20",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/rico-dowdle-heads-to-locker-room-in-week-2",
+        "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/175045/troy-fautanu-seen-in-walking-boot-after-loss-to-patriots-rico-dowdle",
+        "https://steelersdepot.com/2026/09/schefter-porter-exploring-second-opinion-on-back-injury-amid-possible-week-3-return/",
+        "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-could-lose-starting-michael-pittman-bengals",
+        "https://ca.sports.yahoo.com/news/steelers-backup-quarterback-pittsburghs-2026-083002399.html",
+        "https://www.steelers.com/news/week-3-injury-report-bengals"
+      ]
+    },
+    "SEA": {
+      "week2_result": "W 31-7 at ARI (now 2-0)",
+      "qb": {
+        "starter": "Sam Darnold (if cleared) / Drew Lock (if not)",
+        "backup": "Drew Lock (or Darnold inactive)",
+        "changed_from_week2": true,
+        "notes": "Darnold (glute) left the Week 1 game early vs NE and was ruled out Week 2. Mike Macdonald said Monday 9/21 there is 'a chance' Darnold practices this week and 'the plan is for him to be out there in some capacity'; timetable moved 'quite drastically' in a positive direction and the team is 'aiming' for Week 3, but it is not a sure thing and some reports point to Week 4 vs LAC as the more realistic target. Lock has played the bulk of both games: 4 TD, 0 INT, 19/26 for 235 yds and 3 TD at ARI. Treat as game-time/Wednesday-practice decision; Lock starts again if Darnold is not cleared."
+      },
+      "injuries": [
+        {"player": "Sam Darnold", "position": "QB", "status": "Questionable", "injury": "Glute; hurt Week 1 vs NE, out Week 2; may return to practice this week", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/seahawks-aiming-to-have-darnold-glute-week-3"},
+        {"player": "Jadarian Price", "position": "RB", "status": "Questionable", "injury": "Shoulder (initially reported as chest); exited 4th quarter at ARI 9/20, X-rays negative, Macdonald: 'nothing serious', monitor through week; may cede carries to Emanuel Wilson", "starter": true, "source": "https://www.si.com/nfl/seahawks/onsi/seahawks-mike-macdonald-positive-update-jadarian-price-injury"},
+        {"player": "Brandon Pili", "position": "NT", "status": "Questionable", "injury": "Concussion; ruled out at halftime at ARI 9/20, in concussion protocol", "starter": false, "source": "https://www.seahawks.com/news/2026-week-2-seahawks-at-cardinals-in-game-injury-updates"},
+        {"player": "Anthony Bradford", "position": "G", "status": "Questionable", "injury": "Knee, plus hip added to Week 2 report; limited Wed/Thu, DNP Friday before Week 2. Week 3 status not yet confirmed", "starter": true, "source": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-darnold-price-bradford"},
+        {"player": "Zach Charbonnet", "position": "RB", "status": "PUP", "injury": "Knee; on reserve/PUP, must miss at least first 4 games; eligible to return to practice as early as this week, target return Week 5; will not play vs WAS", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49778534/seahawks-zach-charbonnet-remains-pup-list-miss-least-first-four-games"}
+      ],
+      "context_notes": [
+        "Seahawks are the defending Super Bowl champions and 2-0 with Lock under center.",
+        "Jaxon Smith-Njigba had a huge game at Arizona; SEA outgained ARI 385-151.",
+        "George Holani and Emanuel Wilson took snaps after Price exited."
+      ],
+      "sources": [
+        "https://www.fieldgulls.com/seattle-seahawks-injury-report/175367/mike-macdonald-theres-a-chance-seahawks-sam-darnold-practices-week-3-commanders",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/seahawks-aiming-to-have-darnold-glute-week-3",
+        "https://www.seahawks.com/news/2026-week-2-seahawks-at-cardinals-in-game-injury-updates",
+        "https://www.seahawks.com/news/seahawks-injury-updates-from-mike-macdonald-following-sunday-s-week-2-win-at-arizona",
+        "https://www.si.com/nfl/seahawks/onsi/seahawks-mike-macdonald-positive-update-jadarian-price-injury",
+        "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-darnold-price-bradford",
+        "https://www.espn.com/nfl/story/_/id/49778534/seahawks-zach-charbonnet-remains-pup-list-miss-least-first-four-games",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxon-smith-njigba-goes-off-as-seahawks-blow-out-cardinals-31-7"
+      ]
+    },
+    "WAS": {
+      "week2_result": "L at DAL (now 0-2)",
+      "qb": {
+        "starter": "Marcus Mariota",
+        "backup": "not confirmed in searches",
+        "changed_from_week2": true,
+        "notes": "Jayden Daniels dislocated his LEFT elbow late in the first half at Dallas 9/20 (teammate G Chris Paul stepped on his foot at the 1-yard line; he braced with the left arm). X-rays showed no fracture/structural damage; MRI reviewed, seeing specialists Tue/Wed; no timetable, 'out indefinitely'. Same elbow he dislocated last season. Dan Quinn named Mariota the Week 3 starter vs SEA. Mariota went 11/17 for 111 yds and a TD (to Stefon Diggs) in relief."
+      },
+      "injuries": [
+        {"player": "Jayden Daniels", "position": "QB", "status": "Out", "injury": "Dislocated left elbow 9/20 at DAL; no fracture; specialists this week; no timetable", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50000044/jayden-daniels-see-specialists-commanders-form-plan"},
+        {"player": "Sam Cosmi", "position": "G", "status": "Questionable", "injury": "Concussion 9/20 (helmet-to-helmet with teammate Kaytron Allen); in protocol; could reach full participation in time for SEA", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/sam-cosmi-in-concussion-protocol-after-week-2-loss"},
+        {"player": "Brandon Coleman", "position": "LT", "status": "Probable", "injury": "Finger; left DAL game early, did not return; Quinn: on track to practice this week and start vs SEA", "starter": true, "source": "https://www.commanders.com/news/jayden-daniels-dan-quinn-commanders"},
+        {"player": "Javon Kinlaw", "position": "DT", "status": "Questionable", "injury": "Shoulder; left DAL game, needed MRI; expected limited in practice this week", "starter": true, "source": "https://www.commanders.com/news/jayden-daniels-dan-quinn-commanders"},
+        {"player": "Laremy Tunsil", "position": "LT", "status": "IR", "injury": "Torn triceps in camp (Aug 8 vs Odafe Oweh); on IR, possible return later in season", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-laremy-tunsil-johnny-newton-on-ir-re-sign-fabian-moreau-and-shy-tuttle"},
+        {"player": "Johnny Newton", "position": "DT", "status": "IR", "injury": "Torn pectoral in preseason vs MIA, surgery Aug 19; on IR, possible return later in season", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-laremy-tunsil-johnny-newton-on-ir-re-sign-fabian-moreau-and-shy-tuttle"},
+        {"player": "Trey Amos", "position": "CB", "status": "IR", "injury": "Ankle (camp) after 2025 fractured fibula; IR designated to return; must miss at least 4 games", "starter": true, "source": "https://www.hogshaven.com/washington-commanders-roster/436247/washington-commanders-designate-larmey-tunsil-johnny-newton-trey-amos-return-injured-reserve-jeremy-mcnichols"},
+        {"player": "Jeremy McNichols", "position": "RB", "status": "IR", "injury": "IR designated to return (initial cuts)", "starter": false, "source": "https://www.hogshaven.com/washington-commanders-roster/436247/washington-commanders-designate-larmey-tunsil-johnny-newton-trey-amos-return-injured-reserve-jeremy-mcnichols"},
+        {"player": "Deatrich Wise Jr.", "position": "DE", "status": "PUP", "injury": "Reserve/PUP to start season", "starter": false, "source": "https://x.com/NickiJhabvala/status/2094183780151906447"}
+      ],
+      "context_notes": [
+        "Commanders 0-2 (lost to PHI Week 1, at DAL Week 2); Quinn criticized for going for TD at the 1 on the play where Daniels was hurt.",
+        "Coleman is the fill-in LT with Tunsil on IR; Cosmi (RG) concussion adds a second OL question.",
+        "Trade speculation around a QB has surfaced with Daniels out indefinitely."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50000044/jayden-daniels-see-specialists-commanders-form-plan",
+        "https://www.espn.com/nfl/story/_/id/49993422/commanders-qb-jayden-daniels-suffers-elbow-injury-cowboys",
+        "https://www.washingtonpost.com/sports/2026/09/21/jayden-daniels-remains-out-indefinitely-commanders-tap-marcus-mariota-face-seahawks/",
+        "https://www.cbssports.com/nfl/news/jayden-daniels-injury-commanders-qb-examining-options/",
+        "https://www.hogshaven.com/pressers/437217/dan-quinn-jayden-daniels-elbow-injury-update-regrets-going-touchdown-dallas-cowboys-nfl",
+        "https://www.commanders.com/news/jayden-daniels-dan-quinn-commanders",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/sam-cosmi-in-concussion-protocol-after-week-2-loss",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-laremy-tunsil-johnny-newton-on-ir-re-sign-fabian-moreau-and-shy-tuttle",
+        "https://www.hogshaven.com/washington-commanders-roster/436247/washington-commanders-designate-larmey-tunsil-johnny-newton-trey-amos-return-injured-reserve-jeremy-mcnichols"
+      ]
+    },
+    "ARI": {
+      "week2_result": "L 7-31 vs SEA (now 0-2 per searches; Week 1 result not confirmed)",
+      "qb": {
+        "starter": "Jacoby Brissett",
+        "backup": "not confirmed in searches",
+        "changed_from_week2": false,
+        "notes": "Brissett started Week 2 vs SEA: 17/28, 95 yds, 1 TD, 1 INT (picked by Julian Love). Kyler Murray is now with Minnesota. No QB injury reported."
+      },
+      "injuries": [
+        {"player": "Will Johnson", "position": "CB", "status": "Out", "injury": "Neck injury vs SEA 9/20; reported could miss rest of regular season (IR move likely, not yet confirmed)", "starter": true, "source": "https://www.profootballnetwork.com/nfl-team-hq/arizona-cardinals/jonathan-gannon-updates-four-defenders/"},
+        {"player": "James Conner", "position": "RB", "status": "IR", "injury": "Foot (2025 Week 3 injury, complications); began 2026 on IR designated to return; must miss at least first 4 games", "starter": true, "source": "https://arizonasports.com/nfl/arizona-cardinals/cardinals-james-conner-starting-season-on-injured-reserve"},
+        {"player": "Garrett Williams", "position": "CB", "status": "Out", "injury": "Still working back from 2025 season-ending Achilles; practiced limited all week but was ruled out Week 2 (not yet activated to play)", "starter": true, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Isaiah Adams", "position": "G", "status": "Questionable", "injury": "Knee; questionable Week 2 vs SEA; Week 3 status TBD", "starter": true, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Isaac Seumalo", "position": "G", "status": "Questionable", "injury": "Shoulder; questionable Week 2 vs SEA; Week 3 status TBD", "starter": true, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Max Melton", "position": "CB", "status": "Questionable", "injury": "Ankle; questionable Week 2 vs SEA; Week 3 status TBD", "starter": true, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Andrew Billings", "position": "DL", "status": "Questionable", "injury": "Knee; questionable Week 2 vs SEA; Week 3 status TBD", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Roy Lopez", "position": "DL", "status": "Questionable", "injury": "Groin; questionable Week 2 vs SEA; Week 3 status TBD", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"},
+        {"player": "Dadrion Taylor-Demerson", "position": "S", "status": "Questionable", "injury": "Ribs; questionable Week 2 vs SEA; Week 3 status TBD", "starter": false, "source": "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks"}
+      ],
+      "context_notes": [
+        "Offense gained only 151 yards vs SEA; Brissett averaged 3.4 yds/att.",
+        "Trey McBride and Budda Baker appeared on the first Week 2 injury report (per SI headline); both statuses for Week 3 not confirmed.",
+        "Jonathan Gannon remains head coach in 2026 (ownership kept him after a 3-14 2025).",
+        "Losing Will Johnson on top of Garrett Williams not yet back leaves the secondary thin vs SF.",
+        "A 'Week 3 vs 49ers' azcardinals.com/SI injury list (Beachum, Cody Simon, Stills, Hernandez, P. Johnson Jr., Reiman, Melton, W. Johnson groin) surfaced but appears to be the 2025 Week 3 report and was NOT used."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872943",
+        "https://www.pff.com/news/nfl-week-2-recap-seattle-seahawks-31-arizona-cardinals-7",
+        "https://www.si.com/nfl/cardinals/onsi/6-arizona-cardinals-questionable-final-week-2-injury-report-seattle-seahawks",
+        "https://www.profootballnetwork.com/nfl-team-hq/arizona-cardinals/jonathan-gannon-updates-four-defenders/",
+        "https://arizonasports.com/nfl/arizona-cardinals/cardinals-james-conner-starting-season-on-injured-reserve",
+        "https://burncitysports.com/2026/01/01/cardinals-stick-with-gannon-as-hc-26/"
+      ]
+    },
+    "SF": {
+      "week2_result": "W 35-13 vs MIA (now 2-0)",
+      "qb": {
+        "starter": "Brock Purdy",
+        "backup": "not confirmed in searches",
+        "changed_from_week2": false,
+        "notes": "Purdy threw 3 TD vs Miami; no injury reported in 2026 (older 2025 toe/shoulder items were discarded)."
+      },
+      "injuries": [
+        {"player": "Mike Evans", "position": "WR", "status": "Questionable", "injury": "Hip; left MIA game 9/20 and did not return; Shanahan says not serious but 'will have to be managed this week'", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-will-have-to-be-managed-this-week"},
+        {"player": "Demarcus Robinson", "position": "WR", "status": "Out", "injury": "High-ankle sprain 9/20 vs MIA (carted off); 3-6 weeks; headed to IR (move not yet official as of 9/21 because of IR-return-slot crunch)", "starter": true, "source": "https://www.pressdemocrat.com/2026/09/21/49ers-week-2-aftermath-robinson-headed-for-ir-height-to-have-hand-surgery/"},
+        {"player": "James Thompson Jr.", "position": "DT", "status": "Out", "injury": "High-ankle sprain 9/20 vs MIA; 3-6 weeks", "starter": false, "source": "https://www.49erswebzone.com/articles/203480-demarcus-robinson-thompson-high-ankle-shanahan/"},
+        {"player": "Romello Height", "position": "EDGE", "status": "Questionable", "injury": "Broken hand 9/20, needs surgery; Shanahan did not rule out playing Sunday", "starter": false, "source": "https://sports.yahoo.com/articles/romello-height-becomes-latest-49ers-205122025.html"},
+        {"player": "Mykel Williams", "position": "DE", "status": "PUP", "injury": "Torn ACL (2025); on PUP, will NOT start practicing this week; more likely to return to practice entering Week 4", "starter": true, "source": "https://www.49erswebzone.com/articles/203480-demarcus-robinson-thompson-high-ankle-shanahan/"},
+        {"player": "Ricky Pearsall", "position": "WR", "status": "IR", "injury": "Season-ending knee surgery in training camp", "starter": true, "source": "https://www.sfchronicle.com/sports/49ers/article/49ers-face-jam-injured-reserve-demarcus-robinson-22442579.php"},
+        {"player": "Christian Kirk", "position": "WR", "status": "IR", "injury": "On injured reserve (injury detail not captured)", "starter": true, "source": "https://www.sfchronicle.com/sports/49ers/article/49ers-face-jam-injured-reserve-demarcus-robinson-22442579.php"},
+        {"player": "De'Zhaun Stribling", "position": "WR", "status": "IR", "injury": "Ankle surgery; expected to miss about 10 weeks", "starter": false, "source": "https://www.sfchronicle.com/sports/49ers/article/49ers-face-jam-injured-reserve-demarcus-robinson-22442579.php"}
+      ],
+      "context_notes": [
+        "WR room is decimated: Pearsall (season), Kirk (IR), Stribling (IR), Robinson (IR-bound), Evans (hip, managed). Jauan Jennings is now a Viking.",
+        "49ers can only bring back 8 players from IR in a season and already have a long list two games in.",
+        "SF opened as a big favorite over ARI.",
+        "Kyle Juszczyk cleared concussion protocol (timing relative to Week 2 not confirmed)."
+      ],
+      "sources": [
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-will-have-to-be-managed-this-week",
+        "https://www.49erswebzone.com/articles/203480-demarcus-robinson-thompson-high-ankle-shanahan/",
+        "https://www.pressdemocrat.com/2026/09/21/49ers-week-2-aftermath-robinson-headed-for-ir-height-to-have-hand-surgery/",
+        "https://www.sfchronicle.com/sports/49ers/article/49ers-face-jam-injured-reserve-demarcus-robinson-22442579.php",
+        "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/kyle-shanahan-mike-evans-demarcus-robinson-injury-update/1965092/",
+        "https://sports.yahoo.com/articles/romello-height-becomes-latest-49ers-205122025.html",
+        "https://www.49erswebzone.com/articles/203478-49ers-open-favorites-cardinals-week/"
+      ]
+    },
+    "MIN": {
+      "week2_result": "W 9-3 at CHI (now 2-0)",
+      "qb": {
+        "starter": "Kyler Murray",
+        "backup": "Carson Wentz (J.J. McCarthy is QB3)",
+        "changed_from_week2": true,
+        "notes": "Murray suffered a concussion in Q1 of Week 1 vs GB (hit by Bullard/Van Ness on a slide), was limited all week and ruled out Friday for Week 2. Carson Wentz started the 9-3 win at Chicago. Murray cleared concussion protocol Monday 9/21 and Kevin O'Connell named him the Week 3 starter at Tampa Bay."
+      },
+      "injuries": [
+        {"player": "Kyler Murray", "position": "QB", "status": "Returning-expected-to-play", "injury": "Concussion Week 1 vs GB; missed Week 2; cleared protocol 9/21", "starter": true, "source": "https://www.vikings.com/news/kyler-murray-starting-quarterback-week-3-buccaneers-injury"},
+        {"player": "Jauan Jennings", "position": "WR", "status": "Returning-expected-to-play", "injury": "Missed Week 2 for personal reasons (death in family); O'Connell expects him back Week 3", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/jennings-expected-to-return-for-week-3"},
+        {"player": "Brett Thorson", "position": "P", "status": "Questionable", "injury": "Hamstring soreness reported Monday 9/21, to be further examined; team may sign a familiar punter if he cannot go", "starter": true, "source": "https://www.si.com/nfl/vikings/onsi/brett-thorson-s-week-3-injury-uncertainty-could-have-vikings-turning-to-a-familiar-face-01m32qxv51ks"},
+        {"player": "Tyrion Ingram-Dawkins", "position": "DL", "status": "Questionable", "injury": "Right hip; started at CHI but played only 12 snaps after injury; day-to-day per O'Connell", "starter": true, "source": "https://www.minnesotasportsfan.com/minnesota-vikings/early-week-3-injury-updates-koc-ingram-dawkins-thorson-cashman/"},
+        {"player": "Blake Cashman", "position": "LB", "status": "Probable", "injury": "Left CHI game briefly in Q3 but returned (10 tackles, 1 sack); expected fine for Week 3", "starter": true, "source": "https://www.minnesotasportsfan.com/minnesota-vikings/early-week-3-injury-updates-koc-ingram-dawkins-thorson-cashman/"},
+        {"player": "Aaron Jones", "position": "RB", "status": "Probable", "injury": "Took a big hit at CHI; O'Connell expects him fine for Sunday", "starter": true, "source": "https://heavy.com/sports/nfl/minnesota-vikings/vikings-injury-update-after-chicago-win/"},
+        {"player": "Brian O'Neill", "position": "RT", "status": "Questionable", "injury": "Knee (hurt in practice Wed before Week 2, questionable for CHI); Week 3 status not confirmed", "starter": true, "source": "https://www.vikings.com/news/injury-report-week-2-chicago-bears-2026"},
+        {"player": "Jordan Mason", "position": "RB", "status": "IR", "injury": "Thumb fracture, surgery; placed on IR 9/16; minimum 4 games; 'should be back quickly' per Rapoport", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49959077/vikings-rb-jordan-mason-put-ir-having-surgery-thumb"}
+      ],
+      "context_notes": [
+        "Defense carried Week 2: 4 sacks (Turner 2), Byron Murphy Jr. INT, held CHI to 297 yards in the rain; Caleb Williams left with a hamstring injury.",
+        "Aaron Jones is the workhorse back with Mason on IR.",
+        "Wentz was 1-0 as the fill-in starter; Murray returns to a 2-0 team."
+      ],
+      "sources": [
+        "https://www.vikings.com/news/kyler-murray-starting-quarterback-week-3-buccaneers-injury",
+        "https://www.cbssports.com/nfl/news/vikings-kyler-murray-clears-concussion-protocol-starter-for-week-3/",
+        "https://www.startribune.com/kyler-murray-injury-update-minnesota-vikings-tampa-bay-buccaneers-carson-wentz-jj-mccarthy-week-3-qb/601889712",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-21/jennings-expected-to-return-for-week-3",
+        "https://www.si.com/nfl/vikings/onsi/brett-thorson-s-week-3-injury-uncertainty-could-have-vikings-turning-to-a-familiar-face-01m32qxv51ks",
+        "https://www.minnesotasportsfan.com/minnesota-vikings/early-week-3-injury-updates-koc-ingram-dawkins-thorson-cashman/",
+        "https://www.vikings.com/news/injury-report-week-2-chicago-bears-2026",
+        "https://www.espn.com/nfl/story/_/id/49959077/vikings-rb-jordan-mason-put-ir-having-surgery-thumb",
+        "https://www.espn.com/nfl/recap?gameId=401872937"
+      ]
+    },
+    "TB": {
+      "week2_result": "L 19-23 vs CLE (now 0-2, first 0-2 start in 12 years)",
+      "qb": {
+        "starter": "Baker Mayfield",
+        "backup": "not confirmed in searches",
+        "changed_from_week2": false,
+        "notes": "Mayfield played the full game; no injury reported, but he has been 'sloppy, inaccurate' with poor decisions through two weeks per local coverage. (A JoeBucsFan 'Mayfield injury watch' post exists but no concrete injury was found.)"
+      },
+      "injuries": [
+        {"player": "Jacob Parrish", "position": "CB", "status": "Questionable", "injury": "Back sprain (hurt Week 1 vs CIN); X-ray/MRI negative; limited all week, inactive Week 2 vs CLE; Benjamin Morrison started in his place", "starter": true, "source": "https://www.si.com/nfl/buccaneers/onsi/todd-bowles-delivers-injury-update-on-buccaneers-jacob-parrish-and-it-s-a-big-one-2026"},
+        {"player": "Jalen McMillan", "position": "WR", "status": "Probable", "injury": "Knee; missed Week 1, questionable Week 2, made 2026 debut vs CLE", "starter": true, "source": "https://www.buccaneers.com/news/browns-bucs-inactives-jacob-parrish-ruled-out"},
+        {"player": "Miles Killebrew", "position": "S", "status": "Probable", "injury": "Concussion Week 1; cleared protocol and played Week 2", "starter": false, "source": "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-18-week-2-2026"}
+      ],
+      "context_notes": [
+        "Week 2 loss came after a 132-minute lightning delay; two failed end-zone chances late.",
+        "Turnovers, penalties, missed tackles and busted coverages through two weeks; Todd Bowles' seat is under scrutiny in local media.",
+        "Rookie EDGE Rueben Bain Jr. has struggled early; Bowles referenced an injury in his Monday presser (details not captured).",
+        "Tristan Wirfs, Bucky Irving and Chris Godwin all active/available in Week 2; no new in-game injuries surfaced in searches.",
+        "Home game vs MIN."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/todd-bowles-baker-mayfield-highlight-222442320.html",
+        "https://www.buccaneers.com/news/browns-bucs-inactives-jacob-parrish-ruled-out",
+        "https://www.buccaneers.com/news/buccaneers-browns-injury-report-sept-18-week-2-2026",
+        "https://www.si.com/nfl/buccaneers/onsi/todd-bowles-delivers-injury-update-on-buccaneers-jacob-parrish-and-it-s-a-big-one-2026",
+        "https://www.buccaneers.com/news/baker-mayfield-bucs-offense-close-mistakes-frustrating",
+        "https://atozsports.com/nfl/tampa-bay-buccaneers-news/bucs-news-todd-bowles-press-conference-talks-injury-rueben-bain-jr-performance/"
+      ]
+    }
+  }
+}
