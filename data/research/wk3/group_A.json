@@ -1,0 +1,281 @@
+{
+  "collected_on": "2026-09-22",
+  "teams": {
+    "ATL": {
+      "week2_result": "L 3-34 vs CAR (Sun Sept 20, home)",
+      "qb": {
+        "starter": "Michael Penix Jr.",
+        "backup": "Tua Tagovailoa (if healthy) / Cooper Rush",
+        "changed_from_week2": true,
+        "notes": "Falcons announced Monday Sept 21 that Penix will start Thursday at Green Bay, his first game since the ACL tear that ended his 2025 season; listed as full participant (knee) on Monday's estimated report. Cooper Rush started Weeks 1-2 while Tua Tagovailoa (oblique strain) missed both games. Tagovailoa was limited Monday and could dress as Penix's backup; team is not expected to trade or release him. Week 2 starter Rush was not reported injured."
+      },
+      "injuries": [
+        {"player": "A.J. Terrell Jr.", "position": "CB", "status": "Doubtful", "injury": "Groin - left Week 2 vs CAR (downgraded to out in 3rd quarter, also cleared concussion check); DNP on Monday's estimated report; short week makes Thursday availability a concern", "starter": true, "source": "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell"},
+        {"player": "Samson Ebukam", "position": "DE", "status": "Doubtful", "injury": "Hamstring - left Week 2 vs CAR late 2nd quarter, ruled out in 3rd; DNP on Monday's estimated report", "starter": true, "source": "https://hottakes.com/articles/falcons-lose-aj-terrell-and-samson-ebukam-to-injury-amid-panthers-blowou-fee00221-1f3e-45fe-b41a-fcbeb144a29a"},
+        {"player": "Brian Robinson Jr.", "position": "RB", "status": "Questionable", "injury": "Ankle - limited on Monday's estimated report", "starter": false, "source": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers"},
+        {"player": "Brandon Dorlus", "position": "DE", "status": "Questionable", "injury": "Thumb - limited on Monday's estimated report", "starter": false, "source": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers"},
+        {"player": "Nick Muse", "position": "TE", "status": "Questionable", "injury": "Shoulder - limited on Monday's estimated report", "starter": false, "source": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers"},
+        {"player": "Jawaan Taylor", "position": "OT", "status": "Questionable", "injury": "Rib - limited on Monday's estimated report", "starter": true, "source": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers"},
+        {"player": "Tua Tagovailoa", "position": "QB", "status": "Questionable", "injury": "Oblique strain - missed Weeks 1-2; limited Monday, could be active as Penix's backup", "starter": false, "source": "https://www.cbssports.com/fantasy/football/news/falcons-tua-tagovailoa-limited-could-back-up-penix-in-week-3/"},
+        {"player": "Billy Bowman Jr.", "position": "DB", "status": "Probable", "injury": "Achilles - listed but full participant on Monday's estimated report", "starter": false, "source": "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers"},
+        {"player": "Michael Penix Jr.", "position": "QB", "status": "Returning-expected-to-play", "injury": "Knee (ACL, late 2025) - full participant Monday; named Week 3 starter", "starter": true, "source": "https://www.nfl.com/news/falcons-michael-penix-jr-starting-quarterback-week-3-game-vs-packers"}
+      ],
+      "context_notes": [
+        "QB change: Penix replaces Cooper Rush as starter for Week 3 (Rush started Weeks 1-2 while Tua was hurt).",
+        "Week 2 was a 34-3 home blowout loss to Carolina; Bryce Young threw 3 TD and Carolina's Lloyd had two INTs including a pick-six.",
+        "Head coach referenced in reports is Kevin Stefanski (Falcons HC in 2026).",
+        "Short week (Thursday road game at Lambeau); Monday report was an estimation since the team did not practice.",
+        "Kirk Cousins is no longer with Atlanta (now Raiders starter)."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/falcons-michael-penix-jr-starting-quarterback-week-3-game-vs-packers",
+        "https://www.atlantafalcons.com/news/estimated-injury-report-released-week-3-green-bay-packers",
+        "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell",
+        "https://www.cbssports.com/fantasy/football/news/falcons-tua-tagovailoa-limited-could-back-up-penix-in-week-3/",
+        "https://www.nfl.com/news/falcons-michael-penix-jr-week-3-tua-tagovailoa",
+        "https://www.espn.com/nfl/recap?gameId=401872933",
+        "https://lastwordonsports.com/nfl/2026/09/20/michael-penix-injury-update-2/",
+        "https://hottakes.com/articles/falcons-lose-aj-terrell-and-samson-ebukam-to-injury-amid-panthers-blowou-fee00221-1f3e-45fe-b41a-fcbeb144a29a"
+      ]
+    },
+    "GB": {
+      "week2_result": "W 20-17 (OT) at NYJ (Sun Sept 20)",
+      "qb": {
+        "starter": "Jordan Love",
+        "backup": "Tyrod Taylor",
+        "changed_from_week2": false,
+        "notes": "Love took a hit to his right elbow in Week 2 causing hand numbness but never left the field (16/29, 145 yds, 2 TD). Not listed on Monday's Week 3 injury report. Tyrod Taylor is the 2026 backup after Malik Willis left for Miami."
+      },
+      "injuries": [
+        {"player": "Jayden Reed", "position": "WR", "status": "Out", "injury": "Back (initially announced as neck) - carted off on first offensive drive at NYJ Sept 20, kept overnight in New Jersey for tests, has movement in all extremities; no return timeline, IR expected; DNP Monday", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50000310/packers-wr-reed-sustained-back-not-neck-injury-source-says"},
+        {"player": "Zach Bako-Bewele", "position": "RT", "status": "Out", "injury": "Right knee - carted off in inflatable cast on the play after Reed's injury Sept 20; LaFleur said it 'could be a season-ender'; IR expected; DNP Monday", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49990499/packers-wr-reed-rt-bako-bewele-carted-injuries"},
+        {"player": "Warren Brinson", "position": "DL", "status": "Doubtful", "injury": "Calf - missed Weeks 1-2; DNP on Monday estimate, could miss third straight game", "starter": false, "source": "https://sports.yahoo.com/articles/11-packers-appear-week-3-011636105.html"},
+        {"player": "Javon Hargrave", "position": "DT", "status": "Questionable", "injury": "Concussion (still in protocol) plus knee - missed Week 2; limited Monday", "starter": true, "source": "https://sports.yahoo.com/articles/11-packers-appear-week-3-011636105.html"},
+        {"player": "Aaron Banks", "position": "LG", "status": "Questionable", "injury": "Knee/toe - played Week 2 but DNP on Monday estimate", "starter": true, "source": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026"},
+        {"player": "Anthony Campbell", "position": "N/A", "status": "Questionable", "injury": "Ankle - DNP Monday estimate", "starter": false, "source": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026"},
+        {"player": "Donovan Jennings", "position": "OL", "status": "Questionable", "injury": "Hand - DNP Monday estimate", "starter": false, "source": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026"},
+        {"player": "Edgerrin Cooper", "position": "LB", "status": "Questionable", "injury": "Shoulder - limited Monday estimate", "starter": true, "source": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026"},
+        {"player": "Brandon Cisse", "position": "CB", "status": "Questionable", "injury": "Teeth - limited Monday estimate", "starter": false, "source": "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026"},
+        {"player": "Benjamin St-Juste", "position": "CB", "status": "Probable", "injury": "Hamstring - missed Week 2; estimated full participant Monday", "starter": false, "source": "https://sports.yahoo.com/articles/11-packers-appear-week-3-011636105.html"},
+        {"player": "Lukas Van Ness", "position": "EDGE", "status": "Probable", "injury": "Concussion - cleared protocol before Week 2 and played", "starter": true, "source": "https://atozsports.com/nfl/green-bay-packers-news/week-2-inactive-list/"}
+      ],
+      "context_notes": [
+        "Packers rallied from 10 down in the 4th quarter to win in OT at MetLife; kicker Trey Smack hit the 26-yard game-winner.",
+        "Green Bay committed 14 accepted penalties for 133 yards in Week 2.",
+        "11 players on Monday's Week 3 report (six DNP); it was an estimate since no practice was held.",
+        "Losing Reed (WR1) and Bako-Bewele (starting RT) on a short week is the biggest change; RT replacement not yet reported.",
+        "Week 3 vs Atlanta on Thursday Sept 24 is the Packers' home opener."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872936",
+        "https://www.packers.com/news/game-recap-5-takeaways-from-packers-overtime-victory-over-jets-week-2-2026",
+        "https://www.packers.com/news/packers-falcons-injury-report-sept-21-2026",
+        "https://sports.yahoo.com/articles/11-packers-appear-week-3-011636105.html",
+        "https://www.acmepackingcompany.com/green-bay-packers-news/86893/green-bay-packers-release-first-injury-report-of-week-3",
+        "https://www.espn.com/nfl/story/_/id/49990499/packers-wr-reed-rt-bako-bewele-carted-injuries",
+        "https://www.espn.com/nfl/story/_/id/50000310/packers-wr-reed-sustained-back-not-neck-injury-source-says",
+        "https://www.acmepackingcompany.com/green-bay-packers-news/86754/packers-injury-updates-matt-lafleur-addresses-jayden-reed-and-zach-bako-bewele-injuries",
+        "https://sports.yahoo.com/articles/packers-backup-quarterback-green-bays-083002313.html"
+      ]
+    },
+    "LAC": {
+      "week2_result": "L 14-26 vs LV (Sun Sept 20)",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "Trey Lance",
+        "changed_from_week2": false,
+        "notes": "Herbert started Week 2 and has no reported injury; 2 TD vs 3 INT through two games (two picks by LV's Hezekiah Masses in Week 2). Trey Lance won the backup job over Taylor Heinicke (released); Herbert and Lance are the only QBs on the roster."
+      },
+      "injuries": [
+        {"player": "David Njoku", "position": "TE", "status": "IR", "injury": "Fibula - injured Week 2 vs LV; placed on IR this week, out at least 4 games", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50000682/chargers-placing-tes-david-njoku-charlie-kolar-ir"},
+        {"player": "Charlie Kolar", "position": "TE", "status": "IR", "injury": "Forearm - injured Week 2 vs LV; placed on IR this week, out at least 4 games", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/50000682/chargers-placing-tes-david-njoku-charlie-kolar-ir"},
+        {"player": "Kayode Awosika", "position": "LG", "status": "Out", "injury": "Fibula - injured Week 2; Harbaugh said he will 'miss some time'", "starter": true, "source": "https://heavy.com/sports/nfl/los-angeles-chargers/chargers-patrick-herbert-kayode-awosika-trey-pipkins-injury-buffalo/"},
+        {"player": "Dalvin Tomlinson", "position": "DT", "status": "Out", "injury": "Hamstring - injured Week 2; Harbaugh said he will 'miss some time'", "starter": true, "source": "https://www.chargers.com/news/charlie-kolar-david-njoku-injured-reserve-fantasy"},
+        {"player": "Trey Pipkins III", "position": "G/OT", "status": "Questionable", "injury": "Knee - missed Week 2 (DNP all week); would start at LG if healthy, otherwise Trevor Penning starts", "starter": true, "source": "https://heavy.com/sports/nfl/los-angeles-chargers/chargers-patrick-herbert-kayode-awosika-trey-pipkins-injury-buffalo/"},
+        {"player": "Derwin James Jr.", "position": "S", "status": "Probable", "injury": "Fractured left pinky (broken thumb per other reports) - returned to Week 2 game; will play with a cast starting Week 3", "starter": true, "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/140842/buffalo-bills-will-face-a-los-angeles-chargers-team-thin-at-te-in-week-3"},
+        {"player": "Ladd McConkey", "position": "WR", "status": "Probable", "injury": "Ribs - hurt Week 1, returned for Week 2 vs LV", "starter": true, "source": "https://www.chargers.com/news/raiders-injury-report-ladd-mcconkey-fantasy"}
+      ],
+      "context_notes": [
+        "0-2 after identical 26-14 losses to Arizona and Las Vegas (Kirk Cousins now QB for the Raiders).",
+        "Only one TE (Oronde Gadsden II) left on the active roster after Njoku and Kolar went to IR; expect a roster move at TE this week.",
+        "Offensive coordinator is Mike McDaniel; offense has struggled (Herbert 2 TD / 3 INT).",
+        "Trevor Penning is the projected LG starter if Pipkins cannot go.",
+        "Harbaugh spoke publicly about 'urgency' heading into Week 3 at Buffalo."
+      ],
+      "sources": [
+        "https://www.chargers.com/news/charlie-kolar-david-njoku-injured-reserve-fantasy",
+        "https://www.espn.com/nfl/story/_/id/50000682/chargers-placing-tes-david-njoku-charlie-kolar-ir",
+        "https://heavy.com/sports/nfl/los-angeles-chargers/chargers-patrick-herbert-kayode-awosika-trey-pipkins-injury-buffalo/",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/140842/buffalo-bills-will-face-a-los-angeles-chargers-team-thin-at-te-in-week-3",
+        "https://www.boltsfromtheblue.com/los-angeles-chargers-injuries/65637/chargers-injuries-david-njoku-charlie-kolar-kayode-awosika",
+        "https://www.chargers.com/news/raiders-injury-report-ladd-mcconkey-fantasy",
+        "https://sports.yahoo.com/articles/chargers-backup-quarterback-los-angeles-085002229.html",
+        "https://www.raiders.com/video/hezekiah-masses-second-interception-justin-herbert-nfl-week-2-2026-season"
+      ]
+    },
+    "BUF": {
+      "week2_result": "W 41-31 vs DET (Thu Sept 17)",
+      "qb": {
+        "starter": "Josh Allen",
+        "backup": "Kyle Allen",
+        "changed_from_week2": false,
+        "notes": "Josh Allen threw 3 TD and ran for 2 more vs Detroit despite flu-like symptoms during the game; he gets 10 days of rest before Sunday. Kyle Allen (signed from Detroit this offseason) is the listed backup."
+      },
+      "injuries": [
+        {"player": "DJ Moore", "position": "WR", "status": "Questionable", "injury": "AC joint sprain (left shoulder/stinger) - hurt on end-zone drop late 2nd quarter Sept 17, ruled out of game; day-to-day with a chance to play vs LAC but 'not a lock'", "starter": true, "source": "https://www.si.com/nfl/bills/onsi/dj-moore-ed-oliver-injury-updates-buffalo-bills-play-week-3"},
+        {"player": "Ed Oliver", "position": "DT", "status": "Questionable", "injury": "Hip - injured in pregame warmups Sept 17, inactive vs DET; day-to-day, could return Week 3 depending on practice", "starter": true, "source": "https://www.buffalobills.com/news/bills-dl-ed-oliver-suffers-pregame-hip-injury-ruled-out-vs-lions"},
+        {"player": "Cole Bishop", "position": "S", "status": "Questionable", "injury": "Listed questionable for Week 2 vs DET (injury type not specified in results)", "starter": true, "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker"},
+        {"player": "Ty Johnson", "position": "RB", "status": "Questionable", "injury": "Questionable for Week 2 and listed inactive vs DET (injury type not specified in results)", "starter": false, "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker"},
+        {"player": "T.J. Sanders", "position": "DL", "status": "Questionable", "injury": "Questionable for Week 2 vs DET (injury type not specified in results)", "starter": false, "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker"}
+      ],
+      "context_notes": [
+        "Bills are 2-0 and scored on every first-half drive vs Detroit (27-7 at one point); Dalton Kincaid caught a TD.",
+        "DT Deone Walker is facing possible league discipline (fine up to $12,537) for a hit on Jared Goff; no suspension reported.",
+        "Extra rest: Thursday game means 10 days before hosting the Chargers (1 p.m. ET Sept 27)."
+      ],
+      "sources": [
+        "https://www.buffalobills.com/news/bills-41-lions-31-final-score-recap-highlights",
+        "https://www.si.com/nfl/bills/onsi/dj-moore-ed-oliver-injury-updates-buffalo-bills-play-week-3",
+        "https://heavy.com/sports/nfl/buffalo-bills/dj-moore-ed-oliver-injury-updates/",
+        "https://www.buffalobills.com/news/bills-dl-ed-oliver-suffers-pregame-hip-injury-ruled-out-vs-lions",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-17/dj-moore-shoulder-departs-week-2-vs-lions",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/140197/detroit-lions-at-buffalo-bills-week-3-injury-tracker",
+        "https://bolavip.com/en/nfl/starting-and-backup-quarterbacks-on-bills-vs-lions-depth-charts-today-in-2026-nfl-week-2",
+        "https://sports.yahoo.com/articles/nfl-decide-potential-fine-bills-010056547.html"
+      ]
+    },
+    "CAR": {
+      "week2_result": "W 34-3 at ATL (Sun Sept 20)",
+      "qb": {
+        "starter": "Bryce Young",
+        "backup": "Andy Dalton",
+        "changed_from_week2": false,
+        "notes": "Young threw for 287 yds and 3 TD (two to Darren Waller) in Week 2; 648 yds, 6 TD, 1 INT through two games. No injury reported. Dalton was the listed backup entering the season (GM Dan Morgan had said he wanted competition for the job)."
+      },
+      "injuries": [
+        {"player": "Jonathon Brooks", "position": "RB", "status": "Questionable", "injury": "Groin - aggravated a training-camp groin injury in 4th quarter Sept 20 and did not return; Canales called him day-to-day, other reports say week-to-week pending further medical opinions; Week 3 in jeopardy", "starter": false, "source": "https://www.cbssports.com/fantasy/football/news/panthers-jonathon-brooks-week-to-week-with-groin-injury/"},
+        {"player": "Nick Scott", "position": "S", "status": "Questionable", "injury": "Ribs - left Week 2 in 1st quarter, ruled out; to be monitored in practice this week", "starter": true, "source": "https://www.foxsports.com/articles/nfl/panthers-defense-quickly-turns-page-on-week-1-disappointment-finds-swagger-in-343-rout-of-falcons"},
+        {"player": "Claudin Cherelus", "position": "LB", "status": "Questionable", "injury": "Shoulder - hurt on kickoff coverage 1st quarter Sept 20; to be monitored in practice this week", "starter": false, "source": "https://www.foxsports.com/articles/nfl/panthers-defense-quickly-turns-page-on-week-1-disappointment-finds-swagger-in-343-rout-of-falcons"},
+        {"player": "Pat Jones II", "position": "OLB", "status": "Questionable", "injury": "Back - missed Week 1 opener; Week 2 status not confirmed in results", "starter": true, "source": "https://www.yardbarker.com/nfl/articles/bobby_brown_iii_and_other_panthers_injury_updates_ahead_of_week_2/s1_17615_44316791"},
+        {"player": "Bobby Brown III", "position": "DL", "status": "Questionable", "injury": "Unable to practice two straight days before Week 2 (injury type not specified); Week 2 status not confirmed in results", "starter": true, "source": "https://www.yardbarker.com/nfl/articles/bobby_brown_iii_and_other_panthers_injury_updates_ahead_of_week_2/s1_17615_44316791"},
+        {"player": "Jalen Coker", "position": "WR", "status": "Questionable", "injury": "Banged up before Week 2 (injury type not specified); status not confirmed in results", "starter": false, "source": "https://www.yardbarker.com/nfl/articles/bobby_brown_iii_and_other_panthers_injury_updates_ahead_of_week_2/s1_17615_44316791"}
+      ],
+      "context_notes": [
+        "Panthers (1-1) routed Atlanta 34-3 after a disappointing Week 1 loss; defense had a pick-six by Lloyd (two INTs).",
+        "Darren Waller is on the Panthers and caught two TDs in Week 2.",
+        "Chuba Hubbard is the lead RB; Brooks' groin issue could leave Hubbard with a larger share vs Cleveland.",
+        "Reports of OL Robert Hunt/Austin Corbett on IR surfaced in results but appear to be from the 2025 season, not confirmed for 2026 - treat as unverified."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872933",
+        "https://www.foxsports.com/articles/nfl/panthers-defense-quickly-turns-page-on-week-1-disappointment-finds-swagger-in-343-rout-of-falcons",
+        "https://www.cbssports.com/fantasy/football/news/panthers-jonathon-brooks-week-to-week-with-groin-injury/",
+        "https://www.cbssports.com/fantasy/football/news/panthers-jonathon-brooks-considered-day-to-day/",
+        "https://sports.yahoo.com/articles/panthers-news-jonathon-brooks-injury-234225134.html",
+        "https://sports.yahoo.com/articles/panthers-backup-quarterback-carolinas-2026-075002217.html",
+        "https://www.yardbarker.com/nfl/articles/bobby_brown_iii_and_other_panthers_injury_updates_ahead_of_week_2/s1_17615_44316791",
+        "https://fantasyfootballcalculator.com/players/bryce-young/news"
+      ]
+    },
+    "CLE": {
+      "week2_result": "W 23-19 at TB (Sun Sept 20)",
+      "qb": {
+        "starter": "Deshaun Watson",
+        "backup": "Shedeur Sanders",
+        "changed_from_week2": false,
+        "notes": "HC Todd Monken stuck with Watson for Week 2 despite a poor opener vs Jacksonville; Sanders remains backup (Monken said he is 'not quite ready'). Dillon Gabriel is on IR (back, preseason), eligible to return after Week 4. Some local reporting suggests the Browns are laying groundwork for a QB change, but no change announced for Week 3. No Watson injury reported."
+      },
+      "injuries": [
+        {"player": "Dillon Gabriel", "position": "QB", "status": "IR", "injury": "Back - placed on IR at final cuts (preseason); eligible to return after four games", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/49776263/browns-keep-3-qbs-roster-put-dillon-gabriel-back-ir"},
+        {"player": "Teven Jenkins", "position": "G", "status": "Doubtful", "injury": "Back - DNP all of Week 2, missed Weeks 1 and 2; rookie Austin Barber starting at RG in his place", "starter": true, "source": "https://heavy.com/sports/nfl/cleveland-browns/tyson-campbell-injury-teven-jenkins-buccaneers/"},
+        {"player": "Tyson Campbell", "position": "CB", "status": "Questionable", "injury": "Ankle - rolled it in practice Sept 16, limited Friday, questionable for Week 2 (game status vs TB not confirmed)", "starter": true, "source": "https://www.clevelandbrowns.com/news/tyson-campbell-questionable-for-week-2-vs-buccaneers-injury-report"},
+        {"player": "Jeremiah Owusu-Koramoah", "position": "LB", "status": "Out", "injury": "Continues to be unavailable (long-term absence carried into 2026)", "starter": true, "source": "https://www.therx.com/nfl/browns-week-2-injury-report-2026-nfl-season/48002/"}
+      ],
+      "context_notes": [
+        "Browns are 1-1 after losing to Jacksonville in Week 1 and beating Tampa Bay 23-19 in a game with a 132-minute lightning delay.",
+        "Rookie WR Denzel Boston had a 55-yard TD catch in Week 2.",
+        "Todd Monken is the Browns' head coach in 2026; QB situation (Watson vs Sanders) is the storyline to watch.",
+        "No in-game Week 2 injuries for Cleveland surfaced in search results; Week 3 injury report not yet published."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872935",
+        "https://www.buccaneers.com/news/browns-bucs-week-2-recap-postgame-report-2026",
+        "https://www.nfl.com/news/browns-deshaun-watson-starting-qb-week-2-game-buccaneers",
+        "https://bolavip.com/en/nfl/why-isnt-shedeur-sanders-playing-today-for-browns-vs-buccaneers-in-2026-nfl-week-2",
+        "https://dawgpounddaily.com/browns-laying-groundwork-for-quarterback-change-deshaun-watson-shedeur-sanders-01m2zmb3dbne",
+        "https://www.espn.com/nfl/story/_/id/49776263/browns-keep-3-qbs-roster-put-dillon-gabriel-back-ir",
+        "https://heavy.com/sports/nfl/cleveland-browns/tyson-campbell-injury-teven-jenkins-buccaneers/",
+        "https://www.clevelandbrowns.com/news/tyson-campbell-questionable-for-week-2-vs-buccaneers-injury-report",
+        "https://www.therx.com/nfl/browns-week-2-injury-report-2026-nfl-season/48002/",
+        "https://www.clevelandbrowns.com/team/injury-report/week/reg-3"
+      ]
+    },
+    "NYJ": {
+      "week2_result": "L 17-20 (OT) vs GB (Sun Sept 20)",
+      "qb": {
+        "starter": "Geno Smith",
+        "backup": "Cade Klubnik",
+        "changed_from_week2": false,
+        "notes": "Smith went 27/41 for 247 yds and 1 TD in Week 2; no turnovers on the season (462 pass yds) and no injury reported. Rookie 4th-rounder Cade Klubnik listed as QB2 with Brady Cook also on roster."
+      },
+      "injuries": [
+        {"player": "David Onyemata", "position": "DL", "status": "Out", "injury": "Groin - hurt Week 2 vs GB, ruled out after halftime; reported downgraded to Out for Week 3", "starter": true, "source": "https://heavy.com/sports/nfl/new-york-jets/glenn-injury-updates-onyemata-taylor-lions-packers/"},
+        {"player": "Mason Taylor", "position": "TE", "status": "Questionable", "injury": "Thumb - hurt in 2nd half/OT vs GB Sept 20; Glenn to update during the week; rookie Kenyon Sadiq would be TE1", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/jets-mason-taylor-iffy-to-return-due-to-thumb-injury/"},
+        {"player": "Marcelino McCrary-Ball", "position": "LB", "status": "Questionable", "injury": "Ankle - ruled out after halftime Week 2 vs GB", "starter": false, "source": "https://heavy.com/sports/nfl/new-york-jets/glenn-injury-updates-onyemata-taylor-lions-packers/"},
+        {"player": "Kiko Mauigoa", "position": "LB", "status": "Questionable", "injury": "Quadriceps - ruled out after halftime Week 2 vs GB", "starter": false, "source": "https://heavy.com/sports/nfl/new-york-jets/glenn-injury-updates-onyemata-taylor-lions-packers/"},
+        {"player": "Arian Smith", "position": "WR", "status": "Questionable", "injury": "Knee - hurt Week 2 vs GB; Glenn to provide more info during the week", "starter": false, "source": "https://heavy.com/sports/nfl/new-york-jets/glenn-injury-updates-onyemata-taylor-lions-packers/"},
+        {"player": "Minkah Fitzpatrick", "position": "S", "status": "Out", "injury": "Groin - declared week-to-week Sept 16, missed Week 2", "starter": true, "source": "https://www.newyorkjets.com/news/jets-injury-update-minkah-fitzpatrick-omar-cooper-week-to-week-09-16-2026"},
+        {"player": "Omar Cooper Jr.", "position": "WR", "status": "Out", "injury": "Declared week-to-week Sept 16, missed Week 2 (injury type not specified)", "starter": false, "source": "https://www.newyorkjets.com/news/jets-injury-update-minkah-fitzpatrick-omar-cooper-week-to-week-09-16-2026"}
+      ],
+      "context_notes": [
+        "Jets (1-1) blew a 17-7 4th-quarter lead; offense stalled with two punts and a turnover on downs on the last three possessions; Glenn defended his late-game decisions.",
+        "Offensive line graded poorly vs Green Bay per SI ('takes huge step back').",
+        "Rookie CB D'Angelo Ponds was in line for his NFL debut in Week 2 with Fitzpatrick out.",
+        "Week 3 at Detroit is a homecoming for HC Aaron Glenn (Lions DC 2021-24); Lions allowed 3 TD passes each to Tyler Shough and Josh Allen."
+      ],
+      "sources": [
+        "https://www.newyorkjets.com/news/jets-packers-game-recap-week-2-09-20-2026",
+        "https://www.newyorkjets.com/news/3-takeaways-aaron-glenn-said-loss-to-packers-wont-define-the-jets-09-21-2026",
+        "https://heavy.com/sports/nfl/new-york-jets/glenn-injury-updates-onyemata-taylor-lions-packers/",
+        "https://www.cbssports.com/fantasy/football/news/jets-mason-taylor-iffy-to-return-due-to-thumb-injury/",
+        "https://www.newyorkjets.com/news/jets-injury-update-minkah-fitzpatrick-omar-cooper-week-to-week-09-16-2026",
+        "https://www.si.com/nfl/jets/onsi/grading-every-jets-position-group-after-week-2-vs-packers-offensive-line-takes-huge-step-back-01m305wheefy",
+        "https://sports.yahoo.com/articles/jets-qb-depth-chart-cade-171956130.html",
+        "https://www.wral.com/news/ap/d772f-aaron-glenn-stands-by-his-late-decisions-in-jets-overtime-loss-to-packers/"
+      ]
+    },
+    "DET": {
+      "week2_result": "L 31-41 at BUF (Thu Sept 17)",
+      "qb": {
+        "starter": "Jared Goff",
+        "backup": "Not confirmed (Kyle Allen left for Buffalo this offseason)",
+        "changed_from_week2": false,
+        "notes": "Goff started Week 2 and no injury was reported; he took a hit from Bills DT Deone Walker that is under league review for a possible fine to Walker. No Goff suspension found in results. Backup QB for 2026 not identified in searches."
+      },
+      "injuries": [
+        {"player": "Brian Branch", "position": "S", "status": "PUP", "injury": "Torn Achilles late 2025 season - on reserve/PUP, not eligible until Week 5 vs ARI; Campbell said he will not return to practice this week", "starter": true, "source": "https://www.clickondetroit.com/sports/2026/09/22/dan-campbell-sends-clear-message-to-detroit-lions-ahead-of-week-3-joseph-branch-possible-return/"},
+        {"player": "Kerby Joseph", "position": "S", "status": "PUP", "injury": "Knee - on reserve/PUP, eligible Week 5 but not ready to practice; Campbell said Branch is likelier to be back sooner", "starter": true, "source": "https://sports.yahoo.com/articles/lions-injury-branch-joseph-wont-221519842.html"},
+        {"player": "Christian Mahogany", "position": "LG", "status": "Questionable", "injury": "Hip - injured on second series Week 1 vs NO, ruled out Week 2 at BUF", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-rt-blake-miller-lg-christian-mahogany-out-for-thursday-vs-bills"},
+        {"player": "Blake Miller", "position": "RT", "status": "Questionable", "injury": "Knee - hurt Week 1 (rookie starter), ruled out Week 2 at BUF", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-rt-blake-miller-lg-christian-mahogany-out-for-thursday-vs-bills"},
+        {"player": "D.J. Reed", "position": "CB", "status": "Questionable", "injury": "Foot - questionable for Week 2 at BUF", "starter": true, "source": "https://fansided.com/nfl/lions-vs-bills-injury-report-inactives-what-watch-thursday-night-football"}
+      ],
+      "context_notes": [
+        "Lions (1-1) beat New Orleans in Week 1 then gave up 41 to Buffalo; defense has allowed 3 TD passes to each opposing QB.",
+        "Dan Campbell publicly backed DC Kelvin Sheppard after the Bills game.",
+        "Extra rest: Lions played Thursday and have 10 days before hosting the Jets Sept 27.",
+        "Offensive line depth is thin with Mahogany and Miller both missing Week 2; trade speculation around the line has been reported."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872932/lions-bills",
+        "https://www.clickondetroit.com/sports/2026/09/22/dan-campbell-sends-clear-message-to-detroit-lions-ahead-of-week-3-joseph-branch-possible-return/",
+        "https://sports.yahoo.com/articles/lions-injury-branch-joseph-wont-221519842.html",
+        "https://www.prideofdetroit.com/detroit-lions-injuries/173963/detroit-lions-brian-branch-kerby-joseph-injury-update-no-practice",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-rt-blake-miller-lg-christian-mahogany-out-for-thursday-vs-bills",
+        "https://fansided.com/nfl/lions-vs-bills-injury-report-inactives-what-watch-thursday-night-football",
+        "https://sports.yahoo.com/articles/nfl-decide-potential-fine-bills-010056547.html",
+        "https://sports.yahoo.com/articles/detroit-lions-backup-qb-kyle-234957776.html",
+        "https://sports.yahoo.com/articles/lions-hc-dan-campbell-makes-231826596.html"
+      ]
+    }
+  }
+}
