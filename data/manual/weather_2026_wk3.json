@@ -1,0 +1,260 @@
+{
+  "collected_on": "2026-09-22",
+  "tropical_outlook": "No tropical threat to Jacksonville, Miami or Tampa for Sept 26-27. As of Sept 22 the NHC's only active Atlantic system is Tropical Storm Fay, weakening (~40 mph) over the open North Atlantic and no threat to land; NHC is also monitoring a weak area several hundred miles SW of the Azores with only gradual development possible, far from the U.S. The 2026 Atlantic season has been extremely quiet (NOAA 75% below-normal outlook; no hurricanes to date). Florida rain risk this weekend is non-tropical: an upper-level low / deep tropical moisture that soaked the peninsula on Sept 19-21 is expected to give way to a cooler, drier pattern behind a cold front for the week of Sept 21, so the Sept 27 games face typical late-September sea-breeze storm chances rather than an organized system.",
+  "search_caveat": "Web search results only exposed aggregator extended forecasts (world-weather.info, weather25, easeweather, AccuWeather monthly) plus local-media articles whose 'Sunday' likely referred to Sept 20, not Sept 27 (several were dated Sept 19-21 and described the cold front that has since passed). Values below labeled 'forecast' come from 5-6 day-out long-range model output and should be refreshed Fri/Sat. Direct weather-site fetches were blocked.",
+  "games": {
+    "2026_03_ATL_GB": {
+      "venue": "Lambeau Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 58,
+      "wind_mph": 10,
+      "precip_chance_pct": 20,
+      "conditions": "Partly cloudy, cool early-fall evening; temps falling from mid-60s at kickoff toward low 50s by the 4th quarter",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Aggregator forecast for Thu Sept 24: high 70, low 46, Thursday temp ~64F. NFLWeather.com game forecast still listed as 'coming soon' as of Sept 22. No signal of a strong wind or rain event; conditions favor normal passing/kicking.",
+      "sources": [
+        "https://www.accuweather.com/en/us/green-bay/54303/september-weather/1868",
+        "https://www.timeanddate.com/weather/usa/green-bay/ext",
+        "https://www.nflweather.com/stadium/lambeau-field"
+      ]
+    },
+    "2026_03_LAC_BUF": {
+      "venue": "Highmark Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 68,
+      "wind_mph": 11,
+      "precip_chance_pct": 15,
+      "conditions": "Partly cloudy, mild; highs in the low 70s, lows mid-50s",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Long-range aggregator forecast for Sept 27 (partly cloudy, low 70s). Orchard Park typically runs 10-12 mph SW winds in late Sept; no notable wind or rain signal at this range.",
+      "sources": [
+        "https://www.accuweather.com/en/us/buffalo/14202/september-weather/349726",
+        "https://www.weather25.com/north-america/usa/new-york/buffalo?page=month&month=September",
+        "https://www.timeanddate.com/weather/@z-us-14127/ext"
+      ]
+    },
+    "2026_03_CAR_CLE": {
+      "venue": "Huntington Bank Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 66,
+      "wind_mph": 10,
+      "precip_chance_pct": 20,
+      "conditions": "Partly cloudy, mild; high 69, low 56",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator forecast for Sept 27 shows partly cloudy 69/56. Lakefront breeze possible but no strong wind signal. A hoodline article about weekend storms on Lake Erie was for Sept 19-20 (last weekend), not this one.",
+      "sources": [
+        "https://www.weather25.com/north-america/usa/ohio/cleveland?page=month&month=September",
+        "https://world-weather.info/forecast/usa/cleveland_1/september-2026/",
+        "https://www.accuweather.com/en/us/cleveland/44113/september-weather/350127"
+      ]
+    },
+    "2026_03_HOU_IND": {
+      "venue": "Lucas Oil Stadium",
+      "roof": "retractable",
+      "forecast_available": true,
+      "temp_f": 72,
+      "wind_mph": 10,
+      "precip_chance_pct": 40,
+      "conditions": "Mild with a chance of afternoon showers/thunderstorms; high near 73",
+      "roof_closed_expected": true,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator forecast for Sept 27: high ~73 with afternoon thunderstorm risk. The Colts open the roof only in ideal, dry conditions; with any rain chance the roof is expected to stay closed, making this effectively a dome game. The 'strong to severe storms this weekend' Indianapolis article referred to Sept 19-20.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/indianapolis/27-september/",
+        "https://www.accuweather.com/en/us/indianapolis/46204/september-weather/348323",
+        "https://www.easeweather.com/north-america/united-states/indiana/marion-county/indianapolis/september"
+      ]
+    },
+    "2026_03_NE_JAX": {
+      "venue": "EverBank Stadium",
+      "roof": "outdoors",
+      "temp_f": 84,
+      "wind_mph": 10,
+      "precip_chance_pct": 40,
+      "forecast_available": false,
+      "conditions": "Hot and humid with typical scattered afternoon storm chance; late-Sept normals high ~85, dewpoints low 70s",
+      "roof_closed_expected": false,
+      "source_type": "climatology",
+      "confidence": "low",
+      "notes": "No reliable Sept 27-specific forecast surfaced. The hoodline 'steamy Sunday, afternoon storms, heavy rain Sunday night with ENE winds to 25 mph' article appears to describe Sept 20 (it references a cooler week on deck, matching the Sept 21 front). No tropical system expected. Expect heat/humidity to be the main factor; refresh Friday.",
+      "sources": [
+        "https://hoodline.com/2026/09/steamy-jacksonville-sunday-set-for-afternoon-storms-cooler-week-on-deck/",
+        "https://forecast.weather.gov/MapClick.php?lat=30.3315&lon=-81.6562",
+        "https://www.timeanddate.com/weather/usa/jacksonville/ext"
+      ]
+    },
+    "2026_03_KC_MIA": {
+      "venue": "Hard Rock Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 85,
+      "wind_mph": 10,
+      "precip_chance_pct": 50,
+      "conditions": "Hot and humid; morning showers giving way to clouds, highs 84-85, winds 5-13 mph",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator extended forecast for Sept 27: morning rain showers then partly cloudy, high 84-85F, wind 5-13 mph. Late-Sept Miami climatology carries roughly a 50% daily storm chance; heat index near 95 likely at a 1pm kickoff. No tropical system in play.",
+      "sources": [
+        "https://www.easeweather.com/north-america/united-states/florida/miami-dade-county/miami/september",
+        "https://world-weather.info/forecast/usa/miami/september-2026/",
+        "https://www.theweather.com/miami-c11129.htm"
+      ]
+    },
+    "2026_03_TEN_NYG": {
+      "venue": "MetLife Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 67,
+      "wind_mph": 9,
+      "precip_chance_pct": 40,
+      "conditions": "Mostly cloudy, mild, shower chance; high 69, low 58",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Long-range aggregator forecast for Sept 27: 69/58, flagged as the least-sunny day of the month (about 6 hours of sun). Sept 27 is also climatologically NYC's wettest September date (~0.43 in avg). Rain chance is an inference from cloud cover, not an explicit forecast number.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/new_york/27-september/",
+        "https://www.easeweather.com/north-america/united-states/new-york/new-york-city/september",
+        "https://www.weather25.com/north-america/usa/new-york?page=month&month=September"
+      ]
+    },
+    "2026_03_CIN_PIT": {
+      "venue": "Acrisure Stadium",
+      "roof": "outdoors",
+      "forecast_available": false,
+      "temp_f": 68,
+      "wind_mph": 8,
+      "precip_chance_pct": 35,
+      "conditions": "Late-September normals: partly cloudy, high ~70, light winds, roughly 1-in-3 chance of showers",
+      "roof_closed_expected": false,
+      "source_type": "climatology",
+      "confidence": "low",
+      "notes": "No Sept 27-specific forecast surfaced. The hoodline/NWS article about showers and storms with 0.75-1.5 in of rain south of Pittsburgh described Sunday Sept 20 ('much cooler midweek air' after). Treat as climatology and refresh later in the week.",
+      "sources": [
+        "https://hoodline.com/2026/09/sunday-s-heaviest-rain-expected-south-of-pittsburgh-before-much-cooler-midweek-air/",
+        "https://www.accuweather.com/en/us/pittsburgh/15219/september-weather/1310",
+        "https://www.timeanddate.com/weather/usa/pittsburgh/ext"
+      ]
+    },
+    "2026_03_SEA_WAS": {
+      "venue": "Northwest Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 71,
+      "wind_mph": 8,
+      "precip_chance_pct": 40,
+      "conditions": "Mild, partly cloudy with a chance of showers; high 73, low 54",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator forecast for Sept 27: 73/54. The WJLA/hoodline 'muggy Sunday, afternoon scattered storms, cold front kicks off wet chilly week' articles were for Sept 20. Shower chance is an estimate at 5 days out.",
+      "sources": [
+        "https://world-weather.info/forecast/usa/washington_1/27-september/",
+        "https://www.accuweather.com/en/us/washington/20006/september-weather/327659",
+        "https://wjla.com/weather/7weather-blog/dc-weather-sunday-weekend-rain-storms-colder-cooler-fall-forecast-dmv-virginia-maryland"
+      ]
+    },
+    "2026_03_ARI_SF": {
+      "venue": "Levi's Stadium",
+      "roof": "outdoors",
+      "forecast_available": false,
+      "temp_f": 78,
+      "wind_mph": 12,
+      "precip_chance_pct": 5,
+      "conditions": "Sunny and dry, NW breeze 8-14 mph with afternoon gusts to ~20-24 mph; late-Sept normals high ~79",
+      "roof_closed_expected": false,
+      "source_type": "climatology",
+      "confidence": "medium",
+      "notes": "No Sept 27-specific forecast surfaced (the hoodline 'sunny breezy Sunday' piece appears to be for Sept 20), but late-September Santa Clara is climatologically very stable: dry, sunny, with the usual afternoon NW sea breeze that can affect kicks toward the south end. 1:05pm local kickoff is during the warmest, breeziest part of the day.",
+      "sources": [
+        "https://hoodline.com/2026/09/san-jose-basks-in-breezy-sunday-sun-as-temps-warm-this-week/",
+        "https://forecast.weather.gov/MapClick.php?zoneid=CAZ513",
+        "https://www.easeweather.com/north-america/united-states/california/santa-clara-county/san-jose/september"
+      ]
+    },
+    "2026_03_MIN_TB": {
+      "venue": "Raymond James Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 87,
+      "wind_mph": 8,
+      "precip_chance_pct": 35,
+      "conditions": "Hot and humid, mostly sunny with isolated afternoon showers/thunderstorms; high near 88",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "NWS-style extended text: mostly sunny, high near 88, 20% chance of isolated storms; bumped to 35% for a 4:05pm kickoff which is peak Gulf-coast sea-breeze storm timing in late September. Heat index likely mid-90s. No tropical system; the 'non-tropical low' rain from the past week is expected to be gone.",
+      "sources": [
+        "https://forecast.weather.gov/MapClick.php?textField1=27.9572&textField2=-82.4596",
+        "https://www.timeanddate.com/weather/usa/tampa/ext",
+        "https://www.tampabay28.com/weather/forecast-more-storms-expected-monday-afternoon-evening"
+      ]
+    },
+    "2026_03_BAL_DAL": {
+      "venue": "Maracana Stadium",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 77,
+      "wind_mph": 10,
+      "precip_chance_pct": 20,
+      "conditions": "Early-spring Rio: warm and humid, partly cloudy, high 81 low 69, sea-breeze from the ocean; slight shower chance",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator long-range forecast for Sept 27: 81/69. September is one of Rio's drier months (~2-3 in total), so an organized rain event is unlikely though cold-front-driven showers are possible. 5:25pm local kickoff runs into evening; temps drift into the low 70s with humidity 70-80%. Open-air venue; field is natural grass.",
+      "sources": [
+        "https://www.accuweather.com/en/br/rio-de-janeiro/45449/september-weather/45449",
+        "https://weatherspark.com/m/30563/9/Average-Weather-in-September-in-Rio-de-Janeiro-Brazil",
+        "https://www.weather25.com/south-america/brazil/rio-de-janeiro?page=month&month=September"
+      ],
+      "international": true
+    },
+    "2026_03_LA_DEN": {
+      "venue": "Empower Field at Mile High",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 68,
+      "wind_mph": 8,
+      "precip_chance_pct": 7,
+      "conditions": "Mostly sunny and dry; high 80, low 56; temps falling through the 60s into the upper 50s during a 6:20pm local kickoff",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "medium",
+      "notes": "Aggregator forecast for Sept 27: mostly sunny, 80/56, 7% precip. Denver Gazette weekly outlook (Sept 21-27) points to a warming, dry pattern into the weekend. Altitude/thin air (5,280 ft) is the main factor: longer kicks, lower air density. Light wind expected.",
+      "sources": [
+        "https://www.denvergazette.com/outtherecolorado/2026/09/21/weekly-weather-outlook-for-colorado-sept-21-through-sept-27-2/",
+        "https://world-weather.info/forecast/usa/denver/september-2026/",
+        "https://www.accuweather.com/en/us/denver/80203/september-weather/347810"
+      ]
+    },
+    "2026_03_PHI_CHI": {
+      "venue": "Soldier Field",
+      "roof": "outdoors",
+      "forecast_available": true,
+      "temp_f": 63,
+      "wind_mph": 12,
+      "precip_chance_pct": 25,
+      "conditions": "Cloudy and cool; high 71, low 59, chance of spotty light showers; lakefront breeze",
+      "roof_closed_expected": false,
+      "source_type": "forecast",
+      "confidence": "low",
+      "notes": "Aggregator forecast for Mon Sept 28: cloudy, 71/59, mostly dry with some sources showing spotty light showers. At 6 days out this is model-driven. Soldier Field's lakefront position makes 10-15 mph winds common in the evening; no strong-wind signal yet. The WGN/ABC7 'gray cool Monday, spotty showers' pieces referenced Sept 21.",
+      "sources": [
+        "https://www.easeweather.com/north-america/united-states/illinois/cook-county/chicago/september",
+        "https://www.weather25.com/north-america/usa/illinois/chicago?page=month&month=September",
+        "https://www.weather.gov/lot/September_Normals_Chicago"
+      ]
+    }
+  }
+}
