@@ -77,3 +77,10 @@ def test_rating_update_math():
     updated = (C.PRIOR_GAMES * prior + perf) / (C.PRIOR_GAMES + 1)
     assert prior < updated < perf
     assert abs(updated - 4.0) < 1e-9
+
+
+def test_rest_adjustment_capped():
+    ctx = GameContext("g", "BUF", "LAC", False, False, "outdoors", {}, home_rest=10, away_rest=7)
+    assert abs(ctx.rest() - 0.6) < 1e-9
+    ctx2 = GameContext("g", "BUF", "LAC", False, False, "outdoors", {}, home_rest=14, away_rest=4)
+    assert ctx2.rest() == C.REST_CAP

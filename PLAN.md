@@ -197,3 +197,10 @@ moneyline; the pure model was 11-4 at 0.640. Changes made before Week 2, with th
 re-estimated from 2023 to 2025 results with an early-season allowance, official injury report
 ingestion, and per-week input files (`make run WEEK=N`). Week 2 research was collected Sept 15 in
 `data/research/wk2/`; Week 2 outputs are in `output/week2_2026_*`.
+
+## Status (Sept 22, 2026): Week 2 scored, Week 3 in progress
+
+Week 2 went 10-6 (log loss 0.649 versus 0.659 for the market spread). Pooled over 32 games the
+blend leads every comparison on log loss; the market-weight and variance settings were
+re-checked and kept. One change: extra margin variance for neutral-site games abroad. Details in
+`output/week2_2026_postmortem.md`.

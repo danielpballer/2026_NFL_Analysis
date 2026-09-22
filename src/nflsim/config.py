@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 2))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 3))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -75,11 +75,14 @@ INJURY_CAP_POINTS = 6.0
 HOME_FIELD = 1.5
 LOUD_VENUES = {"SEA": 0.5, "KC": 0.5, "BUF": 0.25, "PHI": 0.25, "GB": 0.25, "BAL": 0.25, "DEN": 0.25, "NO": 0.25}
 DIVISION_GAME_SD_ADJ = -0.5
-TRAVEL_PENALTY_PER_TZ = 0.15   # points per time zone crossed by the away team beyond one
+TRAVEL_PENALTY_PER_TZ = 0.15
+REST_POINTS_PER_DAY = 0.2      # points for each extra day of rest over the opponent (capped)
+REST_CAP = 1.0   # points per time zone crossed by the away team beyond one
 WIND_COMPRESSION_PER_MPH = 0.012   # margin multiplier drops this much per mph above WIND_FREE
 WIND_FREE = 10.0
 RAIN_COMPRESSION = 0.03
 WEATHER_EXTRA_SD = 0.5
+INTERNATIONAL_EXTRA_SD = 1.0   # both teams travel far, unfamiliar surface and crowd (Melbourne, Rio, London)
 
 # ---- Stage 6/7: blend and simulation ---------------------------------------------------
 MARKET_WEIGHT = 0.55

@@ -44,7 +44,9 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             continue
         wx = weather.get(g.game_id, {})
         roof = wx.get("roof") or str(g.roof)   # weather file may correct the schedule's roof (e.g. Melbourne)
-        ctx = GameContext(g.game_id, home, away, bool(g.neutral_site), bool(g.div_game), roof, wx)
+        ctx = GameContext(g.game_id, home, away, bool(g.neutral_site), bool(g.div_game), roof, wx,
+                          home_rest=float(g.home_rest) if not pd.isna(g.home_rest) else 7.0,
+                          away_rest=float(g.away_rest) if not pd.isna(g.away_rest) else 7.0)
         side = {}
         for team in (home, away):
             base = float(ratings.loc[team, "rating"])
@@ -55,13 +57,14 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             rating = base_hc + q["qb_adj"] + inj["injury_pts"]
             side[team] = {"base": base, "new_hc": new_hc, "rating": rating, **q, **inj}
         h, a = side[home], side[away]
-        hfa, travel = ctx.home_field(), ctx.travel()
-        model_margin = (h["rating"] - a["rating"]) + hfa + travel
+        hfa, travel, rest = ctx.home_field(), ctx.travel(), ctx.rest()
+        model_margin = (h["rating"] - a["rating"]) + hfa + travel + rest
         market_margin = float(g.market_home_margin) if not pd.isna(g.market_home_margin) else None
         wx_mult, wx_sd, wx_note = ctx.weather_factor()
         blended = blend_margin(model_margin, market_margin)
         final_margin = blended * wx_mult
-        extras = [wx_sd, h["qb_extra_sd"], a["qb_extra_sd"], h["injury_extra_sd"], a["injury_extra_sd"],
+        intl_sd = C.INTERNATIONAL_EXTRA_SD if (ctx.neutral and wx.get("international", True)) else 0.0
+        extras = [wx_sd, intl_sd, h["qb_extra_sd"], a["qb_extra_sd"], h["injury_extra_sd"], a["injury_extra_sd"],
                   C.NEW_HC_EXTRA_SD if h["new_hc"] else 0.0, C.NEW_HC_EXTRA_SD if a["new_hc"] else 0.0]
         sd = math.sqrt(base_sd(week) ** 2 + sum(e ** 2 for e in extras)) + (C.DIVISION_GAME_SD_ADJ if ctx.div_game else 0.0)
         total = float(g.total_line) if not pd.isna(g.total_line) else 44.0
@@ -89,7 +92,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             "proj_total": round(total, 1),
             "home_rating_prior": round(h["base"], 2), "away_rating_prior": round(a["base"], 2),
             "home_rating_adj": round(h["rating"], 2), "away_rating_adj": round(a["rating"], 2),
-            "home_field_pts": round(hfa + travel, 2),
+            "home_field_pts": round(hfa + travel, 2), "rest_pts": round(rest, 2),
             "home_qb": h["qb"], "away_qb": a["qb"], "home_qb_adj": round(h["qb_adj"], 2), "away_qb_adj": round(a["qb_adj"], 2),
             "home_injury_pts": round(h["injury_pts"], 2), "away_injury_pts": round(a["injury_pts"], 2),
             "home_injury_details": h["injury_details"], "away_injury_details": a["injury_details"],

@@ -112,6 +112,8 @@ class GameContext:
     div_game: bool
     roof: str
     weather: dict = field(default_factory=dict)
+    home_rest: float = 7.0
+    away_rest: float = 7.0
 
     def home_field(self) -> float:
         if self.neutral:
@@ -124,6 +126,11 @@ class GameContext:
             return 0.0
         tz = abs(C.TIME_ZONES[self.home] - C.TIME_ZONES[self.away])
         return C.TRAVEL_PENALTY_PER_TZ * max(0, tz - 1)
+
+    def rest(self) -> float:
+        """Points for the home side from the rest differential (negative when the visitor is fresher)."""
+        d = float(self.home_rest) - float(self.away_rest)
+        return max(-C.REST_CAP, min(C.REST_CAP, C.REST_POINTS_PER_DAY * d))
 
     def weather_factor(self) -> tuple[float, float, str]:
         """Return (margin multiplier, extra sd, note). Indoor and closed-roof games are neutral."""
