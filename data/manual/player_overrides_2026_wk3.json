@@ -156,7 +156,7 @@
     "NYJ|Mason Taylor": {
       "slot": "TE1",
       "starter": true,
-      "status": "Questionable"
+      "status": "Doubtful"
     },
     "NYJ|Minkah Fitzpatrick": {
       "slot": "S",
@@ -236,7 +236,7 @@
       "slot": "RG",
       "star": true,
       "starter": true,
-      "status": "Out"
+      "status": "IR"
     },
     "NE|Dre'Mont Jones": {
       "slot": "EDGE",
@@ -261,7 +261,7 @@
     "KC|Josh Simmons": {
       "slot": "LT",
       "starter": true,
-      "status": "Out"
+      "status": "Questionable"
     },
     "KC|Chamarri Conner": {
       "slot": "S",
@@ -271,7 +271,7 @@
     "KC|Mansoor Delane": {
       "slot": "CB2",
       "starter": true,
-      "status": "Questionable"
+      "status": "Probable"
     },
     "KC|Chris Jones": {
       "slot": "DT",
@@ -464,7 +464,7 @@
       "slot": "EDGE",
       "star": true,
       "starter": true,
-      "status": "Probable"
+      "status": "Questionable"
     },
     "BAL|Ja'Kobi Lane": {
       "slot": "WR3",
@@ -548,7 +548,7 @@
     "DEN|J.K. Dobbins": {
       "slot": "RB1",
       "starter": true,
-      "status": "Questionable"
+      "status": "Probable"
     },
     "DEN|RJ Harvey": {
       "slot": "RB2",
@@ -585,6 +585,21 @@
       "slot": "NCB",
       "starter": true,
       "status": "PUP"
+    },
+    "BAL|John Simpson": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "BAL|Calais Campbell": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Probable"
+    },
+    "CHI|Tyson Bagent": {
+      "slot": "QB",
+      "starter": false,
+      "status": "Questionable"
     }
   },
   "drop": [
@@ -609,6 +624,8 @@
     "CHI|Caleb Williams",
     "PHI|Tanner McKee",
     "BAL|Cooper Rush",
-    "IND|Montgomery (first name not confirmed in results; likely WR D.J. Montgomery)"
+    "IND|Montgomery (first name not confirmed in results; likely WR D.J. Montgomery)",
+    "SF|Brock Purdy",
+    "SF|George Kittle"
   ]
 }

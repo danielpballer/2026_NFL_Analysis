@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 3,
-  "collected_on": "2026-09-22",
+  "collected_on": "2026-09-23",
   "teams": {
     "ARI": {
       "starter": "Jacoby Brissett",
@@ -46,14 +46,14 @@
       "schedule_projected_starter": "Bryce Young"
     },
     "CHI": {
-      "starter": "Tyson Bagent",
+      "starter": "Bagent or Keenum",
       "pbp_name": "T.Bagent",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Caleb Williams was carted off in the fourth quarter Sunday with a non-contact hamstring injury and will not practice this week; Tyson Bagent is taking first-team reps and projected to start Monday night.",
+      "notes": "Caleb Williams (hamstring) is unlikely to play Monday, and Tyson Bagent entered concussion protocol Tuesday; if he is not cleared, 38-year-old Case Keenum starts his first game since 2023. Modeled as a deep-backup start with wide variance.",
       "schedule_projected_starter": "Tyson Bagent",
-      "value_override": -4.0,
-      "extra_sd": 1.0
+      "value_override": -4.5,
+      "extra_sd": 1.5
     },
     "CIN": {
       "starter": "Joe Burrow",
@@ -208,7 +208,7 @@
       "pbp_name": "J.Winston",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Jaxson Dart sprained his MCL on the first series Monday night (reportedly 4 to 6 weeks); Jameis Winston expected to start on a short week.",
+      "notes": "Jaxson Dart's MRI was worse than feared and he could miss the rest of the season; Jameis Winston (11 of 27 in relief) is the starter.",
       "value_override": null,
       "extra_sd": 0.75,
       "schedule_projected_starter": "Jaxson Dart"
@@ -238,13 +238,13 @@
       "schedule_projected_starter": "Aaron Rodgers"
     },
     "SEA": {
-      "starter": "Drew Lock (Darnold possible)",
+      "starter": "Drew Lock or Sam Darnold",
       "pbp_name": "D.Lock",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Macdonald says there is a chance Darnold practices this week; Lock (4 TD, 0 INT in two wins) starts if he is not cleared. Modeled as roughly 70 percent Lock.",
+      "notes": "Darnold returned to practice Wednesday in some capacity and Macdonald says the timetable has shifted drastically; not yet cleared for Sunday. Modeled as roughly 60 percent Lock, 40 percent Darnold.",
       "schedule_projected_starter": "Drew Lock",
-      "value_override": -1.2,
+      "value_override": -0.9,
       "extra_sd": 1.0
     },
     "SF": {
