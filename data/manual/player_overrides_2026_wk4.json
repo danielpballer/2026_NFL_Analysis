@@ -472,6 +472,197 @@
       "star": true,
       "starter": true,
       "status": "Probable"
+    },
+    "LAC|Donte Jackson": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Doubtful"
+    },
+    "LAC|Dalvin Tomlinson": {
+      "slot": "DT",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LAC|Kayode Awosika": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Out"
+    },
+    "LAC|Trey Pipkins": {
+      "slot": "RT",
+      "starter": true,
+      "status": "IR"
+    },
+    "LAC|Elijah Molden": {
+      "slot": "S",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "LAC|Ladd McConkey": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "SEA|Julian Love": {
+      "slot": "S",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SEA|Brandon Pili": {
+      "slot": "NT",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "SEA|Nick Emmanwori": {
+      "slot": "S",
+      "starter": true,
+      "status": "Probable"
+    },
+    "DEN|Jonah Coleman": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "IR"
+    },
+    "DEN|Marvin Mims Jr.": {
+      "slot": "WR3",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "DEN|J.K. Dobbins": {
+      "slot": "RB1",
+      "starter": true,
+      "status": "Probable"
+    },
+    "SF|Nick Bosa": {
+      "slot": "EDGE",
+      "star": true,
+      "starter": true,
+      "status": "Out"
+    },
+    "SF|James Thompson Jr.": {
+      "slot": "DT",
+      "starter": false,
+      "status": "Out"
+    },
+    "SF|Mike Evans": {
+      "slot": "WR1",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SF|Trent Williams": {
+      "slot": "LT",
+      "star": true,
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SF|Dre Greenlaw": {
+      "slot": "LB",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "SF|Demarcus Robinson": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Out"
+    },
+    "DET|Thomas Harper": {
+      "slot": "S",
+      "starter": false,
+      "status": "IR"
+    },
+    "DET|Avonte Maddox": {
+      "slot": "NCB",
+      "starter": true,
+      "status": "IR"
+    },
+    "DET|Ben Bartch": {
+      "slot": "G",
+      "starter": false,
+      "status": "Questionable"
+    },
+    "DET|Amon-Ra St. Brown": {
+      "slot": "WR1",
+      "star": true,
+      "starter": true,
+      "status": "Probable"
+    },
+    "DET|Christian Mahogany": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Probable"
+    },
+    "DET|Blake Miller": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Probable"
+    },
+    "CAR|Jaycee Horn": {
+      "slot": "CB1",
+      "star": true,
+      "starter": true,
+      "status": "IR"
+    },
+    "CAR|Mike Jackson": {
+      "slot": "CB2",
+      "starter": true,
+      "status": "Out"
+    },
+    "CAR|Damien Lewis": {
+      "slot": "LG",
+      "starter": true,
+      "status": "Out"
+    },
+    "CAR|Jonathon Brooks": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "IR"
+    },
+    "CAR|Xavier Legette": {
+      "slot": "WR2",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CAR|Jalen Coker": {
+      "slot": "WR3",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "CAR|Devin Lloyd": {
+      "slot": "LB",
+      "starter": true,
+      "status": "Probable"
+    },
+    "ATL|A.J. Terrell": {
+      "slot": "CB1",
+      "star": true,
+      "starter": true,
+      "status": "IR"
+    },
+    "ATL|Samson Ebukam": {
+      "slot": "EDGE",
+      "starter": true,
+      "status": "Questionable"
+    },
+    "ATL|Kaleb McGary": {
+      "slot": "RT",
+      "starter": true,
+      "status": "Probable"
+    },
+    "NO|Travis Etienne": {
+      "slot": "RB2",
+      "starter": false,
+      "status": "Out"
+    },
+    "NO|Barion Brown": {
+      "slot": "WR3",
+      "starter": false,
+      "status": "Out"
+    },
+    "NO|Martin Emerson": {
+      "slot": "CB1",
+      "starter": true,
+      "status": "Questionable"
     }
   },
   "drop": [
@@ -491,6 +682,12 @@
     "SEA|Sam Darnold",
     "SEA|Drew Lock",
     "MIN|J.J. McCarthy",
-    "NYG|J.J. McCarthy"
+    "NYG|J.J. McCarthy",
+    "CAR|Bryce Young",
+    "NO|Tyler Shough",
+    "ATL|Michael Penix Jr.",
+    "ATL|Tua Tagovailoa",
+    "SEA|Bradford (first name not confirmed)",
+    "SEA|Bradford"
   ]
 }

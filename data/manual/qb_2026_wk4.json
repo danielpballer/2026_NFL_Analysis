@@ -16,9 +16,9 @@
       "pbp_name": "M.Penix",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Penix named the Week 3 starter Monday, his first game since the 2025 ACL tear, on a short week at Lambeau; Tua may dress as backup. Value trimmed for rust.",
-      "value_override": -1.0,
-      "extra_sd": 1.5,
+      "notes": "Penix, in his second start back from the ACL, beat Green Bay on the road; rust trim reduced. Eleven days of rest before Monday night.",
+      "value_override": -0.6,
+      "extra_sd": 0.75,
       "schedule_projected_starter": "Michael Penix Jr."
     },
     "BAL": {
@@ -43,8 +43,9 @@
       "pbp_name": "B.Young",
       "new_to_team": false,
       "rookie": false,
-      "notes": "",
-      "schedule_projected_starter": "Bryce Young"
+      "notes": "Bryce Young had lower-body soreness after Week 3 and imaging this week; Canales confident he plays Sunday night.",
+      "schedule_projected_starter": "Bryce Young",
+      "extra_sd": 0.5
     },
     "CHI": {
       "starter": "Keenum or Bagent",
@@ -200,7 +201,7 @@
       "pbp_name": "T.Shough",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Tyler Shough year two; modest development bump.",
+      "notes": "Tyler Shough has six giveaways in three games; a possible fourth-quarter ankle tweak drew no designation.",
       "value_override": -0.7,
       "schedule_projected_starter": "Tyler Shough"
     },
@@ -239,14 +240,14 @@
       "schedule_projected_starter": "Aaron Rodgers"
     },
     "SEA": {
-      "starter": "Drew Lock or Sam Darnold",
-      "pbp_name": "D.Lock",
+      "starter": "Sam Darnold",
+      "pbp_name": "S.Darnold",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Darnold returned to practice Wednesday in some capacity and Macdonald says the timetable has shifted drastically; not yet cleared for Sunday. Modeled as roughly 60 percent Lock, 40 percent Darnold.",
+      "notes": "Darnold returned in Week 3 (379 yards, 4 TD, late pick-six); Lock back to backup.",
       "schedule_projected_starter": "Drew Lock",
-      "value_override": -0.9,
-      "extra_sd": 1.0
+      "value_override": null,
+      "extra_sd": 0.25
     },
     "SF": {
       "starter": "Brock Purdy",

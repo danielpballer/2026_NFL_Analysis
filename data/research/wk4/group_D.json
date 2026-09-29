@@ -1,0 +1,283 @@
+{
+  "collected_on": "2026-09-29",
+  "teams": {
+    "LAC": {
+      "week3_result": "L 16-24 at BUF",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "Trey Lance",
+        "changed_from_week3": false,
+        "notes": "Herbert started Week 3 and is healthy. Lance was added to the Week 3 report Friday with a groin injury (questionable) but was active; monitor Week 4 practice reports."
+      },
+      "injuries": [
+        {"player": "David Njoku", "position": "TE", "status": "IR", "injury": "Fibula injury suffered Week 2 vs Raiders; placed on IR, eligible to return Week 8", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50000682/chargers-placing-tes-david-njoku-charlie-kolar-ir"},
+        {"player": "Charlie Kolar", "position": "TE", "status": "Out", "injury": "Forearm injury Week 2 vs Raiders, surgery Monday Sept 21; initially reported headed to IR but good prognosis after surgery; ruled out Week 3", "starter": false, "source": "https://www.chargers.com/news/charlie-kolar-david-njoku-injured-reserve-fantasy"},
+        {"player": "Tyler Biadasz", "position": "C", "status": "IR", "injury": "Out for the season", "starter": true, "source": "https://www.chargers.com/news/charlie-kolar-david-njoku-injured-reserve-fantasy"},
+        {"player": "Trey Pipkins III", "position": "OT", "status": "IR", "injury": "Knee; placed on IR before Week 3, must miss four games, eligible Week 8", "starter": true, "source": "https://sports.yahoo.com/articles/chargers-suffer-major-injury-blow-185735196.html"},
+        {"player": "Donte Jackson", "position": "CB", "status": "Questionable", "injury": "Concussion suffered Week 3 at Buffalo, ruled out at halftime; in concussion protocol per Harbaugh on Monday. Cam Hart / Tarheeb Still expected to see more snaps", "starter": true, "source": "https://sports.yahoo.com/articles/donte-jackson-injury-chargers-cb-051153990.html"},
+        {"player": "Justin Eboigbe", "position": "DL", "status": "Questionable", "injury": "Left the field in first half Week 3 at Buffalo and went to medical tent; no further update found", "starter": false, "source": "https://www.si.com/nfl/chargers/onsi/chargers-injury-updates-loss-bills-latest-keaton-mitchell"},
+        {"player": "Dalvin Tomlinson", "position": "DT", "status": "Questionable", "injury": "Hamstring; ruled out Week 3, reported to be aiming for a Week 4 return vs Seattle", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/chargers-dalvin-tomlinson-ruled-out-for-week-3/"},
+        {"player": "Elijah Molden", "position": "S", "status": "Questionable", "injury": "Hamstring; starting free safety, ruled out Week 3", "starter": true, "source": "https://sports.yahoo.com/articles/chargers-week-3-injury-report-194341681.html"},
+        {"player": "Kayode Awosika", "position": "OL", "status": "Out", "injury": "Fibula; ruled out Week 3", "starter": false, "source": "https://sports.yahoo.com/articles/chargers-week-3-injury-report-194341681.html"},
+        {"player": "Brenen Thompson", "position": "WR", "status": "Questionable", "injury": "Quad; ruled out Week 3", "starter": false, "source": "https://www.chargers.com/news/bills-injury-report-week-3-ladd-mcconkey-fantasy"},
+        {"player": "Trey Lance", "position": "QB", "status": "Questionable", "injury": "Groin, added to report Friday before Week 3; was active as backup", "starter": false, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-add-trey-lance-to-injury-report-list-him-as-questionable-for-sunday"},
+        {"player": "Rodney Shelley", "position": "CB", "status": "Questionable", "injury": "Hamstring; questionable Week 3 but active", "starter": false, "source": "https://www.chargers.com/news/bills-week-3-inactives-2026"},
+        {"player": "Derwin James", "position": "S", "status": "Probable", "injury": "Fractured pinky finger Week 2 vs Raiders; played 52 snaps in Week 3", "starter": true, "source": "https://www.si.com/nfl/chargers/onsi/chargers-injury-updates-loss-bills-latest-keaton-mitchell"},
+        {"player": "Keaton Mitchell", "position": "RB", "status": "Probable", "injury": "Briefly with trainers on sideline in first half Week 3, returned and finished (8 car, 52 yds, rec TD)", "starter": false, "source": "https://www.si.com/nfl/chargers/onsi/chargers-injury-updates-loss-bills-latest-keaton-mitchell"},
+        {"player": "Ladd McConkey", "position": "WR", "status": "Probable", "injury": "Ribs (Week 1/2); practiced fully and was off the Week 3 injury report", "starter": true, "source": "https://www.si.com/nfl/chargers/onsi/ladd-mcconkey-playing-today-chargers-bills-updates"}
+      ],
+      "context_notes": [
+        "Chargers are 0-3; Jim Harbaugh winless through three games for the first time as a player or coach. Second straight road game, 6.5-point underdogs at Seattle.",
+        "TE Patrick Herbert (Justin's brother) promoted from practice squad before Week 3 to cover TE losses (Njoku IR, Kolar out).",
+        "Six players ruled out for Week 3 (Molden, Tomlinson, Pipkins, Awosika, B. Thompson, Kolar); Tomlinson targeting Week 4 return."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/chargers-week-3-injury-report-194341681.html",
+        "https://www.chargers.com/news/bills-week-3-inactives-2026",
+        "https://www.chargers.com/news/bills-injury-report-week-3-ladd-mcconkey-fantasy",
+        "https://sports.yahoo.com/articles/donte-jackson-injury-chargers-cb-051153990.html",
+        "https://www.si.com/nfl/chargers/onsi/chargers-injury-updates-loss-bills-latest-keaton-mitchell",
+        "https://www.espn.com/nfl/story/_/id/50000682/chargers-placing-tes-david-njoku-charlie-kolar-ir",
+        "https://www.chargers.com/news/charlie-kolar-david-njoku-injured-reserve-fantasy",
+        "https://www.chargers.com/news/seahawks-week-4-fantasy-2026",
+        "https://www.tsn.ca/nfl/article/chargers-in-serious-trouble-after-failing-to-capitalize-on-opportunities-against-bills/"
+      ]
+    },
+    "SEA": {
+      "week3_result": "L 31-33 at WAS",
+      "qb": {
+        "starter": "Sam Darnold",
+        "backup": "Drew Lock",
+        "changed_from_week3": false,
+        "notes": "Darnold returned from his glute injury and started Week 3 (379 yds, 4 TD, late pick-six by Kain Medrano). Lock (2-0 as fill-in) is back to the backup role. Jalen Milroe was inactive as the No. 3 in Week 3."
+      },
+      "injuries": [
+        {"player": "Julian Love", "position": "S", "status": "Questionable", "injury": "Calf injury suffered in practice before Week 3; ruled out vs Washington; Macdonald calls him day-to-day after extensive work Monday, trending toward Week 4 return", "starter": true, "source": "https://www.seahawks.com/news/julian-love-day-to-day-other-seahawks-injury-updates"},
+        {"player": "Ty Okada", "position": "S", "status": "Doubtful", "injury": "Hamstring; missed first three games, has not returned to practice; team deciding Mon/Tue whether he returns to practice this week", "starter": false, "source": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-love-okada-charbonnet"},
+        {"player": "Zach Charbonnet", "position": "RB", "status": "PUP", "injury": "Torn ACL (offseason surgery); on PUP, must miss at least four games; may return to practice this week", "starter": false, "source": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-love-okada-charbonnet"},
+        {"player": "Brandon Pili", "position": "DT", "status": "Questionable", "injury": "Concussion/neck; questionable then inactive Week 3", "starter": false, "source": "https://sports.yahoo.com/articles/brandon-pili-6-others-officially-153421205.html"},
+        {"player": "Bradford", "position": "N/A (first name not confirmed in results)", "status": "IR", "injury": "Knee; placed on injured reserve Wednesday Sept 23", "starter": false, "source": "https://sports.yahoo.com/articles/brandon-pili-6-others-officially-153421205.html"},
+        {"player": "Nick Emmanwori", "position": "S", "status": "Probable", "injury": "Hamstring in Week 3 at Washington, listed questionable to return but came back into the game", "starter": true, "source": "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-in-game-injury-updates"},
+        {"player": "Jadarian Price", "position": "RB", "status": "Probable", "injury": "Chest injury Week 2; practiced fully Friday and played Week 3 without designation", "starter": false, "source": "https://www.seahawks.com/news/updates-on-sam-darnold-jadarian-price-other-seahawks-injuries"}
+      ],
+      "context_notes": [
+        "Seahawks (defending Super Bowl champions) lost 33-31 at Washington, snapping a 12-game win streak; Marcus Mariota threw 3 TDs for WAS.",
+        "AJ Finley and Rodney Thomas II started at safety in Week 3 with Love and Okada out.",
+        "Home vs Chargers Week 4 at Lumen Field, 1:25 pm PT; Seattle favored by 6.5."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872955/seahawks-commanders",
+        "https://www.seahawks.com/news/julian-love-day-to-day-other-seahawks-injury-updates",
+        "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-in-game-injury-updates",
+        "https://www.seahawks.com/news/seahawks-at-commanders-week-3-inactives",
+        "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-updates-love-okada-charbonnet",
+        "https://sports.yahoo.com/articles/brandon-pili-6-others-officially-153421205.html",
+        "https://www.espn.com/nfl/story/_/id/49995944/drew-lock-jaxon-smith-njigba-seahawks-2-0-sam-darnold-ahead-schedule"
+      ]
+    },
+    "DEN": {
+      "week3_result": "W 30-26 vs LAR (SNF)",
+      "qb": {
+        "starter": "Bo Nix",
+        "backup": "Jarrett Stidham",
+        "changed_from_week3": false,
+        "notes": "Nix (fully recovered from January ankle fracture) started and stayed healthy in Week 3. Stidham is No. 2; Sam Ehlinger is the emergency third QB (inactive Week 3)."
+      },
+      "injuries": [
+        {"player": "Jonah Coleman", "position": "RB", "status": "IR", "injury": "High ankle sprain suffered Week 2 vs Jacksonville; placed on IR Saturday Sept 26; expected back when first eligible Oct 25 vs Arizona", "starter": false, "source": "https://www.espn.com/nfl/story/_/id/50036843/broncos-place-rb-jonah-coleman-ankle-ir"},
+        {"player": "Marvin Mims Jr.", "position": "WR", "status": "Questionable", "injury": "Foot injury from Week 1 vs Chiefs (also listed knee); missed Week 2, limited all week and inactive Week 3 vs Rams", "starter": false, "source": "https://www.denverbroncos.com/news/wr-marvin-mims-jr-among-broncos-inactives-for-week-3-game-vs-rams"},
+        {"player": "J.K. Dobbins", "position": "RB", "status": "Probable", "injury": "Limited in practice during Week 3 prep, no game designation, played vs Rams", "starter": true, "source": "https://www.denverbroncos.com/news/injuryreport/injury-report-rbs-rj-harvey-and-j-k-dobbins-not-assigned-game-statuses-rb-jonah-coleman-ruled-out-for-week-3-game-vs-rams"},
+        {"player": "RJ Harvey", "position": "RB", "status": "Probable", "injury": "Limited in practice during Week 3 prep, no game designation, played vs Rams", "starter": false, "source": "https://www.denverbroncos.com/news/injuryreport/injury-report-rbs-rj-harvey-and-j-k-dobbins-not-assigned-game-statuses-rb-jonah-coleman-ruled-out-for-week-3-game-vs-rams"}
+      ],
+      "context_notes": [
+        "Broncos 2-1 after beating the Rams 30-26 on Sunday Night Football; no in-game Broncos injuries surfaced in searches (Rams lost Ferguson, Watson, Parkinson).",
+        "Offense has scored only 10 first-half points through three games; slow starts a stated concern.",
+        "LS Mitchell Fraboni promoted to the active roster before Week 3 (long-snapper change)."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50036843/broncos-place-rb-jonah-coleman-ankle-ir",
+        "https://www.denverbroncos.com/news/wr-marvin-mims-jr-among-broncos-inactives-for-week-3-game-vs-rams",
+        "https://www.denverbroncos.com/news/injuryreport/injury-report-rbs-rj-harvey-and-j-k-dobbins-not-assigned-game-statuses-rb-jonah-coleman-ruled-out-for-week-3-game-vs-rams",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-marvin-mims-puka-nacua-inactive-for-broncos-rams",
+        "https://sports.yahoo.com/articles/broncos-backup-quarterback-denvers-2026-072001335.html",
+        "https://www.denverbroncos.com/news/broncos-promote-ls-mitchell-fraboni-to-active-roster-elevate-pair-of-players-for-week-3-game-vs-rams",
+        "https://bleacherreport.com/articles/25502706-2026-nfl-week-3-top-takeaways-and-biggest-questions-every-team"
+      ]
+    },
+    "SF": {
+      "week3_result": "W 36-30 vs ARI",
+      "qb": {
+        "starter": "Brock Purdy",
+        "backup": "Not confirmed in search results",
+        "changed_from_week3": false,
+        "notes": "Purdy threw 4 TDs in Week 3 and is healthy (FedEx Air Player of the Week nominee); early MVP chatter. 49ers are 3-0."
+      },
+      "injuries": [
+        {"player": "Nick Bosa", "position": "DE", "status": "Out", "injury": "Calf injury suffered before practice during Week 3 prep; missed Week 3; ruled out for Week 4 vs Denver; team considered IR but decided against it", "starter": true, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "James Thompson Jr.", "position": "DL", "status": "Out", "injury": "Ankle; will not play Week 4 vs Broncos", "starter": false, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "Mike Evans", "position": "WR", "status": "Questionable", "injury": "Ribs, hurt in first half Week 3 vs Arizona, did not finish; Shanahan: 'shouldn't be long term', evaluated through the week, chance to play", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50054837/evans-williams-greenlaw-long-term-injuries-49ers-say"},
+        {"player": "Trent Williams", "position": "LT", "status": "Questionable", "injury": "Neck/shoulder stinger Week 3 vs Arizona, did not finish; expected back at practice Thursday", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50054837/evans-williams-greenlaw-long-term-injuries-49ers-say"},
+        {"player": "Dre Greenlaw", "position": "LB", "status": "Questionable", "injury": "Quad contusion Week 3 vs Arizona, did not finish; not long-term", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50054837/evans-williams-greenlaw-long-term-injuries-49ers-say"},
+        {"player": "Romello Height", "position": "DE", "status": "Returning-expected-to-play", "injury": "Broken hand Week 2, had surgery, missed Week 3; expected to return Week 4", "starter": false, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "Mykel Williams", "position": "DE", "status": "PUP", "injury": "Knee surgery a year ago; on PUP, 21-day practice window opens Wednesday Sept 30; eligible to play any time after Week 4", "starter": true, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "Demarcus Robinson", "position": "WR", "status": "Out", "injury": "High right ankle sprain Week 2 vs Miami (carted off); 3-6 week timeline, IR candidate", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49993177/49ers-lose-another-wr-demarcus-robinson-suffers-ankle-injury"},
+        {"player": "Christian Kirk", "position": "WR", "status": "IR", "injury": "Calf; on IR, earliest return Week 5", "starter": false, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "Ricky Pearsall", "position": "WR", "status": "IR", "injury": "On injured reserve (continuing)", "starter": true, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"},
+        {"player": "De'Zhaun Stribling", "position": "WR", "status": "IR", "injury": "On injured reserve (continuing)", "starter": false, "source": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates"}
+      ],
+      "context_notes": [
+        "49ers 3-0 despite a depleted WR corps (Pearsall, Kirk, Stribling on IR; Robinson out; Evans banged up).",
+        "Shanahan's Monday update was mostly positive: Evans, T. Williams, Greenlaw not long-term; Bosa and Thompson out vs Denver; Mykel Williams' practice window opens."
+      ],
+      "sources": [
+        "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates",
+        "https://www.espn.com/nfl/story/_/id/50054837/evans-williams-greenlaw-long-term-injuries-49ers-say",
+        "https://www.espn.com/nfl/recap/_/gameId/401872958",
+        "https://www.espn.com/nfl/story/_/id/49993177/49ers-lose-another-wr-demarcus-robinson-suffers-ankle-injury",
+        "https://sfstandard.com/2026/09/28/49ers-injury-updates-mike-evans-trent-williams/",
+        "https://www.49erswebzone.com/articles/203712-injury-updates-williams-others-shanahan/"
+      ]
+    },
+    "DET": {
+      "week3_result": "W 31-24 vs NYJ",
+      "qb": {
+        "starter": "Jared Goff",
+        "backup": "Not confirmed in search results",
+        "changed_from_week3": false,
+        "notes": "Goff started Week 3 and threw the go-ahead 11-yard TD to Jahmyr Gibbs with 2:25 left; no injury concern."
+      },
+      "injuries": [
+        {"player": "Brian Branch", "position": "S", "status": "Out", "injury": "Achilles; has not returned to practice, out indefinitely; Campbell says he is closer to returning than Joseph", "starter": true, "source": "https://www.nfl.com/news/lions-safeties-brian-branch-kerby-joseph-remain-out-indefinitely-dan-campbell-says"},
+        {"player": "Kerby Joseph", "position": "S", "status": "Out", "injury": "Knee; has not returned to practice, out indefinitely", "starter": true, "source": "https://www.nfl.com/news/lions-safeties-brian-branch-kerby-joseph-remain-out-indefinitely-dan-campbell-says"},
+        {"player": "Thomas Harper", "position": "S", "status": "IR", "injury": "Ankle; placed on IR Saturday Sept 26, must miss four games; Campbell unsure if he plays again this season", "starter": false, "source": "https://sports.yahoo.com/articles/lions-injury-updates-cade-mays-204754939.html"},
+        {"player": "Avonte Maddox", "position": "CB", "status": "IR", "injury": "Season-ending foot injury suffered vs Buffalo (Week 2)", "starter": false, "source": "https://sports.yahoo.com/articles/dan-campbell-provides-unwelcome-brian-174104183.html"},
+        {"player": "Cade Mays", "position": "C", "status": "IR", "injury": "On IR; Campbell targeting a post-bye-week return, no firm timetable", "starter": true, "source": "https://sports.yahoo.com/articles/lions-injury-updates-cade-mays-204754939.html"},
+        {"player": "Ben Bartch", "position": "G", "status": "Questionable", "injury": "Foot; did not practice and ruled out Week 3; Campbell says not a long-term concern", "starter": false, "source": "https://www.si.com/nfl/lions/onsi/detroit-lions-injury-updates-mahogany-miller-bartch-harper"},
+        {"player": "Amon-Ra St. Brown", "position": "WR", "status": "Probable", "injury": "Played 48 of 65 snaps Week 3 and left the field slowly several times; checked by medical staff Monday, Campbell: 'had a little something... I think we'll be OK'", "starter": true, "source": "https://sports.yahoo.com/articles/dan-campbell-gives-amon-ra-211541160.html"},
+        {"player": "Blake Miller", "position": "OT", "status": "Probable", "injury": "Knee; missed Week 2, limited in practice and returned to start Week 3", "starter": true, "source": "https://sports.yahoo.com/articles/lions-dan-campbell-shares-blake-175814640.html"},
+        {"player": "Christian Mahogany", "position": "LG", "status": "Probable", "injury": "Hip; missed Week 2, limited in practice and returned Week 3", "starter": true, "source": "https://www.si.com/nfl/lions/onsi/detroit-lions-injury-updates-mahogany-miller-bartch-harper"}
+      ],
+      "context_notes": [
+        "Lions 2-1; blew a 14-point fourth-quarter lead vs Jets before Goff-to-Gibbs winner.",
+        "Christian Izien starting at safety with Branch, Joseph and Harper out; secondary is thin (Maddox also lost for season).",
+        "Panthers expected to be without both starting outside CBs (Horn, Jackson) for SNF, a break for Detroit's passing game."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872954/jets-lions",
+        "https://www.nfl.com/news/lions-safeties-brian-branch-kerby-joseph-remain-out-indefinitely-dan-campbell-says",
+        "https://sports.yahoo.com/articles/lions-injury-updates-cade-mays-204754939.html",
+        "https://sports.yahoo.com/articles/dan-campbell-gives-amon-ra-211541160.html",
+        "https://www.si.com/nfl/lions/onsi/detroit-lions-injury-updates-mahogany-miller-bartch-harper",
+        "https://www.prideofdetroit.com/detroit-lions-injuries/174203/lions-jets-injury-report-2-starting-ol-return-to-practice-another-safety-down",
+        "https://www.prideofdetroit.com/detroit-lions-news/174922/panthers-injuries-cornerbacks-jaycee-horn-detroit-lions-sunday-night"
+      ]
+    },
+    "CAR": {
+      "week3_result": "L 18-21 at CLE",
+      "qb": {
+        "starter": "Bryce Young",
+        "backup": "Not confirmed in search results",
+        "changed_from_week3": false,
+        "notes": "Young 'took a cleat' / was stepped on (lower body) in Week 3 and finished the game sore; underwent imaging this week to confirm no issue. Canales confident he plays vs Detroit on SNF."
+      },
+      "injuries": [
+        {"player": "Bryce Young", "position": "QB", "status": "Probable", "injury": "Lower-body soreness after being stepped on Week 3 at Cleveland; imaging this week; expected to play", "starter": true, "source": "https://www.panthers.com/news/monday-brew-bryce-young-shows-toughness-expected-to-play-this-week-injuries-devin-lloyd-nick-scott-xavier-legette"},
+        {"player": "Jaycee Horn", "position": "CB", "status": "Out", "injury": "Torn quad on Browns' game-winning TD with 1:48 left Week 3; out indefinitely, 6-12 weeks per ESPN, seeking second opinion, headed to IR", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50052968/sources-panthers-cb-jaycee-horn-indefinitely-torn-quad"},
+        {"player": "Mike Jackson", "position": "CB", "status": "Out", "injury": "Groin, first half Week 3 at Cleveland, ruled out in-game; Panthers expected to be without both starting CBs vs Detroit (Akayleb Evans, rookie Will Lee III to start)", "starter": true, "source": "https://sports.yahoo.com/articles/panthers-secondary-banged-sunday-night-191219478.html"},
+        {"player": "Damien Lewis", "position": "LG", "status": "Out", "injury": "UCL tear in elbow Week 3 at Cleveland (returned to game but injury later diagnosed); out at least Week 4, 'a few weeks', seeking second opinion", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-damien-lewis-to-miss-at-least-week-4-with-ucl-injury"},
+        {"player": "Jalen Coker", "position": "WR", "status": "Questionable", "injury": "Minor quad strain Week 3 at Cleveland, did not return; could be available vs Lions", "starter": true, "source": "https://www.qcnews.com/nfl/carolina-panthers/panthers-wide-receiver-jalen-coker-diagnosed-with-minor-quad-strain-espn/"},
+        {"player": "Xavier Legette", "position": "WR", "status": "Questionable", "injury": "Knee injury suffered on 55-yard catch at Atlanta (Week 2); inactive Week 3", "starter": true, "source": "https://www.panthers.com/news/week-3-inactives-at-cleveland-xavier-legette-out-this-week-jalen-coker-active"},
+        {"player": "Devin Lloyd", "position": "LB", "status": "Returning-expected-to-play", "injury": "Calf; missed Week 3; Canales says he will be in uniform vs Lions", "starter": true, "source": "https://www.panthers.com/news/monday-brew-bryce-young-shows-toughness-expected-to-play-this-week-injuries-devin-lloyd-nick-scott-xavier-legette"},
+        {"player": "Nick Scott", "position": "S", "status": "Questionable", "injury": "Ribs; missed Week 3; Canales: 'seems to be a playable condition'", "starter": true, "source": "https://www.panthers.com/news/monday-brew-bryce-young-shows-toughness-expected-to-play-this-week-injuries-devin-lloyd-nick-scott-xavier-legette"},
+        {"player": "Jaelan Phillips", "position": "OLB", "status": "Probable", "injury": "Back; missed Wednesday practice Week 3 but full Friday, no designation, played", "starter": true, "source": "https://www.panthers.com/news/week-3-friday-injury-report-three-ruled-out-for-cleveland-devin-lloyd-jalen-coker-questionable"},
+        {"player": "Jonathon Brooks", "position": "RB", "status": "IR", "injury": "Groin/core-muscle injury requiring surgery; placed on IR Wednesday Sept 23, out at least six weeks; Isaiah Simmons signed", "starter": false, "source": "https://www.panthers.com/news/jonathon-brooks-placed-on-injured-reserve-signed-isaiah-simmons"},
+        {"player": "Taylor Moton", "position": "RT", "status": "Out", "injury": "Blood clots; has not dressed this season, could return after Week 5 bye", "starter": true, "source": "https://sports.yahoo.com/articles/injury-plagued-panthers-suffer-big-162631276.html"},
+        {"player": "Ikem Ekwonu", "position": "LT", "status": "Out", "injury": "Knee; has not dressed this season, could return after Week 5 bye", "starter": true, "source": "https://sports.yahoo.com/articles/injury-plagued-panthers-suffer-big-162631276.html"}
+      ],
+      "context_notes": [
+        "Panthers lost 21-18 at Cleveland on a late Watson-to-Fannin TD; Horn torn quad on that play.",
+        "Both starting outside CBs (Horn, Jackson) expected out for SNF vs Lions; Akayleb Evans and rookie Will Lee III to start.",
+        "Offensive line badly depleted: both projected starting tackles (Moton, Ekwonu) yet to play, and LG Damien Lewis now out with a UCL tear.",
+        "Carolina's bye is Week 5."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50052968/sources-panthers-cb-jaycee-horn-indefinitely-torn-quad",
+        "https://www.panthers.com/news/dave-canales-jaycee-horn-suffers-significant-quad-injury",
+        "https://www.panthers.com/news/monday-brew-bryce-young-shows-toughness-expected-to-play-this-week-injuries-devin-lloyd-nick-scott-xavier-legette",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-damien-lewis-to-miss-at-least-week-4-with-ucl-injury",
+        "https://sports.yahoo.com/articles/panthers-secondary-banged-sunday-night-191219478.html",
+        "https://www.espn.com/nfl/story/_/id/50046840/several-panthers-starters-banged-loss-browns",
+        "https://www.panthers.com/news/jonathon-brooks-placed-on-injured-reserve-signed-isaiah-simmons",
+        "https://www.panthers.com/news/week-3-inactives-at-cleveland-xavier-legette-out-this-week-jalen-coker-active",
+        "https://sports.yahoo.com/articles/injury-plagued-panthers-suffer-big-162631276.html"
+      ]
+    },
+    "ATL": {
+      "week3_result": "W 35-14 at GB (Thu Sept 24)",
+      "qb": {
+        "starter": "Michael Penix Jr.",
+        "backup": "Tua Tagovailoa",
+        "changed_from_week3": false,
+        "notes": "Penix made his first start of 2026 in Week 3 after missing Weeks 1-2 recovering from last November's torn ACL (Tagovailoa started those games). Penix came through the win healthy; Tua is the backup."
+      },
+      "injuries": [
+        {"player": "A.J. Terrell", "position": "CB", "status": "IR", "injury": "Groin injury Week 2 vs Carolina; placed on IR Tuesday Sept 22; Raheem Morris expects him back after the Week 5 bye", "starter": true, "source": "https://sports.yahoo.com/articles/falcons-vs-packers-injury-report-023857640.html"},
+        {"player": "Samson Ebukam", "position": "DE", "status": "Questionable", "injury": "Hamstring; did not practice and was the only Falcon ruled out for Week 3 at Green Bay", "starter": true, "source": "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell"},
+        {"player": "Jalon Walker", "position": "OLB", "status": "IR", "injury": "Torn ACL in training camp; out for the 2026 season", "starter": true, "source": "https://www.atlantafalcons.com/news/falcons-jalon-walker-injured-reserve-keidron-smith"},
+        {"player": "James Pearce Jr.", "position": "DE", "status": "Suspended", "injury": "League suspension, undetermined number of games", "starter": true, "source": "https://www.nfl.com/players/james-pearce-jr/"},
+        {"player": "Kaleb McGary", "position": "RT", "status": "Questionable", "injury": "Knee; limited in practice and carried a game designation for Week 3", "starter": true, "source": "https://www.atlantafalcons.com/news/falcons-injury-report-kaleb-mcgary-receives-game-designation-plus-updates-on-bijan-robinson-matthew-judon"},
+        {"player": "Bijan Robinson", "position": "RB", "status": "Probable", "injury": "Shoulder; limited in Week 3 practice, then rushed 29 times for 194 yds and 2 TD at Green Bay", "starter": true, "source": "https://www.atlantafalcons.com/news/falcons-injury-report-bijan-robinson-matthew-judon-limited-in-thursday-practice"},
+        {"player": "Matthew Judon", "position": "OLB", "status": "Questionable", "injury": "Hamstring; limited in Week 3 practice", "starter": true, "source": "https://www.atlantafalcons.com/news/falcons-injury-report-bijan-robinson-matthew-judon-limited-in-thursday-practice"}
+      ],
+      "context_notes": [
+        "Falcons 1-2 after a 35-14 rout at Lambeau in Penix's return; Robinson 194 rush yds, Drake London 9-194 receiving.",
+        "Extra rest: played Thursday Sept 24, next game is Monday Night Football Oct 5 at New Orleans (11 days).",
+        "Atlanta's bye is Week 5; Terrell targeted to return after it."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/falcons-packers-on-thursday-night-football-what-we-learned-from-atlanta-s-35-14-win",
+        "https://www.atlantafalcons.com/news/michael-penix-jr-starting-qb-thursday-night-football-vs-packers",
+        "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell",
+        "https://sports.yahoo.com/articles/falcons-vs-packers-injury-report-023857640.html",
+        "https://www.atlantafalcons.com/news/falcons-injury-report-kaleb-mcgary-receives-game-designation-plus-updates-on-bijan-robinson-matthew-judon",
+        "https://www.atlantafalcons.com/news/falcons-jalon-walker-injured-reserve-keidron-smith",
+        "https://www.nfl.com/players/james-pearce-jr/",
+        "https://bleacherreport.com/articles/25502836-falcons-beat-packers-box-score-stats-highlights-bijan-penix-london-jordan-love-top-players"
+      ]
+    },
+    "NO": {
+      "week3_result": "L 27-35 vs LV",
+      "qb": {
+        "starter": "Tyler Shough",
+        "backup": "Spencer Rattler",
+        "changed_from_week3": false,
+        "notes": "Shough threw a career-high 4 TDs vs Raiders (29/42, 255 yds, 1 INT, 2 lost fumbles); 8 TD but 6 giveaways through three games. NBC noted he appeared to tweak an ankle in the fourth quarter but no injury designation or coach comment surfaced. Rattler beat out Zach Wilson for the backup job."
+      },
+      "injuries": [
+        {"player": "Travis Etienne Jr.", "position": "RB", "status": "Out", "injury": "Aggravated hamstring Week 3 vs Raiders (was limited all week); ruled out for MNF vs Falcons, Moore says 'time lost', estimated return Oct 11. Alvin Kamara to primary role with Kendre Miller and rookie CJ Donaldson", "starter": true, "source": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"},
+        {"player": "Kelvin Banks Jr.", "position": "LT", "status": "IR", "injury": "Ankle surgery; on IR with estimated return Nov 29", "starter": true, "source": "https://www.audacy.com/wwl/local-sports/saints/kellen-moore-on-wwl"},
+        {"player": "Barion Brown", "position": "WR", "status": "Out", "injury": "Hamstring injury suffered Week 2 vs Ravens; did not practice and ruled out Week 3; no return timeline given", "starter": false, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-25/saints-rule-out-wr-barion-brown-hamstring-week-3"},
+        {"player": "Christen Miller", "position": "DL", "status": "Questionable", "injury": "Toe; ruled out Week 3", "starter": false, "source": "https://www.audacy.com/wwl/local-sports/saints/saints-final-week-3-injury-report"},
+        {"player": "Martin Emerson Jr.", "position": "CB", "status": "Questionable", "injury": "Questionable on the Week 3 final report", "starter": true, "source": "https://www.audacy.com/wwl/local-sports/saints/saints-final-week-3-injury-report"},
+        {"player": "Chase Young", "position": "DE", "status": "Probable", "injury": "Calf; limited Wednesday, full Thursday in Week 3 prep, played and had 2 sacks", "starter": true, "source": "https://sports.yahoo.com/articles/thursday-saints-vs-raiders-injury-report-203425135.html"},
+        {"player": "Tyler Shough", "position": "QB", "status": "Probable", "injury": "Appeared to sustain a minor ankle injury in 4th quarter vs Raiders per NBC Sports; finished the game, no designation reported", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-27/tyler-shough-leans-on-saints-tes-in-week-3-loss"}
+      ],
+      "context_notes": [
+        "Saints 1-2 after blowing a late lead in the home opener vs Raiders (Kirk Cousins 3 TD for LV); Moore called it an emotional collapse and wants focus forward.",
+        "Backfield: Etienne out, Kamara becomes primary back for MNF vs Atlanta.",
+        "Playing without LT Kelvin Banks for the foreseeable future (est. Nov 29)."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872961/raiders-saints",
+        "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h",
+        "https://www.audacy.com/wwl/local-sports/saints/travis-etienne-injury",
+        "https://www.audacy.com/wwl/local-sports/saints/kellen-moore-on-wwl",
+        "https://www.audacy.com/wwl/local-sports/saints/saints-final-week-3-injury-report",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-25/saints-rule-out-wr-barion-brown-hamstring-week-3",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-27/tyler-shough-leans-on-saints-tes-in-week-3-loss",
+        "https://www.neworleanssaints.com/news/morning-break-saints-regroup-after-home-opener-look-ahead-to-falcons-new-orleans-news-headlines-29-2026",
+        "https://www.deseret.com/sports/2026/08/31/zach-wilson-spencer-rattler-saints-backup-quarterback-tyler-shough/"
+      ]
+    }
+  }
+}
