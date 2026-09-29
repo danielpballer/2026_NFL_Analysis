@@ -1,0 +1,582 @@
+{
+  "collected_on": "2026-09-29",
+  "teams": {
+    "LA": {
+      "week3_result": "L 26-30 at DEN (SNF; Stafford 30/55, 390 yds, 2 TD, 2 INT incl. Hufanga pick-six and game-ending INT)",
+      "qb": {
+        "starter": "Matthew Stafford",
+        "backup": "Stetson Bennett IV",
+        "changed_from_week3": false,
+        "notes": "Stafford healthy, no injury reported. Bennett listed as QB2; rookie Ty Simpson is emergency 3rd QB (inactive Week 3)."
+      },
+      "injuries": [
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Hip/groin soreness; missed Weeks 2-3. McVay 'hopeful' he plays Week 4 at PHI if practice progresses; surgery still 'on the table' if no improvement.",
+          "starter": true,
+          "source": "https://www.therams.com/news/injury-updates-mcvay-says-terrance-ferguson-ankle-and-jaylen-watson-shoulder-likely-out-for-week-4-at-eagles-latest-on-colby-parkinson-shoulder-and-puka-nacua-hip"
+        },
+        {
+          "player": "Myles Garrett",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Knee (patella sprain aggravated from camp); had knee surgery, ~6-week timeline. On IR; earliest return Week 6 vs ARI.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50038925/sources-myles-garrett-faces-6-week-line-knee-surgery"
+        },
+        {
+          "player": "Terrance Ferguson",
+          "position": "TE",
+          "status": "Doubtful",
+          "injury": "Medial ankle sprain suffered Week 3 at DEN; McVay says likely out Week 4.",
+          "starter": true,
+          "source": "https://www.therams.com/news/injury-updates-mcvay-says-terrance-ferguson-ankle-and-jaylen-watson-shoulder-likely-out-for-week-4-at-eagles-latest-on-colby-parkinson-shoulder-and-puka-nacua-hip"
+        },
+        {
+          "player": "Jaylen Watson",
+          "position": "CB",
+          "status": "Doubtful",
+          "injury": "Dislocated shoulder Week 3 at DEN; 'probably' out Week 4 but will not go on IR.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-updates-injuries-to-tes-colby-parkinson-terrance-ferguson"
+        },
+        {
+          "player": "Colby Parkinson",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "AC joint sprain (shoulder) Week 3 at DEN; day-to-day.",
+          "starter": true,
+          "source": "https://www.therams.com/news/injury-updates-mcvay-says-terrance-ferguson-ankle-and-jaylen-watson-shoulder-likely-out-for-week-4-at-eagles-latest-on-colby-parkinson-shoulder-and-puka-nacua-hip"
+        },
+        {
+          "player": "Kamren Kinchens",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Hamstring; doubtful and inactive Week 3 at DEN. No Week 4 update found.",
+          "starter": true,
+          "source": "https://www.therams.com/news/rams-injury-report-week-3-at-broncos-puka-nacua-and-kam-kinchens-doubtful-for-sunday-night-football-2026"
+        }
+      ],
+      "context_notes": [
+        "Rams 1-2 after a wild SNF loss in Denver; McVay declined to blame a late pass-interference call.",
+        "With Parkinson and Ferguson hurt, rookie TE Max Klare could make his debut; run game suffered without the TEs.",
+        "Kicker Harrison Mevis is entrenched; no kicker change.",
+        "Tutu Atwell and CJ Daniels Jr. were inactive Week 3 (reason not confirmed)."
+      ],
+      "sources": [
+        "https://www.therams.com/news/injury-updates-mcvay-says-terrance-ferguson-ankle-and-jaylen-watson-shoulder-likely-out-for-week-4-at-eagles-latest-on-colby-parkinson-shoulder-and-puka-nacua-hip",
+        "https://www.espn.com/nfl/story/_/id/50028567/rams-targeting-week-4-return-wr-puka-nacua",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-updates-injuries-to-tes-colby-parkinson-terrance-ferguson",
+        "https://www.espn.com/nfl/story/_/id/50038925/sources-myles-garrett-faces-6-week-line-knee-surgery",
+        "https://www.bleedinggreennation.com/news/182598/myles-garrett-injury-rams-star-will-miss-eagles-game-in-week-4",
+        "https://www.nbclosangeles.com/news/sports/nfl/rams-broncos-score-week-3/3947967/",
+        "https://www.therams.com/news/puka-nacua-and-tutu-atwell-among-rams-inactives-for-sunday-night-football-at-broncos-in-week-3-2026",
+        "https://sports.yahoo.com/articles/rams-backup-quarterback-los-angeles-073001170.html",
+        "https://www.turfshowtimes.com/los-angeles-rams-injuries/150226/rams-injury-updates-tight-ends"
+      ]
+    },
+    "PHI": {
+      "week3_result": "L 7-27 at CHI (MNF)",
+      "qb": {
+        "starter": "Jalen Hurts",
+        "backup": "Andy Dalton",
+        "changed_from_week3": false,
+        "notes": "Hurts was pulled by the concussion spotter after a late hit by D'Marco Jackson in Q2 at CHI, was evaluated in the medical tent and cleared to return; he finished the game. Dalton was the active QB2 in Week 3; Tanner McKee was the inactive emergency 3rd QB."
+      },
+      "injuries": [
+        {
+          "player": "Dallas Goedert",
+          "position": "TE",
+          "status": "Out",
+          "injury": "Sprained MCL suffered Week 2 vs TEN; expected to miss multiple weeks. Inactive Week 3. Not on IR as of reports found.",
+          "starter": true,
+          "source": "https://www.inquirer.com/eagles/live/eagles-news-injury-report-next-game-dallas-goedert-20260921.html"
+        },
+        {
+          "player": "Landon Dickerson",
+          "position": "G",
+          "status": "IR",
+          "injury": "Knee; placed on injured reserve Tuesday Sept 22 (min. 4 games).",
+          "starter": true,
+          "source": "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-report-dallas-goedert-misses-full-week-practice-chiefs-game-landon-dickerson/683693/"
+        },
+        {
+          "player": "Hollywood Brown",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ankle injury suffered during Week 3 prep; ruled out/inactive at CHI. Status for Week 4 uncertain.",
+          "starter": false,
+          "source": "https://www.cbssports.com/fantasy/football/news/eagles-hollywood-brown-ruled-out-with-ankle-injury/"
+        },
+        {
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "status": "Probable",
+          "injury": "Concussion evaluation Week 3 at CHI (cleared, returned to game).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50056700/sirianni-regrets-reaction-hit-qb-hurts-eagles-loss"
+        },
+        {
+          "player": "Jonathan Greenard",
+          "position": "OLB",
+          "status": "Returning-expected-to-play",
+          "injury": "Pectoral; missed Weeks 1-2, made Eagles debut Week 3 at CHI. Fangio said he is not near a full workload.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50055103/jonathan-greenard-pectoral-make-eagles-debut-monday-source-says"
+        },
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "status": "Probable",
+          "injury": "Stinger Week 2 vs TEN; good MRI, played Week 3.",
+          "starter": true,
+          "source": "https://bleacherreport.com/articles/25502765-saquon-barkley-injury-update-latest-rumors-eagles-rbs-status-week-3-vs-bears"
+        },
+        {
+          "player": "Cooper DeJean",
+          "position": "CB",
+          "status": "Probable",
+          "injury": "Calf/abdomen (from Week 1); DNP Wed of Week 2 prep but has been playing.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-16/cooper-dejean-calf-abdomen-dnp-wednesday"
+        }
+      ],
+      "context_notes": [
+        "Eagles 2-1. Blowout loss at Chicago; Sirianni publicly regretted a sideline outburst after the hit on Hurts; Inquirer says the offense 'regressed'.",
+        "Eagles signed veteran TE Zach Ertz after Goedert's injury; Johnny Mundt and E.J. Jenkins fill in at TE.",
+        "Hollywood Brown has been unhappy with playing time since Week 1."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/jalen-hurts-injury-eagles-qb-011814513.html",
+        "https://www.bleedinggreennation.com/news/184583/jalen-hurts-injury-concussion-evaluation-bears-week-3-monday-night-football",
+        "https://www.inquirer.com/eagles/live/eagles-news-injury-report-next-game-jalen-hurts-20260929.html",
+        "https://www.espn.com/nfl/story/_/id/50056700/sirianni-regrets-reaction-hit-qb-hurts-eagles-loss",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/jalen-hurts-evaluated-concussion-andy-dalton-interception-nick-sirianni-bears-monday-night-football/754621/",
+        "https://www.inquirer.com/eagles/live/eagles-news-injury-report-next-game-dallas-goedert-20260921.html",
+        "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/eagles-injury-report-dallas-goedert-misses-full-week-practice-chiefs-game-landon-dickerson/683693/",
+        "https://www.cbssports.com/fantasy/football/news/eagles-hollywood-brown-ruled-out-with-ankle-injury/",
+        "https://www.espn.com/nfl/story/_/id/50055103/jonathan-greenard-pectoral-make-eagles-debut-monday-source-says",
+        "https://www.philadelphiaeagles.com/news/eagles-at-bears-inactives-week-3-2026-nfl-regular-season-monday-night-football-caleb-williams"
+      ]
+    },
+    "GB": {
+      "week3_result": "L 14-35 vs ATL (TNF, Sept 24)",
+      "qb": {
+        "starter": "Jordan Love",
+        "backup": "Desmond Ridder or Kyle McCord (backup competition; not confirmed which is QB2)",
+        "changed_from_week3": false,
+        "notes": "Love took a hit on his elbow in Week 2 and temporarily lost feeling in his throwing hand but finished that game and started Week 3; no new injury reported."
+      },
+      "injuries": [
+        {
+          "player": "Micah Parsons",
+          "position": "DE",
+          "status": "IR",
+          "injury": "On IR; Packers project return Week 5 vs CHI or by Week 6 vs DAL. Out Week 4.",
+          "starter": true,
+          "source": "https://www.si.com/betting/packers-vs-buccaneers-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026"
+        },
+        {
+          "player": "Josh Jacobs",
+          "position": "RB",
+          "status": "Suspended",
+          "injury": "Commissioner's Exempt List since Aug 31 (May domestic-abuse arrest); cannot practice or play.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/49774523/packers-rb-josh-jacobs-placed-commission-exempt-list"
+        },
+        {
+          "player": "Jayden Reed",
+          "position": "WR",
+          "status": "Doubtful",
+          "injury": "Neck injury Week 2 vs NYJ (stretchered off, overnight hospital stay); missed Week 3. LaFleur had no timeline Monday; all signs point to missing Week 4.",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/jayden-reed-packers-status-takes-122013326.html"
+        },
+        {
+          "player": "Zach Bako-Bewele",
+          "position": "RT",
+          "status": "IR",
+          "injury": "Complete tear of right patellar tendon Week 2 vs NYJ; season-ending, placed on IR.",
+          "starter": true,
+          "source": "https://heavy.com/sports/nfl/green-bay-packers/zach-bako-bewele-eric-johnson-ii-roster-moves/"
+        },
+        {
+          "player": "Edgerrin Cooper",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Head injury Week 3 vs ATL (Q3), in concussion protocol.",
+          "starter": true,
+          "source": "https://www.cbssports.com/fantasy/football/news/packers-edgerrin-cooper-being-checked-for-concussion/"
+        },
+        {
+          "player": "Aaron Banks",
+          "position": "LG",
+          "status": "Questionable",
+          "injury": "Toe/knee injury Week 2 vs NYJ; ruled out Week 3. Status TBD for Week 4.",
+          "starter": true,
+          "source": "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026"
+        },
+        {
+          "player": "Warren Brinson",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Ruled out Week 3 vs ATL (injury not specified in results); listed questionable for Week 4.",
+          "starter": false,
+          "source": "https://www.packers.com/news/packers-falcons-week-3-inactives-sept-24-2026"
+        },
+        {
+          "player": "Anthony Campbell",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Inactive Week 3 vs ATL; listed questionable for Week 4.",
+          "starter": false,
+          "source": "https://www.packers.com/news/packers-falcons-week-3-inactives-sept-24-2026"
+        },
+        {
+          "player": "Jacob Monk",
+          "position": "C",
+          "status": "Questionable",
+          "injury": "Listed questionable on Week 4 preview (injury not specified).",
+          "starter": false,
+          "source": "https://www.si.com/betting/packers-vs-buccaneers-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026"
+        },
+        {
+          "player": "Javon Hargrave",
+          "position": "DT",
+          "status": "Returning-expected-to-play",
+          "injury": "Cleared concussion protocol and was active Week 3.",
+          "starter": true,
+          "source": "https://www.acmepackingcompany.com/green-bay-packers-injuries/87090/green-bay-packers-inactives-javon-hargrave-will-play-week-3-vs-falcons"
+        }
+      ],
+      "context_notes": [
+        "Packers 1-2; 35-14 home loss to Atlanta ended a 13-game home-opener win streak and put Matt LaFleur on the hot seat per Yahoo.",
+        "OL overhaul: signed G Laken Tomlinson to the 53 and Mekhi Becton to the practice squad; Anthony Belton started at RT in Week 3.",
+        "RB rotation without Jacobs: Kaleb Johnson (acquired from PIT), Chris Brooks, MarShawn Lloyd (RB3).",
+        "Opponent note: Packers will face rookie Jalon Daniels instead of Baker Mayfield."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401872948/falcons-packers",
+        "https://www.packers.com/news/game-recap-5-takeaways-from-packers-loss-to-falcons-week-3-2026",
+        "https://www.si.com/betting/packers-vs-buccaneers-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026",
+        "https://sports.yahoo.com/articles/jayden-reed-packers-status-takes-122013326.html",
+        "https://www.cbssports.com/fantasy/football/news/packers-edgerrin-cooper-being-checked-for-concussion/",
+        "https://www.packers.com/news/packers-rule-out-four-list-two-questionable-vs-falcons-week-3-injury-report-2026",
+        "https://www.packers.com/news/packers-falcons-week-3-inactives-sept-24-2026",
+        "https://www.espn.com/nfl/story/_/id/49774523/packers-rb-josh-jacobs-placed-commission-exempt-list",
+        "https://www.acmepackingcompany.com/green-bay-packers-news/87263/packers-roster-update-green-bay-reshuffles-roster-for-ol-additions",
+        "https://sports.yahoo.com/articles/packers-backup-quarterback-green-bays-083002313.html",
+        "https://www.acmepackingcompany.com/green-bay-packers-depth-chart/87117/packers-snap-counts-week-3-marshawn-lloyd-is-rb3"
+      ]
+    },
+    "TB": {
+      "week3_result": "L 16-23 vs MIN",
+      "qb": {
+        "starter": "Jalon Daniels",
+        "backup": "Easton Stick (expected practice-squad elevation)",
+        "changed_from_week3": true,
+        "notes": "Baker Mayfield dislocated his right (throwing) thumb Week 3 vs MIN; MRI showed no ligament/tendon damage; Bowles says minimum three weeks out. Undrafted rookie Daniels (Kansas) makes his first NFL start; he went 0-for-3 with a game-ending INT in relief."
+      },
+      "injuries": [
+        {
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "status": "Out",
+          "injury": "Dislocated right thumb Week 3 vs MIN; out minimum 3 weeks (reports 2-4 weeks). Not placed on IR per reports found.",
+          "starter": true,
+          "source": "https://www.buccaneers.com/news/baker-mayfield-three-weeks-minimum-thumb-injury-update"
+        },
+        {
+          "player": "Jalen McMillan",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "PCL sprain (left knee) on first drive Week 3 vs MIN; expected to miss significant time, though listed questionable on Week 4 depth chart.",
+          "starter": true,
+          "source": "https://www.fantasypros.com/2026/09/fantasy-football-injury-report-updates-week-4-2026/"
+        },
+        {
+          "player": "Rueben Bain Jr.",
+          "position": "OLB",
+          "status": "Questionable",
+          "injury": "Groin; ruled out Week 3 vs MIN. Rookie 1st-round starter.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rueben-bain-josiah-trotter-ruled-out-for-buccaneers"
+        },
+        {
+          "player": "Josiah Trotter",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Shoulder; ruled out Week 3 vs MIN. Rookie 2nd-round starter.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rueben-bain-josiah-trotter-ruled-out-for-buccaneers"
+        },
+        {
+          "player": "Tristan Wirfs",
+          "position": "LT",
+          "status": "Questionable",
+          "injury": "Toe; sidelined for Week 3 vs MIN. Listed as starter on Week 4 depth chart; returned to practice Monday.",
+          "starter": true,
+          "source": "https://www.buccaneers.com/news/tristan-wirfs-among-bucs-returning-to-practice-monday"
+        }
+      ],
+      "context_notes": [
+        "Bucs 0-3. First non-Mayfield start since Tom Brady in 2022; Daniels would be the first undrafted rookie QB to start in franchise history.",
+        "Week 4 depth chart lists Christian Rozeboom in on defense (likely covering LB with Trotter hurt)."
+      ],
+      "sources": [
+        "https://www.buccaneers.com/news/bucs-lose-minnesota-vikings-week-3-2026-score-23-16",
+        "https://www.nfl.com/news/buccaneers-qb-baker-mayfield-thumb-out-at-least-three-weeks-jalon-daniels",
+        "https://www.buccaneers.com/news/baker-mayfield-three-weeks-minimum-thumb-injury-update",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/rap-baker-mayfield-thumb-could-miss-2-4-weeks",
+        "https://www.buccaneers.com/news/bucs-release-week-four-depth-chart-christian-rozeboom-gets-in-on-defense",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rueben-bain-josiah-trotter-ruled-out-for-buccaneers",
+        "https://www.buccaneers.com/news/tristan-wirfs-among-bucs-returning-to-practice-monday",
+        "https://www.fantasypros.com/2026/09/fantasy-football-injury-report-updates-week-4-2026/",
+        "https://www.si.com/onsi/fantasy/injuries/fantasy-football-impact-emeka-egbuka-and-jalen-mcmillan-latest-injury-news"
+      ]
+    },
+    "MIA": {
+      "week3_result": "L 10-24 vs KC",
+      "qb": {
+        "starter": "Malik Willis",
+        "backup": "Kyle McCord",
+        "changed_from_week3": false,
+        "notes": "Willis (signed 3yr/$67M) has started all three games; 1 TD pass, ~209 pass yds/game; no injury. Tua Tagovailoa is no longer with the team."
+      },
+      "injuries": [
+        {
+          "player": "De'Von Achane",
+          "position": "RB",
+          "status": "Out",
+          "injury": "Torn ACL on 3rd carry Week 3 vs KC; out for season (IR placement expected).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50052064/sources-dolphins-rb-devon-achane-suffered-torn-acl-vs-chiefs"
+        },
+        {
+          "player": "Kenneth Grant",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Leg injury (preseason); on IR since initial 53, expected back Week 5. Out Week 4.",
+          "starter": true,
+          "source": "https://www.cbssports.com/fantasy/football/news/dolphins-kenneth-grant-opening-season-on-ir/"
+        },
+        {
+          "player": "Caleb Douglas",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Right ankle Week 2 at SF; ruled out Week 3; Hafley now calls him day-to-day.",
+          "starter": false,
+          "source": "https://heavy.com/sports/nfl/miami-dolphins/good-news-injuries-after-chiefs-game/"
+        },
+        {
+          "player": "Jaylen Wright",
+          "position": "RB",
+          "status": "Questionable",
+          "injury": "Foot and stinger; doubtful Week 3; day-to-day per Hafley for Week 4. Now key with Achane out.",
+          "starter": false,
+          "source": "https://heavy.com/sports/nfl/miami-dolphins/good-news-injuries-after-chiefs-game/"
+        }
+      ],
+      "context_notes": [
+        "Dolphins 0-3 under head coach Jeff Hafley; offense ranks 31st in points (12.0 ppg) and has not topped 13 points in a game.",
+        "Tyreek Hill and Jaylen Waddle both departed in the offseason; TE Greg Dulcich on roster.",
+        "Losing Achane removes their best playmaker for a road game at a Vikings defense leading the league in EPA/play allowed and pressure rate."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50052064/sources-dolphins-rb-devon-achane-suffered-torn-acl-vs-chiefs",
+        "https://www.cbssports.com/nfl/news/devon-achane-injury-dolphins-0-17-prediction/",
+        "https://www.cbssports.com/fantasy/football/news/dolphins-kenneth-grant-opening-season-on-ir/",
+        "https://www.dailynorseman.com/minnesota-vikings-game-information/99825/2026-nfl-week-4-miami-dolphins-minnesota-vikings",
+        "https://sports.yahoo.com/articles/dolphins-backup-qb-depth-chart-182349595.html",
+        "https://heavy.com/sports/nfl/miami-dolphins/good-news-injuries-after-chiefs-game/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-rule-out-wr-caleb-douglas-for-week-3",
+        "https://www.startribune.com/minnesota-vikings-miami-dolphins-prediction-pick-odds-nfl-week-4-news-kyler-murray-justin-jefferson/601889954"
+      ]
+    },
+    "MIN": {
+      "week3_result": "W 23-16 at TB",
+      "qb": {
+        "starter": "Kyler Murray",
+        "backup": "Carson Wentz",
+        "changed_from_week3": false,
+        "notes": "Murray returned Week 3 after clearing concussion protocol (concussion Week 1 vs GB; Wentz started Week 2 at CHI). J.J. McCarthy was traded to the Giants on Sept 28; Max Brosmer is the practice-squad QB3."
+      },
+      "injuries": [
+        {
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ankle sprain after first drive Week 3 at TB; MRI showed no structural damage; swelling is the issue. Could play Week 4 but team may rest him.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50054067/sources-vikings-jefferson-ankle-sprain-play-week"
+        },
+        {
+          "player": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Fractured thumb (procedure done); placed on IR Sept 16; earliest return Week 7 vs IND.",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/news/vikings-jordan-mason-on-injured-reserve-thumb-fracture-whos-up-next/"
+        },
+        {
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "status": "Probable",
+          "injury": "Knee injury Week 2 at CHI; played Week 3 (17 car, 5 rec); may have practice restrictions but expected to be RB1 Week 4.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-25/aaron-jones-knee-good-to-go-against-buccaneers"
+        },
+        {
+          "player": "DeeJay Dallas",
+          "position": "RB",
+          "status": "Probable",
+          "injury": "Toe; limited in Week 3 prep, played as rotational back.",
+          "starter": false,
+          "source": "https://www.dailynorseman.com/minnesota-vikings-injuries/99552/vikings-bucs-first-injury-report"
+        },
+        {
+          "player": "Brett Thorson",
+          "position": "P",
+          "status": "Out",
+          "injury": "Right hamstring Week 2 at CHI; missed Week 3. Johnny Hekker signed to punt.",
+          "starter": true,
+          "source": "https://www.dailynorseman.com/minnesota-vikings-injuries/99552/vikings-bucs-first-injury-report"
+        }
+      ],
+      "context_notes": [
+        "Vikings 3-0; defense leads NFL in EPA/play allowed and QB pressure rate.",
+        "Traded QB J.J. McCarthy to the Giants (Sept 28) after Jaxson Dart's injury; Wentz is now the clear QB2.",
+        "Punter change: rookie Brett Thorson out, veteran Johnny Hekker handling punts."
+      ],
+      "sources": [
+        "https://www.buccaneers.com/news/bucs-lose-minnesota-vikings-week-3-2026-score-23-16",
+        "https://www.espn.com/nfl/story/_/id/50054067/sources-vikings-jefferson-ankle-sprain-play-week",
+        "https://www.startribune.com/justin-jefferson-injury-update-minnesota-vikings-miami-dolphins-week-4-game-news-kevin-oconnell/601889719",
+        "https://www.cbssports.com/nfl/news/vikings-jordan-mason-on-injured-reserve-thumb-fracture-whos-up-next/",
+        "https://www.vikings.com/news/kyler-murray-starting-quarterback-week-3-buccaneers-injury",
+        "https://bleacherreport.com/articles/25337837-jj-mccarthy-traded-giants-after-jaxson-darts-injury-latest-nfl-news-vikings-return",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-25/aaron-jones-knee-good-to-go-against-buccaneers",
+        "https://www.dailynorseman.com/minnesota-vikings-injuries/99552/vikings-bucs-first-injury-report"
+      ]
+    },
+    "KC": {
+      "week3_result": "W 24-10 at MIA",
+      "qb": {
+        "starter": "Patrick Mahomes",
+        "backup": "Justin Fields",
+        "changed_from_week3": false,
+        "notes": "Mahomes took a big hit from Chop Robinson in Q3 at MIA but did not miss a snap; Reid confirmed Monday no injury. Mahomes had been on the injury report earlier for knee (flexion/strengthening) as a full participant with no game status."
+      },
+      "injuries": [
+        {
+          "player": "Josh Simmons",
+          "position": "LT",
+          "status": "Out",
+          "injury": "Back injury since mid-August camp; week-to-week, has not practiced; Reid noncommittal. Realistic return Week 6 vs LAC after Week 5 bye. UDFA rookie Kahlil Benson starting at LT.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-ill-let-you-know-when-josh-simmons-is-coming-back"
+        },
+        {
+          "player": "Chamarri Conner",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Knee; limited all of Week 3, doubtful then ruled out at MIA. Trending toward Week 4 return; needs a full practice.",
+          "starter": true,
+          "source": "https://www.rotowire.com/football/headlines/chamarri-conner-injury-trending-towards-week-4-return-639707"
+        },
+        {
+          "player": "Mansoor Delane",
+          "position": "CB",
+          "status": "Probable",
+          "injury": "Shoulder Week 1 vs DEN; active but did not play Week 2; started Week 3 after full practices.",
+          "starter": true,
+          "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-injury-updates-josh-simmons-chamarri-conner-mansoor-delane-omarr-norman-lott/"
+        },
+        {
+          "player": "Rashee Rice",
+          "position": "WR",
+          "status": "Probable",
+          "injury": "Knee (May 2026 surgery); full participant on Week 3 report with no game status; active.",
+          "starter": true,
+          "source": "https://www.chiefs.com/news/week-3-injury-report-chiefs-vs-dolphins-2026"
+        }
+      ],
+      "context_notes": [
+        "Chiefs 3-0; escaped Miami with no new injuries per Monday reports.",
+        "Week 4 at LV is the second straight road game before the Week 5 bye.",
+        "Felix Anudike-Uzomah (quad), Jeff Bassa (shoulder), Jadon Canady (knee) were on the Week 3 report as full participants."
+      ],
+      "sources": [
+        "https://www.chiefs.com/news/week-3-injury-report-chiefs-vs-dolphins-2026",
+        "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/211419/chiefs-dolphins-inactives-chamarri-conner-officially-ruled-out",
+        "https://www.rotowire.com/football/headlines/chamarri-conner-injury-trending-towards-week-4-return-639707",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-ill-let-you-know-when-josh-simmons-is-coming-back",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-josh-simmons-is-week-to-week-with-back-injury",
+        "https://sports.yahoo.com/articles/patrick-mahomes-positive-injury-hit-121522827.html",
+        "https://sports.yahoo.com/articles/chiefs-confirm-justin-fields-backup-232153496.html",
+        "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-injury-updates-josh-simmons-chamarri-conner-mansoor-delane-omarr-norman-lott/",
+        "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-latest-injury-updates-josh-simmons-chamarri-conner-week-3-win-dolphins/"
+      ]
+    },
+    "LV": {
+      "week3_result": "W 35-27 at NO (overcame 11-point 2nd-half deficit; Cousins 248 yds, 3 TD)",
+      "qb": {
+        "starter": "Kirk Cousins",
+        "backup": "Fernando Mendoza (No. 1 overall pick)",
+        "changed_from_week3": false,
+        "notes": "Cousins named starter by HC Klint Kubiak before Week 1 over Mendoza and Aidan O'Connell; no injury. Geno Smith is now with the Jets."
+      },
+      "injuries": [
+        {
+          "player": "Jack Bech",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Broken forearm Week 3 at NO; headed to IR, estimated return ~Nov 1.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-raiders-wr-jack-bech-broke-his-forearm-in-sundays-win"
+        },
+        {
+          "player": "Jackson Powers-Johnson",
+          "position": "RG",
+          "status": "Questionable",
+          "injury": "Groin, left Week 3 at NO early; Kubiak called it a 'sore groin', still evaluating; not considered serious.",
+          "starter": true,
+          "source": "https://justblogbaby.com/raiders-week-4-injury-updates-latest-on-treydan-stukes-jack-bech-and-jpj"
+        },
+        {
+          "player": "Treydan Stukes",
+          "position": "S",
+          "status": "Returning-expected-to-play",
+          "injury": "Concussion protocol; expected to return this week.",
+          "starter": false,
+          "source": "https://justblogbaby.com/raiders-week-4-injury-updates-latest-on-treydan-stukes-jack-bech-and-jpj"
+        },
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "status": "Returning-expected-to-play",
+          "injury": "Missed Weeks 1-2; made 2026 debut Week 3 at NO (10 rec, 116 yds, TD).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/recap/_/gameId/401872961"
+        }
+      ],
+      "context_notes": [
+        "Raiders a surprising 3-0 under rookie HC Klint Kubiak; host 3-0 Chiefs in a first-place AFC West showdown.",
+        "Bowers is being used out wide with Michael Mayer as the in-line TE.",
+        "Aidan O'Connell was questionable (NIR-personal) in Week 3."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872961",
+        "https://www.raiders.com/news/kirk-cousins-named-raiders-starting-quarterback",
+        "https://www.nfl.com/news/raiders-name-kirk-cousins-starting-fernando-mendoza-officially-backup",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-raiders-wr-jack-bech-broke-his-forearm-in-sundays-win",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-ol-jackson-powers-johnson-exited-mondays-practice-with-apparent-injury",
+        "https://justblogbaby.com/raiders-week-4-injury-updates-latest-on-treydan-stukes-jack-bech-and-jpj",
+        "https://www.raiders.com/news/las-vegas-raiders-new-orleans-saints-week-3-injury-report-2026-season",
+        "https://www.foxsports.com/articles/nfl/raiders-off-to-surprising-30-start-as-unbeaten-chiefs-set-to-visit"
+      ]
+    }
+  }
+}
