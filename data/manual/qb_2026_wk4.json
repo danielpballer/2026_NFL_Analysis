@@ -34,8 +34,9 @@
       "pbp_name": "J.Allen",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Josh Allen under new HC Joe Brady.",
-      "schedule_projected_starter": "Josh Allen"
+      "notes": "Josh Allen took a hit to the left knee in the fourth quarter but stayed in; expected to play.",
+      "schedule_projected_starter": "Josh Allen",
+      "extra_sd": 0.25
     },
     "CAR": {
       "starter": "Bryce Young",
@@ -46,14 +47,14 @@
       "schedule_projected_starter": "Bryce Young"
     },
     "CHI": {
-      "starter": "Bagent or Keenum",
+      "starter": "Keenum or Bagent",
       "pbp_name": "T.Bagent",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Caleb Williams (hamstring) is unlikely to play Monday, and Tyson Bagent entered concussion protocol Tuesday; if he is not cleared, 38-year-old Case Keenum starts his first game since 2023. Modeled as a deep-backup start with wide variance.",
+      "notes": "Caleb Williams (Grade 2 hamstring) is out three to four weeks. Case Keenum started and won Monday; Bagent has cleared protocol and Ben Johnson has not named a starter. Either way a backup.",
       "schedule_projected_starter": "Case Keenum",
-      "value_override": -4.5,
-      "extra_sd": 1.5
+      "value_override": -4.0,
+      "extra_sd": 1.0
     },
     "CIN": {
       "starter": "Joe Burrow",
@@ -181,7 +182,7 @@
       "pbp_name": "K.Murray",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Murray cleared concussion protocol Monday and starts in Tampa; Wentz returns to backup.",
+      "notes": "Kyler Murray back from concussion protocol; J.J. McCarthy traded to the Giants.",
       "schedule_projected_starter": "Kyler Murray",
       "extra_sd": 0.5,
       "value_override": null
@@ -191,7 +192,7 @@
       "pbp_name": "D.Maye",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Drake Maye did not play in the preseason; healthy.",
+      "notes": "Drake Maye has seven turnovers in three games and was pulled late in Jacksonville; Vrabel says he remains the starter.",
       "schedule_projected_starter": "Drake Maye"
     },
     "NO": {
@@ -208,7 +209,7 @@
       "pbp_name": "J.Winston",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Jaxson Dart's MRI was worse than feared and he could miss the rest of the season; Jameis Winston (11 of 27 in relief) is the starter.",
+      "notes": "Dart had knee surgery and is out for the season; Winston beat Tennessee and Harbaugh says he stays QB1 despite the trade for J.J. McCarthy.",
       "value_override": null,
       "extra_sd": 0.75,
       "schedule_projected_starter": "Jameis Winston"
@@ -256,12 +257,14 @@
       "schedule_projected_starter": "Brock Purdy"
     },
     "TB": {
-      "starter": "Baker Mayfield",
-      "pbp_name": "B.Mayfield",
+      "starter": "Jalon Daniels",
+      "pbp_name": "J.Daniels",
       "new_to_team": false,
-      "rookie": false,
-      "notes": "Baker Mayfield in a new offense under OC Zac Robinson; Mike Evans left for San Francisco.",
-      "schedule_projected_starter": "Baker Mayfield"
+      "rookie": true,
+      "notes": "Baker Mayfield dislocated his throwing thumb Sunday (out at least three weeks); undrafted rookie Jalon Daniels (0 for 3 with an interception in relief) starts, Easton Stick backs up.",
+      "schedule_projected_starter": "Baker Mayfield",
+      "value_override": -5.0,
+      "extra_sd": 1.5
     },
     "TEN": {
       "starter": "Cam Ward",
@@ -273,14 +276,14 @@
       "schedule_projected_starter": "Cam Ward"
     },
     "WAS": {
-      "starter": "Marcus Mariota",
+      "starter": "Mariota (Daniels questionable)",
       "pbp_name": "M.Mariota",
       "new_to_team": false,
       "rookie": false,
-      "notes": "Jayden Daniels dislocated his left elbow in Dallas and is out indefinitely; Marcus Mariota named the starter.",
+      "notes": "Jayden Daniels (dislocated elbow, no surgery) is traveling to London and practicing in some form; Mariota, who beat Seattle, is favored to start. Modeled as 75 percent Mariota.",
       "schedule_projected_starter": "Jayden Daniels",
-      "value_override": null,
-      "extra_sd": 0.75
+      "value_override": -0.5,
+      "extra_sd": 1.0
     }
   }
 }

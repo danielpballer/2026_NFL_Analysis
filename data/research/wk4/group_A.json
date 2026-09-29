@@ -1,0 +1,257 @@
+{
+  "collected_on": "2026-09-29",
+  "london_game": {
+    "venue": "Tottenham Hotspur Stadium, London",
+    "home_team": "WAS",
+    "notes": "Colts.com states the London game vs Washington is designated an away game for Indianapolis, so the Commanders are the designated home team. Kickoff Sun Oct 4, 2:30 p.m. BST / 9:30 a.m. ET. Commanders fly Tuesday night (Sept 29), light practice Wednesday, fuller sessions Thursday/Friday in London. Colts' second London game ever (2016 vs JAX at Wembley)."
+  },
+  "teams": {
+    "PIT": {
+      "week3_result": "W 30-27 vs CIN (Sept 27, Acrisure Stadium); 2-1 overall (lost 3-20 at NE in Week 2)",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "Mason Rudolph",
+        "changed_from_week3": false,
+        "notes": "Rodgers started Week 3 and threw 3 TD passes. He grimaced coming off the field at end of first half after a Bengals player rolled over him, but did not miss a snap. No injury designation reported for Week 4. Depth chart: Rodgers, Rudolph, Will Howard (emergency 3rd), Drew Allar. Head coach is Mike McCarthy."
+      },
+      "injuries": [
+        {"player": "Rico Dowdle", "position": "RB", "status": "Doubtful", "injury": "Toe; did not play Week 3 and listed DNP on Monday's estimated report; unlikely to be cleared on short week", "starter": true, "source": "https://steelersdepot.com/2026/09/steelers-week-four-monday-injury-report-porter-listed-full-two-others-limited/"},
+        {"player": "Brandin Echols", "position": "CB", "status": "Doubtful", "injury": "Concussion suffered covering the Bengals' muffed punt in Week 3; did not return; in protocol, listed limited Monday; only days to clear", "starter": true, "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-browns-week-4-monday-injury-report-first-practice-reports-and-analysis"},
+        {"player": "Jalen Ramsey", "position": "CB/S", "status": "Questionable", "injury": "Wrist injury suffered Week 3; seen with right arm in a sling; listed limited Monday; McCarthy: 'too early to tell' but expects him to try to play", "starter": true, "source": "https://sports.yahoo.com/articles/steelers-terrible-injury-news-days-194203013.html"},
+        {"player": "Joey Porter Jr.", "position": "CB", "status": "Probable", "injury": "Conditioning; listed full participant Monday", "starter": true, "source": "https://steelersdepot.com/2026/09/steelers-week-four-monday-injury-report-porter-listed-full-two-others-limited/"},
+        {"player": "DeShon Elliott", "position": "S", "status": "IR", "injury": "Injured reserve (undisclosed), continuing", "starter": true, "source": "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/injuries/"},
+        {"player": "Jack Driscoll", "position": "OT", "status": "IR", "injury": "Injured reserve (undisclosed), continuing", "starter": false, "source": "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/injuries/"},
+        {"player": "Logan Lee", "position": "DT", "status": "IR", "injury": "Injured reserve, continuing", "starter": false, "source": "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/injuries/"},
+        {"player": "Daequan Hardy", "position": "CB", "status": "IR", "injury": "Injured reserve, continuing", "starter": false, "source": "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/injuries/"}
+      ],
+      "context_notes": [
+        "Short week: Thursday Oct 1 at Cleveland (Huntington Bank Field, 8:15 p.m. ET). Monday's report was a walkthrough estimate.",
+        "If both Echols and Ramsey sit, Pittsburgh is down both slot cornerbacks.",
+        "K Chris Boswell hit the go-ahead FG with just over 2 minutes left in Week 3; DE Sebastian Joseph-Day recovered a late Burrow fumble to seal it.",
+        "Head coach Mike McCarthy (first season in Pittsburgh)."
+      ],
+      "sources": [
+        "https://www.bengals.com/news/bengals-steelers-recap-postgame-notes-quotes-stats-week-3-2026",
+        "https://steelersdepot.com/2026/09/steelers-week-four-monday-injury-report-porter-listed-full-two-others-limited/",
+        "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-browns-week-4-monday-injury-report-first-practice-reports-and-analysis",
+        "https://sports.yahoo.com/articles/steelers-terrible-injury-news-days-194203013.html",
+        "https://www.cbssports.com/nfl/teams/pit/pittsburgh-steelers/injuries/",
+        "https://steelersdepot.com/2026/09/steelers-release-first-depth-chart-of-2026-regular-season/",
+        "https://sports.yahoo.com/articles/steelers-qb-aaron-rodgers-suffers-185849914.html"
+      ]
+    },
+    "CLE": {
+      "week3_result": "W 21-18 vs CAR (Sept 27); 2-1 overall, two-game win streak",
+      "qb": {
+        "starter": "Deshaun Watson",
+        "backup": "Shedeur Sanders",
+        "changed_from_week3": false,
+        "notes": "Watson started Week 3 (16/30, 144 yds, 2 TD, 0 INT, 11 rushes for 45 yds) and led a late go-ahead drive; reported fully healthy for Thursday. Week 4 unofficial depth chart: Watson, Sanders, Taylen Green. Dillon Gabriel is on IR. Head coach is Todd Monken."
+      },
+      "injuries": [
+        {"player": "Elgton Jenkins", "position": "C", "status": "Doubtful", "injury": "Concussion suffered in Week 3 win over Panthers; in protocol; DNP Monday and Tuesday; serious doubt for Thursday. Luke Wypler or Parker Brailsford would start", "starter": true, "source": "https://sports.yahoo.com/articles/browns-center-elgton-jenkins-concussion-222022303.html"},
+        {"player": "Teven Jenkins", "position": "G", "status": "Out", "injury": "Back; has missed all three games; DNP Monday", "starter": true, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/teven-jenkins-elgton-jenkins-dnp-monday"},
+        {"player": "Tylan Wallace", "position": "WR", "status": "Questionable", "injury": "Knee; DNP Monday and Tuesday", "starter": false, "source": "https://www.steelers.com/news/week-4-injury-report-browns"},
+        {"player": "Tytus Howard", "position": "OT", "status": "Questionable", "injury": "Knee; limited Monday/Tuesday", "starter": true, "source": "https://www.steelers.com/news/week-4-injury-report-browns"},
+        {"player": "Tyson Campbell", "position": "CB", "status": "Questionable", "injury": "Knee; limited Monday/Tuesday", "starter": true, "source": "https://www.steelers.com/news/week-4-injury-report-browns"},
+        {"player": "Grant Delpit", "position": "S", "status": "Questionable", "injury": "Shoulder; limited Monday/Tuesday", "starter": true, "source": "https://www.steelers.com/news/week-4-injury-report-browns"},
+        {"player": "Dillon Gabriel", "position": "QB", "status": "IR", "injury": "Injured reserve (per Week 4 depth chart), continuing", "starter": false, "source": "https://www.clevelandbrowns.com/news/browns-announce-unofficial-depth-chart-for-week-4-vs-the-steelers"}
+      ],
+      "context_notes": [
+        "Hosting Pittsburgh Thursday Oct 1 at Huntington Bank Field. Browns held their one real practice on Tuesday Sept 29 (Monday was a walkthrough).",
+        "Watson is 0-3 in his career vs Pittsburgh; Monken has stuck with Watson as starter with Shedeur Sanders as QB2.",
+        "Offensive line is the main concern: starting C Elgton Jenkins in protocol, RG Teven Jenkins still out, RT Tytus Howard limited."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/browns/onsi/inside-deshaun-watson-s-successes-in-week-3-win-vs-panthers-01m3jfw5znr5",
+        "https://www.steelers.com/news/week-4-injury-report-browns",
+        "https://steelersdepot.com/2026/09/browns-week-4-estimated-monday-injury-report-starting-center-listed-dnp/",
+        "https://sports.yahoo.com/articles/browns-center-elgton-jenkins-concussion-222022303.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/teven-jenkins-elgton-jenkins-dnp-monday",
+        "https://www.clevelandbrowns.com/news/browns-announce-unofficial-depth-chart-for-week-4-vs-the-steelers",
+        "https://fox8.com/sports/cleveland-browns-ride-2-game-win-streak-into-pittsburgh-steelers-thursday-night-showdown/"
+      ]
+    },
+    "IND": {
+      "week3_result": "W 19-17 vs HOU (Sept 27); 1-2 overall, first win of 2026",
+      "qb": {
+        "starter": "Daniel Jones",
+        "backup": "Anthony Richardson Sr.",
+        "changed_from_week3": false,
+        "notes": "Jones started Week 3; no injury reported. Week 4 unofficial depth chart: Jones, Richardson Sr., Riley Leonard. Head coach Shane Steichen."
+      },
+      "injuries": [
+        {"player": "Alec Pierce", "position": "WR", "status": "IR", "injury": "Heel; placed on injured reserve Sept 23 (Week 3 week)", "starter": true, "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-wednesday-sept-23"},
+        {"player": "Ashton Dulin", "position": "WR", "status": "Questionable", "injury": "Ankle; ruled out Weeks 2 and 3; listed as kickoff returner on the Week 4 unofficial depth chart, no practice status yet", "starter": false, "source": "https://www.si.com/nfl/colts/onsi/colts-injury-report-ashton-dulin-out-alec-pierce-set-for-bigger-role"},
+        {"player": "Spencer Shrader", "position": "K", "status": "Questionable", "injury": "Groin tweak in pregame warmups Week 3; kicked through it (4 FG incl. 53-yd game-winner); severity not reported as of Monday; Colts may need to sign a kicker before London if he can't go", "starter": true, "source": "https://athlonsports.com/nfl/indianapolis-colts/spencer-shrader-injury-update-colts-week-4-london"}
+      ],
+      "context_notes": [
+        "Designated away team in London vs Washington (Oct 4, 9:30 a.m. ET).",
+        "Jonathan Taylor was not on the Week 3 injury report and carried a normal workload.",
+        "Kicker status is the key watch item; Wednesday's first London injury report will be the first real clue."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872951",
+        "https://www.colts.com/news/colts-release-unofficial-depth-chart-ahead-of-week-4",
+        "https://athlonsports.com/nfl/indianapolis-colts/spencer-shrader-injury-update-colts-week-4-london",
+        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-wednesday-sept-23",
+        "https://www.si.com/nfl/colts/onsi/colts-injury-report-ashton-dulin-out-alec-pierce-set-for-bigger-role",
+        "https://www.colts.com/news/colts-to-face-washington-commanders-at-tottenham-stadium-in-london-in-week-4-of-2026-nfl-regular-season"
+      ]
+    },
+    "WAS": {
+      "week3_result": "W 33-31 vs SEA (Sept 27) with Marcus Mariota starting",
+      "qb": {
+        "starter": "Marcus Mariota (favored) / Jayden Daniels (Questionable)",
+        "backup": "Jayden Daniels if cleared; otherwise reserves Sam Hartman / Athan Kaliakmanis (QB2 order not confirmed)",
+        "changed_from_week3": false,
+        "notes": "Daniels dislocated his left (non-throwing) elbow Sept 20 at Dallas, did not practice in Week 3 and was ruled out vs Seattle; Mariota started and threw multiple TDs (reports cite 3 or 4) in the 33-31 win. Daniels will not have surgery, is traveling to London and will practice 'in some form and fashion' this week; Dan Quinn has not committed to him playing. Specialists projected 'three weeks or sooner'. Unless Daniels takes most first-team reps, Mariota is the likely Week 4 starter. Mariota was named a captain."
+      },
+      "injuries": [
+        {"player": "Jayden Daniels", "position": "QB", "status": "Questionable", "injury": "Dislocated left elbow Sept 20 vs DAL; missed Week 3; traveling and practicing in London; game status undetermined", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-will-travel-to-london-practice-this-week"},
+        {"player": "Frankie Luvu", "position": "LB", "status": "Questionable", "injury": "Groin; missed Week 3; traveling to London and starting practice", "starter": true, "source": "https://athlonsports.com/nfl/washington-commanders/commanders-injury-update-jayden-daniels-to-be-involved-in-practice-this-week"},
+        {"player": "Chig Okonkwo", "position": "TE", "status": "Questionable", "injury": "Hamstring; missed Week 3; traveling to London and starting practice", "starter": true, "source": "https://athlonsports.com/nfl/washington-commanders/commanders-injury-update-jayden-daniels-to-be-involved-in-practice-this-week"},
+        {"player": "Sam Cosmi", "position": "G", "status": "Doubtful", "injury": "Concussion; missed Week 3; still in protocol as of Monday; team to decide Tuesday whether he travels", "starter": true, "source": "https://www.washingtontimes.com/news/2026/sep/28/jayden-daniels-practice-washington-commanders-london-status-colts/"},
+        {"player": "Nick Cross", "position": "S", "status": "Doubtful", "injury": "Internal injury/illness suffered at Dallas (Week 2); has not played since; travel decision pending Tuesday medical info", "starter": true, "source": "https://www.washingtontimes.com/news/2026/sep/28/jayden-daniels-practice-washington-commanders-london-status-colts/"}
+      ],
+      "context_notes": [
+        "Designated home team in London.",
+        "Terry McLaurin is healthy: 6 catches for 77 yds and a TD in Week 3 (older 'quad' stories are from 2025 and not current).",
+        "Quinn said one more medical meeting before departure would decide availability of injured players."
+      ],
+      "sources": [
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-will-travel-to-london-practice-this-week",
+        "https://www.rotowire.com/football/headlines/jayden-daniels-injury-going-to-london-but-may-sit-again-week-4-639672",
+        "https://www.washingtonpost.com/sports/2026/09/28/commanders-expect-jayden-daniels-practice-this-week-london-after-elbow-injury/",
+        "https://www.washingtontimes.com/news/2026/sep/28/jayden-daniels-practice-washington-commanders-london-status-colts/",
+        "https://athlonsports.com/nfl/washington-commanders/commanders-injury-update-jayden-daniels-to-be-involved-in-practice-this-week",
+        "https://sports.yahoo.com/articles/dan-quinn-jayden-daniels-week-172255735.html",
+        "https://www.commanders.com/news/instant-analysis-commanders-seahawks-week-3-2026"
+      ]
+    },
+    "TEN": {
+      "week3_result": "L 7-12 at NYG (Sept 27); 0-3 overall",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "Mitchell Trubisky",
+        "changed_from_week3": false,
+        "notes": "Ward started Week 3 (23/36, 181 yds, 1 TD, 1 INT) and threw a game-ending end-zone INT with 17 seconds left. Head coach Robert Saleh said he will not bench Ward for Trubisky vs Baltimore. No Ward injury reported."
+      },
+      "injuries": [
+        {"player": "Fernando Carmona", "position": "G", "status": "Out", "injury": "Ankle sprain suffered early in Week 3 at NYG; expected to miss a few weeks; Kevin Zeitler a possible fill-in", "starter": true, "source": "https://titansized.com/fernando-carmona-s-ankle-injury-could-push-titans-straight-back-to-kevin-zeitler"},
+        {"player": "Jackson Slater", "position": "G", "status": "Doubtful", "injury": "Significant foot injury suffered Week 3 after replacing Carmona; CBS lists Questionable for Oct 4 but injury described as significant", "starter": false, "source": "https://www.cbssports.com/fantasy/football/news/titans-jackson-slater-suffered-significant-injury/"},
+        {"player": "Andre James", "position": "C", "status": "IR", "injury": "Injured reserve (undisclosed), continuing", "starter": true, "source": "https://www.cbssports.com/nfl/teams/TEN/tennessee-titans/injuries/"},
+        {"player": "Tanoh Kpassagnon", "position": "DE", "status": "IR", "injury": "Injured reserve (undisclosed), continuing", "starter": false, "source": "https://www.cbssports.com/nfl/teams/TEN/tennessee-titans/injuries/"},
+        {"player": "Dorian Mausi", "position": "LB", "status": "IR", "injury": "Injured reserve with designation to return; expected back around Oct 11 (not Week 4)", "starter": false, "source": "https://www.cbssports.com/nfl/teams/TEN/tennessee-titans/injuries/"}
+      ],
+      "context_notes": [
+        "Right guard depth is the main issue after losing both Carmona and his replacement Slater in the same game.",
+        "Saleh publicly backed Ward after the Week 3 interception; an insider floated a Trubisky switch but the coach rejected it.",
+        "Titans visit Baltimore (M&T Bank Stadium) Sunday Oct 4."
+      ],
+      "sources": [
+        "https://www.cbssports.com/fantasy/football/news/titans-cam-ward-cant-engineer-comeback-in-week-3-loss/",
+        "https://www.tennesseetitans.com/news/titans-giants-week-3-postgame-notes",
+        "https://sports.yahoo.com/articles/titans-face-offensive-line-injury-144051664.html",
+        "https://www.cbssports.com/fantasy/football/news/titans-jackson-slater-suffered-significant-injury/",
+        "https://titansized.com/fernando-carmona-s-ankle-injury-could-push-titans-straight-back-to-kevin-zeitler",
+        "https://www.cbssports.com/nfl/teams/TEN/tennessee-titans/injuries/",
+        "https://www.yardbarker.com/nfl/articles/nfl_insider_suggests_bold_mitchell_trubisky_move_for_titans_amid_struggles_of_cam_ward/s1_13132_44363453"
+      ]
+    },
+    "BAL": {
+      "week3_result": "W 34-31 vs DAL in Rio de Janeiro (Sept 27), Tyler Loop 56-yd walk-off FG; 2-1 overall",
+      "qb": {
+        "starter": "Lamar Jackson",
+        "backup": "Cooper Rush",
+        "changed_from_week3": false,
+        "notes": "Jackson started Week 3 (only 20 pass attempts, hit Flowers for 26 yds with 7 seconds left to set up the winner); no injury reported. Rush is QB2; QB3 Skylar Thompson has been on IR since August (Austin Reed signed). Head coach Jesse Minter."
+      },
+      "injuries": [
+        {"player": "Jovaughn Gwyn", "position": "C", "status": "IR", "injury": "Ankle; carted off in Week 3 vs DAL; Minter called it long-term and said IR move is likely (minimum 4 games)", "starter": true, "source": "https://www.baltimoreravens.com/news/jovaugh-gwyn-ethan-pocic-suffer-longer-term-injuries-against-dallas-vega-ioane-poised-to-remain-at-center"},
+        {"player": "Ethan Pocic", "position": "C", "status": "IR", "injury": "Knee; injured in Week 3 after replacing Gwyn; long-term, IR move expected", "starter": false, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-expect-centers-jovaughn-gwyn-ethan-pocic-to-miss-extended-time"},
+        {"player": "Ronnie Stanley", "position": "LT", "status": "Questionable", "injury": "Toe; sat out Week 3; Minter says he 'will be a lot closer this week'", "starter": true, "source": "https://www.baltimoreravens.com/news/jovaugh-gwyn-ethan-pocic-suffer-longer-term-injuries-against-dallas-vega-ioane-poised-to-remain-at-center"},
+        {"player": "Zay Flowers", "position": "WR", "status": "Probable", "injury": "Hamstring; game-time decision and limited snap count Week 3; expected closer to full load vs TEN", "starter": true, "source": "https://www.cbssports.com/nfl/news/ravens-crisis-offense-week-4-game-vs-titans/"},
+        {"player": "Mark Andrews", "position": "TE", "status": "Questionable", "injury": "Hand injury in 2nd quarter Week 3; returned in second half, played 33 of 64 snaps; monitor practice", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/ravens-mark-andrews-leaves-sunday-due-to-hand-injury/"},
+        {"player": "T.J. Tampa", "position": "CB", "status": "IR", "injury": "Knee; injured reserve, continuing", "starter": false, "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"},
+        {"player": "Skylar Thompson", "position": "QB", "status": "IR", "injury": "Undisclosed training-camp injury; on IR since August, out for season", "starter": false, "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-12/ravens-place-qb-skylar-thompson-on-ir"}
+      ],
+      "context_notes": [
+        "Center crisis: first-round rookie Vega Ioane (opened season at RG) moves to center for Week 4; team expected to add offensive line depth this week.",
+        "Rookie K Tyler Loop hit a 56-yd walk-off FG in Week 3.",
+        "Ravens host Tennessee Sunday Oct 4 at M&T Bank Stadium."
+      ],
+      "sources": [
+        "https://www.baltimorebeatdown.com/baltimore-ravens-scores-results/85499/ravens-report-card-week-3-late-game-heroics-save-the-day-in-winning-result",
+        "https://www.baltimoreravens.com/news/jovaugh-gwyn-ethan-pocic-suffer-longer-term-injuries-against-dallas-vega-ioane-poised-to-remain-at-center",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-expect-centers-jovaughn-gwyn-ethan-pocic-to-miss-extended-time",
+        "https://www.cbssports.com/nfl/news/ravens-crisis-offense-week-4-game-vs-titans/",
+        "https://www.cbssports.com/fantasy/football/news/ravens-mark-andrews-leaves-sunday-due-to-hand-injury/",
+        "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/",
+        "https://foxbaltimore.com/sports/sports-unlimited/ravens-make-a-change-at-backup-quarterback-with-loss-of-skylar-thompson-to-ir"
+      ]
+    },
+    "NE": {
+      "week3_result": "L 6-35 at JAX (Sept 27); 1-2 overall",
+      "qb": {
+        "starter": "Drake Maye",
+        "backup": "Tommy DeVito",
+        "changed_from_week3": false,
+        "notes": "Maye started Week 3 (14/25, 199 yds, 2 INT, 1 lost fumble; league-high 7 turnovers through 3 games) and was pulled with under 8 minutes left trailing 35-6; DeVito finished. Vrabel afterward: 'Drake is our quarterback.' No Maye injury reported."
+      },
+      "injuries": [
+        {"player": "Greg Van Roten", "position": "G", "status": "Questionable", "injury": "Thigh; left Week 3 in first half and did not return; Vrabel awaiting 'a few more tests'; was already filling in for Onwenu at RG", "starter": true, "source": "https://www.patspulpit.com/new-england-patriots-injuries/138877/patriots-injury-analysis-after-jaguars-loss-in-week-3"},
+        {"player": "Christian Barmore", "position": "DT", "status": "Questionable", "injury": "Shoulder; left briefly in 2nd quarter Week 3 and returned", "starter": true, "source": "https://www.patspulpit.com/new-england-patriots-injuries/138877/patriots-injury-analysis-after-jaguars-loss-in-week-3"},
+        {"player": "Carlton Davis III", "position": "CB", "status": "Probable", "injury": "Checked by trainers after 3rd-quarter tackle in Week 3; missed five plays and returned", "starter": true, "source": "https://www.patspulpit.com/new-england-patriots-injuries/138877/patriots-injury-analysis-after-jaguars-loss-in-week-3"},
+        {"player": "A.J. Brown", "position": "WR", "status": "IR", "injury": "High ankle sprain in Week 1 vs SEA; on IR since Sept 11, out at least 4 games (misses Week 4 vs BUF)", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/49905144/sources-patriots-aj-brown-go-ir-miss-least-4-games"},
+        {"player": "Mike Onwenu", "position": "G", "status": "IR", "injury": "Broken right ankle in Week 2 vs PIT (rolled up on by T.J. Watt); placed on IR Sept 22, out at least 4 weeks", "starter": true, "source": "https://www.boston.com/sports/new-england-patriots/2026/09/22/patriots-place-offensive-lineman-mike-onwenu-on-injured-reserve/"},
+        {"player": "Eli Raridon", "position": "TE", "status": "Questionable", "injury": "Thigh; hurt in Week 2 vs PIT, questionable in Week 3; current status pending Wednesday report", "starter": false, "source": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars"},
+        {"player": "Craig Woodson", "position": "S", "status": "Questionable", "injury": "Shoulder; questionable then inactive for Week 3", "starter": true, "source": "https://www.patspulpit.com/new-england-patriots-news/138572/patriots-vs-jaguars-inactives-nfl-week-3"},
+        {"player": "Dre'Mont Jones", "position": "LB/EDGE", "status": "Questionable", "injury": "Shoulder; missed all Week 3 practices and was ruled out vs JAX", "starter": true, "source": "https://www.boston.com/sports/new-england-patriots/2026/09/25/patriots-jaguars-week-3-injury-report/"},
+        {"player": "Quintayvious Hutchins", "position": "LB", "status": "Questionable", "injury": "Knee; missed all Week 3 practices and was ruled out vs JAX", "starter": false, "source": "https://www.boston.com/sports/new-england-patriots/2026/09/25/patriots-jaguars-week-3-injury-report/"}
+      ],
+      "context_notes": [
+        "Maye benched late in Week 3 blowout but Vrabel reaffirmed him as the starter for Week 4 at Buffalo (1 p.m. ET Sunday Oct 4).",
+        "Right guard is a problem: Onwenu on IR and his replacement Van Roten hurt; SI questioned why veteran Ben Brown didn't play.",
+        "Week 2 was a 20-3 win over Pittsburgh."
+      ],
+      "sources": [
+        "https://www.bostonglobe.com/2026/09/27/sports/patriots-jaguars-nfl-live-score/",
+        "https://www.patspulpit.com/new-england-patriots-news/138669/patriots-bench-drake-maye-after-3-turnover-outing-against-jaguars",
+        "https://www.patspulpit.com/new-england-patriots-injuries/138877/patriots-injury-analysis-after-jaguars-loss-in-week-3",
+        "https://www.boston.com/sports/new-england-patriots/2026/09/28/mike-vrabel-drake-maye-patriots-vibe-defensive-struggles/",
+        "https://www.espn.com/nfl/story/_/id/49905144/sources-patriots-aj-brown-go-ir-miss-least-4-games",
+        "https://www.boston.com/sports/new-england-patriots/2026/09/22/patriots-place-offensive-lineman-mike-onwenu-on-injured-reserve/",
+        "https://www.boston.com/sports/new-england-patriots/2026/09/25/patriots-jaguars-week-3-injury-report/",
+        "https://www.patriots.com/news/week-4-patriots-bills-injury-report"
+      ]
+    },
+    "BUF": {
+      "week3_result": "W 24-16 vs LAC (Sept 27); 3-0 overall",
+      "qb": {
+        "starter": "Josh Allen",
+        "backup": "Not confirmed in searches",
+        "changed_from_week3": false,
+        "notes": "Allen took a hit to the outside of his left knee with ~9:46 left in the 4th quarter Week 3, showed discomfort but stayed in. HC Joe Brady on Monday: usual day-after soreness, 'never usually concerned about him'; no indication he'll miss Week 4. Dr. David Chao: 'more hurt than injured', likely contusion, no structural concern. Expect a limited practice designation early in the week. Backup QB not identified in the 45-search budget (Mitchell Trubisky is now with Tennessee)."
+      },
+      "injuries": [
+        {"player": "Josh Allen", "position": "QB", "status": "Questionable", "injury": "Left knee contusion/hit in 4th quarter Week 3; finished game; expected to play", "starter": true, "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/141544/joe-brady-provides-injury-update-on-josh-allen"},
+        {"player": "Christian Benford", "position": "CB", "status": "Questionable", "injury": "Right toe injury in Week 3 vs LAC; did not return; in walking boot postgame; possible IR move to open a CB roster spot", "starter": true, "source": "https://www.si.com/nfl/bills/onsi/injuries-christian-benford-update-bills-top-cb-wearing-boot-after-leaving-week-3-win"},
+        {"player": "T.J. Sanders", "position": "DT", "status": "Doubtful", "injury": "Appendectomy Sept 22; out indefinitely; has missed all three games", "starter": false, "source": "https://www.patriots.com/news/week-4-patriots-bills-injury-report"}
+      ],
+      "context_notes": [
+        "Hosting New England Sunday Oct 4, 1 p.m. ET.",
+        "Head coach is Joe Brady.",
+        "Benford is the top CB; SI expects a roster move (external CB signing or practice-squad promotion, possibly with Benford to IR)."
+      ],
+      "sources": [
+        "https://www.si.com/nfl/bills/onsi/josh-allen-draws-injury-concern-after-bills-win-over-chargers",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/141544/joe-brady-provides-injury-update-on-josh-allen",
+        "https://www.cbssports.com/fantasy/football/news/bills-josh-allen-knee-not-viewed-as-concern/",
+        "https://www.si.com/nfl/bills/onsi/injuries-christian-benford-update-bills-top-cb-wearing-boot-after-leaving-week-3-win",
+        "https://www.si.com/nfl/bills/onsi/christian-benford-injury-likely-makes-bills-roster-move-inevitable-week-4",
+        "https://www.patriots.com/news/week-4-patriots-bills-injury-report"
+      ]
+    }
+  }
+}
