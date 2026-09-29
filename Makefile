@@ -1,5 +1,5 @@
 PY ?= python3
-WEEK ?= 3
+WEEK ?= 4
 export PYTHONPATH := src
 export NFLSIM_WEEK := $(WEEK)
 

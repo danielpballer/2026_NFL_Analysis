@@ -11,6 +11,11 @@ def base_sd(week: int) -> float:
     return C.MARGIN_SD + C.EARLY_SEASON_SD * max(0.0, (4 - week) / 3.0)
 
 
+def market_weight(week: int) -> float:
+    """Market share of the margin blend: 0.55 in Week 1, falling 0.03 per week to a 0.40 floor."""
+    return max(C.MARKET_WEIGHT_FLOOR, C.MARKET_WEIGHT - C.MARKET_WEIGHT_DECAY * (week - 1))
+
+
 def blend_margin(model_margin: float, market_margin: float | None, w_market: float = C.MARKET_WEIGHT) -> float:
     if market_margin is None or np.isnan(market_margin):
         return model_margin

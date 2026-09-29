@@ -148,6 +148,8 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     import datetime as _dt
     page = page.replace('{{VALUE}}', ''.join(vrows)).replace('{{VALUE_NOTE}}', value_note)
     page = page.replace('{{WEEK}}', str(week)).replace('{{NGAMES}}', str(len(rows))).replace('{{BUILT}}', f"built {_dt.date.today().strftime('%b %-d, %Y')}")
+    wm = rows[0].get("market_weight", C.MARKET_WEIGHT)
+    page = page.replace('{{WMODEL}}', f"{(1 - wm) * 100:.0f}%").replace('{{WMARKET}}', f"{wm * 100:.0f}%")
     page = page.replace('{{TRACK}}', ''.join(track)).replace('{{CHANGES}}', changes).replace('{{FLIP_INTRO}}', flip_intro)
     page = page.replace('{{GAMES}}',''.join(out)).replace('{{TIERS}}',tier_html).replace('{{FLIPS}}',''.join(flip_rows)).replace('{{SHIFTS}}',shift_text)
     if fragment:

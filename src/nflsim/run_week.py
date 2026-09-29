@@ -14,7 +14,7 @@ from .qb import qb_values, team_primary_qb
 from .ratings import current_ratings
 from .report import write_outputs
 from .schedule import devig, moneyline_to_prob, prob_to_moneyline, week_slate
-from .simulate import base_sd, blend_margin, confidence_tier, simulate_game
+from .simulate import base_sd, blend_margin, confidence_tier, market_weight, simulate_game
 
 
 def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool = True) -> pd.DataFrame:
@@ -61,7 +61,8 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
         model_margin = (h["rating"] - a["rating"]) + hfa + travel + rest
         market_margin = float(g.market_home_margin) if not pd.isna(g.market_home_margin) else None
         wx_mult, wx_sd, wx_note = ctx.weather_factor()
-        blended = blend_margin(model_margin, market_margin)
+        w_mkt = market_weight(week)
+        blended = blend_margin(model_margin, market_margin, w_mkt)
         final_margin = blended * wx_mult
         intl_sd = C.INTERNATIONAL_EXTRA_SD if (ctx.neutral and wx.get("international", True)) else 0.0
         extras = [wx_sd, intl_sd, h["qb_extra_sd"], a["qb_extra_sd"], h["injury_extra_sd"], a["injury_extra_sd"],
@@ -87,7 +88,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             "market_home_moneyline": int(g.home_moneyline), "market_away_moneyline": int(g.away_moneyline),
             "market_p_home_devig": round(mkt_home, 4), "edge_vs_market_home": round(p_home - mkt_home, 4),
             "market_spread_home": market_margin, "model_margin_home": round(model_margin, 2),
-            "final_margin_home": round(final_margin, 2), "margin_sd": round(sd, 2),
+            "final_margin_home": round(final_margin, 2), "margin_sd": round(sd, 2), "market_weight": round(w_mkt, 2),
             "proj_home_pts": round(sim["mean_home_pts"], 1), "proj_away_pts": round(sim["mean_away_pts"], 1),
             "proj_total": round(total, 1),
             "home_rating_prior": round(h["base"], 2), "away_rating_prior": round(a["base"], 2),

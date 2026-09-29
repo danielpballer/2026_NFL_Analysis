@@ -204,3 +204,9 @@ Week 2 went 10-6 (log loss 0.649 versus 0.659 for the market spread). Pooled ove
 blend leads every comparison on log loss; the market-weight and variance settings were
 re-checked and kept. One change: extra margin variance for neutral-site games abroad. Details in
 `output/week2_2026_postmortem.md`.
+
+## Status (Sept 29, 2026): Week 3 scored, Week 4 in progress
+
+Week 3 went 8-8 in a week the market went 8-8 with a worse log loss (0.676 versus 0.697). Pooled
+over 48 games the blend leads the market spread 0.651 to 0.661. The market's share of the blend
+now declines with the week (0.46 in Week 4). Details in `output/week3_2026_postmortem.md`.

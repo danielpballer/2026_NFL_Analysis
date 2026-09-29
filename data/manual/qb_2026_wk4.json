@@ -1,0 +1,286 @@
+{
+  "season": 2026,
+  "week": 4,
+  "collected_on": "2026-09-29",
+  "teams": {
+    "ARI": {
+      "starter": "Jacoby Brissett",
+      "pbp_name": "J.Brissett",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Jacoby Brissett"
+    },
+    "ATL": {
+      "starter": "Michael Penix Jr.",
+      "pbp_name": "M.Penix",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Penix named the Week 3 starter Monday, his first game since the 2025 ACL tear, on a short week at Lambeau; Tua may dress as backup. Value trimmed for rust.",
+      "value_override": -1.0,
+      "extra_sd": 1.5,
+      "schedule_projected_starter": "Michael Penix Jr."
+    },
+    "BAL": {
+      "starter": "Lamar Jackson",
+      "pbp_name": "L.Jackson",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Lamar Jackson"
+    },
+    "BUF": {
+      "starter": "Josh Allen",
+      "pbp_name": "J.Allen",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Josh Allen under new HC Joe Brady.",
+      "schedule_projected_starter": "Josh Allen"
+    },
+    "CAR": {
+      "starter": "Bryce Young",
+      "pbp_name": "B.Young",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Bryce Young"
+    },
+    "CHI": {
+      "starter": "Bagent or Keenum",
+      "pbp_name": "T.Bagent",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Caleb Williams (hamstring) is unlikely to play Monday, and Tyson Bagent entered concussion protocol Tuesday; if he is not cleared, 38-year-old Case Keenum starts his first game since 2023. Modeled as a deep-backup start with wide variance.",
+      "schedule_projected_starter": "Case Keenum",
+      "value_override": -4.5,
+      "extra_sd": 1.5
+    },
+    "CIN": {
+      "starter": "Joe Burrow",
+      "pbp_name": "J.Burrow",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Burrow played through back tightness in Houston (sacked five times); Taylor reported no setbacks Monday.",
+      "schedule_projected_starter": "Joe Burrow",
+      "value_override": null,
+      "extra_sd": 0.5
+    },
+    "CLE": {
+      "starter": "Deshaun Watson",
+      "pbp_name": "D.Watson",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Watson remains the starter; local reports hint at groundwork for a change but nothing announced.",
+      "extra_sd": 0.75,
+      "schedule_projected_starter": "Deshaun Watson"
+    },
+    "DAL": {
+      "starter": "Dak Prescott",
+      "pbp_name": "D.Prescott",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Sam Howell is the new backup.",
+      "schedule_projected_starter": "Dak Prescott"
+    },
+    "DEN": {
+      "starter": "Bo Nix",
+      "pbp_name": "B.Nix",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Bo Nix recovered from playoff ankle surgery; new OC Davis Webb.",
+      "extra_sd": 0.0,
+      "schedule_projected_starter": "Bo Nix"
+    },
+    "DET": {
+      "starter": "Jared Goff",
+      "pbp_name": "J.Goff",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Jared Goff"
+    },
+    "GB": {
+      "starter": "Jordan Love",
+      "pbp_name": "J.Love",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Jordan Love"
+    },
+    "HOU": {
+      "starter": "C.J. Stroud",
+      "pbp_name": "C.Stroud",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "C.J. Stroud"
+    },
+    "IND": {
+      "starter": "Daniel Jones",
+      "pbp_name": "D.Jones",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Daniel Jones started and finished Week 1 in his return from the Achilles tear.",
+      "value_override": 0.2,
+      "extra_sd": 0.0,
+      "schedule_projected_starter": "Daniel Jones"
+    },
+    "JAX": {
+      "starter": "Trevor Lawrence",
+      "pbp_name": "T.Lawrence",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Trevor Lawrence"
+    },
+    "KC": {
+      "starter": "Patrick Mahomes",
+      "pbp_name": "P.Mahomes",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Mahomes threw for 382 and 3 TD in Indianapolis; fully back.",
+      "value_override": 1.8,
+      "extra_sd": 0.0,
+      "schedule_projected_starter": "Patrick Mahomes"
+    },
+    "LA": {
+      "starter": "Matthew Stafford",
+      "pbp_name": "M.Stafford",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Stafford dealt with back soreness in camp but is expected to start.",
+      "schedule_projected_starter": "Matthew Stafford"
+    },
+    "LAC": {
+      "starter": "Justin Herbert",
+      "pbp_name": "J.Herbert",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Justin Herbert"
+    },
+    "LV": {
+      "starter": "Kirk Cousins",
+      "pbp_name": "K.Cousins",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Kirk Cousins (signed from ATL) named starter over No. 1 overall pick Fernando Mendoza.",
+      "schedule_projected_starter": "Kirk Cousins"
+    },
+    "MIA": {
+      "starter": "Malik Willis",
+      "pbp_name": "M.Willis",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Malik Willis is a first-year full-time starter (signed from GB); tiny 2024-25 sample overridden with a below-average prior.",
+      "value_override": -1.5,
+      "schedule_projected_starter": "Malik Willis"
+    },
+    "MIN": {
+      "starter": "Kyler Murray",
+      "pbp_name": "K.Murray",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Murray cleared concussion protocol Monday and starts in Tampa; Wentz returns to backup.",
+      "schedule_projected_starter": "Kyler Murray",
+      "extra_sd": 0.5,
+      "value_override": null
+    },
+    "NE": {
+      "starter": "Drake Maye",
+      "pbp_name": "D.Maye",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Drake Maye did not play in the preseason; healthy.",
+      "schedule_projected_starter": "Drake Maye"
+    },
+    "NO": {
+      "starter": "Tyler Shough",
+      "pbp_name": "T.Shough",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Tyler Shough year two; modest development bump.",
+      "value_override": -0.7,
+      "schedule_projected_starter": "Tyler Shough"
+    },
+    "NYG": {
+      "starter": "Jameis Winston",
+      "pbp_name": "J.Winston",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Jaxson Dart's MRI was worse than feared and he could miss the rest of the season; Jameis Winston (11 of 27 in relief) is the starter.",
+      "value_override": null,
+      "extra_sd": 0.75,
+      "schedule_projected_starter": "Jameis Winston"
+    },
+    "NYJ": {
+      "starter": "Geno Smith",
+      "pbp_name": "G.Smith",
+      "new_to_team": true,
+      "rookie": false,
+      "notes": "Geno Smith acquired from LV; his 2025 season in Las Vegas was poor, 2024 was solid.",
+      "schedule_projected_starter": "Geno Smith"
+    },
+    "PHI": {
+      "starter": "Jalen Hurts",
+      "pbp_name": "J.Hurts",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Jalen Hurts"
+    },
+    "PIT": {
+      "starter": "Aaron Rodgers",
+      "pbp_name": "A.Rodgers",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Aaron Rodgers has declared 2026 his final season; reunited with Mike McCarthy.",
+      "schedule_projected_starter": "Aaron Rodgers"
+    },
+    "SEA": {
+      "starter": "Drew Lock or Sam Darnold",
+      "pbp_name": "D.Lock",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Darnold returned to practice Wednesday in some capacity and Macdonald says the timetable has shifted drastically; not yet cleared for Sunday. Modeled as roughly 60 percent Lock, 40 percent Darnold.",
+      "schedule_projected_starter": "Drew Lock",
+      "value_override": -0.9,
+      "extra_sd": 1.0
+    },
+    "SF": {
+      "starter": "Brock Purdy",
+      "pbp_name": "B.Purdy",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "",
+      "schedule_projected_starter": "Brock Purdy"
+    },
+    "TB": {
+      "starter": "Baker Mayfield",
+      "pbp_name": "B.Mayfield",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Baker Mayfield in a new offense under OC Zac Robinson; Mike Evans left for San Francisco.",
+      "schedule_projected_starter": "Baker Mayfield"
+    },
+    "TEN": {
+      "starter": "Cam Ward",
+      "pbp_name": "C.Ward",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Cam Ward year two under new HC Robert Saleh and OC Brian Daboll; modest development bump applied to his rookie-year value.",
+      "value_override": -4.5,
+      "schedule_projected_starter": "Cam Ward"
+    },
+    "WAS": {
+      "starter": "Marcus Mariota",
+      "pbp_name": "M.Mariota",
+      "new_to_team": false,
+      "rookie": false,
+      "notes": "Jayden Daniels dislocated his left elbow in Dallas and is out indefinitely; Marcus Mariota named the starter.",
+      "schedule_projected_starter": "Jayden Daniels",
+      "value_override": null,
+      "extra_sd": 0.75
+    }
+  }
+}

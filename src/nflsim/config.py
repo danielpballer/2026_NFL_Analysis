@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 3))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 4))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -85,7 +85,9 @@ WEATHER_EXTRA_SD = 0.5
 INTERNATIONAL_EXTRA_SD = 1.0   # both teams travel far, unfamiliar surface and crowd (Melbourne, Rio, London)
 
 # ---- Stage 6/7: blend and simulation ---------------------------------------------------
-MARKET_WEIGHT = 0.55
+MARKET_WEIGHT = 0.55           # Week 1 weight on the market spread in the margin blend
+MARKET_WEIGHT_DECAY = 0.03     # weight falls this much per week as in-season data accumulates
+MARKET_WEIGHT_FLOOR = 0.40
 MARGIN_SD = 12.7               # sd of (result - closing spread), 2023-2025 regular seasons
 EARLY_SEASON_SD = 1.0          # extra sd in Week 1, tapering to zero by Week 4 (team quality is less known)
 TOTAL_SD = 10.0

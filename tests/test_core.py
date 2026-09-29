@@ -84,3 +84,10 @@ def test_rest_adjustment_capped():
     assert abs(ctx.rest() - 0.6) < 1e-9
     ctx2 = GameContext("g", "BUF", "LAC", False, False, "outdoors", {}, home_rest=14, away_rest=4)
     assert ctx2.rest() == C.REST_CAP
+
+
+def test_market_weight_schedule():
+    from nflsim.simulate import market_weight
+    assert market_weight(1) == C.MARKET_WEIGHT
+    assert market_weight(4) < market_weight(1)
+    assert market_weight(40) == C.MARKET_WEIGHT_FLOOR
