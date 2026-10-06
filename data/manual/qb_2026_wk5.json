@@ -1,0 +1,264 @@
+{
+ "season": 2026,
+ "week": 5,
+ "collected_on": "2026-10-06",
+ "teams": {
+  "TB": {
+   "starter": "Jalon Daniels",
+   "pbp_name": "J.Daniels",
+   "new_to_team": false,
+   "rookie": true,
+   "notes": "",
+   "schedule_projected_starter": "Jalon Daniels",
+   "value_override": -5.0
+  },
+  "DAL": {
+   "starter": "Dak Prescott",
+   "pbp_name": "D.Prescott",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Dak Prescott"
+  },
+  "PHI": {
+   "starter": "Jalen Hurts",
+   "pbp_name": "J.Hurts",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jalen Hurts"
+  },
+  "JAX": {
+   "starter": "Trevor Lawrence",
+   "pbp_name": "T.Lawrence",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Trevor Lawrence"
+  },
+  "CIN": {
+   "starter": "Joe Burrow",
+   "pbp_name": "J.Burrow",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Joe Burrow",
+   "value_override": null
+  },
+  "MIA": {
+   "starter": "Malik Willis",
+   "pbp_name": "M.Willis",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "value_override": -1.5,
+   "schedule_projected_starter": "Malik Willis"
+  },
+  "LV": {
+   "starter": "Kirk Cousins",
+   "pbp_name": "K.Cousins",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Kirk Cousins"
+  },
+  "NE": {
+   "starter": "Drake Maye",
+   "pbp_name": "D.Maye",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Drake Maye"
+  },
+  "MIN": {
+   "starter": "Kyler Murray",
+   "pbp_name": "K.Murray",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Murray started Week 4; two straight games without a TD pass but no benching talk.",
+   "schedule_projected_starter": "Kyler Murray",
+   "value_override": null
+  },
+  "NO": {
+   "starter": "Tyler Shough",
+   "pbp_name": "T.Shough",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Shough starts; Etienne to IR takes away the run game.",
+   "value_override": -0.7,
+   "schedule_projected_starter": "Tyler Shough"
+  },
+  "CLE": {
+   "starter": "Deshaun Watson",
+   "pbp_name": "D.Watson",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Watson has won three straight starts; Shedeur Sanders backs up.",
+   "schedule_projected_starter": "Deshaun Watson",
+   "extra_sd": 0.5
+  },
+  "NYJ": {
+   "starter": "Geno Smith",
+   "pbp_name": "G.Smith",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Geno Smith"
+  },
+  "IND": {
+   "starter": "Daniel Jones",
+   "pbp_name": "D.Jones",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": 0.2,
+   "schedule_projected_starter": "Daniel Jones"
+  },
+  "PIT": {
+   "starter": "Aaron Rodgers",
+   "pbp_name": "A.Rodgers",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Aaron Rodgers"
+  },
+  "HOU": {
+   "starter": "C.J. Stroud",
+   "pbp_name": "C.Stroud",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "C.J. Stroud"
+  },
+  "TEN": {
+   "starter": "Cam Ward",
+   "pbp_name": "C.Ward",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -4.5,
+   "schedule_projected_starter": "Cam Ward"
+  },
+  "NYG": {
+   "starter": "Jameis Winston",
+   "pbp_name": "J.Winston",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": null,
+   "schedule_projected_starter": "Jameis Winston"
+  },
+  "WAS": {
+   "starter": "Mariota (Daniels questionable)",
+   "pbp_name": "M.Mariota",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jayden Daniels",
+   "value_override": -0.5
+  },
+  "DEN": {
+   "starter": "Bo Nix",
+   "pbp_name": "B.Nix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Bo Nix"
+  },
+  "LAC": {
+   "starter": "Justin Herbert",
+   "pbp_name": "J.Herbert",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Justin Herbert"
+  },
+  "DET": {
+   "starter": "Jared Goff",
+   "pbp_name": "J.Goff",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jared Goff"
+  },
+  "ARI": {
+   "starter": "Jacoby Brissett",
+   "pbp_name": "J.Brissett",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jacoby Brissett"
+  },
+  "CHI": {
+   "starter": "Keenum or Bagent",
+   "pbp_name": "T.Bagent",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Tyson Bagent",
+   "value_override": -4.0
+  },
+  "GB": {
+   "starter": "Jordan Love",
+   "pbp_name": "J.Love",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jordan Love"
+  },
+  "SF": {
+   "starter": "Brock Purdy",
+   "pbp_name": "B.Purdy",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Purdy healthy.",
+   "schedule_projected_starter": "Brock Purdy"
+  },
+  "SEA": {
+   "starter": "Sam Darnold",
+   "pbp_name": "S.Darnold",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Schedule file lists Drew Lock, but Darnold returned in Week 3 and started the Week 4 win over the Chargers; Lock backs up.",
+   "schedule_projected_starter": "Drew Lock",
+   "value_override": null,
+   "extra_sd": 0.25
+  },
+  "BAL": {
+   "starter": "Jackson (questionable) / Huntley",
+   "pbp_name": "L.Jackson",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Lamar Jackson hurt his left ankle at halftime vs Tennessee, left in a walking boot and had an MRI Monday; Minter calls it day-to-day. Priced as a coin flip between Jackson (+3.3) and Tyler Huntley (-2.0). First official report Wednesday.",
+   "schedule_projected_starter": "Lamar Jackson",
+   "value_override": 0.68,
+   "extra_sd": 1.5
+  },
+  "ATL": {
+   "starter": "Michael Penix Jr.",
+   "pbp_name": "M.Penix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Penix efficient in his second game back from the 2025 knee injury (45 points at New Orleans); rust trim reduced again.",
+   "value_override": -0.3,
+   "schedule_projected_starter": "Michael Penix Jr.",
+   "extra_sd": 0.5
+  },
+  "BUF": {
+   "starter": "Josh Allen",
+   "pbp_name": "J.Allen",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Allen healthy; contained as a runner two straight games.",
+   "schedule_projected_starter": "Josh Allen"
+  },
+  "LA": {
+   "starter": "Matthew Stafford",
+   "pbp_name": "M.Stafford",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Stafford healthy after the comeback in Philadelphia; Stetson Bennett backs up.",
+   "schedule_projected_starter": "Matthew Stafford"
+  }
+ }
+}

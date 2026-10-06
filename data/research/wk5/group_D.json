@@ -1,0 +1,814 @@
+{
+  "collected_on": "2026-10-06",
+  "search_calls_used": 40,
+  "unverified": [
+    "SF backup QB name not confirmed in any 2026 snippet",
+    "SF De'Zhaun Stribling (WR, IR) status not found - assume still IR",
+    "SF Demarcus Robinson IR placement date not confirmed (expected return Week 7 per CBS)",
+    "SEA Irv Charles, Jake Bobo, Mason Richman, Robbie Ouzts IR statuses not found - assume still IR",
+    "SEA Chazz Surratt: CBS headline says he landed on IR but date/confirmation not found; carried as Out (calf)",
+    "BAL Ja'Kobi Lane (WR, IR) status not found - assume still IR",
+    "BAL Lamar Jackson MRI results not disclosed as of Mon Oct 5; Wed Oct 7 injury report will be first official designation",
+    "ATL backup QB not confirmed in any 2026 snippet",
+    "ATL Beaux Collins, Darren Hall, J.D. Bertrand, Malik Verdon, Trey Sermon (IR) and Anterio Thompson (NFI) statuses not found - assume unchanged",
+    "ATL in-game injuries from the Oct 5 MNF win at NO not found; Week 5 statuses for Drake London, Darnell Mooney, Kyle Pitts, Divine Deablo, Samson Ebukam, Yasir Abdullah (all Questionable in Week 4) not yet reported",
+    "BUF backup QB not confirmed in any 2026 snippet",
+    "BUF Tyrell Shavers PUP: CBS lists expected return Week 5 but no activation/practice-window news found",
+    "BUF Keon Coleman ankle (limited Fri Oct 2) Week 5 status not found",
+    "LA Justin Dedich and Keagen Trost: IR with designation to return, eligible this week, but no activation news found",
+    "Kicker situations for all six teams not researched"
+  ],
+  "teams": {
+    "SF": {
+      "week4_result": "W 24-14 vs DEN (Sun Oct 4). 49ers moved to 4-0; tied 3-3 at half then three second-half TDs; Purdy not sacked for fourth straight game; in-game injuries to FB Kyle Juszczyk (knee), S Marques Sigle (high ankle) and CB Upton Stout (shoulder).",
+      "qb": {
+        "starter": "Brock Purdy",
+        "backup": "unverified",
+        "changed_from_week4": false,
+        "notes": "Purdy healthy and started Week 4 win over DEN; no injury concern reported. Backup name not confirmed in 2026 snippets."
+      },
+      "injuries": [
+        {
+          "player": "Nick Bosa",
+          "position": "DE",
+          "status": "Out",
+          "injury": "Calf (hurt in practice before Week 4, multi-week); Shanahan said Oct 5 he is unlikely to play vs SEA",
+          "starter": true,
+          "source": "https://heavy.com/sports/nfl/seattle-seahawks/seahawks-nick-bosa-49ers-injury-update"
+        },
+        {
+          "player": "James Thompson Jr.",
+          "position": "DL",
+          "status": "Out",
+          "injury": "Ankle; Shanahan said Oct 5 he is unlikely to play vs SEA",
+          "starter": false,
+          "source": "https://www.profootballrumors.com/2026/10/49ers-expect-de-mykel-williams-to-play-in-week-5-latest-on-wrs-mike-evans-christian-kirk"
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "position": "FB",
+          "status": "Out",
+          "injury": "Hyperextended right knee with bone bruise suffered vs DEN Oct 4; Shanahan Oct 5: out 'a few' weeks (2-3). Luke Farrell/Brayden Willis fill in",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/49ers-fb-kyle-juszczyk-miss-232448805.html"
+        },
+        {
+          "player": "Marques Sigle",
+          "position": "S",
+          "status": "Out",
+          "injury": "High ankle sprain vs DEN Oct 4; out 'some time' (est. 4-6 weeks). Malik Mustapha slides in",
+          "starter": true,
+          "source": "https://www.ninersnation.com/san-francisco-49ers-news/163787/49ers-injury-updates-marques-sigle-has-the-dreaded-high-ankle-sprain"
+        },
+        {
+          "player": "Upton Stout",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Shoulder AC sprain vs DEN Oct 4; day-to-day per Shanahan Oct 5",
+          "starter": true,
+          "source": "https://ninersnation.com/san-francisco-49ers-news/163810/49ers-news-regular-season-week-5-seattle-seahawks-injuries-juszczyk-stout"
+        },
+        {
+          "player": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ribs (hurt Week 3 vs ARI); was game-time decision Week 4 and played, led team with 76 yds; expected to keep playing through it",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50086883/49ers-wr-mike-evans-game-decision-rib-injury"
+        },
+        {
+          "player": "Keion White",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Hamstring; limited Fri Oct 2, questionable Week 4. Week 5 status not yet reported",
+          "starter": false,
+          "source": "https://www.49erswebzone.com/articles/203826-broncos-injury-report-defenders-questionable/"
+        },
+        {
+          "player": "Mykel Williams",
+          "position": "DE",
+          "status": "PUP",
+          "injury": "Knee; 21-day practice window opened late Sept, did team drills last week; Shanahan Oct 5 hopes to activate him for SEA pending practice. Activation NOT yet official",
+          "starter": true,
+          "source": "https://heavy.com/sports/nfl/san-francisco-49ers/kyle-shanahan-mykel-williams-ahead-of-seahawks-game/"
+        },
+        {
+          "player": "Christian Kirk",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Calf; Shanahan says practice window could open in about two weeks (after Week 5). Still out",
+          "starter": true,
+          "source": "https://www.cbssports.com/fantasy/football/news/49ers-christian-kirk-aiming-for-practice-return-in-two-weeks/"
+        },
+        {
+          "player": "Demarcus Robinson",
+          "position": "WR",
+          "status": "IR",
+          "injury": "High ankle sprain (Week 2 vs MIA); moved to IR, expected return Week 7. Was carried as Out last week",
+          "starter": false,
+          "source": "https://www.cbssports.com/fantasy/football/news/49ers-demarcus-robinson-moved-to-injured-reserve/"
+        },
+        {
+          "player": "Ricky Pearsall",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Knee surgery in August; season-ending IR",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+        },
+        {
+          "player": "Alfred Collins",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Knee; out for season",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+        },
+        {
+          "player": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+        }
+      ],
+      "context_notes": [
+        "49ers are 4-0 (one of three remaining undefeated teams after Week 4) and travel to Seattle, the defending Super Bowl champion, for a division game.",
+        "Offensive line has not allowed a Purdy sack in four games; FB Juszczyk out means Luke Farrell/Brayden Willis take fullback snaps.",
+        "WR corps badly depleted (Pearsall, Kirk, Robinson all on IR); Mike Evans playing through ribs; 49ers signed WR Brandin Cooks to the active roster.",
+        "Pass rush thin: Bosa and Thompson out, but Mykel Williams (2025 1st-rounder) may be activated from PUP this week.",
+        "Secondary hit: S Marques Sigle out multiple weeks, CB Upton Stout day-to-day."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/49ers-injury-report-heres-full-104001865.html",
+        "https://heavy.com/sports/nfl/seattle-seahawks/seahawks-nick-bosa-49ers-injury-update",
+        "https://heavy.com/sports/nfl/san-francisco-49ers/key-defender-injury-seahawks-update-49ers",
+        "https://www.49ers.com/news/49ers-stay-hot-with-a-24-14-win-in-week-4-matchup-vs-broncos-takeaways-from-denvssf",
+        "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/live-updates-score-highlights-denver-broncos/1967703/",
+        "https://sports.yahoo.com/articles/49ers-fb-kyle-juszczyk-miss-232448805.html",
+        "https://www.ninersnation.com/san-francisco-49ers-news/163787/49ers-injury-updates-marques-sigle-has-the-dreaded-high-ankle-sprain",
+        "https://49ers.com/news/kyle-shanahan-provides-injury-updates-following-week-4-win-over-broncos",
+        "https://heavy.com/sports/nfl/san-francisco-49ers/kyle-shanahan-mykel-williams-ahead-of-seahawks-game/",
+        "https://ninersnation.com/san-francisco-49ers-news/163810/49ers-news-regular-season-week-5-seattle-seahawks-injuries-juszczyk-stout",
+        "https://www.espn.com/nfl/story/_/id/50086883/49ers-wr-mike-evans-game-decision-rib-injury",
+        "https://www.49erswebzone.com/articles/203826-broncos-injury-report-defenders-questionable/",
+        "https://www.cbssports.com/fantasy/football/news/49ers-demarcus-robinson-moved-to-injured-reserve/",
+        "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/",
+        "https://www.cbssports.com/fantasy/football/news/49ers-christian-kirk-aiming-for-practice-return-in-two-weeks/",
+        "https://www.profootballrumors.com/2026/10/49ers-expect-de-mykel-williams-to-play-in-week-5-latest-on-wrs-mike-evans-christian-kirk",
+        "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-wr-brandin-cooks-to-active-roster"
+      ]
+    },
+    "SEA": {
+      "week4_result": "W 30-23 vs LAC (Sun Oct 4). Sam Darnold started (168 yds, 2 TD) in his return; Seattle led 27-6 in the 3rd then allowed 10 unanswered in the 4th; franchise-record 14 penalties for 150 yds. RB Jadarian Price was out (chest) and has since been placed on IR.",
+      "qb": {
+        "starter": "Sam Darnold",
+        "backup": "Drew Lock",
+        "changed_from_week4": false,
+        "notes": "Schedule file lists Drew Lock, which looks wrong: Lock started only Week 2 at ARI while Darnold recovered from a Week 1 glute injury. Darnold returned Week 3 vs WAS (off the injury report) and started Week 4 vs LAC. Jalen Milroe is QB3."
+      },
+      "injuries": [
+        {
+          "player": "Jadarian Price",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Chest (upper rib) plus minor shoulder, aggravated in practice Sept 30; placed on IR Sat Oct 3, out at least 4 games. GM says not season-ending",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/story/_/id/50093007/seahawks-place-rb-jadarian-price-chest-ir"
+        },
+        {
+          "player": "Anthony Bradford",
+          "position": "G",
+          "status": "IR",
+          "injury": "Knee; placed on IR Wed Sept 30, expected return around Week 7",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+        },
+        {
+          "player": "Zach Charbonnet",
+          "position": "RB",
+          "status": "PUP",
+          "injury": "ACL (Jan 2026 playoffs); practice window opened Oct 1. Macdonald said Mon Oct 5 he will NOT be activated for Week 5 vs SF",
+          "starter": false,
+          "source": "https://www.cbssports.com/fantasy/football/news/seahawks-zach-charbonnet-wont-debut-week-5/"
+        },
+        {
+          "player": "Ty Okada",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Hamstring; missed all four games, returned to practice limited Thu Oct 1 and was inactive Week 4; trending toward Week 5 availability",
+          "starter": false,
+          "source": "https://www.rotowire.com/football/headlines/ty-okada-injury-wont-play-against-bolts-640626"
+        },
+        {
+          "player": "Chazz Surratt",
+          "position": "LB",
+          "status": "Out",
+          "injury": "Calf injury surfaced in practice Fri Oct 2, missed Week 4; a CBS headline indicates an IR placement but date is unverified",
+          "starter": false,
+          "source": "https://www.cbssports.com/fantasy/football/news/seahawks-chazz-surratt-lands-on-injured-reserve"
+        },
+        {
+          "player": "Bud Clark",
+          "position": "S",
+          "status": "IR",
+          "injury": "Still on IR per Week 5 reporting",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/seahawks-injury-report-ty-okada-022534670.html"
+        },
+        {
+          "player": "Irv Charles",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+        },
+        {
+          "player": "Jake Bobo",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+        },
+        {
+          "player": "Mason Richman",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+        },
+        {
+          "player": "Robbie Ouzts",
+          "position": "FB",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Seattle is the defending Super Bowl champion (beat SF in last season's divisional round) and hosts 4-0 SF in a division game; Seahawks are 3-1.",
+        "Backfield is thin: Price on IR and Charbonnet still on PUP, so Emanuel Wilson and George Holani carry the load.",
+        "Discipline issue: franchise-record 150 penalty yards in Week 4.",
+        "Interior OL reshuffle with G Anthony Bradford on IR.",
+        "Darnold is back from the glute injury and has started two straight games; Jaxon Smith-Njigba is producing at an elite level."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872977",
+        "https://www.fieldgulls.com/seattle-seahawks-scores-results/176414/seahawks-chargers-score-results-nfl-week-4-penalties-turnovers",
+        "https://www.seahawks.com/news/12-numbers-of-note-from-seahawks-week-4-win-over-the-chargers",
+        "https://www.nfl.com/news/sam-darnold-glute-seahawks-commanders",
+        "https://www.spokesman.com/stories/2026/sep/16/seahawks-make-it-official-drew-lock-will-start-as-/",
+        "https://www.cbssports.com/fantasy/football/news/seahawks-zach-charbonnet-wont-debut-week-5/",
+        "https://www.profootballrumors.com/2026/10/seahawks-open-rb-zach-charbonnets-practice-window",
+        "https://www.espn.com/nfl/story/_/id/50093007/seahawks-place-rb-jadarian-price-chest-ir",
+        "https://sports.yahoo.com/articles/seahawks-gm-john-schneider-jadarian-221735977.html",
+        "https://sports.yahoo.com/articles/seahawks-injury-report-ty-okada-022534670.html",
+        "https://www.rotowire.com/football/headlines/ty-okada-injury-wont-play-against-bolts-640626",
+        "https://www.emeraldcityspectrum.com/home/seattle-seahawks-inactives-ty-okada-sidelined-rodney-thomas-start-los-angeles-chargers",
+        "https://www.cbssports.com/fantasy/football/news/seahawks-chazz-surratt-lands-on-injured-reserve",
+        "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+      ]
+    },
+    "BAL": {
+      "week4_result": "W 24-18 vs TEN (Sun Oct 4). Led 24-7 when Lamar Jackson (15/20, 222 yds, 2 TD) left at halftime with a left ankle injury after a Jermaine Johnson sack; Tyler Huntley (8/9, 63 yds) played the second half and the offense did not score again. CB Marlon Humphrey (calf) also left. Snapped a four-game home losing streak.",
+      "qb": {
+        "starter": "Lamar Jackson",
+        "backup": "Tyler Huntley",
+        "changed_from_week4": false,
+        "notes": "Jackson left the stadium in a walking boot, had an MRI Mon Oct 5; HC Jesse Minter: day-to-day, 'I don't know the chances yet' for SNF at ATL but 'not crazy long-term.' Results not disclosed as of Oct 6. Huntley starts if Jackson cannot go; first injury report Wed Oct 7. Treat as Questionable."
+      },
+      "injuries": [
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "status": "Questionable",
+          "injury": "Left ankle, hurt end of 1st half vs TEN Oct 4; walking boot, MRI Oct 5; day-to-day per Minter",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-unsure-of-lamar-jacksons-availability-for-week-5-vs-falcons"
+        },
+        {
+          "player": "Marlon Humphrey",
+          "position": "CB",
+          "status": "Doubtful",
+          "injury": "Calf, left Week 4 vs TEN; Rapoport reports expected to miss a couple of weeks",
+          "starter": true,
+          "source": "https://www.si.com/nfl/ravens/news/baltimore-ravens-marlon-humphrey-miss-time-calf-injury"
+        },
+        {
+          "player": "Trey Hendrickson",
+          "position": "OLB",
+          "status": "Questionable",
+          "injury": "Broken finger, had procedure; missed Week 4; estimated return Oct 11",
+          "starter": true,
+          "source": "https://www.baltimoreravens.com/news/injury-report-ravens-titans-trey-hendrickson-ronnie-stanley-zay-flowers-lamar-jackson-2026"
+        },
+        {
+          "player": "Ronnie Stanley",
+          "position": "OT",
+          "status": "Questionable",
+          "injury": "Toe; finished Week 4, hopes it heals on its own, seems likely to play",
+          "starter": true,
+          "source": "https://cbssports.com/fantasy/football/news/ravens-ronnie-stanley-continues-to-deal-with-toe-issue"
+        },
+        {
+          "player": "Andrew Vorhees",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Foot, did not return Week 4 vs TEN; Minter had no update Oct 5",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Achilles, did not return Week 4 vs TEN; Minter had no update Oct 5",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens"
+        },
+        {
+          "player": "Chris Moore",
+          "position": "WR",
+          "status": "Out",
+          "injury": "Ankle; listed Out with estimated return Oct 11",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens"
+        },
+        {
+          "player": "Ethan Pocic",
+          "position": "C",
+          "status": "IR",
+          "injury": "Knee; placed on IR Sat Oct 3, est. return Nov 1 (was Out last week)",
+          "starter": true,
+          "source": "https://www.baltimoreravens.com/news/jovaughn-gwyn-ethan-pocic-injured-reserve-kyle-hergel-ravens-titans"
+        },
+        {
+          "player": "Jovaughn Gwyn",
+          "position": "C",
+          "status": "IR",
+          "injury": "Fractured fibula/ankle; placed on IR Sat Oct 3, 2-3 month timetable (was Out last week)",
+          "starter": false,
+          "source": "https://www.cbssports.com/fantasy/football/news/ravens-jovaughn-gwyn-officially-placed-on-ir/"
+        },
+        {
+          "player": "T.J. Tampa",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Knee; IR since Sept 19, est. return Oct 18. Still out",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens"
+        },
+        {
+          "player": "Skylar Thompson",
+          "position": "QB",
+          "status": "IR",
+          "injury": "IR since Aug 12; out for season",
+          "starter": false,
+          "source": "https://x.com/jamisonhensley/status/2106500603455447094"
+        },
+        {
+          "player": "Ja'Kobi Lane",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Jesse Minter is the Ravens head coach in 2026; his first injury report of the week comes Wed Oct 7.",
+        "Both top centers (Pocic, Gwyn) are on IR; G Kyle Hergel was elevated from the practice squad Week 4. Interior OL is a patchwork, and G Vorhees and LT Stanley are banged up too.",
+        "Secondary: Humphrey likely out, Tampa still on IR. Pass rush: Hendrickson (finger) uncertain.",
+        "Betting lines moved significantly toward ATL after the Jackson news; Huntley would be a major downgrade on SNF road trip.",
+        "Derrick Henry scored vs his old team; Zay Flowers 8-118-1 in Week 4."
+      ],
+      "sources": [
+        "https://www.cbsnews.com/baltimore/news/baltimore-ravens-defeat-tennessee-titans-m-t-bank-stadium/",
+        "https://www.cbssports.com/nfl/news/ravens-lamar-jackson-injury-tyler-huntley-titans/",
+        "https://sports.yahoo.com/nfl/breaking-news/article/lamar-jackson-leaves-ravens-titans-game-with-ankle-injury-replaced-by-tyler-huntley-in-second-half-185204555.html",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-unsure-of-lamar-jacksons-availability-for-week-5-vs-falcons",
+        "https://www.newsweek.com/sports/nfl/ravens-jesse-minter-updates-week-5-injury-status-for-qb-lamar-jackson-12526656",
+        "https://www.rotowire.com/football/headlines/lamar-jackson-injury-availability-uncertain-for-week-5-640889",
+        "https://www.si.com/betting/lamar-jackson-injury-update-causes-massive-shift-to-ravens-vs-falcons-odds-in-nfl-week-5-2026",
+        "https://www.baltimoreravens.com/news/ravens-injuries-titans-breakdown-lamar-jackson-marlon-humphrey-2026",
+        "https://www.si.com/nfl/ravens/news/baltimore-ravens-marlon-humphrey-miss-time-calf-injury",
+        "https://cbssports.com/fantasy/football/news/ravens-ronnie-stanley-continues-to-deal-with-toe-issue",
+        "https://www.baltimoreravens.com/news/injury-report-ravens-titans-trey-hendrickson-ronnie-stanley-zay-flowers-lamar-jackson-2026",
+        "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens",
+        "https://www.baltimoreravens.com/news/jovaughn-gwyn-ethan-pocic-injured-reserve-kyle-hergel-ravens-titans",
+        "https://www.cbssports.com/fantasy/football/news/ravens-jovaughn-gwyn-officially-placed-on-ir/",
+        "https://x.com/jamisonhensley/status/2106500603455447094",
+        "https://www.baltimorebeatdown.com/baltimore-ravens-news/85975/ravens-enter-week-5-shrouded-in-injury-uncertainty"
+      ]
+    },
+    "ATL": {
+      "week4_result": "W 45-24 at NO (Mon Oct 5, MNF). Bijan Robinson 145 rush yds, 2 TD (59-yd TD on third play); Bijan and Brian Robinson Jr. combined for 207 rush yds and a franchise-record 5 rushing TDs; Penix 15/20, 223 yds, 1 TD. Falcons to 2-2. No in-game injuries reported in snippets.",
+      "qb": {
+        "starter": "Michael Penix Jr.",
+        "backup": "unverified",
+        "changed_from_week4": false,
+        "notes": "Penix returned from his major 2025 knee injury in Week 3 (35-14 at GB) and was efficient again on MNF; no new concern. Backup not confirmed in 2026 snippets."
+      },
+      "injuries": [
+        {
+          "player": "A.J. Terrell",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Groin; placed on IR (late Sept), no return news",
+          "starter": true,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Da'Shawn Hand",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Quadriceps; on IR",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Cameron Williams",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Ankle; on IR per Falcons injury page (new since last week's list)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Jalon Walker",
+          "position": "OLB",
+          "status": "IR",
+          "injury": "Torn ACL in training camp; out for 2026 season",
+          "starter": true,
+          "source": "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season"
+        },
+        {
+          "player": "James Pearce Jr.",
+          "position": "DE",
+          "status": "Suspended",
+          "injury": "8-game personal-conduct suspension; eligible Nov 2 after Week 8, returns Week 9",
+          "starter": true,
+          "source": "https://www.nfl.com/news/falcons-james-pearce-jr-suspended-eight-games-for-violating-nfl-personal-conduct-policy"
+        },
+        {
+          "player": "DeAngelo Malone",
+          "position": "LB",
+          "status": "PUP",
+          "injury": "Reserve/PUP since Aug 4; season over",
+          "starter": false,
+          "source": "https://en.wikipedia.org/wiki/DeAngelo_Malone"
+        },
+        {
+          "player": "Storm Norton",
+          "position": "OL",
+          "status": "PUP",
+          "injury": "Reserve/PUP since June 11; no return news",
+          "starter": false,
+          "source": "https://en.wikipedia.org/wiki/Storm_Norton"
+        },
+        {
+          "player": "Divine Deablo",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Hamstring; limited and Questionable for Week 4 MNF. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.thefalcoholic.com/atlanta-falcons-injuries/96923/falcons-vs-saints-injury-report-divine-deablo-samson-ebukam-questionable-for-monday-night"
+        },
+        {
+          "player": "Samson Ebukam",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Hamstring; full practice, Questionable for Week 4 MNF. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.thefalcoholic.com/atlanta-falcons-injuries/96923/falcons-vs-saints-injury-report-divine-deablo-samson-ebukam-questionable-for-monday-night"
+        },
+        {
+          "player": "Yasir Abdullah",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Illness; Questionable for Week 4 MNF",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/atl/atlanta-falcons"
+        },
+        {
+          "player": "Drake London",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Knee; Questionable for Week 4 MNF, Morris optimistic. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.atlantafalcons.com/news/falcons-injury-report-kyle-pitts-drake-london-darnell-mooney-questionable"
+        },
+        {
+          "player": "Darnell Mooney",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Knee; Questionable for Week 4 MNF. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.atlantafalcons.com/news/falcons-injury-report-kyle-pitts-drake-london-darnell-mooney-questionable"
+        },
+        {
+          "player": "Kyle Pitts",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Knee; Questionable for Week 4 MNF. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.atlantafalcons.com/news/falcons-injury-report-kyle-pitts-drake-london-darnell-mooney-questionable"
+        },
+        {
+          "player": "Beaux Collins",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Darren Hall",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "J.D. Bertrand",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Malik Verdon",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Trey Sermon",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Carried on IR last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        },
+        {
+          "player": "Anterio Thompson",
+          "position": "DT",
+          "status": "NFI",
+          "injury": "Carried on NFI last week; no update found (unverified)",
+          "starter": false,
+          "source": "https://www.atlantafalcons.com/team/injury-report/"
+        }
+      ],
+      "context_notes": [
+        "Short week: ATL played Monday night Oct 5 at NO and hosts BAL on Sunday Night Football Oct 11 (six days' rest, but at home).",
+        "Edge rush is gutted for the season/half-season (Walker ACL, Pearce suspended through Week 8, Malone PUP); Ebukam/Deablo hamstrings make the front seven thin.",
+        "Run game is rolling: franchise-record 5 rushing TDs on MNF; Bijan Robinson 145 yds.",
+        "Penix healthy and efficient in his second game back from the 2025 knee injury.",
+        "Odds have shifted toward ATL with Lamar Jackson's status uncertain; CB1 A.J. Terrell remains on IR."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401872979",
+        "https://www.nfl.com/news/falcons-saints-on-monday-night-football-what-we-learned-from-atlanta-s-45-24-win",
+        "https://www.cbssports.com/nfl/news/saints-vs-falcons-live-updates-score-highlights/live/",
+        "https://www.atlantafalcons.com/team/injury-report/",
+        "https://www.espn.com/nfl/team/injuries/_/name/atl/atlanta-falcons",
+        "https://www.thefalcoholic.com/atlanta-falcons-injuries/96923/falcons-vs-saints-injury-report-divine-deablo-samson-ebukam-questionable-for-monday-night",
+        "https://www.atlantafalcons.com/news/falcons-injury-report-kyle-pitts-drake-london-darnell-mooney-questionable",
+        "https://www.atlantafalcons.com/news/jalon-walker-to-miss-2026-season",
+        "https://www.nfl.com/news/falcons-james-pearce-jr-suspended-eight-games-for-violating-nfl-personal-conduct-policy",
+        "https://en.wikipedia.org/wiki/DeAngelo_Malone",
+        "https://en.wikipedia.org/wiki/Storm_Norton",
+        "https://heavy.com/sports/nfl/baltimore-ravens/lamar-jackson-injury-update-2/"
+      ]
+    },
+    "BUF": {
+      "week4_result": "L 26-29 vs NE (Sun Oct 4). First loss (now 3-1); Allen 23/33, 253 yds, 1 TD, 1 INT plus a rushing TD, but threw a late INT into double coverage (S Craig Woodson) trailing by 3 with under two minutes left; held to 4 rush yds. Lost WR DJ Moore (shoulder), DT Ed Oliver (knee), CB Dee Alford (ankle) and DB Te'Cory Couch (hamstring) in-game; CB Christian Benford (toe) was inactive.",
+      "qb": {
+        "starter": "Josh Allen",
+        "backup": "unverified",
+        "changed_from_week4": false,
+        "notes": "Allen healthy; poor Week 4 grade and contained as a runner two straight games. Backup not confirmed in 2026 snippets."
+      },
+      "injuries": [
+        {
+          "player": "Christian Benford",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Toe; in walking boot after Week 3, inactive Week 4 vs NE. Biggest question entering Week 5",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/bills-vs-patriots-injury-christian-155417828.html"
+        },
+        {
+          "player": "DJ Moore",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Aggravated left shoulder AC joint sprain late 2nd quarter vs NE Oct 4; Schefter: not long-term. Status for MNF in question",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50101817/bills-wr-dj-moore-doubtful-return-injuring-shoulder"
+        },
+        {
+          "player": "Ed Oliver",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Left knee, hit by FB Reggie Gilliam 3rd quarter vs NE Oct 4, did not return; no severity update yet",
+          "starter": true,
+          "source": "https://www.buffalobills.com/news/bills-issue-injury-updates-on-ed-oliver-and-dee-alford"
+        },
+        {
+          "player": "Dee Alford",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Ankle, 3rd quarter vs NE Oct 4, walked off and did not return; ESPN est. return Oct 12",
+          "starter": true,
+          "source": "https://www.buffalobills.com/news/bills-issue-injury-updates-on-ed-oliver-and-dee-alford"
+        },
+        {
+          "player": "Te'Cory Couch",
+          "position": "DB",
+          "status": "Questionable",
+          "injury": "Hamstring vs NE Oct 4; ESPN est. return Oct 12",
+          "starter": false,
+          "source": "https://www.buffalorumblings.com/buffalo-bills-injuries/142021/bills-injuries-2026-in-game-updates-vs-patriots"
+        },
+        {
+          "player": "Keon Coleman",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ankle; limited Fri Oct 2, Brady confident he would play Week 4. Week 5 status not yet reported",
+          "starter": true,
+          "source": "https://www.yardbarker.com/nfl/articles/bills_hc_joe_brady_gives_definitive_keon_coleman_injury_update/s1_13132_44379645"
+        },
+        {
+          "player": "Tyrell Shavers",
+          "position": "WR",
+          "status": "PUP",
+          "injury": "ACL; CBS lists expected return Week 5 but no activation/practice-window news found (unverified)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/buf/buffalo-bills/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Joe Brady is the Bills head coach in 2026 ('It obviously wasn't good enough' after the NE loss).",
+        "Cornerback room is in crisis for MNF: Benford (toe) missed Week 4, Alford (ankle) and Couch (hamstring) hurt in-game, facing Stafford/Nacua.",
+        "DJ Moore's shoulder could open targets for other Bills receivers; Keon Coleman also nursing an ankle.",
+        "Opening odds reportedly make Buffalo an underdog for the first time in 2026 (road MNF at SoFi, late kickoff 5:15 PT, West Coast travel).",
+        "Allen has been bottled up as a runner two straight weeks and threw a game-losing late INT."
+      ],
+      "sources": [
+        "https://www.patspulpit.com/new-england-patriots-news/139371/patriots-vs-bills-nfl-week-4-final-score-live-updates-news-recap-discussion",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-10-04/josh-allen-corralled-again-in-bills-loss-to-pats",
+        "https://sports.yahoo.com/articles/josh-allen-threw-game-away-203741600.html",
+        "https://sports.yahoo.com/articles/bills-vs-rams-injury-buffalo-153046210.html",
+        "https://www.espn.com/nfl/story/_/id/50101817/bills-wr-dj-moore-doubtful-return-injuring-shoulder",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/142159/dj-moore-shoulder-injury-update-adam-schefter-buffalo-bills",
+        "https://sports.yahoo.com/articles/bills-vs-patriots-injury-christian-155417828.html",
+        "https://www.buffalobills.com/news/bills-issue-injury-updates-on-ed-oliver-and-dee-alford",
+        "https://www.buffalorumblings.com/buffalo-bills-injuries/142021/bills-injuries-2026-in-game-updates-vs-patriots",
+        "https://www.yardbarker.com/nfl/articles/bills_hc_joe_brady_gives_definitive_keon_coleman_injury_update/s1_13132_44379645",
+        "https://www.audacy.com/wgr550/sports/bills/joe-brady-on-bills-play-vs-patriots-it-obviously-wasn-t-good-enough",
+        "https://sports.yahoo.com/articles/bills-vs-rams-week-5-110000130.html",
+        "https://www.cbssports.com/nfl/teams/buf/buffalo-bills/injuries/"
+      ]
+    },
+    "LA": {
+      "week4_result": "W 24-20 at PHI (Sun Oct 4). Rallied from 20-10 down in the 4th; Kyren Williams two TDs in final four minutes (7-yd TD with 1:10 left) after PHI failed a 4th-down try instead of a chip-shot FG. Puka Nacua returned from a two-game absence: 9-125. Rams 2-2. Aaron Donald (back) and Jaylen Watson (shoulder) inactive; Colby Parkinson (shoulder/knee) inactive.",
+      "qb": {
+        "starter": "Matthew Stafford",
+        "backup": "Stetson Bennett",
+        "changed_from_week4": false,
+        "notes": "Stafford (reigning MVP) healthy, led the comeback. Bennett won backup job over 1st-round rookie Ty Simpson (QB3); Matthew Caldwell on IR."
+      },
+      "injuries": [
+        {
+          "player": "Aaron Donald",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Back soreness after Week 3 at DEN, missed Week 4; McVay Oct 5: 'trending' toward playing MNF vs BUF, hopes he practices this week",
+          "starter": true,
+          "source": "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football"
+        },
+        {
+          "player": "Jaylen Watson",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Dislocated shoulder; out Week 4; McVay hopeful he can return vs BUF",
+          "starter": true,
+          "source": "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football"
+        },
+        {
+          "player": "Terrance Ferguson",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Ankle (hurt Week 3 at DEN); placed on IR Fri Oct 2, eligible to return Week 8 vs LAC (was Out last week)",
+          "starter": true,
+          "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-02/rams-place-ferguson-ankle-on-injured-reserve"
+        },
+        {
+          "player": "Colby Parkinson",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Shoulder AC sprain plus knee; inactive Week 4, day-to-day, still on report entering Week 5",
+          "starter": true,
+          "source": "https://roundtable.io/sports/nfl/rams/news/rams-colby-parkinson-out-full-inactives-list-for-eagles-showdown"
+        },
+        {
+          "player": "Konata Mumpfield",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Rotator cuff contusion vs PHI Oct 4; McVay not concerned",
+          "starter": false,
+          "source": "https://www.turfshowtimes.com/los-angeles-rams-injuries/150940/rams-injury-report-mumpfield-forbes"
+        },
+        {
+          "player": "Emmanuel Forbes Jr.",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Knee contusion vs PHI Oct 4; McVay not concerned",
+          "starter": false,
+          "source": "https://www.turfshowtimes.com/los-angeles-rams-injuries/150940/rams-injury-report-mumpfield-forbes"
+        },
+        {
+          "player": "Keir Thomas",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Listed Questionable for Week 5 vs BUF (CBS)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/lar/los-angeles-rams/injuries/"
+        },
+        {
+          "player": "Anthony Torres",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Listed Questionable for Week 5 vs BUF (CBS)",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/lar/los-angeles-rams/injuries/"
+        },
+        {
+          "player": "Myles Garrett",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Knee surgery earlier this season, at least six-week recovery; CBS lists expected return Week 6. Still out",
+          "starter": true,
+          "source": "https://bolavip.com/en/nfl/why-isnt-myles-garrett-playing-today-for-rams-vs-eagles-in-2026-nfl-week-4"
+        },
+        {
+          "player": "Justin Dedich",
+          "position": "G",
+          "status": "IR",
+          "injury": "Hand; IR with designation to return, eligible this week but no activation news",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/rams-place-2-offensive-linemen-211342407.html"
+        },
+        {
+          "player": "Keagen Trost",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Hamstring; IR with designation to return, eligible this week but no activation news",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/rams-place-2-offensive-linemen-211342407.html"
+        },
+        {
+          "player": "Matthew Caldwell",
+          "position": "QB",
+          "status": "IR",
+          "injury": "On IR; no change",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/lar/los-angeles-rams"
+        }
+      ],
+      "context_notes": [
+        "Home MNF vs BUF at SoFi (5:15 PT); Rams get an extra day of rest after Sunday in Philadelphia.",
+        "Pass rush depends on Donald's back: Myles Garrett is on IR until at least Week 6.",
+        "TE room thin: Ferguson on IR, Parkinson day-to-day; Anthony Torres also Questionable.",
+        "Puka Nacua is back and immediately productive (9-125); Kyren Williams scored both late TDs.",
+        "Secondary could get CB Jaylen Watson back; Forbes (knee contusion) minor."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401872970",
+        "https://www.turfshowtimes.com/los-angeles-rams-scores-results/150694/rams-eagles-week-4-final-score",
+        "https://sports.yahoo.com/articles/eagles-vs-rams-live-score-162035063.html",
+        "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football",
+        "https://www.si.com/nfl/rams/onsi/rams-aaron-donald-injury-update-week-5-bills",
+        "https://clutchpoints.com/nfl/los-angeles-rams/rams-news-aaron-donald-week-5-injury-status-bills-update",
+        "https://www.turfshowtimes.com/los-angeles-rams-injuries/150940/rams-injury-report-mumpfield-forbes",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-10-02/rams-place-ferguson-ankle-on-injured-reserve",
+        "https://roundtable.io/sports/nfl/rams/news/rams-colby-parkinson-out-full-inactives-list-for-eagles-showdown",
+        "https://bolavip.com/en/nfl/why-isnt-myles-garrett-playing-today-for-rams-vs-eagles-in-2026-nfl-week-4",
+        "https://sports.yahoo.com/articles/rams-place-2-offensive-linemen-211342407.html",
+        "https://www.cbssports.com/nfl/teams/lar/los-angeles-rams/injuries/",
+        "https://www.espn.com/nfl/team/injuries/_/name/lar/los-angeles-rams",
+        "https://www.fantasypros.com/nfl/news/607036/stetson-bennett-iv-named-backup-stafford.php",
+        "https://clutchpoints.com/nfl/los-angeles-rams/rams-news-stetson-bennett-matthew-stafford-backup-ty-simpson"
+      ]
+    }
+  }
+}
