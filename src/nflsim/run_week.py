@@ -44,7 +44,9 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             continue
         wx = weather.get(g.game_id, {})
         roof = wx.get("roof") or str(g.roof)   # weather file may correct the schedule's roof (e.g. Melbourne)
-        ctx = GameContext(g.game_id, home, away, bool(g.neutral_site), bool(g.div_game), roof, wx,
+        # the schedule lists the Jaguars' London game as a home game; the weather file can force neutral
+        neutral = bool(g.neutral_site) or bool(wx.get("neutral", False))
+        ctx = GameContext(g.game_id, home, away, neutral, bool(g.div_game), roof, wx,
                           home_rest=float(g.home_rest) if not pd.isna(g.home_rest) else 7.0,
                           away_rest=float(g.away_rest) if not pd.isna(g.away_rest) else 7.0)
         side = {}

@@ -1,0 +1,1606 @@
+{
+  "collected_on": "2026-10-06",
+  "note": "Automatic carry-over of Week 4 IR/PUP/NFI/suspension absences; remove via the wk5 drop list if a player was activated.",
+  "teams": {
+    "PIT": {
+      "injuries": [
+        {
+          "player": "Daequan Hardy",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve, continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "DeShon Elliott",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Injured reserve (undisclosed), continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jack Driscoll",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve (undisclosed), continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Logan Lee",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve, continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Donte Kent",
+          "position": "CB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Reserve/PUP at cutdown; out at least f",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "CLE": {
+      "injuries": [
+        {
+          "player": "Dillon Gabriel",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve (per Week 4 depth chart), continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jeremiah Owusu-Koramoah",
+          "position": "LB",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on re",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Joe Royer",
+          "position": "TE",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Reserve/non-football illness list; did",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "IND": {
+      "injuries": [
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Heel; placed on injured reserve Sept 23 (Week 3 week)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Will Mallory",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: Thumb; placed on IR (designated to return) Aug 30",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "WAS": {
+      "injuries": [
+        {
+          "player": "Dorance Armstrong",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve list",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jeremy McNichols",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: IR designated to return (initial cuts)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Johnny Newton",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: Torn pectoral in preseason vs MIA, surgery Aug 19; on IR, possib",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jordan Magee",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Hamstring injury in Week 1 at PHI, did",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Laremy Tunsil",
+          "position": "LT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: Torn triceps in camp (Aug 8 vs Odafe Oweh); on IR, possible retu",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Deatrich Wise Jr.",
+          "position": "DE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: Reserve/PUP to start season",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "TEN": {
+      "injuries": [
+        {
+          "player": "Andre James",
+          "position": "C",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Injured reserve (undisclosed), continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Dorian Mausi",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve with designation to return; expected back around Oct 11 (not Week 4)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Joshua Williams",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tanoh Kpassagnon",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Injured reserve (undisclosed), continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "BAL": {
+      "injuries": [
+        {
+          "player": "Ja'Kobi Lane",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: Wrist, suffered in second half of Week 1 vs IND; placed on IR, o",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Skylar Thompson",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Undisclosed training-camp injury; on IR since August, out for season",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "T.J. Tampa",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Knee; injured reserve, continuing",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "NE": {
+      "injuries": [
+        {
+          "player": "A.J. Brown",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: High ankle sprain in Week 1 vs SEA; on IR since Sept 11, out at least 4 games (misses Week",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Bryce Baringer",
+          "position": "P",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Eric Butler",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reverted to ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Henry Anderson",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on IR",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Isaiah Iton",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reverted to ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Khalil Jacobs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kristian Wilkerson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on IR",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Marcus Bryant",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mike Onwenu",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Broken right ankle in Week 2 vs PIT (rolled up on by T.J. Watt); placed on IR Sept 22, out",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Quintayvious Hutchins",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Knee; missed all Week 3 practices and was ruled out vs JAX",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Harold Landry III",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Brenden Schooler",
+          "position": "S",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/NFI;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "BUF": {
+      "injuries": [
+        {
+          "player": "Tyrell Shavers",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Knee; moved ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "NYJ": {
+      "injuries": [
+        {
+          "player": "Anez Cooper",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: 2026 draft p",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Chip Trayanum",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mykal Walker",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tim Patrick",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Groin; out Week 1 and reported headed ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tre Brown",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "VJ Payne",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: 2026 draft p",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tyler Baron",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "CHI": {
+      "injuries": [
+        {
+          "player": "Brittain Brown",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Coby Bryant",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: New free-age",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Dallis Flowers",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Hayden Large",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR with desi",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ray-Ray McCloud III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ruben Hyppolite II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tony Fields II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kyler Gordon",
+          "position": "CB",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: Calf; on reserve/PUP, out at least first four games, rehabbing with private trainer away f",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Noah Sewell",
+          "position": "LB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: Torn Achilles; 21-day practice window opened Sep 23, earliest return Week 5",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Shemar Turner",
+          "position": "DT",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn ACL; 21-day practice window opened Sep 23, earliest return Week 5 vs Packers",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "JAX": {
+      "injuries": [
+        {
+          "player": "B.J. Green",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Elbow; placed on IR Sep 16, eligible to return Week 6",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Patrick Mekari",
+          "position": "OG",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Back; IR with designation to return at cutdowns, eligible Week 5; GM Gladstone expects him",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Zach Durfee",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Upper body; IR with designation to return at cutdowns, eligible Week 5",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "CIN": {
+      "injuries": [
+        {
+          "player": "Andrei Iosivas",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Thumb ligament surgery; placed on IR during Week 3, expected out 4-6 weeks",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Brian Parker II",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Knee; placed on IR (designated for ret",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ja'Sir Taylor",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Hamstring; placed on IR (designated fo",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "DAL": {
+      "injuries": [
+        {
+          "player": "Devin Moore",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Hip/groin; IR designated to return bef",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jalen Thompson",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Hamstring, left Ravens game early (Sep 27); 4-6 week timeline, team expected to place him ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kelvin Gilliam",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Marist Liufau",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Forearm; IR designated to return befor",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Matt Hennessy",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "P.J. Locke",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn plantar fascia (right foot); on injured reserve",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Princeton Fant",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tyler Smith",
+          "position": "OL",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: On IR, 4-6 week timeline; must miss first four games, first eligible Week 5 vs Bucs (Oct 8",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "HOU": {
+      "injuries": [
+        {
+          "player": "Braden Smith",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn plantar fascia; placed on IR Sept",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "E.J. Speed",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Quad; on IR, eligible to return Week 5",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Henry To'oto'o",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: Shoulder; placed on injured reserve before Week 2",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jayden Higgins",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn ACL suffered in training camp; se",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kayden McDonald",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: Ankle; on injured reserve",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ossai",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Undisclosed;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tank Dell",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: On IR to open season; will miss at lea",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "ARI": {
+      "injuries": [
+        {
+          "player": "Chase Bisontis",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn MCL in the preseason; 2nd-round r",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "James Conner",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Foot; on IR with designation to return, estimated return around Oct 11; Trey Benson leads ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Will Johnson",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Neck injury in Week 2 loss to Seahawks; placed on IR Sep 23; LaFleur said he could miss re",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Zach Carter",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tip Reiman",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "NYG": {
+      "injuries": [
+        {
+          "player": "Brian Burns",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn ACL in 4th quarter vs Titans (Sep 27); surgery pending, out for season (confirmed by ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Calvin Austin III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Gunner Olszewski",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jarrick Bernard-Converse",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Korie Black",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Paulson Adebo",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Placed on IR (roster move listed in Giants Week 4 tracker); injury detail not found",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Roy Robertson-Harris",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "LA": {
+      "injuries": [
+        {
+          "player": "Justin Dedich",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: July hand in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Keagen Trost",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Rookie linem",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Matthew Caldwell",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on IR",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Myles Garrett",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Knee (patella sprain aggravated from camp); had knee surgery, ~6-week timeline. On IR; ear",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "PHI": {
+      "injuries": [
+        {
+          "player": "Andre' Sam",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Eli Stowers",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Quadriceps and hamstring injuries; roo",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Grant Calcaterra",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jakorian Bennett",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Johnny Wilson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Landon Dickerson",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Knee; placed on injured reserve Tuesday Sept 22 (min. 4 games).",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tucker Large",
+          "position": "DB",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/NFI ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "GB": {
+      "injuries": [
+        {
+          "player": "Collin Oliver",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Micah Parsons",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: On IR; Packers project return Week 5 vs CHI or by Week 6 vs DAL. Out Week 4.",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Savion Williams",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: High ankle s",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Trey Dean III",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jordon Riley",
+          "position": "DL",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Reserve/PUP, out at least first four g",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Luke Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Neck; reserve/PUP, out at least first ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "TB": {
+      "injuries": [
+        {
+          "player": "Josh Hayes",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "MIA": {
+      "injuries": [
+        {
+          "player": "De'Von Achane",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn ACL on 3rd carry Week 3 vs KC; out for season (IR placement expected).",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kenneth Grant",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Leg injury (preseason); on IR since initial 53, expected back Week 5. Out Week 4.",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Trey Moore",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "MIN": {
+      "injuries": [
+        {
+          "player": "Jamal Adams",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Fractured thumb (procedure done); placed on IR Sept 16; earliest return Week 7 vs IND.",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Marcus Allen",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Waived/injur",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Michael Jurgens",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tyreek Chappell",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "KC": {
+      "injuries": [
+        {
+          "player": "C.J. Hanson",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Chris Oladokun",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "EJ Smith",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ethan Downs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jimmy Holiday",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Matt Waletzko",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Omarr Norman-Lott",
+          "position": "DT",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "LV": {
+      "injuries": [
+        {
+          "player": "Carter Runyon",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Dont'e Thornton",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Placed on injured reserve before Week ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jack Bech",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Broken forearm Week 3 at NO; headed to IR, estimated return ~Nov 1.",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Keyron Crawford",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/inju",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "LAC": {
+      "injuries": [
+        {
+          "player": "Branson Taylor",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR, designat",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: Forearm - injured Week 2 vs LV; placed on IR this week, out at l",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "David Njoku",
+          "position": "TE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Fibula injury suffered Week 2 vs Raiders; placed on IR, eligible to return Week 8",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Denzel Perryman",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Moved to IR ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Trey Pipkins III",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Knee; placed on IR before Week 3, must miss four games, eligible Week 8",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tyler Biadasz",
+          "position": "C",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Out for the season",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Isaiah World",
+          "position": "OT",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: UDFA (Oregon",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "SEA": {
+      "injuries": [
+        {
+          "player": "Bud Clark",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Irv Charles",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jake Bobo",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mason Richman",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Robbie Ouzts",
+          "position": "FB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Zach Charbonnet",
+          "position": "RB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: Torn ACL (offseason surgery); on PUP, must miss at least four games; may return to practic",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "DEN": {
+      "injuries": [
+        {
+          "player": "Caleb Lohner",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Drew Sanders",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR designate",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jonah Coleman",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: High ankle sprain suffered Week 2 vs Jacksonville; placed on IR Saturday Sept 26; expected",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Levelle Bailey",
+          "position": "ILB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Matt Henningsen",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Michael Deiter",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Nick Gargiulo",
+          "position": "OL",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "SF": {
+      "injuries": [
+        {
+          "player": "Alfred Collins",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn patellar tendon in practice befor",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Christian Kirk",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Calf; on IR, earliest return Week 5",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: On injured reserve (continuing)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ricky Pearsall",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: On injured reserve (continuing)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mykel Williams",
+          "position": "DE",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: Knee surgery a year ago; on PUP, 21-day practice window opens Wednesday Sept 30; eligible ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "DET": {
+      "injuries": [
+        {
+          "player": "Avonte Maddox",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Season-ending foot injury suffered vs Buffalo (Week 2)",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Cade Mays",
+          "position": "C",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: On IR; Campbell targeting a post-bye-week return, no firm timetable",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Isiah Pacheco",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Back; placed",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Thomas Harper",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Ankle; placed on IR Saturday Sept 26, must miss four games; Campbell unsure if he plays ag",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Brian Branch",
+          "position": "S",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: Torn Achilles late 2025 season - on reserve/PUP, not eligible un",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kerby Joseph",
+          "position": "S",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: Knee - on reserve/PUP, eligible Week 5 but not ready to practice",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "CAR": {
+      "injuries": [
+        {
+          "player": "Brady Christensen",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Hamstring - out at least first four ga",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jaycee Horn",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn quad on Browns' game-winning TD with 1:48 left Week 3; out indefinitely, 6-12 weeks p",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jonathon Brooks",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: Groin/core-muscle injury requiring surgery; placed on IR Wednesday Sept 23, out at least s",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kemoko Turay",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Nic Scourton",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn ACL in training camp - out for th",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Ikem Ekwonu",
+          "position": "LT",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Tershawn Wharton",
+          "position": "DT",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP;",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Taylor Moton",
+          "position": "RT",
+          "status": "NFI",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Blood clot in lungs - must miss at lea",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "ATL": {
+      "injuries": [
+        {
+          "player": "A.J. Terrell",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Groin injury Week 2 vs Carolina; placed on IR Tuesday Sept 22; Raheem Morris expects him b",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Beaux Collins",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Injured rese",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Da'Shawn Hand",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: Torn quad - 7 snaps into Week 1 vs PIT",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Darren Hall",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "J.D. Bertrand",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jalon Walker",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Torn ACL in training camp; out for the 2026 season",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Malik Verdon",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Trey Sermon",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on in",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "DeAngelo Malone",
+          "position": "LB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Storm Norton",
+          "position": "OL",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Anterio Thompson",
+          "position": "DT",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/non-",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "James Pearce Jr.",
+          "position": "DE",
+          "status": "Suspended",
+          "starter": true,
+          "injury": "carried over from Week 4: League suspension, undetermined number of games",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    },
+    "NO": {
+      "injuries": [
+        {
+          "player": "Barry Wesley",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR at cutdow",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Dalys Beanum",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR at cutdow",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "David Long Jr.",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Season-endin",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jaylan Ford",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Placed on IR",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Jordyn Tyson",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Hamstring; N",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Kelvin Banks Jr.",
+          "position": "LT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 4: Ankle surgery; on IR with estimated return Nov 29",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mike Heldman",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: IR at cutdow",
+          "source": "data/manual/injuries_2026_wk4.json"
+        },
+        {
+          "player": "Mason Tipton",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 4: carried over from Week 3: carried over from Week 2: carried over from Week 1: Reserve/PUP ",
+          "source": "data/manual/injuries_2026_wk4.json"
+        }
+      ]
+    }
+  }
+}

@@ -91,3 +91,11 @@ def test_market_weight_schedule():
     assert market_weight(1) == C.MARKET_WEIGHT
     assert market_weight(4) < market_weight(1)
     assert market_weight(40) == C.MARKET_WEIGHT_FLOOR
+
+
+def test_neutral_context_has_no_home_field_or_travel():
+    from nflsim.adjustments import GameContext
+    ctx = GameContext("x", "JAX", "PHI", True, False, "outdoors", {})
+    assert ctx.home_field() == 0.0 and ctx.travel() == 0.0
+    home = GameContext("x", "JAX", "PHI", False, False, "outdoors", {})
+    assert home.home_field() > 0.0

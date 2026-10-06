@@ -1,5 +1,5 @@
 PY ?= python3
-WEEK ?= 4
+WEEK ?= 5
 export PYTHONPATH := src
 export NFLSIM_WEEK := $(WEEK)
 
@@ -10,7 +10,8 @@ all: inputs run
 fetch:            ## download nflverse raw files into data/raw
 	$(PY) -m nflsim.fetch_data
 
-inputs:           ## rebuild injuries JSON from data/research + overrides
+inputs:           ## carry over last week's IR list, then rebuild injuries JSON from data/research + overrides
+	$(PY) -m nflsim.carryover
 	$(PY) -m nflsim.build_manual
 
 run:              ## build predictions for WEEK (make run WEEK=2) into output/
@@ -23,6 +24,9 @@ backtest:         ## score the method on 2025 Week 1 using 2024 data
 
 evaluate:         ## score a completed week (make evaluate WEEK=1)
 	$(PY) -m nflsim.evaluate 2026 $(WEEK)
+
+pooled:           ## pooled scorecard + parameter grids over weeks 1..WEEK-1
+	$(PY) -m nflsim.pooled 2026 1 $$(( $(WEEK) - 1 ))
 
 test:
 	$(PY) -m pytest -q tests

@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 4))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 5))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"

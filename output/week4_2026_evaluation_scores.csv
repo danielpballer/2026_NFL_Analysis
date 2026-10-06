@@ -1,0 +1,6 @@
+method,accuracy,log_loss,brier,margin_mae,margin_bias
+blend,0.625,0.6094,0.2136,7.3288,-2.2788
+pure_model,0.5625,0.5968,0.2096,7.4375,-2.6712
+market_spread,0.5625,0.637,0.2254,7.4688,-1.8438
+market_ml,0.5625,0.6165,0.2164,,
+coin_flip,0.5,0.6931,0.25,,
