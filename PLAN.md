@@ -210,3 +210,12 @@ re-checked and kept. One change: extra margin variance for neutral-site games ab
 Week 3 went 8-8 in a week the market went 8-8 with a worse log loss (0.676 versus 0.697). Pooled
 over 48 games the blend leads the market spread 0.651 to 0.661. The market's share of the blend
 now declines with the week (0.46 in Week 4). Details in `output/week3_2026_postmortem.md`.
+
+## Status (Oct 6, 2026): Week 4 scored, Week 5 in progress
+
+Week 4 went 10-6 with the best log loss yet (0.609 versus 0.617 for the market moneyline); all
+three Very High picks won. Pooled over 64 games the blend leads the market 0.641 to 0.654. No
+parameter changes: the market-weight, prior-weight and variance grids all support the current
+settings (Week 5 market share 0.43). The IR carry-over (`nflsim.carryover`) and the pooled
+scorecard (`nflsim.pooled`) are now repo modules; the weather file can force a neutral site for
+the Jaguars' London game. Details in `output/week4_2026_postmortem.md`.

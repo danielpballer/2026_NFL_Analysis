@@ -8,9 +8,10 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
+   "notes": "Undrafted rookie Jalon Daniels makes his second start (14 points vs Green Bay) with Mayfield (thumb) out at least two more weeks; Easton Stick is the backup. Short week in Dallas.",
    "schedule_projected_starter": "Jalon Daniels",
-   "value_override": -5.0
+   "value_override": -4.5,
+   "extra_sd": 1.25
   },
   "DAL": {
    "starter": "Dak Prescott",
@@ -50,7 +51,7 @@
    "pbp_name": "M.Willis",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Willis has started all four games (0-4, 85 passing yards at Minnesota); Tua was released in March.",
    "value_override": -1.5,
    "schedule_projected_starter": "Malik Willis"
   },
@@ -59,7 +60,7 @@
    "pbp_name": "K.Cousins",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Cousins healthy; rookie Fernando Mendoza backs up.",
    "schedule_projected_starter": "Kirk Cousins"
   },
   "NE": {
@@ -67,7 +68,7 @@
    "pbp_name": "D.Maye",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Maye was a full participant despite a shoulder listing last week.",
    "schedule_projected_starter": "Drake Maye"
   },
   "MIN": {
@@ -144,18 +145,20 @@
    "pbp_name": "J.Winston",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Winston threw for three scores against Arizona; Dart is out for the season.",
    "value_override": null,
-   "schedule_projected_starter": "Jameis Winston"
+   "schedule_projected_starter": "Jameis Winston",
+   "extra_sd": 0.5
   },
   "WAS": {
-   "starter": "Mariota (Daniels questionable)",
-   "pbp_name": "M.Mariota",
+   "starter": "Jayden Daniels",
+   "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Jayden Daniels",
-   "value_override": -0.5
+   "notes": "Daniels returns from the dislocated left elbow in a brace after missing two games; Mariota sprained his MCL in London and rookie Athan Kaliakmanis is the only backup. Small rust trim and extra variance.",
+   "value_override": 0.1,
+   "extra_sd": 1.0,
+   "schedule_projected_starter": "Jayden Daniels"
   },
   "DEN": {
    "starter": "Bo Nix",
@@ -186,17 +189,18 @@
    "pbp_name": "J.Brissett",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Brissett confirmed by LaFleur despite three interceptions at the Giants.",
    "schedule_projected_starter": "Jacoby Brissett"
   },
   "CHI": {
-   "starter": "Keenum or Bagent",
+   "starter": "Tyson Bagent",
    "pbp_name": "T.Bagent",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Bagent confirmed for a third straight start (268 yards in the win over the Jets); Caleb Williams (grade 2 hamstring) still out.",
    "schedule_projected_starter": "Tyson Bagent",
-   "value_override": -4.0
+   "value_override": -3.5,
+   "extra_sd": 0.75
   },
   "GB": {
    "starter": "Jordan Love",
