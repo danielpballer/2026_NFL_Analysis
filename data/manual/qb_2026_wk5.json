@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 5,
- "collected_on": "2026-10-06",
+ "collected_on": "2026-10-09",
  "teams": {
   "TB": {
    "starter": "Jalon Daniels",
@@ -229,14 +229,13 @@
    "extra_sd": 0.25
   },
   "BAL": {
-   "starter": "Jackson (questionable) / Huntley",
-   "pbp_name": "L.Jackson",
+   "starter": "Tyler Huntley",
+   "pbp_name": "T.Huntley",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Lamar Jackson hurt his left ankle at halftime vs Tennessee, left in a walking boot and had an MRI Monday; Minter calls it day-to-day. Priced as a coin flip between Jackson (+3.3) and Tyler Huntley (-2.0). First official report Wednesday.",
-   "schedule_projected_starter": "Lamar Jackson",
-   "value_override": 0.68,
-   "extra_sd": 1.5
+   "notes": "Lamar Jackson (left ankle, walking boot) did not practice all week and the schedule file now lists Tyler Huntley as the starter; priced as Huntley (-2.0 vs Jackson +3.3 on the 2024-25 dropback value).",
+   "schedule_projected_starter": "Tyler Huntley",
+   "extra_sd": 0.5
   },
   "ATL": {
    "starter": "Michael Penix Jr.",

@@ -65,6 +65,27 @@ def official_report(season: int, week: int) -> list[dict]:
             for _, r in inj.iterrows()]
 
 
+def practice_report(season: int, week: int) -> list[dict]:
+    """Players who did not practice (latest listed day) on the midweek report, for teams whose game
+    designations are not yet published. Used as a Questionable fallback."""
+    path = C.RAW / f"injuries_{season}.csv"
+    if not path.exists():
+        return []
+    inj = pd.read_csv(path)
+    inj = inj[(inj.season == season) & (inj.week == week) & (inj.game_type == "REG")]
+    inj = inj[inj.practice_status.fillna("").str.startswith("Did Not Participate") & ~inj.report_status.isin(OFFICIAL_STATUS)]
+    return [{"team": r.team, "player": r.full_name, "position": r.position, "status": "Questionable",
+             "injury": f"did not practice midweek ({r.practice_primary_injury}); no game designation yet", "starter": True,
+             "source": "nflverse injuries file (practice report)"} for _, r in inj.iterrows()]
+
+
+def designations(week: int) -> dict:
+    """Optional data/research/wk{week}/designations.json: Friday statuses collected by hand. Its rows win
+    over the research files for the teams it covers; status "Active" clears a player to Probable."""
+    path = RESEARCH_ROOT / f"wk{week}" / "designations.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
     ovr = json.loads((C.MANUAL / "player_overrides.json").read_text())
     week_ovr = C.MANUAL / f"player_overrides_{season}_wk{week}.json"
@@ -143,8 +164,59 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                 best[k] = p
         e["players"] = sorted(best.values(), key=lambda p: (-sev[p["status"]], p["player"]))
         e["sources"] = sorted(set(e["sources"]))
+    # midweek practice report: DNP players missing from the file become Questionable (teams without designations only)
+    practice_rows = 0
+    for row in practice_report(season, week):
+        team = row["team"]
+        if team in official_by_team:
+            continue
+        e = teams.setdefault(team, {"players": [], "notes": [], "sources": []})
+        key = f"{row['player'][:1].lower()}|{_last(row['player'])}"
+        if any(f"{p['player'][:1].lower()}|{_last(p['player'])}" == key for p in e["players"]):
+            continue
+        rk = re.sub(r"[^a-z]", "", row["player"].lower())
+        if f"{team}|{row['player']}" in ovr.get("drop", []) or norm_pos(row["position"]) == "QB":
+            continue
+        new_row = {"player": row["player"], "position": norm_pos(row["position"]), "status": "Questionable", "starter": True, "star": False,
+                   "injury": row["injury"], "source": row["source"], "roster_status": "practice-report"}
+        new_row.update({k: v for k, v in match_override(team, row["player"], ovr["players"]).items() if k != "status"})
+        e["players"].append(new_row)
+        practice_rows += 1
+    # hand-collected Friday designations win over everything except the official nflverse designations
+    desig = designations(week)
+    desig_rows = 0
+    for team, info in desig.get("teams", {}).items():
+        if team in official_by_team:
+            continue
+        e = teams.setdefault(team, {"players": [], "notes": [], "sources": []})
+        by_key = {f"{p['player'][:1].lower()}|{_last(p['player'])}": p for p in e["players"]}
+        for d in info.get("injuries", []):
+            name = (d.get("player") or "").strip()
+            if not name or f"{team}|{name}" in ovr.get("drop", []):
+                continue
+            status = STATUS_NORMALISE.get((d.get("status") or "").lower(), d.get("status") or "Questionable")
+            if status == "Active":
+                status = "Probable"
+            if status not in C.MISS_PROBABILITY:
+                continue
+            key = f"{name[:1].lower()}|{_last(name)}"
+            note = f"Friday designation: {d.get('injury', '')}".strip()
+            if key in by_key:
+                p = by_key[key]
+                if p["status"] in ("IR", "PUP", "NFI", "Suspended") and status in ("Probable", "Questionable", "Doubtful", "Out") and not d.get("activated"):
+                    continue  # reserve-list players stay unless the designation says they were activated
+                p["status"], p["injury"], p["source"] = status, f"{p.get('injury', '')} | {note}", d.get("source", p.get("source", ""))
+            else:
+                row = {"player": name, "position": norm_pos(d.get("position", "")), "status": status, "starter": bool(d.get("starter", True)),
+                       "star": False, "injury": note, "source": d.get("source", ""), "roster_status": "friday-designation"}
+                row.update({k: v for k, v in match_override(team, name, ovr["players"]).items() if k != "status"})
+                e["players"].append(row)
+                by_key[key] = row
+            desig_rows += 1
+        e["players"] = sorted(e["players"], key=lambda p: (-sev[p["status"]], p["player"]))
     collected = max([json.loads(f.read_text()).get("collected_on", "") for f in research_dir.glob("*.json")] or ["n/a"])
     out = {"season": season, "week": week, "collected_on": collected, "official_report_rows": len(official),
+           "practice_fallback_rows": practice_rows, "friday_designation_rows": desig_rows,
            "method": f"web search summaries (data/research/wk{week}) plus the official nflverse injury report when published, cross-checked with roster status codes", "warnings": warnings, "teams": teams}
     (C.MANUAL / f"injuries_{season}_wk{week}.json").write_text(json.dumps(out, indent=2))
     return out
