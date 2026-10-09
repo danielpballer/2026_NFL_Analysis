@@ -87,6 +87,7 @@
   },
   "BAL|Zay Flowers": {
    "slot": "WR1",
+   "star": true,
    "starter": true
   },
   "BAL|Mark Andrews": {
@@ -925,6 +926,111 @@
    "slot": "EDGE",
    "star": true,
    "starter": true
+  },
+  "PHI|Marquise Brown": {
+   "slot": "WR2",
+   "starter": true
+  },
+  "PHI|Marcus Epps": {
+   "slot": "S",
+   "starter": true
+  },
+  "PHI|Drew Kendall": {
+   "slot": "C",
+   "starter": true
+  },
+  "CLE|Mike Hall Jr.": {
+   "slot": "DT",
+   "starter": true
+  },
+  "PIT|Michael Pittman Jr.": {
+   "slot": "WR1",
+   "star": true,
+   "starter": true
+  },
+  "IND|Charvarius Ward": {
+   "slot": "CB1",
+   "starter": true
+  },
+  "NE|Morgan Moses": {
+   "slot": "RT",
+   "starter": true
+  },
+  "NE|Rhamondre Stevenson": {
+   "slot": "RB1",
+   "starter": true
+  },
+  "MIN|Christian Darrisaw": {
+   "slot": "LT",
+   "star": true,
+   "starter": true
+  },
+  "MIN|Brian O'Neill": {
+   "slot": "RT",
+   "starter": true
+  },
+  "MIN|Jordan Addison": {
+   "slot": "WR2",
+   "starter": true
+  },
+  "BAL|Cam Jurgens": {
+   "slot": "C",
+   "star": true,
+   "starter": true
+  },
+  "GB|Jacob Monk": {
+   "slot": "C",
+   "starter": true
+  },
+  "GB|Javon Hargrave": {
+   "slot": "DT",
+   "starter": true
+  },
+  "WAS|Stefon Diggs": {
+   "slot": "WR2",
+   "starter": true
+  },
+  "WAS|Charles Omenihu": {
+   "slot": "EDGE",
+   "starter": true
+  },
+  "LAC|Trevor Penning": {
+   "slot": "G",
+   "starter": true
+  },
+  "LAC|Quentin Johnston": {
+   "slot": "WR2",
+   "starter": true
+  },
+  "LV|Ashton Jeanty": {
+   "slot": "RB1",
+   "star": true,
+   "starter": true
+  },
+  "ATL|Za'Darius Smith": {
+   "slot": "EDGE",
+   "starter": true
+  },
+  "ATL|Jake Matthews": {
+   "slot": "LT",
+   "starter": true
+  },
+  "LA|Davante Adams": {
+   "slot": "WR1",
+   "star": true,
+   "starter": true
+  },
+  "NYJ|Will McDonald IV": {
+   "slot": "EDGE",
+   "starter": true
+  },
+  "CHI|Kyle Monangai": {
+   "slot": "RB2",
+   "starter": false
+  },
+  "TEN|Carnell Tate": {
+   "slot": "WR2",
+   "starter": true
   }
  },
  "drop": [
@@ -964,6 +1070,10 @@
   "HOU|Graham Mertz",
   "LA|Stetson Bennett",
   "SEA|Jalen Milroe",
-  "NYG|Jake Haener"
+  "NYG|Jake Haener",
+  "CHI|Caleb Williams",
+  "LAC|Trey Lance",
+  "CLE|Dillon Gabriel",
+  "LA|Davante Adams Jr."
  ]
 }

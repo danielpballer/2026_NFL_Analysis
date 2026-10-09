@@ -110,14 +110,14 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     shift_text=(f"The other thirteen picks hold at any weighting, but their probabilities move. Pure data is more confident in {', '.join(up)}, and less confident in {', '.join(down)}, where the market's number is the main reason the favorite is priced so heavily.")
     vrows = []
     for l in value:
-        if l["ev_per_dollar"] <= 0.02:
+        if l["ev_per_dollar"] <= 0.02 or l.get("played"):
             continue
         mlt = f"+{l['market_ml']}" if l["market_ml"] > 0 else str(l["market_ml"])
         tag = "pick" if l["is_pick"] else "underdog"
         vrows.append(f"<tr><td>{l['side']} {mlt} ({l['matchup']})<span class='pickmark'>{tag}</span></td>"
                      f"<td class='num'>{l['model_p']:.0%}</td><td class='num'>{mlt}</td><td class='num'>{l['implied_p']:.0%}</td>"
                      f"<td class='num pos'>{l['ev_per_dollar']:+.0%}</td><td class='num'>{l['quarter_kelly']:.1%}</td></tr>")
-    favs = [l for l in value if l["is_pick"] and l["model_p"] >= 0.7]
+    favs = [l for l in value if l["is_pick"] and l["model_p"] >= 0.7 and not l.get("played")]
     fp = 1.0; fd = 1.0
     for l in favs:
         fp *= l["model_p"]; fd *= (1 + l["market_ml"] / 100) if l["market_ml"] > 0 else (1 + 100 / -l["market_ml"])

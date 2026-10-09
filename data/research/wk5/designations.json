@@ -1,0 +1,1999 @@
+{
+ "collected_on": "2026-10-09",
+ "search_calls_used": 40,
+ "report_status": {
+  "2026_05_PHI_JAX": "friday report found",
+  "2026_05_CHI_GB": "friday report found",
+  "2026_05_CIN_MIA": "friday report found",
+  "2026_05_LV_NE": "friday report found",
+  "2026_05_MIN_NO": "friday report found",
+  "2026_05_CLE_NYJ": "friday report found",
+  "2026_05_IND_PIT": "friday report found",
+  "2026_05_HOU_TEN": "friday report found (partial: Dell out, Hooker out, Tate questionable; OL questionable names not captured)",
+  "2026_05_NYG_WAS": "friday report found",
+  "2026_05_DEN_LAC": "friday report found",
+  "2026_05_DET_ARI": "friday report found",
+  "2026_05_SF_SEA": "friday report found",
+  "2026_05_BAL_ATL": "friday report found",
+  "2026_05_BUF_LA": "not yet published (MNF; designations expected Saturday Oct 10; latest is Thursday Oct 8 practice report)"
+ },
+ "qb_notes": {
+  "BAL": "Lamar Jackson (ankle sprain) ruled OUT Friday Oct 9 by HC Jesse Minter; Tyler Huntley starts SNF at ATL (17th career start, 5-6 as Ravens starter).",
+  "WAS": "Jayden Daniels (elbow dislocation Wk2) full participant Wed-Fri, no designation; Dan Quinn confirmed Friday he starts vs NYG. Backup Marcus Mariota (knee) is OUT.",
+  "SEA": "Sam Darnold not on Seattle's Friday designation list (Boyle full list: Charbonnet, Charles, Neal, Surratt out; Holani questionable); expected to start vs SF.",
+  "CHI": "Caleb Williams (hamstring, since Wk2) limited Friday and listed QUESTIONABLE vs GB; no backup-starting report found.",
+  "CIN": "Not a QB issue, but Chase (concussion) and Higgins (groin/neck) both QUESTIONABLE after full Friday practice; Chase can clear protocol Saturday.",
+  "LAC": "Trey Lance (backup) DOUBTFUL; Justin Herbert not on report.",
+  "NO": "Tyler Shough limited during the week, no designation found.",
+  "CLE": "Dillon Gabriel ruled OUT (backup)."
+ },
+ "teams": {
+  "PHI": {
+   "injuries": [
+    {
+     "player": "Saquon Barkley",
+     "position": "RB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "DeVonta Smith",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Marquise Brown",
+     "position": "WR",
+     "status": "Out",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Marcus Epps",
+     "position": "S",
+     "status": "Out",
+     "injury": "groin; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Drew Kendall",
+     "position": "C",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Jonathan Greenard",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "ankle; Friday designation (2026-10-09); one outlet says on track to miss 3rd game",
+     "starter": true,
+     "source": "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/186172/eagles-jaguars-final-injury-report-saquon-barkley-devonta-smith-among-players-ruled-out"
+    },
+    {
+     "player": "Dallas Goedert",
+     "position": "TE",
+     "status": "Active",
+     "injury": "knee; back after missing two games; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Zack Baun",
+     "position": "LB",
+     "status": "Active",
+     "injury": "concussion; cleared protocol; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.philadelphiaeagles.com/news/eagles-at-jaguars-injury-report-2026-nfl-week-5-london-international-game-saquon-barkley-devonta-smith"
+    },
+    {
+     "player": "Jalen Hurts",
+     "position": "QB",
+     "status": "Active",
+     "injury": "calf; added midweek, full participant Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/186172/eagles-jaguars-final-injury-report-saquon-barkley-devonta-smith-among-players-ruled-out"
+    },
+    {
+     "player": "Quinyon Mitchell",
+     "position": "CB",
+     "status": "Active",
+     "injury": "knee; limited midweek; listed without game status on Friday (2026-10-09) per Inside the Iggles table",
+     "starter": true,
+     "source": "https://insidetheiggles.com/eagles-vs-jaguars-week-5-tracker-injury-reports-top-storylines-and-must-see-quotes"
+    },
+    {
+     "player": "Lane Johnson",
+     "position": "OT",
+     "status": "IR",
+     "injury": "retired this week per reports (2026-10-09); not on roster",
+     "starter": true,
+     "source": "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/186172/eagles-jaguars-final-injury-report-saquon-barkley-devonta-smith-among-players-ruled-out"
+    },
+    {
+     "player": "Dontayvion Wicks",
+     "position": "WR",
+     "status": "Active",
+     "injury": "hamstring (injured Wed); available per Inquirer (2026-10-09)",
+     "starter": false,
+     "source": "https://www.inquirer.com/eagles/saquon-barkley-devonta-smith-injury-report-nfl-week-5-jaguars-20261009.html"
+    }
+   ]
+  },
+  "JAX": {
+   "injuries": [
+    {
+     "player": "Jaylon Jones",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    },
+    {
+     "player": "Eric Murray",
+     "position": "S",
+     "status": "Doubtful",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    },
+    {
+     "player": "Jourdan Lewis",
+     "position": "CB",
+     "status": "Active",
+     "injury": "no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    },
+    {
+     "player": "Anton Harrison",
+     "position": "OT",
+     "status": "Active",
+     "injury": "no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    },
+    {
+     "player": "Josh Hines-Allen",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    },
+    {
+     "player": "Caleb Ransaw",
+     "position": "CB",
+     "status": "Active",
+     "injury": "not mentioned on any Friday report found (2026-10-09); treat as no designation (unverified)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/jaguars/onsi/jacksonville-gain-some-key-edges-over-eagles-in-final-week-5-injury-report"
+    }
+   ]
+  },
+  "CHI": {
+   "injuries": [
+    {
+     "player": "Caleb Williams",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "hamstring; limited Friday; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Kyle Monangai",
+     "position": "RB",
+     "status": "Out",
+     "injury": "toe/thumb; ruled out by Ben Johnson (2026-10-09)",
+     "starter": true,
+     "source": "https://www.shawlocal.com/bears/2026/10/09/chicago-bears-injury-report-kyle-monangai-ruled-out-for-packers-in-week-5/"
+    },
+    {
+     "player": "Kyler Gordon",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "calf; designated to return from IR/PUP this week, full participant Friday, NOT yet confirmed activated; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Joe Thuney",
+     "position": "G",
+     "status": "Active",
+     "injury": "DNP Wed, limited Thu, reported full Fri; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Jonah Jackson",
+     "position": "G",
+     "status": "Active",
+     "injury": "DNP Wed, limited Thu, full Fri; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "D'Andre Swift",
+     "position": "RB",
+     "status": "Active",
+     "injury": "DNP Wed, limited Thu, Fri full/limited (sources conflict); no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Darnell Wright",
+     "position": "OT",
+     "status": "Active",
+     "injury": "DNP Wed, limited Thu, Fri full/limited (sources conflict); no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Noah Sewell",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Dayo Turner",
+     "position": "DL",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://athlonsports.com/nfl/chicago-bears/bears-packers-final-injury-report-game-day-status-for-week-5"
+    }
+   ]
+  },
+  "GB": {
+   "injuries": [
+    {
+     "player": "Aaron Banks",
+     "position": "G",
+     "status": "Doubtful",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-list-three-questionable-two-doubtful-vs-bears-week-5-injury-report"
+    },
+    {
+     "player": "Jacob Monk",
+     "position": "C",
+     "status": "Doubtful",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-list-three-questionable-two-doubtful-vs-bears-week-5-injury-report"
+    },
+    {
+     "player": "Chris Brooks",
+     "position": "RB",
+     "status": "Out",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.packers.com/news/packers-list-three-questionable-two-doubtful-vs-bears-week-5-injury-report"
+    },
+    {
+     "player": "Javon Hargrave",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "toe; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-list-three-questionable-two-doubtful-vs-bears-week-5-injury-report"
+    },
+    {
+     "player": "Lukas Van Ness",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "shoulder; limited all week; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-bears-injury-report-oct-8-2026"
+    },
+    {
+     "player": "Devonte Wyatt",
+     "position": "DT",
+     "status": "Active",
+     "injury": "ankle; limited all week; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-bears-injury-report-oct-8-2026"
+    }
+   ]
+  },
+  "CIN": {
+   "injuries": [
+    {
+     "player": "Ja'Marr Chase",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "concussion; still in protocol, full participant Friday, can clear Saturday; Zac Taylor says likely plays if cleared; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Tee Higgins",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "groin/adductor + neck; full participant Friday; game-time decision; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Kyle Dugger",
+     "position": "S",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Bryan Cook",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Swayze Bozeman",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "groin; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Colbie Young",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/201731/dolphins-injury-report-jamarr-chase-tee-higgins-bryan-cook"
+    },
+    {
+     "player": "Jonathan Allen",
+     "position": "DT",
+     "status": "Active",
+     "injury": "knee/rest; not practicing midweek; not among Friday designations in any source (2026-10-09) - Friday participation inconsistent; unverified",
+     "starter": true,
+     "source": "https://www.bengals.com/news/bengals-dolphins-week-5-2026-injury-report"
+    },
+    {
+     "player": "Dexter Lawrence",
+     "position": "DT",
+     "status": "Active",
+     "injury": "wrist; limited Wed/Thu; not among Friday designations in any source (2026-10-09); Friday participation not found; unverified",
+     "starter": true,
+     "source": "https://www.bengals.com/news/bengals-dolphins-week-5-2026-injury-report"
+    }
+   ]
+  },
+  "MIA": {
+   "injuries": [
+    {
+     "player": "Reese Taylor",
+     "position": "CB",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Caleb Douglas",
+     "position": "WR",
+     "status": "Out",
+     "injury": "ankle; third straight miss; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Rob Beal Jr.",
+     "position": "EDGE",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Justin Joly",
+     "position": "TE",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Kenneth Grant",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "toe; full participant Friday after limited Wed/Thu; activation not confirmed; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Storm Duck",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Jaylen Wright",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "foot; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Jackson Woodard",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/dolphins/onsi/how-the-final-week-5-injury-report-didn-t-provide-much-good-news-for-miami-01m4h5a1ps0s"
+    },
+    {
+     "player": "Austin Jackson",
+     "position": "OT",
+     "status": "Active",
+     "injury": "knee; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.miamidolphins.com/news/injury-report-week-5-dolphins-vs-bengals"
+    },
+    {
+     "player": "Dante Trader Jr.",
+     "position": "S",
+     "status": "Active",
+     "injury": "shin; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.miamidolphins.com/news/injury-report-week-5-dolphins-vs-bengals"
+    }
+   ]
+  },
+  "NE": {
+   "injuries": [
+    {
+     "player": "Christian Gonzalez",
+     "position": "CB",
+     "status": "Out",
+     "injury": "shoulder; second straight game; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Carlton Davis III",
+     "position": "CB",
+     "status": "Out",
+     "injury": "neck; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Mack Hollins",
+     "position": "WR",
+     "status": "Out",
+     "injury": "calf; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Reggie Gilliam",
+     "position": "FB",
+     "status": "Out",
+     "injury": "ankle/knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Karon Prunty",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Channing Canada",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Christian Barmore",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "shoulder; missed 3 practices then full Friday; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Rhamondre Stevenson",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Morgan Moses",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "foot; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Christian Elliss",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "chest; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Dre'Mont Jones",
+     "position": "DL",
+     "status": "Questionable",
+     "injury": "shoulder; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Charles Woods",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "shoulder; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    },
+    {
+     "player": "Craig Woodson",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "shoulder; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.patspulpit.com/new-england-patriots-news/140012/patriots-vs-raiders-friday-injury-report-christian-gonzalez-carlton-davis-iii-mack-hollins-six-ruled-out"
+    }
+   ]
+  },
+  "LV": {
+   "injuries": [
+    {
+     "player": "Jalen Nailor",
+     "position": "WR",
+     "status": "Out",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+    },
+    {
+     "player": "Dont'e Thornton Jr.",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+    },
+    {
+     "player": "Trey Zuhn III",
+     "position": "G",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+    },
+    {
+     "player": "Ashton Jeanty",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "ankle/foot per team report (CBS/NFL.com say hamstring); full Wed, limited Thu, DNP Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.raiders.com/news/las-vegas-raiders-new-england-patriots-week-5-injury-report-2026"
+    },
+    {
+     "player": "Brock Bowers",
+     "position": "TE",
+     "status": "Active",
+     "injury": "knee; full practice; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-eagles-saquon-barkley-devonta-smith-out/"
+    },
+    {
+     "player": "Jackson Powers-Johnson",
+     "position": "G/C",
+     "status": "Active",
+     "injury": "groin; full participant; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders"
+    }
+   ]
+  },
+  "MIN": {
+   "injuries": [
+    {
+     "player": "Christian Darrisaw",
+     "position": "OT",
+     "status": "Out",
+     "injury": "concussion; DNP all week; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Chuck Demmings",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Justin Jefferson",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "ankle; limited all three days; bye follows this game; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Jordan Addison",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Brian O'Neill",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Michael Jurgens",
+     "position": "OL",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Ben Yurosek",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    },
+    {
+     "player": "Aaron Jones",
+     "position": "RB",
+     "status": "Active",
+     "injury": "rest only (limited Wed); not on Friday list (2026-10-09)",
+     "starter": true,
+     "source": "https://www.minnesotasportsfan.com/minnesota-vikings/vikings-final-injury-report-week-5-saints/"
+    }
+   ]
+  },
+  "NO": {
+   "injuries": [
+    {
+     "player": "Kaden Elliss",
+     "position": "LB",
+     "status": "Out",
+     "injury": "calf; DNP all week; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Alvin Kamara",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "back; DNP Wed, limited Thu/Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Chris Olave",
+     "position": "WR",
+     "status": "Active",
+     "injury": "rest/foot; full participant Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Noah Fant",
+     "position": "TE",
+     "status": "Active",
+     "injury": "abdomen; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Davon Godchaux",
+     "position": "DT",
+     "status": "Active",
+     "injury": "groin/rest; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Carl Granderson",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "ankle; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Anfernee Jennings",
+     "position": "LB",
+     "status": "Out",
+     "injury": "listed Out on CBS Week 5 report; Saints Friday table says 3 out (Elliss + 2 unnamed in snippet) - unverified",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-eagles-saquon-barkley-devonta-smith-out/"
+    },
+    {
+     "player": "Jeremiah Wright",
+     "position": "OL",
+     "status": "Out",
+     "injury": "listed Out on CBS Week 5 report; unverified against Saints Friday table",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-eagles-saquon-barkley-devonta-smith-out/"
+    },
+    {
+     "player": "Julian Blackmon",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Barion Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Jaylan Ford",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-friday"
+    },
+    {
+     "player": "Tyler Shough",
+     "position": "QB",
+     "status": "Active",
+     "injury": "limited in practice this week; no designation reported (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/saints/onsi/saints-injury-report-shough-limited-kamara-sidelined-ahead-of-vikings-01m4c8j54fy9"
+    }
+   ]
+  },
+  "CLE": {
+   "injuries": [
+    {
+     "player": "Mason Graham",
+     "position": "DT",
+     "status": "Out",
+     "injury": "knee (MCL sprain)/ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.clevelandbrowns.com/news/mason-graham-out-for-week-5-against-the-jets-injury-report"
+    },
+    {
+     "player": "Mike Hall Jr.",
+     "position": "DT",
+     "status": "Out",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.clevelandbrowns.com/news/mason-graham-out-for-week-5-against-the-jets-injury-report"
+    },
+    {
+     "player": "Kalia Davis",
+     "position": "DT",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.clevelandbrowns.com/news/mason-graham-out-for-week-5-against-the-jets-injury-report"
+    },
+    {
+     "player": "Teven Jenkins",
+     "position": "G",
+     "status": "Out",
+     "injury": "back; sixth straight miss; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.clevelandbrowns.com/news/mason-graham-out-for-week-5-against-the-jets-injury-report"
+    },
+    {
+     "player": "Tylan Wallace",
+     "position": "WR",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.clevelandbrowns.com/news/mason-graham-out-for-week-5-against-the-jets-injury-report"
+    },
+    {
+     "player": "Dillon Gabriel",
+     "position": "QB",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Carsen Ryan",
+     "position": "TE",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Elgton Jenkins",
+     "position": "C",
+     "status": "Active",
+     "injury": "concussion; full participant Wed/Thu, not on Friday out list; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.newyorkjets.com/news/jets-injury-report-week-5-vs-browns-thursday-10-07-20268"
+    }
+   ]
+  },
+  "NYJ": {
+   "injuries": [
+    {
+     "player": "Breece Hall",
+     "position": "RB",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Adonai Mitchell",
+     "position": "WR",
+     "status": "Out",
+     "injury": "finger; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Dylan Parham",
+     "position": "OL",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Francisco Mauigoa",
+     "position": "LB",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Tim Patrick",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "groin; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Kingsley Enagbare",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Will McDonald IV",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "calf; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.dawgsbynature.com/cleveland-browns-news/134765/browns-vs-jets-injury-report-11-ruled-out-3-questionable-for-week-5"
+    },
+    {
+     "player": "Mason Taylor",
+     "position": "TE",
+     "status": "Active",
+     "injury": "thumb; full participant Wed/Thu; not among Friday designations; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.newyorkjets.com/news/jets-injury-report-week-5-vs-browns-thursday-10-07-20268"
+    },
+    {
+     "player": "Jarvis Brownlee",
+     "position": "CB",
+     "status": "Active",
+     "injury": "concussion; DNP Wed, limited Thu; not in Friday designation roundups (2026-10-09) - unverified",
+     "starter": true,
+     "source": "https://www.newyorkjets.com/news/jets-injury-report-week-5-vs-browns-thursday-10-07-20268"
+    }
+   ]
+  },
+  "IND": {
+   "injuries": [
+    {
+     "player": "Keenan Allen",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "NIR rest/groin; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Charvarius Ward",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "rest/groin; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Darius Slayton",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Arden Key",
+     "position": "DE",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Ashton Dulin",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Jaylon Carlies",
+     "position": "LB",
+     "status": "Out",
+     "injury": "ribs; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Will Mallory",
+     "position": "TE",
+     "status": "Out",
+     "injury": "thumb; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Jonathan Taylor",
+     "position": "RB",
+     "status": "Active",
+     "injury": "rest; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    },
+    {
+     "player": "Grover Stewart",
+     "position": "DT",
+     "status": "Active",
+     "injury": "not mentioned in any Friday report found (2026-10-09); unverified",
+     "starter": true,
+     "source": "https://steelersdepot.com/2026/10/colts-week-5-friday-injury-report-two-starters-ruled-out-three-more-questionable/"
+    }
+   ]
+  },
+  "PIT": {
+   "injuries": [
+    {
+     "player": "Michael Pittman Jr.",
+     "position": "WR",
+     "status": "Out",
+     "injury": "foot; missed final two practices; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Jamel Dean",
+     "position": "CB",
+     "status": "Out",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "DeShon Elliott",
+     "position": "S",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Jalen Ramsey",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "wrist; limited Thu/Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Rico Dowdle",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "toe; limited Thu/Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    },
+    {
+     "player": "Cameron Heyward",
+     "position": "DT",
+     "status": "Active",
+     "injury": "returned to full practice; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-colts-final-injury-report-game-day-status-for-week-5"
+    }
+   ]
+  },
+  "HOU": {
+   "injuries": [
+    {
+     "player": "Tank Dell",
+     "position": "WR",
+     "status": "Out",
+     "injury": "knee; 21-day IR practice window opened this week, DNP Friday; not activated; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-titans-week-5-injury-report-updates-on-tank-dell-azeez-al-shaair"
+    },
+    {
+     "player": "Azeez Al-Shaair",
+     "position": "LB",
+     "status": "Active",
+     "injury": "groin earlier in week; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-titans-week-5-injury-report-updates-on-tank-dell-azeez-al-shaair"
+    },
+    {
+     "player": "Nico Collins",
+     "position": "WR",
+     "status": "Active",
+     "injury": "NIR rest; limited Wed; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.houstontexans.com/news/week-5-injury-report-texans-at-titans"
+    },
+    {
+     "player": "Will Anderson Jr.",
+     "position": "DE",
+     "status": "Active",
+     "injury": "ankle; DNP Wed, limited Thu, full Fri per team site; no designation (2026-10-09) - single source",
+     "starter": true,
+     "source": "https://www.houstontexans.com/news/week-5-injury-report-texans-at-titans"
+    },
+    {
+     "player": "Trent Brown",
+     "position": "OT",
+     "status": "Active",
+     "injury": "NIR rest Wed; no game status found (2026-10-09); Friday participation not found - unverified",
+     "starter": true,
+     "source": "https://www.houstontexans.com/news/week-5-injury-report-texans-at-titans"
+    },
+    {
+     "player": "Blake Fisher",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "SI notes 'several Texans offensive linemen questionable' (2026-10-09) without naming them - unverified",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-titans-week-5-injury-report-updates-on-tank-dell-azeez-al-shaair"
+    },
+    {
+     "player": "Aireontae Ersery",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "SI notes 'several Texans offensive linemen questionable' (2026-10-09) without naming them - unverified",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-titans-week-5-injury-report-updates-on-tank-dell-azeez-al-shaair"
+    },
+    {
+     "player": "Ed Ingram",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "SI notes 'several Texans offensive linemen questionable' (2026-10-09) without naming them - unverified",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-titans-week-5-injury-report-updates-on-tank-dell-azeez-al-shaair"
+    }
+   ]
+  },
+  "TEN": {
+   "injuries": [
+    {
+     "player": "Amani Hooker",
+     "position": "S",
+     "status": "Out",
+     "injury": "concussion; still in protocol; ruled out by HC (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/titans-vs-texans-injury-rookie-200626403.html"
+    },
+    {
+     "player": "Carnell Tate",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "back; coach says 'good to go'; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/titans-vs-texans-injury-rookie-200626403.html"
+    },
+    {
+     "player": "Jeffery Simmons",
+     "position": "DT",
+     "status": "Active",
+     "injury": "back; DNP Wed, limited Thu, no game status on Thursday report; Friday status not found (2026-10-09) - unverified",
+     "starter": true,
+     "source": "https://www.tennesseetitans.com/news/week-5-injury-report-titans-vs-texans"
+    },
+    {
+     "player": "Tony Pollard",
+     "position": "RB",
+     "status": "Active",
+     "injury": "foot; DNP Wed; Friday status not found (2026-10-09) - unverified",
+     "starter": true,
+     "source": "https://www.tennesseetitans.com/news/week-5-injury-report-titans-vs-texans"
+    },
+    {
+     "player": "David Martin-Robinson",
+     "position": "TE",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": false,
+     "source": "https://www.tennesseetitans.com/news/week-5-injury-report-titans-vs-texans"
+    }
+   ]
+  },
+  "WAS": {
+   "injuries": [
+    {
+     "player": "Jayden Daniels",
+     "position": "QB",
+     "status": "Active",
+     "injury": "elbow; full all week; Dan Quinn confirmed Friday he starts (2026-10-09)",
+     "starter": true,
+     "source": "https://www.commanders.com/news/commanders-vs-giants-week-5-injury-report"
+    },
+    {
+     "player": "Stefon Diggs",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Terry McLaurin",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "hamstring; DNP Wed/Thu, limited Fri; 'trending right direction'; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Charles Omenihu",
+     "position": "DE",
+     "status": "Out",
+     "injury": "groin/ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Marcus Mariota",
+     "position": "QB",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Percy Butler",
+     "position": "S",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Nick Cross",
+     "position": "S",
+     "status": "Out",
+     "injury": "illness; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Tyler Owens",
+     "position": "S",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Trey Amos",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "would need roster activation first; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Jeremy McNichols",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "would need roster activation; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Deatrich Wise Jr.",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "would need roster activation; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Frankie Luvu",
+     "position": "LB",
+     "status": "Active",
+     "injury": "limited to full; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-final-injury-report-terry-mclaurin-stefon-diggs-giants-week-5"
+    },
+    {
+     "player": "Nick Allegretti",
+     "position": "G",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": true,
+     "source": "https://www.commanders.com/news/commanders-vs-giants-week-5-injury-report"
+    }
+   ]
+  },
+  "NYG": {
+   "injuries": [
+    {
+     "player": "Jason Pinnock",
+     "position": "S",
+     "status": "Out",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo"
+    },
+    {
+     "player": "Chauncey Golston",
+     "position": "DL",
+     "status": "Out",
+     "injury": "neck; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo"
+    },
+    {
+     "player": "Malik Nabers",
+     "position": "WR",
+     "status": "Active",
+     "injury": "knee; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo"
+    },
+    {
+     "player": "Andrew Thomas",
+     "position": "OT",
+     "status": "Active",
+     "injury": "groin; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo"
+    },
+    {
+     "player": "Cam Skattebo",
+     "position": "RB",
+     "status": "Active",
+     "injury": "shoulder; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-5-injury-report-malik-nabers-andrew-thomas-cam-skattebo"
+    }
+   ]
+  },
+  "DEN": {
+   "injuries": [
+    {
+     "player": "Pat Surtain II",
+     "position": "CB",
+     "status": "Out",
+     "injury": "ankle; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.milehighreport.com/denver-broncos-injuries/188138/broncos-vs-chargers-injury-report-week-5"
+    },
+    {
+     "player": "Riley Moss",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.milehighreport.com/denver-broncos-injuries/188138/broncos-vs-chargers-injury-report-week-5"
+    },
+    {
+     "player": "Pat Bryant",
+     "position": "WR",
+     "status": "IR",
+     "injury": "placed on short-term IR (2026-10-09)",
+     "starter": false,
+     "source": "https://www.milehighreport.com/denver-broncos-injuries/188138/broncos-vs-chargers-injury-report-week-5"
+    },
+    {
+     "player": "D.J. Jones",
+     "position": "DT",
+     "status": "Active",
+     "injury": "NIR rest; limited Thu, full Fri; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.milehighreport.com/denver-broncos-injuries/188138/broncos-vs-chargers-injury-report-week-5"
+    },
+    {
+     "player": "Adam Trautman",
+     "position": "TE",
+     "status": "Active",
+     "injury": "appeared on Wednesday report; no Friday designation found (2026-10-09) - unverified",
+     "starter": false,
+     "source": "https://www.si.com/nfl/broncos/onsi/adam-trautman-broncos-chargers-injury-report"
+    }
+   ]
+  },
+  "LAC": {
+   "injuries": [
+    {
+     "player": "Rashawn Slater",
+     "position": "OT",
+     "status": "IR",
+     "injury": "ankle surgery Thursday; placed on IR Friday (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/chargers-week-5-injury-report-211605079.html"
+    },
+    {
+     "player": "Joe Alt",
+     "position": "OT",
+     "status": "Out",
+     "injury": "neck; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Derwin James",
+     "position": "S",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Donte Jackson",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Trevor Penning",
+     "position": "OL",
+     "status": "Out",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/chargers-week-5-injury-report-211605079.html"
+    },
+    {
+     "player": "Kayode Awosika",
+     "position": "G",
+     "status": "Out",
+     "injury": "fibula; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/chargers-week-5-injury-report-211605079.html"
+    },
+    {
+     "player": "Quentin Johnston",
+     "position": "WR",
+     "status": "Out",
+     "injury": "chest; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Brenen Thompson",
+     "position": "WR",
+     "status": "Out",
+     "injury": "quad; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/chargers-week-5-injury-report-211605079.html"
+    },
+    {
+     "player": "Ladd McConkey",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "foot; did not practice this week; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Charlie Kolar",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "forearm; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    },
+    {
+     "player": "Trey Lance",
+     "position": "QB",
+     "status": "Doubtful",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.chargers.com/news/injury-report-mcconkey-johnston-alt-week-5-broncos"
+    }
+   ]
+  },
+  "DET": {
+   "injuries": [
+    {
+     "player": "Brian Branch",
+     "position": "S",
+     "status": "Out",
+     "injury": "Achilles; returned to practice from PUP Oct 7 (limited), NOT activated; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.detroitlionspodcast.com/dlp-beat-bot/2026/10/09/lions-injury-status-week-5/"
+    },
+    {
+     "player": "Rock Ya-Sin",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.detroitlionspodcast.com/dlp-beat-bot/2026/10/09/lions-injury-status-week-5/"
+    },
+    {
+     "player": "Ben Bartch",
+     "position": "G",
+     "status": "Out",
+     "injury": "foot; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.detroitlionspodcast.com/dlp-beat-bot/2026/10/09/lions-injury-status-week-5/"
+    },
+    {
+     "player": "Cade Mays",
+     "position": "C",
+     "status": "Out",
+     "injury": "wrist; limited; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.detroitlionspodcast.com/dlp-beat-bot/2026/10/09/lions-injury-status-week-5/"
+    },
+    {
+     "player": "Tyleik Williams",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "foot; limited Thu/Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.detroitlions.com/news/lions-at-cardinals-injury-report-oct-9-branch-mays-williams"
+    },
+    {
+     "player": "D.J. Wonnum",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "back; full Friday; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.detroitlions.com/news/lions-at-cardinals-injury-report-oct-9-branch-mays-williams"
+    }
+   ]
+  },
+  "ARI": {
+   "injuries": [
+    {
+     "player": "Walter Nolen",
+     "position": "DL",
+     "status": "Questionable",
+     "injury": "calf; added Thu, limited Thu/Fri; 'trending good'; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Karson Sharar",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Isaiah Adams",
+     "position": "OL",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Andrew Wingard",
+     "position": "S",
+     "status": "Out",
+     "injury": "Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Jeremiyah Love",
+     "position": "RB",
+     "status": "Active",
+     "injury": "limited Wed/Thu; cleared, no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Dadrion Taylor-Demerson",
+     "position": "S",
+     "status": "Active",
+     "injury": "back; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    },
+    {
+     "player": "Jordan Burch",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "personal; no game status on Friday report (2026-10-09); expected to play",
+     "starter": true,
+     "source": "https://www.si.com/nfl/cardinals/onsi/walter-nolen-headlines-final-arizona-cardinals-detroit-lions-week-5-injury-report"
+    }
+   ]
+  },
+  "SF": {
+   "injuries": [
+    {
+     "player": "Nick Bosa",
+     "position": "EDGE",
+     "status": "Out",
+     "injury": "knee/calf; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/"
+    },
+    {
+     "player": "Kyle Juszczyk",
+     "position": "FB",
+     "status": "Out",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/"
+    },
+    {
+     "player": "Upton Stout",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "shoulder; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/"
+    },
+    {
+     "player": "Mykel Williams",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "knee; second week of practice window, full Friday, eligible to play but activation not confirmed; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/"
+    },
+    {
+     "player": "Mike Evans",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Yardbarker headline says questionable but official list in same article omits him and says he practiced Friday (2026-10-09) - conflicting",
+     "starter": true,
+     "source": "https://www.yardbarker.com/nfl/articles/49ers_vs_seahawks_final_injury_report_stout_evans_questionable_for_week_5/s1_17111_44409539"
+    },
+    {
+     "player": "Marques Sigle",
+     "position": "S",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); NBC says four 49ers out (Bosa, Juszczyk + 2 unnamed in snippet) - unverified",
+     "starter": true,
+     "source": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/kyle-juszczyk-injury-report-seahawks/1969584/"
+    },
+    {
+     "player": "James Thompson",
+     "position": "DL",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": false,
+     "source": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/kyle-juszczyk-injury-report-seahawks/1969584/"
+    }
+   ]
+  },
+  "SEA": {
+   "injuries": [
+    {
+     "player": "Zach Charbonnet",
+     "position": "RB",
+     "status": "Out",
+     "injury": "knee; not activated; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Chazz Surratt",
+     "position": "LB",
+     "status": "Out",
+     "injury": "calf; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Julian Neal",
+     "position": "CB",
+     "status": "Out",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Irvin Charles",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "knee; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "George Holani",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "knee/ribs; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Leonard Williams",
+     "position": "DT",
+     "status": "Active",
+     "injury": "ankle; no game status, 'good to go' per John Boyle (2026-10-09)",
+     "starter": true,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Ernest Jones",
+     "position": "LB",
+     "status": "Active",
+     "injury": "not on Boyle's full Friday designation list (2026-10-09); treated as no designation",
+     "starter": true,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    },
+    {
+     "player": "Sam Darnold",
+     "position": "QB",
+     "status": "Active",
+     "injury": "not on Friday designation list (2026-10-09); expected starter",
+     "starter": true,
+     "source": "https://x.com/johnpboyle/status/2108655843529183249"
+    }
+   ]
+  },
+  "BAL": {
+   "injuries": [
+    {
+     "player": "Lamar Jackson",
+     "position": "QB",
+     "status": "Out",
+     "injury": "ankle sprain; DNP all week; Jesse Minter ruled him out Friday (2026-10-09); Tyler Huntley starts",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50141743/ravens-qb-lamar-jackson-huntley-start-snf-vs-falcons"
+    },
+    {
+     "player": "Trey Hendrickson",
+     "position": "EDGE",
+     "status": "Out",
+     "injury": "finger; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "Cam Jurgens",
+     "position": "C",
+     "status": "Out",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "Zay Flowers",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "foot; limited Fri; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "Andrew Vorhees",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "foot; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "Marlon Humphrey",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "hamstring/calf; Friday participation conflicts (LP vs DNP); Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "John Simpson",
+     "position": "G",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": true,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    },
+    {
+     "player": "Durham Smythe",
+     "position": "TE",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": false,
+     "source": "https://russellstreetreport.com/2026/10/09/injury-report/ravens-falcons-friday/"
+    }
+   ]
+  },
+  "ATL": {
+   "injuries": [
+    {
+     "player": "Yasir Abdullah",
+     "position": "EDGE",
+     "status": "Out",
+     "injury": "hamstring; only Falcon ruled out; Friday designation (2026-10-09)",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Za'Darius Smith",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "concussion; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Divine Deablo",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Samson Ebukam",
+     "position": "EDGE",
+     "status": "Questionable",
+     "injury": "hamstring; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Jake Matthews",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "groin; Friday participation conflicts (limited vs full); 199-game streak at stake; Friday designation (2026-10-09)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Drake London",
+     "position": "WR",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    },
+    {
+     "player": "Kyle Pitts",
+     "position": "TE",
+     "status": "Active",
+     "injury": "not mentioned in Friday reports found (2026-10-09); unverified",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/falcons-release-final-injury-report-172637801.html"
+    }
+   ]
+  },
+  "BUF": {
+   "injuries": [
+    {
+     "player": "DJ Moore",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "shoulder (re-aggravated); DNP Thursday Oct 8; MNF designations not yet published",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bills-dj-moore-injury-practice-222201392.html"
+    },
+    {
+     "player": "Ed Oliver",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "DNP Thursday Oct 8; listed questionable in Week 5 preview; MNF designations not yet published",
+     "starter": true,
+     "source": "https://www.si.com/betting/bills-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026"
+    },
+    {
+     "player": "Dee Alford",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "per SI Week 5 preview (date ~Oct 7-8); MNF designations not yet published",
+     "starter": true,
+     "source": "https://www.si.com/betting/bills-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026"
+    },
+    {
+     "player": "Christian Benford",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "per SI Week 5 preview (date ~Oct 7-8); MNF designations not yet published",
+     "starter": true,
+     "source": "https://www.si.com/betting/bills-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026"
+    },
+    {
+     "player": "T.J. Sanders",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "per SI Week 5 preview; MNF designations not yet published",
+     "starter": false,
+     "source": "https://www.si.com/betting/bills-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026"
+    },
+    {
+     "player": "Keon Coleman",
+     "position": "WR",
+     "status": "Active",
+     "injury": "no current injury status found (Oct 7-9); active Week 4",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bills-dj-moore-injury-practice-222201392.html"
+    },
+    {
+     "player": "Jordan Hancock",
+     "position": "CB",
+     "status": "IR",
+     "injury": "hamstring; placed on IR (reported ~Oct 7)",
+     "starter": false,
+     "source": "https://www.si.com/betting/bills-vs-rams-prediction-odds-spread-injuries-trends-for-nfl-week-5-2026"
+    }
+   ]
+  },
+  "LA": {
+   "injuries": [
+    {
+     "player": "Aaron Donald",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "back; missed Week 4; limited Thursday Oct 8; McVay 'hopeful'; MNF designations not yet published",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    },
+    {
+     "player": "Jaylen Watson",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "shoulder; limited Thursday Oct 8; McVay hopeful; MNF designations not yet published",
+     "starter": true,
+     "source": "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football"
+    },
+    {
+     "player": "Nate Landman",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "shoulder; DNP Thursday Oct 8; MNF designations not yet published",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    },
+    {
+     "player": "Colby Parkinson",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "knee/shoulder; limited Thursday Oct 8, missed Week 4; MNF designations not yet published",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    },
+    {
+     "player": "Davante Adams",
+     "position": "WR",
+     "status": "Active",
+     "injury": "veteran rest only (Thursday Oct 8)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    },
+    {
+     "player": "Konata Mumpfield",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "listed questionable in early-week report; MNF designations not yet published",
+     "starter": false,
+     "source": "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football"
+    },
+    {
+     "player": "Terrance Ferguson",
+     "position": "TE",
+     "status": "IR",
+     "injury": "ankle; placed on IR this week",
+     "starter": false,
+     "source": "https://www.therams.com/news/rams-injury-updates-bills-week-5-2026-jaylen-watson-aaron-donald-terrance-ferguson-monday-night-football"
+    },
+    {
+     "player": "Quentin Lake",
+     "position": "S",
+     "status": "Active",
+     "injury": "not mentioned in Oct 7-9 reports found; unverified",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    },
+    {
+     "player": "Josaiah Stewart",
+     "position": "EDGE",
+     "status": "Active",
+     "injury": "not mentioned in Oct 7-9 reports found; unverified",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/rams-bills-injury-report-updates-004336766.html"
+    }
+   ]
+  }
+ },
+ "activations": [
+  "CHI Kyler Gordon: designated to return from IR/PUP this week (one of three Bears designated), full practice Friday, listed QUESTIONABLE - roster activation NOT confirmed as of Oct 9",
+  "DET Brian Branch: returned to practice from PUP Oct 7 (limited), listed OUT Friday - not activated",
+  "SF Mykel Williams: second week of practice window, full Friday, QUESTIONABLE, 'eligible to play' - activation not confirmed",
+  "HOU Tank Dell: 21-day window opened this week, DNP Friday, OUT - not activated; Braden Smith activation not found",
+  "SEA Zach Charbonnet: OUT (knee) - not activated",
+  "MIA Kenneth Grant: QUESTIONABLE (toe), full Friday - activation not confirmed",
+  "LAC Rashawn Slater placed on IR Oct 9 after ankle surgery",
+  "DEN Pat Bryant placed on short-term IR (reported Oct 9)",
+  "LA Terrance Ferguson placed on IR (ankle) this week",
+  "BUF Jordan Hancock placed on IR (hamstring) this week"
+ ],
+ "unverified": [
+  "GB Edgerrin Cooper IR move - no Oct 7-9 result mentioned it",
+  "GB Josh Jacobs exempt list status - no Oct 7-9 result mentioned him",
+  "CIN Jonathan Allen (knee/rest) and Dexter Lawrence (wrist) - Friday participation not found; not listed among Friday designations, so treated Active",
+  "HOU Trent Brown, Blake Fisher, Aireontae Ersery, Ed Ingram - SI said several HOU OL questionable without naming them; Trent Brown was NIR-rest Wed. Braden Smith activation not found",
+  "TEN Jeffery Simmons (back, LP Thu, no designation Thu), Tony Pollard (foot, DNP Wed), David Martin-Robinson - Friday status not found",
+  "IND Grover Stewart - not mentioned",
+  "LV Jackson Powers-Johnson - full participant, no game status per Patriots.com listing (reasonably solid)",
+  "NO Anfernee Jennings / Jeremiah Wright listed OUT on CBS roundup; Saints Friday table says 3 out, 6 questionable but names beyond Elliss not captured",
+  "NYJ Jarvis Brownlee (concussion) - limited Thu, not in Friday roundups",
+  "WAS Nick Allegretti - not mentioned",
+  "BAL John Simpson, Durham Smythe - not mentioned in Friday report snippets",
+  "ATL Drake London, Kyle Pitts - not mentioned in Falcons final report snippets (likely no designation)",
+  "SF Mike Evans - headline says questionable, list omits him, practiced Friday; Marques Sigle / James Thompson not mentioned; NBC says four 49ers out but only Bosa and Juszczyk named",
+  "DEN Adam Trautman - on Wednesday report, Friday status not found",
+  "LA Quentin Lake, Josaiah Stewart - not mentioned; BUF/LA official designations not out until Saturday",
+  "CHI Thuney/Jackson/Swift/Wright - Friday participation conflicts (full vs limited) across outlets, but no game status reported",
+  "Beat-report oddities in snippets: Giants coach cited as 'John Harbaugh', Titans HC cited as 'Robert Saleh', Cardinals HC 'Jonathan LaFleur' - taken as-is from sources"
+ ]
+}

@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import json
 
+import pandas as pd
+
 from . import config as C
 from .simulate import simulate_game
 
@@ -31,6 +33,10 @@ def value_table(rows: list[dict]) -> list[dict]:
 def main():
     rows = json.load(open(C.OUTPUT / f"week{C.WEEK}_{C.SEASON}_predictions.json"))
     legs = value_table(rows)
+    g = pd.read_csv(C.RAW / "games.csv", low_memory=False)
+    played = set(g[(g.season == C.SEASON) & (g.week == C.WEEK) & g.result.notna()].game_id)
+    for l in legs:
+        l["played"] = l["game_id"] in played
     vpath = C.OUTPUT / f"week{C.WEEK}_{C.SEASON}_value.json"
     vpath.write_text(json.dumps(legs, indent=2))
     print(f"wrote {vpath}; positive-EV sides: {[(l['side'], l['market_ml']) for l in legs if l['ev_per_dollar'] > 0.02]}")

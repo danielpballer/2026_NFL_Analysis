@@ -112,17 +112,17 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
    <h1>Week 5 Slate</h1>
    <p class="lede">15 games, each simulated 20,000 times from team ratings (opponent-adjusted 2025 efficiency, updated with every 2026 game played), this week's quarterbacks, injuries and player status, coaching changes, venue and weather, blended with the market line. The blue bar starts on the picked team's side and shows that team's win probability; the grey marker is the market's probability for the same team with the vig removed, so a bar that reaches past the marker means the model likes the pick more than the book does. Click any game for the reasoning.</p>
   </div>
-  <div class="tiers"><span class="chip t-high"><b>2</b> High</span><span class="chip t-mod"><b>5</b> Moderate</span><span class="chip t-lean"><b>3</b> Lean</span><span class="chip t-flip"><b>4</b> Coin flip</span></div>
+  <div class="tiers"><span class="chip t-high"><b>3</b> High</span><span class="chip t-mod"><b>6</b> Moderate</span><span class="chip t-lean"><b>3</b> Lean</span><span class="chip t-flip"><b>3</b> Coin flip</span></div>
  </header>
  <section class="split">
-  <div class="split-h"><h2>If the market had no vote</h2><span>Every prediction blends the model's own margin (57%) with the market spread (43%); the market's share falls as the season's own data accumulates. Run the data alone and 4 picks flip.</span></div>
-  <div class="tbl"><table class="bt flips"><tr><th>Game</th><th>Published pick (blend)</th><th>Pure data</th><th>Market only</th><th>Why the data leans the other way</th></tr><tr><td>CLE at NYJ</td><td><b>NYJ</b> 53%</td><td><b>CLE</b> 51%</td><td><b>NYJ</b> 58%</td><td></td></tr><tr><td>IND at PIT</td><td><b>PIT</b> 52%</td><td><b>IND</b> 54%</td><td><b>PIT</b> 60%</td><td></td></tr><tr><td>NYG at WAS</td><td><b>WAS</b> 52%</td><td><b>NYG</b> 55%</td><td><b>WAS</b> 61%</td><td></td></tr><tr><td>BAL at ATL</td><td><b>ATL</b> 53%</td><td><b>BAL</b> 54%</td><td><b>ATL</b> 61%</td><td></td></tr></table></div>
-  <p class="split-note">The other thirteen picks hold at any weighting, but their probabilities move. Pure data is more confident in MIN 69% to 76%, JAX 81% to 86%, SEA 64% to 68%, and less confident in DAL 71% to 65%, DET 62% to 58%, where the market's number is the main reason the favorite is priced so heavily.</p>
+  <div class="split-h"><h2>If the market had no vote</h2><span>Every prediction blends the model's own margin (57%) with the market spread (43%); the market's share falls as the season's own data accumulates. Run the data alone and 2 picks flip.</span></div>
+  <div class="tbl"><table class="bt flips"><tr><th>Game</th><th>Published pick (blend)</th><th>Pure data</th><th>Market only</th><th>Why the data leans the other way</th></tr><tr><td>CLE at NYJ</td><td><b>NYJ</b> 52%</td><td><b>CLE</b> 52%</td><td><b>NYJ</b> 58%</td><td></td></tr><tr><td>NYG at WAS</td><td><b>WAS</b> 54%</td><td><b>NYG</b> 52%</td><td><b>WAS</b> 61%</td><td></td></tr></table></div>
+  <p class="split-note">The other thirteen picks hold at any weighting, but their probabilities move. Pure data is more confident in IND 51% to 59%, MIN 66% to 71%, JAX 80% to 84%, and less confident in DAL 71% to 65%, ATL 56% to 52%, where the market's number is the main reason the favorite is priced so heavily.</p>
  </section>
  <section class="split value">
   <div class="split-h"><h2>Where the model sees value</h2><span>Every side priced at the opening moneyline, ranked by expected value per dollar. The value is mostly on underdogs, not on the picks: several teams the model expects to win are still priced above what their probability justifies. Stakes are quarter-Kelly, a conservative sizing for an unvalidated model.</span></div>
-  <div class="tbl"><table class="bt vt"><tr><th>Bet</th><th>Model</th><th>Market ML</th><th>Implied</th><th>EV per $1</th><th>¼ Kelly stake</th></tr><tr><td>TB +370 (TB at DAL)<span class='pickmark'>underdog</span></td><td class='num'>29%</td><td class='num'>+370</td><td class='num'>21%</td><td class='num pos'>+37%</td><td class='num'>2.5%</td></tr><tr><td>TEN +295 (HOU at TEN)<span class='pickmark'>underdog</span></td><td class='num'>32%</td><td class='num'>+295</td><td class='num'>25%</td><td class='num pos'>+27%</td><td class='num'>2.3%</td></tr><tr><td>ARI +210 (DET at ARI)<span class='pickmark'>underdog</span></td><td class='num'>38%</td><td class='num'>+210</td><td class='num'>32%</td><td class='num pos'>+19%</td><td class='num'>2.3%</td></tr><tr><td>BAL +150 (BAL at ATL)<span class='pickmark'>underdog</span></td><td class='num'>47%</td><td class='num'>+150</td><td class='num'>40%</td><td class='num pos'>+18%</td><td class='num'>2.9%</td></tr><tr><td>MIN -142 (MIN at NO)<span class='pickmark'>pick</span></td><td class='num'>69%</td><td class='num'>-142</td><td class='num'>59%</td><td class='num pos'>+18%</td><td class='num'>6.2%</td></tr><tr><td>NYG +145 (NYG at WAS)<span class='pickmark'>underdog</span></td><td class='num'>48%</td><td class='num'>+145</td><td class='num'>41%</td><td class='num pos'>+17%</td><td class='num'>2.9%</td></tr><tr><td>MIA +280 (CIN at MIA)<span class='pickmark'>underdog</span></td><td class='num'>28%</td><td class='num'>+280</td><td class='num'>26%</td><td class='num pos'>+7%</td><td class='num'>0.7%</td></tr><tr><td>IND +124 (IND at PIT)<span class='pickmark'>underdog</span></td><td class='num'>48%</td><td class='num'>+124</td><td class='num'>45%</td><td class='num pos'>+7%</td><td class='num'>1.4%</td></tr><tr><td>LV +160 (LV at NE)<span class='pickmark'>underdog</span></td><td class='num'>41%</td><td class='num'>+160</td><td class='num'>38%</td><td class='num pos'>+6%</td><td class='num'>0.9%</td></tr><tr><td>SEA -162 (SF at SEA)<span class='pickmark'>pick</span></td><td class='num'>64%</td><td class='num'>-162</td><td class='num'>62%</td><td class='num pos'>+4%</td><td class='num'>1.7%</td></tr><tr><td>CHI -122 (CHI at GB)<span class='pickmark'>pick</span></td><td class='num'>56%</td><td class='num'>-122</td><td class='num'>55%</td><td class='num pos'>+3%</td><td class='num'>0.8%</td></tr><tr><td>JAX -380 (PHI at JAX)<span class='pickmark'>pick</span></td><td class='num'>81%</td><td class='num'>-380</td><td class='num'>79%</td><td class='num pos'>+2%</td><td class='num'>2.1%</td></tr></table></div>
-  <p class="split-note">Everything not listed is negative expected value at the opening price, including most heavy favorites. A parlay of the 3 High-confidence picks (JAX, CIN, DAL) hits about 41% of the time and pays 1.0 to 1, an expected return of -20%: parlays multiply the book's margin and the model's error together. Prices here are the nflverse opening lines; compare with current odds before acting, because the largest edges come from injury news the opening line did not know about.</p>
+  <div class="tbl"><table class="bt vt"><tr><th>Bet</th><th>Model</th><th>Market ML</th><th>Implied</th><th>EV per $1</th><th>¼ Kelly stake</th></tr><tr><td>TEN +295 (HOU at TEN)<span class='pickmark'>underdog</span></td><td class='num'>31%</td><td class='num'>+295</td><td class='num'>25%</td><td class='num pos'>+23%</td><td class='num'>1.9%</td></tr><tr><td>ARI +210 (DET at ARI)<span class='pickmark'>underdog</span></td><td class='num'>38%</td><td class='num'>+210</td><td class='num'>32%</td><td class='num pos'>+18%</td><td class='num'>2.1%</td></tr><tr><td>IND +124 (IND at PIT)<span class='pickmark'>pick</span></td><td class='num'>51%</td><td class='num'>+124</td><td class='num'>45%</td><td class='num pos'>+13%</td><td class='num'>2.7%</td></tr><tr><td>NYG +145 (NYG at WAS)<span class='pickmark'>underdog</span></td><td class='num'>46%</td><td class='num'>+145</td><td class='num'>41%</td><td class='num pos'>+13%</td><td class='num'>2.3%</td></tr><tr><td>MIN -142 (MIN at NO)<span class='pickmark'>pick</span></td><td class='num'>66%</td><td class='num'>-142</td><td class='num'>59%</td><td class='num pos'>+12%</td><td class='num'>4.2%</td></tr><tr><td>BAL +150 (BAL at ATL)<span class='pickmark'>underdog</span></td><td class='num'>44%</td><td class='num'>+150</td><td class='num'>40%</td><td class='num pos'>+10%</td><td class='num'>1.6%</td></tr><tr><td>CHI -122 (CHI at GB)<span class='pickmark'>pick</span></td><td class='num'>58%</td><td class='num'>-122</td><td class='num'>55%</td><td class='num pos'>+5%</td><td class='num'>1.5%</td></tr><tr><td>MIA +280 (CIN at MIA)<span class='pickmark'>underdog</span></td><td class='num'>28%</td><td class='num'>+280</td><td class='num'>26%</td><td class='num pos'>+5%</td><td class='num'>0.4%</td></tr><tr><td>SEA -162 (SF at SEA)<span class='pickmark'>pick</span></td><td class='num'>63%</td><td class='num'>-162</td><td class='num'>62%</td><td class='num pos'>+3%</td><td class='num'>1.1%</td></tr><tr><td>LV +160 (LV at NE)<span class='pickmark'>underdog</span></td><td class='num'>39%</td><td class='num'>+160</td><td class='num'>38%</td><td class='num pos'>+2%</td><td class='num'>0.3%</td></tr><tr><td>CLE +114 (CLE at NYJ)<span class='pickmark'>underdog</span></td><td class='num'>48%</td><td class='num'>+114</td><td class='num'>47%</td><td class='num pos'>+2%</td><td class='num'>0.5%</td></tr></table></div>
+  <p class="split-note">Everything not listed is negative expected value at the opening price, including most heavy favorites. A parlay of the 2 High-confidence picks (JAX, CIN) hits about 58% of the time and pays 0.6 to 1, an expected return of -6%: parlays multiply the book's margin and the model's error together. Prices here are the nflverse opening lines; compare with current odds before acting, because the largest edges come from injury news the opening line did not know about.</p>
  </section>
  <div class="legend"><span>Matchup (pick in dark)</span><span>Pick · confidence</span><span>Pick's win probability · ▾ market</span><span>Moneyline</span><span>Projected score</span><span style="text-align:right">vs market</span></div>
  <section class="win"><header class="win-h"><h2>Thursday, Oct 8</h2><span>Thursday Night Football</span></header>
@@ -136,7 +136,7 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
       <div class="edge num neg">-8.8%</div>
      </summary>
      <div class="why">
-      <p class="story">Thursday night under a closed roof in Arlington, with storms forecast outside. Tampa Bay starts undrafted rookie Jalon Daniels for the second time with Baker Mayfield&#x27;s thumb keeping him out at least two more weeks; Antoine Winfield Jr. is out with a rib fracture and Benjamin Morrison and SirVocea Dennis did not practice Monday. Dallas has its own holes: Cobie Durant and DeMarvion Overshown are out again, and Tyler Smith is only designated to return. The rookie quarterback costs the Bucs three points in the model, which has the Cowboys by 4.7; the market by 9.5. The blend lands at 6.8, a High-confidence Dallas pick, but the pure data says the 9.5 is too many and flags Tampa Bay at +370 as a longshot value.</p>
+      <p class="story">Played Thursday: Tampa Bay 24, Dallas 16. The pick (Cowboys, 71 percent) missed; the pure-data lean that the 9.5-point line was too many, and the Bucs +370 value flag, both paid. The row is frozen as published on Tuesday.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">DAL -1.7 · TB -3.0</span></div>
       <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">DAL -4.7 · TB -7.8</span></div>
       <div class="kv"><span>Quarterbacks</span><span>DAL Dak Prescott <span class="num">(+0.1)</span> · TB Jalon Daniels <span class="num">(-3.1)</span></span></div>
@@ -149,26 +149,26 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
       <div class="kv note"><span>Note</span><span>Undrafted rookie Jalon Daniels makes his second start (14 points vs Green Bay) with Mayfield (thumb) out at least two more weeks; Easton Stick is the backup. Short week in Dallas.</span></div>
      </div>
     </details></section><section class="win"><header class="win-h"><h2>Sunday, Oct 11</h2><span>Early window, 1:00 ET</span></header>
-    <details class="game t-vhigh">
+    <details class="game t-high">
      <summary>
       <div class="teams"><span class="tm ">PHI<small>Eagles</small></span><span class="at">vs</span><span class="tm pick">JAX<small>Jaguars</small></span></div>
-      <div class="pickcol"><span class="pk">JAX</span><span class="tier">Very High</span></div>
-      <div class="meter" title="Model: JAX 80.9%. Market (vig removed): JAX 76.0%."><span class="lbl l ">PHI 19%</span><div class="bar"><i class="fill r" style="width:80.9%"></i><b class="mid"></b><b class="mk" style="left:24.0%"></b></div><span class="lbl r pick">81% JAX</span></div>
-      <div class="odds"><span class="num">-424</span><small>fair</small><span class="num dim">-380</span><small>market</small></div>
-      <div class="score num">PHI 15 · JAX 26</div>
-      <div class="edge num pos">+4.9%</div>
+      <div class="pickcol"><span class="pk">JAX</span><span class="tier">High</span></div>
+      <div class="meter" title="Model: JAX 79.8%. Market (vig removed): JAX 76.0%."><span class="lbl l ">PHI 20%</span><div class="bar"><i class="fill r" style="width:79.8%"></i><b class="mid"></b><b class="mk" style="left:24.0%"></b></div><span class="lbl r pick">80% JAX</span></div>
+      <div class="odds"><span class="num">-394</span><small>fair</small><span class="num dim">-380</span><small>market</small></div>
+      <div class="score num">PHI 16 · JAX 26</div>
+      <div class="edge num pos">+3.7%</div>
      </summary>
      <div class="why">
-      <p class="story">London, with Jacksonville the designated home team. The schedule file calls it a Jaguars home game, but the model treats it as a neutral site and adds the international variance. Philadelphia arrives with the heaviest injury hit on the slate: Saquon Barkley and DeVonta Smith are both doubtful with hamstrings, Dallas Goedert is still out, Zack Baun is in concussion protocol, Quinyon Mitchell and Jonathan Greenard left the Rams game, and Lane Johnson missed last week. The Eagles have also played badly for a month (worst in-season performance in the league after four games), while Jacksonville is 3-1 after winning at Cincinnati. The model has the Jaguars by 13; the market by 6.5. The blend says 10, an 80 percent Jacksonville pick.</p>
+      <p class="story">London, with Jacksonville the designated home team; the model treats it as a neutral site with the international variance. Friday&#x27;s report confirmed the worst for Philadelphia: Saquon Barkley, DeVonta Smith, Marquise Brown, Marcus Epps and Drew Kendall are out, Lane Johnson has retired, Landon Dickerson is on IR, and Jonathan Greenard is questionable. Goedert, Baun and Hurts (calf) play. The Eagles have also had the worst four-game stretch in the league by the ratings. Jacksonville loses Jaylon Jones and probably Eric Murray. Model: Jaguars by 12.5; market 7.5; blend 10.3, an 80 percent Jacksonville pick.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">JAX +7.2 · PHI -1.8</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">JAX +5.9 · PHI -7.6</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">JAX +4.8 · PHI -7.7</span></div>
       <div class="kv"><span>Quarterbacks</span><span>JAX Trevor Lawrence <span class="num">(+0.0)</span> · PHI Jalen Hurts <span class="num">(+0.1)</span></span></div>
-      <div class="kv"><span>JAX injuries <span class="num">(-1.3)</span></span><span>B.J. Green (DE, IR) -0.17; Caleb Ransaw (S, IR) -0.40; Patrick Mekari (G, IR) -0.45; Eric Murray (S, Questionable) -0.18</span></div>
-      <div class="kv"><span>PHI injuries <span class="num">(-5.9)</span></span><span>Jakorian Bennett (CB, IR) -0.17; Landon Dickerson (G, IR) -0.79; Dallas Goedert (TE, Doubtful) -0.42; DeVonta Smith (WR, Doubtful) -0.82; Saquon Barkley (RB, Doubtful) -0.67; Jonathan Greenard (DE, Questionable) -0.36; Lane Johnson (OT, Questionable) -0.47; Quinyon Mitchell (CB, Questionable) -0.67; Zack Baun (LB, Questionable) -0.28; Marcus Epps (S, Questionable) -0.18; Marquise Brown (WR, Questionable) -0.25; Drew Kendall (C, Questionable) -0.23</span></div>
+      <div class="kv"><span>JAX injuries <span class="num">(-2.4)</span></span><span>B.J. Green (DE, IR) -0.17; Caleb Ransaw (S, IR) -0.40; Patrick Mekari (G, IR) -0.45; Jaylon Jones (CB, Out) -0.70; Eric Murray (S, Doubtful) -0.34</span></div>
+      <div class="kv"><span>PHI injuries <span class="num">(-6.0)</span></span><span>Jakorian Bennett (CB, IR) -0.17; Landon Dickerson (G, IR) -0.79; Lane Johnson (OT, IR) -1.05; DeVonta Smith (WR, Out) -0.96; Drew Kendall (C, Out) -0.50; Marcus Epps (S, Out) -0.40; Marquise Brown (WR, Out) -0.55; Saquon Barkley (RB, Out) -0.79; Jonathan Greenard (DE, Questionable) -0.36; Quinyon Mitchell (CB, Probable) -0.15</span></div>
       
       <div class="kv"><span>Venue and weather</span><span>Tottenham Hotspur Stadium, outdoors; benign, 59°F, wind 10 mph, 30% precip (low confidence). Home edge <span class="num">+0.0</span></span></div>
-      <div class="kv"><span>Margin, JAX side</span><span class="num">model +13.5 · market +7.5 · blended +10.9 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market JAX -380 / PHI +300 · model JAX -424 / PHI +424</span></div>
+      <div class="kv"><span>Margin, JAX side</span><span class="num">model +12.5 · market +7.5 · blended +10.3 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market JAX -380 / PHI +300 · model JAX -394 / PHI +394</span></div>
       
      </div>
     </details>
@@ -176,45 +176,45 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm pick">CHI<small>Bears</small></span><span class="at">at</span><span class="tm ">GB<small>Packers</small></span></div>
       <div class="pickcol"><span class="pk">CHI</span><span class="tier">Lean</span></div>
-      <div class="meter" title="Model: CHI 56.5%. Market (vig removed): CHI 52.6%."><span class="lbl l pick">CHI 56%</span><div class="bar"><i class="fill " style="width:56.5%"></i><b class="mid"></b><b class="mk" style="left:52.6%"></b></div><span class="lbl r ">44% GB</span></div>
-      <div class="odds"><span class="num">-130</span><small>fair</small><span class="num dim">-122</span><small>market</small></div>
+      <div class="meter" title="Model: CHI 57.7%. Market (vig removed): CHI 52.6%."><span class="lbl l pick">CHI 58%</span><div class="bar"><i class="fill " style="width:57.7%"></i><b class="mid"></b><b class="mk" style="left:52.6%"></b></div><span class="lbl r ">42% GB</span></div>
+      <div class="odds"><span class="num">-136</span><small>fair</small><span class="num dim">-122</span><small>market</small></div>
       <div class="score num">CHI 24 · GB 22</div>
-      <div class="edge num pos">+3.9%</div>
+      <div class="edge num pos">+5.0%</div>
      </summary>
      <div class="why">
-      <p class="story">Two injury-shredded NFC North rivals. Green Bay lost Edgerrin Cooper to a torn Achilles, has Josh Jacobs on the exempt list, and remains without Micah Parsons and Jayden Reed. Chicago starts Tyson Bagent for a third week with Caleb Williams out, is missing Braxton Jones and Jaylon Johnson, and may get Kyler Gordon back from PUP. The Packers&#x27; preseason edge has evaporated after a 2-2 start that the data grades as the second-worst four-game stretch in the league, while the Bears have outperformed. Both the model and the market have Chicago by 2.5 to 3 at Lambeau, a Lean.</p>
+      <p class="story">Green Bay is short-handed again: Edgerrin Cooper (Achilles) is done, Josh Jacobs is on the exempt list, Micah Parsons and Jayden Reed are out, and Aaron Banks and Jacob Monk are doubtful on the interior line. Chicago expects Tyson Bagent for a third start, although Caleb Williams was limited Friday and listed questionable; Kyler Gordon is questionable in his first eligible game off PUP. The Packers&#x27; preseason edge has gone after a 2-2 start the data grades poorly, and the market has moved from Bears by 3 to Bears by 1.5. Model: Chicago by three; blend 2.4, a Lean.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">GB -1.8 · CHI +4.2</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">GB -6.3 · CHI -2.1</span></div>
-      <div class="kv"><span>Quarterbacks</span><span>GB Jordan Love <span class="num">(+0.3)</span> · CHI Tyson Bagent <span class="num">(-1.9)</span></span></div>
-      <div class="kv"><span>GB injuries <span class="num">(-4.8)</span></span><span>Collin Oliver (DE, IR) -0.17; Jayden Reed (WR, IR) -0.55; Micah Parsons (DE, IR) -1.40; Josh Jacobs (RB, Suspended) -0.79; Edgerrin Cooper (LB, Out) -0.61; Zach Bako-Bewele (OT, Questionable) -0.23; Aaron Banks (G, Questionable) -0.20; Jacob Monk (C, Questionable) -0.23</span></div>
-      <div class="kv"><span>CHI injuries <span class="num">(-4.4)</span></span><span>Braxton Jones (OT, IR) -1.00; Dallis Flowers (CB, IR) -0.17; Jaylon Johnson (CB, IR) -1.49; Shemar Turner (DT, PUP) -0.45; Kyler Gordon (CB, Questionable) -0.16; Kyle Monangai (RB, Questionable) -0.20; Keyshaun Elliott (LB, Questionable) -0.16</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">GB -7.1 · CHI -2.2</span></div>
+      <div class="kv"><span>Quarterbacks</span><span>GB Jordan Love <span class="num">(+0.3)</span> · CHI Tyson Bagent (Williams questionable) <span class="num">(-1.9)</span></span></div>
+      <div class="kv"><span>GB injuries <span class="num">(-5.6)</span></span><span>Collin Oliver (DE, IR) -0.17; Jayden Reed (WR, IR) -0.55; Micah Parsons (DE, IR) -1.40; Josh Jacobs (RB, Suspended) -0.79; Edgerrin Cooper (LB, Out) -0.61; Aaron Banks (G, Doubtful) -0.38; Jacob Monk (C, Doubtful) -0.42; Javon Hargrave (DT, Questionable) -0.20; Zach Bako-Bewele (OT, Questionable) -0.23</span></div>
+      <div class="kv"><span>CHI injuries <span class="num">(-4.5)</span></span><span>Braxton Jones (OT, IR) -1.00; Dallis Flowers (CB, IR) -0.17; Jaylon Johnson (CB, IR) -1.49; Shemar Turner (DT, PUP) -0.45; Keyshaun Elliott (LB, Questionable) -0.16; Kyler Gordon (CB, Questionable) -0.16</span></div>
       
       <div class="kv"><span>Venue and weather</span><span>Lambeau Field, outdoors; benign, 62°F, wind 10 mph, 30% precip (low confidence). Home edge <span class="num">+1.8</span></span></div>
-      <div class="kv"><span>Margin, GB side</span><span class="num">model -2.5 · market -1.5 · blended -2.1 · sd 12.2</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market GB +102 / CHI -122 · model GB +130 / CHI -130</span></div>
-      <div class="kv note"><span>Note</span><span>Bagent confirmed for a third straight start (268 yards in the win over the Jets); Caleb Williams (grade 2 hamstring) still out.</span></div>
+      <div class="kv"><span>Margin, GB side</span><span class="num">model -3.1 · market -1.5 · blended -2.4 · sd 12.3</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market GB +102 / CHI -122 · model GB +136 / CHI -136</span></div>
+      <div class="kv note"><span>Note</span><span>Bagent expected to make a third straight start; Caleb Williams (hamstring) was limited Friday and is listed questionable, so there is a chance Williams returns.</span></div>
      </div>
     </details>
     <details class="game t-high">
      <summary>
       <div class="teams"><span class="tm pick">CIN<small>Bengals</small></span><span class="at">at</span><span class="tm ">MIA<small>Dolphins</small></span></div>
       <div class="pickcol"><span class="pk">CIN</span><span class="tier">High</span></div>
-      <div class="meter" title="Model: CIN 71.8%. Market (vig removed): CIN 74.8%."><span class="lbl l pick">CIN 72%</span><div class="bar"><i class="fill " style="width:71.8%"></i><b class="mid"></b><b class="mk" style="left:74.8%"></b></div><span class="lbl r ">28% MIA</span></div>
-      <div class="odds"><span class="num">-254</span><small>fair</small><span class="num dim">-355</span><small>market</small></div>
+      <div class="meter" title="Model: CIN 72.5%. Market (vig removed): CIN 74.8%."><span class="lbl l pick">CIN 72%</span><div class="bar"><i class="fill " style="width:72.5%"></i><b class="mid"></b><b class="mk" style="left:74.8%"></b></div><span class="lbl r ">28% MIA</span></div>
+      <div class="odds"><span class="num">-263</span><small>fair</small><span class="num dim">-355</span><small>market</small></div>
       <div class="score num">CIN 24 · MIA 17</div>
-      <div class="edge num neg">-3.0%</div>
+      <div class="edge num neg">-2.3%</div>
      </summary>
      <div class="why">
-      <p class="story">Heat near 91 degrees and a 15 mph breeze in Miami Gardens. Cincinnati&#x27;s Ja&#x27;Marr Chase is in concussion protocol and Tee Higgins has an adductor strain, both day-to-day; Joe Burrow threw for 428 yards in the loss to Jacksonville. Miami is 0-4 with Malik Willis at quarterback, has lost De&#x27;Von Achane for the season and Reese Taylor for this week, and rates as the worst team in the league. Even with both receivers at 45 percent to miss, the model has the Bengals by eight; the market by seven. High confidence on Cincinnati.</p>
+      <p class="story">Hot (around 91 degrees) and breezy in Miami Gardens. Ja&#x27;Marr Chase (concussion) and Tee Higgins both practiced fully Friday and are questionable, so each is priced at a 45 percent chance to miss; Kyle Dugger is out. Miami is 0-4 with Malik Willis, has lost De&#x27;Von Achane for the season and Reese Taylor and Caleb Douglas for this week, and rates last in the league. Model: Bengals by nine; market seven; High confidence on Cincinnati.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">MIA -7.1 · CIN -0.3</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">MIA -10.3 · CIN -0.4</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">MIA -11.1 · CIN -0.7</span></div>
       <div class="kv"><span>Quarterbacks</span><span>MIA Malik Willis <span class="num">(-1.2)</span> · CIN Joe Burrow <span class="num">(+2.2)</span></span></div>
-      <div class="kv"><span>MIA injuries <span class="num">(-2.7)</span></span><span>De&#x27;Von Achane (RB, IR) -0.79; Kenneth Grant (DT, IR) -0.45; Reese Taylor (CB, Out) -0.50; Dante Trader Jr. (S, Questionable) -0.18; Rob Beal Jr. (DE, Questionable) -0.32; Jackson Woodard (LB, Questionable) -0.16; Justin Joly (TE, Questionable) -0.23</span></div>
-      <div class="kv"><span>CIN injuries <span class="num">(-2.2)</span></span><span>Andrei Iosivas (WR, IR) -0.30; Ja&#x27;Sir Taylor (CB, IR) -0.17; Ja&#x27;Marr Chase (WR, Questionable) -0.79; Tee Higgins (WR, Questionable) -0.43; Jonathan Allen (DT, Questionable) -0.20; Kyle Dugger (S, Questionable) -0.18</span></div>
+      <div class="kv"><span>MIA injuries <span class="num">(-3.5)</span></span><span>De&#x27;Von Achane (RB, IR) -0.79; Kenneth Grant (DT, IR) -0.45; Justin Joly (TE, Out) -0.50; Reese Taylor (CB, Out) -0.50; Rob Beal Jr. (DE, Out) -0.70; Jackson Woodard (LB, Questionable) -0.16</span></div>
+      <div class="kv"><span>CIN injuries <span class="num">(-2.5)</span></span><span>Andrei Iosivas (WR, IR) -0.30; Ja&#x27;Sir Taylor (CB, IR) -0.17; Kyle Dugger (S, Out) -0.40; Bryan Cook (S, Questionable) -0.18; Ja&#x27;Marr Chase (WR, Questionable) -0.79; Tee Higgins (WR, Questionable) -0.43</span></div>
       <div class="kv"><span>New head coach</span><span>MIA (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Hard Rock Stadium, outdoors; wind 15 mph, heat 91F, 91°F, wind 15 mph, 25% precip (medium confidence). Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, MIA side</span><span class="num">model -8.4 · market -7.0 · blended -7.3 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market MIA +280 / CIN -355 · model MIA +254 / CIN -254</span></div>
+      <div class="kv"><span>Margin, MIA side</span><span class="num">model -8.9 · market -7.0 · blended -7.6 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market MIA +280 / CIN -355 · model MIA +263 / CIN -263</span></div>
       <div class="kv note"><span>Note</span><span>Willis has started all four games (0-4, 85 passing yards at Minnesota); Tua was released in March.</span></div>
      </div>
     </details>
@@ -222,22 +222,22 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm ">CLE<small>Browns</small></span><span class="at">at</span><span class="tm pick">NYJ<small>Jets</small></span></div>
       <div class="pickcol"><span class="pk">NYJ</span><span class="tier">Coin flip</span></div>
-      <div class="meter" title="Model: NYJ 53.1%. Market (vig removed): NYJ 55.1%."><span class="lbl l ">CLE 47%</span><div class="bar"><i class="fill r" style="width:53.1%"></i><b class="mid"></b><b class="mk" style="left:44.9%"></b></div><span class="lbl r pick">53% NYJ</span></div>
-      <div class="odds"><span class="num">-113</span><small>fair</small><span class="num dim">-135</span><small>market</small></div>
+      <div class="meter" title="Model: NYJ 52.3%. Market (vig removed): NYJ 55.1%."><span class="lbl l ">CLE 48%</span><div class="bar"><i class="fill r" style="width:52.3%"></i><b class="mid"></b><b class="mk" style="left:44.9%"></b></div><span class="lbl r pick">52% NYJ</span></div>
+      <div class="odds"><span class="num">-110</span><small>fair</small><span class="num dim">-135</span><small>market</small></div>
       <div class="score num">CLE 19 · NYJ 20</div>
-      <div class="edge num neg">-2.0%</div>
+      <div class="edge num neg">-2.8%</div>
      </summary>
      <div class="why">
-      <p class="story">Cleveland has won three straight with Deshaun Watson, but rookie Mason Graham is out with knee and ankle sprains, Elgton Jenkins and Teven Jenkins are questionable, and the Browns are on ten days&#x27; rest after Thursday. The Jets are 1-3 and ran a franchise-low 32 plays in Chicago; Breece Hall, Mason Taylor, Dylan Parham and Jarvis Brownlee Jr. are all questionable. The ratings are nearly even (both bottom-ten teams), the model has Cleveland by less than a point on the road and the market has the Jets by 1.5. The blend leaves the Jets a 51 percent coin flip; the pure data flips it to Cleveland.</p>
+      <p class="story">Cleveland has won three straight with Deshaun Watson but ruled out seven players Friday, including Mason Graham, Mike Hall Jr., Teven Jenkins and Tylan Wallace; Elgton Jenkins plays. The Jets ruled out Breece Hall, Dylan Parham, Adonai Mitchell and Francisco Mauigoa, but get Mason Taylor back. Both are bottom-ten teams, Cleveland has the rest edge off Thursday, and the model has the Browns by a point on the road while the market has the Jets by 2.5. The blend leaves New York a 52 percent coin flip; the pure data flips it to Cleveland.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">NYJ -5.8 · CLE -4.5</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NYJ -7.7 · CLE -6.3</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NYJ -8.7 · CLE -7.0</span></div>
       <div class="kv"><span>Quarterbacks</span><span>NYJ Geno Smith <span class="num">(+0.3)</span> · CLE Deshaun Watson <span class="num">(+0.1)</span></span></div>
-      <div class="kv"><span>NYJ injuries <span class="num">(-2.2)</span></span><span>Tre Brown (CB, IR) -0.17; Tyler Baron (EDGE, PUP) -0.20; Breece Hall (RB, Questionable) -0.35; Dylan Parham (LG, Questionable) -0.20; Jarvis Brownlee Jr. (CB, Questionable) -0.23; Mason Taylor (TE, Questionable) -0.23; Francisco Mauigoa (LB, Questionable) -0.16</span></div>
-      <div class="kv"><span>CLE injuries <span class="num">(-2.3)</span></span><span>Jeremiah Owusu-Koramoah (LB, PUP) -0.35; Mason Graham (DT, Out) -0.79; Elgton Jenkins (OL, Questionable) -0.39; Teven Jenkins (G, Questionable) -0.20; Kalia Davis (DT, Questionable) -0.20; Mike Hall Jr. (DT, Questionable) -0.20</span></div>
+      <div class="kv"><span>NYJ injuries <span class="num">(-3.2)</span></span><span>Tre Brown (CB, IR) -0.17; Tyler Baron (EDGE, PUP) -0.20; Breece Hall (RB, Out) -0.79; Dylan Parham (LG, Out) -0.45; Francisco Mauigoa (LB, Out) -0.35; Will McDonald IV (EDGE, Questionable) -0.36</span></div>
+      <div class="kv"><span>CLE injuries <span class="num">(-3.0)</span></span><span>Jeremiah Owusu-Koramoah (LB, PUP) -0.35; Kalia Davis (DT, Out) -0.45; Mason Graham (DT, Out) -0.79; Mike Hall Jr. (DT, Out) -0.45; Teven Jenkins (G, Out) -0.45</span></div>
       <div class="kv"><span>New head coach</span><span>CLE (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>MetLife Stadium, outdoors; benign, 64°F, wind 8 mph, 40% precip (medium confidence). Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, NYJ side</span><span class="num">model -0.5 · market +2.5 · blended +0.8 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market NYJ -135 / CLE +114 · model NYJ -113 / CLE +113</span></div>
+      <div class="kv"><span>Margin, NYJ side</span><span class="num">model -0.9 · market +2.5 · blended +0.6 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market NYJ -135 / CLE +114 · model NYJ -110 / CLE +110</span></div>
       <div class="kv note"><span>Note</span><span>Watson has won three straight starts; Shedeur Sanders backs up.</span></div>
      </div>
     </details>
@@ -245,68 +245,68 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm pick">HOU<small>Texans</small></span><span class="at">at</span><span class="tm ">TEN<small>Titans</small></span></div>
       <div class="pickcol"><span class="pk">HOU</span><span class="tier">Moderate</span></div>
-      <div class="meter" title="Model: HOU 67.9%. Market (vig removed): HOU 75.7%."><span class="lbl l pick">HOU 68%</span><div class="bar"><i class="fill " style="width:67.9%"></i><b class="mid"></b><b class="mk" style="left:75.7%"></b></div><span class="lbl r ">32% TEN</span></div>
-      <div class="odds"><span class="num">-212</span><small>fair</small><span class="num dim">-375</span><small>market</small></div>
+      <div class="meter" title="Model: HOU 69.0%. Market (vig removed): HOU 75.7%."><span class="lbl l pick">HOU 69%</span><div class="bar"><i class="fill " style="width:69.0%"></i><b class="mid"></b><b class="mk" style="left:75.7%"></b></div><span class="lbl r ">31% TEN</span></div>
+      <div class="odds"><span class="num">-222</span><small>fair</small><span class="num dim">-375</span><small>market</small></div>
       <div class="score num">HOU 22 · TEN 16</div>
-      <div class="edge num neg">-7.8%</div>
+      <div class="edge num neg">-6.8%</div>
      </summary>
      <div class="why">
       <p class="story">A battle of 0-4 teams in Nashville. Houston has blown late leads in consecutive weeks and is missing Braden Smith, Henry To&#x27;oTo&#x27;o, E.J. Speed and Jayden Higgins long-term with Azeez Al-Shaair and Jadeveon Clowney questionable, but C.J. Stroud and the preseason rating keep the Texans a touchdown better than Tennessee, whose Cam Ward line and two new guards on IR drag them to the bottom of the ratings. Model: Texans by 5.5; market by 7. Moderate confidence, with the Titans at +270 just inside the value threshold.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">TEN -7.3 · HOU +1.7</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">TEN -8.4 · HOU -2.3</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">TEN -8.8 · HOU -2.1</span></div>
       <div class="kv"><span>Quarterbacks</span><span>TEN Cam Ward <span class="num">(+0.8)</span> · HOU C.J. Stroud <span class="num">(+0.3)</span></span></div>
-      <div class="kv"><span>TEN injuries <span class="num">(-2.7)</span></span><span>Fernando Carmona (G, IR) -0.45; Jackson Slater (G, IR) -0.45; Joshua Williams (CB, IR) -0.17; Tanoh Kpassagnon (DE, IR) -0.17; Brandon Crenshaw-Dickinson (OT, Out) -0.20; Jaylon Jones (CB, Out) -0.17; Amani Hooker (S, Questionable) -0.18; David Martin-Robinson (TE, Questionable) -0.23</span></div>
-      <div class="kv"><span>HOU injuries <span class="num">(-4.4)</span></span><span>Braden Smith (OT, IR) -0.60; E.J. Speed (LB, IR) -0.35; Henry To&#x27;oTo&#x27;o (LB, IR) -0.35; Jayden Higgins (WR, IR) -0.55; Ossai (DE, IR) -0.17; Azeez Al-Shaair (LB, Questionable) -0.28; Ed Ingram (G, Questionable) -0.20; Jadeveon Clowney (DE, Questionable) -0.36; Trent Brown (OT, Questionable) -0.36; Blake Fisher (OT, Questionable) -0.36; Aireontae Ersery (OT, Questionable) -0.36</span></div>
+      <div class="kv"><span>TEN injuries <span class="num">(-3.1)</span></span><span>Fernando Carmona (G, IR) -0.45; Jackson Slater (G, IR) -0.45; Joshua Williams (CB, IR) -0.17; Tanoh Kpassagnon (DE, IR) -0.17; Amani Hooker (S, Out) -0.40; Brandon Crenshaw-Dickinson (OT, Out) -0.20; Jaylon Jones (CB, Out) -0.17; Carnell Tate (WR, Questionable) -0.25</span></div>
+      <div class="kv"><span>HOU injuries <span class="num">(-4.1)</span></span><span>Braden Smith (OT, IR) -0.60; E.J. Speed (LB, IR) -0.35; Henry To&#x27;oTo&#x27;o (LB, IR) -0.35; Jayden Higgins (WR, IR) -0.55; Ossai (DE, IR) -0.17; Aireontae Ersery (OT, Questionable) -0.36; Blake Fisher (OT, Questionable) -0.36; Ed Ingram (G, Questionable) -0.20; Jadeveon Clowney (DE, Questionable) -0.36; Nico Collins (WR, Probable) -0.18</span></div>
       <div class="kv"><span>New head coach</span><span>TEN (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Nissan Stadium, outdoors; benign, 75°F, wind 6 mph, 10% precip (low confidence). Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, TEN side</span><span class="num">model -4.6 · market -7.0 · blended -5.6 · sd 12.3</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market TEN +295 / HOU -375 · model TEN +212 / HOU -212</span></div>
+      <div class="kv"><span>Margin, TEN side</span><span class="num">model -5.2 · market -7.0 · blended -6.0 · sd 12.3</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market TEN +295 / HOU -375 · model TEN +222 / HOU -222</span></div>
       
      </div>
     </details>
     <details class="game t-flip">
      <summary>
-      <div class="teams"><span class="tm ">IND<small>Colts</small></span><span class="at">at</span><span class="tm pick">PIT<small>Steelers</small></span></div>
-      <div class="pickcol"><span class="pk">PIT</span><span class="tier">Coin flip</span></div>
-      <div class="meter" title="Model: PIT 52.3%. Market (vig removed): PIT 57.2%."><span class="lbl l ">IND 48%</span><div class="bar"><i class="fill r" style="width:52.3%"></i><b class="mid"></b><b class="mk" style="left:42.8%"></b></div><span class="lbl r pick">52% PIT</span></div>
-      <div class="odds"><span class="num">-110</span><small>fair</small><span class="num dim">-148</span><small>market</small></div>
-      <div class="score num">IND 21 · PIT 22</div>
-      <div class="edge num neg">-4.9%</div>
+      <div class="teams"><span class="tm pick">IND<small>Colts</small></span><span class="at">at</span><span class="tm ">PIT<small>Steelers</small></span></div>
+      <div class="pickcol"><span class="pk">IND</span><span class="tier">Coin flip</span></div>
+      <div class="meter" title="Model: IND 50.7%. Market (vig removed): IND 42.8%."><span class="lbl l pick">IND 51%</span><div class="bar"><i class="fill " style="width:50.7%"></i><b class="mid"></b><b class="mk" style="left:42.8%"></b></div><span class="lbl r ">49% PIT</span></div>
+      <div class="odds"><span class="num">-103</span><small>fair</small><span class="num dim">+124</span><small>market</small></div>
+      <div class="score num">IND 22 · PIT 22</div>
+      <div class="edge num pos">+7.9%</div>
      </summary>
      <div class="why">
-      <p class="story">Indianapolis beat Washington in London and gets the extra-rest edge over a Pittsburgh team that played Thursday. The Colts are without Alec Pierce and Arden Key, with Keenan Allen questionable; the Steelers lost Derrick Harmon to IR and Jamel Dean for a couple of weeks after the Browns loss. The model has the Colts by a point on the road, the market has the Steelers by 2.5, and the blend splits the difference at Pittsburgh by less than half a point. A coin flip that the pure data flips to Indianapolis.</p>
+      <p class="story">Pittsburgh&#x27;s Friday report was the heaviest in this game: Michael Pittman Jr., Jamel Dean and DeShon Elliott are out on top of Derrick Harmon&#x27;s IR move, with Jalen Ramsey and Rico Dowdle questionable. Indianapolis is without Arden Key, Ashton Dulin and Jaylon Carlies, with Keenan Allen and Charvarius Ward questionable, but has the rest edge after London. The model now has the Colts by nearly three on the road against a market that still says Steelers by three. The blend lands at Indianapolis by a third of a point, a 51 percent coin flip that moved from Pittsburgh on Tuesday to the Colts on Friday.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">PIT -2.2 · IND +0.4</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">PIT -4.9 · IND -1.6</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">PIT -7.0 · IND -2.0</span></div>
       <div class="kv"><span>Quarterbacks</span><span>PIT Aaron Rodgers <span class="num">(+0.0)</span> · IND Daniel Jones <span class="num">(+0.3)</span></span></div>
-      <div class="kv"><span>PIT injuries <span class="num">(-3.0)</span></span><span>Daequan Hardy (CB, IR) -0.17; DeShon Elliott (S, IR) -0.40; Derrick Harmon (DL, IR) -0.79; Jack Driscoll (OT, IR) -0.20; Donte Kent (CB, PUP) -0.17; Jamel Dean (CB, Out) -0.85; Michael Pittman (WR, Questionable) -0.25</span></div>
-      <div class="kv"><span>IND injuries <span class="num">(-2.2)</span></span><span>Alec Pierce (WR, IR) -0.55; Arden Key (DE, Out) -0.70; Keenan Allen (WR, Questionable) -0.45; Grover Stewart (DT, Questionable) -0.20</span></div>
+      <div class="kv"><span>PIT injuries <span class="num">(-5.0)</span></span><span>Daequan Hardy (CB, IR) -0.17; DeShon Elliott (S, IR) -0.40; Derrick Harmon (DL, IR) -0.79; Jack Driscoll (OT, IR) -0.20; Donte Kent (CB, PUP) -0.17; Jamel Dean (CB, Out) -0.85; Michael Pittman (WR, Out) -1.75; Jalen Ramsey (CB, Questionable) -0.32; Rico Dowdle (RB, Questionable) -0.20</span></div>
+      <div class="kv"><span>IND injuries <span class="num">(-2.7)</span></span><span>Alec Pierce (WR, IR) -0.55; Arden Key (DE, Out) -0.70; Charvarius Ward (CB, Questionable) -0.38; Keenan Allen (WR, Questionable) -0.45</span></div>
       <div class="kv"><span>New head coach</span><span>PIT (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Acrisure Stadium, outdoors; benign, 60°F, wind 7 mph, 5% precip (low confidence). Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, PIT side</span><span class="num">model -1.2 · market +3.0 · blended +0.6 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market PIT -148 / IND +124 · model PIT -110 / IND +110</span></div>
+      <div class="kv"><span>Margin, PIT side</span><span class="num">model -2.8 · market +3.0 · blended -0.3 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market PIT -148 / IND +124 · model PIT +103 / IND -103</span></div>
       
      </div>
     </details>
-    <details class="game t-lean">
+    <details class="game t-mod">
      <summary>
       <div class="teams"><span class="tm ">LV<small>Raiders</small></span><span class="at">at</span><span class="tm pick">NE<small>Patriots</small></span></div>
-      <div class="pickcol"><span class="pk">NE</span><span class="tier">Lean</span></div>
-      <div class="meter" title="Model: NE 59.4%. Market (vig removed): NE 63.1%."><span class="lbl l ">LV 41%</span><div class="bar"><i class="fill r" style="width:59.4%"></i><b class="mid"></b><b class="mk" style="left:36.9%"></b></div><span class="lbl r pick">59% NE</span></div>
-      <div class="odds"><span class="num">-146</span><small>fair</small><span class="num dim">-192</span><small>market</small></div>
+      <div class="pickcol"><span class="pk">NE</span><span class="tier">Moderate</span></div>
+      <div class="meter" title="Model: NE 60.7%. Market (vig removed): NE 63.1%."><span class="lbl l ">LV 39%</span><div class="bar"><i class="fill r" style="width:60.7%"></i><b class="mid"></b><b class="mk" style="left:36.9%"></b></div><span class="lbl r pick">61% NE</span></div>
+      <div class="odds"><span class="num">-155</span><small>fair</small><span class="num dim">-192</span><small>market</small></div>
       <div class="score num">LV 21 · NE 24</div>
-      <div class="edge num neg">-3.7%</div>
+      <div class="edge num neg">-2.4%</div>
      </summary>
      <div class="why">
-      <p class="story">New England beat Buffalo and comes home 2-2 but battered: A.J. Brown is on IR, Christian Gonzalez and Christian Barmore have missed two weeks with shoulders, Mack Hollins left the Bills game, and Harold Landry has not practiced. That is a 5.4-point hit against a Raiders side that rates below average but has played better than its number (first loss came by three to Kansas City). Drake Maye is still worth 1.5 points over what Las Vegas fields. Model and market both say Patriots by about three; Moderate confidence.</p>
+      <p class="story">New England ruled out six on Friday: Christian Gonzalez, Carlton Davis, Mack Hollins, Reggie Gilliam and two depth corners, with Christian Barmore, Rhamondre Stevenson and Morgan Moses questionable and A.J. Brown on IR. That is the largest injury hit on the slate, but the Raiders rate below average and have their own losses (Jalen Nailor, Trey Zuhn out; Ashton Jeanty questionable after not practicing Friday). Drake Maye is still worth 1.5 points over what Las Vegas fields. Model and market both say Patriots by about 3.5; Moderate confidence.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">NE +3.6 · LV -3.0</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NE -2.3 · LV -3.0</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NE -2.3 · LV -3.8</span></div>
       <div class="kv"><span>Quarterbacks</span><span>NE Drake Maye <span class="num">(+0.0)</span> · LV Kirk Cousins <span class="num">(+1.5)</span></span></div>
-      <div class="kv"><span>NE injuries <span class="num">(-6.0)</span></span><span>A.J. Brown (WR, IR) -1.75; Henry Anderson (DE, IR) -0.17; Marcus Bryant (OT, IR) -0.20; Mike Onwenu (G, IR) -0.45; Harold Landry III (LB, PUP) -0.80; Christian Barmore (DT, Questionable) -0.35; Christian Gonzalez (CB, Questionable) -0.67; Mack Hollins (WR, Questionable) -0.25; Carlton Davis III (CB, Questionable) -0.23; Karon Prunty (CB, Questionable) -0.32</span></div>
-      <div class="kv"><span>LV injuries <span class="num">(-1.8)</span></span><span>Jack Bech (WR, IR) -0.55; Keyron Crawford (DE, IR) -0.17; Jackson Powers-Johnson (G, Questionable) -0.20; Jalen Nailor (WR, Questionable) -0.25; Trey Zuhn III (C, Questionable) -0.23</span></div>
+      <div class="kv"><span>NE injuries <span class="num">(-6.0)</span></span><span>A.J. Brown (WR, IR) -1.75; Henry Anderson (DE, IR) -0.17; Marcus Bryant (OT, IR) -0.20; Mike Onwenu (G, IR) -0.45; Harold Landry III (LB, PUP) -0.80; Carlton Davis III (CB, Out) -0.50; Christian Gonzalez (CB, Out) -1.49; Karon Prunty (CB, Out) -0.70; Mack Hollins (WR, Out) -0.55; Christian Barmore (DT, Questionable) -0.35; Christian Elliss (LB, Questionable) -0.16; Craig Woodson (S, Questionable) -0.18; Dre&#x27;Mont Jones (DL, Questionable) -0.36; Morgan Moses (OT, Questionable) -0.27; Rhamondre Stevenson (RB, Questionable) -0.20</span></div>
+      <div class="kv"><span>LV injuries <span class="num">(-2.6)</span></span><span>Jack Bech (WR, IR) -0.55; Keyron Crawford (DE, IR) -0.17; Jalen Nailor (WR, Out) -0.55; Trey Zuhn III (C, Out) -0.50; Ashton Jeanty (RB, Questionable) -0.35</span></div>
       <div class="kv"><span>New head coach</span><span>LV (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Gillette Stadium, outdoors; benign, 55°F, wind 8 mph, 40% precip (medium confidence). Home edge <span class="num">+1.8</span></span></div>
-      <div class="kv"><span>Margin, NE side</span><span class="num">model +2.5 · market +3.5 · blended +2.9 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market NE -192 / LV +160 · model NE -146 / LV +146</span></div>
+      <div class="kv"><span>Margin, NE side</span><span class="num">model +3.3 · market +3.5 · blended +3.4 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market NE -192 / LV +160 · model NE -155 / LV +155</span></div>
       <div class="kv note"><span>Note</span><span>Maye was a full participant despite a shoulder listing last week.</span></div><div class="kv note"><span>Note</span><span>Cousins healthy; rookie Fernando Mendoza backs up.</span></div>
      </div>
     </details>
@@ -314,22 +314,22 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm pick">MIN<small>Vikings</small></span><span class="at">at</span><span class="tm ">NO<small>Saints</small></span></div>
       <div class="pickcol"><span class="pk">MIN</span><span class="tier">Moderate</span></div>
-      <div class="meter" title="Model: MIN 69.0%. Market (vig removed): MIN 56.4%."><span class="lbl l pick">MIN 69%</span><div class="bar"><i class="fill " style="width:69.0%"></i><b class="mid"></b><b class="mk" style="left:56.4%"></b></div><span class="lbl r ">31% NO</span></div>
-      <div class="odds"><span class="num">-223</span><small>fair</small><span class="num dim">-142</span><small>market</small></div>
-      <div class="score num">MIN 24 · NO 18</div>
-      <div class="edge num pos">+12.7%</div>
+      <div class="meter" title="Model: MIN 65.6%. Market (vig removed): MIN 56.4%."><span class="lbl l pick">MIN 66%</span><div class="bar"><i class="fill " style="width:65.6%"></i><b class="mid"></b><b class="mk" style="left:56.4%"></b></div><span class="lbl r ">34% NO</span></div>
+      <div class="odds"><span class="num">-191</span><small>fair</small><span class="num dim">-142</span><small>market</small></div>
+      <div class="score num">MIN 23 · NO 18</div>
+      <div class="edge num pos">+9.3%</div>
      </summary>
      <div class="why">
-      <p class="story">The biggest disagreement with the market this week. Minnesota is 4-0 (its offense has not scored a touchdown in two games, but the defense has carried it), while New Orleans gave up 45 to Atlanta and has lost Travis Etienne to IR with Kelvin Banks already out; Chris Olave and Kaden Elliss are questionable. Justin Jefferson&#x27;s ankle keeps him questionable. The model has the Vikings by nine in the Superdome; the market by only 1.5. The blend settles at 5.7 and Minnesota -125 is the best value on the board.</p>
+      <p class="story">Still the biggest disagreement with the market. Minnesota lost Christian Darrisaw for Sunday and has Justin Jefferson, Jordan Addison and Brian O&#x27;Neill questionable, but the 4-0 Vikings rate seven points better than a Saints team that gave up 45 to Atlanta, placed Travis Etienne on IR, and ruled out Kaden Elliss with Alvin Kamara questionable. The market has moved a point toward Minnesota (now 2.5); the model has the Vikings by seven in the Superdome and the blend by five. Minnesota -142 remains the top value.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">NO -4.4 · MIN +1.2</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NO -8.6 · MIN +2.0</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">NO -8.6 · MIN -0.0</span></div>
       <div class="kv"><span>Quarterbacks</span><span>NO Tyler Shough <span class="num">(+1.2)</span> · MIN Kyler Murray <span class="num">(+2.8)</span></span></div>
-      <div class="kv"><span>NO injuries <span class="num">(-5.4)</span></span><span>Barry Wesley (OT, IR) -0.20; Dalys Beanum (CB, IR) -0.17; David Long Jr. (CB, IR) -0.17; Jordyn Tyson (WR, IR) -0.55; Kelvin Banks Jr. (LT, IR) -1.00; Mike Heldman (EDGE, IR) -0.20; Travis Etienne Jr. (RB, IR) -0.45; Carl Granderson (DE, Questionable) -0.32; Chase Young (DE, Questionable) -0.36; Chris Olave (WR, Questionable) -0.79; Kaden Elliss (LB, Questionable) -0.28; Davon Godchaux (DT, Questionable) -0.20; Jayden Price (CB, Questionable) -0.32</span></div>
-      <div class="kv"><span>MIN injuries <span class="num">(-2.0)</span></span><span>Tyreek Chappell (CB, IR) -0.17; Justin Jefferson (WR, Questionable) -0.79; Christian Darrisaw (OT, Questionable) -0.36</span></div>
+      <div class="kv"><span>NO injuries <span class="num">(-5.5)</span></span><span>Barry Wesley (OT, IR) -0.20; Dalys Beanum (CB, IR) -0.17; David Long Jr. (CB, IR) -0.17; Jordyn Tyson (WR, IR) -0.55; Kelvin Banks Jr. (LT, IR) -1.00; Mike Heldman (EDGE, IR) -0.20; Travis Etienne Jr. (RB, IR) -0.45; Anfernee Jennings (DE, Out) -0.17; Kaden Elliss (LB, Out) -0.61; Alvin Kamara (RB, Questionable) -0.35; Chase Young (DE, Questionable) -0.36; Jayden Price (CB, Questionable) -0.32; Julian Blackmon (S, Questionable) -0.18; Chris Olave (WR, Probable) -0.18</span></div>
+      <div class="kv"><span>MIN injuries <span class="num">(-4.0)</span></span><span>Tyreek Chappell (CB, IR) -0.17; Christian Darrisaw (OT, Out) -1.75; Brian O&#x27;Neill (OT, Questionable) -0.27; Jordan Addison (WR, Questionable) -0.25; Justin Jefferson (WR, Questionable) -0.79</span></div>
       
       <div class="kv"><span>Venue and weather</span><span>Caesars Superdome, dome; indoor. Home edge <span class="num">+1.8</span></span></div>
-      <div class="kv"><span>Margin, NO side</span><span class="num">model -9.0 · market -2.5 · blended -6.2 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market NO +120 / MIN -142 · model NO +223 / MIN -223</span></div>
+      <div class="kv"><span>Margin, NO side</span><span class="num">model -7.1 · market -2.5 · blended -5.1 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market NO +120 / MIN -142 · model NO +191 / MIN -191</span></div>
       <div class="kv note"><span>Note</span><span>Shough starts; Etienne to IR takes away the run game.</span></div><div class="kv note"><span>Note</span><span>Murray started Week 4; two straight games without a TD pass but no benching talk.</span></div>
      </div>
     </details>
@@ -337,45 +337,45 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm ">NYG<small>Giants</small></span><span class="at">at</span><span class="tm pick">WAS<small>Commanders</small></span></div>
       <div class="pickcol"><span class="pk">WAS</span><span class="tier">Coin flip</span></div>
-      <div class="meter" title="Model: WAS 52.2%. Market (vig removed): WAS 60.9%."><span class="lbl l ">NYG 48%</span><div class="bar"><i class="fill r" style="width:52.2%"></i><b class="mid"></b><b class="mk" style="left:39.1%"></b></div><span class="lbl r pick">52% WAS</span></div>
-      <div class="odds"><span class="num">-109</span><small>fair</small><span class="num dim">-175</span><small>market</small></div>
+      <div class="meter" title="Model: WAS 53.8%. Market (vig removed): WAS 60.9%."><span class="lbl l ">NYG 46%</span><div class="bar"><i class="fill r" style="width:53.8%"></i><b class="mid"></b><b class="mk" style="left:39.1%"></b></div><span class="lbl r pick">54% WAS</span></div>
+      <div class="odds"><span class="num">-117</span><small>fair</small><span class="num dim">-175</span><small>market</small></div>
       <div class="score num">NYG 20 · WAS 21</div>
-      <div class="edge num neg">-8.7%</div>
+      <div class="edge num neg">-7.1%</div>
      </summary>
      <div class="why">
-      <p class="story">Jayden Daniels returns from the dislocated elbow in a brace, with Marcus Mariota now out and a rookie as the only backup, so Washington carries a small rust trim and extra variance. Terry McLaurin (hamstring) is questionable and Tunsil, Newton and Armstrong remain out; Sam Cosmi and Nick Cross are expected back at practice. New York beat Arizona behind Jameis Winston but is without Brian Burns and Paulson Adebo. The ratings are even and both teams rate well below average; the model has the Giants by a point on the road, the market has Washington by three, and the blend keeps the Commanders a 53 percent coin flip. The pure data flips it to New York.</p>
+      <p class="story">Jayden Daniels practiced fully all week and starts in a brace, with Marcus Mariota out, so Washington keeps a small rust trim and extra variance. The Commanders also ruled out Stefon Diggs, Charles Omenihu, Nick Cross and Percy Butler, with Terry McLaurin questionable after a limited Friday. New York loses Jason Pinnock and Chauncey Golston but has Nabers and Andrew Thomas. The ratings are even and both teams rate well below average; the model has the Giants by a point, the market has Washington by 3.5, and the blend keeps the Commanders a 54 percent coin flip. The pure data flips it to New York.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">WAS -3.9 · NYG -3.2</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">WAS -9.5 · NYG -6.3</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">WAS -9.6 · NYG -7.3</span></div>
       <div class="kv"><span>Quarterbacks</span><span>WAS Jayden Daniels <span class="num">(+0.3)</span> · NYG Jameis Winston <span class="num">(+0.0)</span></span></div>
-      <div class="kv"><span>WAS injuries <span class="num">(-5.9)</span></span><span>Dorance Armstrong (DE, IR) -0.70; Jer&#x27;Zhan Newton (DT, IR) -0.45; Laremy Tunsil (OT, IR) -1.75; Deatrich Wise Jr. (DE, PUP) -0.17; Nick Cross (S, Questionable) -0.18; Sam Cosmi (G, Questionable) -0.20; Terry McLaurin (WR, Questionable) -0.79; Stefon Diggs (WR, Questionable) -0.25; Nick Allegretti (G, Doubtful) -0.42; Charles Omenihu (DE, Questionable) -0.32; Percy Butler (S, Questionable) -0.18; Tyler Owens (S, Questionable) -0.18</span></div>
-      <div class="kv"><span>NYG injuries <span class="num">(-3.4)</span></span><span>Brian Burns (OLB, IR) -1.40; Korie Black (CB, IR) -0.17; Paulson Adebo (CB, IR) -0.85; Jason Pinnock (S, Questionable) -0.18; Chauncey Golston (DE, Questionable) -0.32</span></div>
+      <div class="kv"><span>WAS injuries <span class="num">(-6.0)</span></span><span>Dorance Armstrong (DE, IR) -0.70; Jer&#x27;Zhan Newton (DT, IR) -0.45; Laremy Tunsil (OT, IR) -1.75; Deatrich Wise Jr. (DE, PUP) -0.17; Charles Omenihu (DE, Out) -0.80; Nick Cross (S, Out) -0.40; Percy Butler (S, Out) -0.40; Stefon Diggs (WR, Out) -0.55; Tyler Owens (S, Out) -0.40; Sam Cosmi (G, Questionable) -0.20; Terry McLaurin (WR, Questionable) -0.79; Trey Amos (CB, Questionable) -0.38</span></div>
+      <div class="kv"><span>NYG injuries <span class="num">(-4.4)</span></span><span>Brian Burns (OLB, IR) -1.40; Korie Black (CB, IR) -0.17; Paulson Adebo (CB, IR) -0.85; Chauncey Golston (DE, Out) -0.70; Jason Pinnock (S, Out) -0.40; Andrew Thomas (OT, Probable) -0.18; Malik Nabers (WR, Probable) -0.18</span></div>
       <div class="kv"><span>New head coach</span><span>NYG (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Northwest Stadium, outdoors; benign, 66°F, wind 7 mph, 30% precip (low confidence). Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, WAS side</span><span class="num">model -1.7 · market +3.5 · blended +0.5 · sd 12.3</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market WAS -175 / NYG +145 · model WAS -109 / NYG +109</span></div>
-      <div class="kv note"><span>Note</span><span>Daniels returns from the dislocated left elbow in a brace after missing two games; Mariota sprained his MCL in London and rookie Athan Kaliakmanis is the only backup. Small rust trim and extra variance.</span></div><div class="kv note"><span>Note</span><span>Winston threw for three scores against Arizona; Dart is out for the season.</span></div>
+      <div class="kv"><span>Margin, WAS side</span><span class="num">model -0.8 · market +3.5 · blended +1.1 · sd 12.3</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market WAS -175 / NYG +145 · model WAS -117 / NYG +117</span></div>
+      <div class="kv note"><span>Note</span><span>Daniels was a full participant all week with no designation and Quinn confirmed him Friday; still wearing the elbow brace, so the extra variance stays. Mariota is out.</span></div><div class="kv note"><span>Note</span><span>Winston threw for three scores against Arizona; Dart is out for the season.</span></div>
      </div>
     </details></section><section class="win"><header class="win-h"><h2>Sunday, Oct 11</h2><span>Late window, 4:05 and 4:25 ET</span></header>
     <details class="game t-mod">
      <summary>
       <div class="teams"><span class="tm pick">DEN<small>Broncos</small></span><span class="at">at</span><span class="tm ">LAC<small>Chargers</small></span></div>
       <div class="pickcol"><span class="pk">DEN</span><span class="tier">Moderate</span></div>
-      <div class="meter" title="Model: DEN 63.8%. Market (vig removed): DEN 63.1%."><span class="lbl l pick">DEN 64%</span><div class="bar"><i class="fill " style="width:63.8%"></i><b class="mid"></b><b class="mk" style="left:63.1%"></b></div><span class="lbl r ">36% LAC</span></div>
-      <div class="odds"><span class="num">-176</span><small>fair</small><span class="num dim">-192</span><small>market</small></div>
+      <div class="meter" title="Model: DEN 62.6%. Market (vig removed): DEN 63.1%."><span class="lbl l pick">DEN 63%</span><div class="bar"><i class="fill " style="width:62.6%"></i><b class="mid"></b><b class="mk" style="left:63.1%"></b></div><span class="lbl r ">37% LAC</span></div>
+      <div class="odds"><span class="num">-167</span><small>fair</small><span class="num dim">-192</span><small>market</small></div>
       <div class="score num">DEN 23 · LAC 19</div>
-      <div class="edge num ">+0.7%</div>
+      <div class="edge num ">-0.5%</div>
      </summary>
      <div class="why">
-      <p class="story">Both teams lost their cornerbacks: Denver has Patrick Surtain II doubtful and Riley Moss questionable, while the 0-4 Chargers hit the six-point injury cap with Rashawn Slater out for weeks, Joe Alt (neck), Derwin James and Ladd McConkey all questionable, and Biadasz, Perryman and Njoku on IR. Los Angeles has underperformed badly for four weeks and Herbert posted a season-low 189 yards in Seattle. Model: Broncos by five under the SoFi roof; market by 3.5. Moderate confidence on Denver.</p>
+      <p class="story">Both secondaries are gutted. Denver ruled out Patrick Surtain II and Riley Moss and put Pat Bryant on IR. The 0-4 Chargers sit at the six-point injury cap after placing Rashawn Slater on IR and ruling out Joe Alt, Derwin James, Donte Jackson, Trevor Penning, Kayode Awosika and Quentin Johnston, with Ladd McConkey questionable. Los Angeles has underperformed for four weeks and Herbert posted a season-low 189 yards in Seattle. Model: Broncos by 4.4 under the SoFi roof; market 3.5. Moderate confidence on Denver.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">LAC -2.0 · DEN +1.6</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">LAC -7.7 · DEN -1.2</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">LAC -7.7 · DEN -1.8</span></div>
       <div class="kv"><span>Quarterbacks</span><span>LAC Justin Herbert <span class="num">(+0.3)</span> · DEN Bo Nix <span class="num">(+0.1)</span></span></div>
-      <div class="kv"><span>LAC injuries <span class="num">(-6.0)</span></span><span>David Njoku (TE, IR) -0.50; Denzel Perryman (LB, IR) -0.35; Trey Pipkins III (OT, IR) -0.60; Tyler Biadasz (C, IR) -0.50; Isaiah World (OT, NFI) -0.20; Kayode Awosika (OL, Out) -0.45; Rashawn Slater (OT, Out) -1.75; Derwin James (S, Questionable) -0.32; Donte Jackson (CB, Questionable) -0.38; Joe Alt (OT, Questionable) -0.47; Ladd McConkey (WR, Questionable) -0.79; Trevor Penning (G, Questionable) -0.20; Brenen Thompson (WR, Questionable) -0.25</span></div>
-      <div class="kv"><span>DEN injuries <span class="num">(-2.9)</span></span><span>Frank Crum (OT, IR) -0.20; Pat Bryant (WR, Doubtful) -0.47; Patrick Surtain II (CB, Doubtful) -1.26; Riley Moss (CB, Questionable) -0.23</span></div>
+      <div class="kv"><span>LAC injuries <span class="num">(-6.0)</span></span><span>David Njoku (TE, IR) -0.50; Denzel Perryman (LB, IR) -0.35; Rashawn Slater (OT, IR) -1.75; Trey Pipkins III (OT, IR) -0.60; Tyler Biadasz (C, IR) -0.50; Isaiah World (OT, NFI) -0.20; Brenen Thompson (WR, Out) -0.55; Derwin James (S, Out) -0.70; Donte Jackson (CB, Out) -0.85; Joe Alt (OT, Out) -1.05; Kayode Awosika (OL, Out) -0.45; Quentin Johnston (WR, Out) -0.55; Trevor Penning (G, Out) -0.45; Ladd McConkey (WR, Questionable) -0.79</span></div>
+      <div class="kv"><span>DEN injuries <span class="num">(-3.5)</span></span><span>Frank Crum (OT, IR) -0.20; Pat Bryant (WR, IR) -0.55; Patrick Surtain II (CB, Out) -1.49; Riley Moss (CB, Out) -0.50</span></div>
       
       <div class="kv"><span>Venue and weather</span><span>SoFi Stadium, dome; indoor. Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, LAC side</span><span class="num">model -5.0 · market -3.5 · blended -4.3 · sd 12.3</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market LAC +160 / DEN -192 · model LAC +176 / DEN -176</span></div>
+      <div class="kv"><span>Margin, LAC side</span><span class="num">model -4.4 · market -3.5 · blended -4.0 · sd 12.2</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market LAC +160 / DEN -192 · model LAC +167 / DEN -167</span></div>
       
      </div>
     </details>
@@ -383,22 +383,22 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm pick">DET<small>Lions</small></span><span class="at">at</span><span class="tm ">ARI<small>Cardinals</small></span></div>
       <div class="pickcol"><span class="pk">DET</span><span class="tier">Moderate</span></div>
-      <div class="meter" title="Model: DET 61.5%. Market (vig removed): DET 69.1%."><span class="lbl l pick">DET 62%</span><div class="bar"><i class="fill " style="width:61.5%"></i><b class="mid"></b><b class="mk" style="left:69.1%"></b></div><span class="lbl r ">38% ARI</span></div>
-      <div class="odds"><span class="num">-160</span><small>fair</small><span class="num dim">-258</span><small>market</small></div>
+      <div class="meter" title="Model: DET 62.1%. Market (vig removed): DET 69.1%."><span class="lbl l pick">DET 62%</span><div class="bar"><i class="fill " style="width:62.1%"></i><b class="mid"></b><b class="mk" style="left:69.1%"></b></div><span class="lbl r ">38% ARI</span></div>
+      <div class="odds"><span class="num">-164</span><small>fair</small><span class="num dim">-258</span><small>market</small></div>
       <div class="score num">DET 29 · ARI 25</div>
-      <div class="edge num neg">-7.5%</div>
+      <div class="edge num neg">-7.0%</div>
      </summary>
      <div class="why">
-      <p class="story">Detroit comes off a Sunday night loss in Carolina with Rock Ya-Sin doubtful and Tyleik Williams in a boot, and still without Brian Branch and Kerby Joseph. Arizona is 1-3 under Mike LaFleur, lost James Conner and Will Johnson for the long term, and Jacoby Brissett threw three interceptions at the Giants. Closed roof in Glendale (101 degrees outside). The ratings have slipped for both, and the model has the Lions by only two against a market 4.5; the blend says three, a Lean on Detroit, with Arizona +180 flagged as value.</p>
+      <p class="story">Detroit ruled out Rock Ya-Sin, Ben Bartch, Cade Mays and Brian Branch (practicing but not activated), with Tyleik Williams questionable and Kerby Joseph still on PUP. Arizona is 1-3 under Mike LaFleur, without James Conner and Will Johnson long-term, and lost Isaiah Adams and Andrew Wingard for Sunday with Walter Nolen questionable. Closed roof in Glendale. The market has moved to Lions by 5.5; the model says 2.8 and the blend four, a Moderate pick on Detroit with Arizona +210 still flagged as value.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">ARI -3.3 · DET +0.8</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">ARI -6.5 · DET -2.3</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">ARI -7.0 · DET -2.5</span></div>
       <div class="kv"><span>Quarterbacks</span><span>ARI Jacoby Brissett <span class="num">(-0.4)</span> · DET Jared Goff <span class="num">(+0.0)</span></span></div>
-      <div class="kv"><span>ARI injuries <span class="num">(-3.1)</span></span><span>James Conner (RB, IR) -0.45; Will Johnson (CB, IR) -0.85; Dadrion Taylor-Demerson (S, Questionable) -0.18; Josh Sweat (OLB, Questionable) -0.63; Andrew Wingard (S, Questionable) -0.18; Isaiah Adams (G, Questionable) -0.20; Jordan Burch (LB, Questionable) -0.16</span></div>
-      <div class="kv"><span>DET injuries <span class="num">(-3.1)</span></span><span>Avonte Maddox (CB, IR) -0.35; Brian Branch (S, PUP) -0.70; Kerby Joseph (S, PUP) -0.70; Rock Ya-Sin (CB, Doubtful) -0.42; D.J. Reed (CB, Questionable) -0.38; Tyleik Williams (DT, Questionable) -0.20</span></div>
+      <div class="kv"><span>ARI injuries <span class="num">(-3.6)</span></span><span>James Conner (RB, IR) -0.45; Will Johnson (CB, IR) -0.85; Andrew Wingard (S, Out) -0.40; Isaiah Adams (G, Out) -0.45; Josh Sweat (OLB, Questionable) -0.63; Walter Nolen (DL, Questionable) -0.23</span></div>
+      <div class="kv"><span>DET injuries <span class="num">(-3.3)</span></span><span>Avonte Maddox (CB, IR) -0.35; Brian Branch (S, PUP) -0.70; Kerby Joseph (S, PUP) -0.70; Rock Ya-Sin (CB, Out) -0.50; D.J. Reed (CB, Questionable) -0.38; Tyleik Williams (DT, Questionable) -0.20</span></div>
       <div class="kv"><span>New head coach</span><span>ARI (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>State Farm Stadium, closed; indoor. Home edge <span class="num">+1.6</span></span></div>
-      <div class="kv"><span>Margin, ARI side</span><span class="num">model -2.5 · market -5.5 · blended -3.8 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market ARI +210 / DET -258 · model ARI +160 / DET -160</span></div>
+      <div class="kv"><span>Margin, ARI side</span><span class="num">model -2.8 · market -5.5 · blended -4.0 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market ARI +210 / DET -258 · model ARI +164 / DET -164</span></div>
       <div class="kv note"><span>Note</span><span>Brissett confirmed by LaFleur despite three interceptions at the Giants.</span></div>
      </div>
     </details>
@@ -406,68 +406,68 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
      <summary>
       <div class="teams"><span class="tm ">SF<small>49ers</small></span><span class="at">at</span><span class="tm pick">SEA<small>Seahawks</small></span></div>
       <div class="pickcol"><span class="pk">SEA</span><span class="tier">Moderate</span></div>
-      <div class="meter" title="Model: SEA 64.4%. Market (vig removed): SEA 59.3%."><span class="lbl l ">SF 36%</span><div class="bar"><i class="fill r" style="width:64.4%"></i><b class="mid"></b><b class="mk" style="left:40.7%"></b></div><span class="lbl r pick">64% SEA</span></div>
-      <div class="odds"><span class="num">-181</span><small>fair</small><span class="num dim">-162</span><small>market</small></div>
+      <div class="meter" title="Model: SEA 63.4%. Market (vig removed): SEA 59.3%."><span class="lbl l ">SF 37%</span><div class="bar"><i class="fill r" style="width:63.4%"></i><b class="mid"></b><b class="mk" style="left:40.7%"></b></div><span class="lbl r pick">63% SEA</span></div>
+      <div class="odds"><span class="num">-174</span><small>fair</small><span class="num dim">-162</span><small>market</small></div>
       <div class="score num">SF 20 · SEA 24</div>
-      <div class="edge num pos">+5.0%</div>
+      <div class="edge num pos">+4.1%</div>
      </summary>
      <div class="why">
-      <p class="story">The best game of the week and the two top-rated teams in the model. Seattle is at home in the rain with a healthier roster (Anthony Bradford to IR is the main loss); San Francisco is 4-0 but will be without Nick Bosa, Kyle Juszczyk and Marques Sigle, with Upton Stout questionable and Mykel Williams possibly activated from PUP. Darnold, not Drew Lock as the schedule file says, starts for the Seahawks. The 49ers have been the better team on the field so far, but the four-point injury differential and Lumen Field swing it: model Seahawks by six, market by three, blend 4.5. Moderate confidence, Seattle -164 is a small value.</p>
+      <p class="story">The two top-rated teams in the model. San Francisco ruled out Nick Bosa and Kyle Juszczyk, with Upton Stout and Mykel Williams questionable (Williams&#x27; activation from PUP not confirmed) and Marques Sigle out for weeks. Seattle is without Zach Charbonnet, Chazz Surratt and Julian Neal, and Darnold starts despite the schedule file still listing Drew Lock. Rain likely at Lumen Field. The 49ers have been the better team on the field so far, but the injury differential and the venue swing it: model Seahawks by five, market three, blend four. Moderate confidence, Seattle -162 a small value.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">SEA +8.2 · SF +6.8</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">SEA +6.9 · SF +3.2</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">SEA +6.8 · SF +3.7</span></div>
       <div class="kv"><span>Quarterbacks</span><span>SEA Sam Darnold <span class="num">(+0.0)</span> · SF Brock Purdy <span class="num">(+0.6)</span></span></div>
-      <div class="kv"><span>SEA injuries <span class="num">(-1.4)</span></span><span>Anthony Bradford (G, IR) -0.45; Leonard Williams (DT, Questionable) -0.20</span></div>
-      <div class="kv"><span>SF injuries <span class="num">(-4.1)</span></span><span>Christian Kirk (WR, IR) -0.55; Ricky Pearsall (WR, IR) -0.30; Marques Sigle (S, Out) -0.40; Nick Bosa (DE, Out) -1.40; Mike Evans (WR, Questionable) -0.45; Mykel Williams (DE, Questionable) -0.32; Upton Stout (CB, Questionable) -0.16</span></div>
+      <div class="kv"><span>SEA injuries <span class="num">(-1.5)</span></span><span>Anthony Bradford (G, IR) -0.45; Julian Neal (CB, Out) -0.17</span></div>
+      <div class="kv"><span>SF injuries <span class="num">(-3.7)</span></span><span>Christian Kirk (WR, IR) -0.55; Ricky Pearsall (WR, IR) -0.30; Nick Bosa (DE, Out) -1.40; Mike Evans (WR, Questionable) -0.45; Mykel Williams (DE, Questionable) -0.32; Upton Stout (CB, Questionable) -0.16</span></div>
       
       <div class="kv"><span>Venue and weather</span><span>Lumen Field, outdoors; rain/storm chance 50%, 59°F, wind 8 mph, 50% precip (low confidence). Home edge <span class="num">+2.0</span></span></div>
-      <div class="kv"><span>Margin, SEA side</span><span class="num">model +5.7 · market +3.0 · blended +4.4 · sd 12.2</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market SEA -162 / SF +136 · model SEA -181 / SF +181</span></div>
+      <div class="kv"><span>Margin, SEA side</span><span class="num">model +5.1 · market +3.0 · blended +4.1 · sd 12.2</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market SEA -162 / SF +136 · model SEA -174 / SF +174</span></div>
       <div class="kv note"><span>Note</span><span>Schedule file lists Drew Lock, but Darnold returned in Week 3 and started the Week 4 win over the Chargers; Lock backs up.</span></div><div class="kv note"><span>Note</span><span>Purdy healthy.</span></div>
      </div>
     </details></section><section class="win"><header class="win-h"><h2>Sunday, Oct 11</h2><span>Sunday Night Football</span></header>
-    <details class="game t-flip">
+    <details class="game t-lean">
      <summary>
       <div class="teams"><span class="tm ">BAL<small>Ravens</small></span><span class="at">at</span><span class="tm pick">ATL<small>Falcons</small></span></div>
-      <div class="pickcol"><span class="pk">ATL</span><span class="tier">Coin flip</span></div>
-      <div class="meter" title="Model: ATL 52.9%. Market (vig removed): ATL 61.6%."><span class="lbl l ">BAL 47%</span><div class="bar"><i class="fill r" style="width:52.9%"></i><b class="mid"></b><b class="mk" style="left:38.4%"></b></div><span class="lbl r pick">53% ATL</span></div>
-      <div class="odds"><span class="num">-112</span><small>fair</small><span class="num dim">-180</span><small>market</small></div>
-      <div class="score num">BAL 21 · ATL 22</div>
-      <div class="edge num neg">-8.7%</div>
+      <div class="pickcol"><span class="pk">ATL</span><span class="tier">Lean</span></div>
+      <div class="meter" title="Model: ATL 56.2%. Market (vig removed): ATL 61.6%."><span class="lbl l ">BAL 44%</span><div class="bar"><i class="fill r" style="width:56.2%"></i><b class="mid"></b><b class="mk" style="left:38.4%"></b></div><span class="lbl r pick">56% ATL</span></div>
+      <div class="odds"><span class="num">-128</span><small>fair</small><span class="num dim">-180</span><small>market</small></div>
+      <div class="score num">BAL 21 · ATL 23</div>
+      <div class="edge num neg">-5.4%</div>
      </summary>
      <div class="why">
-      <p class="story">Sunday night in Atlanta hinges on Lamar Jackson&#x27;s left ankle. He left the Tennessee game at halftime in a walking boot and had an MRI Monday; Baltimore calls it day-to-day, so the model prices a coin flip between Jackson and Tyler Huntley, which costs the Ravens 1.6 points and adds variance. Marlon Humphrey is doubtful, both centers are on IR, and Hendrickson, Stanley and Vorhees are questionable. Atlanta just scored 45 at New Orleans but carries its own 5.8-point hit (A.J. Terrell on IR, Drake London and Kyle Pitts questionable, Pearce suspended). Model and market both say Ravens by 2.5 to 3; a Lean on Baltimore. If Jackson is ruled out, this flips to Atlanta.</p>
+      <p class="story">Lamar Jackson (ankle sprain) was ruled out Friday, so Tyler Huntley starts Sunday night. That costs Baltimore about three points of quarterback value, and the Ravens also ruled out Trey Hendrickson and Cam Jurgens with Marlon Humphrey, Zay Flowers, Ronnie Stanley and Andrew Vorhees questionable and both other centers on IR. Atlanta&#x27;s report is lighter (Za&#x27;Darius Smith, Jake Matthews, Deablo and Ebukam questionable; A.J. Terrell still on IR). The pick flipped from Baltimore on Tuesday to Atlanta: model Falcons by half a point, market 3.5, blend 1.9, a Lean on Atlanta. Baltimore +150 is a marginal value because the model does not think the quarterback swap is worth a full 6-point line move.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">ATL -0.1 · BAL +3.3</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">ATL -5.8 · BAL -3.2</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">ATL -5.5 · BAL -4.9</span></div>
       <div class="kv"><span>Quarterbacks</span><span>ATL Michael Penix Jr. <span class="num">(+0.3)</span> · BAL Tyler Huntley <span class="num">(-2.2)</span></span></div>
-      <div class="kv"><span>ATL injuries <span class="num">(-6.0)</span></span><span>A.J. Terrell (CB, IR) -1.49; Jalon Walker (OLB, IR) -0.80; James Pearce Jr. (DE, Suspended) -0.80; Divine Deablo (LB, Questionable) -0.16; Drake London (WR, Questionable) -0.79; Kyle Pitts (TE, Questionable) -0.23; Samson Ebukam (DE, Questionable) -0.36; Za&#x27;Darius Smith (DE, Questionable) -0.32</span></div>
-      <div class="kv"><span>BAL injuries <span class="num">(-4.0)</span></span><span>Jovaughn Gwyn (C, IR) -0.50; Marlon Humphrey (CB, Doubtful) -1.26; Andrew Vorhees (G, Questionable) -0.20; Ronnie Stanley (OT, Questionable) -0.79; Trey Hendrickson (OLB, Questionable) -0.63; Cam Jurgens (C, Questionable) -0.23</span></div>
+      <div class="kv"><span>ATL injuries <span class="num">(-5.7)</span></span><span>A.J. Terrell (CB, IR) -1.49; Jalon Walker (OLB, IR) -0.80; James Pearce Jr. (DE, Suspended) -0.80; Divine Deablo (LB, Questionable) -0.16; Jake Matthews (OT, Questionable) -0.45; Samson Ebukam (DE, Questionable) -0.36; Za&#x27;Darius Smith (DE, Questionable) -0.36; Drake London (WR, Probable) -0.18</span></div>
+      <div class="kv"><span>BAL injuries <span class="num">(-5.7)</span></span><span>Jovaughn Gwyn (C, IR) -0.50; Cam Jurgens (C, Out) -0.88; Trey Hendrickson (OLB, Out) -1.40; Andrew Vorhees (G, Questionable) -0.20; Marlon Humphrey (CB, Questionable) -0.67; Ronnie Stanley (OT, Questionable) -0.79; Zay Flowers (WR, Questionable) -0.79</span></div>
       <div class="kv"><span>New head coach</span><span>ATL, BAL (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>Mercedes-Benz Stadium, closed; indoor. Home edge <span class="num">+1.5</span></span></div>
-      <div class="kv"><span>Margin, ATL side</span><span class="num">model -1.3 · market +3.5 · blended +0.8 · sd 12.9</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market ATL -180 / BAL +150 · model ATL -112 / BAL +112</span></div>
-      <div class="kv note"><span>Note</span><span>Penix efficient in his second game back from the 2025 knee injury (45 points at New Orleans); rust trim reduced again.</span></div><div class="kv note"><span>Note</span><span>Lamar Jackson (left ankle, walking boot) did not practice all week and the schedule file now lists Tyler Huntley as the starter; priced as Huntley (-2.0 vs Jackson +3.3 on the 2024-25 dropback value).</span></div>
+      <div class="kv"><span>Margin, ATL side</span><span class="num">model +0.6 · market +3.5 · blended +1.9 · sd 12.9</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market ATL -180 / BAL +150 · model ATL -128 / BAL +128</span></div>
+      <div class="kv note"><span>Note</span><span>Penix efficient in his second game back from the 2025 knee injury (45 points at New Orleans); rust trim reduced again.</span></div><div class="kv note"><span>Note</span><span>Lamar Jackson (ankle sprain) ruled out Friday by Minter; Tyler Huntley makes his 17th career start.</span></div>
      </div>
     </details></section><section class="win"><header class="win-h"><h2>Monday, Oct 12</h2><span>Monday Night Football</span></header>
     <details class="game t-lean">
      <summary>
       <div class="teams"><span class="tm ">BUF<small>Bills</small></span><span class="at">at</span><span class="tm pick">LA<small>Rams</small></span></div>
       <div class="pickcol"><span class="pk">LA</span><span class="tier">Lean</span></div>
-      <div class="meter" title="Model: LA 59.3%. Market (vig removed): LA 60.9%."><span class="lbl l ">BUF 41%</span><div class="bar"><i class="fill r" style="width:59.3%"></i><b class="mid"></b><b class="mk" style="left:39.1%"></b></div><span class="lbl r pick">59% LA</span></div>
-      <div class="odds"><span class="num">-146</span><small>fair</small><span class="num dim">-175</span><small>market</small></div>
+      <div class="meter" title="Model: LA 60.0%. Market (vig removed): LA 60.9%."><span class="lbl l ">BUF 40%</span><div class="bar"><i class="fill r" style="width:60.0%"></i><b class="mid"></b><b class="mk" style="left:39.1%"></b></div><span class="lbl r pick">60% LA</span></div>
+      <div class="odds"><span class="num">-150</span><small>fair</small><span class="num dim">-175</span><small>market</small></div>
       <div class="score num">BUF 26 · LA 29</div>
-      <div class="edge num ">-1.6%</div>
+      <div class="edge num ">-1.0%</div>
      </summary>
      <div class="why">
-      <p class="story">Monday night between two of the five best teams in the ratings. Buffalo lost for the first time and limps in with Christian Benford, DJ Moore, Ed Oliver and Dee Alford all questionable. The Rams rallied to win in Philadelphia, expect Aaron Donald and Jaylen Watson back, and are still without Myles Garrett and Terrance Ferguson. Josh Allen and Matthew Stafford roughly cancel. Model: Rams by 3.8 at SoFi; market by 2.5. Blend 3.2, a Moderate pick on Los Angeles.</p>
+      <p class="story">Monday night; designations come Saturday. Buffalo&#x27;s DJ Moore, Ed Oliver, Dee Alford and Christian Benford are all questionable after missing practice, and Jordan Hancock went to IR. The Rams had Aaron Donald and Jaylen Watson back in limited practice, but Davante Adams, Quentin Lake and Nate Landman did not practice Thursday and are carried as questionable; Myles Garrett and Terrance Ferguson are on IR. Josh Allen and Matthew Stafford roughly cancel. Model: Rams by 3.3 at SoFi; market 3. Blend 3.1, a Lean on Los Angeles. Re-check after Saturday&#x27;s report.</p>
       <div class="kv"><span>Rating entering the week (pts vs avg)</span><span class="num">LA +7.5 · BUF +5.0</span></div>
-      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">LA +3.5 · BUF +2.5</span></div>
+      <div class="kv"><span>After QB, coaching, injury adjustments</span><span class="num">LA +3.9 · BUF +2.4</span></div>
       <div class="kv"><span>Quarterbacks</span><span>LA Matthew Stafford <span class="num">(+0.0)</span> · BUF Josh Allen <span class="num">(+0.1)</span></span></div>
-      <div class="kv"><span>LA injuries <span class="num">(-4.0)</span></span><span>Keagen Trost (OT, IR) -0.20; Myles Garrett (DE, IR) -1.40; Terrance Ferguson (TE, IR) -0.50; Aaron Donald (DT, Questionable) -0.35; Jaylen Watson (CB, Questionable) -0.23; Davante Adams (WR, Questionable) -0.25; Grant Stuard (LB, Questionable) -0.16; Nate Landman (LB, Questionable) -0.16; Quentin Lake (S, Questionable) -0.18; Josaiah Stewart (LB, Questionable) -0.16</span></div>
-      <div class="kv"><span>BUF injuries <span class="num">(-2.1)</span></span><span>Christian Benford (CB, Questionable) -0.67; DJ Moore (WR, Questionable) -0.45; Dee Alford (CB, Questionable) -0.23; Ed Oliver (DT, Questionable) -0.35; Keon Coleman (WR, Questionable) -0.25</span></div>
+      <div class="kv"><span>LA injuries <span class="num">(-3.7)</span></span><span>Keagen Trost (OT, IR) -0.20; Myles Garrett (DE, IR) -1.40; Terrance Ferguson (TE, IR) -0.50; Aaron Donald (DT, Questionable) -0.35; Grant Stuard (LB, Questionable) -0.16; Jaylen Watson (CB, Questionable) -0.23; Nate Landman (LB, Questionable) -0.16; Davante Adams (WR, Probable) -0.18</span></div>
+      <div class="kv"><span>BUF injuries <span class="num">(-2.2)</span></span><span>Jordan Hancock (CB, IR) -0.17; Christian Benford (CB, Questionable) -0.67; DJ Moore (WR, Questionable) -0.45; Dee Alford (CB, Questionable) -0.23; Ed Oliver (DT, Questionable) -0.35</span></div>
       <div class="kv"><span>New head coach</span><span>BUF (rating regressed, variance widened)</span></div>
       <div class="kv"><span>Venue and weather</span><span>SoFi Stadium, dome; indoor. Home edge <span class="num">+1.8</span></span></div>
-      <div class="kv"><span>Margin, LA side</span><span class="num">model +2.9 · market +3.0 · blended +2.9 · sd 12.8</span></div>
-      <div class="kv"><span>Moneylines</span><span class="num">market LA -175 / BUF +145 · model LA -146 / BUF +146</span></div>
+      <div class="kv"><span>Margin, LA side</span><span class="num">model +3.2 · market +3.0 · blended +3.1 · sd 12.8</span></div>
+      <div class="kv"><span>Moneylines</span><span class="num">market LA -175 / BUF +145 · model LA -150 / BUF +150</span></div>
       <div class="kv note"><span>Note</span><span>Stafford healthy after the comeback in Philadelphia; Stetson Bennett backs up.</span></div><div class="kv note"><span>Note</span><span>Allen healthy; contained as a runner two straight games.</span></div>
      </div>
     </details></section>
@@ -490,6 +490,7 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
  <li>Week 4 was the best week yet: 10 of 16 winners, log loss 0.609 against 0.617 for the market moneyline, and all three Very High picks won. Four weeks pooled (64 games): blend 0.641, pure model 0.638, market 0.654.</li>
  <li>No parameter changes. The market-weight grid is flat from 0.0 to 0.4 and the schedule already reaches 0.43 this week; a lighter preseason prior tested clearly worse (9 to 12 games of weight is the optimum); the variance grid is flat; the home-field bias (about 1.5 points, same as the market's) is inside noise.</li>
  <li>Process: the Jaguars' London game is listed as a home game in the schedule file, so the weather file can now force a neutral site. The IR carry-over and the pooled scorecard are repo modules instead of scratch scripts.</li>
+ <li>Friday refresh (Oct 9): the official practice report feeds a Questionable fallback for players who did not practice, and a hand-collected Friday designations file applies the final statuses (201 rows this week) and clears players who received no designation. Lamar Jackson was ruled out, so Baltimore is priced with Tyler Huntley; two picks flipped since Tuesday (Falcons over Ravens, Colts over Steelers).</li>
 </ul>
 
   </div>

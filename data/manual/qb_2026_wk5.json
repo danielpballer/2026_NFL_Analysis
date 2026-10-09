@@ -155,7 +155,7 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Daniels returns from the dislocated left elbow in a brace after missing two games; Mariota sprained his MCL in London and rookie Athan Kaliakmanis is the only backup. Small rust trim and extra variance.",
+   "notes": "Daniels was a full participant all week with no designation and Quinn confirmed him Friday; still wearing the elbow brace, so the extra variance stays. Mariota is out.",
    "value_override": 0.1,
    "extra_sd": 1.0,
    "schedule_projected_starter": "Jayden Daniels"
@@ -193,14 +193,14 @@
    "schedule_projected_starter": "Jacoby Brissett"
   },
   "CHI": {
-   "starter": "Tyson Bagent",
+   "starter": "Tyson Bagent (Williams questionable)",
    "pbp_name": "T.Bagent",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Bagent confirmed for a third straight start (268 yards in the win over the Jets); Caleb Williams (grade 2 hamstring) still out.",
+   "notes": "Bagent expected to make a third straight start; Caleb Williams (hamstring) was limited Friday and is listed questionable, so there is a chance Williams returns.",
    "schedule_projected_starter": "Tyson Bagent",
    "value_override": -3.5,
-   "extra_sd": 0.75
+   "extra_sd": 1.0
   },
   "GB": {
    "starter": "Jordan Love",
@@ -233,7 +233,7 @@
    "pbp_name": "T.Huntley",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Lamar Jackson (left ankle, walking boot) did not practice all week and the schedule file now lists Tyler Huntley as the starter; priced as Huntley (-2.0 vs Jackson +3.3 on the 2024-25 dropback value).",
+   "notes": "Lamar Jackson (ankle sprain) ruled out Friday by Minter; Tyler Huntley makes his 17th career start.",
    "schedule_projected_starter": "Tyler Huntley",
    "extra_sd": 0.5
   },
