@@ -219,3 +219,11 @@ parameter changes: the market-weight, prior-weight and variance grids all suppor
 settings (Week 5 market share 0.43). The IR carry-over (`nflsim.carryover`) and the pooled
 scorecard (`nflsim.pooled`) are now repo modules; the weather file can force a neutral site for
 the Jaguars' London game. Details in `output/week4_2026_postmortem.md`.
+
+## Status (Oct 13, 2026): Week 5 scored, Week 6 in progress
+
+Week 5 went 8-6 with a tie; log loss 0.641 against 0.643 for the market moneyline. Pooled over 78
+games the blend leads the market 0.640 to 0.648. Changes: injury points scaled by 0.75 (the
+ablation showed full weight over-counting relative to the market), market-weight floor lowered to
+0.35, ties excluded from scoring. The Friday refresh now uses the official practice report and a
+hand-collected designations file. Details in `output/week5_2026_postmortem.md`.

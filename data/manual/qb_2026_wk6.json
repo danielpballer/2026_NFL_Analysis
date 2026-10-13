@@ -8,9 +8,10 @@
    "pbp_name": "S.Darnold",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Darnold has started three straight; the schedule file still lists Drew Lock, who is the backup and limited with a forearm injury.",
    "schedule_projected_starter": "Drew Lock",
-   "value_override": null
+   "value_override": null,
+   "extra_sd": 0.25
   },
   "DEN": {
    "starter": "Bo Nix",
@@ -37,30 +38,34 @@
    "schedule_projected_starter": "Trevor Lawrence"
   },
   "CHI": {
-   "starter": "Tyson Bagent (Williams questionable)",
-   "pbp_name": "T.Bagent",
+   "starter": "Williams (expected) / Bagent",
+   "pbp_name": "C.Williams",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Caleb Williams (grade 2 hamstring, three games missed) is expected but not confirmed to return; Ben Johnson calls it close. Priced 60/40 Williams (-0.3) over Bagent (-1.4).",
    "schedule_projected_starter": "Tyson Bagent",
-   "value_override": -3.5
+   "value_override": -0.75,
+   "extra_sd": 1.0
   },
   "ATL": {
    "starter": "Michael Penix Jr.",
    "pbp_name": "M.Penix",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Penix hurt his ribs late against Baltimore and did not return in overtime; not serious per reports, team waits for Wednesday. Tua Tagovailoa is the backup.",
    "value_override": -0.3,
-   "schedule_projected_starter": "Michael Penix Jr."
+   "schedule_projected_starter": "Michael Penix Jr.",
+   "extra_sd": 0.75
   },
   "BAL": {
-   "starter": "Tyler Huntley",
-   "pbp_name": "T.Huntley",
+   "starter": "Jackson (questionable) / Huntley",
+   "pbp_name": "L.Jackson",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Lamar Jackson"
+   "notes": "Lamar Jackson (ankle) is \"doing better\" with a real chance to play; decision expected Friday. Priced as a coin flip between Jackson (+3.3) and Huntley (-2.0), who won in Atlanta.",
+   "schedule_projected_starter": "Lamar Jackson",
+   "value_override": 0.68,
+   "extra_sd": 1.5
   },
   "CLE": {
    "starter": "Deshaun Watson",
@@ -151,9 +156,10 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
+   "notes": "Jalon Daniels makes his third start after winning in Dallas; Mayfield (thumb) is doubtful. Rust trim eased slightly.",
    "schedule_projected_starter": "Jalon Daniels",
-   "value_override": -4.5
+   "value_override": -4.0,
+   "extra_sd": 1.0
   },
   "ARI": {
    "starter": "Jacoby Brissett",
@@ -168,7 +174,7 @@
    "pbp_name": "M.Stafford",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Short week after the Monday night overtime loss.",
    "schedule_projected_starter": "Matthew Stafford"
   },
   "LAC": {
@@ -225,9 +231,10 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Daniels in his second game back from the elbow, still in a brace.",
    "value_override": 0.1,
-   "schedule_projected_starter": "Jayden Daniels"
+   "schedule_projected_starter": "Jayden Daniels",
+   "extra_sd": 0.5
   },
   "SF": {
    "starter": "Brock Purdy",
