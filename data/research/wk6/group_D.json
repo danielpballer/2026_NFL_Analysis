@@ -1,0 +1,688 @@
+{
+ "collected_on": "2026-10-13",
+ "search_calls_used": 25,
+ "unverified": [
+  "DAL: no Tuesday Oct 13 injury report found; statuses are from Monday Oct 12 practice reports. Backup QB Joe Milton III is assumed from the 2025 trade with NE and was not verified on the 2026 roster.",
+  "DAL: no news found on IR players Devin Moore, Jalen Thompson, Jonathan Bullard, Kelvin Gilliam, Marist Liufau, Matt Hennessy, P.J. Locke, Princeton Fant; presumed still on IR. Tyler Smith (thumb) and Jonathan Mingo (illness) were questionable for Week 5; whether they played is unverified. The injury Malik Hooker is 'trending towards playing' through is unspecified.",
+  "GB: Javon Hargrave's formal IR placement was not confirmed by a team transaction in search results (torn Achilles confirmed by ESPN Oct 12). Backup QB (Malik Willis) not verified for 2026. No Week 6 news on Luke Musgrave (PUP), Jordon Riley (PUP), Collin Oliver (IR-designated to return), Savion Williams (IR-designated to return Oct 7, ruled out Week 5), Skyy Moore (ankle, out Week 5). Anthony Campbell's position was not stated in snippets.",
+  "GB: Trey Dean III appears to have left the Packers for the UFL St. Louis Battlehawks on Aug 11, 2026 (Wikipedia transaction list); treat as off roster unless contradicted.",
+  "WAS: no post-tie (Oct 12-13) injury report found. Week 6 statuses for Stefon Diggs, Charles Omenihu, Percy Butler, Nick Cross, Tyler Owens, Terry McLaurin are carried from the Week 5 report. Whether Trey Amos or Jeremy McNichols are activated for Week 6 is unknown. No news on Dorance Armstrong or Jordan Magee (presumed IR). Rachaad White and Jacory Croskey-Merritt appeared in a Week 5 Friday injury-report headline but their designations were not visible.",
+  "SF: backup QB (Mac Jones) not verified for 2026. No Week 6 news on IR players Ricky Pearsall, Demarcus Robinson, De'Zhaun Stribling, Alfred Collins; Christian Kirk confirmed still on IR (CBS). A 'pass rusher hurt in the fourth quarter' vs SEA was mentioned in one snippet but not identified. Garret Wallow's injury type unknown."
+ ],
+ "teams": {
+  "DAL": {
+   "week5_result": "L 16-24 vs TB (Thursday Night Football, Oct 8). Dallas fell to 2-3 and lost to a previously winless Tampa Bay team playing without Baker Mayfield; Dak Prescott went 24/42 for 316 yds with 2 INT (first multi-INT game of 2026) and Dallas lost the turnover battle 3-0. WR CeeDee Lamb (quad bruise) and LT Tyler Guyton (back) exited late; CB Joey Porter Jr. was a late scratch with illness.",
+   "qb": {
+    "starter": "Dak Prescott",
+    "backup": "Joe Milton III",
+    "changed_from_week5": false,
+    "notes": "Prescott healthy, started and finished the TB loss (2 INT). Schedule file's Dak Prescott listing is correct. Backup Milton III is assumed from the 2025 trade with New England and is unverified for the 2026 roster."
+   },
+   "injuries": [
+    {
+     "player": "CeeDee Lamb",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Quad bruise suffered Oct 8 vs TB; Schottenheimer and Ian Rapoport called it not serious, Stephen Jones (Oct 9-12) said he expects Lamb ready for GB",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/injuries-to-lt-tyler-guyton-wr-ceedee-lamb-are-not-serious"
+    },
+    {
+     "player": "Tyler Guyton",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Back strain on final drive Oct 8 vs TB; X-rays negative, further evaluation Friday Oct 9; Jerry Jones called it a strain; Stephen Jones expects him to play at GB. Broderick Jones filled in at LT",
+     "starter": true,
+     "source": "https://www.dallasnews.com/sports/cowboys/article/dallas-injury-updates-guyton-lamb-porter-jr-nfl-22469967.php"
+    },
+    {
+     "player": "DeMarvion Overshown",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Hamstring; has not played since Week 1; did 'a little bit' at Monday Oct 12 practice, status for GB undetermined per Schottenheimer",
+     "starter": true,
+     "source": "https://dallassportsjournal.com/cowboys-injury-updates-daron-bland-caelen-carson-demarvion-overshown-packers/"
+    },
+    {
+     "player": "Cobie Durant",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Hamstring; out Week 5; Schottenheimer Oct 12 said he is doing well in rehab but 'still has a ways to go'",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "Drew Shelton",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Hamstring; out Week 5, did not practice Monday Oct 12",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "Alijah Clark",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Hamstring, hurt Oct 8 vs TB; did not practice Monday Oct 12",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "Malik Hooker",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Schottenheimer Oct 12: Hooker is 'trending towards playing' vs GB (injury type not specified in snippets)",
+     "starter": true,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "DaRon Bland",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Illness; sent home from facility and missed Monday Oct 12 practice",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/cowboys-injury-updates-add-daron-215824409.html"
+    },
+    {
+     "player": "Caelen Carson",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Illness; sent home and missed Monday Oct 12 practice",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/cowboys-injury-updates-add-daron-215824409.html"
+    },
+    {
+     "player": "Joey Porter Jr.",
+     "position": "CB",
+     "status": "Probable",
+     "injury": "Illness; late scratch Oct 8 vs TB, returned to practice Monday Oct 12",
+     "starter": true,
+     "source": "https://www.dallasnews.com/sports/cowboys/article/dallas-injury-updates-guyton-lamb-porter-jr-nfl-22469967.php"
+    },
+    {
+     "player": "Shavon Revel Jr.",
+     "position": "CB",
+     "status": "Probable",
+     "injury": "Sore knee after Oct 8 game; Schottenheimer Oct 12 said not a concern",
+     "starter": true,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "Ameer Speed",
+     "position": "CB",
+     "status": "Probable",
+     "injury": "Sore knee; Schottenheimer Oct 12 said not a concern",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "Tyler Smith",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "Thumb; listed questionable on Oct 8 Week 5 report; Week 6 status unverified",
+     "starter": true,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Devin Moore",
+     "position": "CB",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Jalen Thompson",
+     "position": "S",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Jonathan Bullard",
+     "position": "DT",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Kelvin Gilliam",
+     "position": "DL",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Marist Liufau",
+     "position": "LB",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Matt Hennessy",
+     "position": "C",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "P.J. Locke",
+     "position": "S",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    },
+    {
+     "player": "Princeton Fant",
+     "position": "TE",
+     "status": "IR",
+     "injury": "On IR; no change reported since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.nfl.com/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Dallas has 10 days of rest after the Thursday loss; the game is SNF Oct 18 at Lambeau Field.",
+    "The 'Micah Parsons revenge game' angle is off: Parsons (traded to GB) remains on PUP and is not expected to practice this week.",
+    "Secondary is depleted or ailing: Durant out, Bland and Carson ill, Porter Jr. returning from illness, Revel and Speed with sore knees; Hooker trending toward playing.",
+    "Defensive struggles were the Week 5 story (the Cowboys site headline: 'Defensive struggles continue'); offense turned it over 3 times.",
+    "If Guyton cannot go, Broderick Jones is the next man up at left tackle; Drew Shelton (backup OT) is also hurt."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/recap/_/gameId/401872980",
+    "https://www.cbsnews.com/texas/news/dallas-cowboys-tampa-bay-buccaneers-thursday-night-football-october-2026/",
+    "https://www.dallascowboys.com/news/updates-october-2026",
+    "https://www.dallascowboys.com/news/pic-6-defensive-struggles-continue-injury-roundup-and-more-from-week-5",
+    "https://www.dallasnews.com/sports/cowboys/article/dallas-injury-updates-guyton-lamb-porter-jr-nfl-22469967.php",
+    "https://sports.yahoo.com/articles/cowboys-injury-updates-add-daron-215824409.html",
+    "https://dallassportsjournal.com/cowboys-injury-updates-daron-bland-caelen-carson-demarvion-overshown-packers/",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/injuries-to-lt-tyler-guyton-wr-ceedee-lamb-are-not-serious",
+    "https://athlonsports.com/nfl/dallas-cowboys/cowboys-receive-positive-injury-updates-on-ceedee-lamb-and-tyler-guyton",
+    "https://www.si.com/nfl/cowboys/onsi/joey-porter-jr-shockingly-headlines-dallas-cowboys-week-5-inactives-vs-buccaneers",
+    "https://www.bleachernation.com/stats-and-news/2026/10/07/cowboys-vs-buccaneers-injury-report-inactives-week-5/",
+    "https://www.nfl.com/injuries/"
+   ]
+  },
+  "GB": {
+   "week5_result": "W 31-7 vs CHI (Oct 11, Lambeau). Jordan Love threw for 367 yds and 2 TD and the defense forced 5 turnovers against Case Keenum; Green Bay moved to 3-2 with its second straight win. DT Javon Hargrave suffered a non-contact torn Achilles with 1:53 left (season-ending, confirmed Oct 12), one week after LB Edgerrin Cooper's Achilles tear.",
+   "qb": {
+    "starter": "Jordan Love",
+    "backup": "Malik Willis",
+    "changed_from_week5": false,
+    "notes": "Love healthy and coming off a 367-yd game; schedule file's listing is correct. Backup Willis unverified for 2026."
+   },
+   "injuries": [
+    {
+     "player": "Javon Hargrave",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Torn Achilles Oct 11 vs CHI, confirmed by tests Oct 12 (ESPN); season-ending. Formal IR transaction not yet seen in search results",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50167021/source-packers-lose-hargrave-season-ending-torn-achilles"
+    },
+    {
+     "player": "Edgerrin Cooper",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Torn Achilles in Week 4 at TB; placed on IR Oct 6 (season-ending). Carried as Out last week, now IR",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/gb/green-bay-packers"
+    },
+    {
+     "player": "Micah Parsons",
+     "position": "DE",
+     "status": "PUP",
+     "injury": "Knee (ACL surgery); on PUP, not IR. Per Schefter and LaFleur (Oct 12) his practice window will not open this week, so he misses a 6th straight game vs his former team",
+     "starter": true,
+     "source": "https://packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026"
+    },
+    {
+     "player": "Jayden Reed",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Neck; placed on IR and will have neck surgery, ending his 2026 season per LaFleur",
+     "starter": true,
+     "source": "https://www.acmepackingcompany.com/green-bay-packers-news/87366/packers-injury-report-jayden-reed-goes-on-injured-reserve"
+    },
+    {
+     "player": "Josh Jacobs",
+     "position": "RB",
+     "status": "Suspended",
+     "injury": "On the Commissioner's Exempt List (not a formal suspension yet); missed all 5 games; LaFleur has no league update, decision expected between Weeks 6 and 8. Four-to-six-game suspension possible per ESPN, with games missed possibly credited",
+     "starter": true,
+     "source": "https://www.acmepackingcompany.com/green-bay-packers-news/87995/packers-have-no-league-updates-on-josh-jacobs-situation"
+    },
+    {
+     "player": "Chris Brooks",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Ankle injury in Week 4 at TB; placed on IR Oct 10 (was Out last week). Pierre Strong Jr. signed to the active roster Oct 8",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/gb/green-bay-packers"
+    },
+    {
+     "player": "Aaron Banks",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "Knee/toe; doubtful and inactive Week 5; listed questionable on ESPN Oct 12",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/gb/green-bay-packers"
+    },
+    {
+     "player": "Jacob Monk",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "Quadriceps; out since the Falcons game, doubtful and inactive Week 5; questionable per ESPN Oct 12",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/gb/green-bay-packers"
+    },
+    {
+     "player": "Savion Williams",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Ankle; designated to return from IR Oct 7 but ruled out Week 5; activation for Week 6 unverified",
+     "starter": false,
+     "source": "https://lombardiave.com/packers-week-5-injury-updates-latest-micah-parsons-brandon-cisse-savion-williams"
+    },
+    {
+     "player": "Collin Oliver",
+     "position": "DE",
+     "status": "IR",
+     "injury": "IR, designated for return as of Oct 3; no activation reported",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/gb/green-bay-packers"
+    },
+    {
+     "player": "Skyy Moore",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Ankle; ruled out of Week 5 win over CHI (NFL.com); Week 6 unverified",
+     "starter": false,
+     "source": "https://www.nfl.com/news/notable-injuries-news-sunday-week-5-games-2026"
+    },
+    {
+     "player": "Anthony Campbell",
+     "position": "DL",
+     "status": "Questionable",
+     "injury": "Ankle; missed two games, LaFleur Oct 12 hopes to get him back this week (position not confirmed in snippets)",
+     "starter": false,
+     "source": "https://packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026"
+    },
+    {
+     "player": "Devonte Wyatt",
+     "position": "DT",
+     "status": "Probable",
+     "injury": "Ankle; limited Oct 7 but had no designation and played Week 5; now a key DT with Hargrave out",
+     "starter": true,
+     "source": "https://www.packers.com/news/packers-bears-injury-report-oct-7-2026"
+    },
+    {
+     "player": "Luke Musgrave",
+     "position": "TE",
+     "status": "PUP",
+     "injury": "On PUP; no update found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.packers.com/team/injury-report/"
+    },
+    {
+     "player": "Jordon Riley",
+     "position": "DL",
+     "status": "PUP",
+     "injury": "On PUP; no update found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.packers.com/team/injury-report/"
+    }
+   ],
+   "context_notes": [
+    "Interior DL is gutted: Hargrave (Achilles) and Cooper (Achilles) are done for the year and Parsons is still on PUP; Kristian Welch was promoted at LB after Cooper went down.",
+    "Parsons will not face his former team: Schefter reported he will not practice this week; LaFleur says the team is 'getting closer' to opening his window.",
+    "Both starting-caliber guards (Banks, Monk) missed Week 5; offensive line reshuffle likely continues unless they clear.",
+    "Backfield without Jacobs (exempt list) and Brooks (IR); Pierre Strong Jr. signed to the active roster Oct 8.",
+    "Trey Dean III is no longer on the roster (transaction list shows him joining the UFL Battlehawks Aug 11, 2026); carry him off the absent list."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/story/_/id/50167021/source-packers-lose-hargrave-season-ending-torn-achilles",
+    "https://www.packerdispatch.com/p/javon-hargrave-injury-packers-bears-week-5-10-11",
+    "https://www.nfl.com/news/notable-injuries-news-sunday-week-5-games-2026",
+    "https://clutchpoints.com/nfl/green-bay-packers/packers-news-javon-hargrave-injury-update-week-5-bears",
+    "https://packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026",
+    "https://sports.yahoo.com/nfl/breaking-news/article/micah-parsons-reportedly-not-expected-to-return-from-acl-tear-for-packers-cowboys-game-sunday-night-175934497.html",
+    "https://www.acmepackingcompany.com/green-bay-packers-news/87366/packers-injury-report-jayden-reed-goes-on-injured-reserve",
+    "https://www.acmepackingcompany.com/green-bay-packers-news/87995/packers-have-no-league-updates-on-josh-jacobs-situation",
+    "https://www.espn.com/nfl/team/transactions/_/name/gb/green-bay-packers",
+    "https://www.espn.com/nfl/team/injuries/_/name/gb/green-bay-packers",
+    "https://www.packers.com/news/packers-sign-rb-pierre-strong-jr-to-the-active-roster-oct-8-2026",
+    "https://www.packers.com/news/packers-bears-injury-report-oct-7-2026",
+    "https://www.packers.com/news/packers-list-three-questionable-two-doubtful-vs-bears-week-5-injury-report",
+    "https://lombardiave.com/packers-week-5-injury-updates-latest-micah-parsons-brandon-cisse-savion-williams",
+    "https://en.wikipedia.org/wiki/2026_Green_Bay_Packers_season"
+   ]
+  },
+  "WAS": {
+   "week5_result": "T 27-27 (OT) vs NYG (Oct 11, Landover). Jayden Daniels returned from a dislocated left elbow (wearing a brace) and ran 9 times for 103 yds and 2 TD, but Washington failed to get a game-winning FG off after Daniels scrambled in bounds with no timeouts as OT expired. Washington is 1-3-1; Dan Quinn called the tie 'a loss' and is under hot-seat scrutiny.",
+   "qb": {
+    "starter": "Jayden Daniels",
+    "backup": "Athan Kaliakmanis",
+    "changed_from_week5": false,
+    "notes": "Daniels started Week 5 after missing two games with the elbow and played the whole game in a brace; Quinn said he 'played sharp'. Veteran backup Marcus Mariota (sprained right MCL, Week 4) was out in Week 5 and the rookie Kaliakmanis is the active backup; Mariota's earliest return is this game (Rotowire est. 10/19) but it is not certain."
+   },
+   "injuries": [
+    {
+     "player": "Marcus Mariota",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Sprained right MCL in Week 4 at IND (London); out Week 5; not placed on IR; return possible Week 6 per Rotowire, 2-3 weeks per The Athletic",
+     "starter": false,
+     "source": "https://www.rotowire.com/football/player/marcus-mariota-10074"
+    },
+    {
+     "player": "Terry McLaurin",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Hamstring; questionable but active and played Week 5 vs NYG; Week 6 practice status unverified",
+     "starter": true,
+     "source": "https://www.hogshaven.com/washington-commanders-injuries/446974/washington-commanders-vs-new-york-giants-inactives-terry-mclaurin-play-today"
+    },
+    {
+     "player": "Stefon Diggs",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Hamstring; ruled out Week 5 by Quinn; Week 6 status unverified (carried as Out last week)",
+     "starter": true,
+     "source": "https://heavy.com/sports/nfl/washington-commanders/commanders-announce-stefon-diggs-injury-update/"
+    },
+    {
+     "player": "Jaylin Lane",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Placed on IR; reported season-ending (was Out last week)",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/jayden-daniels-injury-latest-commanders-110304107.html"
+    },
+    {
+     "player": "Laremy Tunsil",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Triceps; on IR (earlier designated to return in one report); not activated",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Jer'Zhan Newton",
+     "position": "DT",
+     "status": "IR",
+     "injury": "On IR per ESPN; no activation reported",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Trey Amos",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Ankle; practice window opened (designated to return) but not activated for Week 5; downgraded to out per ESPN; Week 6 activation unverified",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-designate-cb-trey-amos-de-deatrich-wise-rb-jeremy-mcnichols-for-return"
+    },
+    {
+     "player": "Jeremy McNichols",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Designated to return from IR, practicing, not activated for Week 5",
+     "starter": false,
+     "source": "https://www.hogshaven.com/washington-commanders-news/447089/trey-amos-deatrich-wise-jeremy-mcnichols-injured-reserve-pup-comanders-news"
+    },
+    {
+     "player": "Deatrich Wise Jr.",
+     "position": "DE",
+     "status": "Probable",
+     "injury": "ACTIVATED from PUP Oct 10 and removed from the injury report ahead of the Giants game (quad)",
+     "starter": false,
+     "source": "https://www.hogshaven.com/washington-commanders-roster/443789/washington-commanders-roster-moves-giants-deatrich-wise-van-jefferson"
+    },
+    {
+     "player": "Charles Omenihu",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "Groin/ankle; out Week 5; Week 6 unverified",
+     "starter": true,
+     "source": "https://www.commanders.com/news/game-status-commanders-giants-week-5"
+    },
+    {
+     "player": "Percy Butler",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Hamstring; out Week 5; Week 6 unverified",
+     "starter": false,
+     "source": "https://www.commanders.com/news/game-status-commanders-giants-week-5"
+    },
+    {
+     "player": "Nick Cross",
+     "position": "S",
+     "status": "Probable",
+     "injury": "Illness; out Week 5; expected back once healthy, Week 6 unverified",
+     "starter": true,
+     "source": "https://www.commanders.com/news/game-status-commanders-giants-week-5"
+    },
+    {
+     "player": "Tyler Owens",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Out Week 5 (injury not specified in snippets); Week 6 unverified",
+     "starter": false,
+     "source": "https://www.foxsports.com/nfl/washington-commanders-team-injuries"
+    },
+    {
+     "player": "Dorance Armstrong",
+     "position": "DE",
+     "status": "IR",
+     "injury": "On IR; no change found since Oct 6 (unverified)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Jordan Magee",
+     "position": "LB",
+     "status": "IR",
+     "injury": "On IR; no change found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Nick Allegretti",
+     "position": "G",
+     "status": "Probable",
+     "injury": "Was limited early in Week 5 then full on Friday Oct 9 and played",
+     "starter": true,
+     "source": "https://www.commanders.com/news/commanders-vs-giants-week-5-injury-report"
+    }
+   ],
+   "context_notes": [
+    "Dan Quinn is on the hot seat after the end-of-OT clock blunder; Front Office Sports reported the team was not inclined to fire him as of Monday Oct 12.",
+    "Cross-country trip for Monday Night Football at Santa Clara; Washington has played in London (Week 4) and now goes west on the long week.",
+    "WR corps is thin: Lane on IR, Diggs out last week with a hamstring, McLaurin managing a hamstring.",
+    "Offensive line is without Tunsil (IR); Daniels is playing through the elbow in a brace and remains the team's leading rusher.",
+    "Deatrich Wise Jr. was activated from PUP Oct 10 to help an edge group missing Armstrong (IR) and Omenihu."
+   ],
+   "sources": [
+    "https://www.pff.com/news/nfl-week-5-recap-new-york-giants-27-washington-commanders-27",
+    "https://www.commanders.com/news/5-takeaways-commanders-vs-giant-week-5-2026",
+    "https://bleacherreport.com/articles/25509210-jayden-daniels-returns-final-box-score-stats-highlights-commanders-tie-vs-giants",
+    "https://sports.yahoo.com/nfl/article/dan-quinn-still-furious-about-tie-with-giants-after-clock-blunder-weve-got-a-lot-of-s-to-clean-up-212258513.html",
+    "https://www.yardbarker.com/nfl/articles/commanders_make_decision_on_firing_dan_quinn_after_overtime_tie_vs_giants/s1_17730_44421064",
+    "https://www.commanders.com/news/game-status-commanders-giants-week-5",
+    "https://www.commanders.com/news/commanders-vs-giants-week-5-injury-report",
+    "https://www.hogshaven.com/washington-commanders-injuries/446974/washington-commanders-vs-new-york-giants-inactives-terry-mclaurin-play-today",
+    "https://www.hogshaven.com/washington-commanders-injuries/447703/commanders-vs-giants-friday-injury-report-terry-mclaurin-stefon-diggs-rachaad-white-croskey-merritt",
+    "https://www.hogshaven.com/washington-commanders-roster/443789/washington-commanders-roster-moves-giants-deatrich-wise-van-jefferson",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-designate-cb-trey-amos-de-deatrich-wise-rb-jeremy-mcnichols-for-return",
+    "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders",
+    "https://www.rotowire.com/football/player/marcus-mariota-10074",
+    "https://www.nfl.com/news/commanders-qb-marcus-mariota-knee-injury-colts-athan-kaliakmanis",
+    "https://sports.yahoo.com/articles/jayden-daniels-injury-latest-commanders-110304107.html",
+    "https://www.foxsports.com/nfl/washington-commanders-team-injuries"
+   ]
+  },
+  "SF": {
+   "week5_result": "W 32-29 at SEA (Oct 11). San Francisco moved to 5-0 on an Eddy Pineiro 43-yd FG with 1:56 left after Seattle committed 3 turnovers; Brock Purdy 19/29 for 189 yds, 2 TD, 1 INT, McCaffrey 68 rush yds and a TD, Brandin Cooks caught the go-ahead TD. WR Deebo Samuel fumbled and left with a hamstring strain in the 3rd quarter (out multiple weeks). DE Mykel Williams made his 2026 debut off PUP.",
+   "qb": {
+    "starter": "Brock Purdy",
+    "backup": "Mac Jones",
+    "changed_from_week5": false,
+    "notes": "Purdy started and finished the SEA win with two 4th-quarter scoring drives; schedule file listing is correct. Backup Mac Jones unverified for 2026 (no injury concern reported)."
+   },
+   "injuries": [
+    {
+     "player": "Deebo Samuel",
+     "position": "WR",
+     "status": "Out",
+     "injury": "Hamstring strain Oct 11 at SEA; MRI Oct 12; Shanahan says 'at least a couple of weeks', projected to miss Weeks 6-7 and return after the Week 8 bye (CBS lists Week 9 return)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury"
+    },
+    {
+     "player": "Nick Bosa",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "Calf; out Week 5; Bosa said Oct 12 it is 'pretty darn likely' he plays vs WAS, Shanahan said he 'has a chance'",
+     "starter": true,
+     "source": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/nick-bosa-injury-return-commanders/1970068/"
+    },
+    {
+     "player": "Kyle Juszczyk",
+     "position": "FB",
+     "status": "Questionable",
+     "injury": "Knee; out Week 5; Shanahan Oct 12 says he could return Week 6",
+     "starter": true,
+     "source": "https://heavy.com/sports/nfl/san-francisco-49ers/49ers-kyle-juszczyk-injury-update-seahawks"
+    },
+    {
+     "player": "James Thompson Jr.",
+     "position": "DL",
+     "status": "Questionable",
+     "injury": "Ankle; out Week 5; Shanahan Oct 12 grouped him with Bosa and Juszczyk as having a chance",
+     "starter": false,
+     "source": "https://www.yardbarker.com/nfl/articles/49ers_injury_news_deebo_samuel_to_miss_some_time_updates_on_nick_bosa_kyle_juszczyk_others/s1_17111_44420462"
+    },
+    {
+     "player": "Marques Sigle",
+     "position": "S",
+     "status": "Doubtful",
+     "injury": "High ankle sprain (reported Oct 5); out Week 5; doubtful per CBS",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Garret Wallow",
+     "position": "LB",
+     "status": "Out",
+     "injury": "Listed out on CBS injury table (injury type not in snippets)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Dre Greenlaw",
+     "position": "LB",
+     "status": "Suspended",
+     "injury": "Suspended through Week 6, eligible to return Week 7",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Upton Stout",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Shoulder (Week 4 vs DEN); questionable but active and played Week 5",
+     "starter": true,
+     "source": "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/"
+    },
+    {
+     "player": "Mykel Williams",
+     "position": "DE",
+     "status": "Probable",
+     "injury": "ACTIVATED from PUP (ACL from 2025) ahead of Week 5; questionable with knee, played vs SEA",
+     "starter": true,
+     "source": "https://www.ninersnation.com/san-francisco-49ers-news/164070/san-francisco-49ers-news-activate-mykel-williams-physically-unable-to-perform-list-seattle-seahawks-injury-report"
+    },
+    {
+     "player": "Mike Evans",
+     "position": "WR",
+     "status": "Probable",
+     "injury": "Ribs; limited Wed/Fri of Week 5 but no designation and played a starring role at SEA",
+     "starter": true,
+     "source": "https://athlonsports.com/nfl/san-francisco-49ers/49ers-injury-report-seahawks-week-5-mike-evans-nick-bosa"
+    },
+    {
+     "player": "Christian Kirk",
+     "position": "WR",
+     "status": "IR",
+     "injury": "On IR per CBS (no activation)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Ricky Pearsall",
+     "position": "WR",
+     "status": "IR",
+     "injury": "On IR; no update found since Oct 6 (unverified)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Demarcus Robinson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "On IR; no update found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "De'Zhaun Stribling",
+     "position": "WR",
+     "status": "IR",
+     "injury": "On IR; no update found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    },
+    {
+     "player": "Alfred Collins",
+     "position": "DT",
+     "status": "IR",
+     "injury": "On IR; no update found since Oct 6 (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/"
+    }
+   ],
+   "context_notes": [
+    "49ers are 5-0 and host MNF at home against a 1-3-1 Washington team traveling cross-country; SF's bye is Week 8.",
+    "WR room: Samuel joins Kirk, Pearsall, Robinson and Stribling on the shelf; Mike Evans and Brandin Cooks (veteran additions) are the top healthy wideouts.",
+    "Pass rush could get a major boost if Bosa returns alongside Mykel Williams, who debuted last week off PUP.",
+    "Christian McCaffrey and Trent Williams carried no designation in Week 5 and are healthy.",
+    "Kicker Eddy Pineiro hit the game-winning 43-yarder at Seattle; no kicker concerns."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
+    "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/live-updates-score-highlights-seattle-seahawks-3/1969383/",
+    "https://www.49erswebzone.com/articles/204089-recap-defensive-plays-evans-seahawks/",
+    "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
+    "https://www.cbssports.com/nfl/news/49ers-deebo-samuel-hamstring-injury-update/",
+    "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/nick-bosa-injury-return-commanders/1970068/",
+    "https://www.49erswebzone.com/articles/204099-shanahan-shares-post-game-updates-seahawks/",
+    "https://www.yardbarker.com/nfl/articles/49ers_injury_news_deebo_samuel_to_miss_some_time_updates_on_nick_bosa_kyle_juszczyk_others/s1_17111_44420462",
+    "https://heavy.com/sports/nfl/san-francisco-49ers/49ers-kyle-juszczyk-injury-update-seahawks",
+    "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/",
+    "https://www.espn.com/nfl/team/injuries/_/name/sf/san-francisco-49ers",
+    "https://www.49erswebzone.com/articles/204022-49ers-seahawks-injury-report-questionable/",
+    "https://www.49erswebzone.com/articles/204023-49ers-activate-mykel-williams-seahawks/",
+    "https://www.ninersnation.com/san-francisco-49ers-news/164070/san-francisco-49ers-news-activate-mykel-williams-physically-unable-to-perform-list-seattle-seahawks-injury-report",
+    "https://athlonsports.com/nfl/san-francisco-49ers/49ers-injury-report-seahawks-week-5-mike-evans-nick-bosa"
+   ]
+  }
+ }
+}
