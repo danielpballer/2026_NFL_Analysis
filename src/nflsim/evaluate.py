@@ -25,6 +25,8 @@ def evaluate(season: int, week: int) -> tuple[pd.DataFrame, pd.DataFrame]:
     pred = pred.rename(columns={"home_rating_2025": "home_rating_prior", "away_rating_2025": "away_rating_prior"})
     df = pred.merge(g, on="game_id")
     df = df[df.result.notna()].copy()
+    df["tie"] = df.result == 0
+    df = df[~df.tie].copy()   # a tie is neither a win nor a loss for a moneyline pick; it is excluded from scoring
     df["home_won"] = (df.result > 0).astype(int)
     df["pick_won"] = ((df.predicted_winner == df.home) == (df.result > 0)).astype(int)
     df["p_pure"] = [simulate_game(m, t, s)["p_home"] for m, t, s in zip(df.model_margin_home, df.proj_total, df.margin_sd)]

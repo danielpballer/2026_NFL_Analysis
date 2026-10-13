@@ -52,7 +52,7 @@ def test_injury_cap_and_qb_exclusion():
         {"player": f"P{i}", "position": "LT", "status": "Out", "starter": True, "star": True} for i in range(20)
     ] + [{"player": "QB", "position": "QB", "status": "Out", "starter": True}]}}}
     r = injury_adjustment("X", inj)
-    assert r["injury_pts"] == -C.INJURY_CAP_POINTS
+    assert r["injury_pts"] == -C.INJURY_CAP_POINTS * C.INJURY_SCALE
     assert "QB" not in r["injury_details"]
 
 

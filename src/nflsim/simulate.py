@@ -12,7 +12,7 @@ def base_sd(week: int) -> float:
 
 
 def market_weight(week: int) -> float:
-    """Market share of the margin blend: 0.55 in Week 1, falling 0.03 per week to a 0.40 floor."""
+    """Market share of the margin blend: 0.55 in Week 1, falling 0.03 per week to the configured floor (0.35 after Week 5)."""
     return max(C.MARKET_WEIGHT_FLOOR, C.MARKET_WEIGHT - C.MARKET_WEIGHT_DECAY * (week - 1))
 
 

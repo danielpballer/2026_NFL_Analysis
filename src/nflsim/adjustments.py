@@ -97,7 +97,7 @@ def injury_adjustment(team: str, injuries: dict) -> dict:
         unc += base * miss * (1 - miss)  # binary uncertainty contributes variance
         if pts > 0.05:
             details.append(f"{p['player']} ({p.get('position')}, {p.get('status')}) -{pts:.2f}")
-    capped = min(total, C.INJURY_CAP_POINTS)
+    capped = min(total, C.INJURY_CAP_POINTS) * C.INJURY_SCALE
     return {"team": team, "injury_pts": -capped, "injury_raw": -total, "injury_extra_sd": unc ** 0.5,
             "injury_details": "; ".join(details)}
 
