@@ -25,6 +25,9 @@ backtest:         ## score the method on 2025 Week 1 using 2024 data
 evaluate:         ## score a completed week (make evaluate WEEK=1)
 	$(PY) -m nflsim.evaluate 2026 $(WEEK)
 
+bankroll:         ## flat vs quarter-Kelly results of the Tuesday value tables, weeks 1..WEEK-1
+	$(PY) -m nflsim.bankroll 2026 1 $$(( $(WEEK) - 1 )) --bankroll 1000 --flat 10
+
 pooled:           ## pooled scorecard + parameter grids over weeks 1..WEEK-1
 	$(PY) -m nflsim.pooled 2026 1 $$(( $(WEEK) - 1 ))
 
