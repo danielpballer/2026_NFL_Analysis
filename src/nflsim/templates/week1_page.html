@@ -133,6 +133,9 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
    <p>Each completed week scored against actual results. Lower is better for log loss and Brier. The 2025 row is the pre-season backtest (2024 data plus 2025 opening lines).</p>
    <div class="tbl"><table class="bt"><tr><th>Week</th><th>Method</th><th>Log loss</th><th>Brier</th><th>Winners</th></tr>{{TRACK}}</table></div>
    {{CHANGES}}
+   <h3 style="margin-top:18px">Value-table betting record</h3>
+   <p>Every side the value table listed when the week was first published (the Tuesday build), graded at those opening moneylines. Flat is $10 on every side. Quarter-Kelly starts from a $1,000 bankroll, stakes a quarter of the Kelly fraction of the bankroll as it stood at the start of each week, and compounds. Pushes (ties) return the stake.</p>
+   <div class="tbl"><table class="bt"><tr><th>Week</th><th>Bets</th><th>W-L-P</th><th>Flat $10</th><th>Flat to date</th><th>¼ Kelly staked</th><th>¼ Kelly result</th><th>Bankroll</th></tr>{{BANKROLL}}</table></div>
   </div>
  </footer>
 </div>

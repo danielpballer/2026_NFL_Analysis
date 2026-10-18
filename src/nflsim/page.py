@@ -138,9 +138,29 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     for w in range(1, week):
         f = C.OUTPUT / f"week{w}_{season}_evaluation_scores.csv"
         if f.exists():
+            ev = C.OUTPUT / f"week{w}_{season}_evaluation.csv"
+            n = sum(1 for _ in csv.DictReader(open(ev))) if ev.exists() else 16
             for r in csv.DictReader(open(f)):
                 if r["method"] in labels:
-                    track.append(f"<tr><td>{season} wk {w}</td><td>{labels[r['method']]}</td><td class='num'>{float(r['log_loss']):.3f}</td><td class='num'>{float(r['brier']):.3f}</td><td class='num'>{round(float(r['accuracy'])*16)} / 16</td></tr>")
+                    track.append(f"<tr><td>{season} wk {w}</td><td>{labels[r['method']]}</td><td class='num'>{float(r['log_loss']):.3f}</td><td class='num'>{float(r['brier']):.3f}</td><td class='num'>{round(float(r['accuracy'])*n)} / {n}</td></tr>")
+    # value-table betting record: flat $10 and quarter-Kelly on $1,000, from the Tuesday value tables
+    bank_rows = []
+    try:
+        from .bankroll import run as bankroll_run
+        bdf = bankroll_run(season, 1, week, 1000.0, 10.0, 0.25)
+        for w, grp in bdf.groupby("week"):
+            won = int((grp.outcome == "won").sum()); lost = int((grp.outcome == "lost").sum()); push = int((grp.outcome == "push").sum())
+            pending = int((grp.outcome == "pending").sum())
+            label = f"{season} wk {w}" + (f" ({pending} pending)" if pending else "")
+            bank_rows.append(f"<tr><td>{label}</td><td class='num'>{len(grp)}</td><td class='num'>{won}-{lost}-{push}</td>"
+                             f"<td class='num'>{grp.flat_profit.sum():+.2f}</td><td class='num'>{grp.flat_total.iloc[-1]:+.2f}</td>"
+                             f"<td class='num'>{grp.kelly_stake.sum():.2f}</td><td class='num'>{grp.kelly_profit.sum():+.2f}</td><td class='num'>{grp.bankroll_after.iloc[-1]:,.2f}</td></tr>")
+        graded = bdf[bdf.outcome.isin(["won", "lost"])]
+        bank_rows.append(f"<tr><td><b>Season</b></td><td class='num'>{len(bdf)}</td><td class='num'>{int((bdf.outcome == 'won').sum())}-{int((bdf.outcome == 'lost').sum())}-{int((bdf.outcome == 'push').sum())}</td>"
+                         f"<td class='num'>{bdf.flat_profit.sum():+.2f}</td><td class='num'>{bdf.flat_profit.sum() / max(graded.flat_stake.sum(), 1):+.1%} ROI</td>"
+                         f"<td class='num'>{graded.kelly_stake.sum():.2f}</td><td class='num'>{bdf.kelly_profit.sum():+.2f}</td><td class='num'>{bdf.bankroll_after.iloc[-1]:,.2f} ({bdf.bankroll_after.iloc[-1] / 1000 - 1:+.1%})</td></tr>")
+    except Exception as exc:  # the record must never break the page build
+        bank_rows.append(f"<tr><td colspan='8'>betting record unavailable ({exc})</td></tr>")
     changes_path = C.MANUAL / f"model_changes_{season}_wk{week}.html"
     changes = changes_path.read_text() if changes_path.exists() else ""
     nflips = sum(1 for r in rows if pure[r['game_id']]['flip'])
@@ -150,7 +170,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     page = page.replace('{{WEEK}}', str(week)).replace('{{NGAMES}}', str(len(rows))).replace('{{BUILT}}', f"built {_dt.date.today().strftime('%b %-d, %Y')}")
     wm = rows[0].get("market_weight", C.MARKET_WEIGHT)
     page = page.replace('{{WMODEL}}', f"{(1 - wm) * 100:.0f}%").replace('{{WMARKET}}', f"{wm * 100:.0f}%")
-    page = page.replace('{{TRACK}}', ''.join(track)).replace('{{CHANGES}}', changes).replace('{{FLIP_INTRO}}', flip_intro)
+    page = page.replace('{{TRACK}}', ''.join(track)).replace('{{CHANGES}}', changes).replace('{{FLIP_INTRO}}', flip_intro).replace('{{BANKROLL}}', ''.join(bank_rows))
     page = page.replace('{{GAMES}}',''.join(out)).replace('{{TIERS}}',tier_html).replace('{{FLIPS}}',''.join(flip_rows)).replace('{{SHIFTS}}',shift_text)
     if fragment:
         return page
