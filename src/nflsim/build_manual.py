@@ -145,13 +145,16 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
             if p.get("roster_status") == "official-report":
                 ov = {k: v for k, v in match_override(team, p["player"], ovr["players"]).items() if k != "status"}
                 p.update(ov)
-            elif team in official_by_team and p["status"] in GAME_STATUSES:
-                # the official report is authoritative once published: anyone it lists gets that status,
-                # anyone it omits is active (reserve-list players are untouched)
+            elif team in official_by_team:
+                # the official report is authoritative once published: anyone it lists gets that status
+                # (including a player we carried on IR who has since been activated), anyone it omits
+                # with a game-week status is active; reserve-list players it omits are untouched
                 key = f"{p['player'][:1].lower()}|{_last(p['player'])}"
                 if key in official_by_team[team]:
+                    if p["status"] not in GAME_STATUSES:
+                        p["injury"] = (p.get("injury") or "") + " [on the official report: treated as activated]"
                     p["status"] = official_by_team[team][key]
-                else:
+                elif p["status"] in GAME_STATUSES:
                     p["status"] = "Probable"
                     p["injury"] = (p.get("injury") or "") + " [not on official report: active]"
     # de-duplicate by name, then by first initial + last name + position, within team (keep the most severe status)

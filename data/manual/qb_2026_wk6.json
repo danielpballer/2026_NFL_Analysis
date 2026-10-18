@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 6,
- "collected_on": "2026-10-13",
+ "collected_on": "2026-10-18",
  "teams": {
   "SEA": {
    "starter": "Sam Darnold",
@@ -38,14 +38,14 @@
    "schedule_projected_starter": "Trevor Lawrence"
   },
   "CHI": {
-   "starter": "Williams (expected) / Bagent",
+   "starter": "Caleb Williams",
    "pbp_name": "C.Williams",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Caleb Williams (grade 2 hamstring, three games missed) is expected but not confirmed to return; Ben Johnson calls it close. Priced 60/40 Williams (-0.3) over Bagent (-1.4).",
+   "notes": "Williams practiced fully all week and is expected to start (listed questionable); small residual chance of Bagent and a hamstring that is not fully healed.",
    "schedule_projected_starter": "Tyson Bagent",
-   "value_override": -0.75,
-   "extra_sd": 1.0
+   "value_override": -0.5,
+   "extra_sd": 0.75
   },
   "ATL": {
    "starter": "Michael Penix Jr.",
@@ -58,14 +58,13 @@
    "extra_sd": 0.75
   },
   "BAL": {
-   "starter": "Jackson (questionable) / Huntley",
-   "pbp_name": "L.Jackson",
+   "starter": "Tyler Huntley",
+   "pbp_name": "T.Huntley",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Lamar Jackson (ankle) is \"doing better\" with a real chance to play; decision expected Friday. Priced as a coin flip between Jackson (+3.3) and Huntley (-2.0), who won in Atlanta.",
-   "schedule_projected_starter": "Lamar Jackson",
-   "value_override": 0.68,
-   "extra_sd": 1.5
+   "notes": "Lamar Jackson ruled out Friday; Huntley makes his second straight start.",
+   "schedule_projected_starter": "Tyler Huntley",
+   "extra_sd": 0.5
   },
   "CLE": {
    "starter": "Deshaun Watson",
@@ -136,12 +135,14 @@
    "schedule_projected_starter": "Bryce Young"
   },
   "PHI": {
-   "starter": "Jalen Hurts",
-   "pbp_name": "J.Hurts",
+   "starter": "Tanner McKee",
+   "pbp_name": "T.McKee",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Jalen Hurts"
+   "notes": "Jalen Hurts is out with a superficial blood clot in his calf; Tanner McKee makes his first meaningful start (69 career dropbacks) with Cole Payton behind him.",
+   "schedule_projected_starter": "Tanner McKee",
+   "value_override": -1.5,
+   "extra_sd": 1.25
   },
   "PIT": {
    "starter": "Aaron Rodgers",
