@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 6))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 7))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -70,7 +70,7 @@ MISS_PROBABILITY = {
     "Returning-expected-to-play": 0.08,
 }
 INJURY_CAP_POINTS = 6.0
-INJURY_SCALE = 0.75            # after Week 5: full-weight injuries were over-counted relative to the market; 0.5-0.75 scored best
+INJURY_SCALE = 0.6             # after Week 6: three straight weekly reviews favoured a lower weight (0.5-0.75 grid); stepped from 0.75
 
 # ---- Stage 5: situational --------------------------------------------------------------
 HOME_FIELD = 1.5
@@ -89,7 +89,7 @@ INTERNATIONAL_EXTRA_SD = 1.0   # both teams travel far, unfamiliar surface and c
 MARKET_WEIGHT = 0.55           # Week 1 weight on the market spread in the margin blend
 MARKET_WEIGHT_DECAY = 0.03     # weight falls this much per week as in-season data accumulates
 MARKET_WEIGHT_FLOOR = 0.35
-MARGIN_SD = 12.7               # sd of (result - closing spread), 2023-2025 regular seasons
+MARGIN_SD = 13.5               # after Week 6: 92-game sd grid favours 13.5-16 (was 12.7, the 2023-25 result-minus-close sd)
 EARLY_SEASON_SD = 1.0          # extra sd in Week 1, tapering to zero by Week 4 (team quality is less known)
 TOTAL_SD = 10.0
 N_SIMS = 20000
