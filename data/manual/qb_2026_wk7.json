@@ -8,7 +8,7 @@
    "pbp_name": "D.Maye",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Maye carries a chronic shoulder listing but is a full participant.",
    "schedule_projected_starter": "Drake Maye"
   },
   "CHI": {
@@ -16,9 +16,8 @@
    "pbp_name": "C.Williams",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Caleb Williams",
-   "value_override": -0.5
+   "notes": "Williams removed from the report after his return start.",
+   "schedule_projected_starter": "Caleb Williams"
   },
   "PIT": {
    "starter": "Aaron Rodgers",
@@ -33,9 +32,10 @@
    "pbp_name": "T.Shough",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Shough is playing with two broken bones in his non-throwing hand.",
    "value_override": -0.7,
-   "schedule_projected_starter": "Tyler Shough"
+   "schedule_projected_starter": "Tyler Shough",
+   "extra_sd": 0.5
   },
   "SF": {
    "starter": "Brock Purdy",
@@ -50,9 +50,10 @@
    "pbp_name": "M.Penix",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Penix played through the rib injury; Andy Dalton signed as backup.",
    "value_override": -0.3,
-   "schedule_projected_starter": "Michael Penix Jr."
+   "schedule_projected_starter": "Michael Penix Jr.",
+   "extra_sd": 0.5
   },
   "CIN": {
    "starter": "Joe Burrow",
@@ -64,21 +65,24 @@
    "value_override": null
   },
   "BAL": {
-   "starter": "Tyler Huntley",
+   "starter": "Huntley (Jackson day-to-day)",
    "pbp_name": "T.Huntley",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Tyler Huntley"
+   "notes": "Lamar Jackson has not practiced since the ankle sprain; Minter says he could potentially practice Wednesday. Priced 25 percent Jackson, 75 percent Huntley.",
+   "schedule_projected_starter": "Tyler Huntley",
+   "value_override": -0.65,
+   "extra_sd": 1.25
   },
   "TB": {
-   "starter": "Jalon Daniels",
+   "starter": "Daniels (Mayfield questionable)",
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
+   "notes": "Mayfield (thumb) is supposed to practice Wednesday but the team is preparing for Daniels; priced 30 percent Mayfield.",
    "schedule_projected_starter": "Jalon Daniels",
-   "value_override": -4.0
+   "value_override": -2.6,
+   "extra_sd": 1.25
   },
   "CAR": {
    "starter": "Bryce Young",
@@ -89,13 +93,14 @@
    "schedule_projected_starter": "Bryce Young"
   },
   "NYG": {
-   "starter": "Jameis Winston",
-   "pbp_name": "J.Winston",
+   "starter": "McCarthy (lean) / Winston",
+   "pbp_name": "J.McCarthy",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "value_override": null,
-   "schedule_projected_starter": "Jameis Winston"
+   "notes": "Winston was benched for J.J. McCarthy in the Saints loss and Harbaugh has not named a starter; reports lean McCarthy. Priced 65/35 McCarthy (-5.1 on his 2025 Vikings sample, softened) over Winston (-1.3).",
+   "value_override": -3.5,
+   "schedule_projected_starter": "Jameis Winston",
+   "extra_sd": 1.25
   },
   "HOU": {
    "starter": "C.J. Stroud",
@@ -219,7 +224,7 @@
    "pbp_name": "S.Darnold",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Darnold starts; the schedule file lists Lock again.",
    "schedule_projected_starter": "Drew Lock",
    "value_override": null
   },
@@ -236,9 +241,10 @@
    "pbp_name": "T.McKee",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Jalen Hurts",
-   "value_override": -1.5
+   "notes": "Hurts is on IR (calf clot and pulmonary emboli) and likely out for the season; McKee makes his second start with rookie Cole Payton behind him.",
+   "schedule_projected_starter": "Tanner McKee",
+   "value_override": -1.5,
+   "extra_sd": 1.0
   }
  }
 }

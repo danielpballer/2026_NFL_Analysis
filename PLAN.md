@@ -227,3 +227,11 @@ games the blend leads the market 0.640 to 0.648. Changes: injury points scaled b
 ablation showed full weight over-counting relative to the market), market-weight floor lowered to
 0.35, ties excluded from scoring. The Friday refresh now uses the official practice report and a
 hand-collected designations file. Details in `output/week5_2026_postmortem.md`.
+
+## Status (Oct 20, 2026): Week 6 scored, Week 7 in progress
+
+Week 6 went 8-6 with log loss 0.741 against 0.722 for the market, the first loss to the market
+since Week 1 in an upset-heavy week. Pooled over 92 games the blend leads 0.656 to 0.662.
+Changes: margin sd 12.7 to 13.5 and injury scale 0.75 to 0.6, both from the pooled grids. The
+page now carries the week-by-week value-table betting record. Details in
+`output/week6_2026_postmortem.md`.
