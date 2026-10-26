@@ -4,12 +4,12 @@
     "matchup": "DAL at PHI",
     "side": "PHI",
     "is_pick": false,
-    "model_p": 0.4497,
-    "market_ml": 180,
-    "implied_p": 0.3571,
-    "ev_per_dollar": 0.2592,
-    "kelly": 0.144,
-    "quarter_kelly": 0.036,
+    "model_p": 0.4247,
+    "market_ml": 170,
+    "implied_p": 0.3704,
+    "ev_per_dollar": 0.1467,
+    "kelly": 0.0863,
+    "quarter_kelly": 0.0216,
     "played": false
   },
   {
@@ -23,7 +23,7 @@
     "ev_per_dollar": 0.1204,
     "kelly": 0.0617,
     "quarter_kelly": 0.0154,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_LA_LV",
@@ -36,7 +36,7 @@
     "ev_per_dollar": 0.1061,
     "kelly": 0.0573,
     "quarter_kelly": 0.0143,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_CIN_BAL",
@@ -49,7 +49,7 @@
     "ev_per_dollar": 0.0795,
     "kelly": 0.0641,
     "quarter_kelly": 0.016,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_NE_CHI",
@@ -62,7 +62,7 @@
     "ev_per_dollar": 0.0734,
     "kelly": 0.0565,
     "quarter_kelly": 0.0141,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_SF_ATL",
@@ -75,7 +75,7 @@
     "ev_per_dollar": 0.0541,
     "kelly": 0.0947,
     "quarter_kelly": 0.0237,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_KC_SEA",
@@ -88,7 +88,7 @@
     "ev_per_dollar": 0.0416,
     "kelly": 0.0616,
     "quarter_kelly": 0.0154,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_DEN_ARI",
@@ -101,7 +101,7 @@
     "ev_per_dollar": 0.0183,
     "kelly": 0.0094,
     "quarter_kelly": 0.0024,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_PIT_NO",
@@ -114,7 +114,7 @@
     "ev_per_dollar": 0.014,
     "kelly": 0.0093,
     "quarter_kelly": 0.0023,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_GB_DET",
@@ -127,7 +127,7 @@
     "ev_per_dollar": 0.0011,
     "kelly": 0.0018,
     "quarter_kelly": 0.0004,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_CLE_TEN",
@@ -140,7 +140,7 @@
     "ev_per_dollar": -0.017,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_NYG_HOU",
@@ -153,7 +153,7 @@
     "ev_per_dollar": -0.0171,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_IND_MIN",
@@ -166,7 +166,7 @@
     "ev_per_dollar": -0.0201,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_TB_CAR",
@@ -179,7 +179,7 @@
     "ev_per_dollar": -0.0301,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_NYG_HOU",
@@ -192,7 +192,7 @@
     "ev_per_dollar": -0.0469,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_CLE_TEN",
@@ -205,7 +205,7 @@
     "ev_per_dollar": -0.0589,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_TB_CAR",
@@ -218,7 +218,7 @@
     "ev_per_dollar": -0.0592,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_DEN_ARI",
@@ -231,7 +231,7 @@
     "ev_per_dollar": -0.0701,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_PIT_NO",
@@ -244,7 +244,7 @@
     "ev_per_dollar": -0.0754,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_IND_MIN",
@@ -257,7 +257,7 @@
     "ev_per_dollar": -0.0938,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_GB_DET",
@@ -270,7 +270,7 @@
     "ev_per_dollar": -0.1008,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_LA_LV",
@@ -283,7 +283,7 @@
     "ev_per_dollar": -0.1161,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_MIA_NYJ",
@@ -296,7 +296,7 @@
     "ev_per_dollar": -0.1192,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_NE_CHI",
@@ -309,7 +309,7 @@
     "ev_per_dollar": -0.1226,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_CIN_BAL",
@@ -320,6 +320,19 @@
     "market_ml": -148,
     "implied_p": 0.5968,
     "ev_per_dollar": -0.1318,
+    "kelly": 0.0,
+    "quarter_kelly": 0.0,
+    "played": true
+  },
+  {
+    "game_id": "2026_07_DAL_PHI",
+    "matchup": "DAL at PHI",
+    "side": "DAL",
+    "is_pick": true,
+    "model_p": 0.5753,
+    "market_ml": -205,
+    "implied_p": 0.6721,
+    "ev_per_dollar": -0.1441,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
     "played": false
@@ -335,7 +348,7 @@
     "ev_per_dollar": -0.1524,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   },
   {
     "game_id": "2026_07_SF_ATL",
@@ -348,19 +361,6 @@
     "ev_per_dollar": -0.1935,
     "kelly": 0.0,
     "quarter_kelly": 0.0,
-    "played": false
-  },
-  {
-    "game_id": "2026_07_DAL_PHI",
-    "matchup": "DAL at PHI",
-    "side": "DAL",
-    "is_pick": true,
-    "model_p": 0.5503,
-    "market_ml": -218,
-    "implied_p": 0.6855,
-    "ev_per_dollar": -0.1973,
-    "kelly": 0.0,
-    "quarter_kelly": 0.0,
-    "played": false
+    "played": true
   }
 ]

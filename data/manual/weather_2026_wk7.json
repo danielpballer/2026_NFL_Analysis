@@ -190,13 +190,13 @@
    "venue": "Lincoln Financial Field, Philadelphia",
    "roof": "outdoors",
    "forecast_available": true,
-   "temp_f": 55,
-   "wind_mph": 7,
-   "precip_chance_pct": 10,
-   "conditions": "Clear to partly cloudy, chilly evening; light wind, dry",
+   "temp_f": 58,
+   "wind_mph": 5,
+   "precip_chance_pct": 0,
+   "conditions": "Clear, ~58F at kickoff cooling to the mid-50s, light west wind going calm",
    "roof_closed_expected": null,
    "source_type": "forecast",
-   "confidence": "low",
+   "confidence": "high",
    "notes": "Six days out; no day-7 NWS value found. CBS Philadelphia (Oct 19): sunny skies all week, Sunday Oct 25 high 67 / low 38; main concern is Wed-evening coastal flooding from the offshore nor'easter. AccuWeather 10-day (older snapshot) shows Monday Oct 26 sunny, 12% precip, next rain late Wed Oct 28. Kickoff 8:15pm ET implies temps in the low-to-mid 50s dropping toward the upper 40s by the 4th quarter. Pattern favors dry, cool and calm; recheck Saturday.",
    "source": "https://www.cbsnews.com/philadelphia/news/frost-warnings-fall-weather-october-19/"
   }

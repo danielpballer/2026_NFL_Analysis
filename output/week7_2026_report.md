@@ -1,6 +1,6 @@
 # 2026 NFL Week 7 Moneyline Simulation
 
-Generated 2026-10-20. Injuries collected 2026-10-20, weather collected 2026-10-20.
+Generated 2026-10-26. Injuries collected 2026-10-26, weather collected 2026-10-20.
 Each game simulated 20,000 times. Market weight in the blend: 0.37. See PLAN.md for the method.
 
 ## Summary
@@ -20,7 +20,7 @@ Each game simulated 20,000 times. Market weight in the blend: 0.37. See PLAN.md 
 | 2026-10-25 16:25 ET | GB @ DET | **DET** | 61.9% | Moderate | -163 | -162 | GB 25 - DET 29 | +2.6% |
 | 2026-10-25 16:25 ET | LA @ LV | **LA** | 61.2% | Moderate | -158 | -225 | LA 26 - LV 22 | -5.2% |
 | 2026-10-25 20:20 ET | KC @ SEA | **SEA** | 62.2% | Moderate | -164 | -148 | KC 19 - SEA 23 | +5.0% |
-| 2026-10-26 20:15 ET | DAL @ PHI | **DAL** | 55.0% | Lean | -122 | -218 | DAL 23 - PHI 22 | -10.7% |
+| 2026-10-26 20:15 ET | DAL @ PHI | **DAL** | 57.5% | Lean | -135 | -205 | DAL 24 - PHI 21 | -6.9% |
 
 Confidence tiers: Moderate 7, Coin flip 3, Lean 2, High 2.
 Win probability is the pick's chance to win, fair moneyline is what that probability implies, model vs market is the pick's win probability minus the market's vig-free probability (positive means the model likes the pick more than the market).
@@ -214,17 +214,17 @@ Sunday night at Lumen Field, with a 30 percent chance of showers. Kansas City is
 
 ### DAL @ PHI — 2026-10-26 20:15 ET
 
-**Pick: DAL** (55.0%, Lean). Projected: DAL 23, PHI 22. Simulated margin sd 13.1.
+**Pick: DAL** (57.5%, Lean). Projected: DAL 24, PHI 21. Simulated margin sd 13.1.
 
-Monday night. Philadelphia has lost four straight, Jalen Hurts is on IR with a calf clot and pulmonary emboli and is likely done for the season, and Tanner McKee makes his second start; Saquon Barkley, Nolan Smith, Jordan Davis and Jalyx Hunt are questionable. Dallas has lost two straight and has Dee Winters and KaVontae Turpin doubtful, Cobie Durant out, and Overshown and Joey Porter Jr. questionable. Both teams rate in the bottom ten. The market has moved to Cowboys by 4.5; the model, with McKee priced at 1.4 points below Hurts, has it a pick-em at the Linc. Blend: Cowboys by 1.7, a Lean at 55 percent; the pure data flips it to Philadelphia and Eagles +180 is the top value on the board.
+Monday night, clear and calm near 58 degrees. Jalen Hurts is on IR for the season and Tanner McKee makes his second start after an ineffective first one. Philadelphia ruled out DeVonta Smith, Dontayvion Wicks, Nolan Smith and Michael Carter II; Saquon Barkley and Landon Dickerson are questionable but practiced fully Saturday and are expected to play, with Jonathan Greenard and Jalyx Hunt also questionable. That is a 3.6-point injury hit on top of the quarterback downgrade. Dallas ruled out Dee Winters, Drew Shelton and KaVontae Turpin; Overshown, Porter and Durant are back. Both teams rate in the bottom ten and the Eagles have lost four straight. The market has Cowboys by 4.5; the model, with McKee priced 1.4 points below Hurts, has Dallas by 1.4 at the Linc. Blend: Cowboys by 2.5, a Lean at 58 percent (up from 55 on Tuesday after the Eagles' outs). The pure data no longer flips it, but Eagles +170 remains a positive-EV side because the model does not see a 4.5-point gap.
 
-- Ratings entering the week (points vs average): PHI -3.0, DAL -3.1. After QB, coaching and injury adjustments: PHI -6.8, DAL -5.0.
+- Ratings entering the week (points vs average): PHI -3.0, DAL -3.1. After QB, coaching and injury adjustments: PHI -7.9, DAL -4.8.
 - Quarterbacks: PHI Tanner McKee (-1.4 vs 2025 QB play), DAL Dak Prescott (+0.1).
-- PHI injuries (-2.5 pts): Andre' Sam (S, IR) -0.10; Johnny Wilson (WR, IR) -0.14; Landon Dickerson (G, IR) -0.79; Lane Johnson (OT, IR) -1.05; Tucker Large (DB, NFI) -0.10; Eli Stowers (TE, Out) -0.12; Grant Calcaterra (TE, Out) -0.12; Jakorian Bennett (CB, Out) -0.17; Michael Carter II (S, Out) -0.10; Jalyx Hunt (LB, Questionable) -0.36; Jordan Davis (DT, Questionable) -0.20; Nolan Smith Jr. (LB, Questionable) -0.36; Saquon Barkley (RB, Questionable) -0.35.
-- DAL injuries (-1.9 pts): Devin Moore (CB, IR) -0.17; Jalen Thompson (S, IR) -0.40; Jonathan Bullard (DT, IR) -0.11; Kelvin Gilliam (DL, IR) -0.12; Malik Davis (RB, IR) -0.11; Marist Liufau (LB, IR) -0.09; Matt Hennessy (C, IR) -0.12; P.J. Locke (S, IR) -0.40; Princeton Fant (TE, IR) -0.12; Cobie Durant (CB, Out) -0.50; Dee Winters (LB, Doubtful) -0.30; KaVontae Turpin (WR, Doubtful) -0.06; DeMarvion Overshown (LB, Questionable) -0.28; Drew Shelton (OT, Questionable) -0.09; Joey Porter Jr. (CB, Questionable) -0.32.
-- Venue and weather: Lincoln Financial Field, roof outdoors; benign, 55F, wind 7 mph, precip 10% (low confidence). Home edge used: +1.8.
-- Margin: model -0.1 for PHI, market spread -4.5, blended -1.7. Market ML PHI +180 / DAL -218; model fair ML PHI +122 / DAL -122.
-- Note: Hurts is on IR (calf clot and pulmonary emboli) and likely out for the season; McKee makes his second start with rookie Cole Payton behind him.
+- PHI injuries (-3.6 pts): Andre' Sam (S, IR) -0.10; Johnny Wilson (WR, IR) -0.14; Lane Johnson (OT, IR) -1.05; Tucker Large (DB, NFI) -0.10; DeVonta Smith (WR, Out) -0.96; Dontayvion Wicks (WR, Out) -0.55; Michael Carter II (CB, Out) -0.70; Nolan Smith (LB, Out) -0.80; Eli Stowers (TE, Questionable) -0.23; Grant Calcaterra (TE, Questionable) -0.23; Jakorian Bennett (CB, Questionable) -0.32; Jalyx Hunt (LB, Questionable) -0.36; Jonathan Greenard (LB, Questionable) -0.36; Landon Dickerson (G, Questionable) -0.35; Saquon Barkley (RB, Questionable) -0.35.
+- DAL injuries (-1.8 pts): Devin Moore (CB, IR) -0.17; Jalen Thompson (S, IR) -0.40; Jonathan Bullard (DT, IR) -0.11; Kelvin Gilliam (DL, IR) -0.12; Malik Davis (RB, IR) -0.11; Matt Hennessy (C, IR) -0.12; Princeton Fant (TE, IR) -0.12; Dee Winters (LB, Out) -0.35; Drew Shelton (OT, Out) -0.80; KaVontae Turpin (WR, Out) -0.07; Marist Liufau (LB, Questionable) -0.16; P.J. Locke (S, Questionable) -0.18; DeMarvion Overshown (LB, Probable) -0.06; Joey Porter Jr. (CB, Probable) -0.07.
+- Venue and weather: Lincoln Financial Field, roof outdoors; benign, 58F, wind 5 mph, precip 0% (high confidence). Home edge used: +1.8.
+- Margin: model -1.4 for PHI, market spread -4.5, blended -2.5. Market ML PHI +170 / DAL -205; model fair ML PHI +135 / DAL -135.
+- Note: Hurts is on IR for the season; McKee makes his second start after an ineffective first one. Cole Payton backs up.
 
 ## Caveats
 

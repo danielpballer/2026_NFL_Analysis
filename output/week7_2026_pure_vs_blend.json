@@ -78,9 +78,9 @@
     "flip": false
   },
   "2026_07_DAL_PHI": {
-    "p_home_pure": 0.5011,
+    "p_home_pure": 0.4602,
     "p_home_market": 0.371,
-    "pick_pure": "PHI",
-    "flip": true
+    "pick_pure": "DAL",
+    "flip": false
   }
 }

@@ -549,7 +549,8 @@
   "PHI|Saquon Barkley": {
    "slot": "RB1",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Probable"
   },
   "PHI|DeVonta Smith": {
    "slot": "WR2",
@@ -574,7 +575,8 @@
   "PHI|Landon Dickerson": {
    "slot": "LG",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Probable"
   },
   "PHI|Tank Bigsby": {
    "slot": "RB2",

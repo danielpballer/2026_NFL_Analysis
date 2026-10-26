@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 7,
- "collected_on": "2026-10-20",
+ "collected_on": "2026-10-26",
  "teams": {
   "NE": {
    "starter": "Drake Maye",
@@ -241,7 +241,7 @@
    "pbp_name": "T.McKee",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Hurts is on IR (calf clot and pulmonary emboli) and likely out for the season; McKee makes his second start with rookie Cole Payton behind him.",
+   "notes": "Hurts is on IR for the season; McKee makes his second start after an ineffective first one. Cole Payton backs up.",
    "schedule_projected_starter": "Tanner McKee",
    "value_override": -1.5,
    "extra_sd": 1.0
