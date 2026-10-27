@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 7))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 8))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -73,7 +73,7 @@ INJURY_CAP_POINTS = 6.0
 INJURY_SCALE = 0.6             # after Week 6: three straight weekly reviews favoured a lower weight (0.5-0.75 grid); stepped from 0.75
 
 # ---- Stage 5: situational --------------------------------------------------------------
-HOME_FIELD = 1.5
+HOME_FIELD = 0.5               # after Week 7: home teams are 52-54 and both model and market overrate them by ~2 pts; was 1.5 (venue bumps unchanged)
 LOUD_VENUES = {"SEA": 0.5, "KC": 0.5, "BUF": 0.25, "PHI": 0.25, "GB": 0.25, "BAL": 0.25, "DEN": 0.25, "NO": 0.25}
 DIVISION_GAME_SD_ADJ = -0.5
 TRAVEL_PENALTY_PER_TZ = 0.15
@@ -89,7 +89,7 @@ INTERNATIONAL_EXTRA_SD = 1.0   # both teams travel far, unfamiliar surface and c
 MARKET_WEIGHT = 0.55           # Week 1 weight on the market spread in the margin blend
 MARKET_WEIGHT_DECAY = 0.03     # weight falls this much per week as in-season data accumulates
 MARKET_WEIGHT_FLOOR = 0.35
-MARGIN_SD = 13.5               # after Week 6: 92-game sd grid favours 13.5-16 (was 12.7, the 2023-25 result-minus-close sd)
+MARGIN_SD = 14.0               # after Week 7: 106-game sd grid still favours 14.5-16; stepped from 13.5 (12.7 preseason)
 EARLY_SEASON_SD = 1.0          # extra sd in Week 1, tapering to zero by Week 4 (team quality is less known)
 TOTAL_SD = 10.0
 N_SIMS = 20000

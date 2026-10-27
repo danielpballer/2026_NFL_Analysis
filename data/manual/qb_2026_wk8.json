@@ -1,0 +1,242 @@
+{
+ "season": 2026,
+ "week": 8,
+ "collected_on": "2026-10-27",
+ "teams": {
+  "CAR": {
+   "starter": "Bryce Young",
+   "pbp_name": "B.Young",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Bryce Young"
+  },
+  "GB": {
+   "starter": "Jordan Love",
+   "pbp_name": "J.Love",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jordan Love"
+  },
+  "BAL": {
+   "starter": "Huntley (Jackson day-to-day)",
+   "pbp_name": "T.Huntley",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Tyler Huntley",
+   "value_override": -0.65
+  },
+  "BUF": {
+   "starter": "Josh Allen",
+   "pbp_name": "J.Allen",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Josh Allen"
+  },
+  "TEN": {
+   "starter": "Cam Ward",
+   "pbp_name": "C.Ward",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -4.5,
+   "schedule_projected_starter": "Cam Ward"
+  },
+  "CIN": {
+   "starter": "Joe Burrow",
+   "pbp_name": "J.Burrow",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Joe Burrow",
+   "value_override": null
+  },
+  "ARI": {
+   "starter": "Jacoby Brissett",
+   "pbp_name": "J.Brissett",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jacoby Brissett"
+  },
+  "DAL": {
+   "starter": "Dak Prescott",
+   "pbp_name": "D.Prescott",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Dak Prescott"
+  },
+  "MIN": {
+   "starter": "Kyler Murray",
+   "pbp_name": "K.Murray",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Kyler Murray",
+   "value_override": null
+  },
+  "DET": {
+   "starter": "Jared Goff",
+   "pbp_name": "J.Goff",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jared Goff"
+  },
+  "IND": {
+   "starter": "Daniel Jones",
+   "pbp_name": "D.Jones",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": 0.2,
+   "schedule_projected_starter": "Daniel Jones"
+  },
+  "JAX": {
+   "starter": "Trevor Lawrence",
+   "pbp_name": "T.Lawrence",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Trevor Lawrence"
+  },
+  "LV": {
+   "starter": "Kirk Cousins",
+   "pbp_name": "K.Cousins",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Kirk Cousins"
+  },
+  "NYJ": {
+   "starter": "Geno Smith",
+   "pbp_name": "G.Smith",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Geno Smith"
+  },
+  "CLE": {
+   "starter": "Deshaun Watson",
+   "pbp_name": "D.Watson",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Deshaun Watson"
+  },
+  "PIT": {
+   "starter": "Aaron Rodgers",
+   "pbp_name": "A.Rodgers",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Aaron Rodgers"
+  },
+  "ATL": {
+   "starter": "Michael Penix Jr.",
+   "pbp_name": "M.Penix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -0.3,
+   "schedule_projected_starter": "Michael Penix Jr."
+  },
+  "TB": {
+   "starter": "Baker Mayfield",
+   "pbp_name": "B.Mayfield",
+   "new_to_team": false,
+   "rookie": true,
+   "notes": "",
+   "schedule_projected_starter": "Baker Mayfield"
+  },
+  "LAC": {
+   "starter": "Justin Herbert",
+   "pbp_name": "J.Herbert",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Justin Herbert"
+  },
+  "LA": {
+   "starter": "Matthew Stafford",
+   "pbp_name": "M.Stafford",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Matthew Stafford"
+  },
+  "KC": {
+   "starter": "Patrick Mahomes",
+   "pbp_name": "P.Mahomes",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": 1.8,
+   "schedule_projected_starter": "Patrick Mahomes"
+  },
+  "DEN": {
+   "starter": "Bo Nix",
+   "pbp_name": "B.Nix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Bo Nix"
+  },
+  "NE": {
+   "starter": "Drake Maye",
+   "pbp_name": "D.Maye",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Drake Maye"
+  },
+  "MIA": {
+   "starter": "Malik Willis",
+   "pbp_name": "M.Willis",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "",
+   "value_override": -1.5,
+   "schedule_projected_starter": "Malik Willis"
+  },
+  "PHI": {
+   "starter": "Tanner McKee",
+   "pbp_name": "T.McKee",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Tanner McKee",
+   "value_override": -1.5
+  },
+  "WAS": {
+   "starter": "Jayden Daniels",
+   "pbp_name": "J.Daniels",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": 0.1,
+   "schedule_projected_starter": "Jayden Daniels"
+  },
+  "CHI": {
+   "starter": "Caleb Williams",
+   "pbp_name": "C.Williams",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Caleb Williams"
+  },
+  "SEA": {
+   "starter": "Sam Darnold",
+   "pbp_name": "S.Darnold",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Sam Darnold",
+   "value_override": null
+  }
+ }
+}
