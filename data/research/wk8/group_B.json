@@ -1,0 +1,741 @@
+{
+ "collected_on": "2026-10-27",
+ "search_calls_used": 40,
+ "unverified": [
+  "DAL: Devin Moore (CB) and Matt Hennessy (C) IR status not found in any Oct 20+ source; carried as IR. No Week 8 official practice report yet (Cowboys play Sun Nov 1).",
+  "DAL: Jalen Thompson (S) CBS lists IR with expected return Week 8, but no activation/practice-window transaction found.",
+  "MIN: Jamal Adams (LB) IR status not mentioned in any Oct 20+ source; carried as IR. Blake Cashman status not found.",
+  "DET: Brian Branch practicing (full participant Oct 22) with Campbell planning to activate - whether he was activated for Week 7 or is still on IR unconfirmed. Hendon Hooker not on 2026 roster per depth charts; backup is Josh Dobbs.",
+  "IND: Carson Towt (TE) and Musgrave (TE, PUP) not mentioned in any Oct 20+ source; carried as-is. Anthony Gould (concussion) and CJ Allen (ankle) Week 8 status unknown (inactive Week 7). Trevor Denbow ruled out Week 8 per CBS headline but injury type not captured. Backup QB conflict: Anthony Richardson Sr. named QB2 preseason and Heavy says unchanged; a Colts.com article says Riley Leonard is QB2 but its date is unreliable (Leonard was emergency QB3 in Week 7).",
+  "JAX: Patrick Mekari, B.J. Green II, Zach Durfee are on IR with CBS 'expected return Week 8' but no practice-window or activation transaction found. Caleb Ransaw IR expected Week 10 (CBS only).",
+  "LV: Keyron Crawford (DE) IR status not found in any Oct 20+ source; carried as IR. No in-game injuries from the Rams loss found; DraftKings (Oct 27) says no active lineup-affecting injuries.",
+  "NYJ: Francisco (Kiko) Mauigoa moved to IR per The Phinsider only (single source). Anez Cooper, VJ Payne (eligible to return), Tyler Baron (PUP) - no activation found, carried as still out. Tre Brown, Chip Trayanum, Mykal Walker are season-ending IR (no return designation). Jack Heflin and Kene Nwangwu inactive Week 7 - Week 8 status unknown.",
+  "All teams: official Wednesday/Thursday Week 8 practice reports were not yet published as of Oct 27; statuses marked Questionable are based on beat/Oct 26-27 reporting, not official designations."
+ ],
+ "teams": {
+  "DAL": {
+   "week7_result": "W 38-21 at Philadelphia (MNF, Oct 26). Dak Prescott 15/27, 212 yds, 3 TD, 0 INT; Javonte Williams sealed it late. Eagles were without DeVonta Smith, Dontayvion Wicks, Nolan Smith and started Tanner McKee. Dallas moves to 3-4. No Cowboys in-game injuries reported.",
+   "qb": {
+    "starter": "Dak Prescott",
+    "backup": "Sam Howell",
+    "changed_from_week7": false,
+    "notes": "Prescott healthy, no injury designation. Joe Milton was signed off Dallas PS by Philadelphia Oct 16; Dallas signed Kyle Trask to the practice squad Oct 20 as QB3 depth. The 2025 calf/boot story in search results is from a prior season - discard."
+   },
+   "injuries": [
+    {
+     "player": "KaVontae Turpin",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Ribs - hurt on opening kickoff Week 6, did not practice all Week 7 week, out vs PHI; SI lists questionable for Week 8 (Oct 27)",
+     "starter": false,
+     "source": "https://www.si.com/betting/cardinals-vs-cowboys-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026"
+    },
+    {
+     "player": "Dee Winters",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Calf strain - ruled out Week 7; SI/DraftKings list questionable/TBD for Week 8 (Oct 27)",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Drew Shelton",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Hamstring - missed third straight game Week 7; questionable/TBD for Week 8 (Oct 27)",
+     "starter": false,
+     "source": "https://www.si.com/betting/cardinals-vs-cowboys-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026"
+    },
+    {
+     "player": "Cobie Durant",
+     "position": "CB",
+     "status": "Probable",
+     "injury": "Hamstring - was 'trending to play' vs PHI per team site; no new designation",
+     "starter": true,
+     "source": "https://www.dallascowboys.com/news/updates-october-2026"
+    },
+    {
+     "player": "P.J. Locke",
+     "position": "S",
+     "status": "IR",
+     "injury": "Foot - on IR since Oct 2; 21-day practice window opened Oct 23; listed questionable Week 7 but did not travel; not yet activated",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured"
+    },
+    {
+     "player": "Marist Liufau",
+     "position": "LB",
+     "status": "IR",
+     "injury": "On IR; 21-day practice window opened Oct 22; questionable Week 7 but did not travel; not yet activated",
+     "starter": false,
+     "source": "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured"
+    },
+    {
+     "player": "Jalen Thompson",
+     "position": "S",
+     "status": "IR",
+     "injury": "Hamstring - IR since Oct 2 (4-6 week timeline); CBS expected return Week 8 but no activation found as of Oct 27",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Jonathan Bullard",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Calf - IR since Oct 2; CBS expected return Week 8, no activation found",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Malik Davis",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Hip - IR, no return timeline (CBS, updated ~Oct 25)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Princeton Fant",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Torn ACL/MCL - IR, season (CBS)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Kelvin Gilliam Jr.",
+     "position": "DL",
+     "status": "IR",
+     "injury": "Triceps - IR, no return timeline (CBS)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Devin Moore",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried from Week 7 as IR; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    },
+    {
+     "player": "Matt Hennessy",
+     "position": "C",
+     "status": "IR",
+     "injury": "Carried from Week 7 as IR; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Big momentum win on MNF snapped pressure on HC Brian Schottenheimer, who had been publicly 'put on notice' before the game; Dallas is 3-4.",
+    "Home game vs ARI (Jacoby Brissett projected for Arizona - plausible since Kyler Murray is now Minnesota's QB; not verified in this group).",
+    "Roster churn Oct 20: S Juanyeh Thomas promoted to 53, CB Caelen Carson waived, QB Kyle Trask to PS. Dallas is reportedly nearly out of IR-return designations (Oct 13 report), which limits activations of Thompson/Bullard/Locke/Liufau.",
+    "Secondary still thin with Thompson and Locke on IR; Durant playing through hamstring."
+   ],
+   "sources": [
+    "https://www.nbcdfw.com/news/sports/nfl/cowboys-eagles-score-week-7/4095972/",
+    "https://philadelphiaeagles.com/news/cowboys-vs-eagles-game-recap-2026-nfl-week-7-monday-night-football-saquon-barkley-dak-prescott",
+    "https://www.si.com/betting/cardinals-vs-cowboys-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://www.dallascowboys.com/news/updates-october-2026",
+    "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured",
+    "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/",
+    "https://sports.yahoo.com/articles/cowboys-sign-qb-kyle-trask-203346139.html",
+    "https://sports.yahoo.com/articles/cowboys-rule-2-players-eagles-232228467.html",
+    "https://www.cowboysfootball.com/news/2026/10/13/cowboys-have-specific-ir-issue-threatens-2026"
+   ]
+  },
+  "MIN": {
+   "week7_result": "W 16-10 vs Indianapolis at U.S. Bank Stadium (Oct 25); Vikings are 6-0, the NFL's last unbeaten. Kyler Murray 14/24, 150 yds, 1 TD (game-winner to T.J. Hockenson, back from concussion). Offense sluggish; RB Aaron Jones aggravated his left knee MCL sprain late in the game.",
+   "qb": {
+    "starter": "Kyler Murray",
+    "backup": "Carson Wentz",
+    "changed_from_week7": false,
+    "notes": "Murray healthy (no designation). Offense has drawn criticism (Cris Carter called for Wentz) but O'Connell has shown no sign of a change. Cardinals-era Murray injury stories in results are prior seasons."
+   },
+   "injuries": [
+    {
+     "player": "Aaron Jones Sr.",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Left knee MCL sprain aggravated vs IND Oct 25 (first hurt Week 2); O'Connell said Oct 26 he avoided serious injury, day-to-day",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50289047/vikings-rb-jones-avoids-serious-knee-injury-day-day"
+    },
+    {
+     "player": "Jordan Addison",
+     "position": "WR",
+     "status": "Probable",
+     "injury": "Hamstring - returned Week 7; expected clean for Week 8 (SI Oct 26)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/vikings/onsi/breaking-down-vikings-injury-report-for-week-8-after-win-over-the-colts-who-s-hurt-and-who-could-return-01m5wnyz9ezt"
+    },
+    {
+     "player": "Donovan Jackson",
+     "position": "G",
+     "status": "IR",
+     "injury": "Torn meniscus - IR Oct 6, out for season; Joe Huber starting at LG",
+     "starter": true,
+     "source": "https://www.vikings.com/news/donovan-jackson-guard-injured-reserve-roster-moves"
+    },
+    {
+     "player": "Josh Oliver",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Biceps - season-ending surgery (DraftKings Oct 27)",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Jamal Adams",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 7 as IR; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/min/minnesota-vikings/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Activated from IR for Week 7: RB Jordan Mason (thumb) led the backfield and is the lead back if Jones sits; TE T.J. Hockenson returned from concussion; LT Christian Darrisaw returned from concussion; WR Jordan Addison back from hamstring. Team is otherwise very healthy.",
+    "Week 8 at Detroit (1 p.m. ET) is a first-place NFC North showdown: MIN 6-0 vs DET 4-2.",
+    "Harrison Smith was a rest/limited listing in Week 7 - veteran maintenance, not an injury.",
+    "GM Nolan Teasley has been active with roster churn (P Johnny Hekker released Oct 6)."
+   ],
+   "sources": [
+    "https://www.startribune.com/minnesota-vikings-indianapolis-colts-score-today-kyler-murray-stats-nfl-week-7-live-updates-results/601896475",
+    "https://www.espn.com/nfl/story/_/id/50289047/vikings-rb-jones-avoids-serious-knee-injury-day-day",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-aaron-jones-considered-day-to-day-with-knee-injury",
+    "https://www.si.com/nfl/vikings/onsi/breaking-down-vikings-injury-report-for-week-8-after-win-over-the-colts-who-s-hurt-and-who-could-return-01m5wnyz9ezt",
+    "https://www.vikings.com/news/donovan-jackson-guard-injured-reserve-roster-moves",
+    "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://www.profootballnetwork.com/hall-of-famer-vikings-bench-kyler-murray/",
+    "https://www.footballnationusa.com/post/vikings-lions-week-8-guide-2026"
+   ]
+  },
+  "DET": {
+   "week7_result": "W 20-17 vs Green Bay at Ford Field (Oct 25) on Jake Bates' 22-yard FG as time expired; D.J. Wonnum blocked a GB field goal to set up the winning drive. Lions 4-2. Amon-Ra St. Brown (9-153) tweaked an ankle but finished; CB Ennis Rakestraw Jr. left in the 4th quarter (ankle).",
+   "qb": {
+    "starter": "Jared Goff",
+    "backup": "Josh Dobbs",
+    "changed_from_week7": false,
+    "notes": "Goff active, no designation; no turnovers through the season's first five games. Dobbs is QB2 on the Week 7 depth chart (Luke Altmyer on PS). Hendon Hooker/Kyle Allen listings are from 2025."
+   },
+   "injuries": [
+    {
+     "player": "Amon-Ra St. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Ankle tweak vs GB Oct 25; Campbell (Oct 26) says likely sits Wednesday, ramps up Thursday, 'should be good' for MIN",
+     "starter": true,
+     "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-26/st-brown-ankle-should-be-good-for-week-8"
+    },
+    {
+     "player": "Ennis Rakestraw Jr.",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Ankle, left GB game in 4th qtr; Campbell says 'not major', expected at practice Thursday",
+     "starter": true,
+     "source": "https://www.prideofdetroit.com/detroit-lions-news/178403/lions-injury-news-good-news-for-amon-ra-st-brown-ennis-rakestraw"
+    },
+    {
+     "player": "Kerby Joseph",
+     "position": "S",
+     "status": "PUP",
+     "injury": "Knee - still on reserve/PUP; Campbell expects him back at some point this season, no Week 8 eligibility noted",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Devin White",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Forearm - IR, Week 11 eligible",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Isiah Pacheco",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Back surgery Sept 15, ~12 weeks - IR",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Avonte Maddox",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Foot - IR since Sept 22, ESPN estimated return Feb 15 (season)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"
+    },
+    {
+     "player": "Ben Bartch",
+     "position": "G",
+     "status": "IR",
+     "injury": "Foot - IR Oct 17, ESPN estimated return Nov 22",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"
+    },
+    {
+     "player": "Thomas Harper",
+     "position": "S",
+     "status": "IR",
+     "injury": "Ankle - IR since Sept 26, ESPN estimated return Nov 1; no practice window found",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"
+    },
+    {
+     "player": "Tom Kennedy",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee MCL (vs ARI) - IR Oct 16, season",
+     "starter": false,
+     "source": "https://profootballmania.com/nfl-injuries/team/detroit-lions/"
+    }
+   ],
+   "context_notes": [
+    "Activated from IR: OL Cade Mays (Oct 24). S Brian Branch was a full participant Oct 22 and Campbell planned to activate him for the divisional game - confirm whether he played Week 7.",
+    "Week 8 vs 6-0 Minnesota at Ford Field (1 p.m. ET) decides early NFC North control; Lions are 4-2.",
+    "Kicker Jake Bates delivered the game-winner; no kicker concerns.",
+    "Secondary depth thin: Joseph (PUP), Maddox (IR), Harper (IR), Rakestraw nursing ankle."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/game/_/gameId/401873020/packers-lions",
+    "https://bleacherreport.com/articles/25520327-lions-beat-packers-box-score-stats-highlights-josh-jacobs-gibbs-jordan-love-goff-more",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-10-26/st-brown-ankle-should-be-good-for-week-8",
+    "https://www.prideofdetroit.com/detroit-lions-news/178403/lions-injury-news-good-news-for-amon-ra-st-brown-ennis-rakestraw",
+    "https://detroitsportsnation.com/dan-campbell-amon-ra-st-brown-ennis-rakestraw-injury-update/ddrysdale/detroit-lions/10/26/2026/502772/",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions",
+    "https://profootballmania.com/nfl-injuries/team/detroit-lions/",
+    "https://www.si.com/nfl/lions/onsi/detroit-lions-updated-2026-week-seven-depth-chart-2026",
+    "https://www.si.com/betting/vikings-vs-lions-prediction-odds-spread-injuries-trends-for-nfl-week-8-2026"
+   ]
+  },
+  "IND": {
+   "week7_result": "L 10-16 at Minnesota (Oct 25). Daniel Jones 13/22, 108 yds, 0 TD, game-sealing INT; offense 'fell apart'. Colts 2-5. CB Justin Walley exited in the 3rd quarter (knee) and did not return. Inactives: Sauce Gardner, Tyler Warren, Anthony Gould, CJ Allen, Bryce Boettcher.",
+   "qb": {
+    "starter": "Daniel Jones",
+    "backup": "Anthony Richardson Sr.",
+    "changed_from_week7": false,
+    "notes": "Steichen reaffirmed Jones as starter after the loss ('has not considered a change'). Richardson was named QB2 in September and Heavy says that is unchanged; Richardson faces a misdemeanor marijuana charge from an Oct 12 stop (possible league discipline). Riley Leonard was emergency QB3 in Week 7. The 2025 Achilles tear vs JAX is old news - Jones is healthy."
+   },
+   "injuries": [
+    {
+     "player": "Sauce Gardner",
+     "position": "CB",
+     "status": "Doubtful",
+     "injury": "Left calf strain (MRI confirmed) - DNP all Week 7, inactive; Steichen says week-to-week (Oct 26-27)",
+     "starter": true,
+     "source": "https://www.fantasypros.com/2026/10/fantasy-football-injury-report-updates-week-8-2026/"
+    },
+    {
+     "player": "Tyler Warren",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Groin - inactive past two games, DNP Week 7 prep; TBD for Week 8 (DraftKings Oct 27)",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Justin Walley",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Knee - left Week 7 loss in 3rd qtr, did not return; TBD",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Anthony Gould",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Concussion - inactive Week 7; Week 8 status unknown",
+     "starter": false,
+     "source": "https://www.si.com/nfl/colts/onsi/indianapolis-colts-week-7-stock-report-2-risers-3-fallers-as-offense-falls-apart"
+    },
+    {
+     "player": "CJ Allen",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Ankle - inactive Week 7; Week 8 status unknown",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Bryce Boettcher",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Groin - inactive Week 7; Week 8 status unknown",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Trevor Denbow",
+     "position": "S",
+     "status": "Out",
+     "injury": "Ruled out for Week 8 per CBS (Oct 26-27); injury type not captured",
+     "starter": false,
+     "source": "https://www.cbssports.com/fantasy/football/news/colts-trevor-denbow-quickly-ruled-out-for-week-8"
+    },
+    {
+     "player": "Alec Pierce",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Heel (aggravated surgically repaired left heel Week 2) - IR; Steichen Oct 26: practice window most likely not opening Week 8, return still weeks away",
+     "starter": true,
+     "source": "https://www.rotowire.com/football/headlines/alec-pierce-injury-not-ready-for-practice-644491"
+    },
+    {
+     "player": "Micheal Clemons",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Toe - IR (DraftKings Oct 27)",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Arden Key",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Hamstring - IR, Week 9 eligible",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Carson Towt",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Carried from Week 7 as IR; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"
+    },
+    {
+     "player": "Will Musgrave",
+     "position": "TE",
+     "status": "PUP",
+     "injury": "Carried from Week 7 as PUP; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Jones is under heavy fire ('$88M mistake' coverage) but Steichen is sticking with him; Keenan Allen and Josh Downs absorbing Warren's targets.",
+    "Division road game at first-place Jacksonville (Nov 1, 1 p.m. ET), which is coming off a bye; Colts 2-5 and fading in the AFC South.",
+    "Secondary badly depleted if Gardner and Walley both miss; pass rush without Clemons and Key.",
+    "Backup QB Anthony Richardson Sr. has a pending marijuana possession charge - potential substance-abuse policy discipline."
+   ],
+   "sources": [
+    "https://www.si.com/nfl/colts/onsi/indianapolis-colts-week-7-stock-report-2-risers-3-fallers-as-offense-falls-apart",
+    "https://www.startribune.com/minnesota-vikings-indianapolis-colts-score-today-kyler-murray-stats-nfl-week-7-live-updates-results/601896475",
+    "https://www.fantasypros.com/2026/10/fantasy-football-injury-report-updates-week-8-2026/",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://www.rotowire.com/football/headlines/alec-pierce-injury-not-ready-for-practice-644491",
+    "https://heavy.com/sports/nfl/indianapolis-colts/shane-steichen-alec-pierce-ir-clemons",
+    "https://www.colts.com/news/anthony-richardson-sr-named-colts-backup-quarterback",
+    "https://www.yardbarker.com/nfl/articles/i_dont_really_regret_anything_i_do_colts_anthony_richardson_sr_responds_to_possession_of_marijuana_charge/s1_13132_44475754",
+    "https://www.cbssports.com/fantasy/football/news/colts-trevor-denbow-quickly-ruled-out-for-week-8",
+    "https://www.si.com/betting/colts-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-8-01m5x10j3wbj"
+   ]
+  },
+  "JAX": {
+   "week7_result": "BYE (Week 7). Last played Week 6 (loss at Houston, score not captured); Week 5 was a 19-17 win over Philadelphia in London where LT Anton Harrison tore his ACL. Jaguars lead the AFC South.",
+   "qb": {
+    "starter": "Trevor Lawrence",
+    "backup": "Quinn Ewers",
+    "changed_from_week7": false,
+    "notes": "Lawrence healthy entering Week 8 (1,480 yds, 14 TD, 4 INT, 65.2%). Ewers (acquired from Miami) is QB2; Nick Mullens was released. 2025 ankle/knee stories are prior season."
+   },
+   "injuries": [
+    {
+     "player": "Antonio Johnson",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Ankle (hurt in loss to Houston) - Coen Oct 26: 'TBD', returning to practice, unsure for Sunday",
+     "starter": true,
+     "source": "https://blackandteal.com/jaguars-secondary-injuries-could-spell-trouble-against-the-colts-antonio-johnson-montaric-brown"
+    },
+    {
+     "player": "Montaric Brown",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Hamstring - missed 2 of 3 games before bye; Coen Oct 26: 'TBD', returning to practice",
+     "starter": true,
+     "source": "https://blackandteal.com/jaguars-secondary-injuries-could-spell-trouble-against-the-colts-antonio-johnson-montaric-brown"
+    },
+    {
+     "player": "Anton Harrison",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Torn ACL (right knee, noncontact vs PHI Oct 12) - IR Oct 13, out for season per Rapoport Oct 23",
+     "starter": true,
+     "source": "https://www.news4jax.com/sports/2026/10/23/jaguars-lt-anton-harrison-now-out-for-season-reports/"
+    },
+    {
+     "player": "Caleb Ransaw",
+     "position": "S",
+     "status": "IR",
+     "injury": "Knee - IR Oct 6; CBS expected return Week 10",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/"
+    },
+    {
+     "player": "Patrick Mekari",
+     "position": "G",
+     "status": "IR",
+     "injury": "Back - IR (as of Oct 14); CBS expected return Week 8 but no activation found",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/"
+    },
+    {
+     "player": "B.J. Green II",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Elbow - IR since Sept 16; CBS expected return Week 8 but no activation found",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/"
+    },
+    {
+     "player": "Zach Durfee",
+     "position": "DL",
+     "status": "IR",
+     "injury": "Upper body - IR; CBS expected return Week 8 but no activation found",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Off the bye, rested at home vs a 2-5 division rival; Jacksonville implied total 27.5 is among the slate's highest.",
+    "Walker Little continues at LT with Harrison out for the year; Mekari also still on IR, so the OL is reshuffled on the left side.",
+    "Secondary depth is the main Week 8 concern (Johnson, Brown TBD; Ransaw on IR) against a Colts passing game missing Warren and Pierce.",
+    "Coen said he is 'excited' to get back in the building; the team has 7 road games remaining after this."
+   ],
+   "sources": [
+    "https://www.news4jax.com/sports/2026/10/23/jaguars-lt-anton-harrison-now-out-for-season-reports/",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-ot-anton-harrison-out-for-year-with-a-torn-acl",
+    "https://sports.yahoo.com/articles/jaguars-place-anton-harrison-injured-205052704.html",
+    "https://blackandteal.com/jaguars-secondary-injuries-could-spell-trouble-against-the-colts-antonio-johnson-montaric-brown",
+    "https://www.si.com/nfl/jaguars/onsi/updating-every-key-jacksonville-injury-entering-bye-week-from-anton-harrison-to-montaric-brown",
+    "https://www.jaguars.com/news/monday-insider-excited-about-getting-back-in-the-building",
+    "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/",
+    "https://www.jaguars.com/news/jaguars-reveal-first-depth-chart-of-the-2026-regular-season",
+    "https://www.footballnationusa.com/post/colts-jaguars-week-8-guide-2026",
+    "https://athlonsports.com/nfl/jacksonville-jaguars/jaguars-playoff-chances-espn-fpi-afc-south-bye"
+   ]
+  },
+  "LV": {
+   "week7_result": "L 21-35 vs LA Rams in Las Vegas (Oct 25); Rams led 28-6 at half. Kirk Cousins 26/44, 295 yds, 2 TD, 0 INT. Fourth straight loss, Raiders 3-4. No in-game injuries reported; Mike Washington Jr. (foot/back) and Quay Walker (chest) were questionable but played.",
+   "qb": {
+    "starter": "Kirk Cousins",
+    "backup": "Fernando Mendoza",
+    "changed_from_week7": false,
+    "notes": "Kubiak announced Oct 26 Cousins remains the starter vs NYJ despite benching buzz; No. 1 pick Mendoza 'will play eventually' but 'not this week', no timeline. Cousins leads NFL with 16 TD passes. Aidan O'Connell is QB3."
+   },
+   "injuries": [
+    {
+     "player": "Jack Bech",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Broken forearm - designated to return from IR Oct 26 (21-day window); Heavy says Week 8 return unlikely, Week 9 possible",
+     "starter": false,
+     "source": "https://www.raiders.com/news/wr-jack-bech-designated-for-return-from-injured-reserve-raiders-nfl-transactions-2026"
+    },
+    {
+     "player": "Dont'e Thornton Jr.",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Hamstring - on IR with 21-day practice window open; not activated as of Oct 27",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Carter Runyon",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Foot - on IR with 21-day practice window open; ruled out Week 7; not activated as of Oct 27",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Mike Washington Jr.",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "Foot/back - questionable Week 7 but active; no new report",
+     "starter": false,
+     "source": "https://www.silverandblackpride.com/las-vegas-raiders-news/143878/raiders-rams-inactives-mike-washington-playing"
+    },
+    {
+     "player": "Keyron Crawford",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Carried from Week 7 as IR; no Oct 20+ update found (unverified)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/lv/las-vegas-raiders/injuries/"
+    }
+   ],
+   "context_notes": [
+    "QB controversy is the storyline: fans and analysts (including a 'Tom Brady said no' theory) criticized Kubiak for sticking with Cousins over Mendoza; Kubiak said 'every option is under review' then reaffirmed Cousins.",
+    "DraftKings (Oct 27): no active injuries affecting the Raiders' lineup; LV is the healthier team vs the Jets but a road underdog.",
+    "Revenge angle: Geno Smith (ex-Raiders QB), Garrett Wilson exchange noted; several former Raiders on the Jets.",
+    "WR corps thin with Bech and Thornton both still on IR; Brock Bowers is Cousins' primary answer vs pressure."
+   ],
+   "sources": [
+    "https://www.nfl.com/news/raiders-klint-kubiak-sticking-with-kirk-cousins-as-starting-qb-for-week-8-game-vs-jets",
+    "https://www.espn.com/nfl/story/_/id/50289866/kirk-cousins-remain-raiders-starting-qb-klint-kubiak-says",
+    "https://bleacherreport.com/articles/25520730-kirk-cousins-remain-raiders-qb1-vs-jets-amid-benching-buzz-hc-talks-fernando-mendoza-timeline",
+    "https://www.fantasypros.com/nfl/news/615825/kirk-cousins-tosses-two-touchdowns-week-7-loss-to-rams.php",
+    "https://www.raiders.com/news/wr-jack-bech-designated-for-return-from-injured-reserve-raiders-nfl-transactions-2026",
+    "https://heavy.com/sports/nfl/las-vegas-raiders/injury-update-jack-bech/",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://www.silverandblackpride.com/las-vegas-raiders-news/143878/raiders-rams-inactives-mike-washington-playing",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-depth-chart-lists-fernando-mendoza-as-qb2",
+    "https://www.cbsnews.com/amp/sanfrancisco/news/injury-report-raiders-betting-underdogs-despite-being-healthier-than-jets-in-week-8"
+   ]
+  },
+  "NYJ": {
+   "week7_result": "L 25-28 vs Miami (previously winless) at MetLife (Oct 25). Geno Smith 23/30, 287 yds, 3 TD, 1 INT, but was strip-sacked on the final drive. Jets 2-5; Garrett Wilson had a sideline outburst at Smith; Aaron Glenn (19 losses in 24 games) says 'it's going to get noisy'. OLB Patrick Johnson (neck) left and returned.",
+   "qb": {
+    "starter": "Geno Smith",
+    "backup": "Cade Klubnik",
+    "changed_from_week7": false,
+    "notes": "Smith healthy, no designation; best statistical game of the season despite the loss. Rookie Klubnik is QB2 on the roster page (Will Levis on PS). Justin Fields/Tyrod Taylor are not on the 2026 Jets."
+   },
+   "injuries": [
+    {
+     "player": "Breece Hall",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Quadriceps - inactive 4 straight games (hurt Week 3 vs DET); questionable Week 7 then inactive; TBD for Week 8 (DraftKings Oct 27). Braelon Allen starts if out",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Joseph Ossai",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "Ankle - ruled out Week 7; TBD Week 8 (DraftKings Oct 27)",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Dylan Parham",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "Knee - inactive 4 straight games; Jordan Meredith starting at LG; TBD Week 8",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Max Mitchell",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Concussion - ruled out Week 7 (Oct 23); no Week 8 update",
+     "starter": false,
+     "source": "https://www.thephinsider.com/miami-dolphins-injuries/124100/dolphins-vs-jets-inactives-willie-gay-jr-out-with-continued-illness-breece-hall-out-for-new-york"
+    },
+    {
+     "player": "T'Vondre Sweat",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Knee - TBD Week 8 (DraftKings Oct 27)",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/"
+    },
+    {
+     "player": "Jarvis Brownlee Jr.",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Concussion protocol - ruled out Week 7; no Week 8 update",
+     "starter": true,
+     "source": "https://www.newyorkjets.com/news/jets-vs-dolphins-nfl-game-inactives-10-25-2026"
+    },
+    {
+     "player": "Kene Nwangwu",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Knee - questionable then inactive Week 7; no Week 8 update",
+     "starter": false,
+     "source": "https://www.newyorkjets.com/news/jets-vs-dolphins-nfl-game-inactives-10-25-2026"
+    },
+    {
+     "player": "Francisco Mauigoa",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Quadriceps - ruled out Week 7 and reportedly moved to IR (The Phinsider, single source)",
+     "starter": true,
+     "source": "https://www.thephinsider.com/miami-dolphins-injuries/124100/dolphins-vs-jets-inactives-willie-gay-jr-out-with-continued-illness-breece-hall-out-for-new-york"
+    },
+    {
+     "player": "Anez Cooper",
+     "position": "OL",
+     "status": "IR",
+     "injury": "IR since Aug 30 with return designation (eligible after 4 games); no activation found",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/jets-put-2026-draft-picks-005741377.html"
+    },
+    {
+     "player": "VJ Payne",
+     "position": "DB",
+     "status": "IR",
+     "injury": "IR since Aug 30 with return designation; no activation found",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/jets-put-2026-draft-picks-005741377.html"
+    },
+    {
+     "player": "Tre Brown",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Finger/undisclosed - season-ending IR Aug 30",
+     "starter": false,
+     "source": "https://heavy.com/sports/nfl/new-york-jets/mykal-walker-lost-for-season-2026/"
+    },
+    {
+     "player": "Chip Trayanum",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Neck (preseason finale) - season-ending IR Aug 30",
+     "starter": false,
+     "source": "https://heavy.com/sports/nfl/new-york-jets/mykal-walker-lost-for-season-2026/"
+    },
+    {
+     "player": "Mykal Walker",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Calf (camp) - season-ending IR Aug 30",
+     "starter": false,
+     "source": "https://heavy.com/sports/nfl/new-york-jets/mykal-walker-lost-for-season-2026/"
+    },
+    {
+     "player": "Tyler Baron",
+     "position": "EDGE",
+     "status": "PUP",
+     "injury": "Knee - reserve/PUP since cutdown; no activation found (unverified)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/nyj/new-york-jets"
+    }
+   ],
+   "context_notes": [
+    "Aaron Glenn's job is in jeopardy after losing to the winless Dolphins; clock-management and two-minute issues are a national storyline; Garrett Wilson sideline outburst called 'overblown' by Glenn.",
+    "WR Adonai Mitchell returned Week 7 from a 4-game finger absence; TE Mason Taylor (2 TD) and WR Omar Cooper Jr. emerging.",
+    "OL has been reshuffled for a month: Parham (LG) out 4 straight with Jordan Meredith starting; Max Mitchell in concussion protocol.",
+    "Home vs Raiders (3-4, four-game losing streak); Raiders are the healthier side but are betting underdogs. Note SI 'Sauce Gardner inactive Jets-Dolphins' result is a stale 2025 item - Gardner is a Colt in 2026."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/report-card-jets-lose-miami-104526497.html",
+    "https://www.cbssports.com/fantasy/football/news/jets-geno-smith-three-tds-not-enough-in-week-7/",
+    "https://www.espn.com/nfl/story/_/id/50287902/aaron-glenn-says-talked-garrett-wilson-outburst",
+    "https://www.newyorkjets.com/news/jets-vs-dolphins-nfl-game-inactives-10-25-2026",
+    "https://www.thephinsider.com/miami-dolphins-injuries/124100/dolphins-vs-jets-inactives-willie-gay-jr-out-with-continued-illness-breece-hall-out-for-new-york",
+    "https://dknetwork.draftkings.com/2026/10/27/nfl-injury-report-week-8/",
+    "https://sports.yahoo.com/articles/hall-douglas-returns-injury-decisions-164140686.html",
+    "https://newyorkjets.com/news/mason-taylor-joined-omar-cooper-jr-in-jets-offensive-production-vs-dolphins-10-26-2026",
+    "https://sports.yahoo.com/articles/jets-put-2026-draft-picks-005741377.html",
+    "https://heavy.com/sports/nfl/new-york-jets/mykal-walker-lost-for-season-2026/",
+    "https://jetsxfactor.com/info/roster/",
+    "https://www.cbsnews.com/amp/sanfrancisco/news/injury-report-raiders-betting-underdogs-despite-being-healthier-than-jets-in-week-8"
+   ]
+  }
+ }
+}
