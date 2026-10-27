@@ -235,3 +235,9 @@ since Week 1 in an upset-heavy week. Pooled over 92 games the blend leads 0.656 
 Changes: margin sd 12.7 to 13.5 and injury scale 0.75 to 0.6, both from the pooled grids. The
 page now carries the week-by-week value-table betting record. Details in
 `output/week6_2026_postmortem.md`.
+
+## Status (Oct 27, 2026): Week 7 scored, Week 8 in progress
+
+Week 7 went 9-5 but lost to the market on log loss (0.710 vs 0.693) in a week home teams went
+4-10. Pooled over 106 games the blend leads 0.663 to 0.666. Changes: home field 1.5 to 0.5 and
+margin sd 13.5 to 14.0. Details in `output/week7_2026_postmortem.md`.

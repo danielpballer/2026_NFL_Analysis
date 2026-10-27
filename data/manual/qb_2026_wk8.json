@@ -20,13 +20,14 @@
    "schedule_projected_starter": "Jordan Love"
   },
   "BAL": {
-   "starter": "Huntley (Jackson day-to-day)",
-   "pbp_name": "T.Huntley",
+   "starter": "Jackson (expected) / Huntley",
+   "pbp_name": "L.Jackson",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Lamar Jackson is expected to return at Buffalo but the decision follows Wednesday practice; priced 70 percent Jackson (+3.3), 30 percent Huntley (-2.0).",
    "schedule_projected_starter": "Tyler Huntley",
-   "value_override": -0.65
+   "value_override": 1.74,
+   "extra_sd": 1.25
   },
   "BUF": {
    "starter": "Josh Allen",
@@ -141,16 +142,17 @@
    "pbp_name": "M.Penix",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Penix threw three touchdowns against San Francisco.",
    "value_override": -0.3,
-   "schedule_projected_starter": "Michael Penix Jr."
+   "schedule_projected_starter": "Michael Penix Jr.",
+   "extra_sd": 0.5
   },
   "TB": {
    "starter": "Baker Mayfield",
    "pbp_name": "B.Mayfield",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
+   "notes": "Mayfield back from the thumb injury (7 of 11 in his return).",
    "schedule_projected_starter": "Baker Mayfield"
   },
   "LAC": {
@@ -199,7 +201,7 @@
    "pbp_name": "M.Willis",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Willis has a throwing-thumb issue but was a full participant.",
    "value_override": -1.5,
    "schedule_projected_starter": "Malik Willis"
   },
@@ -208,18 +210,20 @@
    "pbp_name": "T.McKee",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Hurts is on IR until at least Nov 22; McKee makes his third start.",
    "schedule_projected_starter": "Tanner McKee",
-   "value_override": -1.5
+   "value_override": -1.5,
+   "extra_sd": 1.0
   },
   "WAS": {
    "starter": "Jayden Daniels",
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Daniels still in the elbow brace; Mariota back at practice as the backup. Terry McLaurin is out for the season.",
    "value_override": 0.1,
-   "schedule_projected_starter": "Jayden Daniels"
+   "schedule_projected_starter": "Jayden Daniels",
+   "extra_sd": 0.5
   },
   "CHI": {
    "starter": "Caleb Williams",
