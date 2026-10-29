@@ -396,8 +396,9 @@
    "starter": true
   },
   "LAC|Kayode Awosika": {
-   "slot": "LG",
-   "starter": true
+   "slot": "G",
+   "starter": true,
+   "status": "Doubtful"
   },
   "LAC|Trey Pipkins": {
    "slot": "RT",
@@ -410,7 +411,8 @@
   "LAC|Ladd McConkey": {
    "slot": "WR1",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Probable"
   },
   "SEA|Julian Love": {
    "slot": "S",
@@ -781,12 +783,14 @@
   "LAC|Joe Alt": {
    "slot": "RT",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Probable"
   },
   "LAC|Derwin James": {
    "slot": "S",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Out"
   },
   "LAC|David Njoku": {
    "slot": "TE1",
@@ -1124,7 +1128,8 @@
   "LAC|Derwin James Jr.": {
    "slot": "S",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Out"
   },
   "KC|Rashee Rice": {
    "slot": "WR1",
@@ -1544,7 +1549,8 @@
   },
   "LA|Nate Landman": {
    "slot": "LB",
-   "starter": true
+   "starter": true,
+   "status": "Probable"
   },
   "KC|Brashard Smith": {
    "slot": "RB2",
@@ -1596,6 +1602,11 @@
   "SEA|Rashid Shaheed": {
    "slot": "WR2",
    "starter": true
+  },
+  "BAL|Olaivavega Ioane": {
+   "slot": "G",
+   "starter": true,
+   "status": "Doubtful"
   }
  },
  "drop": [
@@ -1650,6 +1661,7 @@
   "PHI|Jalen Hurts",
   "BAL|Lamar Jackson",
   "BAL|Tyler Huntley",
-  "TEN|Jordan Elliott"
+  "TEN|Jordan Elliott",
+  "BAL|Vega Ioane"
  ]
 }

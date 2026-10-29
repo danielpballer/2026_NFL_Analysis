@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "collected_on": "2026-10-27",
+ "collected_on": "2026-10-29",
  "teams": {
   "CAR": {
    "starter": "Bryce Young",
@@ -20,14 +20,14 @@
    "schedule_projected_starter": "Jordan Love"
   },
   "BAL": {
-   "starter": "Jackson (expected) / Huntley",
+   "starter": "Lamar Jackson (expected)",
    "pbp_name": "L.Jackson",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Lamar Jackson is expected to return at Buffalo but the decision follows Wednesday practice; priced 70 percent Jackson (+3.3), 30 percent Huntley (-2.0).",
+   "notes": "Jackson was a full participant Wednesday for the first time since the ankle sprain; Minter still says \"we will see how it goes\". Priced 90 percent Jackson, 10 percent Huntley.",
    "schedule_projected_starter": "Tyler Huntley",
-   "value_override": 1.74,
-   "extra_sd": 1.25
+   "value_override": 2.8,
+   "extra_sd": 0.75
   },
   "BUF": {
    "starter": "Josh Allen",

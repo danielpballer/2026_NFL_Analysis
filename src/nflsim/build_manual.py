@@ -74,6 +74,9 @@ def practice_report(season: int, week: int) -> list[dict]:
     inj = pd.read_csv(path)
     inj = inj[(inj.season == season) & (inj.week == week) & (inj.game_type == "REG")]
     inj = inj[inj.practice_status.fillna("").str.startswith("Did Not Participate") & ~inj.report_status.isin(OFFICIAL_STATUS)]
+    # veteran rest days are listed as DNP with a "not injury related" reason; they are not injuries
+    rest = inj.practice_primary_injury.fillna("").str.contains("rest|not injury", case=False)
+    inj = inj[~rest]
     return [{"team": r.team, "player": r.full_name, "position": r.position, "status": "Questionable",
              "injury": f"did not practice midweek ({r.practice_primary_injury}); no game designation yet", "starter": True,
              "source": "nflverse injuries file (practice report)"} for _, r in inj.iterrows()]
