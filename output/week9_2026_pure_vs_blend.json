@@ -1,0 +1,92 @@
+{
+  "2026_09_JAX_BAL": {
+    "p_home_pure": 0.2147,
+    "p_home_market": 0.2698,
+    "pick_pure": "JAX",
+    "flip": false
+  },
+  "2026_09_CIN_ATL": {
+    "p_home_pure": 0.3343,
+    "p_home_market": 0.417,
+    "pick_pure": "CIN",
+    "flip": false
+  },
+  "2026_09_CLE_NO": {
+    "p_home_pure": 0.5494,
+    "p_home_market": 0.5752,
+    "pick_pure": "NO",
+    "flip": false
+  },
+  "2026_09_DAL_IND": {
+    "p_home_pure": 0.5011,
+    "p_home_market": 0.3321,
+    "pick_pure": "IND",
+    "flip": true
+  },
+  "2026_09_DEN_CAR": {
+    "p_home_pure": 0.3632,
+    "p_home_market": 0.4178,
+    "pick_pure": "DEN",
+    "flip": false
+  },
+  "2026_09_DET_MIA": {
+    "p_home_pure": 0.2736,
+    "p_home_market": 0.3055,
+    "pick_pure": "DET",
+    "flip": false
+  },
+  "2026_09_LA_WAS": {
+    "p_home_pure": 0.263,
+    "p_home_market": 0.3462,
+    "pick_pure": "LA",
+    "flip": false
+  },
+  "2026_09_NYG_PHI": {
+    "p_home_pure": 0.4323,
+    "p_home_market": 0.4041,
+    "pick_pure": "NYG",
+    "flip": false
+  },
+  "2026_09_NYJ_KC": {
+    "p_home_pure": 0.7754,
+    "p_home_market": 0.7579,
+    "pick_pure": "KC",
+    "flip": false
+  },
+  "2026_09_HOU_LAC": {
+    "p_home_pure": 0.288,
+    "p_home_market": 0.3756,
+    "pick_pure": "HOU",
+    "flip": false
+  },
+  "2026_09_LV_SF": {
+    "p_home_pure": 0.7948,
+    "p_home_market": 0.7709,
+    "pick_pure": "SF",
+    "flip": false
+  },
+  "2026_09_ARI_SEA": {
+    "p_home_pure": 0.8162,
+    "p_home_market": 0.8011,
+    "pick_pure": "SEA",
+    "flip": false
+  },
+  "2026_09_GB_NE": {
+    "p_home_pure": 0.5534,
+    "p_home_market": 0.5883,
+    "pick_pure": "NE",
+    "flip": false
+  },
+  "2026_09_TB_CHI": {
+    "p_home_pure": 0.5951,
+    "p_home_market": 0.6712,
+    "pick_pure": "CHI",
+    "flip": false
+  },
+  "2026_09_BUF_MIN": {
+    "p_home_pure": 0.4628,
+    "p_home_market": 0.4044,
+    "pick_pure": "BUF",
+    "flip": false
+  }
+}

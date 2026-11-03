@@ -241,3 +241,8 @@ page now carries the week-by-week value-table betting record. Details in
 Week 7 went 9-5 but lost to the market on log loss (0.710 vs 0.693) in a week home teams went
 4-10. Pooled over 106 games the blend leads 0.663 to 0.666. Changes: home field 1.5 to 0.5 and
 margin sd 13.5 to 14.0. Details in `output/week7_2026_postmortem.md`.
+
+## Status (Nov 3, 2026): Week 8 scored, Week 9 in progress
+
+Week 8 went 10-4 (log loss 0.570, market moneyline 0.553). Pooled over 120 games the blend
+leads 0.652 to 0.653. Change: injury scale 0.6 to 0.5. Details in `output/week8_2026_postmortem.md`.

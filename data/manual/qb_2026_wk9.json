@@ -12,13 +12,14 @@
    "schedule_projected_starter": "Trevor Lawrence"
   },
   "BAL": {
-   "starter": "Lamar Jackson (expected)",
-   "pbp_name": "L.Jackson",
+   "starter": "Joe Fagnano (rookie)",
+   "pbp_name": "J.Fagnano",
    "new_to_team": false,
-   "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Tyler Huntley",
-   "value_override": 2.8
+   "rookie": true,
+   "notes": "Lamar Jackson needs thumb surgery and is going on IR; Tyler Huntley (turf toe) is out, so undrafted rookie Joe Fagnano (himself questionable with an ankle) is expected to start Thursday with practice-squad signee Austin Reed behind him. Priced like the other emergency rookie starters this season. Kicker Tyler Loop is also out.",
+   "schedule_projected_starter": "Joe Fagnano",
+   "value_override": -5.0,
+   "extra_sd": 1.5
   },
   "CIN": {
    "starter": "Joe Burrow",
@@ -51,15 +52,16 @@
    "pbp_name": "B.Young",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Bryce Young"
+   "notes": "Young playing through a knee issue.",
+   "schedule_projected_starter": "Bryce Young",
+   "extra_sd": 0.25
   },
   "DAL": {
    "starter": "Dak Prescott",
    "pbp_name": "D.Prescott",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Prescott limited with a sore knee, nothing to be concerned about per the team.",
    "schedule_projected_starter": "Dak Prescott"
   },
   "IND": {
@@ -67,7 +69,7 @@
    "pbp_name": "D.Jones",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Jones was benched in the fourth quarter at Jacksonville for Anthony Richardson but Steichen says he starts.",
    "value_override": 0.2,
    "schedule_projected_starter": "Daniel Jones"
   },
@@ -123,20 +125,21 @@
    "schedule_projected_starter": "Tyler Shough"
   },
   "NYG": {
-   "starter": "McCarthy (lean) / Winston",
+   "starter": "J.J. McCarthy",
    "pbp_name": "J.McCarthy",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "McCarthy has started two games since replacing Winston (won in Houston, lost to the Saints); his 2025 Vikings number is softened.",
    "value_override": -3.5,
-   "schedule_projected_starter": "J.J. McCarthy"
+   "schedule_projected_starter": "J.J. McCarthy",
+   "extra_sd": 1.0
   },
   "PHI": {
    "starter": "Tanner McKee",
    "pbp_name": "T.McKee",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Hurts on IR for the year; McKee makes his fourth start.",
    "schedule_projected_starter": "Tanner McKee",
    "value_override": -1.5
   },
@@ -145,8 +148,9 @@
    "pbp_name": "M.Stafford",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Matthew Stafford"
+   "notes": "Stafford had ice on his throwing elbow after the Chargers game; expected to play, possibly with limited practice.",
+   "schedule_projected_starter": "Matthew Stafford",
+   "extra_sd": 0.75
   },
   "WAS": {
    "starter": "Jayden Daniels",
@@ -206,12 +210,14 @@
    "schedule_projected_starter": "Drake Maye"
   },
   "ARI": {
-   "starter": "Jacoby Brissett",
-   "pbp_name": "J.Brissett",
+   "starter": "Gardner Minshew",
+   "pbp_name": "G.Minshew",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Gardner Minshew"
+   "notes": "Minshew named the starter after the overtime comeback in Dallas; Brissett demoted to third string. Career-level value used instead of the small 2025 sample.",
+   "schedule_projected_starter": "Gardner Minshew",
+   "value_override": -2.5,
+   "extra_sd": 0.75
   },
   "SEA": {
    "starter": "Sam Darnold",
@@ -247,13 +253,14 @@
    "schedule_projected_starter": "Josh Allen"
   },
   "MIN": {
-   "starter": "Kyler Murray",
+   "starter": "Murray (questionable) / Wentz",
    "pbp_name": "K.Murray",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Murray has a sore hamstring; the plan is to start him if healthy, with Carson Wentz next. Priced 70/30 Murray over Wentz.",
    "schedule_projected_starter": "Kyler Murray",
-   "value_override": null
+   "value_override": 0.0,
+   "extra_sd": 1.0
   }
  }
 }
