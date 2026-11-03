@@ -1,0 +1,920 @@
+{
+ "collected_on": "2026-11-03",
+ "search_calls_used": 40,
+ "unverified": [
+  "NE: Milton Williams (DT) 2026 status - an SI headline references a 'positive update' on an injured Milton Williams and a snippet says he was ruled out of a prior win over the Jets, but no dated 2026 detail was found; treat as unknown.",
+  "NE: Harold Landry III (PUP), Brenden Schooler (NFI), Channing Canada, Karon Prunty and the long IR list (Vera-Tucker, Baringer, Butler, Anderson, Iton, Jacobs, Wilkerson, Bryant, Onwenu, Hutchins) - no November 2026 updates found; assume unchanged.",
+  "NE: backup QB name not verified.",
+  "ARI: Jeremiyah Love (RB) official Week 9 designation not yet issued; LaFleur said 'new portion of the ankle' with no timeline. Isaiah Adams, Chase Bisontis, Zachary Carter IR status unchanged but unverified. Jalen Brooks 'out for season' mentioned in one snippet without position/date detail.",
+  "SEA: reason Charles Cross (OT) and Uchenna Nwosu (OLB) were inactive Week 8 not found. Irvin Charles IR status conflicting. Mason Richman and Robbie Ouzts no updates. Nick Emmanwori (hip) and Drew Lock (elbow) questionable tags came from the Week 8 cycle, not Week 9.",
+  "TB: Emeka Egbuka (foot) status for Week 9 not yet announced (missed Weeks 7-8). Kenneth Gainwell Week 8 participation unverified. Backup QB name not verified.",
+  "CHI: Bears record after Week 8 not captured. Jaylon Jones (CB) listed out with knee on a Yahoo table dated 11/2 - not confirmed elsewhere. Brittain Brown, Dallis Flowers, Hayden Large, Ruben Hyppolite II, Tony Fields II - no November updates, assume still IR. Backup QB (Tyson Bagent presumed, Case Keenum emergency 3rd) not verified.",
+  "BUF: Spencer Brown (RT) injury type (back per preview) and Week 9 status unverified; Dee Alford (ankle) and Greg Gaines (calf) Week 9 status unverified. Head coach appears to be Joe Brady per Buffalo Rumblings; older 'McDermott' results were from prior seasons.",
+  "MIN: Christian Darrisaw shoulder and Justin Jefferson statuses pending first Vikings practice report (Thursday). Josh Oliver IR return window not confirmed opened.",
+  "No Week 9 official practice reports (Wed/Thu) were available for any team as of Nov 3."
+ ],
+ "teams": {
+  "NE": {
+   "week8_result": "W 24-19 at Miami (Nov 1); Patriots now 5-3. Came back from a 10-point halftime deficit. Drake Maye 16/20, 199 yds, 2 TD, played all 60 snaps despite getting his left (non-throwing) hand taped. TE Hunter Henry left with a foot injury and did not return; WR A.J. Brown (knee) and RB TreVeyon Henderson (illness) were inactive.",
+   "qb": {
+    "starter": "Drake Maye",
+    "backup": "unverified",
+    "changed_from_week8": false,
+    "notes": "Maye healthy; right-shoulder listing from early season was full participation each week. Left hand taped late in first half vs MIA but no missed snaps."
+   },
+   "injuries": [
+    {
+     "player": "A.J. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Knee (CBS lists ankle); missed Week 8 at MIA. Vrabel Nov 2: 'We'll see how he progresses during the week. He's getting treatment.' Was on IR Sept 12-early Oct earlier this season.",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-a-j-brown-well-see-how-he-progresses-during-the-week"
+    },
+    {
+     "player": "Hunter Henry",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Foot; left Week 8 win at MIA early and did not return. No Vrabel update Monday Nov 2; Maye said he looked fine walking around. CBS lists Questionable vs GB.",
+     "starter": true,
+     "source": "https://musketfire.com/patriots-week-9-injury-updates-mack-hollins-return-a-j-brown-status-hunter-henry-update-01m6emg6cvjk"
+    },
+    {
+     "player": "TreVeyon Henderson",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "Illness; inactive Week 8 at MIA. Expected back for Week 9 (no injury).",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-injuries/142849/patriots-vs-dolphins-injury-analysis-nfl-week-8-packers"
+    },
+    {
+     "player": "Mack Hollins",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Calf; on IR since Week 4 (vs BUF). Eligible to return; Vrabel said Nov 2 he could 'potentially' return to practice this week. Not yet activated.",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/patriots-mike-vrabel-gives-j-184211162.html"
+    },
+    {
+     "player": "Reggie Gilliam",
+     "position": "FB",
+     "status": "IR",
+     "injury": "On IR (placed same day as Hollins). Eligible to return; Vrabel said could potentially return to practice. Not yet activated.",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/patriots-mike-vrabel-gives-j-184211162.html"
+    },
+    {
+     "player": "Romeo Doubs",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Shoulder; placed on IR Oct 19 after Week 7 vs NYJ. Not eligible to return until after NE's late-November bye (minimum 4 games). Still out.",
+     "starter": true,
+     "source": "https://www.boston.com/sports/new-england-patriots/2026/10/19/romeo-doubs-injury-new-england-patriots-nfl-football-injured-reserve-roster/"
+    },
+    {
+     "player": "Milton Williams",
+     "position": "DT",
+     "status": "Out",
+     "injury": "Injured earlier this season (ruled out of a prior win over the Jets per snippet); SI reports a 'positive update' from Vrabel. Exact 2026 injury and Week 9 status unverified.",
+     "starter": true,
+     "source": "https://www.si.com/nfl/patriots/onsi/news/new-england-patriots-mike-vrabel-positive-update-injured-milton-williams"
+    },
+    {
+     "player": "Harold Landry III",
+     "position": "LB",
+     "status": "PUP",
+     "injury": "Reserve/PUP per Patriots transactions; no November 2026 update found. Assume still on PUP.",
+     "starter": true,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Alijah Vera-Tucker",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": true,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Mike Onwenu",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": true,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Marcus Bryant",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Bryce Baringer",
+     "position": "P",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": true,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Eric Butler",
+     "position": "S",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Henry Anderson",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Isaiah Iton",
+     "position": "DL",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Khalil Jacobs",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Kristian Wilkerson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Quintayvious Hutchins",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Brenden Schooler",
+     "position": "S",
+     "status": "NFI",
+     "injury": "Carried on NFI from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Channing Canada",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Carried as Out from Week 8; no update found (unverified).",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    },
+    {
+     "player": "Karon Prunty",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Carried as Out from Week 8; no update found (unverified).",
+     "starter": false,
+     "source": "https://www.patriots.com/team/transactions/"
+    }
+   ],
+   "context_notes": [
+    "Receiver room is depleted: Doubs (IR), Hollins (IR, may return to practice), Brown (questionable), plus Henry (TE) hurt; rookie TE Eli Raridon got extended snaps in Week 8.",
+    "GB (5-3) beat CAR 27-19 on Thursday Oct 29 and comes in off a mini-bye (10 days rest); Jordan Love is healthy (30/41, 288, 3 TD vs CAR). GB WR Christian Watson suffered a broken rib in Week 8.",
+    "NE is 5-3 after a comeback road win; Vrabel-coached team hosting at Gillette on Sunday afternoon Nov 8.",
+    "Drake Maye was on the injury report early in the season (right shoulder, from AFC Championship) but has been a full participant throughout."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/patriots-injury-analysis-dolphins-win-110000961.html",
+    "https://www.patspulpit.com/new-england-patriots-injuries/142849/patriots-vs-dolphins-injury-analysis-nfl-week-8-packers",
+    "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-comeback-win-over-the-dolphins-in-week-8",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-a-j-brown-well-see-how-he-progresses-during-the-week",
+    "https://sports.yahoo.com/articles/patriots-mike-vrabel-gives-j-184211162.html",
+    "https://musketfire.com/patriots-week-9-injury-updates-mack-hollins-return-a-j-brown-status-hunter-henry-update-01m6emg6cvjk",
+    "https://www.boston.com/sports/new-england-patriots/2026/10/19/romeo-doubs-injury-new-england-patriots-nfl-football-injured-reserve-roster/",
+    "https://www.patriots.com/team/transactions/",
+    "https://www.si.com/nfl/patriots/onsi/news/new-england-patriots-mike-vrabel-positive-update-injured-milton-williams",
+    "https://www.packers.com/news/in-game-updates-week-8-panthers-2026",
+    "https://www.footballnationusa.com/post/packers-at-patriots-week-9-preview-2026"
+   ]
+  },
+  "ARI": {
+   "week8_result": "W 33-30 (OT) at Dallas (Nov 1); Cardinals now 3-5. QB Jacoby Brissett was benched in-game (10/23, 117 yds, INT); Gardner Minshew rallied ARI from 17-3 down with 3 TD passes. WR Kendrick Bourne fractured his tibia (season over), RB Jeremiyah Love re-injured his ankle, LT Jayden Williams left with a knee injury.",
+   "qb": {
+    "starter": "Gardner Minshew",
+    "backup": "Carson Beck",
+    "changed_from_week8": true,
+    "notes": "HC Mike LaFleur named Minshew starter 'moving forward' on Nov 2 after the OT comeback. Rookie Carson Beck moves up to QB2; Jacoby Brissett (started all 8 games) demoted to QB3. The schedule file's Minshew listing is correct."
+   },
+   "injuries": [
+    {
+     "player": "Kendrick Bourne",
+     "position": "WR",
+     "status": "Out",
+     "injury": "Fractured right tibia in Week 8 at DAL; team announced Nov 2 he is out about three months, season over (IR placement expected).",
+     "starter": true,
+     "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/cardinals-lose-kendrick-bourne-ankle-for-season"
+    },
+    {
+     "player": "Jeremiyah Love",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Ankle; aggravated in first half Week 8 after 9 carries, did not return. LaFleur Nov 2: injury is to 'a new portion of the ankle', no timeline. Had been limited all prior week with ankle.",
+     "starter": true,
+     "source": "https://www.azcardinals.com/news/jeremiyah-love-with-new-ankle-issue-as-cardinals-offense-catches-injury-bug"
+    },
+    {
+     "player": "Michael Wilson",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Two broken ribs (self-disclosed Nov 1); played full game Week 8, plans to keep practicing and play through it.",
+     "starter": true,
+     "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-01/wilson-says-he-is-playing-with-two-broken-ribs"
+    },
+    {
+     "player": "Jayden Williams",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Knee; ruled out during Week 8 at DAL. Josh Fryar took over at LT. ESPN lists questionable for Nov 8 at SEA; team to update later in week.",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-db-caleb-downs-cardinals-lt-jayden-williams-ruled-out"
+    },
+    {
+     "player": "James Conner",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Foot; on IR. LaFleur Nov 2: not ready to return this week; could potentially play later this season. Still out.",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/ari/arizona-cardinals/injuries/"
+    },
+    {
+     "player": "Paris Johnson Jr.",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Torn left biceps (Week 4), placed on IR Oct 6; season-ending. Still out.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "player": "Will Johnson",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Neck; placed on IR Sept 23. ESPN estimated return Feb 15 (season). Still out.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "player": "Tip Reiman",
+     "position": "TE",
+     "status": "PUP",
+     "injury": "Ankle; reserve/PUP since Aug 30. As of Week 8 still on PUP, recovery 'has not progressed as hoped'. Practice window not opened as of Nov 3 (unverified).",
+     "starter": false,
+     "source": "https://www.footballnationusa.com/post/tip-reiman-still-sidelined-cardinals-te-and-week-8-fantasy-impact"
+    },
+    {
+     "player": "Zachary Carter",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no November update found.",
+     "starter": false,
+     "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-practice-squad-waiver-wire-tracker-2026"
+    },
+    {
+     "player": "Isaiah Adams",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no November update found (unverified).",
+     "starter": false,
+     "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-practice-squad-waiver-wire-tracker-2026"
+    },
+    {
+     "player": "Chase Bisontis",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no November update found (unverified).",
+     "starter": false,
+     "source": "https://www.si.com/nfl/cardinals/onsi/arizona-cardinals-practice-squad-waiver-wire-tracker-2026"
+    },
+    {
+     "player": "Jalen Brooks",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Reported out for season in Week 9 fantasy injury roundup (Nov 2); details unverified.",
+     "starter": false,
+     "source": "https://www.forbes.com/sites/bryantoporek/2026/11/02/week-9-fantasy-football-injury-report-lamar-jackson-jeremiyah-love-michael-wilson-and-more/"
+    }
+   ],
+   "context_notes": [
+    "QB change: Minshew in, Brissett benched to QB3; rookie Carson Beck is the backup. First-year HC Mike LaFleur.",
+    "Offense gutted by injuries: Marvin Harrison Jr. was traded to Houston Oct 11; Bourne out for season; Wilson playing with broken ribs; Love and Conner hurt, leaving Tyler Allgeier and Evan Hull as the healthy RBs. Trey McBride (66 rec, 5 TD) is the healthy focal point.",
+    "Offensive line: on its third LT (Paris Johnson IR, Jayden Williams knee, Josh Fryar next up).",
+    "Market: SEA -11.5, total 44.5 (ESPN); SEA listed -700 ML. Trade deadline is Nov 10.",
+    "Seattle (4-4) is on a short turnaround after Monday night loss; ARI played Sunday."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/story/_/id/50361163/cardinals-move-forward-gardner-minshew-starting-qb",
+    "https://bvmsports.com/2026/11/02/cardinals-to-start-gardner-minshew-vs-seahawks-rookie-carson-beck-to-be-backup/",
+    "https://www.nfl.com/news/notable-injuries-news-sunday-week-8-games-2026",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/cardinals-lose-kendrick-bourne-ankle-for-season",
+    "https://www.azcardinals.com/news/jeremiyah-love-with-new-ankle-issue-as-cardinals-offense-catches-injury-bug",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-11-01/wilson-says-he-is-playing-with-two-broken-ribs",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-db-caleb-downs-cardinals-lt-jayden-williams-ruled-out",
+    "https://www.cbssports.com/nfl/teams/ari/arizona-cardinals/injuries/",
+    "https://www.espn.com/nfl/injuries",
+    "https://www.espn.com/nfl/recap?gameId=401873024",
+    "https://www.footballnationusa.com/post/tip-reiman-still-sidelined-cardinals-te-and-week-8-fantasy-impact",
+    "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals"
+   ]
+  },
+  "SEA": {
+   "week8_result": "L 17-34 vs Chicago (MNF, Nov 2); Seahawks now 4-4, third loss in four games. Darnold 17/34, 188 yds, 2 TD, 1 INT, sacked 3 times. DT Leonard Williams left in 3rd quarter with a stinger; OLB Connor O'Toole left with a foot injury. OT Charles Cross, WR Rashid Shaheed and OLB Uchenna Nwosu were inactive.",
+   "qb": {
+    "starter": "Sam Darnold",
+    "backup": "Jalen Milroe",
+    "changed_from_week8": false,
+    "notes": "Darnold played Week 8 (10 TD / 9 INT on the season). Earlier-season glute/soft-tissue issue is behind him. Milroe was the backup for a second straight week; Drew Lock (elbow) was emergency 3rd QB."
+   },
+   "injuries": [
+    {
+     "player": "Leonard Williams",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Stinger; exited late 3rd quarter Week 8 vs CHI, did not return. Macdonald: 'we'll see how that shakes out.' Also had an Achilles listing earlier in Week 8.",
+     "starter": true,
+     "source": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears"
+    },
+    {
+     "player": "Connor O'Toole",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Foot (Macdonald postgame Nov 2); official report had listed hamstring. Left Week 8 game.",
+     "starter": false,
+     "source": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears"
+    },
+    {
+     "player": "Rashid Shaheed",
+     "position": "WR",
+     "status": "Out",
+     "injury": "Knee; inactive Week 8 vs CHI. ESPN lists Out for Nov 8 vs ARI.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873048/cardinals-seahawks"
+    },
+    {
+     "player": "Charles Cross",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Inactive Week 8 vs CHI (reason not found in snippets); signed extension recently. Week 9 status unverified.",
+     "starter": true,
+     "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-seattle-seahawks-inactives-who-in-out-week-8"
+    },
+    {
+     "player": "Uchenna Nwosu",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Inactive Week 8 vs CHI (reason not found). Week 9 status unverified.",
+     "starter": true,
+     "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-seattle-seahawks-inactives-who-in-out-week-8"
+    },
+    {
+     "player": "Nick Emmanwori",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Hip; listed questionable in Week 8 cycle. Week 9 status unverified.",
+     "starter": true,
+     "source": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears"
+    },
+    {
+     "player": "Drew Lock",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Elbow; was emergency 3rd QB Week 8.",
+     "starter": false,
+     "source": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears"
+    },
+    {
+     "player": "Jadarian Price",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "Activated from IR and returned Week 8 vs CHI (limited role alongside Zach Charbonnet, who also returned).",
+     "starter": false,
+     "source": "https://www.si.com/nfl/seahawks/onsi/3-winners-4-losers-seahawks-disheartening-week-8-loss-bears"
+    },
+    {
+     "player": "Elijah Arroyo",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Shoulder surgery; Macdonald said likely out for rest of season.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/sea/seattle-seahawks"
+    },
+    {
+     "player": "Jake Bobo",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee; out for season per IR tracker.",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Bud Clark",
+     "position": "S",
+     "status": "IR",
+     "injury": "Ankle; out for season per IR tracker.",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Julian Neal",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Hamstring; eligible to return Week 9 (CBS expected return Week 9). No activation found yet.",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+    },
+    {
+     "player": "Irvin Charles",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Conflicting: roster page shows IR designated for return; status unverified.",
+     "starter": false,
+     "source": "https://www.footballdb.com/teams/nfl/seattle-seahawks/transactions"
+    },
+    {
+     "player": "Mason Richman",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.seahawks.com/news/roster-moves/"
+    },
+    {
+     "player": "Robbie Ouzts",
+     "position": "FB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.seahawks.com/news/roster-moves/"
+    }
+   ],
+   "context_notes": [
+    "Defending Super Bowl champions have lost 3 of 4 and sit 4-4; Macdonald says they were beaten 'in all three phases' by CHI. Short week after MNF.",
+    "RB room: Kenneth Walker III left for KC in the offseason; Zach Charbonnet and Jadarian Price both returned from injury Week 8 and combined for 16 carries / 52 yds.",
+    "Jaxon Smith-Njigba healthy and leads NFL with 985 receiving yards (6-118-1 vs CHI).",
+    "Heavy home favorite vs ARI (SEA -11.5, total 44.5) facing a new Cardinals starter (Minshew)."
+   ],
+   "sources": [
+    "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears",
+    "https://komonews.com/sports/sports-content/seahawks-fall-34-17-to-bears-lose-third-in-four-games-national-football-league-nfl-sam-darnold-caleb-williams-quenton-nelson-zach-charbonnet-lumen-field-home-game",
+    "https://www.rotowire.com/football/headlines/sam-darnold-news-middling-numbers-in-week-8-loss-645762",
+    "https://www.si.com/nfl/seahawks/onsi/3-winners-4-losers-seahawks-disheartening-week-8-loss-bears",
+    "https://www.si.com/nfl/bears/onsi/chicago-bears-seattle-seahawks-inactives-who-in-out-week-8",
+    "https://www.espn.com/nfl/game/_/gameId/401873048/cardinals-seahawks",
+    "https://www.espn.com/nfl/team/injuries/_/name/sea/seattle-seahawks",
+    "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+    "https://en.wikipedia.org/wiki/Kenneth_Walker_III",
+    "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals"
+   ]
+  },
+  "TB": {
+   "week8_result": "W 16-0 vs Atlanta (Nov 1); Bucs now 3-5 (2-0 NFC South). First team since 1974 Bills to win without completing a pass (Mayfield 0/3); 324 rushing yards. OLB Yaya Diaby left in the 1st quarter with a knee injury (Grade 2 MCL sprain). WR Emeka Egbuka (foot) inactive for a second straight game.",
+   "qb": {
+    "starter": "Baker Mayfield",
+    "backup": "unverified",
+    "changed_from_week8": false,
+    "notes": "Mayfield healthy (earlier thumb issue resolved; full participant). Bucs leaned entirely on the run game in Week 8."
+   },
+   "injuries": [
+    {
+     "player": "Yaya Diaby",
+     "position": "OLB",
+     "status": "Out",
+     "injury": "Grade 2 MCL sprain (MRI Nov 2); Bowles says out for CHI, hopes Week 10 bye lets him avoid IR.",
+     "starter": true,
+     "source": "https://www.rotowire.com/football/headlines/yaya-diaby-injury-out-week-8-with-mcl-sprain-645602"
+    },
+    {
+     "player": "Emeka Egbuka",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Foot; inactive Weeks 7 and 8 (also cleared concussion protocol). No Week 9 designation yet.",
+     "starter": true,
+     "source": "https://www.bucsnation.com/tampa-bay-buccaneers-injuries/69497/buccaneers-falcons-inactives-tampa-bay-without-emeka-egbuka-atlanta-nfl-week-8"
+    },
+    {
+     "player": "Luke Goedeke",
+     "position": "OT",
+     "status": "Probable",
+     "injury": "Calf; questionable Week 8 but returned and played vs ATL after missing one game.",
+     "starter": true,
+     "source": "https://bvmsports.com/2026/11/01/falcons-buccaneers-inactives-antoine-winfield-jr-returns/"
+    },
+    {
+     "player": "Kenneth Gainwell",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Listed questionable Week 8 (Oct 30 report); participation unverified.",
+     "starter": false,
+     "source": "https://www.buccaneers.com/news/buccaneers-falcons-injury-report-oct-30-week-8"
+    },
+    {
+     "player": "Antoine Winfield Jr.",
+     "position": "S",
+     "status": "Probable",
+     "injury": "Returned to lineup Week 8 vs ATL.",
+     "starter": true,
+     "source": "https://bvmsports.com/2026/11/01/falcons-buccaneers-inactives-antoine-winfield-jr-returns/"
+    },
+    {
+     "player": "Jalen McMillan",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee (6-8 week rehab); on IR, eligible to return. Reports point to a return between Week 9 at CHI and Week 11 at DET; no activation announced.",
+     "starter": false,
+     "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+    },
+    {
+     "player": "Josh Hayes",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Knee surgery; placed on IR Aug 30 designated for return, eligible since Week 5. No activation announced.",
+     "starter": false,
+     "source": "https://sports.yahoo.com/nfl/teams/tampa-bay/injuries/"
+    }
+   ],
+   "context_notes": [
+    "Identity shift: Bowles and OC Zac Robinson committed to a run-first approach (324 rush yds vs ATL); Bucs Nation calls it a 'watershed' moment.",
+    "Sunday Night Football at Soldier Field Nov 8; Bucs have their bye in Week 10 immediately after, so banged-up players (Diaby, Egbuka) might be pushed.",
+    "Pass rush takes a hit without Diaby; Haason Reddick and Lavonte David statuses unverified.",
+    "Mayfield earlier this season missed time (declared inactive Oct 8) and was limited with a thumb issue, but has been a full participant since."
+   ],
+   "sources": [
+    "https://www.buccaneers.com/news/falcons-bucs-week-8-recap-postgame-report-2026",
+    "https://www.bucsnation.com/tampa-bay-buccaneers-game-information/69504/week-8-game-recap-buccaneers-run-game-does-it-again-run-first-shutout-victory",
+    "https://www.rotowire.com/football/headlines/yaya-diaby-injury-out-week-8-with-mcl-sprain-645602",
+    "https://sports.yahoo.com/articles/bucs-hc-reveals-diabys-injury-191110411.html",
+    "https://www.bucsnation.com/tampa-bay-buccaneers-injuries/69497/buccaneers-falcons-inactives-tampa-bay-without-emeka-egbuka-atlanta-nfl-week-8",
+    "https://bvmsports.com/2026/11/01/falcons-buccaneers-inactives-antoine-winfield-jr-returns/",
+    "https://www.buccaneers.com/news/buccaneers-falcons-injury-report-oct-30-week-8",
+    "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker",
+    "https://sports.yahoo.com/nfl/teams/tampa-bay/injuries/",
+    "https://clutchpoints.com/nfl/tampa-bay-buccaneers/buccaneers-rumors-todd-bowles-zac-robinson-agreed-identity-shift-wild-0-completion-win"
+   ]
+  },
+  "CHI": {
+   "week8_result": "W 34-17 at Seattle (MNF, Nov 2). Bears controlled from start to finish; newly acquired DT Jeffery Simmons had a sack in his Bears debut. Caleb Williams healthy. CB Malik Muhammad (toe) and RB Kyle Monangai (toe/thumb) inactive.",
+   "qb": {
+    "starter": "Caleb Williams",
+    "backup": "unverified (Case Keenum was emergency 3rd QB Week 8)",
+    "changed_from_week8": false,
+    "notes": "Williams healthy; missed Weeks 3-5 with a hamstring earlier this season, back since mid-October."
+   },
+   "injuries": [
+    {
+     "player": "Kyle Monangai",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Turf toe and thumb; missed 4 straight games through Week 8. Ben Johnson calls him week-to-week; could return vs TB or be held to after Week 10 bye. D'Andre Swift leads backfield.",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bears-hc-ben-johnson-shares-170851976.html"
+    },
+    {
+     "player": "Malik Muhammad",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Toe (from Week 7); limited all week then inactive Week 8 at SEA, his first missed game.",
+     "starter": true,
+     "source": "https://www.shawlocal.com/bears/2026/11/02/chicago-bears-malik-muhammad-inactive-against-seahawks-in-monday-night-matchup/"
+    },
+    {
+     "player": "D'Marco Jackson",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Ankle; questionable Week 8 (was active).",
+     "starter": false,
+     "source": "https://www.yardbarker.com/nfl/articles/bears_injury_report_monangai_out_muhammad_and_jackson_questionable/s1_16931_44507593"
+    },
+    {
+     "player": "Cole Kmet",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Knee (Week 7); ruled out for the season.",
+     "starter": true,
+     "source": "https://www.newsweek.com/sports/nfl/bears-reveal-injury-designations-two-key-offensive-targets-12645426"
+    },
+    {
+     "player": "Dayo Odeyingbo",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Quadriceps; on IR, eligible to return Week 11.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/chi/chicago-bears"
+    },
+    {
+     "player": "Braxton Jones",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Knee; placed on IR Oct 3, eligible since Week 8 but no activation reported.",
+     "starter": true,
+     "source": "https://www.chicagobears.com/news/roster-moves-bears-put-braxton-jones-on-ir"
+    },
+    {
+     "player": "Coby Bryant",
+     "position": "S",
+     "status": "IR",
+     "injury": "Knee (offseason); Ben Johnson gave an encouraging but vague update in late October, 'on track' with no timeline.",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bears-much-needed-injury-ben-194117431.html"
+    },
+    {
+     "player": "Shemar Turner",
+     "position": "DT",
+     "status": "Probable",
+     "injury": "Activated from PUP on Oct 13 per ESPN transactions; no longer on PUP.",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/chi/chicago-bears"
+    },
+    {
+     "player": "Ray-Ray McCloud III",
+     "position": "WR",
+     "status": "Out",
+     "injury": "Released from IR with injury settlement Sept 5; no longer on roster.",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/chi/chicago-bears"
+    },
+    {
+     "player": "Jaylon Jones",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Knee; listed Out on Yahoo injury table dated 11/2 (unverified elsewhere).",
+     "starter": false,
+     "source": "https://sports.yahoo.com/nfl/injuries/"
+    },
+    {
+     "player": "Brittain Brown",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+    },
+    {
+     "player": "Dallis Flowers",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+    },
+    {
+     "player": "Hayden Large",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+    },
+    {
+     "player": "Ruben Hyppolite II",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+    },
+    {
+     "player": "Tony Fields II",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried on IR from Week 8; no update found.",
+     "starter": false,
+     "source": "https://www.windycitygridiron.com/chicago-bears-roster/24480928/chicago-bears-53-man-roster-injured-reserve-pup-cut-trade-release-waive"
+    }
+   ],
+   "context_notes": [
+    "Bears traded for Pro Bowl DT Jeffery Simmons (from TEN) before Week 8; he had a sack in his debut and reshapes the interior.",
+    "Short-ish week: MNF road game in Seattle then SNF home vs TB; Week 10 bye follows, so Monangai may be held out.",
+    "Secondary thin: Muhammad (toe) out Week 8 pushed Tyrique Stevenson back into the lineup opposite Jaylon Johnson; Jaylon Jones possibly out (knee).",
+    "Colston Loveland (neck) was removed from the injury report before Week 8 and is fine; D'Andre Swift carries the backfield with Roschon Johnson."
+   ],
+   "sources": [
+    "https://www.cbssports.com/nfl/news/seahawks-vs-bears-live-updates-score-highlights/live/",
+    "https://heavy.com/sports/nfl/seattle-seahawks/bears-ben-johnson-feelings-clear-win/",
+    "https://sports.yahoo.com/articles/bears-hc-ben-johnson-shares-170851976.html",
+    "https://www.shawlocal.com/bears/2026/11/02/chicago-bears-malik-muhammad-inactive-against-seahawks-in-monday-night-matchup/",
+    "https://www.windycitygridiron.com/chicago-bears-game-information/126623/bears-seahawks-inactives-malik-muhammad-will-not-play",
+    "https://www.yardbarker.com/nfl/articles/bears_injury_report_monangai_out_muhammad_and_jackson_questionable/s1_16931_44507593",
+    "https://www.newsweek.com/sports/nfl/bears-reveal-injury-designations-two-key-offensive-targets-12645426",
+    "https://www.espn.com/nfl/team/transactions/_/name/chi/chicago-bears",
+    "https://www.chicagobears.com/news/roster-moves-bears-put-braxton-jones-on-ir",
+    "https://sports.yahoo.com/articles/bears-much-needed-injury-ben-194117431.html",
+    "https://www.bleachernation.com/bears/2026/10/29/bears-injury-report-42/",
+    "https://sports.yahoo.com/nfl/injuries/"
+   ]
+  },
+  "BUF": {
+   "week8_result": "W 36-10 vs Baltimore (Nov 1); Bills now 6-1 and lead the AFC. Josh Allen 21/34, 289 yds, 2 TD, 1 INT, 3 total TD. WR Joshua Palmer left with a right hamstring injury; WR DJ Moore (back from 2-game shoulder absence) hyperextended his left knee but said he was fine. RT Spencer Brown, CB Dee Alford, DT Greg Gaines inactive. Ravens lost Lamar Jackson (thumb surgery, IR) on his first snap.",
+   "qb": {
+    "starter": "Josh Allen",
+    "backup": "unverified",
+    "changed_from_week8": false,
+    "notes": "Allen healthy, not on the Week 8 injury report; set Bills record with 259 career passing TDs."
+   },
+   "injuries": [
+    {
+     "player": "Joshua Palmer",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Right hamstring; left Week 8 vs BAL and did not return. Yahoo/ESPN list Questionable (11/2).",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bills-vs-vikings-injury-buffalo-100632037.html"
+    },
+    {
+     "player": "DJ Moore",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Left knee hyperextension scare in Week 8 (told reporters he is OK); had just returned from a two-game shoulder absence. ESPN lists Questionable (knee).",
+     "starter": true,
+     "source": "https://bangedupbills.com/2026/11/01/buffalo-bills-vs-baltimore-ravens-week-8-injury-review/"
+    },
+    {
+     "player": "Spencer Brown",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Inactive Week 8 vs BAL (back, per preview); Tylan Grable started at RT. Week 9 status unverified.",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/bills-rt-spencer-brown-db-165104442.html"
+    },
+    {
+     "player": "Dee Alford",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Ankle; inactive Week 8 vs BAL.",
+     "starter": false,
+     "source": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8"
+    },
+    {
+     "player": "Greg Gaines",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Calf; questionable then inactive Week 8 vs BAL.",
+     "starter": false,
+     "source": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8"
+    },
+    {
+     "player": "Ed Oliver",
+     "position": "DT",
+     "status": "Probable",
+     "injury": "Returned from knee injury Week 8 with no designation.",
+     "starter": true,
+     "source": "https://buffalowdown.com/bills-final-inactives-for-week-8-dj-moore-set-to-return-spencer-brown-is-out-01m6bnkmknvh"
+    },
+    {
+     "player": "Tyrell Shavers",
+     "position": "WR",
+     "status": "PUP",
+     "injury": "ACL (Jan 2026 wild card); 21-day practice window opened Oct 28. Ruled out Week 8, remains on PUP until activated.",
+     "starter": false,
+     "source": "https://www.buffalorumblings.com/buffalo-bills-news/143809/buffalo-bills-open-practice-window-for-wide-receiver-on-pup"
+    },
+    {
+     "player": "Jordan Hancock",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Hamstring; IR since Sept 25. Practice window not opened as of Week 8 (still recovering).",
+     "starter": false,
+     "source": "https://www.cbssports.com/fantasy/football/news/bills-jordan-hancock-placed-on-injured-reserve/"
+    },
+    {
+     "player": "C.J. Gardner-Johnson",
+     "position": "S",
+     "status": "Suspended",
+     "injury": "Placed on reserve/suspended Oct 26; ESPN still lists Reserve-Suspended.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/buf/buffalo-bills"
+    }
+   ],
+   "context_notes": [
+    "Bills opened as MNF road favorites at MIN; both teams 6-1. Buffalo came out of its bye and a 36-10 rout fresh.",
+    "Head coach is Joe Brady in 2026 (Buffalo Rumblings references 'Coach Joe Brady' opening Shavers' window); McDermott-era results in search were stale.",
+    "WR depth is the watch: Palmer (hamstring) and Moore (knee) both banged up; Shavers not yet activated.",
+    "OL: Spencer Brown's absence means Tylan Grable at RT again if he cannot go."
+   ],
+   "sources": [
+    "https://vavel.com/en-us/nfl/2026/11/01/1277610-baltimore-ravens-vs-buffalo-bills-live-score-updates-stats-nfl-week-8.html",
+    "https://www.buffalobills.com/news/top-3-things-we-learned-from-bills-vs-ravens-week-8",
+    "https://sports.yahoo.com/articles/bills-vs-vikings-injury-buffalo-100632037.html",
+    "https://bangedupbills.com/2026/11/01/buffalo-bills-vs-baltimore-ravens-week-8-injury-review/",
+    "https://sports.yahoo.com/articles/bills-rt-spencer-brown-db-165104442.html",
+    "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8",
+    "https://buffalowdown.com/bills-final-inactives-for-week-8-dj-moore-set-to-return-spencer-brown-is-out-01m6bnkmknvh",
+    "https://www.buffalorumblings.com/buffalo-bills-news/143809/buffalo-bills-open-practice-window-for-wide-receiver-on-pup",
+    "https://www.cbssports.com/fantasy/football/news/bills-jordan-hancock-placed-on-injured-reserve/",
+    "https://www.espn.com/nfl/team/transactions/_/name/buf/buffalo-bills",
+    "https://www.espn.com/nfl/game/_/gameId/401873051/bills-vikings",
+    "https://sports.yahoo.com/articles/bills-open-mnf-road-favorites-212705632.html"
+   ]
+  },
+  "MIN": {
+   "week8_result": "L 15-19 at Detroit (Nov 1); Vikings now 6-1 (first loss). Offense foundered; QB Kyler Murray developed a sore hamstring during the game, LT Christian Darrisaw has shoulder soreness, S Theo Jackson left with a quad injury. Justin Jefferson declined to speak with media afterward.",
+   "qb": {
+    "starter": "Kyler Murray",
+    "backup": "Carson Wentz",
+    "changed_from_week8": false,
+    "notes": "Murray listed Questionable (hamstring). O'Connell Nov 2: 'I don't think we're there yet' on his status, 'preliminary indications are positive', plan is to start him if healthy. Wentz next in line. First practice report expected Thursday. Trade rumors around Murray swirling ahead of Nov 10 deadline."
+   },
+   "injuries": [
+    {
+     "player": "Kyler Murray",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Sore hamstring developed in Week 8 at DET; still sore Monday Nov 2, being evaluated.",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50361004/vikings-uncertain-qb-kyler-murray-status-vs-bills"
+    },
+    {
+     "player": "Christian Darrisaw",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Shoulder soreness after Week 8 (was NIR-rest on Week 8 report); in treatment Monday, practice availability unclear.",
+     "starter": true,
+     "source": "https://www.vikings.com/news/kevin-oconnell-updates-injuries-recaps-offense-after-week-8"
+    },
+    {
+     "player": "Theo Jackson",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Quadriceps; left Week 8 at DET. ESPN lists Questionable.",
+     "starter": false,
+     "source": "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-justin-jefferson-status-jack-campbell-detroit-lions/601908195"
+    },
+    {
+     "player": "Donovan Jackson",
+     "position": "G",
+     "status": "IR",
+     "injury": "Torn meniscus (Week 4), IR Oct 6; expected to miss rest of season.",
+     "starter": true,
+     "source": "https://www.vikings.com/news/donovan-jackson-guard-injured-reserve-roster-moves"
+    },
+    {
+     "player": "Jamal Adams",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Torn right quadriceps (preseason); out for season.",
+     "starter": false,
+     "source": "https://www.kare11.com/article/sports/nfl/vikings/vikings-place-veteran-jamal-adams-injured-reserve/89-34b9aab5-0c48-4296-8c55-9b5a513ec179"
+    },
+    {
+     "player": "Josh Oliver",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Biceps; on IR, eligible to return Week 9 per tracker but no practice-window designation found.",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Jordan Mason",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "Designated to return from IR Oct 19; not on Week 8 inactives (appears active).",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/min/minnesota-vikings"
+    }
+   ],
+   "context_notes": [
+    "MNF home game at U.S. Bank Stadium Nov 9; Bills opened as road favorites despite both teams at 6-1.",
+    "Murray hamstring is the key variable; Carson Wentz would start if he cannot. Murray has been a poor fit in the offense per local coverage and trade rumors are live.",
+    "Justin Jefferson, Hockenson, Addison, Harrison Smith all active in Week 8 (not on inactives); Jefferson has managed an ankle earlier in season.",
+    "Vikings had their bye in Week 6 and came out healthy; Week 8 was their first loss."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/story/_/id/50361004/vikings-uncertain-qb-kyler-murray-status-vs-bills",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-has-a-sore-hamstring-vikings-plan-to-start-him-in-week-9-if-healthy",
+    "https://www.vikings.com/news/kevin-oconnell-updates-injuries-recaps-offense-after-week-8",
+    "https://www.startribune.com/minnesota-vikings-kyler-murray-injury-update-justin-jefferson-status-jack-campbell-detroit-lions/601908195",
+    "https://www.vikings.com/news/inactives-lions-week-8-2026",
+    "https://www.vikings.com/news/lions-injury-report-week-8-2026-nfl-season",
+    "https://www.vikings.com/news/donovan-jackson-guard-injured-reserve-roster-moves",
+    "https://www.kare11.com/article/sports/nfl/vikings/vikings-place-veteran-jamal-adams-injured-reserve/89-34b9aab5-0c48-4296-8c55-9b5a513ec179",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+    "https://www.espn.com/nfl/team/transactions/_/name/min/minnesota-vikings",
+    "https://www.espn.com/nfl/game/_/gameId/401873051/bills-vikings",
+    "https://sports.yahoo.com/articles/bills-open-mnf-road-favorites-212705632.html"
+   ]
+  }
+ }
+}
