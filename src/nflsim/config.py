@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 8))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 9))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -70,7 +70,7 @@ MISS_PROBABILITY = {
     "Returning-expected-to-play": 0.08,
 }
 INJURY_CAP_POINTS = 6.0
-INJURY_SCALE = 0.6             # after Week 6: three straight weekly reviews favoured a lower weight (0.5-0.75 grid); stepped from 0.75
+INJURY_SCALE = 0.5             # after Week 8: fourth straight review favouring a lower weight (0.4 best on 120 games); stepped from 0.6
 
 # ---- Stage 5: situational --------------------------------------------------------------
 HOME_FIELD = 0.5               # after Week 7: home teams are 52-54 and both model and market overrate them by ~2 pts; was 1.5 (venue bumps unchanged)
