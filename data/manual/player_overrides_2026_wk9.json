@@ -440,7 +440,8 @@
   "SF|Nick Bosa": {
    "slot": "EDGE",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Questionable"
   },
   "SF|James Thompson Jr.": {
    "slot": "DT",
@@ -1103,7 +1104,8 @@
   },
   "SF|Deebo Samuel": {
    "slot": "WR2",
-   "starter": true
+   "starter": true,
+   "status": "Doubtful"
   },
   "PIT|Roman Wilson": {
    "slot": "WR3",
@@ -1607,7 +1609,8 @@
   "SF|Christian McCaffrey": {
    "slot": "RB1",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Questionable"
   },
   "DET|Jack Campbell": {
    "slot": "LB",
@@ -1794,6 +1797,11 @@
   "PHI|Jonathan Jones": {
    "slot": "CB2",
    "starter": false
+  },
+  "SF|Deebo Samuel Sr.": {
+   "slot": "WR2",
+   "starter": true,
+   "status": "Doubtful"
   }
  },
  "drop": [

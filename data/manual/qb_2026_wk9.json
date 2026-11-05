@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "collected_on": "2026-11-03",
+ "collected_on": "2026-11-05",
  "teams": {
   "JAX": {
    "starter": "Trevor Lawrence",
@@ -16,10 +16,10 @@
    "pbp_name": "J.Fagnano",
    "new_to_team": false,
    "rookie": true,
-   "notes": "Lamar Jackson needs thumb surgery and is going on IR; Tyler Huntley (turf toe) is out, so undrafted rookie Joe Fagnano (himself questionable with an ankle) is expected to start Thursday with practice-squad signee Austin Reed behind him. Priced like the other emergency rookie starters this season. Kicker Tyler Loop is also out.",
+   "notes": "Lamar Jackson is on IR (thumb, possibly season-ending) and Huntley is out, so undrafted rookie Joe Fagnano starts Thursday with his ankle taped; he practiced fully Tuesday. Priced like the other emergency rookie starters this season. Kicker Tyler Loop is also out.",
    "schedule_projected_starter": "Joe Fagnano",
    "value_override": -5.0,
-   "extra_sd": 1.5
+   "extra_sd": 1.25
   },
   "CIN": {
    "starter": "Joe Burrow",
