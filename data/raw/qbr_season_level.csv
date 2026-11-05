@@ -1522,58 +1522,58 @@ season,season_type,game_week,team_abb,player_id,name_short,rank,qbr_total,pts_ad
 2025,Playoffs,Season Total,LAC,4038941,J. Herbert,13,28,-4.7,51,0.3,-1.2,1.1,0,0.4,21.3,-1.9,Justin,Herbert,Justin Herbert,https://a.espncdn.com/i/headshots/nfl/players/full/4038941.png,Chargers,TRUE
 2025,Playoffs,Season Total,PIT,8439,A. Rodgers,14,14.9,-5.9,39,-1.9,-2.1,0,0,0.2,10.6,-1.7,Aaron,Rodgers,Aaron Rodgers,https://a.espncdn.com/i/headshots/nfl/players/full/8439.png,Steelers,TRUE
 2025,Playoffs,Season Total,DEN,3892775,J. Stidham,,19.6,-4,38,-0.3,0,-0.2,0,0,18.3,-1.1,Jarrett,Stidham,Jarrett Stidham,https://a.espncdn.com/i/headshots/nfl/players/full/3892775.png,Broncos,FALSE
-2026,Regular,Season Total,SF,4361741,B. Purdy,1,79.6,24,254,46.3,36.1,9.9,0,0.4,79.2,-4.2,Brock,Purdy,Brock Purdy,https://a.espncdn.com/i/headshots/nfl/players/full/4361741.png,49ers,TRUE
-2026,Regular,Season Total,CHI,4431611,C. Williams,2,78.9,14.2,173,29.9,21.2,8.6,0,0.2,76.2,-3.4,Caleb,Williams,Caleb Williams,https://a.espncdn.com/i/headshots/nfl/players/full/4431611.png,Bears,TRUE
-2026,Regular,Season Total,BUF,3918298,J. Allen,3.5,77,25.1,294,51.3,32.8,14.8,0,3.7,77,-5.4,Josh,Allen,Josh Allen,https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png,Bills,TRUE
-2026,Regular,Season Total,CIN,3915511,J. Burrow,3.5,77,27.8,318,57.7,54,2.8,0,0.9,77.5,-6,Joe,Burrow,Joe Burrow,https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png,Bengals,TRUE
-2026,Regular,Season Total,NE,4431452,D. Maye,5,76.4,23.8,311,51.3,37.3,11.7,0,2.3,74.7,-6.1,Drake,Maye,Drake Maye,https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png,Patriots,TRUE
-2026,Regular,Season Total,DAL,2577417,D. Prescott,6,76.1,30.8,362,64.8,53.7,5,0,6.2,76.9,-4.7,Dak,Prescott,Dak Prescott,https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png,Cowboys,TRUE
-2026,Regular,Season Total,HOU,4432577,C.J. Stroud,7,69,22.1,308,51.1,43.3,6,0,1.8,73.4,-4.9,C.J.,Stroud,C.J. Stroud,https://a.espncdn.com/i/headshots/nfl/players/full/4432577.png,Texans,TRUE
-2026,Regular,Season Total,KC,3139477,P. Mahomes,8,67.7,12,266,37.2,31.9,5.2,0,0,65.5,-4.4,Patrick,Mahomes,Patrick Mahomes,https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png,Chiefs,TRUE
-2026,Regular,Season Total,JAX,4360310,T. Lawrence,9,64.6,10.4,254,32.1,30.6,1.5,0,0,64.1,-4.6,Trevor,Lawrence,Trevor Lawrence,https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png,Jaguars,TRUE
-2026,Regular,Season Total,GB,4036378,J. Love,10,64.2,16,356,48.5,46.6,-0.6,0,2.6,65.4,-4.8,Jordan,Love,Jordan Love,https://a.espncdn.com/i/headshots/nfl/players/full/4036378.png,Packers,TRUE
-2026,Regular,Season Total,WSH,4426348,J. Daniels,11,63.9,10.1,193,28.2,16.8,12.6,0,-1.2,67.7,-4.8,Jayden,Daniels,Jayden Daniels,https://a.espncdn.com/i/headshots/nfl/players/full/4426348.png,Commanders,TRUE
-2026,Regular,Season Total,LAR,12483,M. Stafford,12,63.6,15.3,344,47.1,44,1.3,0,1.7,65.3,-5.8,Matthew,Stafford,Matthew Stafford,https://a.espncdn.com/i/headshots/nfl/players/full/12483.png,Rams,TRUE
-2026,Regular,Season Total,DET,3046779,J. Goff,13,63,12.4,297,39.2,41.5,-3.5,0,1.1,64.4,-7.5,Jared,Goff,Jared Goff,https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png,Lions,TRUE
-2026,Regular,Season Total,MIA,4242512,M. Willis,14,62.7,7.4,258,31.1,15.4,15,0,0.7,59.9,-9.4,Malik,Willis,Malik Willis,https://a.espncdn.com/i/headshots/nfl/players/full/4242512.png,Dolphins,TRUE
-2026,Regular,Season Total,NO,4360689,T. Shough,15,62.6,11,336,41.8,37.4,3.1,0,1.4,61.4,-7.7,Tyler,Shough,Tyler Shough,https://a.espncdn.com/i/headshots/nfl/players/full/4360689.png,Saints,TRUE
-2026,Regular,Season Total,LV,14880,K. Cousins,16,62.1,14.2,330,43.4,41.5,-0.5,0,2.3,64.8,-3.5,Kirk,Cousins,Kirk Cousins,https://a.espncdn.com/i/headshots/nfl/players/full/14880.png,Raiders,TRUE
-2026,Regular,Season Total,CAR,4685720,B. Young,17,59.7,4.2,317,31.8,29,2.3,0,0.5,54.6,-8.2,Bryce,Young,Bryce Young,https://a.espncdn.com/i/headshots/nfl/players/full/4685720.png,Panthers,TRUE
-2026,Regular,Season Total,NYJ,15864,G. Smith,18,59.6,7.9,304,36.9,33.9,0.6,0,2.3,59,-11.3,Geno,Smith,Geno Smith,https://a.espncdn.com/i/headshots/nfl/players/full/15864.png,Jets,TRUE
-2026,Regular,Season Total,PHI,4040715,J. Hurts,19,57.7,4.4,199,23.1,18.5,2.3,0,2.3,57.8,-4.6,Jalen,Hurts,Jalen Hurts,https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png,Eagles,TRUE
-2026,Regular,Season Total,ATL,4360423,M. Penix Jr.,20,55.7,1.6,198,19.5,16.2,1.4,0,1.9,52.9,-3.7,Michael,Penix Jr.,Michael Penix Jr.,https://a.espncdn.com/i/headshots/nfl/players/full/4360423.png,Falcons,TRUE
-2026,Regular,Season Total,SEA,3912547,S. Darnold,21,53.4,1.5,217,22.3,15.7,6.6,0,0,52.5,-6.7,Sam,Darnold,Sam Darnold,https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png,Seahawks,TRUE
-2026,Regular,Season Total,PIT,8439,A. Rodgers,22,49.4,-5,335,26.9,21.2,1.8,0,3.9,44.8,-11.9,Aaron,Rodgers,Aaron Rodgers,https://a.espncdn.com/i/headshots/nfl/players/full/8439.png,Steelers,TRUE
-2026,Regular,Season Total,ARI,2578570,J. Brissett,23,49.2,-1.6,373,33.3,24,4.9,0,4.3,48.5,-8.5,Jacoby,Brissett,Jacoby Brissett,https://a.espncdn.com/i/headshots/nfl/players/full/2578570.png,Cardinals,TRUE
-2026,Regular,Season Total,DEN,4426338,B. Nix,24,48.9,-3.5,310,26,19.7,3.3,0,3,46,-3.5,Bo,Nix,Bo Nix,https://a.espncdn.com/i/headshots/nfl/players/full/4426338.png,Broncos,TRUE
-2026,Regular,Season Total,TEN,4688380,C. Ward,25,48.7,-0.1,314,28.6,21.9,3.5,0,3.2,49.9,-4.9,Cam,Ward,Cam Ward,https://a.espncdn.com/i/headshots/nfl/players/full/4688380.png,Titans,TRUE
-2026,Regular,Season Total,MIN,3917315,K. Murray,26,44.9,-0.1,208,19.9,11.5,8.9,0,-0.5,49.8,-6.9,Kyler,Murray,Kyler Murray,https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png,Vikings,TRUE
-2026,Regular,Season Total,NYG,2969939,J. Winston,27,41.6,-1.5,208,18.2,11.5,5.6,0,1.2,47.4,-5.9,Jameis,Winston,Jameis Winston,https://a.espncdn.com/i/headshots/nfl/players/full/2969939.png,Giants,TRUE
-2026,Regular,Season Total,CLE,3122840,D. Watson,28,41,-10.3,360,22.4,19.5,2.7,0,0.3,40,-11.6,Deshaun,Watson,Deshaun Watson,https://a.espncdn.com/i/headshots/nfl/players/full/3122840.png,Browns,TRUE
-2026,Regular,Season Total,IND,3917792,D. Jones,29,39.6,-11.6,327,18.9,17.2,1,0,0.6,37.7,-9.2,Daniel,Jones,Daniel Jones,https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png,Colts,TRUE
-2026,Regular,Season Total,LAC,4038941,J. Herbert,30,32.9,-17.1,294,11,9.4,0.2,0,1.4,30.5,-10.7,Justin,Herbert,Justin Herbert,https://a.espncdn.com/i/headshots/nfl/players/full/4038941.png,Chargers,TRUE
+2026,Regular,Season Total,SF,4361741,B. Purdy,1,79.3,24,254,46.3,36.1,9.9,0,0.4,79.2,-4.2,Brock,Purdy,Brock Purdy,https://a.espncdn.com/i/headshots/nfl/players/full/4361741.png,49ers,TRUE
+2026,Regular,Season Total,CHI,4431611,C. Williams,2,77,14.7,212,34.2,26.3,8.4,0,-0.5,72.8,-3.9,Caleb,Williams,Caleb Williams,https://a.espncdn.com/i/headshots/nfl/players/full/4431611.png,Bears,TRUE
+2026,Regular,Season Total,BUF,3918298,J. Allen,3.5,76.9,25.1,294,51.3,32.8,14.8,0,3.7,77,-5.4,Josh,Allen,Josh Allen,https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png,Bills,TRUE
+2026,Regular,Season Total,CIN,3915511,J. Burrow,3.5,76.9,27.8,318,57.7,54,2.8,0,0.9,77.5,-6,Joe,Burrow,Joe Burrow,https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png,Bengals,TRUE
+2026,Regular,Season Total,NE,4431452,D. Maye,5,76.5,23.8,311,51.3,37.3,11.7,0,2.3,74.7,-6.1,Drake,Maye,Drake Maye,https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png,Patriots,TRUE
+2026,Regular,Season Total,DAL,2577417,D. Prescott,6,76,30.8,362,64.8,53.7,5,0,6.2,76.9,-4.7,Dak,Prescott,Dak Prescott,https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png,Cowboys,TRUE
+2026,Regular,Season Total,HOU,4432577,C.J. Stroud,7,68.9,22.1,308,51.1,43.3,6,0,1.8,73.4,-4.9,C.J.,Stroud,C.J. Stroud,https://a.espncdn.com/i/headshots/nfl/players/full/4432577.png,Texans,TRUE
+2026,Regular,Season Total,KC,3139477,P. Mahomes,8,67.4,12,266,37.2,31.9,5.2,0,0,65.5,-4.4,Patrick,Mahomes,Patrick Mahomes,https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png,Chiefs,TRUE
+2026,Regular,Season Total,JAX,4360310,T. Lawrence,9,64.4,10.4,254,32.1,30.6,1.5,0,0,64.1,-4.6,Trevor,Lawrence,Trevor Lawrence,https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png,Jaguars,TRUE
+2026,Regular,Season Total,GB,4036378,J. Love,10,64.3,16,356,48.5,46.6,-0.6,0,2.6,65.4,-4.8,Jordan,Love,Jordan Love,https://a.espncdn.com/i/headshots/nfl/players/full/4036378.png,Packers,TRUE
+2026,Regular,Season Total,WSH,4426348,J. Daniels,11,63.8,10.1,193,28.2,16.8,12.6,0,-1.2,67.7,-4.8,Jayden,Daniels,Jayden Daniels,https://a.espncdn.com/i/headshots/nfl/players/full/4426348.png,Commanders,TRUE
+2026,Regular,Season Total,LAR,12483,M. Stafford,12,63.5,15.3,344,47.1,44,1.3,0,1.7,65.3,-5.8,Matthew,Stafford,Matthew Stafford,https://a.espncdn.com/i/headshots/nfl/players/full/12483.png,Rams,TRUE
+2026,Regular,Season Total,DET,3046779,J. Goff,13,62.9,12.4,297,39.2,41.5,-3.5,0,1.1,64.4,-7.5,Jared,Goff,Jared Goff,https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png,Lions,TRUE
+2026,Regular,Season Total,MIA,4242512,M. Willis,14.5,62.5,7.4,258,31.1,15.4,15,0,0.7,59.9,-9.4,Malik,Willis,Malik Willis,https://a.espncdn.com/i/headshots/nfl/players/full/4242512.png,Dolphins,TRUE
+2026,Regular,Season Total,NO,4360689,T. Shough,14.5,62.5,11,336,41.8,37.4,3.1,0,1.4,61.4,-7.7,Tyler,Shough,Tyler Shough,https://a.espncdn.com/i/headshots/nfl/players/full/4360689.png,Saints,TRUE
+2026,Regular,Season Total,LV,14880,K. Cousins,16,62,14.2,330,43.4,41.5,-0.5,0,2.3,64.8,-3.5,Kirk,Cousins,Kirk Cousins,https://a.espncdn.com/i/headshots/nfl/players/full/14880.png,Raiders,TRUE
+2026,Regular,Season Total,CAR,4685720,B. Young,17,60,4.2,317,31.8,29,2.3,0,0.5,54.6,-8.2,Bryce,Young,Bryce Young,https://a.espncdn.com/i/headshots/nfl/players/full/4685720.png,Panthers,TRUE
+2026,Regular,Season Total,NYJ,15864,G. Smith,18,59.7,7.9,304,36.9,33.9,0.6,0,2.3,59,-11.3,Geno,Smith,Geno Smith,https://a.espncdn.com/i/headshots/nfl/players/full/15864.png,Jets,TRUE
+2026,Regular,Season Total,PHI,4040715,J. Hurts,19,58.1,4.4,199,23.1,18.5,2.3,0,2.3,57.8,-4.6,Jalen,Hurts,Jalen Hurts,https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png,Eagles,TRUE
+2026,Regular,Season Total,ATL,4360423,M. Penix Jr.,20,56.2,1.6,198,19.5,16.2,1.4,0,1.9,52.9,-3.7,Michael,Penix Jr.,Michael Penix Jr.,https://a.espncdn.com/i/headshots/nfl/players/full/4360423.png,Falcons,TRUE
+2026,Regular,Season Total,SEA,3912547,S. Darnold,21,49.4,-1.5,262,23.5,16.4,6.6,0,0.6,48,-7.9,Sam,Darnold,Sam Darnold,https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png,Seahawks,TRUE
+2026,Regular,Season Total,PIT,8439,A. Rodgers,22,49.2,-5,335,26.9,21.2,1.8,0,3.9,44.8,-11.9,Aaron,Rodgers,Aaron Rodgers,https://a.espncdn.com/i/headshots/nfl/players/full/8439.png,Steelers,TRUE
+2026,Regular,Season Total,ARI,2578570,J. Brissett,23,48.9,-1.6,373,33.3,24,4.9,0,4.3,48.5,-8.5,Jacoby,Brissett,Jacoby Brissett,https://a.espncdn.com/i/headshots/nfl/players/full/2578570.png,Cardinals,TRUE
+2026,Regular,Season Total,DEN,4426338,B. Nix,24,48.6,-3.5,310,26,19.7,3.3,0,3,46,-3.5,Bo,Nix,Bo Nix,https://a.espncdn.com/i/headshots/nfl/players/full/4426338.png,Broncos,TRUE
+2026,Regular,Season Total,TEN,4688380,C. Ward,25,48.5,-0.1,314,28.6,21.9,3.5,0,3.2,49.9,-4.9,Cam,Ward,Cam Ward,https://a.espncdn.com/i/headshots/nfl/players/full/4688380.png,Titans,TRUE
+2026,Regular,Season Total,MIN,3917315,K. Murray,26,44.7,-0.1,208,19.9,11.5,8.9,0,-0.5,49.8,-6.9,Kyler,Murray,Kyler Murray,https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png,Vikings,TRUE
+2026,Regular,Season Total,NYG,2969939,J. Winston,27,41.4,-1.5,208,18.2,11.5,5.6,0,1.2,47.4,-5.9,Jameis,Winston,Jameis Winston,https://a.espncdn.com/i/headshots/nfl/players/full/2969939.png,Giants,TRUE
+2026,Regular,Season Total,CLE,3122840,D. Watson,28,40.9,-10.3,360,22.4,19.5,2.7,0,0.3,40,-11.6,Deshaun,Watson,Deshaun Watson,https://a.espncdn.com/i/headshots/nfl/players/full/3122840.png,Browns,TRUE
+2026,Regular,Season Total,IND,3917792,D. Jones,29,39.4,-11.6,327,18.9,17.2,1,0,0.6,37.7,-9.2,Daniel,Jones,Daniel Jones,https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png,Colts,TRUE
+2026,Regular,Season Total,LAC,4038941,J. Herbert,30,32.6,-17.1,294,11,9.4,0.2,0,1.4,30.5,-10.7,Justin,Herbert,Justin Herbert,https://a.espncdn.com/i/headshots/nfl/players/full/4038941.png,Chargers,TRUE
 2026,Regular,Season Total,ARI,4360761,M. Wilson,,100,1.3,1,1.4,1.4,0,0,0,100,0,Michael,Wilson,Michael Wilson,https://a.espncdn.com/i/headshots/nfl/players/full/4360761.png,Cardinals,FALSE
 2026,Regular,Season Total,CAR,4241416,C. Hubbard,,100,0.6,1,0.2,0,0.2,0,0,100,0,Chuba,Hubbard,Chuba Hubbard,https://a.espncdn.com/i/headshots/nfl/players/full/4241416.png,Panthers,FALSE
 2026,Regular,Season Total,PIT,4361411,P. Freiermuth,,100,2.3,4,2.7,0,2.7,0,0,100,0,Pat,Freiermuth,Pat Freiermuth,https://a.espncdn.com/i/headshots/nfl/players/full/4361411.png,Steelers,FALSE
 2026,Regular,Season Total,NE,4695193,E. Chism III,,99.2,0.3,1,0.4,0.4,0,0,0,99,0,Efton,Chism III,Efton Chism III,https://a.espncdn.com/i/headshots/nfl/players/full/4695193.png,Patriots,FALSE
-2026,Regular,Season Total,CAR,4240703,K. Pickett,,99,2.3,7,1.6,-0.4,2,0,0,99,0,Kenny,Pickett,Kenny Pickett,https://a.espncdn.com/i/headshots/nfl/players/full/4240703.png,Panthers,FALSE
+2026,Regular,Season Total,CAR,4240703,K. Pickett,,99.1,2.3,7,1.6,-0.4,2,0,0,99,0,Kenny,Pickett,Kenny Pickett,https://a.espncdn.com/i/headshots/nfl/players/full/4240703.png,Panthers,FALSE
 2026,Regular,Season Total,HOU,4035538,D. Montgomery,,98.3,0.3,1,0.4,0,0,0,0.4,98.5,0,David,Montgomery,David Montgomery,https://a.espncdn.com/i/headshots/nfl/players/full/4035538.png,Texans,FALSE
-2026,Regular,Season Total,GB,4572680,T. Kraft,,98.2,0.5,2,0.7,0,0.7,0,0,97.9,0,Tucker,Kraft,Tucker Kraft,https://a.espncdn.com/i/headshots/nfl/players/full/4572680.png,Packers,FALSE
+2026,Regular,Season Total,GB,4572680,T. Kraft,,98.3,0.5,2,0.7,0,0.7,0,0,97.9,0,Tucker,Kraft,Tucker Kraft,https://a.espncdn.com/i/headshots/nfl/players/full/4572680.png,Packers,FALSE
 2026,Regular,Season Total,PHI,3929630,S. Barkley,,96.1,0.2,1,0.3,0,0.3,0,0,96.9,0,Saquon,Barkley,Saquon Barkley,https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png,Eagles,FALSE
-2026,Regular,Season Total,LAR,4259553,S. Bennett IV,,83.7,0.5,4,0.7,0.3,0.4,0,0,83.8,0,Stetson,Bennett IV,Stetson Bennett IV,https://a.espncdn.com/i/headshots/nfl/players/full/4259553.png,Rams,FALSE
+2026,Regular,Season Total,LAR,4259553,S. Bennett IV,,83.6,0.5,4,0.7,0.3,0.4,0,0,83.8,0,Stetson,Bennett IV,Stetson Bennett IV,https://a.espncdn.com/i/headshots/nfl/players/full/4259553.png,Rams,FALSE
 2026,Regular,Season Total,SEA,3924327,D. Lock,,82.5,7.2,60,12.9,11.9,1.2,0,-0.1,84.5,-1,Drew,Lock,Drew Lock,https://a.espncdn.com/i/headshots/nfl/players/full/3924327.png,Seahawks,FALSE
 2026,Regular,Season Total,BAL,3916387,L. Jackson,,82.4,17.4,132,29.3,21.1,7.2,0,1.1,86.6,-3.1,Lamar,Jackson,Lamar Jackson,https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png,Ravens,FALSE
-2026,Regular,Season Total,NYG,4689114,J. Dart,,75.7,6.2,50,10.9,8.6,2.5,0,-0.2,85.1,-0.6,Jaxson,Dart,Jaxson Dart,https://a.espncdn.com/i/headshots/nfl/players/full/4689114.png,Giants,FALSE
-2026,Regular,Season Total,WSH,2576980,M. Mariota,,74.8,4.6,63,10.6,9.2,1,0,0.4,73.9,-1.3,Marcus,Mariota,Marcus Mariota,https://a.espncdn.com/i/headshots/nfl/players/full/2576980.png,Commanders,FALSE
-2026,Regular,Season Total,ATL,4035020,C. Woerner,,74.1,0.1,1,0.2,0,0.2,0,0,74.3,0,Charlie,Woerner,Charlie Woerner,https://a.espncdn.com/i/headshots/nfl/players/full/4035020.png,Falcons,FALSE
-2026,Regular,Season Total,ARI,4038524,G. Minshew II,,71.3,2.4,25,4.8,5.3,0,0,-0.5,79.5,-0.4,Gardner,Minshew II,Gardner Minshew II,https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png,Cardinals,FALSE
-2026,Regular,Season Total,CHI,15168,C. Keenum,,63.2,2.4,64,7.4,6.6,-0.1,0,0.9,63.1,-0.7,Case,Keenum,Case Keenum,https://a.espncdn.com/i/headshots/nfl/players/full/15168.png,Bears,FALSE
-2026,Regular,Season Total,SEA,4430878,J. Smith-Njigba,,62.8,0.1,1,0.2,0.2,0,0,0,68.5,0,Jaxon,Smith-Njigba,Jaxon Smith-Njigba,https://a.espncdn.com/i/headshots/nfl/players/full/4430878.png,Seahawks,FALSE
-2026,Regular,Season Total,NYG,4433970,J.J. McCarthy,,60.5,2.1,60,7.1,7.3,-0.4,0,0.2,61.9,-1.9,J.J.,McCarthy,J.J. McCarthy,https://a.espncdn.com/i/headshots/nfl/players/full/4433970.png,Giants,FALSE
-2026,Regular,Season Total,BAL,4035671,T. Huntley,,57.7,0.8,156,15.2,13.1,2.2,0,-0.2,51.9,-4.6,Tyler,Huntley,Tyler Huntley,https://a.espncdn.com/i/headshots/nfl/players/full/4035671.png,Ravens,FALSE
-2026,Regular,Season Total,JAX,4362619,C. Rodriguez Jr.,,57.3,0,1,0.1,0,0.1,0,0,47.6,0,Chris,Rodriguez Jr.,Chris Rodriguez Jr.,https://a.espncdn.com/i/headshots/nfl/players/full/4362619.png,Jaguars,FALSE
-2026,Regular,Season Total,MIN,2573079,C. Wentz,,55.6,-0.5,55,4.8,4,0.2,0,0.6,46.7,-2.8,Carson,Wentz,Carson Wentz,https://a.espncdn.com/i/headshots/nfl/players/full/2573079.png,Vikings,FALSE
-2026,Regular,Season Total,JAX,3059989,N. Mullens,,55.1,0,1,0,0,0,0,0,45.6,0,Nick,Mullens,Nick Mullens,https://a.espncdn.com/i/headshots/nfl/players/full/3059989.png,Jaguars,FALSE
-2026,Regular,Season Total,SEA,4576297,A. Barner,,50.7,0,2,0.1,0,0.1,0,0,53.2,0,AJ,Barner,AJ Barner,https://a.espncdn.com/i/headshots/nfl/players/full/4576297.png,Seahawks,FALSE
-2026,Regular,Season Total,DEN,4568490,R. Harvey,,49.6,0,1,0.1,0,0.1,0,0,41.1,0,RJ,Harvey,RJ Harvey,https://a.espncdn.com/i/headshots/nfl/players/full/4568490.png,Broncos,FALSE
-2026,Regular,Season Total,TB,4596472,J. Daniels,,49.2,-1.8,137,11.2,3.2,7,0,1.1,45.4,-4.8,Jalon,Daniels,Jalon Daniels,https://a.espncdn.com/i/headshots/nfl/players/full/4596472.png,Buccaneers,FALSE
+2026,Regular,Season Total,NYG,4689114,J. Dart,,75.6,6.2,50,10.9,8.6,2.5,0,-0.2,85.1,-0.6,Jaxson,Dart,Jaxson Dart,https://a.espncdn.com/i/headshots/nfl/players/full/4689114.png,Giants,FALSE
+2026,Regular,Season Total,WSH,2576980,M. Mariota,,74.1,4.6,63,10.6,9.2,1,0,0.4,73.9,-1.3,Marcus,Mariota,Marcus Mariota,https://a.espncdn.com/i/headshots/nfl/players/full/2576980.png,Commanders,FALSE
+2026,Regular,Season Total,ATL,4035020,C. Woerner,,74,0.1,1,0.2,0,0.2,0,0,74.3,0,Charlie,Woerner,Charlie Woerner,https://a.espncdn.com/i/headshots/nfl/players/full/4035020.png,Falcons,FALSE
+2026,Regular,Season Total,ARI,4038524,G. Minshew II,,71.2,2.4,25,4.8,5.3,0,0,-0.5,79.5,-0.4,Gardner,Minshew II,Gardner Minshew II,https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png,Cardinals,FALSE
+2026,Regular,Season Total,CHI,15168,C. Keenum,,63.1,2.4,64,7.4,6.6,-0.1,0,0.9,63.1,-0.7,Case,Keenum,Case Keenum,https://a.espncdn.com/i/headshots/nfl/players/full/15168.png,Bears,FALSE
+2026,Regular,Season Total,SEA,4430878,J. Smith-Njigba,,62.7,0.1,1,0.2,0.2,0,0,0,68.5,0,Jaxon,Smith-Njigba,Jaxon Smith-Njigba,https://a.espncdn.com/i/headshots/nfl/players/full/4430878.png,Seahawks,FALSE
+2026,Regular,Season Total,NYG,4433970,J.J. McCarthy,,60.4,2.1,60,7.1,7.3,-0.4,0,0.2,61.9,-1.9,J.J.,McCarthy,J.J. McCarthy,https://a.espncdn.com/i/headshots/nfl/players/full/4433970.png,Giants,FALSE
+2026,Regular,Season Total,BAL,4035671,T. Huntley,,57.6,0.8,156,15.2,13.1,2.2,0,-0.2,51.9,-4.6,Tyler,Huntley,Tyler Huntley,https://a.espncdn.com/i/headshots/nfl/players/full/4035671.png,Ravens,FALSE
+2026,Regular,Season Total,JAX,4362619,C. Rodriguez Jr.,,57.2,0,1,0.1,0,0.1,0,0,47.6,0,Chris,Rodriguez Jr.,Chris Rodriguez Jr.,https://a.espncdn.com/i/headshots/nfl/players/full/4362619.png,Jaguars,FALSE
+2026,Regular,Season Total,MIN,2573079,C. Wentz,,57,-0.5,55,4.8,4,0.2,0,0.6,46.7,-2.8,Carson,Wentz,Carson Wentz,https://a.espncdn.com/i/headshots/nfl/players/full/2573079.png,Vikings,FALSE
+2026,Regular,Season Total,JAX,3059989,N. Mullens,,54.9,0,1,0,0,0,0,0,45.6,0,Nick,Mullens,Nick Mullens,https://a.espncdn.com/i/headshots/nfl/players/full/3059989.png,Jaguars,FALSE
+2026,Regular,Season Total,SEA,4576297,A. Barner,,50.6,0,2,0.1,0,0.1,0,0,53.2,0,AJ,Barner,AJ Barner,https://a.espncdn.com/i/headshots/nfl/players/full/4576297.png,Seahawks,FALSE
+2026,Regular,Season Total,TB,4596472,J. Daniels,,49,-1.8,137,11.2,3.2,7,0,1.1,45.4,-4.8,Jalon,Daniels,Jalon Daniels,https://a.espncdn.com/i/headshots/nfl/players/full/4596472.png,Buccaneers,FALSE
+2026,Regular,Season Total,DEN,4568490,R. Harvey,,48,0,1,0.1,0,0.1,0,0,41.1,0,RJ,Harvey,RJ Harvey,https://a.espncdn.com/i/headshots/nfl/players/full/4568490.png,Broncos,FALSE

@@ -1,15 +1,180 @@
 {
   "season": 2026,
   "week": 9,
-  "collected_on": "2026-11-03",
-  "official_report_rows": 0,
-  "practice_fallback_rows": 0,
+  "collected_on": "2026-11-05",
+  "official_report_rows": 7,
+  "practice_fallback_rows": 20,
   "friday_designation_rows": 0,
   "method": "web search summaries (data/research/wk9) plus the official nflverse injury report when published, cross-checked with roster status codes",
   "warnings": [
-    "Jaylon Jones: research says CHI, roster says ['JAX', 'TEN']; dropped"
+    "Jeremiyah Love: roster reserve list but research status Questionable; using roster (IR)",
+    "Jaylon Jones: research says CHI, roster says ['JAX']; dropped"
   ],
   "teams": {
+    "BAL": {
+      "players": [
+        {
+          "player": "Bilhal Kone",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Carried from Week 8; no update found since Oct 27",
+          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
+          "roster_status": "RES/R48"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Achilles; on IR since Oct 7; Nick Vannett signed as replacement; still IR Nov 2",
+          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
+          "roster_status": "RES/R01",
+          "slot": "TE2"
+        },
+        {
+          "player": "Ethan Pocic",
+          "position": "C",
+          "status": "IR",
+          "starter": false,
+          "star": false,
+          "injury": "Knee; on IR since Oct 3; still IR per Yahoo listing Nov 2",
+          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
+          "roster_status": "RES/R01",
+          "slot": "C"
+        },
+        {
+          "player": "Jovaughn Gwyn",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Carried from Week 8; no update found since Oct 27",
+          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
+          "roster_status": "RES/R01",
+          "slot": "C"
+        },
+        {
+          "player": "Tavius Robinson",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Pectoral; placed on IR Oct 24/25; reported to miss rest of 2026",
+          "source": "https://www.baltimoreravens.com/team/transactions/",
+          "roster_status": "RES/R01",
+          "slot": "EDGE"
+        },
+        {
+          "player": "Jaylinn Hawkins",
+          "position": "S",
+          "status": "Out",
+          "injury": "official report: Knee",
+          "starter": true,
+          "source": "nflverse injuries file",
+          "star": false,
+          "roster_status": "official-report"
+        },
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "status": "Out",
+          "injury": "official report: Thumb",
+          "starter": true,
+          "source": "nflverse injuries file",
+          "star": false,
+          "roster_status": "official-report"
+        },
+        {
+          "player": "Tyler Huntley",
+          "position": "QB",
+          "status": "Out",
+          "injury": "official report: Toe",
+          "starter": true,
+          "source": "nflverse injuries file",
+          "star": false,
+          "roster_status": "official-report"
+        },
+        {
+          "player": "Adam Randall",
+          "position": "RB",
+          "status": "Questionable",
+          "injury": "official report: Neck",
+          "starter": true,
+          "source": "nflverse injuries file",
+          "star": false,
+          "roster_status": "official-report"
+        },
+        {
+          "player": "Nate Wiggins",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "official report: Stinger",
+          "starter": true,
+          "source": "nflverse injuries file",
+          "star": false,
+          "roster_status": "official-report"
+        },
+        {
+          "player": "Mark Andrews",
+          "position": "TE",
+          "status": "Probable",
+          "starter": true,
+          "star": true,
+          "injury": "Hand; full participant Monday Nov 2 per NFL.com roundup [not on official report: active]",
+          "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-nov-2",
+          "roster_status": "ACT/A01",
+          "slot": "TE1"
+        },
+        {
+          "player": "T.J. Tampa",
+          "position": "CB",
+          "status": "Probable",
+          "starter": false,
+          "star": false,
+          "injury": "carried over from Week 8: Designated to return from IR Oct 21 (21-day window open); returned to practice but not yet [not on official report: active]",
+          "source": "data/manual/injuries_2026_wk8.json",
+          "roster_status": "ACT/A01",
+          "slot": "CB2"
+        },
+        {
+          "player": "Tyler Loop",
+          "position": "K",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Right groin; DNP Monday Nov 2; Minter said he may go on IR; Jake Moody (practice squad) expected to kick Thursday [not on official report: active]",
+          "source": "https://www.profootballrumors.com/2026/11/ravens-k-tyler-loop-could-land-on-ir",
+          "roster_status": "RES/R01",
+          "slot": "K"
+        }
+      ],
+      "notes": [
+        "T.J. Tampa (CB) was activated to the 53-man roster ahead of the Bills game (Week 8) - returned from IR.",
+        "First-year head coach Jesse Minter; short week after a 26-point loss; home underdog to Jacksonville.",
+        "Kicker change: Jake Moody (ex-49ers, Minter's Michigan connection) expected to kick with Loop out/possible IR.",
+        "Acquired C Cam Jurgens from PHI on Oct 7; CB listed as biggest remaining need ahead of Nov 10 deadline.",
+        "Three QBs took snaps vs BUF and all three were hurt; Austin Reed added to practice squad Nov 2 as emergency depth."
+      ],
+      "sources": [
+        "https://russellstreetreport.com/2026/11/02/injury-report/injury-report-ravens-vs-jaguars-monday/",
+        "https://sports.yahoo.com/articles/ravens-add-unexpected-former-bears-223822127.html",
+        "https://sports.yahoo.com/articles/ravens-bills-recap-lamar-jackson-235331187.html",
+        "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
+        "https://www.baltimoreravens.com/news/lamar-jackson-surgery-joe-fagnano-tyler-huntley-ravens-quarterback-injuries",
+        "https://www.baltimoreravens.com/news/ravens-activate-tj-tampa-chuma-edoga-adisa-isaac-elevations-bills",
+        "https://www.baltimoreravens.com/team/transactions/",
+        "https://www.cbsnews.com/baltimore/news/ravens-kicker-tyler-loop-could-ir-opening-door-for-jake-moody/",
+        "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-needs-potential-options-all-32-teams/",
+        "https://www.cbssports.com/nfl/news/nfl-week-9-early-odds-spreads-ravens-jaguars-lamar-jackson/",
+        "https://www.espn.com/nfl/story/_/id/50349558/ravens-lamar-jackson-rest-game-thumb-injury",
+        "https://www.espn.com/nfl/story/_/id/50362530/ravens-qb-joe-fagnano-ankle-chance-play-thursday",
+        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-nov-2",
+        "https://www.profootballrumors.com/2026/11/ravens-k-tyler-loop-could-land-on-ir"
+      ]
+    },
     "JAX": {
       "players": [
         {
@@ -66,75 +231,86 @@
           "roster_status": "RES/R48"
         },
         {
-          "player": "DaVon Hamilton",
-          "position": "DT",
-          "status": "Out",
+          "player": "Bhayshul Tuten",
+          "position": "RB",
+          "status": "Questionable",
+          "injury": "official report: Ankle",
           "starter": true,
+          "source": "nflverse injuries file",
           "star": false,
-          "injury": "Torn quadriceps vs IND Nov 1; Coen said out for season, to be placed on IR within days (Nov 2)",
-          "source": "https://www.espn.com/nfl/story/_/id/50358564/sources-jaguars-dt-hamilton-torn-quad-likely-season",
-          "roster_status": "ACT/A01",
-          "slot": "DT"
+          "roster_status": "official-report"
         },
         {
-          "player": "Eric Murray",
-          "position": "S",
-          "status": "Out",
+          "player": "Travon Walker",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "official report: Rib",
           "starter": true,
-          "star": false,
-          "injury": "Elbow injury on opening kickoff vs IND Nov 1; out for season, IR pending (Nov 2)",
-          "source": "https://jaguars.com/news/day-after-week-8-win-over-colts-hamilton-murray-out-rest-of-season",
-          "roster_status": "ACT/A01",
-          "slot": "S"
+          "source": "nflverse injuries file",
+          "star": true,
+          "roster_status": "official-report",
+          "slot": "EDGE"
         },
         {
           "player": "Antonio Johnson",
           "position": "S",
-          "status": "Questionable",
+          "status": "Probable",
           "starter": true,
           "star": false,
-          "injury": "Ankle; limited Monday Nov 2; Coen said 'we'll see' (Nov 2). Now a key safety with Murray out",
+          "injury": "Ankle; limited Monday Nov 2; Coen said 'we'll see' (Nov 2). Now a key safety with Murray out [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "S"
-        },
-        {
-          "player": "Bhayshul Tuten",
-          "position": "RB",
-          "status": "Questionable",
-          "starter": false,
-          "star": false,
-          "injury": "Ankle/foot; DNP Monday Nov 2; ESPN lists Questionable for Nov 5",
-          "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
-          "roster_status": "ACT/A01"
         },
         {
           "player": "Branson Combs",
           "position": "LB",
-          "status": "Questionable",
+          "status": "Probable",
           "starter": false,
           "star": false,
-          "injury": "Shoulder; limited Monday Nov 2; ESPN Questionable",
+          "injury": "Shoulder; limited Monday Nov 2; ESPN Questionable [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
           "roster_status": "ACT/A01"
         },
         {
           "player": "Chris Rodriguez Jr.",
           "position": "RB",
-          "status": "Questionable",
+          "status": "Probable",
           "starter": false,
           "star": false,
-          "injury": "Hand; limited Monday Nov 2; ESPN Questionable",
+          "injury": "Hand; limited Monday Nov 2; ESPN Questionable [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
           "roster_status": "ACT/A01"
         },
         {
-          "player": "Ezra Cleveland",
-          "position": "G",
-          "status": "Questionable",
+          "player": "DaVon Hamilton",
+          "position": "DT",
+          "status": "Probable",
           "starter": true,
           "star": false,
-          "injury": "Knee/ankle; limited Monday Nov 2",
+          "injury": "Torn quadriceps vs IND Nov 1; Coen said out for season, to be placed on IR within days (Nov 2) [not on official report: active]",
+          "source": "https://www.espn.com/nfl/story/_/id/50358564/sources-jaguars-dt-hamilton-torn-quad-likely-season",
+          "roster_status": "RES/R01",
+          "slot": "DT"
+        },
+        {
+          "player": "Eric Murray",
+          "position": "S",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Elbow injury on opening kickoff vs IND Nov 1; out for season, IR pending (Nov 2) [not on official report: active]",
+          "source": "https://jaguars.com/news/day-after-week-8-win-over-colts-hamilton-murray-out-rest-of-season",
+          "roster_status": "RES/R01",
+          "slot": "S"
+        },
+        {
+          "player": "Ezra Cleveland",
+          "position": "G",
+          "status": "Probable",
+          "starter": true,
+          "star": false,
+          "injury": "Knee/ankle; limited Monday Nov 2 [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
           "roster_status": "ACT/A01",
           "slot": "G"
@@ -142,10 +318,10 @@
         {
           "player": "Jakobi Meyers",
           "position": "WR",
-          "status": "Questionable",
+          "status": "Probable",
           "starter": true,
           "star": false,
-          "injury": "Hamstring/ankle; limited Monday Nov 2 (listed as 'Jakobi Myers' in Ravens PR report)",
+          "injury": "Hamstring/ankle; limited Monday Nov 2 (listed as 'Jakobi Myers' in Ravens PR report) [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
           "roster_status": "ACT/A01",
           "slot": "WR1"
@@ -153,24 +329,13 @@
         {
           "player": "Jarrian Jones",
           "position": "CB",
-          "status": "Questionable",
+          "status": "Probable",
           "starter": true,
           "star": false,
-          "injury": "Ankle; limited Monday Nov 2; ESPN Questionable",
+          "injury": "Ankle; limited Monday Nov 2; ESPN Questionable [not on official report: active]",
           "source": "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/",
           "roster_status": "ACT/A01",
           "slot": "NCB"
-        },
-        {
-          "player": "Travon Walker",
-          "position": "DE",
-          "status": "Questionable",
-          "starter": true,
-          "star": true,
-          "injury": "Rib injury in 3rd quarter vs IND; DNP (estimated) Monday Nov 2 walkthrough. Not on ESPN questionable list; status unverified",
-          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-estimate-de-travon-walker-as-a-non-participant-monday",
-          "roster_status": "ACT/A01",
-          "slot": "EDGE"
         }
       ],
       "notes": [
@@ -193,130 +358,6 @@
         "https://www.jaguars.com/news/game-report-2026-week-8-jaguars-42-colts-7",
         "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-estimate-de-travon-walker-as-a-non-participant-monday",
         "https://www.news4jax.com/sports/2026/11/02/injuries-mount-as-jaguars-prepare-for-thursday-night-showdown-against-ravens/"
-      ]
-    },
-    "BAL": {
-      "players": [
-        {
-          "player": "Adam Randall",
-          "position": "RB",
-          "status": "IR",
-          "starter": false,
-          "star": false,
-          "injury": "Carried from Week 8; no update found since Oct 27",
-          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-          "roster_status": "RES/R48"
-        },
-        {
-          "player": "Bilhal Kone",
-          "position": "CB",
-          "status": "IR",
-          "starter": false,
-          "star": false,
-          "injury": "Carried from Week 8; no update found since Oct 27",
-          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-          "roster_status": "RES/R48"
-        },
-        {
-          "player": "Durham Smythe",
-          "position": "TE",
-          "status": "IR",
-          "starter": false,
-          "star": false,
-          "injury": "Achilles; on IR since Oct 7; Nick Vannett signed as replacement; still IR Nov 2",
-          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-          "roster_status": "RES/R01",
-          "slot": "TE2"
-        },
-        {
-          "player": "Ethan Pocic",
-          "position": "C",
-          "status": "IR",
-          "starter": false,
-          "star": false,
-          "injury": "Knee; on IR since Oct 3; still IR per Yahoo listing Nov 2",
-          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-          "roster_status": "RES/R01",
-          "slot": "C"
-        },
-        {
-          "player": "Jovaughn Gwyn",
-          "position": "G",
-          "status": "IR",
-          "starter": true,
-          "star": false,
-          "injury": "Carried from Week 8; no update found since Oct 27",
-          "source": "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-          "roster_status": "RES/R01",
-          "slot": "C"
-        },
-        {
-          "player": "Tavius Robinson",
-          "position": "OLB",
-          "status": "IR",
-          "starter": true,
-          "star": false,
-          "injury": "Pectoral; placed on IR Oct 24/25; reported to miss rest of 2026",
-          "source": "https://www.baltimoreravens.com/team/transactions/",
-          "roster_status": "RES/R01",
-          "slot": "EDGE"
-        },
-        {
-          "player": "Tyler Loop",
-          "position": "K",
-          "status": "Out",
-          "starter": true,
-          "star": false,
-          "injury": "Right groin; DNP Monday Nov 2; Minter said he may go on IR; Jake Moody (practice squad) expected to kick Thursday",
-          "source": "https://www.profootballrumors.com/2026/11/ravens-k-tyler-loop-could-land-on-ir",
-          "roster_status": "ACT/A01",
-          "slot": "K"
-        },
-        {
-          "player": "Mark Andrews",
-          "position": "TE",
-          "status": "Probable",
-          "starter": true,
-          "star": true,
-          "injury": "Hand; full participant Monday Nov 2 per NFL.com roundup",
-          "source": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-nov-2",
-          "roster_status": "ACT/A01",
-          "slot": "TE1"
-        },
-        {
-          "player": "T.J. Tampa",
-          "position": "CB",
-          "status": "Probable",
-          "starter": false,
-          "star": false,
-          "injury": "carried over from Week 8: Designated to return from IR Oct 21 (21-day window open); returned to practice but not yet",
-          "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "ACT/A01",
-          "slot": "CB2"
-        }
-      ],
-      "notes": [
-        "T.J. Tampa (CB) was activated to the 53-man roster ahead of the Bills game (Week 8) - returned from IR.",
-        "First-year head coach Jesse Minter; short week after a 26-point loss; home underdog to Jacksonville.",
-        "Kicker change: Jake Moody (ex-49ers, Minter's Michigan connection) expected to kick with Loop out/possible IR.",
-        "Acquired C Cam Jurgens from PHI on Oct 7; CB listed as biggest remaining need ahead of Nov 10 deadline.",
-        "Three QBs took snaps vs BUF and all three were hurt; Austin Reed added to practice squad Nov 2 as emergency depth."
-      ],
-      "sources": [
-        "https://russellstreetreport.com/2026/11/02/injury-report/injury-report-ravens-vs-jaguars-monday/",
-        "https://sports.yahoo.com/articles/ravens-add-unexpected-former-bears-223822127.html",
-        "https://sports.yahoo.com/articles/ravens-bills-recap-lamar-jackson-235331187.html",
-        "https://sports.yahoo.com/nfl/teams/baltimore/injuries/",
-        "https://www.baltimoreravens.com/news/lamar-jackson-surgery-joe-fagnano-tyler-huntley-ravens-quarterback-injuries",
-        "https://www.baltimoreravens.com/news/ravens-activate-tj-tampa-chuma-edoga-adisa-isaac-elevations-bills",
-        "https://www.baltimoreravens.com/team/transactions/",
-        "https://www.cbsnews.com/baltimore/news/ravens-kicker-tyler-loop-could-ir-opening-door-for-jake-moody/",
-        "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-needs-potential-options-all-32-teams/",
-        "https://www.cbssports.com/nfl/news/nfl-week-9-early-odds-spreads-ravens-jaguars-lamar-jackson/",
-        "https://www.espn.com/nfl/story/_/id/50349558/ravens-lamar-jackson-rest-game-thumb-injury",
-        "https://www.espn.com/nfl/story/_/id/50362530/ravens-qb-joe-fagnano-ankle-chance-play-thursday",
-        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-nov-2",
-        "https://www.profootballrumors.com/2026/11/ravens-k-tyler-loop-could-land-on-ir"
       ]
     },
     "CIN": {
@@ -392,7 +433,7 @@
           "star": false,
           "injury": "Right wrist fracture, surgery after Nov 1 game; Taylor says out 'weeks', IR likely but not filed as of Nov 3 (bengals.com). ESPN game page still shows Questionable",
           "source": "https://www.espn.com/nfl/story/_/id/50360179/bengals-cashius-howell-indefinitely-wrist-surgery",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "DE"
         },
         {
@@ -435,7 +476,7 @@
           "star": false,
           "injury": "Left quad (aggravated vs BAL Week 7); Out Week 8, 'week-to-week' per Taylor; no Week 9 update found - unverified",
           "source": "https://www.si.com/nfl/bengals/onsi/zac-taylor-updates-injury-timelines-for-erick-all-kyle-dugger-entering-titans-week-01m5wgkkgwgn",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "S"
         }
       ],
@@ -563,7 +604,7 @@
           "star": false,
           "injury": "Carried from Week 8; no update found since Oct 27",
           "source": "https://www.espn.com/nfl/injuries",
-          "roster_status": "RES/R01"
+          "roster_status": "RES/R48"
         },
         {
           "player": "DeAngelo Malone",
@@ -603,7 +644,7 @@
           "star": false,
           "injury": "Hamstring; ruled out by HC Kevin Stefanski Monday Nov 2; length unknown",
           "source": "https://www.atlantafalcons.com/news/falcons-zachariah-branch-samson-ebukam-out-vs-bengals-injury",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "EDGE"
         },
         {
@@ -624,7 +665,7 @@
           "star": false,
           "injury": "Questionable on Week 8 final report; Week 9 status unverified",
           "source": "https://sports.yahoo.com/articles/falcons-final-injury-report-8-174347028.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "NCB"
         },
         {
@@ -646,7 +687,7 @@
           "star": false,
           "injury": "Forearm; missed Week 7, limited/questionable Week 8; Week 9 status unverified",
           "source": "https://sports.yahoo.com/articles/falcons-final-injury-report-8-174347028.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LB"
         },
         {
@@ -657,7 +698,7 @@
           "star": false,
           "injury": "carried over from Week 8: Eight-game personal conduct suspension; eligible to return Week 9 vs CIN in Madrid (Nov 8)",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R40",
+          "roster_status": "EXE/E02",
           "slot": "DE"
         }
       ],
@@ -842,7 +883,7 @@
           "star": true,
           "injury": "Ankle; missed last 3 games, did not practice last week; 'could return' Week 9 vs CAR - unverified",
           "source": "https://sports.yahoo.com/articles/rj-harvey-talanoa-hufanga-pat-212000817.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "S"
         },
         {
@@ -866,6 +907,16 @@
           "source": "https://denversports.com/nfl/denver-broncos/broncos-allen-waddle-harvey",
           "roster_status": "ACT/A01",
           "slot": "DT"
+        },
+        {
+          "player": "Eyioma Uwazurike",
+          "position": "DE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Shoulder); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -899,7 +950,7 @@
           "star": false,
           "injury": "Carried from Week 8; no update found since Oct 27",
           "source": "https://sports.yahoo.com/nfl/injuries/",
-          "roster_status": "RES/R01"
+          "roster_status": "RES/R48"
         },
         {
           "player": "Cam Jackson",
@@ -1006,7 +1057,7 @@
           "star": false,
           "injury": "Inactive Week 8 (entered GB game without Horn, Jackson, Evans); Week 9 status unverified",
           "source": "https://sports.yahoo.com/articles/packers-beat-panthers-27-19-040223751.html",
-          "roster_status": "RES/A01",
+          "roster_status": "RES/R01",
           "slot": "CB2"
         },
         {
@@ -1017,7 +1068,7 @@
           "star": false,
           "injury": "Knee; Out Week 8 per panthers.com; Week 9 status unverified",
           "source": "https://www.panthers.com/team/injury-report/",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LG"
         },
         {
@@ -1028,7 +1079,7 @@
           "star": true,
           "injury": "Hamstring; DNP all week and Out for Week 8 per panthers.com; Week 9 status unverified",
           "source": "https://www.panthers.com/team/injury-report/",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "EDGE"
         },
         {
@@ -1039,7 +1090,7 @@
           "star": false,
           "injury": "Out Week 8 (carried); Week 9 status unverified",
           "source": "https://www.panthers.com/news/week-8-wednesday-injury-report-four-ruled-out-for-packers-game",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Will Lee III",
@@ -1061,6 +1112,16 @@
           "source": "https://www.panthers.com/team/injury-report/",
           "roster_status": "ACT/A01",
           "slot": "WR3"
+        },
+        {
+          "player": "Bobby Okereke",
+          "position": "LB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Foot); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -1234,6 +1295,17 @@
           "injury": "Sore knee; limited in team drills; coach not concerned",
           "source": "https://athlonsports.com/nfl/trending/cowboys-dealt-unfortunate-injury-news-for-2nd-straight-game",
           "roster_status": "ACT/A01"
+        },
+        {
+          "player": "KaVontae Turpin",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "did not practice midweek (Ribs); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report",
+          "slot": "WR3"
         }
       ],
       "notes": [
@@ -1360,7 +1432,7 @@
           "star": false,
           "injury": "Concussion; Out Week 8 with expected return Week 9; SI lists Questionable",
           "source": "https://www.si.com/betting/cowboys-vs-colts-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Bryce Boettcher",
@@ -1370,7 +1442,7 @@
           "star": false,
           "injury": "Questionable per SI Week 9 preview; injury not specified",
           "source": "https://www.si.com/betting/cowboys-vs-colts-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Justin Walley",
@@ -1380,8 +1452,28 @@
           "star": false,
           "injury": "Knee; Out Week 8 with expected return Week 9; SI lists Questionable",
           "source": "https://www.si.com/betting/cowboys-vs-colts-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "NCB"
+        },
+        {
+          "player": "Akeem Davis-Gaither",
+          "position": "LB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Knee); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Andrew Ogletree",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Knee); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -1464,7 +1556,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyj/new-york-jets",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "VJ Payne",
@@ -1494,7 +1586,7 @@
           "star": true,
           "injury": "Quad. Inactive Week 8 vs LV (4th-5th straight miss, limited practice all week). Ian Rapoport (Nov 2) reported he is 'good to go and should play' Week 9 at KC; official Wed report pending.",
           "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/breece-hall-should-play-in-week-9-vs-chiefs",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "RB1"
         },
         {
@@ -1505,7 +1597,7 @@
           "star": false,
           "injury": "Groin, hurt in Week 7 at Miami; DNP all week and inactive Week 8 vs LV. Team sack leader (5.5). Week 9 status not yet reported.",
           "source": "https://www.foxsports.com/articles/nfl/jets-sacks-leader-rookie-david-bailey-inactive-vs-raiders-with-groin-injury",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Joseph Ossai",
@@ -1515,7 +1607,27 @@
           "star": false,
           "injury": "Ankle; inactive Week 8 vs LV. Not on IR. Week 9 status unverified.",
           "source": "https://www.yardbarker.com/nfl/articles/jets_inactives_vs_raiders/s1_17112_44502109",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
+        },
+        {
+          "player": "Harrison Phillips",
+          "position": "DT",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Ankle); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Concussion); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -1649,7 +1761,7 @@
           "star": false,
           "injury": "Shoulder; ruled out Week 8 at DEN. Reid said day-to-day with Week 9 return possible if shoulder strength returns; CBS lists expected return Week 9.",
           "source": "https://clutchpoints.com/nfl/kansas-city-chiefs/chiefs-mansoor-delanes-nagging-shoulder-injury-isnt-serious-but-it-isnt-going-away-soon",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "CB2"
         },
         {
@@ -1737,7 +1849,7 @@
           "star": false,
           "injury": "Hamstring, season-ending per Dan Campbell Nov 2 (surgery possible). IR placement expected/announced.",
           "source": "https://sports.yahoo.com/articles/detroit-lions-injury-jimmy-rolder-202008277.html",
-          "roster_status": "ACT/A01"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Thomas Harper",
@@ -1906,7 +2018,7 @@
           "star": false,
           "injury": "Concussion; still in protocol per Hafley Mon Nov 2. SI: would be a surprise if he is not ruled out Friday. ESPN pages conflict (questionable vs out).",
           "source": "https://www.si.com/nfl/dolphins/onsi/updating-the-status-of-dolphins-rookie-kadyn-proctor-and-how-his-replacement-performed-in-week-8-01m6eywa968z",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LT"
         },
         {
@@ -1940,6 +2052,17 @@
           "injury": "Hip; missed Wed practice Week 8 but was removed from the report and played vs NE.",
           "source": "https://www.si.com/nfl/dolphins/news/miami-dolphins-new-england-patriots-first-week-8-injury-report",
           "roster_status": "not-on-2026-roster-file"
+        },
+        {
+          "player": "Jaylen Wright",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Quadricep); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report",
+          "slot": "RB1"
         }
       ],
       "notes": [
@@ -2044,14 +2167,34 @@
           "slot": "RT"
         },
         {
-          "player": "Deshaun Watson",
-          "position": "QB",
-          "status": "Probable",
+          "player": "Maliek Collins",
+          "position": "DT",
+          "status": "Questionable",
           "starter": true,
           "star": false,
-          "injury": "Briefly evaluated after helmet hit vs PIT Nov 1, returned and finished game; expected to start at NO.",
-          "source": "https://athlonsports.com/nfl/trending/todd-monken-addresses-deshaun-watsons-status-after-eight-sack-loss-to-steelers",
-          "roster_status": "ACT/A01"
+          "injury": "did not practice midweek (Elbow); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Quincy Williams",
+          "position": "LB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Hamstring); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Austin Barber",
+          "position": "OT",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Calf); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -2091,7 +2234,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/no",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "DT"
         },
         {
@@ -2122,7 +2265,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/no",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Jaylan Ford",
@@ -2132,7 +2275,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/no",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Jordyn Tyson",
@@ -2142,7 +2285,7 @@
           "star": false,
           "injury": "Hamstring. Schefter: could return as soon as Week 9 vs CLE; team still deciding on practice window as of Nov 2. Not expected to play the same week he resumes practice.",
           "source": "https://sports.yahoo.com/articles/saints-still-deciding-jordyn-tyson-173712038.html",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R48",
           "slot": "WR2"
         },
         {
@@ -2153,7 +2296,7 @@
           "star": false,
           "injury": "Ankle surgery (late Sept). CBS expected return Week 12; Yahoo says December. Not returning Week 9.",
           "source": "https://www.cbssports.com/nfl/teams/no/new-orleans-saints/injuries/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "LT"
         },
         {
@@ -2185,7 +2328,7 @@
           "star": false,
           "injury": "Carried on PUP; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/no",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R04"
         },
         {
           "player": "Cesar Ruiz",
@@ -2195,7 +2338,7 @@
           "star": false,
           "injury": "Knee; questionable per ESPN, estimated return Nov 8.",
           "source": "https://www.si.com/betting/browns-vs-saints-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "G"
         },
         {
@@ -2206,7 +2349,7 @@
           "star": true,
           "injury": "Concussion; listed questionable by ESPN ahead of Week 9 vs CLE.",
           "source": "https://www.si.com/betting/browns-vs-saints-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "S"
         },
         {
@@ -2217,7 +2360,7 @@
           "star": false,
           "injury": "Illness; questionable per ESPN, estimated return Nov 8.",
           "source": "https://www.si.com/betting/browns-vs-saints-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Alvin Kamara",
@@ -2227,7 +2370,7 @@
           "star": true,
           "injury": "Back soreness lingered Weeks 6-7 (limited practice, no designation Week 7). No post-bye update found.",
           "source": "https://www.cbssports.com/fantasy/football/news/saints-alvin-kamara-cleared-from-injury-report/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "RB1"
         }
       ],
@@ -2259,7 +2402,7 @@
           "star": true,
           "injury": "Torn ACL and meniscus vs TEN; out for season (9+ month recovery).",
           "source": "https://sports.yahoo.com/articles/jameis-winston-j-j-mccarthys-161500668.html",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "EDGE"
         },
         {
@@ -2270,7 +2413,7 @@
           "star": false,
           "injury": "Torn ACL (Aug 27); out for season.",
           "source": "https://www.giants.com/news/calvin-austin-iii-injury-status-roster-new-york-giants",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Gunner Olszewski",
@@ -2280,7 +2423,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Jarrick Bernard-Converse",
@@ -2290,7 +2433,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Korie Black",
@@ -2300,7 +2443,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R48"
         },
         {
           "player": "Roy Robertson-Harris",
@@ -2310,7 +2453,7 @@
           "star": false,
           "injury": "Carried on IR; no activation news found (unverified).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Tremaine Edmunds",
@@ -2320,7 +2463,7 @@
           "star": true,
           "injury": "Torn chest muscle; season-ending (placed on IR in October).",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "LB"
         },
         {
@@ -2331,7 +2474,7 @@
           "star": false,
           "injury": "Hamstring; placed on IR Oct 27. GM Joe Schoen says not season-ending.",
           "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "RB2"
         },
         {
@@ -2342,7 +2485,7 @@
           "star": true,
           "injury": "Illness; held out of practice per Harbaugh (date unclear, around bye week). Likely minor.",
           "source": "https://sports.yahoo.com/articles/york-giants-cam-skattebo-day-105558378.html",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "EDGE"
         },
         {
@@ -2353,7 +2496,7 @@
           "star": false,
           "injury": "Hamstring; HC John Harbaugh says day-to-day, possible game-time decision for Week 9 at PHI. Devin Singletary next up.",
           "source": "https://www.rotowire.com/football/headlines/cam-skattebo-injury-could-be-game-time-call-for-week-9-645603",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "RB1"
         },
         {
@@ -2364,7 +2507,7 @@
           "star": false,
           "injury": "Listed questionable for Week 9 at PHI; injury type not given in results.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "CB1"
         },
         {
@@ -2375,7 +2518,7 @@
           "star": true,
           "injury": "Concussion (CBS, updated Oct 26); questionable for Week 9.",
           "source": "https://www.cbssports.com/nfl/teams/nyg/new-york-giants/injuries/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "S"
         },
         {
@@ -2386,7 +2529,7 @@
           "star": false,
           "injury": "Knee; listed questionable for Week 9 at PHI.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "G"
         },
         {
@@ -2397,7 +2540,7 @@
           "star": false,
           "injury": "Neck; listed questionable for Week 9 at PHI.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "TE1"
         }
       ],
@@ -2451,7 +2594,7 @@
           "star": true,
           "injury": "Carried on IR. A Week 9 preview references his 'retirement' as a factor; unverified whether he retired (that may be a 2025 article) - either way not playing.",
           "source": "https://www.nbcsports.com/betting/nfl/news/eagles-vs-giants-odds-expert-picks-team-and-player-news-betting-trends-and-stats",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "RT"
         },
         {
@@ -2483,7 +2626,7 @@
           "star": false,
           "injury": "Out Week 8; listed questionable for Week 9.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "DeVonta Smith",
@@ -2493,7 +2636,7 @@
           "star": true,
           "injury": "Hamstring; out Week 8 at WAS (4th missed game). Listed questionable for Week 9 vs NYG, ESPN est. return Nov 8.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "WR2"
         },
         {
@@ -2504,7 +2647,7 @@
           "star": false,
           "injury": "Ankle; out Week 8. Listed questionable for Week 9, ESPN est. return Nov 8.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Jihaad Campbell",
@@ -2514,7 +2657,7 @@
           "star": false,
           "injury": "Out Week 8 at WAS; listed questionable for Week 9 (injury type not in results).",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LB"
         },
         {
@@ -2525,7 +2668,7 @@
           "star": false,
           "injury": "Out Week 8; listed questionable for Week 9.",
           "source": "https://www.si.com/betting/giants-vs-eagles-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "CB2"
         },
         {
@@ -2611,7 +2754,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no new Oct 27+ report - unverified",
           "source": "https://sports.yahoo.com/nfl/teams/la-rams/injuries/",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Keir Thomas",
@@ -2688,6 +2831,37 @@
           "source": "https://www.espn.com/nfl/story/_/id/50361646/garrett-return-practice-week-rams-mcvay-says",
           "roster_status": "ACT/A01",
           "slot": "CB1"
+        },
+        {
+          "player": "Joe Cardona",
+          "position": "LS",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Ankle); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Colby Parkinson",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": false,
+          "star": false,
+          "injury": "did not practice midweek (Ribs); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report",
+          "slot": "TE2"
+        },
+        {
+          "player": "Kam Curl",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Foot); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -2718,7 +2892,7 @@
           "star": true,
           "injury": "Jones fracture (left foot) in Oct 30 practice; season-ending, placed on IR",
           "source": "https://www.washingtontimes.com/news/2026/nov/1/commanders-daron-payne-season-foot-fracture/",
-          "roster_status": "INA/A01",
+          "roster_status": "RES/R01",
           "slot": "DT"
         },
         {
@@ -2783,7 +2957,7 @@
           "star": false,
           "injury": "Knee (Week 6 at SF); inactive Week 8; Quinn said Nov 2 he is unlikely to play vs LA",
           "source": "https://sports.yahoo.com/articles/commanders-dt-daron-payne-ruled-232937979.html",
-          "roster_status": "INA/A01",
+          "roster_status": "RES/R01",
           "slot": "DT"
         },
         {
@@ -2838,7 +3012,7 @@
           "star": false,
           "injury": "On IR; 21-day practice window opened (pre-bye); activation not confirmed",
           "source": "https://www.fox26houston.com/news/houston-texans-designate-tank-dell-two-others-return-from-injured-reserve-list",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "RT"
         },
         {
@@ -2849,7 +3023,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "E.J. Speed",
@@ -2859,7 +3033,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R04",
           "slot": "LB"
         },
         {
@@ -2870,7 +3044,7 @@
           "star": false,
           "injury": "21-day window opened per GM Caserio (Oct); activation not confirmed",
           "source": "https://www.si.com/nfl/texans/onsi/texans-injury-update-hints-key-defensive-starter-is-nearing-a-return",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "LB"
         },
         {
@@ -2881,7 +3055,7 @@
           "star": false,
           "injury": "Window opened Oct 14; must be activated by Nov 4 or revert to season-ending IR",
           "source": "https://www.cbssports.com/fantasy/football/news/texans-jamarcus-ingram-returns-to-practice/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Jayden Higgins",
@@ -2891,7 +3065,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "WR2"
         },
         {
@@ -2902,7 +3076,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "K.C. Ossai",
@@ -2912,7 +3086,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Kayden McDonald",
@@ -2922,7 +3096,7 @@
           "star": false,
           "injury": "On IR; 21-day practice window opened (pre-bye); activation not confirmed",
           "source": "https://www.fox26houston.com/news/houston-texans-designate-tank-dell-two-others-return-from-injured-reserve-list",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "M.J. Stewart",
@@ -2932,7 +3106,7 @@
           "star": false,
           "injury": "On IR (carried from Week 8); no Oct 27+ report - unverified",
           "source": "https://www.cbssports.com/nfl/teams/HOU/houston-texans/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "Ossai",
@@ -2952,7 +3126,7 @@
           "star": false,
           "injury": "Knee (2024); window opened Oct 5-7; Week 9 at LAC cited as a possible debut target - not confirmed",
           "source": "https://www.foxsports.com/articles/nfl/tank-dells-longawaited-return-nears-a-new-phase-as-texans-open-his-practice-window",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "WR2"
         },
         {
@@ -2963,7 +3137,7 @@
           "star": false,
           "injury": "Thumb (cast); out Week 7; no post-bye update - unverified",
           "source": "https://athlonsports.com/nfl/houston-texans/texans-week-7-final-injury-report-and-game-status",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         },
         {
           "player": "David Montgomery",
@@ -2973,7 +3147,7 @@
           "star": false,
           "injury": "Groin (left early Week 5); missed Weeks 6-7; Ryans Nov 2: 'no significant update', will be evaluated through the week",
           "source": "https://sports.yahoo.com/articles/everything-texans-hc-demeco-ryans-222529933.html",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "RB1"
         },
         {
@@ -2984,7 +3158,7 @@
           "star": true,
           "injury": "Shoulder (AC joint sprain Week 5); out Weeks 6-7; no post-bye update - unverified",
           "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-25/pitre-remains-inactive-for-texans",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "S"
         },
         {
@@ -2995,7 +3169,7 @@
           "star": false,
           "injury": "Left hand surgery (Oct) plus concussion (London game); working through concussion protocol as of Nov 2",
           "source": "https://sports.yahoo.com/articles/everything-texans-hc-demeco-ryans-222529933.html",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "S"
         },
         {
@@ -3006,7 +3180,7 @@
           "star": false,
           "injury": "Wrist; practiced fully Oct 23 and played Week 7",
           "source": "https://athlonsports.com/nfl/houston-texans/texans-week-7-final-injury-report-and-game-status",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "ACT/A01"
         }
       ],
       "notes": [
@@ -3133,7 +3307,7 @@
           "star": false,
           "injury": "Undisclosed; out Week 8; Harbaugh Nov 2: unlikely to practice early in week",
           "source": "https://x.com/alexinsdorf99/status/2117396445447831930",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Deane Leonard",
@@ -3143,7 +3317,7 @@
           "star": false,
           "injury": "Concussion protocol; out Week 8, still in protocol as of Nov 2",
           "source": "https://www.footballnationusa.com/post/texans-at-chargers-week-9-preview-rest-turnovers-and-the-first-win-test",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Donte Jackson",
@@ -3153,7 +3327,7 @@
           "star": false,
           "injury": "Hamstring; questionable Week 8; Harbaugh Nov 2: will ramp up into practice",
           "source": "https://www.chargers.com/news/chargers-vs-rams-injury-report-mcconkey-full-james-awosika-don-t-practice-wednesday",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "CB1"
         },
         {
@@ -3164,7 +3338,7 @@
           "star": false,
           "injury": "Out Week 8 (undisclosed); Harbaugh Nov 2: will 'work back into practice'",
           "source": "https://x.com/alexinsdorf99/status/2117396445447831930",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "G"
         },
         {
@@ -3175,7 +3349,7 @@
           "star": false,
           "injury": "Hamstring; questionable Week 8; Harbaugh Nov 2: will ramp up into practice",
           "source": "https://www.chargers.com/news/chargers-vs-rams-injury-report-mcconkey-full-james-awosika-don-t-practice-wednesday",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Joe Alt",
@@ -3198,6 +3372,16 @@
           "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-01/he-lives-ladd-has-86-yards-vs-rams",
           "roster_status": "ACT/A01",
           "slot": "WR1"
+        },
+        {
+          "player": "Kendall Williamson",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Calf); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -3243,7 +3427,7 @@
           "star": false,
           "injury": "Hamstring; reportedly healthy but not activated; Kubiak: decision by Wed Nov 4 deadline (activate or season-ending IR)",
           "source": "https://www.si.com/nfl/raiders/onsi/las-vegas-injury-update-concern-encouragement-24-hours",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Keyron Crawford",
@@ -3340,7 +3524,7 @@
           "star": false,
           "injury": "On IR (injury type/timeline not found)",
           "source": "https://www.49erswebzone.com/articles/204691-bye-week-report-delivers-one-sentence-player/",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "De'Zhaun Stribling",
@@ -3350,7 +3534,7 @@
           "star": false,
           "injury": "Ankle; on IR (ESPN listing)",
           "source": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
-          "roster_status": "not-on-2026-roster-file"
+          "roster_status": "RES/R01"
         },
         {
           "player": "Demarcus Robinson",
@@ -3360,7 +3544,7 @@
           "star": false,
           "injury": "Ankle; on IR, eligible to return; Shanahan says he has a chance after bye - activation not confirmed",
           "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "WR3"
         },
         {
@@ -3371,8 +3555,19 @@
           "star": false,
           "injury": "On IR; one source says season-ending - unverified",
           "source": "https://bleacherreport.com/articles/25528539-br-experts-week-9-nfl-power-rankings",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "RES/R01",
           "slot": "WR3"
+        },
+        {
+          "player": "Deebo Samuel",
+          "position": "WR",
+          "status": "Doubtful",
+          "starter": true,
+          "star": false,
+          "injury": "Hamstring; 'has a chance' to return after bye per Shanahan",
+          "source": "https://www.49erswebzone.com/articles/204225-injury-updates-shanahan-shares-several/",
+          "roster_status": "not-on-2026-roster-file",
+          "slot": "WR2"
         },
         {
           "player": "Christian McCaffrey",
@@ -3382,19 +3577,8 @@
           "star": true,
           "injury": "Mild hamstring strain (Week 7 at ATL); Shanahan 'pretty optimistic' he plays Nov 8 vs LV, to be assessed early in week",
           "source": "https://www.ninersnation.com/san-francisco-49ers-injuries/164884/49ers-pretty-optimistic-christian-mccaffreys-mild-hamstring-strain-wont-cause-him-to-miss-time",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "RB1"
-        },
-        {
-          "player": "Deebo Samuel",
-          "position": "WR",
-          "status": "Questionable",
-          "starter": true,
-          "star": false,
-          "injury": "Hamstring; 'has a chance' to return after bye per Shanahan",
-          "source": "https://www.49erswebzone.com/articles/204225-injury-updates-shanahan-shares-several/",
-          "roster_status": "not-on-2026-roster-file",
-          "slot": "WR2"
         },
         {
           "player": "Mike Evans",
@@ -3404,7 +3588,7 @@
           "star": true,
           "injury": "Achilles tendinitis; missed Week 7; three weeks to recover, listed questionable Week 9",
           "source": "https://www.cbssports.com/nfl/teams/sf/san-francisco-49ers/injuries/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "WR1"
         },
         {
@@ -3415,7 +3599,7 @@
           "star": true,
           "injury": "Calf strain (Sept 24) / knee; missed 5 straight games; Shanahan says he 'has a chance' to return vs LV",
           "source": "https://www.49erswebzone.com/articles/204225-injury-updates-shanahan-shares-several/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "EDGE"
         },
         {
@@ -3426,8 +3610,18 @@
           "star": true,
           "injury": "One-game suspension served Oct 19 vs WAS; reinstated Oct 20 - NO LONGER suspended; was fined for roughness vs ATL",
           "source": "https://heavy.com/sports/nfl/san-francisco-49ers/dre-greenlaw-suspension-reinstatement/",
-          "roster_status": "not-on-2026-roster-file",
+          "roster_status": "ACT/A01",
           "slot": "LB"
+        },
+        {
+          "player": "Siran Neal",
+          "position": "S",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Knee); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -3554,7 +3748,7 @@
           "star": false,
           "injury": "High-ankle sprain; out Week 8, expected to miss at least a month / four games (Zenitz, CBS)",
           "source": "https://sports.yahoo.com/articles/packers-injury-report-lb-zaire-201214825.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "C"
         },
         {
@@ -3565,7 +3759,7 @@
           "star": true,
           "injury": "Hairline shin fracture; out Week 8; LaFleur says he will not go on IR",
           "source": "https://sports.yahoo.com/articles/packers-injury-report-lb-zaire-201214825.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LB"
         },
         {
@@ -3597,7 +3791,17 @@
           "star": false,
           "injury": "Knee; out Week 8; Week 9 status not found",
           "source": "https://www.packers.com/news/packers-list-four-questionable-rule-out-three-vs-panthers-week-8-injury-report",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
+        },
+        {
+          "player": "Josh Whyle",
+          "position": "TE",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Concussion); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
         }
       ],
       "notes": [
@@ -3642,7 +3846,7 @@
           "star": false,
           "injury": "Carried on IR from Week 8; no update found.",
           "source": "https://www.patriots.com/team/transactions/",
-          "roster_status": "CUT/W03"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Eric Butler",
@@ -3713,7 +3917,7 @@
           "star": false,
           "injury": "Carried on IR from Week 8; no update found.",
           "source": "https://www.patriots.com/team/transactions/",
-          "roster_status": "RES/R48",
+          "roster_status": "ACT/A01",
           "slot": "OT"
         },
         {
@@ -3787,7 +3991,7 @@
           "star": false,
           "injury": "Carried as Out from Week 8; no update found (unverified).",
           "source": "https://www.patriots.com/team/transactions/",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Karon Prunty",
@@ -3797,7 +4001,7 @@
           "star": false,
           "injury": "Carried as Out from Week 8; no update found (unverified).",
           "source": "https://www.patriots.com/team/transactions/",
-          "roster_status": "INA/A01"
+          "roster_status": "ACT/I01"
         },
         {
           "player": "Milton Williams",
@@ -3818,7 +4022,7 @@
           "star": true,
           "injury": "Knee (CBS lists ankle); missed Week 8 at MIA. Vrabel Nov 2: 'We'll see how he progresses during the week. He's getting treatment.' Was on IR Sept 12-early Oct earlier this season.",
           "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-on-a-j-brown-well-see-how-he-progresses-during-the-week",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "WR1"
         },
         {
@@ -3840,8 +4044,19 @@
           "star": false,
           "injury": "Illness; inactive Week 8 at MIA. Expected back for Week 9 (no injury).",
           "source": "https://www.patspulpit.com/new-england-patriots-injuries/142849/patriots-vs-dolphins-injury-analysis-nfl-week-8-packers",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "RB1"
+        },
+        {
+          "player": "Christian Barmore",
+          "position": "DT",
+          "status": "Questionable",
+          "starter": true,
+          "star": true,
+          "injury": "did not practice midweek (Illness); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report",
+          "slot": "DT"
         }
       ],
       "notes": [
@@ -3909,6 +4124,17 @@
           "slot": "RB1"
         },
         {
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "star": false,
+          "injury": "Ankle; aggravated in first half Week 8 after 9 carries, did not return. LaFleur Nov 2: injury is to 'a new portion of the ankle', no timeline. Had been limited all prior week with ankle.",
+          "source": "https://www.azcardinals.com/news/jeremiyah-love-with-new-ankle-issue-as-cardinals-offense-catches-injury-bug",
+          "roster_status": "RES/R01",
+          "slot": "RB1"
+        },
+        {
           "player": "Paris Johnson Jr.",
           "position": "OT",
           "status": "IR",
@@ -3958,7 +4184,7 @@
           "star": false,
           "injury": "Fractured right tibia in Week 8 at DAL; team announced Nov 2 he is out about three months, season over (IR placement expected).",
           "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/cardinals-lose-kendrick-bourne-ankle-for-season",
-          "roster_status": "ACT/A01",
+          "roster_status": "RES/R01",
           "slot": "WR2"
         },
         {
@@ -3973,17 +4199,6 @@
           "slot": "LT"
         },
         {
-          "player": "Jeremiyah Love",
-          "position": "RB",
-          "status": "Questionable",
-          "starter": true,
-          "star": false,
-          "injury": "Ankle; aggravated in first half Week 8 after 9 carries, did not return. LaFleur Nov 2: injury is to 'a new portion of the ankle', no timeline. Had been limited all prior week with ankle.",
-          "source": "https://www.azcardinals.com/news/jeremiyah-love-with-new-ankle-issue-as-cardinals-offense-catches-injury-bug",
-          "roster_status": "ACT/A01",
-          "slot": "RB1"
-        },
-        {
           "player": "Michael Wilson",
           "position": "WR",
           "status": "Questionable",
@@ -3993,6 +4208,27 @@
           "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-01/wilson-says-he-is-playing-with-two-broken-ribs",
           "roster_status": "ACT/A01",
           "slot": "WR1"
+        },
+        {
+          "player": "Bam Knight",
+          "position": "RB",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Concussion); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report"
+        },
+        {
+          "player": "Jon Gaines II",
+          "position": "G",
+          "status": "Questionable",
+          "starter": true,
+          "star": false,
+          "injury": "did not practice midweek (Ankle); no game designation yet",
+          "source": "nflverse injuries file (practice report)",
+          "roster_status": "practice-report",
+          "slot": "G"
         }
       ],
       "notes": [
@@ -4098,7 +4334,7 @@
           "star": false,
           "injury": "Knee; inactive Week 8 vs CHI. ESPN lists Out for Nov 8 vs ARI.",
           "source": "https://www.espn.com/nfl/game/_/gameId/401873048/cardinals-seahawks",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "WR2"
         },
         {
@@ -4109,7 +4345,7 @@
           "star": true,
           "injury": "Inactive Week 8 vs CHI (reason not found in snippets); signed extension recently. Week 9 status unverified.",
           "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-seattle-seahawks-inactives-who-in-out-week-8",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "LT"
         },
         {
@@ -4153,7 +4389,7 @@
           "star": false,
           "injury": "Inactive Week 8 vs CHI (reason not found). Week 9 status unverified.",
           "source": "https://www.si.com/nfl/bears/onsi/chicago-bears-seattle-seahawks-inactives-who-in-out-week-8",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "EDGE"
         },
         {
@@ -4164,7 +4400,7 @@
           "star": false,
           "injury": "Activated from IR and returned Week 8 vs CHI (limited role alongside Zach Charbonnet, who also returned).",
           "source": "https://www.si.com/nfl/seahawks/onsi/3-winners-4-losers-seahawks-disheartening-week-8-loss-bears",
-          "roster_status": "ACT/R48",
+          "roster_status": "ACT/A01",
           "slot": "RB2"
         }
       ],
@@ -4230,7 +4466,7 @@
           "star": true,
           "injury": "Foot; inactive Weeks 7 and 8 (also cleared concussion protocol). No Week 9 designation yet.",
           "source": "https://www.bucsnation.com/tampa-bay-buccaneers-injuries/69497/buccaneers-falcons-inactives-tampa-bay-without-emeka-egbuka-atlanta-nfl-week-8",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "WR1"
         },
         {
@@ -4410,7 +4646,7 @@
           "star": false,
           "injury": "Turf toe and thumb; missed 4 straight games through Week 8. Ben Johnson calls him week-to-week; could return vs TB or be held to after Week 10 bye. D'Andre Swift leads backfield.",
           "source": "https://sports.yahoo.com/articles/bears-hc-ben-johnson-shares-170851976.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "RB2"
         },
         {
@@ -4421,7 +4657,7 @@
           "star": false,
           "injury": "Toe (from Week 7); limited all week then inactive Week 8 at SEA, his first missed game.",
           "source": "https://www.shawlocal.com/bears/2026/11/02/chicago-bears-malik-muhammad-inactive-against-seahawks-in-monday-night-matchup/",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "CB2"
         },
         {
@@ -4487,7 +4723,7 @@
           "star": false,
           "injury": "Placed on reserve/suspended Oct 26; ESPN still lists Reserve-Suspended.",
           "source": "https://www.espn.com/nfl/team/transactions/_/name/buf/buffalo-bills",
-          "roster_status": "RES/R40",
+          "roster_status": "not-on-2026-roster-file",
           "slot": "S"
         },
         {
@@ -4509,7 +4745,7 @@
           "star": false,
           "injury": "Ankle; inactive Week 8 vs BAL.",
           "source": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "CB2"
         },
         {
@@ -4520,7 +4756,7 @@
           "star": false,
           "injury": "Calf; questionable then inactive Week 8 vs BAL.",
           "source": "https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "DT"
         },
         {
@@ -4542,7 +4778,7 @@
           "star": false,
           "injury": "Inactive Week 8 vs BAL (back, per preview); Tylan Grable started at RT. Week 9 status unverified.",
           "source": "https://sports.yahoo.com/articles/bills-rt-spencer-brown-db-165104442.html",
-          "roster_status": "INA/A01",
+          "roster_status": "ACT/I01",
           "slot": "RT"
         },
         {
@@ -4677,7 +4913,7 @@
           "star": false,
           "injury": "carried over from Week 8: On IR, designated to return (per tracker); was listed questionable Week 7. Status unclear.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R48"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Fernando Carmona",
@@ -4687,7 +4923,7 @@
           "star": false,
           "injury": "carried over from Week 8: Ankle; on IR, eligible to return Week 8, no practice window reported.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01",
+          "roster_status": "not-on-2026-roster-file",
           "slot": "RG"
         },
         {
@@ -4698,7 +4934,7 @@
           "star": false,
           "injury": "carried over from Week 8: Foot; on IR, eligible to return Week 8, no practice window reported.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01",
+          "roster_status": "not-on-2026-roster-file",
           "slot": "G"
         },
         {
@@ -4709,7 +4945,7 @@
           "star": false,
           "injury": "carried over from Week 8: Pectoral; out for season (listed as TE on tracker, LB on our list).",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Jaylen Harrell",
@@ -4719,7 +4955,7 @@
           "star": false,
           "injury": "carried over from Week 8: Knee; out for season.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Milo Eifler",
@@ -4729,7 +4965,7 @@
           "star": false,
           "injury": "carried over from Week 8: Carryover IR; no Oct 20+ update found.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Nazeeh Johnson",
@@ -4749,7 +4985,7 @@
           "star": false,
           "injury": "carried over from Week 8: On IR, undisclosed; tracker says out for season, ESPN est. return Feb 15. Unverified.",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         }
       ],
       "notes": [],
@@ -4765,7 +5001,7 @@
           "star": false,
           "injury": "carried over from Week 8: Unverified - no October update; assumed still on IR",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Derrick Harmon",
@@ -4775,7 +5011,7 @@
           "star": true,
           "injury": "carried over from Week 8: Foot - on IR since early October; Week 10 eligible per DraftKings (CBS lists Week 12)",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01",
+          "roster_status": "not-on-2026-roster-file",
           "slot": "DT"
         },
         {
@@ -4786,7 +5022,7 @@
           "star": false,
           "injury": "carried over from Week 8: Unverified - no October update; assumed still on IR",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R48"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Logan Lee",
@@ -4796,7 +5032,7 @@
           "star": false,
           "injury": "carried over from Week 8: Unverified - no October update; assumed still on IR",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01"
+          "roster_status": "not-on-2026-roster-file"
         },
         {
           "player": "Michael Pittman Jr.",
@@ -4817,7 +5053,7 @@
           "star": false,
           "injury": "carried over from Week 8: Finger - placed on IR before the TB game; earliest return Week 11 vs PHI",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R01",
+          "roster_status": "not-on-2026-roster-file",
           "slot": "WR3"
         },
         {
@@ -4828,7 +5064,7 @@
           "star": false,
           "injury": "carried over from Week 8: Unverified - no October update; assumed still on PUP",
           "source": "data/manual/injuries_2026_wk8.json",
-          "roster_status": "RES/R04"
+          "roster_status": "not-on-2026-roster-file"
         }
       ],
       "notes": [],

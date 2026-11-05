@@ -108,12 +108,14 @@
    "schedule_projected_starter": "Malik Willis"
   },
   "CLE": {
-   "starter": "Deshaun Watson",
-   "pbp_name": "D.Watson",
+   "starter": "Sanders (expected) / Watson",
+   "pbp_name": "S.Sanders",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Deshaun Watson"
+   "notes": "Watson is in concussion protocol and Shedeur Sanders took the first-team reps Wednesday; Monken has not made it official. Priced 80/20 Sanders (-5.81) over Watson (-4.63).",
+   "schedule_projected_starter": "Shedeur Sanders",
+   "value_override": -5.57,
+   "extra_sd": 1.0
   },
   "NO": {
    "starter": "Tyler Shough",
@@ -135,13 +137,14 @@
    "extra_sd": 1.0
   },
   "PHI": {
-   "starter": "Tanner McKee",
-   "pbp_name": "T.McKee",
+   "starter": "Joe Milton III",
+   "pbp_name": "J.Milton",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Hurts on IR for the year; McKee makes his fourth start.",
-   "schedule_projected_starter": "Tanner McKee",
-   "value_override": -1.5
+   "notes": "McKee benched after three losses; Joe Milton (signed off the Cowboys practice squad Oct 16, five career appearances, no starts) makes his first start. Priced a little below McKee with wide variance.",
+   "schedule_projected_starter": "Joe Milton III",
+   "value_override": -2.0,
+   "extra_sd": 1.25
   },
   "LA": {
    "starter": "Matthew Stafford",
