@@ -6,6 +6,7 @@ import json
 import pandas as pd
 
 from . import config as C
+from .simulate import value_threshold
 from .simulate import simulate_game
 
 
@@ -39,7 +40,10 @@ def main():
         l["played"] = l["game_id"] in played
     vpath = C.OUTPUT / f"week{C.WEEK}_{C.SEASON}_value.json"
     vpath.write_text(json.dumps(legs, indent=2))
-    print(f"wrote {vpath}; positive-EV sides: {[(l['side'], l['market_ml']) for l in legs if l['ev_per_dollar'] > 0.02]}")
+    snap = C.OUTPUT / f"week{C.WEEK}_{C.SEASON}_value_tuesday.json"
+    if not snap.exists():   # first build of the week: freeze the table the betting record is graded on
+        snap.write_text(json.dumps(legs, indent=2))
+    print(f"wrote {vpath}; positive-EV sides: {[(l['side'], l['market_ml']) for l in legs if l['ev_per_dollar'] > value_threshold(C.WEEK)]}")
     out = {}
     for r in rows:
         p_pure = simulate_game(r["model_margin_home"], r["proj_total"], r["margin_sd"])["p_home"]

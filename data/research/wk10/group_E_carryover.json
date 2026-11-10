@@ -1,0 +1,2078 @@
+{
+  "collected_on": "2026-11-10",
+  "note": "Automatic carry-over of Week 9 IR/PUP/NFI/suspension absences; remove via the wk10 drop list if a player was activated.",
+  "teams": {
+    "BAL": {
+      "injuries": [
+        {
+          "player": "Bilhal Kone",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Achilles; on IR since Oct 7; Nick Vannett signed as replacement; still IR Nov 2",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ethan Pocic",
+          "position": "C",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Knee; on IR since Oct 3; still IR per Yahoo listing Nov 2",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jovaughn Gwyn",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tavius Robinson",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Pectoral; placed on IR Oct 24/25; reported to miss rest of 2026",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "JAX": {
+      "injuries": [
+        {
+          "player": "Anton Harrison",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn ACL found during right knee procedure (Rapoport); out for season. Carried from Week 8",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "B.J. Green II",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Caleb Ransaw",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Patrick Mekari",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Back; IR-designated for return per Yahoo listing dated Nov 2; not yet activated",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Zach Durfee",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "CIN": {
+      "injuries": [
+        {
+          "player": "Andrei Iosivas",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR; will miss Madrid game per SI Week 9 preview",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Brian Parker II",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ja'Sir Taylor",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jalen Davis",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Swayze Bozeman",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tanner Hudson",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "ATL": {
+      "injuries": [
+        {
+          "player": "A.J. Terrell",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Groin; 21-day practice window opened Oct 21; listed limited in Week 8 practice; activation",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Beaux Collins",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Cameron Williams",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Practice window opened late Oct; ESPN estimated return Nov 8; activation unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Da'Shawn Hand",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Quadriceps; IR since Sept 16; ESPN est. return Feb 15 (season)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "J.D. Bertrand",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jalon Walker",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: ACL torn in training camp; out for season",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Malik Verdon",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Michael Jerrell",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Biceps; placed on IR Oct 24; ESPN est. return Nov 29",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Trey Sermon",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: ESPN est. return Feb 15 (season); no update",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Yasir Abdullah",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "DeAngelo Malone",
+          "position": "LB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Storm Norton",
+          "position": "OT",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Reserve/PUP since June 2026; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Anterio Thompson",
+          "position": "DT",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "DEN": {
+      "injuries": [
+        {
+          "player": "Caleb Lohner",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Drew Sanders",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jonah Elliss",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Levelle Bailey",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Matt Henningsen",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Michael Deiter",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Pat Bryant",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee injury in practice Oct 30; placed on IR; earliest return Week 13 (Dec 6 vs MIA)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyler Badie",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Nick Gargiulo",
+          "position": "G",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "CAR": {
+      "injuries": [
+        {
+          "player": "Brady Christensen",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Cam Jackson",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaycee Horn",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Quadriceps; IR since early Oct, ~8-week timeline, no surgery; eligible to return but no de",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jonathon Brooks",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kemoko Turay",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mike Jackson",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Groin surgery; IR since late Sept; no designation reported",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Nic Scourton",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Taylor Moton",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Xavier Legette",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee (IR setback early Oct); Canales Nov 2: could 'potentially' be designated for return t",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ikem Ekwonu",
+          "position": "OT",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 9: Patellar tendon; doing solo work, Canales says 'still a ways to go'",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "DAL": {
+      "injuries": [
+        {
+          "player": "Devin Moore",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jalen Thompson",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jonathan Bullard",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kelvin Gilliam Jr.",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Malik Davis",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Marist Liufau",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Matt Hennessy",
+          "position": "C",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "P.J. Locke",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Foot - on IR since Oct 2; 21-day practice window opened Oct 23; ",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Princeton Fant",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "IND": {
+      "injuries": [
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Heel; on IR. ESPN est. return Nov 8 but Steichen said Oct 26 the practice window would 'mo",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Arden Key",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR per SI Week 9 preview; carried from Week 8",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Cam Taylor-Britt",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR; ESPN est. return Nov 29",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Carson Towt",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8; no update found since Oct 27",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "D.J. Montgomery",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR per CBS injury page",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Micheal Clemons",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR per CBS; carried from Week 8",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: carried over from Week 7: Carried as PUP from last week; no 2026",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Will Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried from Week 8 (listed twice in prior file as 'Musgrave' and 'Will Musgrave'); no upd",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "NYJ": {
+      "injuries": [
+        {
+          "player": "Anez Cooper",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from prior weeks; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Chip Trayanum",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Francisco Mauigoa",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mykal Walker",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "T'Vondre Sweat",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee, injured in Week 7 loss at Miami; placed on IR Sat Oct 31 (minimum 4 games).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tre Brown",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "VJ Payne",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyler Baron",
+          "position": "EDGE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on PUP; no activation or practice-window news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "KC": {
+      "injuries": [
+        {
+          "player": "Brashard Smith",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "C.J. Hanson",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Chris Oladokun",
+          "position": "QB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "EJ Smith",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ethan Downs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jimmy Holiday",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Josh Simmons",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR; no update found in searches (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Matt Waletzko",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyquan Thornton",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Ankle; on IR since Oct 13 update. No designation to return found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Omarr Norman-Lott",
+          "position": "DT",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Knee. Designated to return / practice window opened; ESPN lists return date Nov 8, CBS exp",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "DET": {
+      "injuries": [
+        {
+          "player": "Avonte Maddox",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ben Bartch",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Devin White",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified). LB depth now critical with Campbell ",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Isiah Pacheco",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: MCL/back; still on IR, not expected back until December.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jimmy Rolder",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring, season-ending per Dan Campbell Nov 2 (surgery possible). IR placement expected/",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Thomas Harper",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tom Kennedy",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kerby Joseph",
+          "position": "S",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee; still on reserve/PUP, practice-window clock running (about 19 days left as of Week 8",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "MIA": {
+      "injuries": [
+        {
+          "player": "De'Von Achane",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn ACL; season-ending (ESPN return date Feb 15). Still on IR, not returning.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ronnie Harrison Jr.",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring; on IR since Week 2. Hafley discussed possible return but no window opened.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Trey Moore",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hafley (Nov 2): does not expect him back this week or next; hopeful for later in season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Darrell Baker Jr.",
+          "position": "CB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Hafley says he has the best chance of the three injured players to return to practice this",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "CLE": {
+      "injuries": [
+        {
+          "player": "Kalia Davis",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Still listed on IR by ESPN as of Week 9 preview.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Raheim Sanders",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Still listed on IR by ESPN as of Week 9 preview.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Teven Jenkins",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Still listed on IR by ESPN as of Week 9 preview.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jeremiah Owusu-Koramoah",
+          "position": "LB",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on PUP; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Joe Royer",
+          "position": "TE",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on NFI; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "NO": {
+      "injuries": [
+        {
+          "player": "Barry Wesley",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Bryan Bresee",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dalys Beanum",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "David Long Jr.",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dillon Radunz",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaylan Ford",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jordyn Tyson",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Hamstring. Schefter: could return as soon as Week 9 vs CLE; team still deciding on practic",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kelvin Banks Jr.",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Ankle surgery (late Sept). CBS expected return Week 12; Yahoo says December. Not returning",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mike Heldman",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Travis Etienne Jr.",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Hamstring. Eligible to return Week 9; Kellen Moore said he would be evaluated Mon Nov 2 be",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mason Tipton",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on PUP; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "NYG": {
+      "injuries": [
+        {
+          "player": "Brian Burns",
+          "position": "OLB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn ACL and meniscus vs TEN; out for season (9+ month recovery).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Calvin Austin III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Torn ACL (Aug 27); out for season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Gunner Olszewski",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jarrick Bernard-Converse",
+          "position": "DB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Korie Black",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Roy Robertson-Harris",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tremaine Edmunds",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn chest muscle; season-ending (placed on IR in October).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyrone Tracy Jr.",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring; placed on IR Oct 27. GM Joe Schoen says not season-ending.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "PHI": {
+      "injuries": [
+        {
+          "player": "Andre' Sam",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Reported out for season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Johnny Wilson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Reported out for season along with Hurts and Andre' Sam.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Lane Johnson",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR. A Week 9 preview references his 'retirement' as a factor; unverified whethe",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tank Bigsby",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tucker Large",
+          "position": "DB",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on NFI; no activation news found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "LA": {
+      "injuries": [
+        {
+          "player": "Blake Grupe",
+          "position": "K",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn ACL Week 6, season-ending",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Davante Adams",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Ruptured semitendinosus (hamstring), out 6-10 weeks from Oct 18; cleanup surgery done; on ",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Justin Dedich",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no new Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Keagen Trost",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no new Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Keir Thomas",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no new Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kobie Turner",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Groin, 4-6 weeks from Oct 18; placed on IR with return designation planned; listed IR on N",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Myles Garrett",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: Knee - on IR since Week 2, has missed six games; McVay undecided",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Poona Ford",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Ruptured triceps Week 6, season-ending",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Terrance Ferguson",
+          "position": "TE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR; McVay said Nov 2 there is 'a good chance' he returns to practice this week, decisio",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "WAS": {
+      "injuries": [
+        {
+          "player": "Daron Payne",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Jones fracture (left foot) in Oct 30 practice; season-ending, placed on IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dorance Armstrong",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no new Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaylin Lane",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no new Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jer'Zhan Newton",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn pectoral (Aug); designated to return Oct 28, 21-day window open, was Out Week 8 - act",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Laremy Tunsil",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn triceps (training camp), surgery; on IR, return 'late season/December' at best pendin",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn patellar tendon, season-ending surgery done; IR since Oct 28",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "HOU": {
+      "injuries": [
+        {
+          "player": "Braden Smith",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR; 21-day practice window opened (pre-bye); activation not confirmed",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "British Brooks",
+          "position": "FB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "E.J. Speed",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Henry To'oTo'o",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: 21-day window opened per GM Caserio (Oct); activation not confirmed",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ja'Marcus Ingram",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Window opened Oct 14; must be activated by Nov 4 or revert to season-ending IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jayden Higgins",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaylin Smith",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "K.C. Ossai",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kayden McDonald",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR; 21-day practice window opened (pre-bye); activation not confirmed",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "M.J. Stewart",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ossai",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: carried over from Week 7: carried over from Week 6: carried over",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tank Dell",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee (2024); window opened Oct 5-7; Week 9 at LAC cited as a possible debut target - not c",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "LAC": {
+      "injuries": [
+        {
+          "player": "Branson Taylor",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Unverified - no October update; assumed still on IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "David Njoku",
+          "position": "TE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Fibula/leg (Week 2); Harbaugh Nov 2: 21-day practice window 'likely' opens this week; coul",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Denzel Perryman",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: IR since Sept 1 (undisclosed); Harbaugh called him 'close' (late Oct) but no practice wind",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Derwin James Jr.",
+          "position": "S",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Hamstring setback in rehab; placed on IR late Oct; earliest return Week 12 vs NE; hasn't p",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Rashawn Slater",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: High right ankle sprain (vs SEA, Week 4), ankle surgery; IR, at least 4 games",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Trey Pipkins III",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee; IR since Sept 26; still listed IR Oct 31",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyler Biadasz",
+          "position": "C",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: ACL and other left-knee damage (Aug); season-ending IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Isaiah World",
+          "position": "OT",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 9: Reserve/Non-Football Injury; still listed Oct 31",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "LV": {
+      "injuries": [
+        {
+          "player": "Carter Runyon",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Foot; still on IR, ruled out Week 8; ESPN est. return Nov 8 but not activated",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dont'e Thornton Jr.",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring; reportedly healthy but not activated; Kubiak: decision by Wed Nov 4 deadline (a",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Keyron Crawford",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Patrick Johnson",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Stinger; placed on IR Oct 31 (new placement)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "SF": {
+      "injuries": [
+        {
+          "player": "Alfred Collins",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (injury type/timeline not found)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Ankle; on IR (ESPN listing)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Demarcus Robinson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Ankle; on IR, eligible to return; Shanahan says he has a chance after bye - activation not",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ricky Pearsall",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: On IR; one source says season-ending - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "GB": {
+      "injuries": [
+        {
+          "player": "Chris Brooks",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Collin Oliver",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Edgerrin Cooper",
+          "position": "LB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn Achilles; IR, out for season",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Javon Hargrave",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn Achilles (vs CHI); IR, out for season",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jayden Reed",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Neck; IR, out for season",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jonathan Ford",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Micah Parsons",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: carried over from Week 7: Knee (ACL/meniscus from Dec 2025); LaF",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Skyy Moore",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (carried from Week 8); no Oct 27+ report - unverified",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Luke Musgrave",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Neck (offseason); no return timeline",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "NE": {
+      "injuries": [
+        {
+          "player": "Alijah Vera-Tucker",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Bryce Baringer",
+          "position": "P",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Eric Butler",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Henry Anderson",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Isaiah Iton",
+          "position": "DL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Khalil Jacobs",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Kristian Wilkerson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mack Hollins",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Calf; on IR since Week 4 (vs BUF). Eligible to return; Vrabel said Nov 2 he could 'potenti",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Marcus Bryant",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mike Onwenu",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Quintayvious Hutchins",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Reggie Gilliam",
+          "position": "FB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: On IR (placed same day as Hollins). Eligible to return; Vrabel said could potentially retu",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Romeo Doubs",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Shoulder; placed on IR Oct 19 after Week 7 vs NYJ. Not eligible to return until after NE's",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Harold Landry III",
+          "position": "LB",
+          "status": "PUP",
+          "starter": true,
+          "injury": "carried over from Week 9: Reserve/PUP per Patriots transactions; no November 2026 update found. Assume still on PUP.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Brenden Schooler",
+          "position": "S",
+          "status": "NFI",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on NFI from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "ARI": {
+      "injuries": [
+        {
+          "player": "Chase Bisontis",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no November update found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Isaiah Adams",
+          "position": "G",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no November update found (unverified).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jalen Brooks",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Reported out for season in Week 9 fantasy injury roundup (Nov 2); details unverified.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "James Conner",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Foot; on IR. LaFleur Nov 2: not ready to return this week; could potentially play later th",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Ankle; aggravated in first half Week 8 after 9 carries, did not return. LaFleur Nov 2: inj",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Paris Johnson Jr.",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn left biceps (Week 4), placed on IR Oct 6; season-ending. Still out.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Will Johnson",
+          "position": "CB",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Neck; placed on IR Sept 23. ESPN estimated return Feb 15 (season). Still out.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Zachary Carter",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no November update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tip Reiman",
+          "position": "TE",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: Ankle; reserve/PUP since Aug 30. As of Week 8 still on PUP, recovery 'has not progressed a",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "SEA": {
+      "injuries": [
+        {
+          "player": "Bud Clark",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Ankle; out for season per IR tracker.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Elijah Arroyo",
+          "position": "TE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Shoulder surgery; Macdonald said likely out for rest of season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Irvin Charles",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Conflicting: roster page shows IR designated for return; status unverified.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jake Bobo",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Knee; out for season per IR tracker.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Julian Neal",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring; eligible to return Week 9 (CBS expected return Week 9). No activation found yet",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Mason Richman",
+          "position": "OL",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Robbie Ouzts",
+          "position": "FB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "TB": {
+      "injuries": [
+        {
+          "player": "Jalen McMillan",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee (6-8 week rehab); on IR, eligible to return. Reports point to a return between Week 9",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Josh Hayes",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Knee surgery; placed on IR Aug 30 designated for return, eligible since Week 5. No activat",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "CHI": {
+      "injuries": [
+        {
+          "player": "Braxton Jones",
+          "position": "OT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee; placed on IR Oct 3, eligible since Week 8 but no activation reported.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Brittain Brown",
+          "position": "RB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Coby Bryant",
+          "position": "S",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Knee (offseason); Ben Johnson gave an encouraging but vague update in late October, 'on tr",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Cole Kmet",
+          "position": "TE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Knee (Week 7); ruled out for the season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dallis Flowers",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Dayo Odeyingbo",
+          "position": "DE",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Quadriceps; on IR, eligible to return Week 11.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Hayden Large",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ray-Ray McCloud III",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Carried as IR; no Oct 20+ update (unverified)",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Ruben Hyppolite II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tony Fields II",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Carried on IR from Week 8; no update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "BUF": {
+      "injuries": [
+        {
+          "player": "Jordan Hancock",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Hamstring; IR since Sept 25. Practice window not opened as of Week 8 (still recovering).",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tyrell Shavers",
+          "position": "WR",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: ACL (Jan 2026 wild card); 21-day practice window opened Oct 28. Ruled out Week 8, remains ",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "C.J. Gardner-Johnson",
+          "position": "S",
+          "status": "Suspended",
+          "starter": true,
+          "injury": "carried over from Week 9: Placed on reserve/suspended Oct 26; ESPN still lists Reserve-Suspended.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "MIN": {
+      "injuries": [
+        {
+          "player": "Donovan Jackson",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: Torn meniscus (Week 4), IR Oct 6; expected to miss rest of season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jamal Adams",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Torn right quadriceps (preseason); out for season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Josh Oliver",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: Biceps; on IR, eligible to return Week 9 per tracker but no practice-window designation fo",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "TEN": {
+      "injuries": [
+        {
+          "player": "Dorian Mausi",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: On IR, designated to return (per tracker); was listed questionab",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Fernando Carmona",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: Ankle; on IR, eligible to return Week 8, no practice window repo",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jackson Slater",
+          "position": "G",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: Foot; on IR, eligible to return Week 8, no practice window repor",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaren Kanak",
+          "position": "TE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Pectoral; out for season (listed as TE on tracker, LB on our lis",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jaylen Harrell",
+          "position": "EDGE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Knee; out for season.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Milo Eifler",
+          "position": "LB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Carryover IR; no Oct 20+ update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Nazeeh Johnson",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Carryover IR; no Oct 20+ update found.",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Tanoh Kpassagnon",
+          "position": "DE",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: On IR, undisclosed; tracker says out for season, ESPN est. retur",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    },
+    "PIT": {
+      "injuries": [
+        {
+          "player": "Daequan Hardy",
+          "position": "CB",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Unverified - no October update; assumed still on IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Derrick Harmon",
+          "position": "DT",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: Foot - on IR since early October; Week 10 eligible per DraftKing",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Jack Driscoll",
+          "position": "OT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Unverified - no October update; assumed still on IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Logan Lee",
+          "position": "DT",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Unverified - no October update; assumed still on IR",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "status": "IR",
+          "starter": true,
+          "injury": "carried over from Week 9: carried over from Week 8: Foot (plantar fasciitis) - on IR; earliest return Week 10 vs CIN",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Roman Wilson",
+          "position": "WR",
+          "status": "IR",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Finger - placed on IR before the TB game; earliest return Week 1",
+          "source": "data/manual/injuries_2026_wk9.json"
+        },
+        {
+          "player": "Donte Kent",
+          "position": "CB",
+          "status": "PUP",
+          "starter": false,
+          "injury": "carried over from Week 9: carried over from Week 8: Unverified - no October update; assumed still on PUP",
+          "source": "data/manual/injuries_2026_wk9.json"
+        }
+      ]
+    }
+  }
+}

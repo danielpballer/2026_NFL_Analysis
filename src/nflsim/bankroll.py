@@ -1,5 +1,5 @@
 """Season-to-date results of betting the value table as first published each week (the Tuesday
-release, taken from the first git commit of each week's value file), under two staking plans:
+release, snapshotted to output/weekN_SEASON_value_tuesday.json when the week is first built), under two staking plans:
 flat stakes and fractional Kelly on a running bankroll.
 
     PYTHONPATH=src python -m nflsim.bankroll 2026 1 5 --bankroll 1000 --flat 10
@@ -13,11 +13,16 @@ import subprocess
 import pandas as pd
 
 from . import config as C
+from .simulate import value_threshold
 
-EV_THRESHOLD = 0.02   # the page lists sides above this expected value per dollar
 
 
 def tuesday_table(season: int, week: int) -> list[dict]:
+    # the snapshot written when the week was first built is the record; git history is only a
+    # fallback, because a shallow clone reports the wrong "first" version of a file
+    snap = C.OUTPUT / f"week{week}_{season}_value_tuesday.json"
+    if snap.exists():
+        return json.loads(snap.read_text())
     path = f"output/week{week}_{season}_value.json"
     commits = subprocess.check_output(["git", "log", "--diff-filter=A", "--format=%H", "--", path], cwd=C.ROOT, text=True).split()
     if not commits:
@@ -38,7 +43,7 @@ def run(season: int, first: int, last: int, bankroll: float, flat: float, kelly_
     roll = bankroll
     flat_total = 0.0
     for week in range(first, last + 1):
-        legs = [l for l in tuesday_table(season, week) if l["ev_per_dollar"] > EV_THRESHOLD]
+        legs = [l for l in tuesday_table(season, week) if l["ev_per_dollar"] > value_threshold(week)]
         start = roll
         for l in legs:
             game = g.loc[l["game_id"]]

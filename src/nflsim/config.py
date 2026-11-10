@@ -10,7 +10,7 @@ OUTPUT = ROOT / "output"
 import os
 
 SEASON = int(os.environ.get("NFLSIM_SEASON", 2026))
-WEEK = int(os.environ.get("NFLSIM_WEEK", 9))
+WEEK = int(os.environ.get("NFLSIM_WEEK", 10))
 PRIOR_SEASON = SEASON - 1
 
 NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
@@ -45,7 +45,7 @@ PERF_MARGIN_CAP = 28.0
 # ---- Stage 3: quarterbacks -------------------------------------------------------
 DROPBACKS_PER_GAME = 36.0
 QB_SHRINK_DROPBACKS = 250.0    # shrink QB EPA/dropback toward prior with this many pseudo-dropbacks
-QB_CHANGE_WEIGHT = 0.6         # how much of a QB swap shows up beyond the team rating
+QB_CHANGE_WEIGHT = 0.75        # how much of a QB swap shows up beyond the team rating (0.6 through Week 9; the 135-game grid favoured more)
 NEW_HC_REGRESSION = 0.10       # extra regression toward mean for new head coach
 NEW_HC_EXTRA_SD = 1.0          # extra margin sd (points) for a new head coach
 NEW_QB_EXTRA_SD = 1.0
@@ -89,7 +89,12 @@ INTERNATIONAL_EXTRA_SD = 1.0   # both teams travel far, unfamiliar surface and c
 MARKET_WEIGHT = 0.55           # Week 1 weight on the market spread in the margin blend
 MARKET_WEIGHT_DECAY = 0.03     # weight falls this much per week as in-season data accumulates
 MARKET_WEIGHT_FLOOR = 0.35
-MARGIN_SD = 14.0               # after Week 7: 106-game sd grid still favours 14.5-16; stepped from 13.5 (12.7 preseason)
+MARKET_WEIGHT_LATE = 0.50      # from Week 10: the market has out-scored the model since Week 6, so the decline is undone
+MARKET_WEIGHT_LATE_FROM = 10
+VALUE_EV_THRESHOLD = 0.05      # value-table cut from Week 10 (0.02 through Week 9)
+VALUE_EV_THRESHOLD_EARLY = 0.02
+VALUE_EV_THRESHOLD_FROM = 10
+MARGIN_SD = 12.7               # back to the 2023-25 closing-line value after Week 9: the 13.5/14.0 steps chased two upset weeks and the 135-game grid favours 12-12.7
 EARLY_SEASON_SD = 1.0          # extra sd in Week 1, tapering to zero by Week 4 (team quality is less known)
 TOTAL_SD = 10.0
 N_SIMS = 20000

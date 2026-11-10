@@ -12,8 +12,16 @@ def base_sd(week: int) -> float:
 
 
 def market_weight(week: int) -> float:
-    """Market share of the margin blend: 0.55 in Week 1, falling 0.03 per week to the configured floor (0.35 after Week 5)."""
+    """Market share of the margin blend: 0.55 in Week 1 falling 0.03 a week to 0.35 through Week 9,
+    then a flat 0.50 from Week 10 (the market out-scored the model from Week 6 on)."""
+    if week >= C.MARKET_WEIGHT_LATE_FROM:
+        return C.MARKET_WEIGHT_LATE
     return max(C.MARKET_WEIGHT_FLOOR, C.MARKET_WEIGHT - C.MARKET_WEIGHT_DECAY * (week - 1))
+
+
+def value_threshold(week: int) -> float:
+    """Expected value per dollar a side needs to appear in the value table."""
+    return C.VALUE_EV_THRESHOLD if week >= C.VALUE_EV_THRESHOLD_FROM else C.VALUE_EV_THRESHOLD_EARLY
 
 
 def blend_margin(model_margin: float, market_margin: float | None, w_market: float = C.MARKET_WEIGHT) -> float:

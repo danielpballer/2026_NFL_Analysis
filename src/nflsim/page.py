@@ -11,6 +11,7 @@ import json
 import sys
 
 from . import config as C
+from .simulate import value_threshold
 
 TEMPLATE = C.ROOT / "src" / "nflsim" / "templates" / "week1_page.html"
 
@@ -110,7 +111,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
     shift_text=(f"The other thirteen picks hold at any weighting, but their probabilities move. Pure data is more confident in {', '.join(up)}, and less confident in {', '.join(down)}, where the market's number is the main reason the favorite is priced so heavily.")
     vrows = []
     for l in value:
-        if l["ev_per_dollar"] <= 0.02 or l.get("played"):
+        if l["ev_per_dollar"] <= value_threshold(week) or l.get("played"):
             continue
         mlt = f"+{l['market_ml']}" if l["market_ml"] > 0 else str(l["market_ml"])
         tag = "pick" if l["is_pick"] else "underdog"

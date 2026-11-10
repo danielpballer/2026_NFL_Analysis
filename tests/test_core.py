@@ -90,7 +90,8 @@ def test_market_weight_schedule():
     from nflsim.simulate import market_weight
     assert market_weight(1) == C.MARKET_WEIGHT
     assert market_weight(4) < market_weight(1)
-    assert market_weight(40) == C.MARKET_WEIGHT_FLOOR
+    assert market_weight(9) == C.MARKET_WEIGHT_FLOOR
+    assert market_weight(10) == market_weight(18) == C.MARKET_WEIGHT_LATE
 
 
 def test_neutral_context_has_no_home_field_or_travel():
