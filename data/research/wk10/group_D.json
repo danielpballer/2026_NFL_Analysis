@@ -1,0 +1,541 @@
+{
+  "collected_on": "2026-11-10",
+  "search_calls_used": 25,
+  "unverified": [
+    "No official Week 10 practice/injury report exists yet for any of the four teams (first reports Wed Nov 11 for PIT/CIN, Thu Nov 12 for LAC/BAL). All Questionable/Probable tags are ESPN game-page listings or estimates from coach comments, not official designations.",
+    "PIT: backup QB name not confirmed. Whether Michael Pittman Jr. and Derrick Harmon are activated for Week 10 is undecided (McCarthy non-committal Nov 9). Harmon's injury type and Sebastian Joseph-Day's IR placement date not confirmed. Roman Wilson earliest return is Week 11 per most sources (one outlet said Week 10).",
+    "PIT: starter flags for Roman Wilson (false) and Sebastian Joseph-Day (false) are judgment calls.",
+    "CIN: backup QB name not confirmed. Kyle Dugger's Week 10 status and whether he is a regular starter are not confirmed. Dylan Fairchild's diagnosis is pending. Brian Parker II and Ja'Sir Taylor have no dated update (ESPN est. return Nov 15 only).",
+    "CIN: an ESPN snippet said TE Erick All Jr. is out for the year with a torn ACL. Date and roster designation not confirmed, so he is not in the injuries list.",
+    "LAC: backup QB not confirmed (Trey Lance appears on IR per a tracker). No dated update for Charlie Kolar, Branson Taylor or Isaiah World. No confirmation that Rashawn Slater's or Trey Pipkins III's practice window opened. Whether David Njoku and Denzel Perryman get activated this week is unknown. Cam Hart's status after his Nov 8 ankle injury is unknown. Any Cole Strange benching is not confirmed.",
+    "BAL: no dated update for Durham Smythe or Jovaughn Gwyn. Ethan Pocic's possible Week 10 return rests on a CBS table only. Nate Wiggins' ailment is reported as illness by CBS/Minter and stinger by Yahoo. Jackson's exact return timeline is unknown (team not disclosing).",
+    "Trade-deadline moves for PIT, CIN and LAC were not found in search results (only BAL's Brissett trade was confirmed)."
+  ],
+  "teams": {
+    "PIT": {
+      "week9_result": "BYE in Week 9. Last game was Week 8 (Nov 1): beat Cleveland 27-6 to move to 6-2 on a four-game win streak. Rodgers was quiet (13/25, 172 yds, 0 TD, 1 INT) and Jaylen Warren carried the offense (143 rush yds, TD). No in-game injuries surfaced in search results.",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "unverified (not surfaced in search results)",
+        "changed_from_week9": false,
+        "notes": "Rodgers started Week 8 and no injury or practice concern was found in any post-Nov 3 result. Schedule-file projection looks correct. Sacked 23 times through 8 games per a Nov 2026 Steelers-site piece. Season line per ESPN: 1,871 yds, 13 TD, 6 INT."
+      },
+      "injuries": [
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Foot (new injury, not the earlier plantar fasciitis). Has served the four-game minimum. Coach Mike McCarthy said Mon Nov 9 he is 'getting close' but would not commit to Week 10. 21-day practice window not confirmed opened. ESPN est. return Nov 15.",
+          "starter": true,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/177624/steelers-get-positive-injury-updates-on-michael-pittman-jr-derrick-harmon"
+        },
+        {
+          "player": "Derrick Harmon",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Injury type not given in snippets. Eligible to be activated for Week 10 after the bye. McCarthy said Nov 9 he is 'getting close' with no commitment. Practice window not confirmed opened.",
+          "starter": true,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/177624/steelers-get-positive-injury-updates-on-michael-pittman-jr-derrick-harmon"
+        },
+        {
+          "player": "Roman Wilson",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Still on IR. Most sources say earliest return is Week 11 (Nov 22). Practice window not opened per SI.",
+          "starter": false,
+          "source": "https://www.si.com/nfl/steelers/onsi/injury-rundown-when-pittsburgh-steelers-players-can-return-injured-reserve"
+        },
+        {
+          "player": "Jack Driscoll",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Undisclosed injury. On IR with designation to return. No activation reported.",
+          "starter": false,
+          "source": "https://www.si.com/nfl/steelers/onsi/injury-rundown-when-pittsburgh-steelers-players-can-return-injured-reserve"
+        },
+        {
+          "player": "Daequan Hardy",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Undisclosed. Reverted to IR earlier in the year. No return-window news.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/pit/pittsburgh-steelers"
+        },
+        {
+          "player": "Logan Lee",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Season-ending IR since before August cutdown.",
+          "starter": false,
+          "source": "https://www.si.com/nfl/steelers/onsi/injury-rundown-when-pittsburgh-steelers-players-can-return-injured-reserve"
+        },
+        {
+          "player": "Donte Kent",
+          "position": "CB",
+          "status": "PUP",
+          "injury": "Eligible for activation since Week 5 but return timeline for 2026 unknown. No activation reported.",
+          "starter": false,
+          "source": "https://www.si.com/nfl/steelers/onsi/injury-rundown-when-pittsburgh-steelers-players-can-return-injured-reserve"
+        },
+        {
+          "player": "Sebastian Joseph-Day",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Triceps. ESPN est. return Nov 27 but teammate Jack Sawyer suggested he may not return at all. Placement date not confirmed in snippets. Not on last week's carried list.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals"
+        },
+        {
+          "player": "Doneiko Slaughter",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Hamstring. ESPN game-page listing as of Nov 9-10. First official practice report not yet released.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals"
+        },
+        {
+          "player": "Ben Skowronek",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Calf. ESPN game-page listing as of Nov 9-10. First official practice report not yet released.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals"
+        },
+        {
+          "player": "Brandin Echols",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Hamstring. ESPN game-page listing as of Nov 9-10. First official practice report not yet released.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals"
+        }
+      ],
+      "context_notes": [
+        "Head coach is Mike McCarthy (not Mike Tomlin) in 2026.",
+        "Coming off the Week 9 bye (14 days rest) while Cincinnati is returning from a game in Madrid with no bye.",
+        "Game is Sunday Night Football, Nov 15, at Paycor Stadium. Both teams are 6-2 so first place in the AFC North is at stake.",
+        "Second meeting of the season: Pittsburgh won the first 30-27 on Sep 27 on a late Chris Boswell field goal (ESPN recap).",
+        "Possible reinforcements: Pittman and Harmon could be activated this week, which would be material upgrades at WR and DT. Watch Wednesday's practice report."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
+        "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/177624/steelers-get-positive-injury-updates-on-michael-pittman-jr-derrick-harmon",
+        "https://www.si.com/nfl/steelers/onsi/injury-rundown-when-pittsburgh-steelers-players-can-return-injured-reserve",
+        "https://www.espn.com/nfl/team/injuries/_/name/pit/pittsburgh-steelers",
+        "https://www.rotowire.com/football/headlines/aaron-rodgers-news-modest-production-in-week-8-win-645507",
+        "https://www.vavel.com/en-us/nfl/2026/11/01/1277613-cleveland-browns-vs-pittsburgh-steelers-live-score-updates-stats-nfl-week-8.html",
+        "https://www.espn.com/nfl/team/schedule/_/name/pit",
+        "https://www.espn.com/nfl/recap?gameId=401872950",
+        "https://stillcurtain.com/bengals-brutal-injury-news-gives-the-steelers-passing-game-a-massive-advantage-01m6ktw88045"
+      ]
+    },
+    "CIN": {
+      "week9_result": "Beat Atlanta 34-17 in Madrid, Spain (Sun Nov 8) to move to 6-2 on a four-game win streak. Burrow 24/29, 271 yds, 3 TD pass plus 1 rush TD, no INT. Ja'Marr Chase 10 catches for 155 yds. LG Dylan Fairchild hurt in the final minutes.",
+      "qb": {
+        "starter": "Joe Burrow",
+        "backup": "unverified (not surfaced in search results)",
+        "changed_from_week9": false,
+        "notes": "Healthy and in MVP conversation. 2,386 yds, 23 TD, 6 INT per ESPN. No injury listed after Week 9. Burrow turf-toe items in search results are from 2025 and were discarded."
+      },
+      "injuries": [
+        {
+          "player": "Cashius Howell",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Wrist surgery. Placed on IR Nov 3, must miss at least four games including Week 10. ESPN est. return Dec 6. Was listed Out last week.",
+          "starter": false,
+          "source": "https://www.bengals.com/news/cashius-howell-reserve-injured-list-roster-update-2026"
+        },
+        {
+          "player": "Dylan Fairchild",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Chest/shoulder, hurt on the final plays vs ATL Nov 8. Zac Taylor said Mon Nov 9 the team is still gathering information. Jacob Bayer replaced him at LG. Designation is our estimate pending the first practice report.",
+          "starter": true,
+          "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/205021/dylan-fairchild-injury-steelers"
+        },
+        {
+          "player": "Kyle Dugger",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Quad. Ruled out Fri Nov 6 and inactive for Week 9. ESPN est. return Nov 15. No Week 10 update found, so designation is an estimate.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals"
+        },
+        {
+          "player": "Andrei Iosivas",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Left thumb surgery. Taylor said Nov 9 he is recovering well and has not been ruled out for Week 10. Not yet activated.",
+          "starter": false,
+          "source": "https://www.rotowire.com/football/headlines/andrei-iosivas-injury-not-ruled-out-for-week-10-646830"
+        },
+        {
+          "player": "Tanner Hudson",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Pectoral. Placed on IR Oct 19. ESPN est. return Feb 15, effectively season-ending.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Swayze Bozeman",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Fractured forearm. ESPN est. return Nov 23.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Jalen Davis",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Quad. ESPN note dated Oct 27 says his 21-day window expired and he will stay on IR for the rest of 2026.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Brian Parker II",
+          "position": "G",
+          "status": "IR",
+          "injury": "No injury detail given. ESPN est. return Nov 15. No activation reported.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Ja'Sir Taylor",
+          "position": "CB",
+          "status": "IR",
+          "injury": "On IR with designation to return since Aug 31. ESPN est. return Nov 15. No activation reported.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        }
+      ],
+      "context_notes": [
+        "Travel spot: played in Madrid on Nov 8 and did not take a bye afterward, facing a Pittsburgh team with 14 days rest.",
+        "Game is Sunday Night Football at home, both teams 6-2, AFC North lead on the line. Pittsburgh won the first meeting 30-27 on Sep 27.",
+        "CB DJ Turner II (heel, hurt Nov 1 vs TEN) was cleared, came off the injury report and played in Week 9.",
+        "Left guard is the line question: if Fairchild cannot go, Jacob Bayer is next up against T.J. Watt and the Pittsburgh front.",
+        "Zac Taylor said the team was focused on Pittsburgh rather than the trade deadline. No deadline acquisition surfaced in search results."
+      ],
+      "sources": [
+        "https://www.bengals.com/news/bengals-falcons-recap-postgame-notes-quotes-stats-week-9-2026",
+        "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
+        "https://www.bengals.com/news/cashius-howell-reserve-injured-list-roster-update-2026",
+        "https://www.cincyjungle.com/cincinnati-bengals-injuries/205021/dylan-fairchild-injury-steelers",
+        "https://www.rotowire.com/football/headlines/andrei-iosivas-injury-not-ruled-out-for-week-10-646830",
+        "https://www.espn.com/nfl/injuries",
+        "https://www.si.com/nfl/bengals/onsi/zac-taylor-drops-friday-injury-status-update-for-dj-turner-cedric-johnson-ahead-of-falcons-spain-game-01m6r9rdja24",
+        "https://www.newsy-today.com/bengals-beat-falcons-34-17-as-joe-burrow-throws-four-touchdowns/",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-08/joe-burrow-has-four-total-touchdowns-in-week-9-win",
+        "https://sports.yahoo.com/articles/bengals-major-dj-turner-injury-200917478.html",
+        "https://local12.com/sports/bengals/zac-taylor-bengals-trade-deadline-steelers-focus-options-acquire-roster-depth-needs"
+      ]
+    },
+    "LAC": {
+      "week9_result": "Lost 44-22 to Houston (Sun Nov 8) to fall to 0-8. Herbert was sacked eight times, threw his league-leading 11th INT and left in the fourth quarter with a left (non-throwing) middle finger injury. Ladd McConkey was a late scratch (back spasms in warmups). Cam Hart and Justin Eboigbe left with ankle injuries.",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "unverified (Trey Lance is on IR per the PFR return tracker)",
+        "changed_from_week9": false,
+        "notes": "Left middle finger on non-throwing hand. Harbaugh initially said it 'could be a fracture' but X-rays were negative and Harbaugh said he is good to go for Baltimore. ESPN game page still lists him questionable. Herbert said it should not be an issue."
+      },
+      "injuries": [
+        {
+          "player": "Justin Herbert",
+          "position": "QB",
+          "status": "Probable",
+          "injury": "Left (non-throwing) middle finger, hurt Nov 8 vs HOU. X-rays negative. Harbaugh says good to go. ESPN lists questionable.",
+          "starter": true,
+          "source": "https://www.houstonchronicle.com/sports/article/chargers-qb-justin-herbert-avoids-injury-to-22522171.php"
+        },
+        {
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Back spasms in pregame warmups Nov 8, did not play Week 9. Harbaugh calls him day-to-day.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens"
+        },
+        {
+          "player": "Cam Hart",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Ankle, left the Nov 8 game and did not return. No follow-up found, designation is an estimate.",
+          "starter": true,
+          "source": "https://www.upi.com/Sports_News/NFL/2026/11/09/NFL-injuries-Week9-Nacua-Jacobs-Mahomes-Herbert/1581794233869/"
+        },
+        {
+          "player": "Justin Eboigbe",
+          "position": "DL",
+          "status": "Questionable",
+          "injury": "Ankle, left the Nov 8 game and did not return. ESPN lists questionable.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens"
+        },
+        {
+          "player": "Isas Waxter",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Ankle. ESPN game-page listing as of Nov 9-10.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens"
+        },
+        {
+          "player": "Kayode Awosika",
+          "position": "G",
+          "status": "Out",
+          "injury": "Lower leg. ESPN game-page listing as of Nov 9-10.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens"
+        },
+        {
+          "player": "David Njoku",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Designated for return Nov 5 (practice window open) but not activated for Week 9. ESPN est. return Nov 16. Activation for Week 10 possible but unconfirmed.",
+          "starter": true,
+          "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+        },
+        {
+          "player": "Denzel Perryman",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Designated for return Nov 5 (practice window open) but not activated for Week 9. ESPN est. return Nov 16.",
+          "starter": false,
+          "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+        },
+        {
+          "player": "Rashawn Slater",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Right ankle surgery after a high ankle sprain. Placed on IR about Oct 9. Eligible to return Week 10 per trackers but no practice window reported opened.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50142241/chargers-lt-rashawn-slater-ir-following-ankle-surgery"
+        },
+        {
+          "player": "Trey Pipkins III",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Knee. Eligible for activation per trackers. No practice window reported.",
+          "starter": true,
+          "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+        },
+        {
+          "player": "Derwin James Jr.",
+          "position": "S",
+          "status": "IR",
+          "injury": "Hamstring. Placed on IR Oct 31. Earliest return Week 12 (ESPN est. Nov 29).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Tyler Biadasz",
+          "position": "C",
+          "status": "IR",
+          "injury": "On IR since Aug 23. ESPN est. return Feb 15, effectively season-ending.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Trey Lance",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Listed as IR and eligible for activation on the PFR return tracker. Injury and date not in snippets.",
+          "starter": false,
+          "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+        },
+        {
+          "player": "Trevor Penning",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Listed as IR and eligible for activation on the PFR return tracker. Injury and date not in snippets.",
+          "starter": false,
+          "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Carried from last week. No update found. Presumed still on IR.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Branson Taylor",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Carried from last week. No update found. Presumed still on IR.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        },
+        {
+          "player": "Isaiah World",
+          "position": "OT",
+          "status": "NFI",
+          "injury": "Carried from last week. No update found. Presumed still on NFI.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/injuries"
+        }
+      ],
+      "context_notes": [
+        "Winless at 0-8 with open pressure on OC Mike McDaniel, Herbert and Jim Harbaugh. The team has discussed simplifying the offense.",
+        "Offensive line is in crisis: Slater, Pipkins, Biadasz and Penning all on IR, eight sacks allowed vs HOU, and Harbaugh said RG Cole Strange has 'a chance' of losing his starting job.",
+        "Defense is without Derwin James Jr. through at least Week 11 and may be missing CB Cam Hart.",
+        "Cross-country trip to Baltimore for Monday Night Football (8 days rest). The game could not be flexed out despite the records.",
+        "One ESPN snippet described the Chargers as hosting Baltimore. The ESPN game page, the Ravens site and the schedule file all have the game in Baltimore."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens",
+        "https://www.espn.com/nfl/story/_/id/50428280/herbert-injures-finger-chargers-loss-testing",
+        "https://www.houstonchronicle.com/sports/article/chargers-qb-justin-herbert-avoids-injury-to-22522171.php",
+        "https://qncnews.com/2026/11/10/harbaugh-says-herbert-is-good-to-go-as-winless-chargers-turn-focus-to-ravens-showdown/",
+        "https://www.upi.com/Sports_News/NFL/2026/11/09/NFL-injuries-Week9-Nacua-Jacobs-Mahomes-Herbert/1581794233869/",
+        "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker",
+        "https://www.si.com/nfl/chargers/onsi/chargers-final-injury-report-nfl-trade-deadline",
+        "https://sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker",
+        "https://www.espn.com/nfl/story/_/id/50142241/chargers-lt-rashawn-slater-ir-following-ankle-surgery",
+        "https://www.espn.com/nfl/injuries",
+        "https://sports.yahoo.com/nfl/breaking-news/article/chargers-fall-to-stunning-0-8-in-listless-loss-to-texans-as-pressure-mounts-on-mike-mcdaniel-justin-herbert-and-jim-harbaugh-002940144.html",
+        "https://www.newsweek.com/sports/nfl/chargers-jim-harbaugh-says-theres-a-chance-someone-loses-job-after-loss-12684917",
+        "https://www.nfl.com/news/chargers-considering-simplified-offense-playbook-players-can-understand",
+        "https://bvmsports.com/2026/11/09/chargers-takeaways-herbert-mcconkey-updates-and-harbaughs-mindset/",
+        "https://sports.yahoo.com/articles/los-angeles-chargers-news-bolts-145406342.html"
+      ]
+    },
+    "BAL": {
+      "week9_result": "Lost 33-10 at home to Jacksonville on Thursday Night Football (Nov 5), a fourth straight loss, to fall to 4-5. Undrafted rookie Joe Fagnano started at QB (10/18, 2 INT) and the team had 57 passing yards. S Kyle Hamilton left with a hip injury. The only TD came against Jacksonville backups.",
+      "qb": {
+        "starter": "Jacoby Brissett",
+        "backup": "Joe Fagnano",
+        "changed_from_week9": true,
+        "notes": "The schedule file's Tyler Huntley is WRONG. Lamar Jackson (right thumb, surgery) and Huntley (turf toe, reportedly season-ending) both went on IR Nov 5. Fagnano started Week 9. Baltimore acquired Brissett from Arizona on Nov 6 and coach Jesse Minter said Nov 9 'I do expect Jacoby Brissett to be our starter Monday night.' Austin Reed was released. Kedon Slovis is also in the QB room. Brissett will have had about 10 days in the system."
+      },
+      "injuries": [
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Right thumb (reported fracture and dislocation, surgery). Hurt in the Week 8 loss at Buffalo, placed on IR Nov 5, out at least four games. ESPN est. return Dec 13. Reports range from 6-9 weeks to possibly the rest of the season.",
+          "starter": true,
+          "source": "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody"
+        },
+        {
+          "player": "Tyler Huntley",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Turf toe from the Week 8 loss at Buffalo. Placed on IR Nov 5. Reportedly season-ending.",
+          "starter": false,
+          "source": "https://sports.yahoo.com/nfl/breaking-news/article/ravens-officially-place-lamar-jackson-tyler-huntley-on-ir-with-thumb-turf-toe-injuries-212439146.html"
+        },
+        {
+          "player": "Tyler Loop",
+          "position": "K",
+          "status": "IR",
+          "injury": "Groin. Placed on IR Nov 3, out at least four games. Jake Moody is kicking.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-tyler-loop-on-injured-reserve"
+        },
+        {
+          "player": "Kyle Hamilton",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Hip, left the Nov 5 game vs JAX. Minter said Nov 9 he hopes Hamilton does not miss time, pending further medical updates.",
+          "starter": true,
+          "source": "https://baltimoreravens.com/news/kyle-hamilton-injury-update-jacoby-brissett-starting-against-chargers-monday-night-minter-lamar-jackson-injury-conversations-private"
+        },
+        {
+          "player": "Nate Wiggins",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Inactive Week 9 with an illness (Yahoo lists a stinger). Minter said he thinks Wiggins will be OK. Designation is an estimate pending the first practice report.",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        },
+        {
+          "player": "Jaylinn Hawkins",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Knee, has missed three straight games. Minter is optimistic he returns to practice this week but playing is not assured. Was Out last week.",
+          "starter": true,
+          "source": "https://www.rotowire.com/football/headlines/jaylinn-hawkins-injury-might-practice-this-week-646865"
+        },
+        {
+          "player": "Adisa Isaac",
+          "position": "OLB",
+          "status": "Questionable",
+          "injury": "Hamstring per ESPN game page. Was a practice-squad elevation for Week 9.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens"
+        },
+        {
+          "player": "Tavius Robinson",
+          "position": "OLB",
+          "status": "IR",
+          "injury": "Pectoral. Reported as season-ending.",
+          "starter": true,
+          "source": "https://dknetwork.draftkings.com/2026/11/03/nfl-injury-report-week-9/"
+        },
+        {
+          "player": "Ethan Pocic",
+          "position": "C",
+          "status": "IR",
+          "injury": "Knee, hurt Week 3 and placed on IR Oct 3. CBS lists an expected Week 10 return but no practice window or activation was found.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        },
+        {
+          "player": "Bilhal Kone",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Still on IR. CBS lists expected return Week 14.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Carried from last week. No update found. Presumed still on IR.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        },
+        {
+          "player": "Jovaughn Gwyn",
+          "position": "G",
+          "status": "IR",
+          "injury": "Carried from last week. No update found. Presumed still on IR.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Head coach is Jesse Minter. He is keeping Lamar Jackson's recovery details private. ESPN reports Jackson told teammates he plans to return this season.",
+        "Brissett trade (Nov 6): Baltimore got Brissett and a 2027 fifth for a 2027 fourth and a 2028 seventh. He had been benched in Arizona.",
+        "Kicker change: Jake Moody (signed off the practice squad) replaces Tyler Loop for at least four games.",
+        "Secondary is thin: Hamilton, Wiggins and Hawkins all carry some doubt. Minter was optimistic on all three on Nov 9.",
+        "Four-game losing streak, 4-5, but 11 days of rest and a home Monday night game against an 0-8 opponent."
+      ],
+      "sources": [
+        "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody",
+        "https://baltimoreravens.com/news/kyle-hamilton-injury-update-jacoby-brissett-starting-against-chargers-monday-night-minter-lamar-jackson-injury-conversations-private",
+        "https://www.espn.com/nfl/game/_/gameId/401873065/chargers-ravens",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-put-tyler-loop-on-injured-reserve",
+        "https://www.espn.com/nfl/story/_/id/50349558/ravens-lamar-jackson-rest-game-thumb-injury",
+        "https://sports.yahoo.com/nfl/breaking-news/article/ravens-officially-place-lamar-jackson-tyler-huntley-on-ir-with-thumb-turf-toe-injuries-212439146.html",
+        "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/",
+        "https://www.rotowire.com/football/headlines/jaylinn-hawkins-injury-might-practice-this-week-646865",
+        "https://dknetwork.draftkings.com/2026/11/03/nfl-injury-report-week-9/",
+        "https://www.espn.com/nfl/team/transactions/_/name/bal/baltimore-ravens",
+        "https://heavy.com/sports/nfl/los-angeles-chargers/jacoby-brissett-start-against-chargers-ravens/",
+        "https://www.cbssports.com/nfl/news/ravens-vs-jaguars-live-updates-score-highlights/live/",
+        "https://www.foxnews.com/outkick-sports/ravens-acquire-jacoby-brissett-cardinals-injuries-lamar-jackson-tyler-huntley-report",
+        "https://www.nbcnewyork.com/news/sports/nfl/jaguars-ravens-score-trevor-lawrence/6568542/",
+        "https://sports.yahoo.com/articles/ravens-lose-kyle-hamilton-hip-033833975.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-04/hawkins-out-for-week-9-with-knee-issue",
+        "https://espn.com/nfl/story/_/id/50407561/sources-lamar-jackson-told-ravens-plans-return-26",
+        "https://www.washingtonpost.com/sports/nfl/2026/11/09/baltimore-ravens-lamar-jackson/4e82d66c-dc8a-11f1-912c-4fbb80d73f7f_story.html"
+      ]
+    }
+  }
+}
