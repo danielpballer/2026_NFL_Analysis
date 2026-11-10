@@ -246,3 +246,11 @@ margin sd 13.5 to 14.0. Details in `output/week7_2026_postmortem.md`.
 
 Week 8 went 10-4 (log loss 0.570, market moneyline 0.553). Pooled over 120 games the blend
 leads 0.652 to 0.653. Change: injury scale 0.6 to 0.5. Details in `output/week8_2026_postmortem.md`.
+
+## Status (Nov 10, 2026): Week 9 scored, Week 10 in progress
+
+Week 9 went 14-1. Pooled over 135 games the blend (0.628) and the market moneyline (0.627) are
+level; the model led through Week 5 and the market since. Corrections: margin sd back to 12.7,
+market weight a flat 0.50, quarterback weight 0.75 with an in-season baseline, value cut 5%.
+Tuesday value tables are snapshotted in `output/`; research prompts come from
+`nflsim.research_prompts`. Details in `output/week9_2026_postmortem.md`.

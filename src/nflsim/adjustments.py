@@ -46,11 +46,37 @@ def head_coach_changes(season: int) -> dict[str, dict]:
 
 
 # ---------------------------------------------------------------- quarterbacks ---------------
-def qb_adjustment(team: str, qb_manual: dict, qb_vals: pd.DataFrame, team_qb: pd.DataFrame) -> dict:
-    """Points to add to the team rating for its 2026 starter relative to what it fielded in 2025."""
+def qb_baseline(team: str, season: int, week: int, qb_vals: pd.DataFrame, team_qb: pd.DataFrame) -> float:
+    """Quarterback value already inside the team rating entering `week`: the 2025 fielded value
+    (worth PRIOR_GAMES games, like the rating prior) averaged with the value of whoever started each
+    completed game this season. Measuring this week's starter against the 2025 value alone double
+    counts a quarterback the rating has already seen, and gets the sign wrong when a backup replaces
+    this season's starter."""
+    f25 = float(team_qb.loc[team, "fielded_qb_value"]) if team in team_qb.index else -1.0
+    g = pd.read_csv(RAW / "games.csv", low_memory=False)
+    g = g[(g.season == season) & (g.week < week) & g.result.notna() & ((g.home_team == team) | (g.away_team == team))]
+    val = dict(zip(qb_vals.passer_player_name, qb_vals.value_pts))
+    vals = []
+    for _, r in g.iterrows():
+        name = str(r.home_qb_name if r.home_team == team else r.away_qb_name)
+        entry = load_week_json("qb", season, int(r.week)).get("teams", {}).get(team, {})
+        last = name.replace(" Jr.", "").replace(" Sr.", "").replace(" III", "").replace(" II", "").split()[-1].lower()
+        if entry.get("value_override") is not None and last in str(entry.get("starter", "")).lower():
+            vals.append(float(entry["value_override"]))
+        else:
+            vals.append(float(val.get(_short_name(name), -3.0)))
+    return (C.PRIOR_GAMES * f25 + sum(vals)) / (C.PRIOR_GAMES + len(vals))
+
+
+def qb_adjustment(team: str, qb_manual: dict, qb_vals: pd.DataFrame, team_qb: pd.DataFrame, baseline: float | None = None) -> dict:
+    """Points to add to the team rating for this week's starter relative to the quarterback play the
+    rating already contains (`baseline`; the 2025 fielded value when none is given)."""
     entry = qb_manual.get("teams", {}).get(team, {})
     starter = entry.get("starter")
     fielded = float(team_qb.loc[team, "fielded_qb_value"]) if team in team_qb.index else -1.0
+    f25 = fielded
+    if baseline is not None:
+        fielded = float(baseline)
     value = None
     match = None
     if entry.get("value_override") is not None:
@@ -68,7 +94,7 @@ def qb_adjustment(team: str, qb_manual: dict, qb_vals: pd.DataFrame, team_qb: pd
     delta = C.QB_CHANGE_WEIGHT * (value - fielded)
     extra_sd = C.NEW_QB_EXTRA_SD if entry.get("new_to_team") or entry.get("rookie") else 0.0
     extra_sd = max(extra_sd, float(entry.get("extra_sd", 0.0)))
-    return {"team": team, "qb": starter, "qb_value": value, "fielded_2025": fielded,
+    return {"team": team, "qb": starter, "qb_value": value, "fielded_2025": f25, "qb_baseline": fielded,
             "qb_adj": delta, "qb_extra_sd": extra_sd, "match": match, "notes": entry.get("notes", "")}
 
 

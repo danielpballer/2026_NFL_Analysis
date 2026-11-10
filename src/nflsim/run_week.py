@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 from . import config as C
-from .adjustments import (GameContext, head_coach_changes, injury_adjustment, load_json, load_week_json, qb_adjustment)
+from .adjustments import (GameContext, head_coach_changes, injury_adjustment, load_json, load_week_json, qb_adjustment, qb_baseline)
 from .qb import qb_values, team_primary_qb
 from .ratings import current_ratings
 from .report import write_outputs
@@ -54,7 +54,7 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
             base = float(ratings.loc[team, "rating"])
             new_hc = team in coaching
             base_hc = base * (1 - C.NEW_HC_REGRESSION) if new_hc else base
-            q = qb_adjustment(team, qb_manual, qvals, tqb)
+            q = qb_adjustment(team, qb_manual, qvals, tqb, baseline=qb_baseline(team, season, week, qvals, tqb))
             inj = injury_adjustment(team, injuries)
             rating = base_hc + q["qb_adj"] + inj["injury_pts"]
             side[team] = {"base": base, "new_hc": new_hc, "rating": rating, **q, **inj}

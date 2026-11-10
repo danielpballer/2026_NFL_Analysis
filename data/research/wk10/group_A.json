@@ -1,0 +1,1202 @@
+{
+ "collected_on": "2026-11-10",
+ "search_calls_used": 40,
+ "unverified": [
+  "All statuses are from Monday Nov 9 (or earlier) reporting plus aggregator pages. No official Wednesday-Friday Week 10 practice reports or game designations existed yet for the six Sunday teams, and the Tuesday Nov 10 WAS/NYG report was not available. Statuses such as Questionable/Doubtful/Probable are best-estimate mappings, not official designations.",
+  "Search only (no page fetch): details come from result snippets and search summaries, so individual fields (injury body parts, dates) may be imprecise.",
+  "Backup QBs for WAS, DET, KC and HOU were not named in any dated snippet.",
+  "NE: no explicit Vrabel confirmation that Drake Maye starts in Munich after his late-game benching (no report of a change either). Milton Williams status unknown. Stevenson MRI result unconfirmed. Henderson (illness) and A.J. Brown Week 10 status unconfirmed. Channing Canada, Karon Prunty and most carried IR/NFI names not checked individually.",
+  "ATL: no explicit Stefanski confirmation of Penix for Week 10. Samson Ebukam IR placement is conflicting (AJC says ruled out week to week, CBS summary says IR with Week 14 return). A.J. Terrell and Jalon Walker IR status not confirmed. James Pearce Jr. availability and Drake Jackson roster status unclear.",
+  "HOU: Braden Smith is either designated-to-return on IR or activated-but-inactive (sources conflict). Jaylin Smith activation not confirmed. Carried entry 'Ossai (DE, IR)' could not be matched to a player distinct from K.C. Ossai. Tank Dell's exact activation date was not captured, only that he has played.",
+  "DET: Amon-Ra St. Brown (rib) and Jacob Saylors (neck) Week 9 participation and Week 10 status not captured. Whether Andre Cisco is available Sunday is unknown. Mays, Reed and Wonnum 'questionable' labels come from ESPN/SI aggregator pages, not a practice report.",
+  "KC: Omarr Norman-Lott designated to return from PUP but activation not confirmed. Kicker decision (Butker vs Tucker) not made. Mansoor Delane and Peter Woods injuries not specified. Final score 35-12 is corroborated by two outlets but the 6-2 record is inferred.",
+  "NYG: record reported as both 5-2-1 and 5-3-1. Malik Harrison starter status uncertain. Five carried IR names (Austin, Olszewski, Bernard-Converse, Black, Robertson-Harris) not individually confirmed.",
+  "WAS: Dorance Armstrong and Jaylin Lane IR status not individually confirmed. Fabian Moreau injury not specified. Commanders' record of 2-5-1 comes from a single search summary.",
+  "Trade deadline (Nov 10, 4pm ET): all trackers found were published before the deadline. Any late Tuesday trades involving these eight teams are not captured. Confirmed deals involving these teams: ATL traded Jessie Bates III to JAX (Nov 9), DET acquired Andre Cisco from NYJ (Nov 9).",
+  "Starter true/false flags are judgment calls for several depth players (Okonkwo, Tuttle, Robertson, Dyami Brown, Montgomery, Malik Harrison, Delane)."
+ ],
+ "teams": {
+  "WAS": {
+   "week9_result": "Lost 20-13 at home to the Rams on Nov 8 2026 and fell to 2-5-1. Led 10-6 at half then scored 3 points the rest of the way. Played without WRs Terry McLaurin, Treylon Burks and Dyami Brown and leaned on 13 personnel. Rams DL Myles Garrett had 3 sacks.",
+   "qb": {
+    "starter": "Jayden Daniels",
+    "backup": "unverified (not named in any Nov 3-10 snippet)",
+    "changed_from_week9": false,
+    "notes": "Started and finished Week 9 vs Rams. Appears on the estimated Monday Nov 9 report as a FULL participant (body part not shown in snippets). No report of any doubt about his Thursday availability."
+   },
+   "injuries": [
+    {
+     "player": "Lucas Patrick",
+     "position": "C",
+     "status": "Doubtful",
+     "injury": "Concussion protocol. Estimated DNP on Monday Nov 9 walkthrough report. SI preview lists him doubtful. Short week makes clearing protocol by Thursday hard. Not an official game designation yet",
+     "starter": true,
+     "source": "https://www.hogshaven.com/washington-commanders-injuries/454204/commanders-vs-giants-monday-injury-report-treylon-burks-amik-robertson-lucas-patrick"
+    },
+    {
+     "player": "Treylon Burks",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Foot. Missed Week 9 vs Rams. Estimated DNP Monday Nov 9. SI preview lists questionable",
+     "starter": true,
+     "source": "https://www.commanders.com/news/commanders-vs-giants-week-10-injury-report-2026"
+    },
+    {
+     "player": "Colson Yankoff",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Knee. Estimated DNP Monday Nov 9",
+     "starter": false,
+     "source": "https://x.com/BenStandig/status/2119914040851837185"
+    },
+    {
+     "player": "Chig Okonkwo",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Hip. Estimated limited Monday Nov 9",
+     "starter": true,
+     "source": "https://www.hogshaven.com/washington-commanders-injuries/454204/commanders-vs-giants-monday-injury-report-treylon-burks-amik-robertson-lucas-patrick"
+    },
+    {
+     "player": "Shy Tuttle",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Shoulder. Estimated limited Monday Nov 9. DT depth is thin with Payne and Kinlaw on IR",
+     "starter": true,
+     "source": "https://www.hogshaven.com/washington-commanders-injuries/454204/commanders-vs-giants-monday-injury-report-treylon-burks-amik-robertson-lucas-patrick"
+    },
+    {
+     "player": "Amik Robertson",
+     "position": "CB",
+     "status": "Probable",
+     "injury": "Ankle. Estimated full participant Monday Nov 9. Dan Quinn said team is optimistic he plays Thursday",
+     "starter": true,
+     "source": "https://www.hogshaven.com/washington-commanders-injuries/454204/commanders-vs-giants-monday-injury-report-treylon-burks-amik-robertson-lucas-patrick"
+    },
+    {
+     "player": "Fabian Moreau",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Listed questionable in SI Week 10 preview. Injury not specified in snippet (unverified)",
+     "starter": false,
+     "source": "https://www.si.com/betting/commanders-vs-giants-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026"
+    },
+    {
+     "player": "Daron Payne",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Foot (reported Jones fracture suffered in practice). Placed on IR Nov 3 2026. Reported as season-ending",
+     "starter": true,
+     "source": "https://www.washingtontimes.com/news/2026/nov/3/commanders-send-kinlaw-payne-mcnichols-injured-reserve/"
+    },
+    {
+     "player": "Javon Kinlaw",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Knee (MCL surgery). Placed on IR Nov 3 2026. ESPN source says out for season. NEW since last week list",
+     "starter": true,
+     "source": "https://espn.com/nfl/story/_/id/50378427/source-commanders-javon-kinlaw-knee-surgery-season"
+    },
+    {
+     "player": "Jeremy McNichols",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Foot. Placed on IR Nov 3 2026. Expected to miss multiple months. NEW since last week list",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/commanders-place-jeremy-mcnichols-injured-211600045.html"
+    },
+    {
+     "player": "Dyami Brown",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Calf. Placed on IR Saturday Nov 7 2026. NEW since last week list",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/transactions/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Terry McLaurin",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Torn patellar tendon. On IR and out for the 2026 season",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/news/commanders-terry-mclaurin-knee-injury-monday-night-football/"
+    },
+    {
+     "player": "Laremy Tunsil",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Torn triceps from training camp. Has not played in 2026. Expected to miss most or all of the regular season. Not formally ruled out for the year",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/multiple-commanders-injury-updates-ahead-172659231.html"
+    },
+    {
+     "player": "Dorance Armstrong",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Jaylin Lane",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Jer'Zhan (Johnny) Newton DT was ACTIVATED from IR on Nov 7 (pec tear in preseason) and is back. Payne, McLaurin and Tunsil are still on IR. Armstrong and Lane have no news (presumed still IR).",
+    "Interior D-line is gutted: Payne and Kinlaw both went on IR Nov 3 and Tuttle is limited with a shoulder. Newton's return is the only offset.",
+    "Center is the key Thursday question. Yahoo/Commanders Wire framed the offense as in big trouble if Lucas Patrick (concussion) cannot go. Matt Gulbin (full participant) is the likely fill-in (inferred).",
+    "WR room is McLaurin (IR), Dyami Brown (IR) and Burks (foot, DNP). Jaden Bradley was elevated from the practice squad for Week 9. RB Robert Henry Jr. claimed off waivers from Seattle.",
+    "Short week on the road (Sunday home game then Thursday at MetLife). Monday report was an estimate because only a walkthrough was held. Tuesday/Wednesday reports were not yet available at collection time."
+   ],
+   "sources": [
+    "https://www.hogshaven.com/washington-commanders-injuries/454204/commanders-vs-giants-monday-injury-report-treylon-burks-amik-robertson-lucas-patrick",
+    "https://www.commanders.com/news/commanders-vs-giants-week-10-injury-report-2026",
+    "https://www.si.com/betting/commanders-vs-giants-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+    "https://www.washingtontimes.com/news/2026/nov/3/commanders-send-kinlaw-payne-mcnichols-injured-reserve/",
+    "https://www.espn.com/nfl/team/transactions/_/name/wsh/washington-commanders",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-dt-johnny-newton-from-injured-reserve",
+    "https://sports.yahoo.com/articles/rams-hold-beat-commanders-20-211411933.html",
+    "https://www.pff.com/news/nfl-week-9-recap-los-angeles-rams-20-washington-commanders-13",
+    "https://sports.yahoo.com/articles/commanders-injury-report-washington-big-222103617.html",
+    "https://www.cbssports.com/nfl/news/commanders-terry-mclaurin-knee-injury-monday-night-football/",
+    "https://espn.com/nfl/story/_/id/50378427/source-commanders-javon-kinlaw-knee-surgery-season",
+    "https://x.com/BenStandig/status/2119914040851837185"
+   ]
+  },
+  "NYG": {
+   "week9_result": "Won 19-11 at Philadelphia on Nov 8 2026 (first win in Philadelphia in 13 years). Defense had 7 sacks with rookie Arvell Reese getting 3 sacks and 12 tackles. J.J. McCarthy left briefly with a hip injury and Jameis Winston relieved him before McCarthy returned. Cam Skattebo was held out (hamstring). Record reported as 5-2-1 or 5-3-1 depending on source and first in the NFC East.",
+   "qb": {
+    "starter": "J.J. McCarthy",
+    "backup": "Jameis Winston",
+    "changed_from_week9": false,
+    "notes": "McCarthy is correct and not a file error: the Giants acquired him from Minnesota for a fifth-round pick on Sept 28 2026 after Jaxson Dart's Week 2 knee injury (MCL/meniscus/PCL surgery, out for the regular season). Winston started in the interim and is now the backup. McCarthy has a hip pointer from Week 9, was limited on the estimated Monday Nov 9 report, and John Harbaugh said it does look like he is going to play Thursday."
+   },
+   "injuries": [
+    {
+     "player": "J.J. McCarthy",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Hip pointer suffered Nov 8 at Eagles. Estimated limited Monday Nov 9. Harbaugh says he looks like he will play Thursday. No official designation yet",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-10-injury-report-qb-j-j-mccarthy-rb-cam-skattebo-limited"
+    },
+    {
+     "player": "Cam Skattebo",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "Hamstring. Inactive Week 9 as a precaution. Estimated limited Monday Nov 9. Harbaugh said he should be full go Thursday (SI preview still lists questionable)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders/"
+    },
+    {
+     "player": "Abdul Carter",
+     "position": "OLB",
+     "status": "Questionable",
+     "injury": "Knee/back. Estimated limited Monday Nov 9",
+     "starter": true,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-10-injury-report-qb-j-j-mccarthy-rb-cam-skattebo-limited"
+    },
+    {
+     "player": "Malik Harrison",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Groin. Estimated limited Monday Nov 9",
+     "starter": false,
+     "source": "https://www.giants.com/news/giants-vs-commanders-week-10-injury-report-qb-j-j-mccarthy-rb-cam-skattebo-limited"
+    },
+    {
+     "player": "Jaxson Dart",
+     "position": "QB",
+     "status": "IR",
+     "injury": "Left knee (MCL and meniscus tears plus PCL damage) from Week 2. Surgery done. Out for the regular season",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50013861/giants-qb-dart-knee-surgery-miss-rest-regular-season"
+    },
+    {
+     "player": "Brian Burns",
+     "position": "OLB",
+     "status": "IR",
+     "injury": "Knee (ACL per CBS depth chart). Placed on IR Sept 29 2026. Still out",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/NYG/new-york-giants/depth-chart/"
+    },
+    {
+     "player": "Tremaine Edmunds",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Chest. Placed on IR Oct 24 2026. Still on IR per CBS depth chart. No practice-window news found",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/NYG/new-york-giants/depth-chart/"
+    },
+    {
+     "player": "Tyrone Tracy Jr.",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Hamstring. Placed on IR Oct 27 2026. Must miss at least 4 games. CBS lists expected return Week 13",
+     "starter": false,
+     "source": "https://www.bigblueview.com/new-york-giants-roster/177906/giants-roster-moves-rb-tyrone-tracy-to-ir-rb-greg-derosiers-signed"
+    },
+    {
+     "player": "Calvin Austin III",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Gunner Olszewski",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Jarrick Bernard-Converse",
+     "position": "DB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Korie Black",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Roy Robertson-Harris",
+     "position": "DL",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Burns, Edmunds and Tracy confirmed still on IR. Austin, Olszewski, Bernard-Converse, Black and Robertson-Harris have no news (presumed still IR). No Giants activations found since Nov 3.",
+    "No Giants player was projected to miss Monday's (walkthrough) practice. Full practice Tuesday, walkthrough Wednesday. Tuesday report not available at collection time.",
+    "Head coach is John Harbaugh. Team sits atop the NFC East and was described as aggressive at the Nov 10 4pm ET trade deadline (linked to Jonathan Taylor). No completed deadline deal was found in searches (unverified whether one happened late Tuesday).",
+    "Pass rush is hot (7 sacks at PHI) and faces a Washington line that may be without its center. Covers lists the Giants as short home favorites.",
+    "RB depth: Tracy on IR, Gregory Desrosiers signed from the Chargers practice squad Oct 27, Phil Mafah was elevated for Week 9. Skattebo's return matters."
+   ],
+   "sources": [
+    "https://www.giants.com/news/giants-vs-commanders-week-10-injury-report-qb-j-j-mccarthy-rb-cam-skattebo-limited",
+    "https://www.cbssports.com/nfl/news/jj-mccarthy-injury-giants-qb-on-track-commanders-thursday-night-football/",
+    "https://www.cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders/",
+    "https://www.si.com/nfl/giants/onsi/giants-injury-report-skattebo-mccarthy-commanders-week-10-01m713bthb55",
+    "https://www.bigblueview.com/new-york-giants-injuries/179296/cam-skattebo-should-be-full-go-j-j-mccarthy-should-play-vs-washington",
+    "https://www.philadelphiaeagles.com/news/giants-vs-eagles-game-recap-2026-nfl-week-9-kelly-green-joe-milton-saquon-barkley-jj-mccarthy-malik-nabers",
+    "https://www.cbssports.com/nfl/teams/NYG/new-york-giants/depth-chart/",
+    "https://www.espn.com/nfl/team/transactions/_/name/nyg/new-york-giants",
+    "https://www.bigblueview.com/new-york-giants-roster/177906/giants-roster-moves-rb-tyrone-tracy-to-ir-rb-greg-derosiers-signed",
+    "https://www.espn.com/nfl/story/_/id/50013861/giants-qb-dart-knee-surgery-miss-rest-regular-season",
+    "https://sports.yahoo.com/articles/giants-pursuing-aggressive-strategy-trade-225144750.html",
+    "https://www.nfl.com/news/nfl-trade-deadline-track-every-move-since-start-of-2026-regular-season",
+    "https://www.covers.com/nfl/week-10-odds-opening-lines-2026"
+   ]
+  },
+  "NE": {
+   "week9_result": "Lost 45-27 at home to the Packers on Nov 8 2026 and fell to 5-4. Trailed 17-0 in the second quarter. Drake Maye threw 3 first-half interceptions and was pulled for Tommy DeVito in the fourth quarter down 45-21. Rhamondre Stevenson (knee), LT Will Campbell (knee) and G Ben Brown (knee) all left the game.",
+   "qb": {
+    "starter": "Drake Maye",
+    "backup": "Tommy DeVito",
+    "changed_from_week9": false,
+    "notes": "Maye was benched late in the Week 9 blowout (21-of-38, 299 yds, 3 TD, 3 INT) and also in Week 3 vs Jacksonville. He leads the NFL with 11 INT. No report found of a QB change for Munich, and coverage frames him as the starter with a depleted supporting cast, but no explicit Vrabel quote confirming the Week 10 starter was captured (treat as expected, not confirmed). No Maye injury found."
+   },
+   "injuries": [
+    {
+     "player": "Ben Brown",
+     "position": "G",
+     "status": "Out",
+     "injury": "Knee suffered Nov 8 vs Packers. Mike Vrabel on Monday Nov 9: he won't make it this week. Walter Rouse expected to start at left guard",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-injuries/143709/ben-brown-injury-update-patriots-vs-lions-nfl-week-10-germany"
+    },
+    {
+     "player": "Rhamondre Stevenson",
+     "position": "RB",
+     "status": "Doubtful",
+     "injury": "Knee suffered Nov 8 vs Packers and did not return. MRI results pending as of Nov 9. One report (Musketfire) says a knee tendon issue is expected to keep him out the next few weeks. ESPN lists questionable. Not officially ruled out",
+     "starter": true,
+     "source": "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-dont-expect-ben-brown-to-play-in-week-10-waiting-for-rhamondre-stevenson-mri-results"
+    },
+    {
+     "player": "TreVeyon Henderson",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Illness. Missed the last two games (ruled out Nov 6 for Week 9). Week 10 status not yet reported (unverified)",
+     "starter": true,
+     "source": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-wr-a-j-brown-rb-treveyon-henderson-te-hunter-henry-questionable-for-sunday-vs-packers"
+    },
+    {
+     "player": "A.J. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Knee and ankle. Missed the last two games. Vrabel says the plan is for him to travel to Munich but playing status is undecided. Bleacher Report says team is optimistic about a return after the Week 11 bye, which leans toward out this week",
+     "starter": true,
+     "source": "https://rotowire.com/football/headlines/aj-brown-injury-expected-to-travel-with-team-to-munich-646821"
+    },
+    {
+     "player": "Will Campbell",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Knee. Left Nov 8 game vs Packers and did not return. Initial update described as encouraging. Yahoo lists questionable",
+     "starter": true,
+     "source": "https://sports.yahoo.com/nfl/teams/new-england/injuries/"
+    },
+    {
+     "player": "Romeo Doubs",
+     "position": "WR",
+     "status": "IR",
+     "injury": "On IR. ESPN estimated return Nov 29 (after Week 11 bye). Still out for Week 10",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/ne/new-england-patriots"
+    },
+    {
+     "player": "Alijah Vera-Tucker",
+     "position": "G",
+     "status": "IR",
+     "injury": "Hamstring. On IR. Trackers list eligible to return Week 12",
+     "starter": true,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Mike Onwenu",
+     "position": "G",
+     "status": "IR",
+     "injury": "Ankle. On IR. Trackers list him as out for season or potentially out for season. Still out",
+     "starter": true,
+     "source": "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker"
+    },
+    {
+     "player": "Harold Landry III",
+     "position": "LB",
+     "status": "PUP",
+     "injury": "Still on PUP per Boston Globe (Oct 28). ESPN lists Out. No activation found",
+     "starter": true,
+     "source": "https://www.bostonglobe.com/2026/10/28/sports/patriots-injured-reserve-players-activation-nfl-football/"
+    },
+    {
+     "player": "Milton Williams",
+     "position": "DT",
+     "status": "Out",
+     "injury": "Carried as Out in Week 9. No Week 10 information found in any search (unverified)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Bryce Baringer",
+     "position": "P",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Eric Butler",
+     "position": "S",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Henry Anderson",
+     "position": "DE",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Isaiah Iton",
+     "position": "DL",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Khalil Jacobs",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Kristian Wilkerson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Marcus Bryant",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Quintayvious Hutchins",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Reggie Gilliam",
+     "position": "FB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Brenden Schooler",
+     "position": "S",
+     "status": "NFI",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Channing Canada",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Karon Prunty",
+     "position": "CB",
+     "status": "Out",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Mack Hollins WR was ACTIVATED from IR on Nov 7 (ESPN transaction log) and is back. Doubs, Vera-Tucker and Onwenu still on IR. Landry still PUP. Milton Williams, Canada, Prunty and the remaining IR names have no fresh news (unverified).",
+    "Offensive line is being reshuffled again: LG Ben Brown out (Walter Rouse in), LT Will Campbell questionable (knee), Onwenu and Vera-Tucker on IR.",
+    "Running back crisis: Stevenson (knee) likely out and Henderson has missed two straight with illness. NESN headlined it as an RB crisis before Munich.",
+    "Neutral-site game at FC Bayern Munich Stadium in Germany with a long trip, followed by a Week 11 bye. Patriots have already passed last season's IR total and had only about $5.64M cap space at the Nov 10 deadline. No Patriots deadline trade was found.",
+    "Defense just allowed 45 points (reported as most ever allowed at Gillette) and CB Christian Gonzalez was beaten for 187 yards and a TD."
+   ],
+   "sources": [
+    "https://www.nbcsportsboston.com/nfl/new-england-patriots/live-updates-patriots-packers-score-highlights-stats-analysis/812191/",
+    "https://www.patspulpit.com/new-england-patriots-news/143543/patriots-bench-drake-maye-after-3-interception-game-against-packers",
+    "https://www.patspulpit.com/new-england-patriots-injuries/143709/ben-brown-injury-update-patriots-vs-lions-nfl-week-10-germany",
+    "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-dont-expect-ben-brown-to-play-in-week-10-waiting-for-rhamondre-stevenson-mri-results",
+    "https://musketfire.com/patriots-week-10-injuries-rhamondre-stevenson-update-a-j-brown-plan-and-more-01m70p13xpje",
+    "https://rotowire.com/football/headlines/aj-brown-injury-expected-to-travel-with-team-to-munich-646821",
+    "https://bleacherreport.com/articles/25530172-aj-brown-injury-update-new-nfl-rumors-return-timeline-amid-patriots-optimistic-outlook",
+    "https://sports.yahoo.com/nfl/teams/new-england/injuries/",
+    "https://www.espn.com/nfl/team/injuries/_/name/ne/new-england-patriots",
+    "https://www.espn.com/nfl/team/transactions/_/name/ne/new-england-patriots",
+    "https://www.bostonglobe.com/2026/10/28/sports/patriots-injured-reserve-players-activation-nfl-football/",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+    "https://www.profootballrumors.com/2026/10/2026-nfl-injured-reserve-return-tracker",
+    "https://nesn.com/new-england-patriots/news/patriots-face-running-back-crisis-munich-after-rhamondre-stevenson-injury/f08cfef284f5a4b5947b8729",
+    "https://sports.yahoo.com/articles/patriots-takeaways-mike-vrabel-trade-185814069.html",
+    "https://www.si.com/betting/patriots-vs-lions-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026"
+   ]
+  },
+  "DET": {
+   "week9_result": "Won 19-9 at Miami on Nov 8 2026. Offense was flat (Goff 17-of-25, 170 yds, 0 TD, 1 INT, 3 sacks, ending a 30-game TD-pass streak) and the defense carried the game despite five starters being ruled out (Jack Campbell, Kerby Joseph, Cade Mays, D.J. Reed, DJ Wonnum).",
+   "qb": {
+    "starter": "Jared Goff",
+    "backup": "unverified (not named in any Nov 3-10 snippet)",
+    "changed_from_week9": false,
+    "notes": "No injury or practice concern found for Goff. Coming off a quiet game at Miami."
+   },
+   "injuries": [
+    {
+     "player": "Jack Campbell",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Neck injury suffered in the Nov 2 win over Minnesota. Was hospitalized. Placed on IR Saturday Nov 7 2026 and must miss at least 4 games (ESPN est. return Dec 6). Trevor Nowaske starts in his place",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-lb-jack-campbell-on-injured-reserve"
+    },
+    {
+     "player": "Kerby Joseph",
+     "position": "S",
+     "status": "PUP",
+     "injury": "Knee. In 21-day practice window that ends Nov 17 (must be activated by 4pm ET Nov 18 or his season is over). Dan Campbell said he will NOT play vs New England in Germany",
+     "starter": true,
+     "source": "https://atozsports.com/nfl/detroit-lions-news/detroit-lions-face-a-potentially-season-defining-decision-on-kerby-joseph-after-dan-campbell-delivers-disappointing-injury-update/"
+    },
+    {
+     "player": "Cade Mays",
+     "position": "C",
+     "status": "Questionable",
+     "injury": "Ankle. Ruled out for Week 9 at Miami (Juice Scruggs started at center). ESPN lists questionable for Nov 15. No Week 10 practice report yet",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions"
+    },
+    {
+     "player": "D.J. Reed",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Hip. Ruled out for Week 9 and was not cleared to practice last week. ESPN and SI list questionable for Nov 15",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions"
+    },
+    {
+     "player": "DJ Wonnum",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "Concussion. Ruled out for Week 9. ESPN lists questionable for Nov 15. Must clear protocol",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions"
+    },
+    {
+     "player": "Mekhi Wingo",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Listed questionable in SI Week 10 preview. Injury not specified in snippet (unverified)",
+     "starter": false,
+     "source": "https://www.si.com/betting/patriots-vs-lions-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026"
+    },
+    {
+     "player": "Amon-Ra St. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Rib. Was listed questionable on the final Week 9 report (Nov 6). Whether he played at Miami and his Week 10 status were not captured (unverified)",
+     "starter": true,
+     "source": "https://www.detroitlions.com/news/lions-at-dolphins-injury-report-nov-6-branch-stbrown-reed"
+    },
+    {
+     "player": "Jacob Saylors",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Neck. Was questionable on the final Week 9 report (Nov 6). Week 10 status not captured (unverified)",
+     "starter": false,
+     "source": "https://www.detroitlions.com/news/lions-at-dolphins-injury-report-nov-6-branch-stbrown-reed"
+    },
+    {
+     "player": "Jimmy Rolder",
+     "position": "LB",
+     "status": "IR",
+     "injury": "On IR and needs surgery per Dan Campbell (Nov 3). Still out",
+     "starter": false,
+     "source": "https://www.clickondetroit.com/sports/2026/11/03/detroit-lions-dan-campbell-shares-injury-update-on-multitude-of-players-including-jack-campbell-branch/"
+    },
+    {
+     "player": "Avonte Maddox",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Ben Bartch",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Devin White",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Isiah Pacheco",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Thomas Harper",
+     "position": "S",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Tom Kennedy",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Jack Campbell moved from Out to IR (Nov 7). Kerby Joseph still PUP and ruled out for Munich by his coach. Rolder still IR (surgery). Maddox, Bartch, White, Pacheco, Harper and Kennedy have no news (presumed still IR).",
+    "Traded for S Andre Cisco from the Jets on Nov 9 (2028 sixth-round pick) to cover the safety spot with Joseph still out. Whether Cisco plays Sunday is unverified.",
+    "Roster moves Nov 7: CB Nick Whiteside signed from the practice squad. DE Anthony Lucas and RB Jabari Small were elevated for Week 9.",
+    "Schedule and travel: Monday night win over Minnesota (Nov 2), then at Miami (Nov 8), then a transatlantic trip to Munich for a neutral-site game. Detroit is the designated home team.",
+    "Three starters (Mays, Reed, Wonnum) sat out Week 9 and are only listed questionable by aggregator pages. First official Week 10 practice report (Wednesday) not yet available."
+   ],
+   "sources": [
+    "https://www.detroitlions.com/news/recap-lions-at-dolphins-bates-goff-moore",
+    "https://sports.yahoo.com/articles/lions-week-9-19-9-211700368.html",
+    "https://www.prideofdetroit.com/detroit-lions-injuries/179867/lions-dolphins-week-9-injury-designations-lions-rule-out-5-starters",
+    "https://www.detroitlions.com/news/lions-at-dolphins-injury-report-nov-6-branch-stbrown-reed",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-lb-jack-campbell-on-injured-reserve",
+    "https://sports.yahoo.com/articles/detroit-lions-place-lb-jack-212004889.html",
+    "https://atozsports.com/nfl/detroit-lions-news/detroit-lions-face-a-potentially-season-defining-decision-on-kerby-joseph-after-dan-campbell-delivers-disappointing-injury-update/",
+    "https://www.clickondetroit.com/sports/2026/11/03/detroit-lions-dan-campbell-shares-injury-update-on-multitude-of-players-including-jack-campbell-branch/",
+    "https://www.espn.com/nfl/game/_/gameId/401873053/patriots-lions",
+    "https://www.si.com/betting/patriots-vs-lions-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+    "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+    "https://www.dazn.com/en-US/news/football/nfl-trade-tracker-2026-every-move-deadline-bates-jaguars/1cfwzcq27y8x91wc1lttdqavx3"
+   ]
+  },
+  "KC": {
+   "week9_result": "Beat the Jets 35-12 at Arrowhead on Nov 8 2026 (Jets did not score after halftime). Chiefs entered 5-2 so are now 6-2 (record inferred). Patrick Mahomes hurt his throwing elbow but did not miss a snap. WR Xavier Worthy (hamstring) and RT Jaylon Moore (ankle) were also hurt.",
+   "qb": {
+    "starter": "Patrick Mahomes",
+    "backup": "unverified (Chris Oladokun is on IR. A Heavy trade-pitch headline implies Justin Fields is on the roster, not confirmed)",
+    "changed_from_week9": false,
+    "notes": "Right (throwing) elbow injury on Nov 8 vs Jets. MRI showed no major injury (Rapoport). Andy Reid on Monday Nov 9 called him day-to-day. CBS and SI list him questionable. He finished the Jets game. May be limited early in the practice week. Line moved from KC -3 to -3.5 after the positive MRI news."
+   },
+   "injuries": [
+    {
+     "player": "Patrick Mahomes",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Throwing elbow hurt Nov 8 vs Jets. MRI negative for major injury. Reid says day-to-day (Nov 9). Expected to play but no practice report yet",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50434564/chiefs-qb-patrick-mahomes-day-day-elbow-injury"
+    },
+    {
+     "player": "Xavier Worthy",
+     "position": "WR",
+     "status": "Doubtful",
+     "injury": "Hamstring suffered Nov 8 vs Jets. Reid says day-to-day but A to Z Sports reports best case is he misses a couple of weeks",
+     "starter": true,
+     "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-injury-updates-patrick-mahomes-xavier-worthy-jaylon-moore-monday/"
+    },
+    {
+     "player": "Jaylon Moore",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "Ankle suffered Nov 8 vs Jets. Reid says day-to-day (Nov 9). Starting right tackle",
+     "starter": true,
+     "source": "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-injury-updates-patrick-mahomes-xavier-worthy-jaylon-moore-monday/"
+    },
+    {
+     "player": "Mansoor Delane",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Was ruled out for Week 9 vs Jets (injury not shown in snippet). SI Week 10 preview lists questionable",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/chiefs-jets-week-9-final-195623842.html"
+    },
+    {
+     "player": "Peter Woods",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Listed questionable in SI Week 10 preview. Injury not specified in snippet (unverified)",
+     "starter": false,
+     "source": "https://www.si.com/betting/chiefs-vs-falcons-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026"
+    },
+    {
+     "player": "Josh Simmons",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Back. On IR. CBS lists expected return Week 11, so still out for Week 10",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/kc/kansas-city-chiefs/injuries/"
+    },
+    {
+     "player": "Tyquan Thornton",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Ankle (reported fracture). On IR. Still out",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/kc/kansas-city-chiefs/injuries/"
+    },
+    {
+     "player": "Omarr Norman-Lott",
+     "position": "DT",
+     "status": "PUP",
+     "injury": "Chiefs transactions page shows him designated to return to practice (date not captured). Not yet activated as far as searches show",
+     "starter": false,
+     "source": "https://www.chiefs.com/team/transactions/"
+    },
+    {
+     "player": "Brashard Smith",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "C.J. Hanson",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Chris Oladokun",
+     "position": "QB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "EJ Smith",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Ethan Downs",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Jimmy Holiday",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Matt Waletzko",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Simmons and Thornton confirmed still on IR. Norman-Lott has been designated to return from PUP but is not confirmed activated. The other seven IR names have no news (presumed still IR). No Chiefs activations found since Nov 3.",
+    "Kicker situation is live: Harrison Butker has missed 7 of 19 field goals. Justin Tucker has been on the practice squad since Oct 28 and Reid said he has not decided whether to make a change for Atlanta.",
+    "Both starting tackles are a concern: LT Josh Simmons is on IR (back) and RT Jaylon Moore is day-to-day (ankle).",
+    "ESPN reported the Chiefs were looking for a receiver before the Nov 10 deadline, which matters more with Worthy hurt and Thornton on IR. No completed Chiefs trade was found.",
+    "Road game in Atlanta against a 3-6 team returning from Madrid. Chiefs favored by 3.5."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/story/_/id/50434564/chiefs-qb-patrick-mahomes-day-day-elbow-injury",
+    "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-injury-updates-patrick-mahomes-xavier-worthy-jaylon-moore-monday/",
+    "https://sports.yahoo.com/articles/reid-patrick-mahomes-day-day-191323936.html",
+    "https://www.si.com/betting/positive-patrick-mahomes-injury-update-shifts-chiefs-vs-falcons-odds-in-nfl-week-10",
+    "https://www.si.com/betting/chiefs-vs-falcons-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+    "https://www.cbssports.com/nfl/teams/kc/kansas-city-chiefs/injuries/",
+    "https://www.onnj.com/new-york-jets-week-9-recap-jets-crash-and-burn-in-kansas-city/",
+    "https://heavy.com/sports/nfl/kansas-city-chiefs/chiefs-news-pat-patrick-mahomes-injury-update-elbow/",
+    "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-andy-reid-opens-door-harrison-butker-justin-tucker-kicker-change-week-10/",
+    "https://www.espn.com/nfl/story/_/id/50307506/sources-chiefs-sign-justin-tucker-practice-squad",
+    "https://www.chiefs.com/team/transactions/",
+    "https://sports.yahoo.com/articles/chiefs-jets-week-9-final-195623842.html",
+    "https://www.espn.com/nfl/story/_/id/50370030/trade-deadline-team-preview-goals-buzz-players-deals-2026"
+   ]
+  },
+  "ATL": {
+   "week9_result": "Lost 34-17 to the Bengals in Madrid on Nov 8 2026 and fell to 3-6. Joe Burrow accounted for 4 touchdowns. Michael Penix Jr. started and was held to 162 passing yards (NBC). Zachariah Branch and Samson Ebukam did not play (hamstrings).",
+   "qb": {
+    "starter": "Michael Penix Jr.",
+    "backup": "Tua Tagovailoa",
+    "changed_from_week9": false,
+    "notes": "Penix started Week 9 in Madrid. He had a rib injury earlier in the season (Tagovailoa relieved him in an overtime loss) and a four-interception game vs Tampa Bay, but no report of a benching or new injury was found for Week 10. No explicit Kevin Stefanski confirmation for the Chiefs game was captured, so treat as expected rather than confirmed."
+   },
+   "injuries": [
+    {
+     "player": "Zachariah Branch",
+     "position": "WR",
+     "status": "Doubtful",
+     "injury": "Hamstring. Ruled out for Week 9 in Madrid. Stefanski did not rule out him missing Week 10. SI preview lists doubtful",
+     "starter": false,
+     "source": "https://www.ajc.com/sports/2026/11/atlanta-falcons-branch-ebukam-injuries-bengals/"
+    },
+    {
+     "player": "Samson Ebukam",
+     "position": "DE",
+     "status": "Out",
+     "injury": "Hamstring (aggravated). Ruled out for Week 9 and Stefanski did not rule out a Week 10 absence. One search summary of the CBS injury page says he was placed on IR with expected return Week 14, which conflicts with the AJC framing. IR placement is unverified",
+     "starter": true,
+     "source": "https://www.ajc.com/sports/2026/11/atlanta-falcons-branch-ebukam-injuries-bengals/"
+    },
+    {
+     "player": "Brian Robinson Jr.",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Hamstring. Placed on IR Saturday Nov 7 2026. Out at least 4 games. Khalil Herbert signed to the active roster. NEW since last week list",
+     "starter": false,
+     "source": "https://www.ajc.com/sports/2026/11/falcons-brian-robinson-jr-injured-reserve/"
+    },
+    {
+     "player": "Olamide Zaccheaus",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "Concussion from Nov 8 game. CBS lists questionable for Week 10 vs Kansas City",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/atl/atlanta-falcons/injuries/"
+    },
+    {
+     "player": "A.J. Terrell",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried on IR. An undated SI headline refers to a concerning status for Terrell. No activation found. Presumed still on IR (unverified)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell"
+    },
+    {
+     "player": "Jalon Walker",
+     "position": "OLB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Cameron Williams",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Da'Shawn Hand",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "J.D. Bertrand",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Malik Verdon",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Michael Jerrell",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Trey Sermon",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "DeAngelo Malone",
+     "position": "LB",
+     "status": "PUP",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Storm Norton",
+     "position": "OT",
+     "status": "PUP",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Anterio Thompson",
+     "position": "DT",
+     "status": "NFI",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Yasir Abdullah OLB and Beaux Collins WR were ACTIVATED from IR (around Nov 7) and are back. Branch and Ebukam remain out or doubtful with hamstrings. Terrell, Walker and the rest have no fresh news (presumed unchanged).",
+    "Traded S Jessie Bates III to Jacksonville on Nov 9 for a 2027 second-round and 2028 fifth-round pick. He was described as their best defender. Remaining safeties: Xavier Watts, Sydney Brown, DeMarcco Hellams. Stefanski insists the team is not punting on the season.",
+    "Returning from an international game in Madrid with no bye before hosting Kansas City. Falcons are 3.5-point home underdogs.",
+    "Edge rusher James Pearce Jr. had a league suspension lifted (date not captured) but his on-field return was described as uncertain. DE Drake Jackson was either released or used as an elevation depending on source (unverified).",
+    "Head coach is Kevin Stefanski. Falcons have lost with self-inflicted mistakes and are 3-6 but still within reach in the NFC South."
+   ],
+   "sources": [
+    "https://www.bengals.com/news/bengals-falcons-recap-postgame-notes-quotes-stats-week-9-2026",
+    "https://nbcsports.com/fantasy/football/player-news/2026-11-08/michael-penix-held-to-162-yards-in-loss-vs-bengals",
+    "https://www.ajc.com/sports/2026/11/atlanta-falcons-branch-ebukam-injuries-bengals/",
+    "https://www.ajc.com/sports/2026/11/falcons-brian-robinson-jr-injured-reserve/",
+    "https://www.cbssports.com/nfl/teams/atl/atlanta-falcons/injuries/",
+    "https://www.si.com/betting/chiefs-vs-falcons-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+    "https://www.atlantafalcons.com/news/falcons-agree-terms-jaguars-trade-jessie-bates-draft-picks",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-on-jessie-bates-trade-falcons-arent-punting-on-the-season",
+    "https://sports.yahoo.com/articles/falcons-place-rb-injured-sign-220500669.html",
+    "https://sportstalkatl.com/falcons-latest-roster-moves-and-injury-updates/",
+    "https://bloggingdirty.com/falcons-news-roundup-james-pearce-jr-returns-stefanski-on-penix-and-more-01m6hdbc47cz",
+    "https://www.si.com/nfl/falcons/onsi/falcons-injury-report-penix-set-to-start-concerning-status-for-terrell",
+    "https://www.espn.com/nfl/team/transactions/_/name/atl/atlanta-falcons"
+   ]
+  },
+  "HOU": {
+   "week9_result": "Won 44-22 at the Chargers on Nov 8 2026 and improved to 3-5. C.J. Stroud threw 5 TD passes (ties career high), Kayshon Boutte had 125 yards and 2 TD, the defense tied a franchise record with 8 sacks, and Houston outgained LA 515-328. RB David Montgomery was inactive (groin).",
+   "qb": {
+    "starter": "C.J. Stroud",
+    "backup": "unverified (not named in any Nov 3-10 snippet)",
+    "changed_from_week9": false,
+    "notes": "Healthy and coming off a 5-TD game. No injury or practice concern found. Older 2025 concussion stories surfaced in search and were discarded."
+   },
+   "injuries": [
+    {
+     "player": "David Montgomery",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "Groin. Inactive in Week 9 at Chargers. CBS lists questionable for Week 10 at Cleveland (updated Nov 9)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/hou/houston-texans/injuries/"
+    },
+    {
+     "player": "Reed Blankenship",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Concussion. CBS lists questionable for Week 10 at Cleveland (updated Nov 9). Must clear protocol",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/hou/houston-texans/injuries/"
+    },
+    {
+     "player": "Jaylin Noel",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Foot/toe. Placed on IR Oct 28 2026. DeMeco Ryans described it as season-ending. Not on last week's carried list",
+     "starter": false,
+     "source": "https://www.si.com/nfl/texans/onsi/what-texans-demeco-ryans-said-about-jaylin-noel-s-season-ending-injury"
+    },
+    {
+     "player": "Jayden Higgins",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee. IR tracker (updated Nov 7) lists him out for the season",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Braden Smith",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Foot. IR tracker (updated Nov 7) lists him as designated to return. ESPN game page showed him inactive by coach's decision, which would imply he was activated. Conflicting, so treat status as unverified and leaning toward available soon",
+     "starter": true,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Jaylin Smith",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Hamstring. On IR. CBS lists expected return Week 10 but no activation found",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/hou/houston-texans/injuries/"
+    },
+    {
+     "player": "British Brooks",
+     "position": "FB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "E.J. Speed",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Henry To'oTo'o",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Ja'Marcus Ingram",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "K.C. Ossai",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Kayden McDonald",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "M.J. Stewart",
+     "position": "S",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Tank Dell WR is BACK. His 21-day window opened Oct 6 and he has played since (a 40-plus-yard catch in his first game back, reported Nov 1), so remove him from the absent list. Higgins is out for the season. Braden Smith is in his return window or already activated (conflicting). Jaylin Smith is eligible soon. The carried entry 'Ossai (DE, IR)' looks like a duplicate of K.C. Ossai and was not found as a separate player. Others have no news.",
+    "Offense is trending up since acquiring WR Marvin Harrison Jr. from Arizona on Oct 12 (2027 second- and sixth-round picks). Boutte, Harrison and Nico Collins are the top receivers with Noel and Higgins done for the year.",
+    "Second straight road game (Los Angeles then Cleveland). Texans favored by 4.5 with a low total of 39.5.",
+    "LB Chad Muma was a practice-squad elevation for Week 9, which signals linebacker depth is still thin with To'oTo'o and Speed on IR.",
+    "Houston lost in overtime to the Giants 27-21 in Week 8 as a 10-point favorite before the Chargers rout. The Chargers were reported as winless entering Week 9, so the blowout came against a weak opponent."
+   ],
+   "sources": [
+    "https://www.pff.com/news/nfl-week-9-recap-houston-texans-44-los-angeles-chargers-22",
+    "https://www.houstonpress.com/news/nfl-week-9-recap-houston-texans-rout-los-angeles-chargers-44-22/",
+    "https://sports.yahoo.com/articles/texans-week-9-snap-counts-124224060.html",
+    "https://www.cbssports.com/nfl/teams/hou/houston-texans/injuries/",
+    "https://www.espn.com/nfl/game/_/gameId/401873056/texans-browns",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+    "https://www.si.com/nfl/texans/onsi/what-texans-demeco-ryans-said-about-jaylin-noel-s-season-ending-injury",
+    "https://www.houstontexans.com/news/houston-texans-transactions-10-28-2026",
+    "https://www.houstontexans.com/news/houston-texans-transactions-11-7-2026",
+    "https://sports.yahoo.com/articles/houston-texans-updated-wide-receiver-180259051.html",
+    "https://www.si.com/betting/texans-vs-browns-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026",
+    "https://www.dawgsbynature.com/cleveland-browns-betting-odds-gambling/137139/browns-vs-texans-odds-week-10-opening-lines-point-spread-total"
+   ]
+  },
+  "CLE": {
+   "week9_result": "Lost 23-22 in overtime at New Orleans on Nov 8 2026 and fell to 5-4 (second straight loss). Shedeur Sanders made his first start of the season with Deshaun Watson inactive (concussion). Andre Szmyt hit a 51-yard field goal to force overtime, Harold Fannin Jr. scored a 39-yard TD in overtime, and the game-deciding two-point try failed. Cleveland committed 10 penalties.",
+   "qb": {
+    "starter": "Deshaun Watson",
+    "backup": "Shedeur Sanders",
+    "changed_from_week9": true,
+    "notes": "The file's Watson listing is right for Week 10 but it is a CHANGE from Week 9, when Sanders started. Watson suffered a concussion in the Week 8 loss to Pittsburgh, practiced limited Friday Nov 6 and cleared protocol Saturday Nov 7 but was held out at New Orleans. ESPN's Jeremy Fowler reported Monday Nov 9 that the Browns plan to start Watson vs Houston. Head coach Todd Monken had not officially confirmed it at collection time. Sanders was described as solid in his start."
+   },
+   "injuries": [
+    {
+     "player": "Deshaun Watson",
+     "position": "QB",
+     "status": "Probable",
+     "injury": "Concussion from Week 8 vs Steelers. Cleared protocol Nov 7. Inactive Week 9. Reported (Fowler, Nov 9) to be starting Week 10. Aggregators still show questionable",
+     "starter": true,
+     "source": "https://www.rotowire.com/football/headlines/deshaun-watson-injury-on-track-to-start-week-10-646819"
+    },
+    {
+     "player": "Maliek Collins",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Elbow. Ruled out for Week 9 at Saints. Monken gave no firm timetable. CBS lists questionable for Week 10 vs Houston (Nov 9)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/"
+    },
+    {
+     "player": "Jeremiah Owusu-Koramoah",
+     "position": "LB",
+     "status": "PUP",
+     "injury": "Neck. Remains on reserve/PUP. ESPN estimated return is February, so effectively out for the season",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/cle/cleveland-browns"
+    },
+    {
+     "player": "Kalia Davis",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Raheim Sanders",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Teven Jenkins",
+     "position": "G",
+     "status": "IR",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Joe Royer",
+     "position": "TE",
+     "status": "NFI",
+     "injury": "Carried from Week 9 list. No activation or status change found in searches dated Nov 3-10 2026. Presumed unchanged (unverified)",
+     "starter": false,
+     "source": ""
+    }
+   ],
+   "context_notes": [
+    "Carried-list status: Owusu-Koramoah still PUP (out for the year in practice). Kalia Davis, Raheim Sanders, Teven Jenkins and Joe Royer have no news (presumed unchanged). No Browns roster moves or deadline trades were found since Nov 3.",
+    "QB switch back to Watson after Sanders' spot start. If Watson has a setback in practice, Sanders would start again.",
+    "Head coach is Todd Monken. Browns are 5-4 on a two-game losing streak and are 4.5-point home underdogs with a total of 39.5.",
+    "Discipline was the Week 9 story: 10 penalties and a failed two-point try in overtime. Kicker Andre Szmyt hit from 51 to force overtime.",
+    "Houston's pass rush just produced 8 sacks, which is a concern for a quarterback returning from a concussion."
+   ],
+   "sources": [
+    "https://www.clevelandbrowns.com/game-day/2026/reg-week9/browns-at-saints/recap",
+    "https://www.pff.com/news/nfl-week-9-recap-cleveland-browns-22-new-orleans-saints-23",
+    "https://thebrownscap.substack.com/p/week-9-browns-blow-opportunity-in",
+    "https://www.rotowire.com/football/headlines/deshaun-watson-injury-on-track-to-start-week-10-646819",
+    "https://sports.yahoo.com/articles/report-browns-start-deshaun-watson-165658321.html",
+    "https://www.si.com/nfl/browns/onsi/browns-get-huge-news-on-qb-deshaun-watson-s-injury-status-ahead-of-week-10-01m70nn7vc8b",
+    "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/",
+    "https://www.espn.com/nfl/team/injuries/_/name/cle/cleveland-browns",
+    "https://heavy.com/sports/nfl/cleveland-browns/maliek-collins-ruled-out-saints/",
+    "https://sports.yahoo.com/fantasy/article/nfl-injury-tracker-week-9-latest-news-fantasy-implications-as-49ers-mike-evans-deebo-samuel-out-deshaun-watson-clears-concussion-protocol-but-shedeur-sanders-will-start-for-browns-180454816.html",
+    "https://www.si.com/betting/texans-vs-browns-prediction-odds-spread-injuries-trends-for-nfl-week-10-2026"
+   ]
+  }
+ }
+}

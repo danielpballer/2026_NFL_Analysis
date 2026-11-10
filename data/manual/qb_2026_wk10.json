@@ -8,7 +8,7 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Daniels healthy on the short week.",
    "value_override": 0.1,
    "schedule_projected_starter": "Jayden Daniels"
   },
@@ -17,16 +17,17 @@
    "pbp_name": "J.McCarthy",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "McCarthy has a hip pointer and was limited Monday on the short week; Harbaugh expects him to play Thursday.",
    "value_override": -3.5,
-   "schedule_projected_starter": "J.J. McCarthy"
+   "schedule_projected_starter": "J.J. McCarthy",
+   "extra_sd": 0.75
   },
   "NE": {
    "starter": "Drake Maye",
    "pbp_name": "D.Maye",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Maye threw three interceptions and was pulled late in the Packers loss; no change reported for Munich.",
    "schedule_projected_starter": "Drake Maye"
   },
   "DET": {
@@ -42,9 +43,10 @@
    "pbp_name": "P.Mahomes",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Mahomes hurt his throwing elbow against the Jets; the MRI was clean and Reid calls him day-to-day, expected to play.",
    "value_override": 1.8,
-   "schedule_projected_starter": "Patrick Mahomes"
+   "schedule_projected_starter": "Patrick Mahomes",
+   "extra_sd": 0.75
   },
   "ATL": {
    "starter": "Michael Penix Jr.",
@@ -64,22 +66,23 @@
    "schedule_projected_starter": "C.J. Stroud"
   },
   "CLE": {
-   "starter": "Sanders (expected) / Watson",
-   "pbp_name": "S.Sanders",
+   "starter": "Deshaun Watson",
+   "pbp_name": "D.Watson",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Watson cleared concussion protocol and is reported to start against Houston; Sanders started the overtime loss in New Orleans.",
    "schedule_projected_starter": "Deshaun Watson",
-   "value_override": -5.57
+   "extra_sd": 0.75
   },
   "MIN": {
-   "starter": "Murray (questionable) / Wentz",
-   "pbp_name": "K.Murray",
+   "starter": "Wentz (Murray week-to-week)",
+   "pbp_name": "C.Wentz",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Murray has a grade 2 hamstring strain and was inactive in Week 9, when Wentz started the 23-6 loss to Buffalo; Nov 15 was the target for his return. Priced 40 percent Murray, 60 percent Wentz.",
    "schedule_projected_starter": "Kyler Murray",
-   "value_override": 0.0
+   "value_override": -0.55,
+   "extra_sd": 1.25
   },
   "GB": {
    "starter": "Jordan Love",
@@ -90,13 +93,14 @@
    "schedule_projected_starter": "Jordan Love"
   },
   "MIA": {
-   "starter": "Malik Willis",
+   "starter": "Willis (questionable)",
    "pbp_name": "M.Willis",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
-   "value_override": -1.5,
-   "schedule_projected_starter": "Malik Willis"
+   "notes": "Willis was visibly limited by a groin injury against Detroit and has no update; priced 75 percent Willis, 25 percent Kyle McCord.",
+   "value_override": -2.1,
+   "schedule_projected_starter": "Malik Willis",
+   "extra_sd": 1.0
   },
   "IND": {
    "starter": "Daniel Jones",
@@ -166,29 +170,31 @@
    "schedule_projected_starter": "Matthew Stafford"
   },
   "ARI": {
-   "starter": "Gardner Minshew",
-   "pbp_name": "G.Minshew",
+   "starter": "Carson Beck (rookie)",
+   "pbp_name": "C.Beck",
    "new_to_team": false,
-   "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Gardner Minshew",
-   "value_override": -2.5
+   "rookie": true,
+   "notes": "Minshew tore the UCL in his throwing elbow in Seattle and Brissett was traded to Baltimore, so rookie Carson Beck is expected to make his first start; only four receivers are healthy. Priced like the other emergency rookie starters.",
+   "schedule_projected_starter": "Carson Beck",
+   "value_override": -5.0,
+   "extra_sd": 1.5
   },
   "SEA": {
-   "starter": "Sam Darnold",
-   "pbp_name": "S.Darnold",
+   "starter": "Drew Lock",
+   "pbp_name": "D.Lock",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Sam Darnold",
-   "value_override": null
+   "notes": "Darnold is out (quad, cracked rib) until at least the Week 11 bye; Lock starts again while playing through oblique and elbow issues.",
+   "schedule_projected_starter": "Drew Lock",
+   "value_override": -3.0,
+   "extra_sd": 0.75
   },
   "LV": {
    "starter": "Kirk Cousins",
    "pbp_name": "K.Cousins",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Cousins stays the starter despite three interceptions; Mendoza is waiting.",
    "schedule_projected_starter": "Kirk Cousins"
   },
   "SF": {
@@ -229,17 +235,18 @@
    "pbp_name": "J.Herbert",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Herbert hurt a finger on his non-throwing hand; X-rays negative.",
    "schedule_projected_starter": "Justin Herbert"
   },
   "BAL": {
-   "starter": "Joe Fagnano (rookie)",
-   "pbp_name": "J.Fagnano",
-   "new_to_team": false,
-   "rookie": true,
-   "notes": "",
-   "schedule_projected_starter": "Tyler Huntley",
-   "value_override": -5.0
+   "starter": "Jacoby Brissett",
+   "pbp_name": "J.Brissett",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Lamar Jackson (thumb surgery) and Tyler Huntley are both on IR; Baltimore traded for Jacoby Brissett on Nov 6 and Minter expects him to start Monday with ten days in the building. Fagnano backs up.",
+   "schedule_projected_starter": "Jacoby Brissett",
+   "value_override": -2.5,
+   "extra_sd": 1.0
   }
  }
 }

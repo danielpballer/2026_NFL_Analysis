@@ -68,7 +68,10 @@ at 75%), Very High 5/6. Picks are calibrated; it is the disagreement with the ma
 
 1. Margin sd 14.0 back to 12.7.
 2. Market weight 0.35 to a flat 0.50.
-3. Quarterback change weight 0.6 to 0.75.
+3. Quarterback change weight 0.6 to 0.75, measured against an in-season baseline: the 2025 fielded
+   value (worth nine games, like the rating prior) averaged with this season's actual starters.
+   Backtested neutral on Weeks 1 to 9 (0.6243 against 0.6240) and adopted because the old 2025-only
+   baseline double counts more every week and gave Minnesota a bonus for starting its backup.
 4. Value-table threshold 2% to 5% expected value.
 5. Process: the Tuesday value table is now snapshotted to `output/weekN_2026_value_tuesday.json`
    (the betting record no longer depends on git history), and the research prompts are generated

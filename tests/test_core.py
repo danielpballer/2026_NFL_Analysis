@@ -111,3 +111,15 @@ def test_designations_active_clears_player(tmp_path, monkeypatch):
     d = B.designations(5)
     assert d["teams"]["BAL"]["injuries"][0]["status"] == "Active"
     assert B.STATUS_NORMALISE.get("active", "Active") == "Active"
+
+
+def test_qb_adjustment_uses_baseline():
+    import pandas as pd
+    from nflsim.adjustments import qb_adjustment
+    tqb = pd.DataFrame({"fielded_qb_value": [-4.0]}, index=["MIN"])
+    qv = pd.DataFrame({"passer_player_name": ["C.Wentz"], "value_pts": [-1.2]})
+    manual = {"teams": {"MIN": {"starter": "Carson Wentz", "pbp_name": "C.Wentz"}}}
+    old = qb_adjustment("MIN", manual, qv, tqb)                    # against the 2025 fielded value: a bonus
+    new = qb_adjustment("MIN", manual, qv, tqb, baseline=0.0)       # against this season's play: a penalty
+    assert old["qb_adj"] > 0 > new["qb_adj"]
+    assert new["fielded_2025"] == -4.0 and new["qb_baseline"] == 0.0
