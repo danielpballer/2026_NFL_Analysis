@@ -140,6 +140,16 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                 row.update(match_override(team, name, ovr["players"]))
                 entry["players"].append(row)
     GAME_STATUSES = {"Out", "Doubtful", "Questionable", "Probable", "Returning-expected-to-play"}
+    # A team's designations are final from two days before its game (Friday for Sunday, Saturday for
+    # Monday, and the day before or of a Thursday game). Earlier in the week a team may rule players
+    # out early; those statuses are applied, but players it has not listed yet are NOT cleared.
+    sched = pd.read_csv(C.RAW / "games.csv", low_memory=False)
+    sched = sched[(sched.season == season) & (sched.week == week)]
+    today = pd.Timestamp.today().normalize()
+    final_teams = set()
+    for _, gm in sched.iterrows():
+        if (pd.Timestamp(gm.gameday) - today).days <= 2:
+            final_teams.update([gm.home_team, gm.away_team])
     official_by_team: dict[str, dict[str, str]] = {}
     for row in official:
         official_by_team.setdefault(row["team"], {})[f"{row['player'][:1].lower()}|{_last(row['player'])}"] = row["status"]
@@ -157,7 +167,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
                     if p["status"] not in GAME_STATUSES:
                         p["injury"] = (p.get("injury") or "") + " [on the official report: treated as activated]"
                     p["status"] = official_by_team[team][key]
-                elif p["status"] in GAME_STATUSES:
+                elif p["status"] in GAME_STATUSES and team in final_teams:
                     p["status"] = "Probable"
                     p["injury"] = (p.get("injury") or "") + " [not on official report: active]"
     # de-duplicate by name, then by first initial + last name + position, within team (keep the most severe status)
@@ -174,7 +184,7 @@ def build(season: int = C.SEASON, week: int = C.WEEK) -> dict:
     practice_rows = 0
     for row in practice_report(season, week):
         team = row["team"]
-        if team in official_by_team:
+        if team in official_by_team and team in final_teams:
             continue
         e = teams.setdefault(team, {"players": [], "notes": [], "sources": []})
         key = f"{row['player'][:1].lower()}|{_last(row['player'])}"

@@ -118,6 +118,9 @@ def build(season: int = C.SEASON, week: int = C.WEEK, fragment: bool = False) ->
         vrows.append(f"<tr><td>{l['side']} {mlt} ({l['matchup']})<span class='pickmark'>{tag}</span></td>"
                      f"<td class='num'>{l['model_p']:.0%}</td><td class='num'>{mlt}</td><td class='num'>{l['implied_p']:.0%}</td>"
                      f"<td class='num pos'>{l['ev_per_dollar']:+.0%}</td><td class='num'>{l['quarter_kelly']:.1%}</td></tr>")
+    if not vrows:
+        vrows.append(f"<tr><td colspan='6'>No side clears the {value_threshold(week):.0%} expected-value cut at current prices. "
+                     f"The model and the market agree closely this week.</td></tr>")
     favs = [l for l in value if l["is_pick"] and l["model_p"] >= 0.7 and not l.get("played")]
     fp = 1.0; fd = 1.0
     for l in favs:

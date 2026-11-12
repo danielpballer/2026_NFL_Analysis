@@ -291,7 +291,8 @@
   "LA|Puka Nacua": {
    "slot": "WR1",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Out"
   },
   "LA|Terrance Ferguson": {
    "slot": "TE1",
@@ -1861,7 +1862,8 @@
   "KC|Xavier Worthy": {
    "slot": "WR2",
    "star": true,
-   "starter": true
+   "starter": true,
+   "status": "Questionable"
   },
   "BUF|Dion Dawkins": {
    "slot": "LT",
@@ -2020,6 +2022,15 @@
   "MIN|Kyler Murray",
   "MIN|Carson Wentz",
   "CLE|Shedeur Sanders",
-  "CLE|Deshaun Watson"
+  "CLE|Deshaun Watson",
+  "MIN|Kirk Cousins",
+  "LV|Fernando Mendoza",
+  "LV|Kirk Cousins",
+  "DET|Jared Goff",
+  "KC|Justin Fields",
+  "ARI|Josh Johnson",
+  "LA|Matthew Stafford",
+  "NE|Drake Maye",
+  "WAS|Jayden Daniels"
  ]
 }
