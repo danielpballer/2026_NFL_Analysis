@@ -8,7 +8,7 @@
    "pbp_name": "D.Jones",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Jones threw two interceptions in the win over Miami but keeps the job; no injury listed on the short week.",
    "value_override": 0.2,
    "schedule_projected_starter": "Daniel Jones"
   },
@@ -25,9 +25,10 @@
    "pbp_name": "K.McCord",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Malik Willis is on IR through at least two more games; Kyle McCord makes his second start. Miami also waived its kicker on Monday.",
    "value_override": -4.0,
-   "schedule_projected_starter": "Kyle McCord"
+   "schedule_projected_starter": "Kyle McCord",
+   "extra_sd": 1.0
   },
   "BUF": {
    "starter": "Josh Allen",
@@ -42,9 +43,10 @@
    "pbp_name": "J.Brissett",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Lamar Jackson is on IR with a broken thumb and Huntley is out for the season. Brissett took a knee hit Monday night but finished the game and is expected to start.",
    "schedule_projected_starter": "Jacoby Brissett",
-   "value_override": -2.5
+   "value_override": -2.5,
+   "extra_sd": 0.5
   },
   "CAR": {
    "starter": "Bryce Young",
@@ -89,12 +91,14 @@
    "schedule_projected_starter": "Dak Prescott"
   },
   "TB": {
-   "starter": "Baker Mayfield",
+   "starter": "Mayfield (questionable) / Jalon Daniels",
    "pbp_name": "B.Mayfield",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
-   "schedule_projected_starter": "Baker Mayfield"
+   "notes": "Mayfield wore a walking boot through the bye with a foot and ankle injury; he is not ruled out. Priced 60/40 Mayfield over undrafted rookie Jalon Daniels, whose three starts graded close to Mayfield's season.",
+   "schedule_projected_starter": "Baker Mayfield",
+   "value_override": -3.3,
+   "extra_sd": 0.5
   },
   "DET": {
    "starter": "Jared Goff",
@@ -109,16 +113,17 @@
    "pbp_name": "C.Beck",
    "new_to_team": false,
    "rookie": true,
-   "notes": "",
+   "notes": "Rookie Carson Beck makes his second start after 108 yards, two interceptions and five sacks against the Rams; Minshew is on IR and Josh Johnson is the backup.",
    "schedule_projected_starter": "Carson Beck",
-   "value_override": -5.0
+   "value_override": -5.0,
+   "extra_sd": 1.25
   },
   "KC": {
    "starter": "Patrick Mahomes",
    "pbp_name": "P.Mahomes",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Mahomes threw five touchdowns in Atlanta; the elbow is a non-issue.",
    "value_override": 1.8,
    "schedule_projected_starter": "Patrick Mahomes"
   },
@@ -135,17 +140,20 @@
    "pbp_name": "J.McCarthy",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
-   "value_override": -3.5,
-   "schedule_projected_starter": "J.J. McCarthy"
+   "notes": "McCarthy has been above average on 111 dropbacks as a Giant, so his number is moved up from -3.5. Dart is out for the season.",
+   "value_override": -2.8,
+   "schedule_projected_starter": "J.J. McCarthy",
+   "extra_sd": 0.5
   },
   "NYJ": {
-   "starter": "Geno Smith",
+   "starter": "Geno Smith (questionable) / Cade Klubnik",
    "pbp_name": "G.Smith",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
-   "schedule_projected_starter": "Geno Smith"
+   "notes": "Smith hurt an ankle against Buffalo and is questionable. Priced 65/35 Smith over rookie Cade Klubnik.",
+   "schedule_projected_starter": "Geno Smith",
+   "value_override": -2.9,
+   "extra_sd": 0.75
   },
   "LAC": {
    "starter": "Justin Herbert",
@@ -160,9 +168,10 @@
    "pbp_name": "F.Mendoza",
    "new_to_team": true,
    "rookie": true,
-   "notes": "",
+   "notes": "No. 1 pick Fernando Mendoza makes his second start, in Denver.",
    "schedule_projected_starter": "Fernando Mendoza",
-   "value_override": -3.0
+   "value_override": -3.0,
+   "extra_sd": 1.0
   },
   "DEN": {
    "starter": "Bo Nix",
@@ -185,18 +194,20 @@
    "pbp_name": "J.Milton",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Joe Milton III stays the starter after the bye; his first start graded poorly so the number is trimmed from -2.0.",
    "schedule_projected_starter": "Joe Milton III",
-   "value_override": -2.0
+   "value_override": -2.5,
+   "extra_sd": 1.0
   },
   "MIN": {
-   "starter": "Cousins (expected) / Wentz",
+   "starter": "Kirk Cousins",
    "pbp_name": "K.Cousins",
    "new_to_team": true,
    "rookie": false,
-   "notes": "",
+   "notes": "Cousins won 30-10 at Green Bay four days after the trade and is the confirmed starter in Mexico City. His Raiders-era number is discounted for the new offence. Murray would back up if his hamstring clears.",
    "schedule_projected_starter": "Kirk Cousins",
-   "value_override": -0.5
+   "value_override": 0.3,
+   "extra_sd": 0.5
   },
   "SF": {
    "starter": "Brock Purdy",
@@ -220,7 +231,7 @@
    "pbp_name": "J.Daniels",
    "new_to_team": false,
    "rookie": false,
-   "notes": "",
+   "notes": "Daniels healthy.",
    "value_override": 0.1,
    "schedule_projected_starter": "Jayden Daniels"
   }

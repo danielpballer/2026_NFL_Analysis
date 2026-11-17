@@ -254,3 +254,9 @@ level; the model led through Week 5 and the market since. Corrections: margin sd
 market weight a flat 0.50, quarterback weight 0.75 with an in-season baseline, value cut 5%.
 Tuesday value tables are snapshotted in `output/`; research prompts come from
 `nflsim.research_prompts`. Details in `output/week9_2026_postmortem.md`.
+
+## Status (Nov 17, 2026): Week 10 scored, Week 11 in progress
+
+Week 10 went 9-5 (log loss 0.563, market moneyline 0.572, pure model 0.535). Pooled over 149
+games the blend, pure model and market moneyline are all at 0.622 and every grid is flat, so
+there are no parameter changes. Details in `output/week10_2026_postmortem.md`.
