@@ -1,0 +1,381 @@
+{
+  "collected_on": "2026-11-17",
+  "search_calls_used": 40,
+  "unverified": [
+    "No Week 11 practice/injury reports exist yet (collected Tue Nov 17 before Wednesday practices). All Questionable/Probable/Doubtful/Out tags for non-IR players are projections from coach comments, ESPN/CBS injury pages and Week 10 reports, not official game designations.",
+    "Backup QB names not confirmed for TEN, DAL, DET, KC, JAX (no search result named them). Confirmed backups: TB Jalon Daniels (Cooper Rush on practice squad), ARI Josh Johnson, NYG Jameis Winston.",
+    "TB: Baker Mayfield (foot/ankle) Week 11 status unresolved - no Bowles comment or practice report found. The 27-24 score of the Week 9 loss to the Bears came from a single search summary and was not confirmed by a second source.",
+    "TB: Josh Hayes (CB, IR) - no update found. Luke Goedeke (calf) and Emeka Egbuka (foot) items had unclear/old dates. No information found on Bucky Irving, Mike Evans, Chris Godwin, Tristan Wirfs, Vita Vea.",
+    "DET: Aidan Hutchinson formal IR placement not confirmed (reported out for season with torn ACL). Kerby Joseph PUP activation decision (21-day window reported to expire Nov 18) not confirmed. D.J. Reed / Cade Mays injury-to-player mapping (hip/ankle) taken from an ESPN game-page summary and may be swapped. No update found for Avonte Maddox, Ben Bartch, Devin White, Isiah Pacheco, Jimmy Rolder, Thomas Harper, Tom Kennedy.",
+    "DAL: Tyler Smith (thumb) and DeMarvion Overshown (hamstring) were mentioned as 'trending positively' in a snippet whose date/game context was inconsistent - not included in injuries list. DaRon Bland and Tyler Booker imaging results/timelines not officially announced (ESPN estimates only). P.J. Locke roster status (active vs IR) conflicting. No update found for Kelvin Gilliam Jr., Malik Davis, Princeton Fant. Jake Ferguson 'multiple weeks' timeline is from Nov 9, no fresher update.",
+    "TEN: No update found for Fernando Carmona, Jackson Slater, Jaren Kanak, Jaylen Harrell, Milo Eifler, Nazeeh Johnson, Tanoh Kpassagnon (assumed still on IR). Carnell Tate, Cody Barton, Anthony Hill Jr. are 'hopeful' per Saleh but none had practiced as of Nov 16.",
+    "ARI: SI betting preview listed Jon Gaines II, Hjalte Froholdt, Jordan Burch, Jayden Williams as questionable - this looks carried over from the Week 10 report (Burch has since been declared out for the season). Hunter Long status conflicting (IR vs activated 11/14). No update found for Chase Bisontis, Jalen Brooks, Kendrick Bourne, Zachary Carter, Tip Reiman. Jeremiyah Love / James Conner return timelines not found.",
+    "KC: Kenneth Walker III return is 'expected' per a Rapoport report relayed by Heavy, not confirmed. Peter Woods, Jaydn Ott, Jaylon Moore listed questionable by an SI betting preview with no injury detail. Omarr Norman-Lott activation status unknown (designated for return Oct 29). No update found for Brashard Smith, Chris Oladokun, EJ Smith, Ethan Downs, Jimmy Holiday, Matt Waletzko, Tyquan Thornton.",
+    "JAX: Travis Hunter 2026 status - nothing found (only 2025 items). Robert Hainsey injury listed as knee by ESPN but concussion by the team's earlier report. No update found for Caleb Ransaw, Patrick Mekari, Zach Durfee. Team record not confirmed.",
+    "NYG: Korie Black (CBS lists expected return Week 11) and Chauncey Golston (neck, CBS expected return Week 11) not confirmed. No update found for Gunner Olszewski, Jarrick Bernard-Converse. Giants record reported as 5-3-1 by one source."
+  ],
+  "teams": {
+    "TEN": {
+      "week10_result": "Lost 40-23 to Jacksonville in Nashville (Sun Nov 15, 2026), dropping to 1-8. Cam Ward 28/39, 231 yds, 2 TD, 1 INT plus a sack-fumble; defense allowed 352 pass yds to Lawrence. Played without Carnell Tate, Peter Skoronski, Cody Barton, Anthony Hill Jr. and punter Tommy Townsend.",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "unverified",
+        "changed_from_week10": false,
+        "notes": "Ward healthy, started and finished Week 10; described as playing well for a third straight outing. Saleh said Nov 16 the staff has given him more responsibility at the line of scrimmage. Shoulder-injury articles that surface in search are from the 2025 Week 18 game and do not apply."
+      },
+      "injuries": [
+        {"player": "Carnell Tate", "position": "WR", "status": "Questionable", "injury": "Shoulder - missed Weeks 9-10 (DNP all Week 10 practices). Saleh said Mon Nov 16 he is hopeful Tate returns vs Dallas but he must practice first", "starter": true, "source": "https://www.rotowire.com/football/headlines/carnell-tate-injury-expected-back-for-week-11-648134"},
+        {"player": "Peter Skoronski", "position": "G", "status": "IR", "injury": "Hamstring - placed on IR Sat Nov 14, 2026 (ESPN est. return Dec 13). Chandler Zavala signed to active roster to replace him", "starter": true, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Tommy Townsend", "position": "P", "status": "IR", "injury": "Knee - placed on IR Nov 14, 2026. Thomas Morstead signed as replacement punter", "starter": true, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Cody Barton", "position": "LB", "status": "Questionable", "injury": "Concussion - out Week 10, not yet cleared. Saleh hopeful for Dallas (Nov 16)", "starter": true, "source": "https://heavy.com/sports/nfl/tennessee-titans/titans-carnell-tate-injury-update-cowboys/"},
+        {"player": "Anthony Hill Jr.", "position": "LB", "status": "Questionable", "injury": "Neck - out Week 10. Saleh hopeful for Dallas (Nov 16), not yet cleared", "starter": true, "source": "https://heavy.com/sports/nfl/tennessee-titans/titans-carnell-tate-injury-update-cowboys/"},
+        {"player": "James Williams Sr.", "position": "LB", "status": "IR", "injury": "Placed on IR Nov 9, 2026 (per Pro Football Rumors) - still out", "starter": false, "source": "https://www.profootballrumors.com/2026/11/minor-nfl-transactions-11-9-26"},
+        {"player": "Fernando Carmona", "position": "G", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Jackson Slater", "position": "G", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Jaren Kanak", "position": "TE", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Jaylen Harrell", "position": "EDGE", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Milo Eifler", "position": "LB", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Nazeeh Johnson", "position": "CB", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"},
+        {"player": "Tanoh Kpassagnon", "position": "DE", "status": "IR", "injury": "Carried from Week 10 list - no activation found in Nov 10-17 transaction results (unverified)", "starter": false, "source": "https://www.espn.com/nfl/transactions"}
+      ],
+      "context_notes": [
+        "Titans were sellers at the Nov 10 trade deadline: starting S Amani Hooker traded to Buffalo (reported 2nd-round pick coming back in a pick swap), described as one of multiple deadline trades.",
+        "Roster moves Nov 14: signed G Chandler Zavala, DB Isaiah Oliver, P Thomas Morstead to the 53. Waived RB Michael Carter. LB Dorian Mausi activated from IR Nov 9. Nov 16: WR Jason Brownlee and DB Bishop Fitzgerald added to practice squad.",
+        "1-8 under head coach Robert Saleh. Defense was described as dreadful vs JAX (40 points allowed). LB Cedric Gray filled in for Barton/Hill and had an interception.",
+        "Offensive line reshuffle at guard with Skoronski on IR. New punter (Morstead) handling punts and likely holds.",
+        "Plays Jacksonville again soon after Dallas (rematch noted by Fox power rankings)."
+      ],
+      "sources": [
+        "https://tennesseetitans.com/news/titans-fall-40-23-to-jaguars-drop-to-1-8-on-season",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/ward-scores-twice-in-blowout-loss-to-jacksonville",
+        "https://www.foxsports.com/stories/nfl/2026-nfl-power-rankings-week-11",
+        "https://www.rotowire.com/football/headlines/carnell-tate-injury-expected-back-for-week-11-648134",
+        "https://heavy.com/sports/nfl/tennessee-titans/titans-carnell-tate-injury-update-cowboys/",
+        "https://www.musiccitymiracles.com/tennessee-titans-injuries/67834/carnell-tate-injury-update-titans-rookie-wr-to-miss-second-straight-game",
+        "https://www.espn.com/nfl/transactions",
+        "https://www.profootballrumors.com/2026/11/minor-nfl-transactions-11-9-26",
+        "https://lastwordonsports.com/nfl/2026/11/12/titans-make-another-impact-trade/",
+        "https://www.espn.com/nfl/game/_/gameId/401873073/titans-cowboys"
+      ]
+    },
+    "DAL": {
+      "week10_result": "Lost 46-40 to San Francisco at home (Sun Nov 15, 2026), dropping to 4-6. Dak Prescott 343 yds, 5 TD (4 to Pickens/Lamb) but the defense allowed 584 yards, the most ever by Dallas in a home game. RG Tyler Booker and CB DaRon Bland left with ankle injuries.",
+      "qb": {
+        "starter": "Dak Prescott",
+        "backup": "unverified",
+        "changed_from_week10": false,
+        "notes": "Prescott healthy - 343 yds and 5 TD in Week 10. No 2026 injury designation found. Older Week 11 Prescott injury articles in search results are from 2024/2025 and were discarded."
+      },
+      "injuries": [
+        {"player": "Tyler Booker", "position": "G", "status": "Out", "injury": "Ankle (reported high ankle sprain by Dallas Sports Journal Nov 16) - left Week 10 before halftime. ESPN lists Out with est. return Dec 7. T.J. Bass replaces him at RG. Projection - no official designation yet", "starter": true, "source": "https://dallassportsjournal.com/tj-bass-cowboys-tyler-booker-injury-mr-versatility/"},
+        {"player": "DaRon Bland", "position": "CB", "status": "Out", "injury": "Ankle (opposite ankle from earlier injury) - left Week 10 vs SF. Team site headline says he is sidelined going forward. ESPN lists Out, est. return Nov 26. Could miss much of the remaining schedule", "starter": true, "source": "https://www.dallascowboys.com/news/daron-bland-sidelined-going-forward-due-to-injury"},
+        {"player": "Jake Ferguson", "position": "TE", "status": "Out", "injury": "Left knee PCL and MCL sprain (suffered vs Colts in Week 9). Schottenheimer said Nov 9 he would miss multiple weeks. Missed Week 10. No fresher update - still expected out. Brevyn Spann-Ford starts", "starter": true, "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-goodson-will-miss-multiple-weeks-for-cowboys"},
+        {"player": "Tyler Goodson", "position": "RB", "status": "IR", "injury": "Knee - placed on IR Nov 14, 2026 (CBS expected return Week 15). Was listed Out last week, now on IR", "starter": false, "source": "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured"},
+        {"player": "P.J. Locke", "position": "S", "status": "Doubtful", "injury": "Concussions in back-to-back games - missed Week 10. Schottenheimer said he is likely to miss another week / multiple games. Roster status conflicting (team site indicates he had been returned to the active roster from IR earlier)", "starter": true, "source": "https://dallassportsjournal.com/jalen-thompson-pj-locke-cowboys-injury-update-titans/"},
+        {"player": "Devin Moore", "position": "CB", "status": "IR", "injury": "Hip - designated for return from IR Wed Nov 11, 2026, 21-day practice window open. Not yet activated. CBS lists expected return Week 11 - activation possible this week", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys"},
+        {"player": "Jalen Thompson", "position": "S", "status": "IR", "injury": "Hamstring - on IR since Sep 30, 2026. Practice window not opened. Schottenheimer said a shutdown is not under consideration", "starter": true, "source": "https://dallassportsjournal.com/jalen-thompson-pj-locke-cowboys-injury-update-titans/"},
+        {"player": "Malachi Lawrence", "position": "LB", "status": "IR", "injury": "Ankle - placed on IR Nov 7, 2026. Earliest return around Week 13 (ESPN est. Dec 7)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys"},
+        {"player": "Matt Hennessy", "position": "C", "status": "IR", "injury": "On IR - ESPN lists est. return Feb 15 (effectively out for season)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys"},
+        {"player": "Kelvin Gilliam Jr.", "position": "DL", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://sports.yahoo.com/nfl/teams/dallas/transactions/"},
+        {"player": "Malik Davis", "position": "RB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://sports.yahoo.com/nfl/teams/dallas/transactions/"},
+        {"player": "Princeton Fant", "position": "TE", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://sports.yahoo.com/nfl/teams/dallas/transactions/"}
+      ],
+      "context_notes": [
+        "ACTIVATED: DT Jonathan Bullard was activated from IR on Nov 14, 2026 (same transaction that sent Goodson to IR) - no longer absent.",
+        "Defense in crisis: 584 yards allowed to SF. Schottenheimer said Mon Nov 16 the team is taking a deep dive looking at everything on defense. Secondary very thin (Bland out, Locke doubtful, Thompson and Moore on IR).",
+        "Offense is rolling (40 points, Pickens and Lamb dominant). RB depth relies on practice-squad elevations (Israel Abanikanda elevated for SF) with Goodson on IR.",
+        "OL reshuffle: T.J. Bass in at RG for Booker. DE/LB Tyrus Wheat was waived and claimed by Detroit this week.",
+        "Unverified snippet mentioned G Tyler Smith (thumb) and LB DeMarvion Overshown (hamstring) trending positively toward a return - date context unclear, check Wednesday report."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/hoping-mortal-victory-cowboys-snatch-025303261.html",
+        "https://www.si.com/nfl/cowboys/onsi/biggest-takeaways-cowboys-predictable-week-10-loss-49ers",
+        "https://athlonsports.com/nfl/cowboys-week-10-snaps-count-vs-49ers-george-pickens",
+        "https://athlonsports.com/nfl/dallas-cowboys/cowboys-lose-two-starters-to-ankle-injuries-after-49ers-loss",
+        "https://www.dallascowboys.com/news/daron-bland-sidelined-going-forward-due-to-injury",
+        "https://dallassportsjournal.com/tj-bass-cowboys-tyler-booker-injury-mr-versatility/",
+        "https://dallassportsjournal.com/jalen-thompson-pj-locke-cowboys-injury-update-titans/",
+        "https://heavy.com/sports/nfl/dallas-cowboys/tyler-booker-daron-bland-injury-concerns/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jake-ferguson-tyler-goodson-will-miss-multiple-weeks-for-cowboys",
+        "https://www.dallascowboys.com/news/transactions-guard-signed-snowden-waived-injured",
+        "https://www.dallascowboys.com/news/pic-6-missed-tackles-explosive-plays-haunt-cowboys-vs-49ers",
+        "https://www.espn.com/nfl/team/injuries/_/name/dal/dallas-cowboys",
+        "https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/injuries/",
+        "https://sports.yahoo.com/nfl/teams/dallas/transactions/"
+      ]
+    },
+    "TB": {
+      "week10_result": "BYE in Week 10. Last game was a Week 9 Sunday-night loss to Chicago (reported 27-24, score from one source) on Nov 8, 2026 - Baker Mayfield injured his foot/ankle in that game. Record 3-6, half a game out of first in the NFC South.",
+      "qb": {
+        "starter": "Baker Mayfield",
+        "backup": "Jalon Daniels",
+        "changed_from_week10": false,
+        "notes": "UNCERTAIN. Mayfield injured his foot/ankle area in Week 9 vs CHI and wore a walking boot during the bye. Per NFL Network (Garafolo) and ESPN (Nov 15): status for Detroit uncertain, not ruled out, not a long-term issue, IR not considered, any absence expected to be brief. If he cannot go, undrafted rookie Jalon Daniels (1-2 in three starts earlier this season, including a win at Dallas) would likely start. Bucs signed veteran Cooper Rush to the practice squad after the injury and could elevate him. No Bowles update or practice report yet - watch Wednesday practice."
+      },
+      "injuries": [
+        {"player": "Baker Mayfield", "position": "QB", "status": "Questionable", "injury": "Foot/ankle (lower leg) - injured Week 9 vs CHI, walking boot during bye. NFL Network/ESPN Nov 15: status uncertain for Week 11, not ruled out. Projection - no practice report yet", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50486637/sources-baker-mayfield-status-uncertain-vs-lions"},
+        {"player": "Jalen McMillan", "position": "WR", "status": "IR", "injury": "Knee (re-aggravated Week 3, had a procedure). Still on IR - 21-day window not opened as of Nov 15. Bowles indicated he was unlikely to be ready right after the bye", "starter": false, "source": "https://sports.yahoo.com/articles/bucs-still-waiting-promising-receiver-190512727.html"},
+        {"player": "Josh Hayes", "position": "CB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://clutchpoints.com/nfl/tampa-bay-buccaneers/injuries"},
+        {"player": "Emeka Egbuka", "position": "WR", "status": "Probable", "injury": "Foot - missed two games, returned Week 9 vs CHI with the issue lingering. Had the bye to recover. Dated info (about Nov 5-8), unverified for this week", "starter": true, "source": "https://www.si.com/nfl/buccaneers/onsi/emeka-egbuka-injury-update-latest-on-bucs-wr-after-missing-another-practice-2026"}
+      ],
+      "context_notes": [
+        "Coming off the bye with 14 days rest - extra recovery time for Mayfield and others.",
+        "Mayfield has already missed three starts this season (Daniels went 1-2). Reports say Tampa would lean on the run game if Daniels or Rush starts.",
+        "3-6 but only half a game out of the NFC South lead, so the game matters for the division race.",
+        "Detroit lost Aidan Hutchinson for the season in Week 10, reducing pass-rush pressure on whichever TB quarterback plays.",
+        "RT Luke Goedeke was mentioned with a calf injury in an undated report - check the Wednesday practice report."
+      ],
+      "sources": [
+        "https://www.nfl.com/news/buccaneers-qb-baker-mayfield-injury-week-11",
+        "https://www.espn.com/nfl/story/_/id/50486637/sources-baker-mayfield-status-uncertain-vs-lions",
+        "https://www.tsn.ca/nfl/article/sources-mayfields-status-uncertain-for-bucs-week-11-game-vs-lions-n1-50486637/",
+        "https://bvmsports.com/2026/11/15/report-buccaneers-baker-mayfield-uncertain-for-week-11-with-leg-injury/",
+        "https://www.pewterreport.com/concerning-injury-update-bucs-baker-mayfield/",
+        "https://www.cbssports.com/fantasy/football/news/buccaneers-baker-mayfield-managing-injury-to-footankle-area/",
+        "https://sports.yahoo.com/articles/buccaneers-sign-qb-practice-squad-172648487.html",
+        "https://www.thebiglead.com/buccaneers-sign-new-qb-practice-squad-baker-mayfield-injury-update/",
+        "https://www.bucsnation.com/tampa-bay-buccaneers-injuries/69767/buccaneers-could-be-without-baker-mayfield-for-week-11-matchup-against-lions-nfl",
+        "https://sports.yahoo.com/articles/bucs-still-waiting-promising-receiver-190512727.html",
+        "https://www.si.com/nfl/buccaneers/onsi/emeka-egbuka-injury-update-latest-on-bucs-wr-after-missing-another-practice-2026",
+        "https://www.espn.com/nfl/game/_/gameId/401873072/buccaneers-lions"
+      ]
+    },
+    "DET": {
+      "week10_result": "Beat New England 35-10 in Munich, Germany (Sun Nov 15, 2026). Dominant win after Drake Maye was knocked out, but DE Aidan Hutchinson tore his right ACL celebrating a first-quarter sack and is out for the season.",
+      "qb": {
+        "starter": "Jared Goff",
+        "backup": "unverified",
+        "changed_from_week10": false,
+        "notes": "Goff was limited early in Week 10 practice with a chest injury, was a full participant by Thursday and played the full game (threw one end-zone INT). No Week 11 concern reported."
+      },
+      "injuries": [
+        {"player": "Aidan Hutchinson", "position": "DE", "status": "Out", "injury": "Torn right ACL suffered on a sack celebration Nov 15 vs NE in Munich - confirmed by follow-up tests Nov 16, out for the season. Formal IR placement not yet confirmed in search results", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl"},
+        {"player": "Jack Campbell", "position": "LB", "status": "IR", "injury": "Neck - placed on IR Nov 7, 2026, must miss at least four games (ESPN est. return Dec 6). Dan Campbell says trending in the right direction, no timeline", "starter": true, "source": "https://sports.yahoo.com/articles/jack-campbell-injury-emerges-lions-220234439.html"},
+        {"player": "Kerby Joseph", "position": "S", "status": "PUP", "injury": "Knee - on reserve/PUP. 21-day practice window opened Oct 28 and reportedly expires Nov 18 - must be activated by then or miss the season. Ruled out Week 10 despite a full Thursday practice. ESPN est. return Nov 22. Activation decision unverified", "starter": true, "source": "https://www.detroitnews.com/story/sports/nfl/lions/2026/10/28/kerby-joseph-injury-update-detroit-lions-minnesota-vikings-brian-branch/92480113007/"},
+        {"player": "D.J. Reed", "position": "CB", "status": "Questionable", "injury": "Hip (per ESPN game page, injury mapping may be swapped with Mays) - ruled out for Week 10 in Germany. ESPN lists questionable with est. return Nov 22", "starter": true, "source": "https://www.espn.com/nfl/game/_/gameId/401873072/buccaneers-lions"},
+        {"player": "Cade Mays", "position": "C", "status": "Questionable", "injury": "Ankle (per ESPN game page, injury mapping may be swapped with Reed) - ruled out for Week 10 in Germany. ESPN lists questionable with est. return Nov 22", "starter": true, "source": "https://www.espn.com/nfl/game/_/gameId/401873072/buccaneers-lions"},
+        {"player": "Brian Branch", "position": "S", "status": "Probable", "injury": "Hip - limited Wed of Week 10, then two full practices, played vs NE with no designation", "starter": true, "source": "https://www.prideofdetroit.com/detroit-lions-injuries/180416/lions-patriots-week-10-injury-report-jared-goff-limited-dj-wonnum-returns-to-practice"},
+        {"player": "Jared Goff", "position": "QB", "status": "Probable", "injury": "Chest - limited early in Week 10 practice, full by Thursday, played the whole game Nov 15", "starter": true, "source": "https://www.prideofdetroit.com/detroit-lions-injuries/180416/lions-patriots-week-10-injury-report-jared-goff-limited-dj-wonnum-returns-to-practice"},
+        {"player": "Avonte Maddox", "position": "CB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Ben Bartch", "position": "G", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Devin White", "position": "LB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Isiah Pacheco", "position": "RB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Jimmy Rolder", "position": "LB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Thomas Harper", "position": "S", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"},
+        {"player": "Tom Kennedy", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions"}
+      ],
+      "context_notes": [
+        "Hutchinson loss is the headline: edge rush now falls to Derrick Moore (2 sacks after Hutchinson exited), DJ Wonnum (just returned to practice in Week 10) and Ahmed Hassanein. Lions claimed DE Tyrus Wheat off waivers from Dallas and waived Nick Whiteside (Nov 16).",
+        "Travel: returning from Munich, Germany with no bye afterward. TB is coming off its bye with 14 days rest.",
+        "Kerby Joseph PUP decision deadline reported as Nov 18 - if activated he could debut this week. If not he is done for the year.",
+        "Opponent QB uncertainty (Mayfield foot/ankle) noted by Detroit media as a potential break.",
+        "D.J. Reed and Cade Mays both missed the Germany game - secondary and center depth to monitor on Wednesday report."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/nfl/live/lions-patriots-score-live-updates-inactives-highlights-stats-where-to-watch-week-10-munich-germany-130931807.html",
+        "https://www.espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-16/schefter-hutchinson-has-torn-acl-out-for-year",
+        "https://www.prideofdetroit.com/detroit-lions-news/181118/aidan-hutchinson-suffers-injury-sack-celebration-updates",
+        "https://detroitsportsnation.com/detroit-lions-roster-moves-tyrus-wheat-nick-whiteside/ddrysdale/detroit-lions/11/16/2026/508252/",
+        "https://heavy.com/sports/nfl/detroit-lions/tyrus-wheat-replace-hutchinson/",
+        "https://athlonsports.com/nfl/detroit-lions/detroit-lions-must-remake-edge-rush-after-aidan-hutchinsons-torn-acl",
+        "https://sports.yahoo.com/articles/jack-campbell-injury-emerges-lions-220234439.html",
+        "https://www.prideofdetroit.com/detroit-lions-injuries/180416/lions-patriots-week-10-injury-report-jared-goff-limited-dj-wonnum-returns-to-practice",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-12/lions-rule-out-kerby-joseph-d-j-reed",
+        "https://www.detroitnews.com/story/sports/nfl/lions/2026/10/28/kerby-joseph-injury-update-detroit-lions-minnesota-vikings-brian-branch/92480113007/",
+        "https://www.espn.com/nfl/team/injuries/_/name/det/detroit-lions",
+        "https://www.espn.com/nfl/game/_/gameId/401873072/buccaneers-lions"
+      ]
+    },
+    "ARI": {
+      "week10_result": "Lost 34-6 to the Rams at State Farm Stadium (Sun Nov 15, 2026), dropping to 3-7. Blowout: rookie Carson Beck made his first NFL start (11/18, 108 yds, 2 INT, sacked 5 times), only points were two Chad Ryland FGs, and the Rams ran 46 times for 202 yds. OLB Jordan Burch (MCL, season over) and S Andrew Wingard (wrist/hand) were hurt.",
+      "qb": {
+        "starter": "Carson Beck",
+        "backup": "Josh Johnson",
+        "changed_from_week10": false,
+        "notes": "SCHEDULE FILE IS WRONG: Gardner Minshew is NOT the starter. Minshew injured his throwing elbow (reported torn UCL, surgery pending) in a 17-3 loss to Seattle in Week 9 and was placed on IR Nov 10-11, 2026 - out for the season. Rookie Carson Beck took over and started Week 10 vs LAR (11/18, 108 yds, 0 TD, 2 INT, 5 sacks), so no change from Week 10 but a change from the file. Jacoby Brissett was traded to Baltimore (official Nov 6). Veteran Josh Johnson was signed off Cincinnati's practice squad Nov 10 as the backup. Beck makes his second career start at Arrowhead."
+      },
+      "injuries": [
+        {"player": "Gardner Minshew", "position": "QB", "status": "IR", "injury": "Right (throwing) elbow - reported torn UCL suffered Week 9 vs SEA, placed on IR Nov 10-11, 2026, out for the season pending surgery", "starter": true, "source": "https://www.azfamily.com/2026/11/11/cardinals-place-qb-gardner-minshew-injured-reserve-opening-door-rookie-carson-beck/"},
+        {"player": "Jordan Burch", "position": "OLB", "status": "Out", "injury": "Knee (MCL) suffered on kickoff coverage Nov 15 vs LAR - LaFleur said Nov 16 he is done for the season. IR move expected", "starter": false, "source": "https://www.azcardinals.com/news/pair-of-new-injuries-add-urgency-to-cardinals-search-for-answers"},
+        {"player": "Andrew Wingard", "position": "S", "status": "Out", "injury": "Wrist/hand suffered Nov 15 vs LAR - LaFleur said out for an extended period of time but will not go on IR", "starter": true, "source": "https://heavy.com/sports/nfl/arizona-cardinals/mike-lafleur-injury-cardinals-roster-thins/"},
+        {"player": "Hjalte Froholdt", "position": "C", "status": "Questionable", "injury": "Concussion - remained in protocol and was ruled out for Week 10 vs LAR. Listed questionable by SI preview for Week 11. Clearance unverified", "starter": true, "source": "https://arizonasports.com/arizona-cardinals-injury-report/rams-puka-nacua-hjalte-froholdt"},
+        {"player": "Jon Gaines II", "position": "G", "status": "Questionable", "injury": "Listed questionable in SI Week 11 betting preview (injury not specified, may be carried from Week 10 report)", "starter": false, "source": "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026"},
+        {"player": "Michael Wilson", "position": "WR", "status": "IR", "injury": "Moved from Out to IR (placed around Nov 10-11 along with Minshew). Eligible to return after Week 13 but reported unlikely to return", "starter": true, "source": "https://sports.yahoo.com/articles/arizona-cardinals-week-10-offensive-001942071.html"},
+        {"player": "Paris Johnson Jr.", "position": "OT", "status": "IR", "injury": "Torn left biceps (Week 4 vs NYG), on IR since Oct 6 - out for the season", "starter": true, "source": "https://www.azcardinals.com/news/paris-johnson-jr-out-for-season-as-offensive-line-shuffles-again"},
+        {"player": "James Conner", "position": "RB", "status": "IR", "injury": "Placed on IR Nov 2, 2026 - must miss at least four games, still out", "starter": true, "source": "https://www.footballdb.com/teams/nfl/arizona-cardinals/transactions"},
+        {"player": "Jeremiyah Love", "position": "RB", "status": "IR", "injury": "Ankle - placed on IR Nov 3, 2026 - must miss at least four games, still out", "starter": true, "source": "https://www.footballdb.com/teams/nfl/arizona-cardinals/transactions"},
+        {"player": "Will Johnson", "position": "CB", "status": "IR", "injury": "Neck - on IR per ESPN injury page, no return timeline found", "starter": true, "source": "https://www.espn.com/nfl/team/injuries/_/name/ari/arizona-cardinals"},
+        {"player": "Chase Bisontis", "position": "G", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": true, "source": "https://www.espn.com/nfl/team/transactions/_/name/ari/arizona-cardinals"},
+        {"player": "Jalen Brooks", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/ari/arizona-cardinals"},
+        {"player": "Kendrick Bourne", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/ari/arizona-cardinals"},
+        {"player": "Zachary Carter", "position": "DT", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/ari/arizona-cardinals"},
+        {"player": "Tip Reiman", "position": "TE", "status": "PUP", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/ari/arizona-cardinals"}
+      ],
+      "context_notes": [
+        "ACTIVATED: G Isaiah Adams was designated to return Nov 4 and activated from IR Nov 7, 2026 - no longer absent. TE Hunter Long reportedly activated from IR Nov 14 per the team site (another tracker conflicts).",
+        "Offense has collapsed: 3 points vs SEA and 6 vs LAR in the last two games, and Arizona has not scored a TD in two games vs the Rams this season. Now without the top two RBs (Conner, Love), starting LT (Paris Johnson Jr.), WR Michael Wilson and the veteran QB.",
+        "Head coach Mike LaFleur. Run defense was gashed for 202 yards by the Rams, and the defense just lost Burch and Wingard.",
+        "QB room turned over within two weeks: Brissett traded to BAL (Nov 6), Minshew to IR (Nov 10-11), Josh Johnson signed (Nov 10). Rookie Beck faces a road start at Arrowhead after taking five sacks in his debut.",
+        "Kicker Chad Ryland accounted for all Arizona points in Week 10."
+      ],
+      "sources": [
+        "https://www.pff.com/news/nfl-week-10-recap-los-angeles-rams-34-arizona-cardinals-6",
+        "https://sports.yahoo.com/articles/cardinals-week-10-loss-pressure-031151102.html",
+        "https://www.thebiglead.com/arizona-cardinals-infamous-history-nfl-week-10-2026/",
+        "https://athlonsports.com/nfl/cardinals-week-10-what-we-learned-run-defense-rams",
+        "https://www.azfamily.com/2026/11/11/cardinals-place-qb-gardner-minshew-injured-reserve-opening-door-rookie-carson-beck/",
+        "https://www.washingtonpost.com/sports/nfl/2026/11/10/arizona-cardinals-minshew-injury-carson-beck/a4dc5ce0-dd57-11f1-912c-4fbb80d73f7f_story.html",
+        "https://www.foxsports.com/stories/nfl/2026-nfl-power-rankings-week-11",
+        "https://www.azcardinals.com/news/pair-of-new-injuries-add-urgency-to-cardinals-search-for-answers",
+        "https://heavy.com/sports/nfl/arizona-cardinals/mike-lafleur-injury-cardinals-roster-thins/",
+        "https://www.azcardinals.com/team/transactions/",
+        "https://www.footballdb.com/teams/nfl/arizona-cardinals/transactions",
+        "https://sports.yahoo.com/articles/arizona-cardinals-week-10-offensive-001942071.html",
+        "https://www.azcardinals.com/news/paris-johnson-jr-out-for-season-as-offensive-line-shuffles-again",
+        "https://www.espn.com/nfl/team/injuries/_/name/ari/arizona-cardinals",
+        "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026",
+        "https://arizonasports.com/arizona-cardinals-injury-report/rams-puka-nacua-hjalte-froholdt"
+      ]
+    },
+    "KC": {
+      "week10_result": "Won 35-13 at Atlanta (Sun Nov 15, 2026), improving to 7-2. Blowout: Patrick Mahomes 22/35, 348 yds, 5 TD. Rookie RB Emmett Johnson (101 rush yds, 2 rec TD) filled in for Kenneth Walker III. RG Trey Smith left with a concussion, TE Jared Wiley fractured his ankle, Travis Kelce was banged up (calf) but returned.",
+      "qb": {
+        "starter": "Patrick Mahomes",
+        "backup": "unverified",
+        "changed_from_week10": false,
+        "notes": "Mahomes injured his right elbow in the Week 9 win over the Jets. MRI showed no major injury, two specialists cleared him, and he carried no designation for Week 10, where he threw for 348 yds and 5 TD and said the elbow felt good enough. No Week 11 concern reported. Chris Oladokun remains on IR - current QB2 not confirmed."
+      },
+      "injuries": [
+        {"player": "Kenneth Walker III", "position": "RB", "status": "Questionable", "injury": "Groin tightness developed late in Week 10 practice week - missed Nov 15 at ATL. Rapoport (via Heavy) reports the Chiefs expect him back vs Arizona. Listed questionable by SI preview", "starter": true, "source": "https://heavy.com/sports/nfl/kansas-city-chiefs/kenneth-walker-return-week-11-cardinals/"},
+        {"player": "Trey Smith", "position": "G", "status": "Questionable", "injury": "Concussion - entered protocol in first half Nov 15 at ATL and was ruled out. Reid said Nov 16 he is in the protocol and we'll see where that goes", "starter": true, "source": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/216532/andy-reid-gives-5-injury-updates-after-chiefs-big-win"},
+        {"player": "Jared Wiley", "position": "TE", "status": "Out", "injury": "Fractured ankle suffered Nov 15 at ATL per Andy Reid (Nov 16). IR move likely", "starter": false, "source": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/216532/andy-reid-gives-5-injury-updates-after-chiefs-big-win"},
+        {"player": "Travis Kelce", "position": "TE", "status": "Probable", "injury": "Calf (Reid) / appeared to roll ankle Nov 15 at ATL - returned and finished the game. Reid said he battled through it", "starter": true, "source": "https://www.yardbarker.com/nfl/articles/travis_kelce_injury_latest_as_chiefs_head_coach_andy_reid_shares_update/s1_17664_44566047"},
+        {"player": "Josh Simmons", "position": "OT", "status": "IR", "injury": "Back - on IR. Reid said Nov 16 he does not expect him back at practice this week. Rookie Kahlil Benson is starting at LT", "starter": true, "source": "https://sports.yahoo.com/articles/chiefs-hc-andy-reids-gives-191328377.html"},
+        {"player": "Mansoor Delane", "position": "CB", "status": "Questionable", "injury": "Shoulder fracture he has played through all season - checked after Week 10. Reid indicated he avoided a worst-case outcome. Week 11 status unverified", "starter": true, "source": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/216532/andy-reid-gives-5-injury-updates-after-chiefs-big-win"},
+        {"player": "Peter Woods", "position": "DT", "status": "Questionable", "injury": "Listed questionable in SI Week 11 betting preview (injury not specified, unverified)", "starter": false, "source": "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026"},
+        {"player": "Jaylon Moore", "position": "OT", "status": "Questionable", "injury": "Listed questionable in SI Week 11 betting preview (injury not specified, unverified)", "starter": false, "source": "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026"},
+        {"player": "Jaydn Ott", "position": "RB", "status": "Questionable", "injury": "Listed questionable in SI Week 11 betting preview (injury not specified, unverified)", "starter": false, "source": "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026"},
+        {"player": "Omarr Norman-Lott", "position": "DT", "status": "PUP", "injury": "Designated for return Oct 29, 2026 (per Yahoo transaction log) - 21-day window expires around Nov 19. Activation not confirmed (unverified)", "starter": false, "source": "https://sports.yahoo.com/nfl/teams/kansas-city/transactions/"},
+        {"player": "Brashard Smith", "position": "RB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "Chris Oladokun", "position": "QB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "EJ Smith", "position": "RB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "Ethan Downs", "position": "LB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "Jimmy Holiday", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "Matt Waletzko", "position": "OL", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"},
+        {"player": "Tyquan Thornton", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs"}
+      ],
+      "context_notes": [
+        "Trade deadline: acquired WR Josh Downs from Indianapolis (Nov 10-11). He scored a TD in his Chiefs debut at ATL. WR Nikko Remigio and DE Jack Pyburn were waived (Pyburn back on practice squad).",
+        "Offensive line is the watch item: rookie Kahlil Benson at LT for Josh Simmons (IR, back), RG Trey Smith in concussion protocol, C Creed Humphrey briefly left Week 10 before returning.",
+        "Mahomes described as back in MVP form (first 300-yd/5-TD game in five years). Rookie RB Emmett Johnson ran for 101 yds if Walker is limited.",
+        "Special teams were flagged as a continuing weakness in Week 10 reviews.",
+        "Opponent starts a rookie QB (Carson Beck) in his second career start - large talent mismatch at home."
+      ],
+      "sources": [
+        "https://www.arrowheadpride.com/kansas-city-chiefs-discussions/216415/chiefs-falcons-game-thread-live-updates-final-score",
+        "https://sports.yahoo.com/articles/8-winners-2-losers-kansas-215631711.html",
+        "https://sports.yahoo.com/articles/final-score-kansas-city-chiefs-213841612.html",
+        "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/216532/andy-reid-gives-5-injury-updates-after-chiefs-big-win",
+        "https://sports.yahoo.com/articles/chiefs-hc-andy-reids-gives-191328377.html",
+        "https://www.yardbarker.com/nfl/articles/travis_kelce_injury_latest_as_chiefs_head_coach_andy_reid_shares_update/s1_17664_44566047",
+        "https://heavy.com/sports/nfl/kansas-city-chiefs/kenneth-walker-return-week-11-cardinals/",
+        "https://www.si.com/betting/cardinals-vs-chiefs-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026",
+        "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-on-his-injured-elbow-obviously-it-felt-good-enough",
+        "https://www.cbssports.com/nfl/news/priscos-nfl-week-11-power-rankings-patrick-mahomes-chiefs/",
+        "https://sports.yahoo.com/articles/chiefs-final-injury-roundup-vs-170410265.html",
+        "https://www.espn.com/nfl/team/transactions/_/name/kc/kansas-city-chiefs",
+        "https://sports.yahoo.com/nfl/teams/kansas-city/transactions/"
+      ]
+    },
+    "JAX": {
+      "week10_result": "Won 40-23 at Tennessee (Sun Nov 15, 2026). Trevor Lawrence threw for 352 yds and 3 TD, Parker Washington had a big game, Bhayshul Tuten ran 26 times for 88 yds and a TD. DE Danny Striggow left with a concussion and C Robert Hainsey gave way to Jonah Monheim late.",
+      "qb": {
+        "starter": "Trevor Lawrence",
+        "backup": "unverified",
+        "changed_from_week10": false,
+        "notes": "Lawrence healthy - 352 yds, 3 TD in Week 10, no injury designation found for Week 11."
+      },
+      "injuries": [
+        {"player": "Robert Hainsey", "position": "C", "status": "Questionable", "injury": "Cleared concussion protocol Sat Nov 14 and started Week 10, but left and was replaced by Jonah Monheim. ESPN lists Questionable (knee). Heavy reports Coen left open that he could miss time", "starter": true, "source": "https://heavy.com/sports/nfl/jacksonville-jaguars/liam-coen-jonah-monheim/"},
+        {"player": "Danny Striggow", "position": "DE", "status": "Questionable", "injury": "Concussion suffered Nov 15 at TEN, did not return - in protocol", "starter": false, "source": "https://www.jaguars.com/news/game-report-2026-week-10-jaguars-40-titans-23"},
+        {"player": "Bhayshul Tuten", "position": "RB", "status": "Probable", "injury": "Foot/ankle - played through it in Week 10 (26 carries). Coen said he is not 100 percent healthy", "starter": true, "source": "https://heavy.com/sports/nfl/jacksonville-jaguars/bhayshul-tuten-not-healthy/"},
+        {"player": "B.J. Green II", "position": "DE", "status": "IR", "injury": "Designated to return Nov 11, 2026 and practicing, but not activated for Week 10. Coen said availability for the Giants depends on how the week goes - activation possible", "starter": false, "source": "https://www.jaguars.com/news/day-after-week-10-win-over-titans-glad-we-were-tested"},
+        {"player": "Anton Harrison", "position": "OT", "status": "IR", "injury": "On IR since Oct 13, 2026 - no designation to return found, still out", "starter": true, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"},
+        {"player": "DaVon Hamilton", "position": "DT", "status": "IR", "injury": "Placed on IR Nov 3, 2026 - must miss at least four games, still out", "starter": true, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"},
+        {"player": "Eric Murray", "position": "S", "status": "IR", "injury": "Placed on IR Nov 3, 2026 - must miss at least four games, still out", "starter": true, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"},
+        {"player": "Caleb Ransaw", "position": "S", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"},
+        {"player": "Patrick Mekari", "position": "G", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": true, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"},
+        {"player": "Zach Durfee", "position": "DL", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars"}
+      ],
+      "context_notes": [
+        "Aggressive trade deadline: acquired DT Jordan Davis from Philadelphia (Nov 10, for a 2027 1st and 2029 2nd), S Jessie Bates III from Atlanta (Nov 9, for a 2027 2nd and 2028 5th) and DT Davon Godchaux (Nov 9). Bates and Davis were held out of Week 10 to rest and settle in and are expected to debut vs the Giants - a notable defensive upgrade replacing IR losses Hamilton and Murray.",
+        "Second straight road game (at TEN, then at NYG, 4:25 pm ET kickoff per one preview). Giants had 10 days rest after Thursday night.",
+        "Center situation: if Hainsey cannot go, second-year Jonah Monheim starts. LT Anton Harrison and G Patrick Mekari remain on IR.",
+        "Head coach Liam Coen said the team was glad to be tested for four quarters and would prioritize recovery before returning to practice Wednesday.",
+        "Travis Hunter: no 2026 injury news found (only stale 2025 LCL items) - treat as unverified."
+      ],
+      "sources": [
+        "https://jaguars.com/news/game-report-2026-week-10-jaguars-40-titans-23",
+        "https://www.jaguars.com/news/day-after-week-10-win-over-titans-glad-we-were-tested",
+        "https://www.jaguars.com/news/top-storylines-from-jaguars-week-10-win-over-titans-confidence-loading",
+        "https://bvmsports.com/2026/11/16/jaguars-beat-titans-40-23-as-liam-coen-praises-four-quarter-test/",
+        "https://www.bigcatcountry.com/jacksonville-jaguars-scores-results/91499/jags-nfl-week-10-winners-losers-parker-washington",
+        "https://heavy.com/sports/nfl/jacksonville-jaguars/liam-coen-jonah-monheim/",
+        "https://heavy.com/sports/nfl/jacksonville-jaguars/bhayshul-tuten-not-healthy/",
+        "https://www.espn.com/nfl/team/transactions/_/name/jax/jacksonville-jaguars",
+        "https://www.cbssports.com/nfl/teams/jac/jacksonville-jaguars/injuries/",
+        "https://www.espn.com/nfl/game/_/gameId/401873069/jaguars-giants",
+        "https://www.nfl.com/games/jaguars-at-giants-2026-reg-11"
+      ]
+    },
+    "NYG": {
+      "week10_result": "Lost 24-21 to Washington on Thursday Night Football at MetLife (Nov 12, 2026), now reported 5-3-1 and still first in the NFC East. Jayden Daniels hit Stefon Diggs for a 32-yd TD with 57 seconds left. J.J. McCarthy threw for a career-high 293 yds but was intercepted late, and Malik Nabers lost a red-zone fumble. S Jason Pinnock left with a back injury.",
+      "qb": {
+        "starter": "J.J. McCarthy",
+        "backup": "Jameis Winston",
+        "changed_from_week10": false,
+        "notes": "McCarthy is the starter because Jaxson Dart is out for the season (left knee surgery, announced in September). McCarthy took a hit to the right hip in the Week 9 win over PHI (hip pointer, Winston briefly relieved him), logged full practices and carried no designation for Week 10, where he set career highs in completions and yards (293). No new injury reported and he has 10 days rest."
+      },
+      "injuries": [
+        {"player": "Jason Pinnock", "position": "S", "status": "Questionable", "injury": "Back - left the Nov 12 TNF loss to WAS early in the third quarter. CBS/Yahoo list questionable for Week 11 (as of Nov 13-16)", "starter": true, "source": "https://www.espn.com/nfl/recap/_/gameId/401873052"},
+        {"player": "Malik Harrison", "position": "LB", "status": "Questionable", "injury": "Groin - was the only Giant with a designation for Week 10 (questionable). ESPN/Giants pages still list questionable for Week 11", "starter": false, "source": "https://www.bigblueview.com/new-york-giants-injuries/179637/ny-giants-have-only-one-player-on-their-injury-report-for-game-vs-commanders"},
+        {"player": "Brian Burns", "position": "OLB", "status": "IR", "injury": "On IR - Harbaugh has acknowledged he is out for the season", "starter": true, "source": "https://sports.yahoo.com/articles/despite-loss-york-giants-enter-125525863.html"},
+        {"player": "Tremaine Edmunds", "position": "LB", "status": "IR", "injury": "On IR - Harbaugh has acknowledged he is out for the season", "starter": true, "source": "https://sports.yahoo.com/articles/despite-loss-york-giants-enter-125525863.html"},
+        {"player": "Jaxson Dart", "position": "QB", "status": "IR", "injury": "Left knee - surgery, out for the season (confirmed by Harbaugh in September)", "starter": true, "source": "https://sports.yahoo.com/articles/happened-jaxson-dart-long-latest-000017870.html"},
+        {"player": "Braxton Berrios", "position": "WR", "status": "IR", "injury": "Out for the season per Harbaugh (reserve list type not confirmed)", "starter": false, "source": "https://sports.yahoo.com/articles/despite-loss-york-giants-enter-125525863.html"},
+        {"player": "Tyrone Tracy Jr.", "position": "RB", "status": "IR", "injury": "Hamstring - placed on IR Oct 27, 2026. Not eligible to return until Week 13 vs SF", "starter": false, "source": "https://bolavip.com/en/nfl/ny-giants-receive-positive-update-on-rb-tyrone-tracys-hamstring-injury"},
+        {"player": "Calvin Austin III", "position": "WR", "status": "IR", "injury": "Torn ACL in practice - out for the season", "starter": false, "source": "https://www.giants.com/news/paulson-adebo-cornerback-designated-for-return-from-injured-reserve-week-7-houston-texans"},
+        {"player": "Roy Robertson-Harris", "position": "DL", "status": "IR", "injury": "Achilles - on IR per Yahoo injuries page (Nov 16), no return designation", "starter": true, "source": "https://sports.yahoo.com/nfl/teams/ny-giants/injuries/"},
+        {"player": "Korie Black", "position": "CB", "status": "IR", "injury": "On IR (designated-to-return tag at Aug 30 cutdown). CBS lists expected return Week 11 - activation unverified", "starter": false, "source": "https://www.cbssports.com/nfl/teams/nyg/new-york-giants/injuries/"},
+        {"player": "Gunner Olszewski", "position": "WR", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants"},
+        {"player": "Jarrick Bernard-Converse", "position": "DB", "status": "IR", "injury": "Carried from Week 10 list - no activation found (unverified)", "starter": false, "source": "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants"}
+      ],
+      "context_notes": [
+        "10 days rest after Thursday night. The active roster was nearly fully healthy going into Week 10 (only Malik Harrison had a designation).",
+        "Head coach John Harbaugh second-guessed his own late-game calls (six straight runs, a 4th-and-1 decision) after the 24-21 loss but backed McCarthy. Coverage frames the schedule as getting tougher from here.",
+        "Giants remain first in the NFC East despite the loss, so this is a meaningful home game. Jacksonville arrives off a 40-point game with new defensive additions (Jessie Bates III, Jordan Davis) expected to debut.",
+        "RB Cam Skattebo returned from a hamstring injury in Week 10 (full go) - backfield is Skattebo-led with Tracy on IR until at least Week 13.",
+        "CBS lists DL Chauncey Golston (neck) with an expected return in Week 11 - status unverified."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401873052",
+        "https://www.nfl.com/news/the-giants-stumble-and-let-one-slip-it-s-a-missed-opportunity",
+        "https://sports.yahoo.com/articles/despite-loss-york-giants-enter-125525863.html",
+        "https://sports.yahoo.com/articles/giants-john-harbaugh-defends-run-050518454.html",
+        "https://abcnews.com/Sports/wireStory/bad-loss-giants-puts-rough-spot-competition-gets-138126063",
+        "https://www.espn.com/nfl/story/_/id/50491685/new-york-giants-qb-jj-mccarthy-growth-showing-week-10",
+        "https://www.espn.com/nfl/story/_/id/50427263/giants-qb-jj-mccarthy-says-fine-big-hit-injures-hip",
+        "https://sports.yahoo.com/nfl/live/jameis-winston-briefly-takes-over-for-injured-jj-mccarthy-leading-giants-to-19-11-win-over-eagles-212352848.html",
+        "https://sports.yahoo.com/articles/happened-jaxson-dart-long-latest-000017870.html",
+        "https://www.bigblueview.com/new-york-giants-injuries/179637/ny-giants-have-only-one-player-on-their-injury-report-for-game-vs-commanders",
+        "https://www.cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders/",
+        "https://bolavip.com/en/nfl/ny-giants-receive-positive-update-on-rb-tyrone-tracys-hamstring-injury",
+        "https://www.cbssports.com/nfl/teams/nyg/new-york-giants/injuries/",
+        "https://sports.yahoo.com/nfl/teams/ny-giants/injuries/",
+        "https://www.espn.com/nfl/team/injuries/_/name/nyg/new-york-giants",
+        "https://www.espn.com/nfl/game/_/gameId/401873069/jaguars-giants"
+      ]
+    }
+  }
+}
