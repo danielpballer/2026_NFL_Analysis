@@ -1,0 +1,938 @@
+{
+  "collected_on": "2026-11-17",
+  "search_calls_used": 40,
+  "unverified": [
+    "No official Week 11 practice/injury reports existed yet for any of the eight teams as of Tue Nov 17 (first reports due Wed Nov 18). All Questionable tags are from coach comments or ESPN/CBS listings, not official game designations.",
+    "Injury entries whose source starts with 'none (carried from Week 10 absent list' were NOT re-verified - no activation or update was found, so they are assumed still on IR/PUP/NFI.",
+    "NYJ: Joseph Ossai (ankle) and Nahshon Wright (back) - questionable for Week 10 after full Friday practices and reported likely to play, but Week 10 active status and Week 11 status unconfirmed. Not listed as out.",
+    "NYJ: which ankle Geno Smith injured (ESPN says left, CBS says right). Omar Cooper Jr. test results not reported. Garrett Wilson status not found in current results.",
+    "LAC: backup QB (Trey Lance is an inference). Charlie Kolar's activation date (he caught a pass Nov 16 per Sky Sports so he is back). Rashawn Slater return designation. Whether Kayode Awosika played Nov 16. A garbled Harbaugh note about a player in a walking boot at warmups ('Hart') could not be identified.",
+    "LV: backup QB behind Mendoza. Thomas Booker IV status (questionable vs out). Statuses of Maxx Crosby, Ashton Jeanty, Kolton Miller not found. All four carried IR players unverified.",
+    "DEN: Week 9 final score at Carolina. Backup QB. Talanoa Hufanga questionable (ESPN game page / CBS) vs out (ESPN league page). Whether Payton actually changes the starting offensive line. Eight carried IR/PUP players unverified.",
+    "PIT: active backup QB (Rudolph presumed). Whether Mason McCormick goes on IR and the exact diagnosis. DeShon Elliott 'couple weeks' timeline is a single-reporter item. Whether Pittman/Wilson practice windows open this week.",
+    "PHI: Lane Johnson's formal roster status (retired announcement Oct 6 vs still on roster listed Out-Personal). Identity of a player named Brown the Inquirer says the Eagles released. Eagles trade-deadline moves. Whether DeVonta Smith and Dontayvion Wicks actually return. Eli Stowers and Will Shipley current status. Identity of veteran QB signed after Hurts injury.",
+    "MIN: team record. Who backed up Cousins in Week 10 and whether Kyler Murray is active Week 11. Whether Addison was formally placed on IR. Specific injuries for Cashman, Van Ginkel and Ingram-Dawkins. Donovan Jackson, Demond Claiborne and Jamal Adams IR status.",
+    "SF: backup QB. CJ West (IR-R listing vs report he played at Dallas). Statuses for Nick Bosa, Fred Warner, George Kittle and Trent Williams were not found. Exact number of games Mike Evans has missed. Alfred Collins, De'Zhaun Stribling and Gracen Halton IR status."
+  ],
+  "teams": {
+    "NYJ": {
+      "week10_result": "Lost 31-12 vs BUF (Nov 15, MetLife). Jets now 2-8 with five straight losses. Geno Smith left twice (concussion check late 1st half, cleared, then ankle late 3rd quarter and ruled out). Rookie Cade Klubnik made his NFL debut (11-of-20, 137 yds, 0 TD, 1 INT). Jets have gone 9+ straight quarters without a TD. WR Omar Cooper Jr. (ankle) and LG Dylan Parham (knee) also left the game.",
+      "qb": {
+        "starter": "Geno Smith",
+        "backup": "Cade Klubnik",
+        "changed_from_week10": false,
+        "notes": "Smith had left-ankle imaging Mon Nov 16 that showed no major injury (ESPN / Rapoport). He will be evaluated through the week. Aaron Glenn said 'Geno's our starter' and rejected playing the rookie for evaluation, so Smith starts at LAC if healthy. ESPN lists him questionable. If he cannot go, 4th-round rookie Cade Klubnik would make his first NFL start. No practice report yet (first one due Wed Nov 18)."
+      },
+      "injuries": [
+        {
+          "player": "Geno Smith",
+          "position": "QB",
+          "status": "Questionable",
+          "injury": "Ankle (reports differ on left vs right) suffered Nov 15 vs BUF. Also cleared a concussion evaluation in-game. Nov 16 tests showed nothing major. Expected to start if healthy.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury"
+        },
+        {
+          "player": "Omar Cooper Jr.",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ankle. Left in first half Nov 15 vs BUF and did not return. Undergoing tests, no result reported. ESPN lists questionable.",
+          "starter": true,
+          "source": "https://www.newyorkjets.com/news/jets-bills-game-recap-11-15-2026"
+        },
+        {
+          "player": "Dylan Parham",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Left knee injury Nov 15 vs BUF. Replaced at LG by Jordan Meredith. ESPN lists questionable.",
+          "starter": true,
+          "source": "https://www.newyorkjets.com/news/jets-bills-game-recap-11-15-2026"
+        },
+        {
+          "player": "Trevin Wallace",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Groin. Listed questionable on ESPN game page for NYJ at LAC (undated listing, pre-practice-report).",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers"
+        },
+        {
+          "player": "Jarvis Brownlee Jr.",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Illness. Listed questionable on ESPN game page for NYJ at LAC (undated listing, pre-practice-report).",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers"
+        },
+        {
+          "player": "T'Vondre Sweat",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Knee. Still on injured reserve (placement dated either Nov 2 or a Saturday in early Nov depending on source).",
+          "starter": true,
+          "source": "https://jetsinsider.com/injuries/"
+        },
+        {
+          "player": "Anez Cooper",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Chip Trayanum",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Francisco Mauigoa",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Max Mitchell",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Tre Brown",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Tyler Baron",
+          "position": "EDGE",
+          "status": "PUP",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Carryover check: VJ Payne (DB) was ACTIVATED from IR before Week 10 and listed questionable after a full Friday practice - no longer absent. Joseph Ossai (ankle) and Nahshon Wright (back) were questionable for Week 10 after full Friday practices and a Bills-side report said both would suit up - their Week 10 active status is not fully confirmed (a Jets inactives page snippet was ambiguous) and Week 11 status is unknown, so they are NOT listed as out here.",
+        "Jets are 2-8 on a five-game losing streak. Aaron Glenn did not commit to continuing to call plays the rest of the season.",
+        "Cross-country trip to SoFi Stadium for a late-window Sunday game against a 1-8 Chargers team on a short (6-day) week.",
+        "Offensive line shuffle likely if Parham cannot go: Jordan Meredith finished the Bills game at left guard."
+      ],
+      "sources": [
+        "https://www.newyorkjets.com/news/jets-bills-game-recap-11-15-2026",
+        "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
+        "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
+        "https://www.espn.com/nfl/story/_/id/50502082/geno-smith-remains-jets-qb1-injury-aaron-glenn-says",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-16/geno-smith-ankle-will-start-vs-lac-if-healthy",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-tests-showed-no-major-injury-for-geno-smith",
+        "https://www.cbssports.com/nfl/news/bills-geno-smith-injury-updates-bills-cade-klubnik/",
+        "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers",
+        "https://www.newyorkjets.com/news/jets-injury-report-week-10-vs-bills-friday-11-13-2026",
+        "https://www.newyorkjets.com/news/jets-vs-bills-nfl-game-inactives-11-15-2026",
+        "https://jetsinsider.com/injuries/"
+      ]
+    },
+    "LAC": {
+      "week10_result": "Won 23-20 at BAL on Monday Night Football (Nov 16) - first win of the season, now 1-8 after an 0-8 start. Herbert 12-of-18 for 129 yds plus 51 rush yds and a 22-yd rushing TD. Omarion Hampton 22 carries, 105 yds, 1 TD. Ladd McConkey (back) was ruled out. David Njoku and Denzel Perryman were activated from IR that day and played.",
+      "qb": {
+        "starter": "Justin Herbert",
+        "backup": "Trey Lance (unverified - name appeared only in an early-season Chargers injury report headline)",
+        "changed_from_week10": false,
+        "notes": "Herbert started and finished the Nov 16 win at Baltimore. An earlier finger scare (after Week 9) produced negative X-rays and Harbaugh said he was good to go. No new injury reported. Short week (6 days rest) after a Monday night road game on the East Coast."
+      },
+      "injuries": [
+        {
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Back. Did not practice all last week and was ruled OUT for the Nov 16 game at BAL. Harbaugh called him day-to-day. Status vs NYJ not confirmed.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-ladd-mcconkey-for-monday-night-at-baltimore"
+        },
+        {
+          "player": "Rodney Shelley",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Ankle. Listed questionable on ESPN game page for NYJ at LAC (undated listing).",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers"
+        },
+        {
+          "player": "Derwin James Jr.",
+          "position": "S",
+          "status": "IR",
+          "injury": "Hamstring setback. Placed on IR Oct 31. Four-game minimum covers at LA, vs HOU, at BAL and vs NYJ - IR tracker (updated Nov 15) lists him eligible to return Week 12, so out vs Jets.",
+          "starter": true,
+          "source": "https://www.aol.com/articles/chargers-place-derwin-james-injured-205428000.html"
+        },
+        {
+          "player": "Rashawn Slater",
+          "position": "OT",
+          "status": "IR",
+          "injury": "High ankle sprain plus surgery from Week 4. Became eligible to return Nov 16 / Week 10 but no report of a return designation or practice window found.",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/chargers-placing-rashawn-slater-ir-185922052.html"
+        },
+        {
+          "player": "Tyler Biadasz",
+          "position": "C",
+          "status": "IR",
+          "injury": "Torn ACL in training camp. Season-long IR.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50462293/los-angeles-chargers-offensive-struggles-herbert-mcdaniel-hampton"
+        },
+        {
+          "player": "Branson Taylor",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Placed on injured reserve Nov 16 as part of pre-MNF roster moves (injury not specified in snippets).",
+          "starter": false,
+          "source": "https://www.yardbarker.com/nfl/articles/chargers_activate_two_for_mnf_among_four_roster_moves/s1_17039_44570375"
+        },
+        {
+          "player": "Trevor Penning",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Listed on IR on a depth chart dated Nov 16. No activation reported.",
+          "starter": false,
+          "source": "https://whosstarting.com/nfl/team/los-angeles-chargers/"
+        },
+        {
+          "player": "Trey Pipkins III",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Listed on IR on a depth chart dated Nov 16. No activation reported.",
+          "starter": false,
+          "source": "https://whosstarting.com/nfl/team/los-angeles-chargers/"
+        },
+        {
+          "player": "Kayode Awosika",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Was listed questionable for the Nov 16 game at BAL (injury not specified in snippets). Whether he played and his Week 11 status are unverified.",
+          "starter": false,
+          "source": "https://boltsfromtheblue.com/los-angeles-chargers-injuries/67050/chargers-injury-report-kayode-awosika-david-njoku-ladd-mcconkey"
+        },
+        {
+          "player": "Isaiah World",
+          "position": "OT",
+          "status": "NFI",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Carryover check: David Njoku (TE, fibula, out since Week 2) and Denzel Perryman (LB, pectoral, 2026 debut) were ACTIVATED from IR on Nov 16 and were active at BAL. Charlie Kolar (TE) caught a late first-down pass in the Nov 16 game per the Sky Sports recap, so he has RETURNED (activation date not found). Derwin James Jr., Slater, Biadasz, Penning, Pipkins and Branson Taylor remain on IR.",
+        "Short week: Monday night game in Baltimore, cross-country flight home, then NYJ on 6 days rest.",
+        "Offensive line is badly depleted (Slater, Biadasz, Penning, Pipkins, Taylor all on IR) and was described as ranked No. 32 with the offense 30th or worse in nine metrics during the 0-8 start. Joe Alt earlier missed two games with a neck injury.",
+        "One search summary of a Chargers Wire piece described the Baltimore game as a loss - five other outlets (ESPN, NBC LA, Sky Sports, Yahoo, Sporting Tribune) report a 23-20 Chargers WIN, which is what is recorded here.",
+        "DT Myles Adams was elevated from the practice squad for the Baltimore game."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50506286/ravens-chargers-mnf-herbert-first-win",
+        "https://nbclosangeles.com/news/sports/nfl/chargers-ravens-score-justin-herbert/3971572",
+        "https://www.skysports.com/nfl/news/13613075/nfl-baltimore-ravens-beaten-by-los-angeles-chargers-to-leave-season-on-brink-as-justin-herberts-side-claim-first-win",
+        "https://www.thesportingtribune.com/2026/11/16/chargers-earn-first-victory-of-the-season-on-monday-night-football",
+        "https://www.yardbarker.com/nfl/articles/chargers_activate_two_for_mnf_among_four_roster_moves/s1_17039_44570375",
+        "https://heavy.com/sports/nfl/los-angeles-chargers/activate-david-njoku-denzel-perryman-ir/",
+        "https://www.thebiglead.com/chargers-roster-moves-hours-before-monday-night-football-nfl-week-10-2026/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-rule-out-ladd-mcconkey-for-monday-night-at-baltimore",
+        "https://www.aol.com/articles/chargers-place-derwin-james-injured-205428000.html",
+        "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+        "https://whosstarting.com/nfl/team/los-angeles-chargers/",
+        "https://www.espn.com/nfl/story/_/id/50462293/los-angeles-chargers-offensive-struggles-herbert-mcdaniel-hampton",
+        "https://www.espn.com/nfl/story/_/id/50437202/chargers-harbaugh-says-x-rays-herbert-finger-negative",
+        "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers",
+        "https://sports.yahoo.com/articles/chargers-injury-report-jim-harbaugh-192228119.html"
+      ]
+    },
+    "LV": {
+      "week10_result": "Lost 21-13 vs SEA (Nov 15, Allegiant Stadium). Raiders now 4-6. Led 10-7 at half, then gave up 14 unanswered. Fernando Mendoza's first NFL start: 17-of-29, 143 yds, 0 TD, 0 INT, a 10-yd rushing TD, sacked 6 times. Brock Bowers hurt his ankle and played only 11 snaps.",
+      "qb": {
+        "starter": "Fernando Mendoza",
+        "backup": "unverified (Aidan O'Connell not confirmed by any Nov 2026 result)",
+        "changed_from_week10": false,
+        "notes": "The schedule file is correct. Kirk Cousins was traded to MIN on Tue Nov 10 for a 2027 third-round pick and GM John Spytek named the No. 1 overall pick the starter. Mendoza made his first start in Week 10 vs SEA, so Week 11 at DEN is his second start and first road start (at altitude). No injury reported for him despite six sacks."
+      },
+      "injuries": [
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Ankle injury Nov 15 vs SEA (11 snaps, ruled out for second half). HC Klint Kubiak on Nov 16: day-to-day, 'not as bad as we thought, but still a significant injury'. NFL Network/ESPN say he avoided major injury and PFT source says he should be fine for DEN. No official designation yet.",
+          "starter": true,
+          "source": "https://www.denvergazette.com/2026/11/16/brock-bowers-health-update-raiders-broncos/"
+        },
+        {
+          "player": "Thomas Booker IV",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Ankle. Listed questionable on ESPN game page for LV at DEN - another report had him out with the ankle injury. Unresolved.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
+        },
+        {
+          "player": "Carter Runyon",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Dont'e Thornton Jr.",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Keyron Crawford",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Patrick Johnson",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Head coach is Klint Kubiak (not Pete Carroll). QB change happened before Week 10 via the Nov 10 trade of Kirk Cousins to Minnesota.",
+        "Pass protection is a concern: Seattle sacked Mendoza six times in his debut. Denver gets him on the road at altitude after a bye.",
+        "Raiders offense has a playmaker gap if Bowers is out or limited - local coverage says Las Vegas has little chance at Denver without him.",
+        "No Raiders practice/injury report for Week 11 was available as of Nov 17 (first report due Wed Nov 18). Statuses for Maxx Crosby, Ashton Jeanty (a foot issue was noted Oct 15) and Kolton Miller were not found in current results."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/game/_/gameId/401873062/seahawks-raiders",
+        "https://www.reviewjournal.com/sports/raiders/fernando-mendozas-first-raiders-start-spoiled-in-loss-to-seahawks-3914729/",
+        "https://sports.yahoo.com/articles/seahawks-sack-fernando-mendoza-6-000700634.html",
+        "https://www.espn.com/nfl/story/_/id/50447756/raiders-name-fernando-mendoza-starting-qb-trading-kirk-cousins",
+        "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-10/mendoza-to-take-over-as-raiders-starter",
+        "https://www.denvergazette.com/2026/11/16/brock-bowers-health-update-raiders-broncos/",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-16/bowers-day-to-day-with-significant-ankle-injury",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-16/belief-is-bowers-ankle-avoided-major-injury",
+        "https://sports.yahoo.com/articles/klint-kubiak-calls-brock-bowers-210736049.html",
+        "https://cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut",
+        "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
+      ]
+    },
+    "DEN": {
+      "week10_result": "BYE in Week 10. Last game was a Week 9 win at CAR (Nov 8, score not captured). Broncos are 7-2. WR Jaylen Waddle left that game in the first quarter with a concussion.",
+      "qb": {
+        "starter": "Bo Nix",
+        "backup": "unverified (no current-season result named the QB2)",
+        "changed_from_week10": false,
+        "notes": "No injury news on Nix coming out of the bye. Passing game is a concern: Nix ranks 28th in passing success rate and Denver is last in the NFL on third down (29.7 percent). Sean Payton used the bye for self-scout on both."
+      },
+      "injuries": [
+        {
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Concussion suffered in first quarter at CAR on Nov 8. Still must clear the protocol. Payton said before the bye he did not think it was serious. ESPN lists questionable with Nov 22 return estimate.",
+          "starter": true,
+          "source": "https://athlonsports.com/nfl/denver-broncos/jaylen-waddle-injury-update-broncos-week-11-raiders"
+        },
+        {
+          "player": "Riley Moss",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Concussion (also from the Nov 8 game at CAR per ESPN note that both he and Waddle left with concussions). ESPN game page lists questionable.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
+        },
+        {
+          "player": "Talanoa Hufanga",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Ankle. CBS (Nov 9) and ESPN game page list questionable for Week 11 vs LV but the ESPN league injury page showed Out for Nov 22. Conflict unresolved.",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/teams/den/denver-broncos/injuries/"
+        },
+        {
+          "player": "Brandon Jones",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Hamstring. ESPN game page lists questionable. Athlon notes the secondary is banged up and coverage depends on Hufanga and Jones getting healthy.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
+        },
+        {
+          "player": "Kris Abrams-Draine",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Ankle. ESPN game page lists questionable.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Knee. Has not played since Week 7. CBS injury page (Nov 9) lists short-term IR with eligibility in Week 13, so out vs LV. No return designation found.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/den/denver-broncos/injuries/"
+        },
+        {
+          "player": "Jonah Elliss",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Ankle. Short-term IR, eligible to return Week 12 per CBS injury page (Nov 9). Out vs LV.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/den/denver-broncos/injuries/"
+        },
+        {
+          "player": "Eyioma Uwazurike",
+          "position": "DL",
+          "status": "IR",
+          "injury": "Shoulder. Placed on IR Nov 7 (new since last file - just outside the Nov 10 window but a current absence).",
+          "starter": false,
+          "source": "https://www.milehighreport.com/denver-broncos-news/191462/broncos-activate-wr-pat-bryant-from-the-ir-and-place-dl-eyioma-uwazurike-on-the-ir"
+        },
+        {
+          "player": "Caleb Lohner",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified). Was designated for return at the 53-man cutdown per team notes - no activation found.",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified). Was designated for return at the 53-man cutdown per team notes - no activation found.",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Drew Sanders",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Levelle Bailey",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Matt Henningsen",
+          "position": "DL",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Michael Deiter",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Tyler Badie",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Nick Gargiulo",
+          "position": "G",
+          "status": "PUP",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Carryover check: Pat Bryant (WR, ankle from Week 4) was ACTIVATED from IR on Nov 7 before the Week 9 game at Carolina - he is no longer absent and should be removed from the out list.",
+        "Coming off the bye with 14 days rest and at home at altitude against a rookie QB making his second start.",
+        "Sean Payton said the staff would 'closely' review the offensive line during the bye and hinted at possible lineup changes - no change confirmed yet.",
+        "Jonah Coleman is expected to be the lead back with RJ Harvey still on IR (an Athlon line about Harvey's 'return' conflicts with the CBS Week 13 eligibility - treated as still out).",
+        "Jaylen Waddle is now a Bronco - his concussion clearance is the main offensive question this week."
+      ],
+      "sources": [
+        "https://athlonsports.com/nfl/denver-broncos/broncos-fixes-bye-third-downs-run-game",
+        "https://athlonsports.com/nfl/denver-broncos/jaylen-waddle-injury-update-broncos-week-11-raiders",
+        "https://sports.yahoo.com/articles/broncos-jaylen-waddle-concussion-protocol-174300665.html",
+        "https://sports.yahoo.com/articles/sean-payton-hints-broncos-could-212136804.html",
+        "https://sports.yahoo.com/articles/sean-payton-puts-broncos-starting-001920171.html",
+        "https://www.cbssports.com/nfl/teams/den/denver-broncos/injuries/",
+        "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos",
+        "https://www.espn.com/nfl/injuries",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-07/pat-bryant-activated-from-injured-reserve",
+        "https://www.denverbroncos.com/news/broncos-activate-wr-pat-bryant-from-ir-make-series-of-roster-moves-ahead-of-week-9-game-vs-panthers",
+        "https://www.milehighreport.com/denver-broncos-news/191462/broncos-activate-wr-pat-bryant-from-the-ir-and-place-dl-eyioma-uwazurike-on-the-ir"
+      ]
+    },
+    "PIT": {
+      "week10_result": "Lost 38-18 at CIN on Sunday Night Football (Nov 15) in a game for first place in the AFC North. Steelers were 6-2 on a four-game win streak going in, so now 6-3. LG Mason McCormick was carted off late in the 2nd quarter with an air cast on his right ankle. S DeShon Elliott hurt his knee in pregame warmups and was scratched.",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "unverified (Will Howard was the inactive emergency third QB in Week 10 and Drew Allar was inactive - the active QB2 was not named in results, presumed Mason Rudolph)",
+        "changed_from_week10": false,
+        "notes": "Rodgers started and no injury was reported. Offense was described as flat from the start at Cincinnati. Head coach is Mike McCarthy."
+      },
+      "injuries": [
+        {
+          "player": "Mason McCormick",
+          "position": "G",
+          "status": "Out",
+          "injury": "Right ankle/lower leg. Carted off with an air cast Nov 15 at CIN. McCarthy on Nov 16: still gathering information, no timetable. Tribune-Review calls him an IR candidate. Will miss games for the first time in his career.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50497966/steelers-mason-mccormick-carted-field-air-cast-ankle"
+        },
+        {
+          "player": "DeShon Elliott",
+          "position": "S",
+          "status": "Out",
+          "injury": "Knee injury in pregame warmups Nov 15 at CIN. Jordan Schultz reports he will miss 'a couple weeks'. Team has not confirmed severity or timeline.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/deshon-elliott-injured-in-warmups-out-for-week-10"
+        },
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Foot. Still on IR - practice window was not opened last week. Says he feels healthy enough to return and McCarthy is 'hopeful' to get him going. Not yet designated to return as of Nov 17.",
+          "starter": true,
+          "source": "https://behindthesteelcurtain.com/pittsburgh-steelers-news/177870/michael-pittman-jr-says-he-feels-healthy-enough-to-return"
+        },
+        {
+          "player": "Roman Wilson",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Finger. Placed on IR Oct 17 - Week 11 is the first week he is eligible to return. McCarthy 'hopeful'. No practice-window designation reported yet.",
+          "starter": false,
+          "source": "https://steelersnow.com/mccarthy-gives-encouraging-update-on-two-injured-steelers/"
+        },
+        {
+          "player": "Gennings Dunker",
+          "position": "OL",
+          "status": "IR",
+          "injury": "Knee. Rookie on IR - McCarthy said there have been talks about activating him as a possible McCormick fill-in.",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/steelers-interesting-injury-fan-favorite-121520319.html"
+        },
+        {
+          "player": "Daequan Hardy",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Jack Driscoll",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Logan Lee",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Sebastian Joseph-Day",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Donte Kent",
+          "position": "CB",
+          "status": "PUP",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Carryover check: Derrick Harmon (DT, foot, on IR since Oct 10) was ACTIVATED on Sat Nov 14 (Terrell Smith released) - no longer absent. Pittman and Wilson remain on IR but both are now eligible and could have practice windows opened this week.",
+        "Offensive line reshuffle: Spencer Anderson replaced McCormick at CIN and is in line to start at left guard in Philadelphia between Zach Frazier and Troy Fautanu, with rookie Gennings Dunker a possible IR activation.",
+        "Safety depth without Elliott: rookie Robert Spears-Jennings plus Jalen Ramsey and Jaquan Brisker.",
+        "Steelers at Eagles was flexed from 4:25 p.m. ET to 1 p.m. ET because of the Eagles' seven-game losing streak.",
+        "Second straight road game for Pittsburgh, against a team coming off a bye."
+      ],
+      "sources": [
+        "https://www.yardbarker.com/nfl/articles/steelers_embarrasing_loss_to_bengals_could_stamp_them_as_frauds/s1_17101_44569816",
+        "https://nfl.com/news/notable-injuries-news-sunday-week-10-games-2026",
+        "https://www.espn.com/nfl/story/_/id/50497966/steelers-mason-mccormick-carted-field-air-cast-ankle",
+        "https://athlonsports.com/nfl/pittsburgh-steelers/steelers-mason-mccormick-injury-choice-eagles",
+        "https://sports.yahoo.com/articles/steelers-mike-mccarthy-still-uncertain-005853071.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/deshon-elliott-injured-in-warmups-out-for-week-10",
+        "https://www.steelernation.com/2026/11/15/steelers-deshon-elliott-unexpected-injury",
+        "https://www.steelers.com/news/steelers-activate-harmon-ahead-of-bengals-game",
+        "https://www.steelers.com/team/transactions/",
+        "https://steelersnow.com/mccarthy-gives-encouraging-update-on-two-injured-steelers/",
+        "https://behindthesteelcurtain.com/pittsburgh-steelers-news/177870/michael-pittman-jr-says-he-feels-healthy-enough-to-return",
+        "https://sports.yahoo.com/articles/steelers-interesting-injury-fan-favorite-121520319.html",
+        "https://steelersdepot.com/2026/11/injury-roundup-steelers-offensive-line-dealt-major-blow-in-loss/",
+        "https://steelersnow.com/steelers-eagles-week-11-game-gets-flexed/"
+      ]
+    },
+    "PHI": {
+      "week10_result": "BYE in Week 10. Last game was a Week 9 loss, 19-11 to NYG, in Joe Milton III's first start (18-of-34, 169 yds, 0 TD, 0 INT). Eagles are 2-7 and have lost seven straight.",
+      "qb": {
+        "starter": "Joe Milton III",
+        "backup": "Tanner McKee",
+        "changed_from_week10": false,
+        "notes": "The schedule file is correct. Jalen Hurts is on IR and out for the season with blood clots in both lungs (announced October). Tanner McKee started three games in his place, lost all three (63.2 pct, 638 yds, 2 TD, 2 INT) and was benched for Milton before Week 9. Steelers Depot reports Milton gets the nod again vs PIT. The Inquirer (Nov 17) lists how many games Milton will start as an open question. The Eagles also signed an unnamed veteran QB after Hurts went down."
+      },
+      "injuries": [
+        {
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Blood clots in both lungs. On injured reserve and out for the rest of the season (reported October 2026).",
+          "starter": true,
+          "source": "https://steelersdepot.com/2026/10/eagles-lose-jalen-hurts-for-season-wont-face-steelers-in-week-11/"
+        },
+        {
+          "player": "Lane Johnson",
+          "position": "OT",
+          "status": "Out",
+          "injury": "Not on the field: announced his retirement on social media Oct 6 after a failed comeback (Rotowire / PhillyVoice). Team reportedly has not filed papers and is keeping him on the roster - Yahoo injury page dated Nov 16 lists him Out (Personal). The Week 10 file had him as IR - treat as out for the season either way.",
+          "starter": true,
+          "source": "https://www.phillyvoice.com/after-failed-comeback-whats-status-going-forward-eagles-rt-lane-johnson/"
+        },
+        {
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Hamstring. Out since Week 6 but never placed on IR. Inquirer (Nov 17) says he could be ready to return after the bye. A bye-week depth chart still showed him out. No practice report yet.",
+          "starter": true,
+          "source": "https://www.inquirer.com/eagles/post-bye-week-questions-staff-depth-chart-injuries-20261117.html"
+        },
+        {
+          "player": "Dontayvion Wicks",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Ankle. Out since at least Week 7 but not on IR. Inquirer (Nov 17) says he could be ready to return after the bye. No practice report yet.",
+          "starter": false,
+          "source": "https://www.inquirer.com/eagles/post-bye-week-questions-staff-depth-chart-injuries-20261117.html"
+        },
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "status": "Probable",
+          "injury": "Hamstring. Missed practice Wed Nov 4 and was listed questionable but played in Week 9 vs NYG. Had the bye to rest. No Week 11 designation yet.",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/eagles-saquon-barkley-devonta-smith-003702046.html"
+        },
+        {
+          "player": "Tank Bigsby",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Core muscle injury requiring surgery, out since Week 4. Inquirer (Nov 17) says he could return to practice soon. Still on IR.",
+          "starter": false,
+          "source": "https://www.inquirer.com/eagles/post-bye-week-questions-staff-depth-chart-injuries-20261117.html"
+        },
+        {
+          "player": "Andre' Sam",
+          "position": "S",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Johnny Wilson",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Tucker Large",
+          "position": "DB",
+          "status": "NFI",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Eagles are 2-7 on a seven-game losing streak. Nick Sirianni's job is reported as 'safe for now' (Garafolo) and no staff changes were made over the bye, which was spent on self-scout.",
+        "Coming off the bye (14 days rest) and reportedly getting healthier, with WRs DeVonta Smith and Dontayvion Wicks possible returns.",
+        "Game was flexed out of the 4:25 p.m. ET window to 1 p.m. ET.",
+        "Other injury notes from the Inquirer piece without a clear current status: rookie TE Eli Stowers has missed a large chunk of the season with multiple injuries and RB Will Shipley had a plantar fascia injury in Week 5.",
+        "Right tackle has been without Lane Johnson since early October (retirement announcement Oct 6)."
+      ],
+      "sources": [
+        "https://www.inquirer.com/eagles/post-bye-week-questions-staff-depth-chart-injuries-20261117.html",
+        "https://steelersdepot.com/2026/11/eagles-make-starting-qb-change-ahead-of-steelers-game/",
+        "https://steelersdepot.com/2026/10/eagles-lose-jalen-hurts-for-season-wont-face-steelers-in-week-11/",
+        "https://www.espn.com/nfl/story/_/id/50380724/sources-eagles-turn-joe-milton-starting-qb-vs-giants",
+        "https://sports.yahoo.com/articles/eagles-bench-jalen-hurts-replacement-191445225.html",
+        "https://northeasttimes.com/2026/11/05/eagles-injury-report-barkley-smith-wicks-joe-milton-qb-giants-week-9-2026/",
+        "https://sports.yahoo.com/articles/eagles-saquon-barkley-devonta-smith-003702046.html",
+        "https://www.phillyvoice.com/after-failed-comeback-whats-status-going-forward-eagles-rt-lane-johnson/",
+        "https://sports.yahoo.com/nfl/teams/philadelphia/injuries/",
+        "https://sports.yahoo.com/articles/nick-siriannis-job-status-eagles-030000169.html",
+        "https://steelersnow.com/steelers-eagles-week-11-game-gets-flexed/",
+        "https://www.fsroundup.com/nfl/depth-charts/philadelphia-eagles"
+      ]
+    },
+    "MIN": {
+      "week10_result": "Won 30-10 at GB (Nov 15, Lambeau Field). Kirk Cousins threw for 207 yds and 2 TD in his first start back with Minnesota after the Nov 10 trade. Defense sacked Jordan Love 8 times and forced 4 turnovers (3 fumbles, 1 INT). Played without T.J. Hockenson, Jordan Addison and Jauan Jennings.",
+      "qb": {
+        "starter": "Kirk Cousins",
+        "backup": "Kyler Murray if cleared (hamstring) - otherwise unverified (Carson Wentz appears in a Week 10 Vikings injury report headline)",
+        "changed_from_week10": false,
+        "notes": "The schedule file is correct even though it looks odd. Cousins was acquired from the Raiders on Tue Nov 10 for a 2027 third-round pick and started five days later at Green Bay. Kyler Murray, the prior starter, is recovering from a hamstring strain - Kevin O'Connell said Nov 16 that Murray is improving, will increase his workload and could potentially be available vs SF, 'if not this week, in the not too distant future'. O'Connell has not said so explicitly but Cousins is expected to stay the starter with Murray as backup."
+      },
+      "injuries": [
+        {
+          "player": "Jordan Addison",
+          "position": "WR",
+          "status": "Out",
+          "injury": "Thumb injury in practice Fri Nov 13. Needs surgery. O'Connell (Nov 16) confirmed he is out vs SF and a candidate for short-term IR (theScore says he will be placed on IR) - earliest return would be Week 15 vs DET if placed on IR.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery"
+        },
+        {
+          "player": "T.J. Hockenson",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Wrist/chest. Missed Week 10 at GB. O'Connell (Nov 16) expects him to get work this week and 'hopefully be available on Sunday'.",
+          "starter": true,
+          "source": "https://rotowire.com/football/headlines/tj-hockenson-injury-expected-to-progress-ahead-of-week-11-action-648153"
+        },
+        {
+          "player": "Jauan Jennings",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Calf. Missed the last two games. O'Connell (Nov 16) expects him to get work this week and 'hopefully be available on Sunday'.",
+          "starter": true,
+          "source": "https://www.startribune.com/minnesota-vikings-injury-report-jordan-addison-update-san-francisco-49ers-nfl-week-11-mexico-city/601920081"
+        },
+        {
+          "player": "Kyler Murray",
+          "position": "QB",
+          "status": "Questionable",
+          "injury": "Hamstring strain. Did not play Week 10. Improving and increasing workload per O'Connell on Nov 16 - potentially available vs SF as the backup.",
+          "starter": false,
+          "source": "https://heavy.com/sports/nfl/minnesota-vikings/kyler-murray-injury-update-49ers-week-11/"
+        },
+        {
+          "player": "Blake Cashman",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Listed questionable on ESPN game page for MIN vs SF (injury not specified in snippet - he was also on the Week 10 report).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers"
+        },
+        {
+          "player": "Andrew Van Ginkel",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Listed questionable on ESPN game page for MIN vs SF (injury not specified in snippet).",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers"
+        },
+        {
+          "player": "Tyrion Ingram-Dawkins",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Listed questionable on ESPN game page for MIN vs SF (injury not specified in snippet).",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers"
+        },
+        {
+          "player": "Josh Oliver",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Still on injured reserve and not a near-term return candidate per Week 11 coverage.",
+          "starter": false,
+          "source": "https://www.startribune.com/minnesota-vikings-injury-report-jordan-addison-update-san-francisco-49ers-nfl-week-11-mexico-city/601920081"
+        },
+        {
+          "player": "Donovan Jackson",
+          "position": "G",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": true,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Demond Claiborne",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Jamal Adams",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Neutral-site game at Estadio Banorte in Mexico City (about 7,350 feet elevation) on Sunday night. The Vikings and 49ers are taking different travel approaches to the altitude (details not captured).",
+        "Major QB change one game ago: Cousins acquired Nov 10 and won his first start 30-10 at Lambeau. The 49ers opened as slight favorites.",
+        "Receiving corps is thin: Addison out, Jennings and Hockenson questionable. Reserves Myles Price, Tai Felton and TE Gavin Bartholomew filled in at Green Bay.",
+        "Brian Flores' defense is the headline unit after eight sacks of Jordan Love - Levi Drake Rodriguez had two."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401873060",
+        "https://sports.yahoo.com/nfl/live/vikings-packers-score-live-updates-inactives-highlights-stats-where-to-watch-week-10-kirk-cousins-trade-161023092.html",
+        "https://www.startribune.com/minnesota-vikings-injury-report-jordan-addison-update-san-francisco-49ers-nfl-week-11-mexico-city/601920081",
+        "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-prediction-odds-picks-kirk-cousins-nfl-week-11-mexico-city/601920082",
+        "https://www.espn.com/nfl/story/_/id/50503437/vikings-wr-jordan-addison-needs-thumb-surgery",
+        "https://www.cbsnews.com/minnesota/news/minnesota-vikings-wr-jordan-addison-thumb-surgery/",
+        "https://www.thescore.com/nfl/news/3657048/vikings-addison-to-have-thumb-surgery-will-be-placed-on-ir",
+        "https://heavy.com/sports/nfl/minnesota-vikings/kyler-murray-injury-update-49ers-week-11/",
+        "https://rotowire.com/football/headlines/tj-hockenson-injury-expected-to-progress-ahead-of-week-11-action-648153",
+        "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+        "https://bringmethenews.com/minnesota-sports/vikings-49ers-taking-different-travel-approaches-for-mexico-city-game",
+        "https://www.espn.com/nfl/story/_/id/50447756/raiders-name-fernando-mendoza-starting-qb-trading-kirk-cousins"
+      ]
+    },
+    "SF": {
+      "week10_result": "Won 46-40 at DAL (Nov 15). 49ers are 8-1. Offense gained 584 yards (most Dallas has ever allowed at home) with Christian McCaffrey starring. Deebo Samuel returned from a three-game hamstring absence with 2 TD. 11 penalties for 100 yards. CB Renardo Green left with back tightness.",
+      "qb": {
+        "starter": "Brock Purdy",
+        "backup": "unverified (no current-season result named the QB2)",
+        "changed_from_week10": false,
+        "notes": "No injury reported. Purdy has a 12-to-2 TD-to-INT ratio per a Week 11 preview. Faces a Brian Flores defense that just sacked Jordan Love eight times, at 7,350 feet."
+      },
+      "injuries": [
+        {
+          "player": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Achilles tendon injury from Week 6. Has missed the last two to three games (sources differ). Shanahan (Nov 16): too early to say whether he practices this week - team hopeful. He is traveling to Mexico City. ESPN lists questionable while a betting-site report lists out.",
+          "starter": true,
+          "source": "https://athlonsports.com/sports/49ers-injury-updates-mike-evans-renardo-green"
+        },
+        {
+          "player": "Renardo Green",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Back tightness - exited the Nov 15 game at DAL. Shanahan: day-to-day and will be evaluated when practice resumes Wed Nov 18.",
+          "starter": true,
+          "source": "https://sports.yahoo.com/articles/49ers-announce-injury-news-3-013223804.html"
+        },
+        {
+          "player": "Nate Hobbs",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Groin. On IR with practice window open (IR-R) - Shanahan says he has looked good in practice the last two weeks but no decision yet on activation. ESPN return estimate Nov 22.",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/kyle-shanahan-provides-week-10-172909173.html"
+        },
+        {
+          "player": "Ricky Pearsall",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Still listed on injured reserve in Week 11 game injury listings. No return timeline found.",
+          "starter": true,
+          "source": "https://www.optimal-bet.com/nfl/games/d2d07dcd-0680-4761-a143-cf3b83df0d75/vikings-at-49ers-2026-11-22"
+        },
+        {
+          "player": "Christian Kirk",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Still listed on injured reserve in Week 11 game injury listings. No return timeline found.",
+          "starter": false,
+          "source": "https://www.optimal-bet.com/nfl/games/d2d07dcd-0680-4761-a143-cf3b83df0d75/vikings-at-49ers-2026-11-22"
+        },
+        {
+          "player": "CJ West",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Knee. ESPN game page lists IR-R (designated to return) but a separate snippet says West 'was back from a knee ailment against Dallas'. Conflict - may already be activated. Unverified.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers"
+        },
+        {
+          "player": "Alfred Collins",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        },
+        {
+          "player": "Gracen Halton",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Carried from Week 10 absent list. No activation or new report found (unverified).",
+          "starter": false,
+          "source": "none (carried from Week 10 absent list - no activation or update found in Nov 10-17 search results - not re-verified)"
+        }
+      ],
+      "context_notes": [
+        "Designated home team for a neutral-site Sunday night game at Estadio Banorte in Mexico City (about 7,350 feet). The 49ers opened as slight favorites - SF Standard calls it their toughest test yet.",
+        "Offense is rolling (584 yards, 46 points at Dallas) and got Deebo Samuel back in Week 10 - Mike Evans could add to that if he practices.",
+        "Defense allowed 40 points at Dallas and the cornerback room is thin: Renardo Green day-to-day and Nate Hobbs still on IR awaiting an activation decision.",
+        "RB Kaelon Black had 11 carries for 53 yards and a 25-yd TD at Dallas as a complement to McCaffrey.",
+        "Discipline flag: 11 penalties for 100 yards in Week 10."
+      ],
+      "sources": [
+        "https://www.49ers.com/news/after-further-review-kyle-shanahan-shares-injury-updates-takeaways-from-cowboys-win",
+        "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/live-updates-score-highlights-dallas-cowboys-2/1979288/",
+        "https://sports.yahoo.com/articles/kyle-shanahan-provides-week-10-172909173.html",
+        "https://sports.yahoo.com/articles/49ers-announce-injury-news-3-013223804.html",
+        "https://athlonsports.com/sports/49ers-injury-updates-mike-evans-renardo-green",
+        "https://heavy.com/sports/nfl/san-francisco-49ers/critical-injury-update-mike-evans/",
+        "https://sports.yahoo.com/articles/49ers-necessary-mike-evans-move-013557845.html",
+        "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+        "https://www.optimal-bet.com/nfl/games/d2d07dcd-0680-4761-a143-cf3b83df0d75/vikings-at-49ers-2026-11-22",
+        "https://sfstandard.com/2026/11/16/brock-purdy-brian-flores-49ers-vikings/",
+        "https://sports.yahoo.com/articles/49ers-open-slight-favorites-week-220100895.html"
+      ]
+    }
+  }
+}
