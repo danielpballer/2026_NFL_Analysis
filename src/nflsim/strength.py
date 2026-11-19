@@ -83,6 +83,16 @@ def margin_rating(games: pd.DataFrame, teams: list[str], lam: float = 2.0) -> pd
     return r - r.mean()
 
 
+def preseason_strength(season: int) -> pd.DataFrame:
+    """Last season's strength table as frozen before the season (data/processed/team_strength_{season}.csv).
+    The upstream play-by-play for past seasons gets rebuilt now and then with revised EPA values; the
+    preseason prior must not move when that happens mid-season, so the saved table wins when it exists."""
+    path = C.PROCESSED / f"team_strength_{season}.csv"
+    if path.exists():
+        return pd.read_csv(path).set_index("team")
+    return team_strength(season)
+
+
 def team_strength(season: int, games: pd.DataFrame | None = None) -> pd.DataFrame:
     pbp = load_pbp(season)
     teams = sorted(set(pbp.posteam) | set(pbp.defteam))

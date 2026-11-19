@@ -10,7 +10,7 @@ import pandas as pd
 
 from . import config as C
 from .adjustments import (GameContext, head_coach_changes, injury_adjustment, load_json, load_week_json, qb_adjustment, qb_baseline)
-from .qb import qb_values, team_primary_qb
+from .qb import preseason_qb_values, preseason_team_qb, qb_values, team_primary_qb
 from .ratings import current_ratings
 from .report import write_outputs
 from .schedule import devig, moneyline_to_prob, prob_to_moneyline, week_slate
@@ -22,8 +22,8 @@ def build_predictions(season: int = C.SEASON, week: int = C.WEEK, verbose: bool 
     ratings = current_ratings(season, week)
     C.PROCESSED.mkdir(parents=True, exist_ok=True)
     ratings.round(3).to_csv(C.PROCESSED / f"ratings_{season}_wk{week}.csv")
-    qvals = qb_values(season - 1)
-    tqb = team_primary_qb(season - 1)
+    qvals = preseason_qb_values(season - 1)
+    tqb = preseason_team_qb(season - 1)
     qb_manual = load_week_json("qb", season, week)
     injuries = load_json(f"injuries_{season}_wk{week}.json")
     weather = load_json(f"weather_{season}_wk{week}.json").get("games", {})

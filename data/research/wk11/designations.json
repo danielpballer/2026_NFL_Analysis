@@ -1,0 +1,424 @@
+{
+ "collected_on": "2026-11-19",
+ "note": "Thursday refresh: final Colts and Texans designations plus Wednesday practice news for Sunday teams.",
+ "teams": {
+  "IND": {
+   "injuries": [
+    {
+     "player": "Charvarius Ward",
+     "position": "CB",
+     "status": "Out",
+     "injury": "knee, ruled out Wednesday",
+     "starter": true,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Bernhard Raimann",
+     "position": "OT",
+     "status": "Out",
+     "injury": "concussion, ruled out Wednesday",
+     "starter": true,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Jalen Travis",
+     "position": "OT",
+     "status": "Out",
+     "injury": "knee, ruled out Wednesday",
+     "starter": true,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Jerry Tillery",
+     "position": "DT",
+     "status": "Out",
+     "injury": "calf, ruled out Wednesday",
+     "starter": false,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Will Mallory",
+     "position": "TE",
+     "status": "Out",
+     "injury": "hamstring, ruled out Wednesday",
+     "starter": false,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Sauce Gardner",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "calf; Steichen said he may not play",
+     "starter": true,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Luke Rhodes",
+     "position": "LS",
+     "status": "Active",
+     "injury": "no designation on the final report",
+     "starter": true,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Anthony Gould",
+     "position": "WR",
+     "status": "Active",
+     "injury": "no designation on the final report",
+     "starter": false,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Jaylon Carlies",
+     "position": "LB",
+     "status": "Active",
+     "injury": "no designation on the final report",
+     "starter": false,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    },
+    {
+     "player": "Charlie Heck",
+     "position": "OT",
+     "status": "Active",
+     "injury": "no designation on the final report",
+     "starter": false,
+     "source": "https://www.colts.com/news/colts-rule-out-5-players-for-week-11-thursday-night-football-game-vs-houston-texans"
+    }
+   ]
+  },
+  "HOU": {
+   "injuries": [
+    {
+     "player": "Woody Marks",
+     "position": "RB",
+     "status": "Out",
+     "injury": "concussion, ruled out",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Marvin Harrison Jr.",
+     "position": "WR",
+     "status": "Out",
+     "injury": "hamstring, second straight game missed",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Danielle Hunter",
+     "position": "DE",
+     "status": "Out",
+     "injury": "hamstring or ankle (sources differ), ruled out",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Brevin Jordan",
+     "position": "TE",
+     "status": "Out",
+     "injury": "foot and illness, ruled out",
+     "starter": false,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Azeez Al-Shaair",
+     "position": "LB",
+     "status": "IR",
+     "injury": "placed on injured reserve this week",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Wyatt Teller",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "back",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Jake Hummel",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "groin",
+     "starter": false,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Jaylin Smith",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "hamstring; listed questionable on the final report",
+     "starter": false,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts",
+     "activated": true
+    },
+    {
+     "player": "David Montgomery",
+     "position": "RB",
+     "status": "Active",
+     "injury": "full all week, no designation",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Keylan Rutledge",
+     "position": "G",
+     "status": "Active",
+     "injury": "full practice, no designation",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    },
+    {
+     "player": "Kamari Lassiter",
+     "position": "CB",
+     "status": "Active",
+     "injury": "not on the final list of designations",
+     "starter": true,
+     "source": "https://www.si.com/nfl/texans/onsi/texans-rule-out-4-players-on-final-injury-report-for-tnf-vs-colts"
+    }
+   ]
+  },
+  "DET": {
+   "injuries": [
+    {
+     "player": "Kerby Joseph",
+     "position": "S",
+     "status": "Active",
+     "injury": "activated from PUP, full practice Wednesday",
+     "starter": true,
+     "source": "https://www.detroitlions.com/news/lions-vs-buccaneers-practice-report-nov-18-reed-joseph-rakestraw",
+     "activated": true
+    },
+    {
+     "player": "D.J. Reed",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "hip, limited Wednesday after missing two games",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Cade Mays",
+     "position": "C",
+     "status": "Questionable",
+     "injury": "ankle, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "BAL": {
+   "injuries": [
+    {
+     "player": "Nnamdi Madubuike",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "hamstring, only Raven not practicing Wednesday",
+     "starter": true,
+     "source": "https://www.baltimoreravens.com/news/nnamdi-madubuike-hamstring-misses-practice-wednesday-week-11-carolina-panthers"
+    },
+    {
+     "player": "Ronnie Stanley",
+     "position": "OT",
+     "status": "Active",
+     "injury": "Monday listing was a rest day; practiced Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "CAR": {
+   "injuries": [
+    {
+     "player": "Bobby Okereke",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "foot, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "DEN": {
+   "injuries": [
+    {
+     "player": "Jaylen Waddle",
+     "position": "WR",
+     "status": "Active",
+     "injury": "full practice Wednesday, final concussion clearance pending",
+     "starter": true,
+     "source": "https://www.si.com/nfl/broncos/onsi/broncos-raiders-injury-report-delivers-triple-dose-good-news-waddle-bowers"
+    },
+    {
+     "player": "Riley Moss",
+     "position": "CB",
+     "status": "Active",
+     "injury": "full practice Wednesday (concussion)",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "LV": {
+   "injuries": [
+    {
+     "player": "Brock Bowers",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "ankle and quad, did not practice Wednesday; day to day",
+     "starter": true,
+     "source": "https://www.raiders.com/news/raiders-broncos-week-11-injury-report"
+    }
+   ]
+  },
+  "MIN": {
+   "injuries": [
+    {
+     "player": "Blake Cashman",
+     "position": "LB",
+     "status": "Active",
+     "injury": "full practice Wednesday (concussion)",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "T.J. Hockenson",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "wrist, limited Wednesday",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Andrew Van Ginkel",
+     "position": "OLB",
+     "status": "Questionable",
+     "injury": "limited Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "LAC": {
+   "injuries": [
+    {
+     "player": "Ladd McConkey",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "back spasms, limited Wednesday after missing Week 10",
+     "starter": true,
+     "source": "https://www.chargers.com/news/chargers-vs-jets-injury-report-ladd-mcconkey-daiyan-henley-week-10-2026"
+    },
+    {
+     "player": "Daiyan Henley",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "knee, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Charlie Kolar",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "concussion, did not practice Wednesday",
+     "starter": false,
+     "source": ""
+    }
+   ]
+  },
+  "KC": {
+   "injuries": [
+    {
+     "player": "Kenneth Walker III",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "groin, did not practice Wednesday; Reid says cautious",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Trey Smith",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "concussion, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Jaylon Moore",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "ankle, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "JAX": {
+   "injuries": [
+    {
+     "player": "Robert Hainsey",
+     "position": "C",
+     "status": "Out",
+     "injury": "knee, ruled out by Coen",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "TEN": {
+   "injuries": [
+    {
+     "player": "Wan'Dale Robinson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "placed on injured reserve for the rest of the season",
+     "starter": true,
+     "source": ""
+    },
+    {
+     "player": "Tyjae Spears",
+     "position": "RB",
+     "status": "Questionable",
+     "injury": "knee",
+     "starter": false,
+     "source": ""
+    },
+    {
+     "player": "Tony Adams",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "concussion",
+     "starter": false,
+     "source": ""
+    }
+   ]
+  },
+  "BUF": {
+   "injuries": [
+    {
+     "player": "Dalton Kincaid",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "thumb and ankle, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  },
+  "MIA": {
+   "injuries": [
+    {
+     "player": "Aaron Brewer",
+     "position": "C",
+     "status": "Doubtful",
+     "injury": "concussion protocol, did not practice Wednesday",
+     "starter": true,
+     "source": ""
+    }
+   ]
+  }
+ }
+}

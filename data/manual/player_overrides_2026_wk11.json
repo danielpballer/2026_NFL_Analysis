@@ -2104,6 +2104,14 @@
    "slot": "DE",
    "starter": true,
    "status": "Probable"
+  },
+  "TEN|Wan'Dale Robinson": {
+   "slot": "WR2",
+   "starter": true
+  },
+  "LAC|Daiyan Henley": {
+   "slot": "LB",
+   "starter": true
   }
  },
  "drop": [

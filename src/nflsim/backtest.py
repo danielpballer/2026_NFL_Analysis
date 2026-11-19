@@ -13,10 +13,10 @@ import pandas as pd
 
 from . import config as C
 from .adjustments import GameContext, head_coach_changes, injury_adjustment, qb_adjustment
-from .qb import qb_values, team_primary_qb
+from .qb import preseason_qb_values, preseason_team_qb, qb_values, team_primary_qb
 from .schedule import devig, moneyline_to_prob, week_slate
 from .simulate import blend_margin, simulate_game
-from .strength import team_strength
+from .strength import preseason_strength, team_strength
 
 POS_MAP = {"T": "OT", "G": "G", "C": "C", "DE": "DE", "DT": "DT", "LB": "LB", "CB": "CB", "S": "S",
            "WR": "WR", "TE": "TE", "RB": "RB", "QB": "QB", "K": "K", "P": "P", "OL": "OL", "DL": "DL", "DB": "DB", "OLB": "OLB", "ILB": "ILB", "FS": "FS", "SS": "SS", "NT": "NT", "LS": "LS", "FB": "FB"}
@@ -39,9 +39,9 @@ def injuries_from_report(season: int, week: int) -> dict:
 def run(season: int = 2025, week: int = 1, n_sims: int = 5000, w_market: float = C.MARKET_WEIGHT) -> pd.DataFrame:
     slate = week_slate(season, week)
     slate = slate[slate.result.notna()]
-    strength = team_strength(season - 1)
-    qvals = qb_values(season - 1)
-    tqb = team_primary_qb(season - 1)
+    strength = preseason_strength(season - 1)
+    qvals = preseason_qb_values(season - 1)
+    tqb = preseason_team_qb(season - 1)
     injuries = injuries_from_report(season, week)
     coaching = head_coach_changes(season)
     games = pd.read_csv(C.RAW / "games.csv", low_memory=False)

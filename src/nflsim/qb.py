@@ -56,6 +56,17 @@ def qb_values(season: int, prior_epa: float = -0.05, seasons_back: int = 1) -> p
     return q.sort_values("dropbacks", ascending=False).reset_index(drop=True)
 
 
+def preseason_qb_values(season: int) -> pd.DataFrame:
+    """Last season's quarterback values as frozen before the season (see strength.preseason_strength)."""
+    path = C.PROCESSED / f"qb_values_{season}.csv"
+    return pd.read_csv(path) if path.exists() else qb_values(season)
+
+
+def preseason_team_qb(season: int) -> pd.DataFrame:
+    path = C.PROCESSED / f"team_qb_{season}.csv"
+    return pd.read_csv(path).set_index("team") if path.exists() else team_primary_qb(season)
+
+
 def team_primary_qb(season: int) -> pd.DataFrame:
     """Dropback-weighted average QB value each team actually fielded last season."""
     pbp = load_pbp(season)

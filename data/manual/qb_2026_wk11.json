@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 11,
- "collected_on": "2026-11-17",
+ "collected_on": "2026-11-19",
  "teams": {
   "IND": {
    "starter": "Daniel Jones",
@@ -43,10 +43,10 @@
    "pbp_name": "J.Brissett",
    "new_to_team": true,
    "rookie": false,
-   "notes": "Lamar Jackson is on IR with a broken thumb and Huntley is out for the season. Brissett took a knee hit Monday night but finished the game and is expected to start.",
+   "notes": "Lamar Jackson is on IR with a broken thumb. Brissett threw for 340 yards Monday night and is not on the injury report.",
    "schedule_projected_starter": "Jacoby Brissett",
    "value_override": -2.5,
-   "extra_sd": 0.5
+   "extra_sd": 0.25
   },
   "CAR": {
    "starter": "Bryce Young",
@@ -91,14 +91,14 @@
    "schedule_projected_starter": "Dak Prescott"
   },
   "TB": {
-   "starter": "Mayfield (questionable) / Jalon Daniels",
+   "starter": "Jalon Daniels / Mayfield (questionable)",
    "pbp_name": "B.Mayfield",
    "new_to_team": false,
    "rookie": true,
-   "notes": "Mayfield wore a walking boot through the bye with a foot and ankle injury; he is not ruled out. Priced 60/40 Mayfield over undrafted rookie Jalon Daniels, whose three starts graded close to Mayfield's season.",
+   "notes": "Mayfield did not practice Wednesday and Jalon Daniels took the first-team snaps; Bowles decides Friday. Priced 40/60 Mayfield to Daniels, with Mayfield marked down for the foot and Daniels at the level used for his three earlier starts.",
    "schedule_projected_starter": "Baker Mayfield",
-   "value_override": -3.3,
-   "extra_sd": 0.5
+   "value_override": -2.8,
+   "extra_sd": 1.0
   },
   "DET": {
    "starter": "Jared Goff",
@@ -150,10 +150,10 @@
    "pbp_name": "G.Smith",
    "new_to_team": true,
    "rookie": false,
-   "notes": "Smith hurt an ankle against Buffalo and is questionable. Priced 65/35 Smith over rookie Cade Klubnik.",
+   "notes": "Smith was limited Wednesday with the ankle and says he expects to play. Priced 75/25 Smith over rookie Cade Klubnik.",
    "schedule_projected_starter": "Geno Smith",
-   "value_override": -2.9,
-   "extra_sd": 0.75
+   "value_override": -3.7,
+   "extra_sd": 0.5
   },
   "LAC": {
    "starter": "Justin Herbert",
@@ -194,7 +194,7 @@
    "pbp_name": "J.Milton",
    "new_to_team": false,
    "rookie": false,
-   "notes": "Joe Milton III stays the starter after the bye; his first start graded poorly so the number is trimmed from -2.0.",
+   "notes": "Joe Milton III is confirmed as the starter after the bye; his first start graded poorly so the number is trimmed from -2.0.",
    "schedule_projected_starter": "Joe Milton III",
    "value_override": -2.5,
    "extra_sd": 1.0
@@ -204,9 +204,9 @@
    "pbp_name": "K.Cousins",
    "new_to_team": true,
    "rookie": false,
-   "notes": "Cousins won 30-10 at Green Bay four days after the trade and is the confirmed starter in Mexico City. His Raiders-era number is discounted for the new offence. Murray would back up if his hamstring clears.",
+   "notes": "Cousins won 30-10 at Green Bay four days after the trade and is the starter in Mexico City. He is priced a little below Kyler Murray's level. Murray is increasing his workload and would back up.",
    "schedule_projected_starter": "Kirk Cousins",
-   "value_override": 0.3,
+   "value_override": 0.0,
    "extra_sd": 0.5
   },
   "SF": {

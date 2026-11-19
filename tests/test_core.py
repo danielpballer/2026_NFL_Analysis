@@ -123,3 +123,15 @@ def test_qb_adjustment_uses_baseline():
     new = qb_adjustment("MIN", manual, qv, tqb, baseline=0.0)       # against this season's play: a penalty
     assert old["qb_adj"] > 0 > new["qb_adj"]
     assert new["fielded_2025"] == -4.0 and new["qb_baseline"] == 0.0
+
+
+def test_preseason_tables_are_frozen():
+    """The preseason prior comes from the saved table, not from re-fetched (revisable) play-by-play."""
+    import pandas as pd
+    from nflsim import config as C
+    from nflsim.strength import preseason_strength
+    from nflsim.qb import preseason_qb_values, preseason_team_qb
+    saved = pd.read_csv(C.PROCESSED / "team_strength_2025.csv").set_index("team")
+    assert preseason_strength(2025)["rating_regressed"].equals(saved["rating_regressed"])
+    assert len(preseason_qb_values(2025)) == len(pd.read_csv(C.PROCESSED / "qb_values_2025.csv"))
+    assert "fielded_qb_value" in preseason_team_qb(2025).columns

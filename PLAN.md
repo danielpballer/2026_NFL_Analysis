@@ -260,3 +260,8 @@ Tuesday value tables are snapshotted in `output/`; research prompts come from
 Week 10 went 9-5 (log loss 0.563, market moneyline 0.572, pure model 0.535). Pooled over 149
 games the blend, pure model and market moneyline are all at 0.622 and every grid is flat, so
 there are no parameter changes. Details in `output/week10_2026_postmortem.md`.
+Thursday refresh (Nov 19): final IND/HOU designations and Wednesday practice news added through
+`data/research/wk11/designations.json`. Preseason priors and 2025 quarterback tables are now read
+from the frozen files in `data/processed/` (`preseason_strength`, `preseason_qb_values`,
+`preseason_team_qb`) because nflverse rebuilt the 2025 play-by-play. Weekly quarterback overrides
+must be set on the frozen 2025 scale, not from `qb_values(2026)`.

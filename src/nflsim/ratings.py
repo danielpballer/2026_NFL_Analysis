@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 from . import config as C
-from .strength import load_pbp, team_strength
+from .strength import load_pbp, preseason_strength, team_strength
 
 
 def game_performance(season: int, week: int) -> pd.DataFrame:
@@ -40,7 +40,7 @@ def game_performance(season: int, week: int) -> pd.DataFrame:
 
 def current_ratings(season: int, week: int, verbose: bool = False) -> pd.DataFrame:
     """Ratings entering `week`: preseason prior plus every completed week before it."""
-    prior = team_strength(season - 1)["rating_regressed"].rename("prior")
+    prior = preseason_strength(season - 1)["rating_regressed"].rename("prior")
     out = prior.to_frame()
     out["games"] = 0
     out["perf_sum"] = 0.0
