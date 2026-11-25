@@ -1,0 +1,287 @@
+{
+ "season": 2026,
+ "week": 12,
+ "collected_on": "2026-11-25",
+ "teams": {
+  "LA": {
+   "starter": "Matthew Stafford",
+   "pbp_name": "M.Stafford",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Stafford's elbow is cleared; no designation.",
+   "schedule_projected_starter": "Matthew Stafford"
+  },
+  "GB": {
+   "starter": "Jordan Love",
+   "pbp_name": "J.Love",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jordan Love"
+  },
+  "DET": {
+   "starter": "Jared Goff",
+   "pbp_name": "J.Goff",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Jared Goff"
+  },
+  "CHI": {
+   "starter": "Caleb Williams",
+   "pbp_name": "C.Williams",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Caleb Williams"
+  },
+  "DAL": {
+   "starter": "Dak Prescott",
+   "pbp_name": "D.Prescott",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Prescott was added to the report with a non-throwing hand injury and is expected to play.",
+   "schedule_projected_starter": "Dak Prescott"
+  },
+  "PHI": {
+   "starter": "Joe Milton III",
+   "pbp_name": "J.Milton",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Joe Milton III has won both of his starts; Jalen Hurts is out indefinitely.",
+   "schedule_projected_starter": "Joe Milton III",
+   "value_override": -2.5
+  },
+  "BUF": {
+   "starter": "Josh Allen",
+   "pbp_name": "J.Allen",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Josh Allen"
+  },
+  "KC": {
+   "starter": "Patrick Mahomes",
+   "pbp_name": "P.Mahomes",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": 1.8,
+   "schedule_projected_starter": "Patrick Mahomes"
+  },
+  "PIT": {
+   "starter": "Aaron Rodgers",
+   "pbp_name": "A.Rodgers",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Aaron Rodgers"
+  },
+  "DEN": {
+   "starter": "Bo Nix",
+   "pbp_name": "B.Nix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Bo Nix"
+  },
+  "CIN": {
+   "starter": "Joe Burrow",
+   "pbp_name": "J.Burrow",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Joe Burrow",
+   "value_override": null
+  },
+  "NO": {
+   "starter": "Tyler Shough",
+   "pbp_name": "T.Shough",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -0.7,
+   "schedule_projected_starter": "Tyler Shough"
+  },
+  "CLE": {
+   "starter": "Deshaun Watson",
+   "pbp_name": "D.Watson",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Deshaun Watson"
+  },
+  "LV": {
+   "starter": "Fernando Mendoza (rookie)",
+   "pbp_name": "F.Mendoza",
+   "new_to_team": true,
+   "rookie": true,
+   "notes": "Fernando Mendoza makes his third start.",
+   "schedule_projected_starter": "Fernando Mendoza",
+   "value_override": -3.0
+  },
+  "HOU": {
+   "starter": "C.J. Stroud",
+   "pbp_name": "C.Stroud",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "C.J. Stroud"
+  },
+  "BAL": {
+   "starter": "Jacoby Brissett",
+   "pbp_name": "J.Brissett",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Brissett starts with Lamar Jackson on IR; Baltimore turned it over four times in Carolina.",
+   "schedule_projected_starter": "Jacoby Brissett",
+   "value_override": -2.5
+  },
+  "IND": {
+   "starter": "Anthony Richardson",
+   "pbp_name": "A.Richardson",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "The Colts waived Daniel Jones on Nov 20 after the 26-3 loss in Houston. Anthony Richardson makes his first start since 2024 and is priced at his last measured level.",
+   "value_override": -3.5,
+   "schedule_projected_starter": "Anthony Richardson",
+   "extra_sd": 1.5
+  },
+  "NYG": {
+   "starter": "J.J. McCarthy",
+   "pbp_name": "J.McCarthy",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "McCarthy beat Jacksonville and remains the starter; Dart is out for the season.",
+   "value_override": -2.8,
+   "schedule_projected_starter": "J.J. McCarthy"
+  },
+  "MIA": {
+   "starter": "Kyle McCord",
+   "pbp_name": "K.McCord",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Kyle McCord makes his third start with Malik Willis on IR.",
+   "value_override": -4.0,
+   "schedule_projected_starter": "Kyle McCord"
+  },
+  "NYJ": {
+   "starter": "Geno Smith",
+   "pbp_name": "G.Smith",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Smith practiced in full by Friday and threw three touchdowns in the win over the Chargers.",
+   "schedule_projected_starter": "Geno Smith"
+  },
+  "MIN": {
+   "starter": "Kirk Cousins",
+   "pbp_name": "K.Cousins",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Cousins starts again after the 35-10 loss in Mexico City; Kyler Murray is close to returning as the backup.",
+   "schedule_projected_starter": "Kirk Cousins",
+   "value_override": 0.0
+  },
+  "ATL": {
+   "starter": "Michael Penix Jr.",
+   "pbp_name": "M.Penix",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -0.3,
+   "schedule_projected_starter": "Michael Penix Jr."
+  },
+  "JAX": {
+   "starter": "Trevor Lawrence",
+   "pbp_name": "T.Lawrence",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Trevor Lawrence"
+  },
+  "TEN": {
+   "starter": "Cam Ward",
+   "pbp_name": "C.Ward",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "value_override": -4.5,
+   "schedule_projected_starter": "Cam Ward"
+  },
+  "ARI": {
+   "starter": "Carson Beck (questionable) / Josh Johnson",
+   "pbp_name": "C.Beck",
+   "new_to_team": false,
+   "rookie": true,
+   "notes": "Rookie Carson Beck missed Week 11 with back spasms and is questionable; Josh Johnson started the 34-7 loss in Kansas City and starts again if Beck cannot go.",
+   "schedule_projected_starter": "Gardner Minshew",
+   "value_override": -4.8,
+   "extra_sd": 1.0
+  },
+  "WAS": {
+   "starter": "Jayden Daniels",
+   "pbp_name": "J.Daniels",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Daniels has a swollen non-throwing hand; Quinn is not concerned.",
+   "value_override": 0.1,
+   "schedule_projected_starter": "Jayden Daniels"
+  },
+  "SF": {
+   "starter": "Brock Purdy",
+   "pbp_name": "B.Purdy",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Brock Purdy"
+  },
+  "SEA": {
+   "starter": "Sam Darnold (expected) / Drew Lock",
+   "pbp_name": "S.Darnold",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Darnold missed two games with a quad injury and a cracked rib and returned to practice Monday; Macdonald says the plan is for him to start. Priced 85/15 over Drew Lock with Darnold marked down for the injuries.",
+   "schedule_projected_starter": "Sam Darnold",
+   "value_override": 0.6,
+   "extra_sd": 0.75
+  },
+  "LAC": {
+   "starter": "Justin Herbert (concussion protocol) / DJ Uiagalelei",
+   "pbp_name": "J.Herbert",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "Herbert entered the concussion protocol after the loss to the Jets. Priced 55/45 Herbert over DJ Uiagalelei, who has seven career attempts; Trey Lance is on IR.",
+   "schedule_projected_starter": "Justin Herbert",
+   "value_override": -2.5,
+   "extra_sd": 1.5
+  },
+  "NE": {
+   "starter": "Tommy DeVito",
+   "pbp_name": "T.DeVito",
+   "new_to_team": true,
+   "rookie": false,
+   "notes": "Drake Maye fractured his fibula in Munich on Nov 15. Vrabel confirmed Tommy DeVito as the starter coming out of the bye.",
+   "schedule_projected_starter": "Drake Maye",
+   "value_override": -4.0,
+   "extra_sd": 1.0
+  },
+  "TB": {
+   "starter": "Baker Mayfield",
+   "pbp_name": "B.Mayfield",
+   "new_to_team": false,
+   "rookie": true,
+   "notes": "Mayfield played all of the loss in Detroit through a plantar fascia injury and a sore thumb and is marked down for both.",
+   "schedule_projected_starter": "Baker Mayfield",
+   "value_override": -0.5,
+   "extra_sd": 0.5
+  },
+  "CAR": {
+   "starter": "Bryce Young",
+   "pbp_name": "B.Young",
+   "new_to_team": false,
+   "rookie": false,
+   "notes": "",
+   "schedule_projected_starter": "Bryce Young"
+  }
+ }
+}

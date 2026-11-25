@@ -265,3 +265,9 @@ Thursday refresh (Nov 19): final IND/HOU designations and Wednesday practice new
 from the frozen files in `data/processed/` (`preseason_strength`, `preseason_qb_values`,
 `preseason_team_qb`) because nflverse rebuilt the 2025 play-by-play. Weekly quarterback overrides
 must be set on the frozen 2025 scale, not from `qb_values(2026)`.
+
+## Status (Nov 25, 2026): Week 11 scored, Week 12 in progress
+
+Week 11 went 9-4 (log loss 0.548, market moneyline 0.533). Pooled over 162 games the blend is
+0.616 and the market moneyline 0.615; all grids are flat, so no parameter changes. Underdog value
+sides are 17 of 67 against a modelled 36 percent. Details in `output/week11_2026_postmortem.md`.
