@@ -1,8 +1,8 @@
 {
   "games.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-    "bytes": 2190569,
-    "sha256": "f63401352d15c127c0e72c3919b0943d107b393775eb159057c16644765efe2f"
+    "bytes": 2191827,
+    "sha256": "b6be6dfd0628fc217543ce4db0eb547592df1589e4d3edf7923f164d8c69ebd1"
   },
   "play_by_play_2025.csv.gz": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
@@ -16,28 +16,28 @@
   },
   "play_by_play_2026.csv.gz": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
-    "bytes": 10547366,
-    "sha256": "a535e48e9348e7393edd66df27a07dd80a5ca93b3e292c7afe0034ac2e957461"
+    "bytes": 11448715,
+    "sha256": "87f102f70de3e7656e7c93aceca6b37e573a6abf4ec5cc0980a7abeef41db986"
   },
   "injuries_2026.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
-    "bytes": 365592,
-    "sha256": "a334fa75f31fbc2037981efa0c0f5a4fcf9475077820f774124087d9ebe4c8e6"
+    "bytes": 398987,
+    "sha256": "c6e2c17e8d0daa67533e1999da91e89c951f657e2cc876e39970bae8911d4964"
   },
   "roster_weekly_2026.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv",
-    "bytes": 8723701,
-    "sha256": "409d625b4b1974201f27e4372eaaee66ac58c39e4717b9e185b89c131d301153"
+    "bytes": 9574982,
+    "sha256": "ec9c798494c7bfbe1947fac601a2ea589efd39f1f36c5b6c50b4fe6bc2db2884"
   },
   "roster_2026.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
-    "bytes": 984771,
-    "sha256": "aacfce2e83bef24a27788dec932dd0613d2a06388a4bef41ac7776f84becfcfe"
+    "bytes": 984875,
+    "sha256": "58e1eae33632d9c9b55c4256db947c68a37e604258f974f051083a17fb2b89b6"
   },
   "depth_charts_2026.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
-    "bytes": 77028534,
-    "sha256": "1a061344d967a299d2668f74aabeee9f452716242a209f3aab5e36855184301e"
+    "bytes": 79732891,
+    "sha256": "58e6f11ade63d7a42fce14af79a82a443f66dfb648add12e1384546dafc8d064"
   },
   "injuries_2025.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
@@ -51,7 +51,7 @@
   },
   "qbr_season_level.csv": {
     "url": "https://github.com/nflverse/nflverse-data/releases/download/espn_data/qbr_season_level.csv",
-    "bytes": 297088,
-    "sha256": "6ed96469a4c1dbc1b4cef0d7e7a9f646506b5e42d694e8fe48fad06c0d30e45c"
+    "bytes": 297108,
+    "sha256": "ec93539b97624786f9067e0cb4a6fb02c6d0a25f61af2ba4708bf84729121b05"
   }
 }
