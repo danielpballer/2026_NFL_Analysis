@@ -1,0 +1,321 @@
+{
+  "collected_on": "2026-11-25",
+  "search_calls_used": 40,
+  "unverified": [
+    "ALL TEAMS: official Week 12 Wednesday practice reports were not yet published when collected (Wed Nov 25). Every 'Questionable' below is a tracker listing (SI betting preview / CBS / DraftKings 'TBD') or a coach comment, NOT an official game-status designation. Re-check Friday Nov 27.",
+    "MIN: starting QB for Week 12 not formally announced in anything found. Cousins started Weeks 10-11 and O'Connell has said Murray will be the backup once healthy, so Cousins is the expected starter; Murray (Grade 2 hamstring) was targeting this game to be available again. No Nov 23-25 practice news on Murray found.",
+    "MIN: severity of LT Christian Darrisaw's right shoulder injury (left Week 11 for good in 4th quarter); no timeline given.",
+    "IND: backup QB behind Anthony Richardson. Riley Leonard was QB3 (inactive/emergency in Week 11) and is the presumed QB2 after Daniel Jones was waived Nov 20; no report found of a QB signing.",
+    "IND: Week 12 practice status of Raimann (concussion protocol), Travis, Gardner, Ward, Tillery, Mallory - all sat out the Nov 19 game; only tracker 'questionable' listings found for this week. McGowan: CBS says out until about Week 14, an ESPN snapshot says questionable.",
+    "IND carry-overs with no news found (presumed still on IR/PUP): Akeem Davis-Gaither, Cam Taylor-Britt, Carson Towt, D.J. Montgomery, Jaylon Carlies, Micheal Clemons, Mo Alie-Cox, Will Musgrave.",
+    "NYG carry-overs with no news found (presumed still on IR): Braxton Berrios, Calvin Austin III, Gunner Olszewski, Jarrick Bernard-Converse, Korie Black, Roy Robertson-Harris. Brian Burns: one Yahoo piece says out for the year, injury type not found.",
+    "NYG: record after Week 11 (a Week 12 opening-line article lists them 6-3-1; unclear whether that includes the Nov 22 win).",
+    "NYJ: Week 12 practice status for Geno Smith (left ankle; was full by Fri Nov 20 and played well Nov 22), Omar Cooper Jr., Trevin Wallace, Isaiah Williams. Also unverified whether Dylan Parham (knee), Harrison Phillips (ankle), Joseph Ossai (ankle) - all on the Week 11 report - played Nov 22 or are concerns this week.",
+    "NYJ carry-overs with no news found (presumed still on IR/PUP): Anez Cooper, Chip Trayanum, Francisco Mauigoa, Max Mitchell, T'Vondre Sweat, Tre Brown, Tyler Baron.",
+    "NYJ: a headline ('Glenn Hands Off Defense') suggests Aaron Glenn gave up defensive play-calling; details not read.",
+    "MIA: backup QB behind Kyle McCord not found. Malik Willis return date conflicts (one report Week 13, ESPN says eligible Week 14) - either way out for Week 12.",
+    "MIA: Week 12 status of RG Jonah Savaiinaea (ankle, left Week 11) and C Aaron Brewer (concussion; questionable for Week 11, full practice Fri Nov 20; not confirmed whether he played). Whether the Bills game was home or away not confirmed.",
+    "MIA carry-overs with no news found (presumed still on IR/PUP): Cole Turner, Trey Moore, Darrell Baker Jr.",
+    "ATL carry-overs with no news found (presumed still on IR/PUP/NFI): A.J. Terrell, Cameron Williams, Da'Shawn Hand, J.D. Bertrand, Jalon Walker, Malik Verdon, Trey Sermon, DeAngelo Malone, Storm Norton, Anterio Thompson. Michael Jerrell was listed as eligible to return Week 12 but no activation found.",
+    "MIN carry-overs with no news found (presumed still on IR): Demond Claiborne, Donovan Jackson, Jamal Adams, Josh Oliver.",
+    "TEN carry-overs with no news found (presumed still on IR): Fernando Carmona, Jackson Slater, James Williams Sr., Jaren Kanak, Milo Eifler, Nazeeh Johnson, Peter Skoronski, Tanoh Kpassagnon, Tommy Townsend.",
+    "TEN: Jeffery Simmons (hamstring) status - a Nov 20 NBC headline says 'cleared off injury report' but the snippet text was internally inconsistent; whether he played Nov 22 not confirmed. Titans record (a TSN headline says 1-9; timing unclear). Backup QB Mitchell Trubisky comes from undated depth-chart pages.",
+    "JAX carry-overs with no news found (presumed still on IR): B.J. Green II, Caleb Ransaw, DaVon Hamilton, Eric Murray, Patrick Mekari, Zach Durfee. Backup QB not found.",
+    "JAX: Trevor Lawrence reportedly had a finger issue and a rolled ankle during Week 11 (one Yahoo piece); no report of him missing practice or being at risk, but not confirmed either way.",
+    "Starter true/false flags for depth players (Jalen Travis, Jerry Tillery, Omar Cooper Jr., Jarrian Jones, Cor'Dale Flott, Isaiah Rodgers, Jay Ward) are best guesses, not confirmed from depth charts."
+  ],
+  "teams": {
+    "NYG": {
+      "week11_result": "Won 23-18 vs JAX (Sun Nov 22, MetLife). Defense intercepted Trevor Lawrence twice, pressured him 22 times with 3 sacks and held JAX to 1 TD in 6 red-zone trips. CB Greg Newsome II left after 4 snaps with a high ankle sprain.",
+      "qb": {
+        "starter": "J.J. McCarthy",
+        "backup": "Jameis Winston",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT. Jaxson Dart went on IR in September after a Week 2 knee injury vs the Rams (MCL, PCL, meniscus; surgery; out for the regular season). The Giants traded a 2027 fifth-round pick to Minnesota for McCarthy four days later and he has been the starter since. No injury concern found for McCarthy; the Giants had zero players with a game designation for Week 11."
+      },
+      "injuries": [
+        {"player": "Greg Newsome II", "position": "CB", "status": "IR", "injury": "High ankle sprain suffered Nov 22 vs JAX; tightrope surgery, 4-6 week timeline; placed on IR Tue Nov 24 (out at least 4 games). Paulson Adebo replaces him.", "starter": true, "source": "https://sports.yahoo.com/nfl/articles/giants-put-greg-newsome-injured-220054972.html"},
+        {"player": "Jaxson Dart", "position": "QB", "status": "IR", "injury": "Knee (MCL, PCL, meniscus) from Week 2 vs Rams; surgery; out for the regular season. Still on IR per Nov 24 DraftKings report.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Tyrone Tracy Jr.", "position": "RB", "status": "IR", "injury": "Hamstring; still on IR, first eligible to return Week 13 (could be reinstated then per The Athletic via ESPN).", "starter": true, "source": "https://www.espn.com/nfl/injuries"},
+        {"player": "Tremaine Edmunds", "position": "LB", "status": "IR", "injury": "Chest; still on IR, ESPN estimated return Feb 15 (season-ending).", "starter": true, "source": "https://www.espn.com/nfl/injuries"},
+        {"player": "Brian Burns", "position": "OLB", "status": "IR", "injury": "Still on IR; described as out for the year in a Week 12 Yahoo piece (injury type not found).", "starter": true, "source": "https://sports.yahoo.com/articles/york-giants-slammed-awful-news-120043089.html"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Brian Burns, Tremaine Edmunds (both season-ending), Tyrone Tracy Jr. (IR, eligible Week 13). UNKNOWN (no news, presumed still IR) - Braxton Berrios, Calvin Austin III, Gunner Olszewski, Jarrick Bernard-Converse, Korie Black, Roy Robertson-Harris. None reported activated.",
+        "Roster moves Nov 24: Newsome to IR, OLB Dawuane Smoot signed from the practice squad, OL Geno VanDeMark re-signed to the practice squad.",
+        "Giants opened as 7-point road favorites, now 6.5 (FanDuel). Head coach is John Harbaugh.",
+        "Giants were unusually healthy otherwise: no player carried a game designation into Week 11 (CB Nic Jones knee and S Elijah Campbell knee were limited, TE Isaiah Likely groin called minor).",
+        "The expected Daniel Jones revenge-game storyline is gone: the Colts waived Jones on Nov 20."
+      ],
+      "sources": [
+        "https://www.si.com/betting/giants-vs-colts-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jj7z2qb",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://sports.yahoo.com/articles/giants-quarterback-controversy-jaxson-dart-135247045.html",
+        "https://sports.yahoo.com/nfl/articles/giants-put-greg-newsome-injured-220054972.html",
+        "https://nfltraderumors.co/giants-placed-cb-greg-newsome-ii-on-ir-among-three-moves/",
+        "https://www.bigblueview.com/new-york-giants-injuries/181262/greg-newsome-injury-ny-giants-cb-out-multiple-weeks-with-ankle-injury",
+        "https://sports.yahoo.com/articles/no-ny-giants-final-injury-211904234.html",
+        "https://sports.yahoo.com/articles/giants-vs-colts-odds-opening-020444540.html",
+        "https://www.espn.com/nfl/injuries",
+        "https://www.jaguars.com/news/game-report-2026-week-11-giants-23-jaguars-18"
+      ]
+    },
+    "IND": {
+      "week11_result": "Lost 26-3 at HOU (Thu Nov 19), falling to 3-8. Offense failed to score a TD for the first time this season; Daniel Jones went 12-of-27 for 144 yards with an INT and was sacked for a safety. Jones was waived the next day.",
+      "qb": {
+        "starter": "Anthony Richardson Sr.",
+        "backup": "Riley Leonard (presumed; was QB3)",
+        "changed_from_week11": true,
+        "notes": "Schedule file is CORRECT but this is a CHANGE. Shane Steichen announced on Nov 20 that the Colts were releasing Daniel Jones (two-year, $88M deal with a $10.5M injury guarantee) and starting Richardson; NBC Sports confirms Richardson starts vs the Giants. It is his first start for the Colts since 2024. Richardson won the QB2 job over Leonard in preseason after a trade request went nowhere. No QB signing found, so Leonard is the presumed backup."
+      },
+      "injuries": [
+        {"player": "Seth McGowan", "position": "RB", "status": "Out", "injury": "Hamstring; CBS lists him out and expected back around Week 14, Steichen said he will miss some time (an ESPN snapshot says questionable).", "starter": false, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Bernhard Raimann", "position": "OT", "status": "Questionable", "injury": "Concussion protocol since the Nov 15 game vs MIA; ruled out Nov 19 at HOU; tracker-listed questionable for Week 12, not an official designation.", "starter": true, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Jalen Travis", "position": "OT", "status": "Questionable", "injury": "Knee; ruled out Nov 19 at HOU; tracker-listed questionable for Week 12.", "starter": false, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Sauce Gardner", "position": "CB", "status": "Questionable", "injury": "Calf; did not play Nov 19 at HOU; tracker-listed questionable for Week 12.", "starter": true, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Charvarius Ward", "position": "CB", "status": "Questionable", "injury": "Knee; ruled out Nov 19 at HOU and was seen with a single crutch the previous week; tracker-listed questionable for Week 12.", "starter": true, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Jerry Tillery", "position": "DT", "status": "Questionable", "injury": "Calf; ruled out Nov 19 at HOU; tracker-listed questionable for Week 12.", "starter": false, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Will Mallory", "position": "TE", "status": "Questionable", "injury": "Hamstring; ruled out Nov 19 at HOU; tracker-listed questionable for Week 12.", "starter": false, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"},
+        {"player": "Alec Pierce", "position": "WR", "status": "IR", "injury": "Heel; still on IR and reportedly shut down for the rest of the 2026 season.", "starter": true, "source": "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Alec Pierce (IR, reportedly done for the season). NOT YET CLEARED, tracker-questionable - Bernhard Raimann, Charvarius Ward, Jalen Travis, Jerry Tillery, Will Mallory (all were out Nov 19; they get 10 days of rest). UNKNOWN (no news, presumed still IR/PUP) - Akeem Davis-Gaither, Cam Taylor-Britt, Carson Towt, D.J. Montgomery, Jaylon Carlies, Micheal Clemons, Mo Alie-Cox, Will Musgrave.",
+        "Quarterback change after a blowout: the Colts cut Jones outright rather than bench him, which reporting ties to his $10.5M injury guarantee. Offense now built around Richardson under Steichen and OC Jim Bob Cooter.",
+        "Colts are 3-8 and 6.5-point home underdogs. Both starting CBs (Gardner, Ward) and the starting LT (Raimann) missed the last game.",
+        "New injury since last week: RB Seth McGowan (hamstring), expected to miss multiple weeks."
+      ],
+      "sources": [
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-20/anthony-richardson-will-start-for-colts-vs-giants",
+        "https://www.espn.com/nfl/story/_/id/50542293/colts-release-qb-daniel-jones-blowout-loss-texans",
+        "https://sports.yahoo.com/nfl/breaking-news/article/daniel-jones-released-by-colts-as-anthony-richardson-sr-takes-over-as-starter-181219539.html",
+        "https://sports.yahoo.com/articles/colts-release-daniel-jones-brutal-181311403.html",
+        "https://www.cbssports.com/nfl/teams/ind/indianapolis-colts/injuries/",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.espn.com/nfl/game/_/gameId/401873088/giants-colts",
+        "https://www.colts.com/news/anthony-richardson-sr-named-colts-backup-quarterback",
+        "https://www.stampedeblue.com/indianapolis-colts-injuries/130243/indianapolis-colts-injury-report-whos-in-and-whos-out-tnf",
+        "https://sports.yahoo.com/articles/giants-vs-colts-odds-opening-020444540.html"
+      ]
+    },
+    "NYJ": {
+      "week11_result": "Won 27-24 at LAC (Sun Nov 22), improving to 3-8. Geno Smith 17-of-21, 176 yards, 3 TD (two to practice-squad elevation Sterling Shepard); offense 9-of-11 on third down; rookie edge David Bailey led a six-sack day and Justin Herbert ended up in concussion protocol.",
+      "qb": {
+        "starter": "Geno Smith",
+        "backup": "Cade Klubnik",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT. Smith hurt his left ankle in the Week 10 loss to Buffalo (imaging clean), was limited Wed Nov 18, full Fri Nov 20 with no designation, and posted a season-best 141.2 rating at LAC. He has a 15:3 TD:INT. Rookie Klubnik debuted in relief in Week 10 and would start if Smith cannot go. Week 12 practice status not yet available."
+      },
+      "injuries": [
+        {"player": "Omar Cooper Jr.", "position": "WR", "status": "Questionable", "injury": "Right ankle and hip; hurt in Week 10, did not practice Nov 18, inactive Week 11; listed TBD by DraftKings Nov 24, not an official designation.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Trevin Wallace", "position": "LB", "status": "Questionable", "injury": "Groin; limited Nov 18, inactive Week 11; listed TBD by DraftKings Nov 24.", "starter": false, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Isaiah Williams", "position": "WR", "status": "Questionable", "injury": "Ribs; did not practice Nov 18; listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: UNKNOWN for all seven (no news found, presumed still on IR/PUP) - Anez Cooper, Chip Trayanum, Francisco Mauigoa, Max Mitchell, T'Vondre Sweat, Tre Brown, Tyler Baron. None reported activated.",
+        "Rematch: Miami beat the Jets in Week 7 (Oct 25) despite three Smith TD passes, but that was with Malik Willis at QB for Miami; the Dolphins now start Kyle McCord.",
+        "LG Dylan Parham (knee), DL Harrison Phillips (ankle) and EDGE Joseph Ossai (ankle) were on last week's report with Friday practice deciding their availability; current status unverified.",
+        "Jets are 3-8 and hold two top-five picks in the projected 2027 draft order; second straight road game after the trip to Los Angeles."
+      ],
+      "sources": [
+        "https://www.newyorkjets.com/news/geno-smith-jets-engineers-3-touchdown-drives-in-victory-over-chargers-11-22-2026",
+        "https://www.cbssports.com/fantasy/football/news/jets-geno-smith-tosses-three-tds-in-week-11-win/",
+        "https://www.newyorkjets.com/news/jets-week-11-stats-notes-geno-smith-jets-offense-david-baily-chargers-game-11-23-2026",
+        "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
+        "https://www.foxsports.com/stories/nfl/geno-smith-injury-update-jets-quarterbacks-aaron-glenn-presser",
+        "https://www.foxsports.com/stories/nfl/geno-smith-injury-update-aaron-glenn-presser-jets-chargers",
+        "https://jetsinsider.com/injuries/",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs",
+        "https://www.nfl.com/news/notable-injuries-news-sunday-week-11-games-2026",
+        "https://www.nfl.com/news/2027-nfl-draft-order-biggest-needs-for-every-team"
+      ]
+    },
+    "MIA": {
+      "week11_result": "Lost 26-9 to BUF (Sun Nov 22). Offense shut down: Kyle McCord threw for 102 yards and an INT in his second career start, rookies Chris Bell and Caleb Douglas combined for five drops. RG Jonah Savaiinaea (ankle) and CB JuJu Brents (shoulder) left the game.",
+      "qb": {
+        "starter": "Kyle McCord",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT. Starter Malik Willis was placed on IR around Nov 10 with a groin injury that became a core-muscle issue (out at least four games, no surgery at this time; ESPN says eligible Week 14). McCord, acquired from Green Bay for a sixth-round pick before the season, makes his third start; he regressed badly in Week 11 after a decent debut vs IND. No sign of a benching."
+      },
+      "injuries": [
+        {"player": "Malik Willis", "position": "QB", "status": "IR", "injury": "Groin/core muscle; placed on IR about Nov 10, out at least four games, eligible Week 14 per ESPN.", "starter": true, "source": "https://www.espn.com/nfl/story/_/id/50445819/dolphins-put-qb-malik-willis-ir-groin-injury"},
+        {"player": "De'Von Achane", "position": "RB", "status": "IR", "injury": "Knee (ACL) per Yahoo injury page dated Nov 20; still on IR.", "starter": true, "source": "https://sports.yahoo.com/nfl/teams/miami/injuries/"},
+        {"player": "Zach Sieler", "position": "DT", "status": "IR", "injury": "Still on IR; one of three DTs placed on IR in the same recent stretch per Week 11 coverage.", "starter": true, "source": "https://sports.yahoo.com/articles/dolphins-news-bills-previews-injury-124015737.html"},
+        {"player": "Jordan Phillips", "position": "DT", "status": "IR", "injury": "Still on IR per Week 11 coverage.", "starter": false, "source": "https://sports.yahoo.com/articles/dolphins-news-bills-previews-injury-124015737.html"},
+        {"player": "Zeek Biggers", "position": "DT", "status": "IR", "injury": "Moved to IR (was carried as Out last week) per Week 11 coverage of three DTs landing on IR.", "starter": false, "source": "https://sports.yahoo.com/articles/dolphins-news-bills-previews-injury-124015737.html"},
+        {"player": "Ronnie Harrison Jr.", "position": "LB", "status": "IR", "injury": "Still on IR per SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"},
+        {"player": "JuJu Brents", "position": "CB", "status": "Questionable", "injury": "Shoulder, left Nov 22 game and did not return; Jeff Hafley said Mon Nov 23 he is day-to-day and appears to have avoided anything serious.", "starter": true, "source": "https://www.cbssports.com/fantasy/football/news/dolphins-juju-brents-avoids-serious-injury/"},
+        {"player": "Jonah Savaiinaea", "position": "G", "status": "Questionable", "injury": "Ankle, left Nov 22 game in the second quarter (Jarrett Kingston replaced him at RG); no update since. Same ankle bothered him in October.", "starter": true, "source": "https://sports.yahoo.com/articles/dolphins-guard-jonah-savaiinaea-questionable-194101925.html"},
+        {"player": "Dante Trader Jr.", "position": "S", "status": "Questionable", "injury": "Shoulder and groin; inactive Week 11; listed TBD by DraftKings Nov 24.", "starter": false, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Jared Wayne", "position": "WR", "status": "Questionable", "injury": "Quad; on Week 11 report, listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"},
+        {"player": "Bradley Pinion", "position": "P", "status": "Questionable", "injury": "Right groin; on Week 11 report, listed questionable in SI Week 12 preview.", "starter": true, "source": "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"},
+        {"player": "Jaylin Simpson", "position": "CB", "status": "Questionable", "injury": "Knee; on Week 11 report, listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - De'Von Achane, Zach Sieler, Jordan Phillips, Ronnie Harrison Jr. (all IR), Zeek Biggers (now on IR rather than just Out). UNKNOWN (no news, presumed still IR/PUP) - Cole Turner, Trey Moore, Darrell Baker Jr. None reported activated.",
+        "Miami is without its starting QB (Willis), lead RB (Achane) and three defensive tackles (Sieler, Phillips, Biggers); the offense managed 9 points last week.",
+        "Possible offensive line reshuffle: Savaiinaea's ankle, C Aaron Brewer coming off a concussion (questionable for Week 11, full practice Nov 20), and local coverage discussing a possible Kadyn Proctor move at tackle involving Austin Jackson (headline only, details unverified).",
+        "Head coach is Jeff Hafley. Miami beat the Jets in Week 7 (Oct 25) with Willis at QB."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/story/_/id/50445819/dolphins-put-qb-malik-willis-ir-groin-injury",
+        "https://sports.yahoo.com/articles/qb-malik-willis-ir-injury-121630378.html",
+        "https://heavy.com/sports/nfl/miami-dolphins/jeff-hafley-malik-willis-injury-update/",
+        "https://sports.yahoo.com/articles/dolphins-offense-completely-shut-down-210658567.html",
+        "https://sports.yahoo.com/articles/dolphins-news-bills-previews-injury-124015737.html",
+        "https://www.thephinsider.com/miami-dolphins-analysis/125200/fins-up-fins-down-winners-and-losers-from-miami-dolphins-week-11-defeat",
+        "https://www.thephinsider.com/miami-dolphins-news/125243/miami-dolphins-news-kadyn-proctor-austin-jackson-tackle-malik-willis-injury-update-jets-preview",
+        "https://sports.yahoo.com/articles/dolphins-final-week-11-injury-220809123.html",
+        "https://sports.yahoo.com/articles/dolphins-guard-jonah-savaiinaea-questionable-194101925.html",
+        "https://www.cbssports.com/fantasy/football/news/dolphins-juju-brents-avoids-serious-injury/",
+        "https://sports.yahoo.com/nfl/teams/miami/injuries/",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.si.com/betting/jets-vs-dolphins-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jvmsncs"
+      ]
+    },
+    "ATL": {
+      "week11_result": "Bye in Week 11. Last game: lost 35-13 to KC in Week 10 (Michael Penix Jr. 23-of-43), a third straight loss that left Atlanta 3-7.",
+      "qb": {
+        "starter": "Michael Penix Jr.",
+        "backup": "Tua Tagovailoa",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT per the team's Week 12 depth chart (published Nov 24), which lists Penix first and Tagovailoa second with no QB change after the bye. Background: Tagovailoa was named the Week 1 starter but suffered an oblique injury days before the opener; Penix took the job and kept it, and Tagovailoa has played in only one game. Penix is struggling (1 TD, 6 INT over his last three games); Kevin Stefanski gave him a vote of confidence after Week 10 but a switch was openly discussed going into the bye, so an in-game hook is a live risk."
+      },
+      "injuries": [
+        {"player": "Zachariah Branch", "position": "WR", "status": "Questionable", "injury": "Hamstring; inactive Weeks 9 and 10; listed TBD by DraftKings Nov 24 and questionable by SI, not an official designation.", "starter": false, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Divine Deablo", "position": "LB", "status": "Questionable", "injury": "Forearm; downgraded to out and inactive in Week 10; listed TBD by DraftKings Nov 24 and questionable by SI.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Samson Ebukam", "position": "DE", "status": "IR", "injury": "Hamstring; placed on IR Nov 3, eligible to return Week 14.", "starter": false, "source": "https://www.cbssports.com/fantasy/football/news/falcons-samson-ebukam-placed-on-ir/"},
+        {"player": "Brian Robinson Jr.", "position": "RB", "status": "IR", "injury": "Hamstring; still on IR, eligible to return Week 14 per IR tracker.", "starter": false, "source": "https://sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker"},
+        {"player": "Michael Jerrell", "position": "OT", "status": "IR", "injury": "Biceps; still on IR, listed as eligible to return Week 12 but no activation found.", "starter": false, "source": "https://sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Brian Robinson Jr. (IR, eligible Week 14), Michael Jerrell (IR, eligible Week 12, not activated as far as found). UNKNOWN (no news, presumed still IR/PUP/NFI) - A.J. Terrell, Cameron Williams, Da'Shawn Hand, J.D. Bertrand, Jalon Walker, Malik Verdon, Trey Sermon, DeAngelo Malone, Storm Norton, Anterio Thompson. None reported activated.",
+        "Post-bye roster moves: waived LB Christian Harris, promoted S Jammie Robinson from the practice squad, signed CB Terell Smith to the practice squad. Rookie LB Kendal Daniels has been playing next to Deablo.",
+        "Atlanta traded S Jessie Bates to Jacksonville at the deadline for a 2027 second-round and 2028 fifth-round pick; LB Yasir Abdullah and WR Beaux Collins were activated from IR on Nov 7.",
+        "Falcons come off the bye with 14 days of rest; head coach is Kevin Stefanski. They face former Falcons QB Kirk Cousins, now starting for Minnesota."
+      ],
+      "sources": [
+        "https://www.atlantafalcons.com/news/atlanta-falcons-week-12-depth-chart-vs-minnesota-vikings",
+        "https://bvmsports.com/2026/11/24/falcons-week-12-depth-chart-vs-vikings-atlantas-latest-lineup/",
+        "https://sports.yahoo.com/articles/falcons-stick-penix-tua-tagovailoa-085130079.html",
+        "https://www.thefalcoholic.com/atlanta-falcons-analysis/98550/michael-penix-performance-losses-drake-london-kevin-stefanski-tommy-rees",
+        "https://bleacherreport.com/articles/25533674-qb-report-cards-2026-nfl-week-10",
+        "https://www.si.com/betting/falcons-vs-vikings-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-waive-lb-christian-harris-sign-s-jammie-robinson",
+        "https://www.espn.com/nfl/team/transactions/_/name/atl/atlanta-falcons",
+        "https://www.cbssports.com/fantasy/football/news/falcons-samson-ebukam-placed-on-ir/",
+        "https://sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker",
+        "https://sports.yahoo.com/nfl/articles/falcons-bye-week-offers-healing-213233272.html"
+      ]
+    },
+    "MIN": {
+      "week11_result": "Lost 35-10 to SF in Mexico City (Sun night, Nov 22), falling to 7-3 with a third loss in four games and dropping to third in the NFC North. Kirk Cousins threw for 235 yards with a pick-six; LT Christian Darrisaw left for good in the fourth quarter with a right shoulder injury.",
+      "qb": {
+        "starter": "Kirk Cousins",
+        "backup": "Carson Wentz (Kyler Murray if cleared)",
+        "changed_from_week11": false,
+        "notes": "Schedule file looks odd but is CORRECT as the expected starter. Minnesota acquired Cousins from Las Vegas at the trade deadline; he has started Weeks 10 and 11 while Kyler Murray recovers from a Grade 2 hamstring strain (DNP Nov 18, inactive Week 11). The team was targeting this Falcons game for Murray to be available, and O'Connell said Nov 20 he had a chance to practice this week, but O'Connell has also said Murray will be the backup once healthy. No formal Week 12 announcement found. J.J. McCarthy was traded to the Giants in September. Wentz was the active QB2 in Week 11 with Max Brosmer the emergency third QB."
+      },
+      "injuries": [
+        {"player": "Jordan Addison", "position": "WR", "status": "Out", "injury": "Thumb surgery; Kevin O'Connell said he is not expected to be available Week 12 vs ATL though he is progressing well.", "starter": true, "source": "https://heavy.com/sports/nfl/minnesota-vikings/jordan-addison-injury-update-falcons-game/"},
+        {"player": "Christian Darrisaw", "position": "OT", "status": "Questionable", "injury": "Right shoulder, hurt Nov 22 vs SF, returned briefly then left for good; no timeline (he also had a left shoulder issue earlier in November). Ryan Van Demark replaced him.", "starter": true, "source": "https://sports.yahoo.com/articles/vikings-left-tackle-christian-darrisaw-114500221.html"},
+        {"player": "Kyler Murray", "position": "QB", "status": "Questionable", "injury": "Grade 2 hamstring strain; did not practice Nov 18, inactive Week 11; team targeting Week 12 for availability, expected to be the backup when healthy.", "starter": false, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Isaiah Rodgers", "position": "CB", "status": "Questionable", "injury": "Quadriceps; listed by DraftKings Nov 24 and questionable in SI Week 12 preview.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Jay Ward", "position": "S", "status": "Questionable", "injury": "Injury not specified; listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/falcons-vs-vikings-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Jordan Addison (thumb surgery, not expected this week). UNKNOWN (no news, presumed still IR) - Demond Claiborne, Donovan Jackson, Jamal Adams, Josh Oliver. None reported activated.",
+        "Offensive line concern: Darrisaw's shoulder leaves Ryan Van Demark at left tackle if he cannot go, with LG Donovan Jackson already on IR; the Vikings are signing OL Tristan Leigh to the practice squad.",
+        "Travel: returning from an international game at altitude in Mexico City with no bye afterward.",
+        "Cousins faces the Falcons, his former team; Minnesota still 7-3 but trending down."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap?gameId=401873077",
+        "https://www.vikings.com/news/inactives-49ers-sunday-night-football-mexico-2026",
+        "https://sports.yahoo.com/articles/darrisaw-hurt-cousins-throws-pick-030456666.html",
+        "https://sports.yahoo.com/articles/vikings-left-tackle-christian-darrisaw-114500221.html",
+        "https://sports.yahoo.com/articles/vikings-add-depth-offensive-line-195604489.html",
+        "https://heavy.com/sports/nfl/minnesota-vikings/jordan-addison-injury-update-falcons-game/",
+        "https://sports.yahoo.com/articles/vikings-kevin-o-connell-jordan-224429961.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-18/murray-hamstring-dnp-on-wednesday",
+        "https://sports.yahoo.com/articles/kevin-oconnell-kyler-murray-want-215645568.html",
+        "https://www.espn.com/nfl/story/_/id/50455771/kirk-cousins-reintroduced-vikings-starting-qb",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.si.com/betting/falcons-vs-vikings-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+      ]
+    },
+    "TEN": {
+      "week11_result": "Lost 51-30 at DAL (Sun Nov 22). Blowout: Dallas scored touchdowns on its first six drives against an undermanned Titans defense. Cam Ward went 21-of-30 for 248 yards, 2 TD passes and a rushing TD, but lost a fumble and was sacked five times.",
+      "qb": {
+        "starter": "Cam Ward",
+        "backup": "Mitchell Trubisky",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT. Ward has at least 231 yards and two TD passes in three straight games; no injury reported. Backup comes from Ourlads/ESPN depth charts (undated)."
+      },
+      "injuries": [
+        {"player": "Dan Moore Jr.", "position": "OT", "status": "Questionable", "injury": "Knee, pulled from Nov 22 game at DAL (questionable to return); listed TBD by DraftKings Nov 24, not an official designation.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Cor'Dale Flott", "position": "CB", "status": "Questionable", "injury": "Neck, hurt in the second quarter Nov 22 at DAL; listed TBD by DraftKings Nov 24.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Terrell Burgess", "position": "S", "status": "Questionable", "injury": "Knee, ruled out in the second half Nov 22 at DAL; listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"},
+        {"player": "Tony Adams", "position": "S", "status": "Questionable", "injury": "Illness, held out of Nov 22 game at DAL; Robert Saleh had no update Mon Nov 23.", "starter": false, "source": "https://sports.yahoo.com/articles/cowboys-dominate-titans-undermanned-defense-211355016.html"},
+        {"player": "Jaylen Harrell", "position": "EDGE", "status": "IR", "injury": "Knee (ACL); still on IR per SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"},
+        {"player": "Wan'Dale Robinson", "position": "WR", "status": "IR", "injury": "Ankle; on IR and out for the rest of the season per Robert Saleh.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Jaylen Harrell (IR, ACL), Wan'Dale Robinson (IR, season-ending). UNKNOWN (no news, presumed still IR) - Fernando Carmona, Jackson Slater, James Williams Sr., Jaren Kanak, Milo Eifler, Nazeeh Johnson, Peter Skoronski, Tanoh Kpassagnon, Tommy Townsend. None reported activated.",
+        "Titans are one of the league's worst teams (a TSN headline has them 1-9; exact current record unverified) and are 14.5-point underdogs. Robert Saleh says he has 100% support from ownership.",
+        "Secondary is thin: Flott (neck), Burgess (knee) and Adams (illness) all banged up after a 51-point defensive collapse; LT Dan Moore Jr. (knee) uncertain in front of Ward.",
+        "Divisional rematch: these teams met in Week 10 (Nov 15). Second straight road game for Tennessee."
+      ],
+      "sources": [
+        "https://www.rotowire.com/football/headlines/cam-ward-news-solid-numbers-in-week-11-loss-649207",
+        "https://sports.yahoo.com/articles/titans-vs-cowboys-score-highlights-150117830.html",
+        "https://sports.yahoo.com/nfl/live/cowboys-titans-score-live-updates-inactives-highlights-stats-where-to-watch-week-11-163011031.html",
+        "https://sports.yahoo.com/articles/cowboys-dominate-titans-undermanned-defense-211355016.html",
+        "https://www.tsn.ca/nfl/article/titans-hit-another-low-at-1-9-as-coach-saleh-says-he-has-100-support/",
+        "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.ourlads.com/nfldepthcharts/depthchart/TEN",
+        "https://www.espn.com/nfl/team/depth/_/name/ten"
+      ]
+    },
+    "JAX": {
+      "week11_result": "Lost 23-18 at NYG (Sun Nov 22), falling to 7-3. Trevor Lawrence went 25-of-47 for 301 yards, 2 TD and 2 INT, was pressured 22 times and sacked three times; offense scored one TD in six red-zone trips. LT Walker Little (knee) and CB Jarrian Jones (chest) left the game.",
+      "qb": {
+        "starter": "Trevor Lawrence",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Schedule file is CORRECT. Lawrence called his own Week 11 performance poor; one Yahoo piece says he dealt with a finger issue early and later rolled an ankle in that game, but no report found of him missing practice or being in doubt."
+      },
+      "injuries": [
+        {"player": "Walker Little", "position": "OT", "status": "Questionable", "injury": "Knee, left Nov 22 game at NYG in the second half; Liam Coen said Mon Nov 23 the recheck was not too bad and there are no short-term concerns, but he could still miss the game. Wyatt Milum replaced him at LT.", "starter": true, "source": "https://sports.yahoo.com/articles/jaguars-coen-provides-injury-updates-192247011.html"},
+        {"player": "Bhayshul Tuten", "position": "RB", "status": "Questionable", "injury": "Right ankle, reaggravated Nov 22 (stepped on twice); Coen said Monday they will see how he looks Wednesday and Thursday; one outlet does not expect him to play. Chris Rodriguez Jr. is the likely replacement.", "starter": true, "source": "https://sports.yahoo.com/articles/jaguars-rb-bhayshul-tuten-gets-030131765.html"},
+        {"player": "Robert Hainsey", "position": "C", "status": "Questionable", "injury": "Knee sprain; missed Week 11 at NYG; listed TBD by DraftKings Nov 24, not an official designation.", "starter": true, "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"},
+        {"player": "Jarrian Jones", "position": "CB", "status": "Questionable", "injury": "Chest, left Nov 22 game in the first quarter and was ruled out; Coen said Monday there are no short-term concerns.", "starter": true, "source": "https://sports.yahoo.com/articles/jaguars-coen-provides-injury-updates-192247011.html"},
+        {"player": "Matt Dickerson", "position": "DE", "status": "Questionable", "injury": "Injury not specified; listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"},
+        {"player": "Danny Striggow", "position": "DE", "status": "Questionable", "injury": "Injury not specified; listed questionable in SI Week 12 preview.", "starter": false, "source": "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"},
+        {"player": "Anton Harrison", "position": "OT", "status": "IR", "injury": "Season-ending injury per Week 12 coverage; Walker Little had been filling in for him.", "starter": true, "source": "https://blackandteal.com/jaguars-drop-enticing-walker-little-update-after-suffering-injury-in-giants-loss-liam-coen"}
+      ],
+      "context_notes": [
+        "Week 11 carry-over status: STILL OUT - Anton Harrison (described as out for the season). NOT YET CLEARED - Robert Hainsey (knee sprain, missed Week 11, status TBD). UNKNOWN (no news, presumed still IR) - B.J. Green II, Caleb Ransaw, DaVon Hamilton, Eric Murray, Patrick Mekari, Zach Durfee. None reported activated.",
+        "Offensive line is the main issue: starting tackle Harrison is done for the year, his replacement Little hurt a knee, and C Hainsey missed last week. In Week 11 the line was Wyatt Milum at LT and Cole Van Lanen at RT, and Lawrence was pressured 22 times.",
+        "Jaguars are 7-3, first in the AFC South, and 14.5-point favorites. Local coverage argues they can afford to rest Little, Jones and Tuten with the Bears up in Week 13.",
+        "Jacksonville acquired S Jessie Bates from Atlanta at the trade deadline. This is a rematch of the Week 10 (Nov 15) meeting with Tennessee."
+      ],
+      "sources": [
+        "https://www.jaguars.com/news/game-report-2026-week-11-giants-23-jaguars-18",
+        "https://sports.yahoo.com/articles/jaguars-winners-losers-week-11-150000018.html",
+        "https://clutchpoints.com/nfl/jacksonville-jaguars/jaguars-news-trevor-lawrence-walker-little-giants-injury",
+        "https://sports.yahoo.com/articles/jaguars-walker-little-leaves-game-001520115.html",
+        "https://sports.yahoo.com/articles/jaguars-coen-provides-injury-updates-192247011.html",
+        "https://blackandteal.com/jaguars-drop-enticing-walker-little-update-after-suffering-injury-in-giants-loss-liam-coen",
+        "https://sports.yahoo.com/articles/jaguars-rb-bhayshul-tuten-gets-030131765.html",
+        "https://www.si.com/onsi/fantasy/news/bhayshul-tuten-injury-update-raises-week-12-fantasy-doubt",
+        "https://www.si.com/betting/titans-vs-jaguars-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.espn.com/nfl/team/transactions/_/name/atl/atlanta-falcons"
+      ]
+    }
+  }
+}
