@@ -1,0 +1,1086 @@
+{
+ "collected_on": "2026-11-25",
+ "search_calls_used": 40,
+ "unverified": [
+  "No official Week 12 practice/injury reports were available for any of the eight teams as of Nov 25 (Sunday teams report Wed-Fri, CAR and TB report Thu-Sat). All Questionable/Doubtful tags come from coach comments, aggregator pages (ESPN, CBS, SI, DraftKings) or the Week 11 reports and should be rechecked.",
+  "ARI starting QB for Week 12 is undetermined: Carson Beck (Questionable, back spasms) vs Josh Johnson. No LaFleur statement or practice status dated Nov 23-25 was found.",
+  "LAC starting QB is undetermined: Justin Herbert is in the concussion protocol and no Nov 25 practice status was found. DJ Uiagalelei starts if he is not cleared.",
+  "SEA: Sam Darnold is the planned starter but Macdonald said it was not official pending Wednesday Nov 25 practice, which was not yet reported.",
+  "Backup QBs for WAS, SF, NE, CAR and TB were not named in any source dated Nov 18 or later.",
+  "IR/PUP/NFI carryovers with no dated update found (presumed unchanged, flagged UNVERIFIED carryover in the injury field with source 'unverified'): WAS Jaylin Lane. ARI Chase Bisontis, Jalen Brooks, Kendrick Bourne, Will Johnson, Tip Reiman. SEA Irvin Charles, Mason Richman, Robbie Ouzts. SF Alfred Collins, CJ West, Gracen Halton. NE Bryce Baringer, Eric Butler, Henry Anderson, Isaiah Iton, Khalil Jacobs, Kristian Wilkerson, Quintayvious Hutchins, Reggie Gilliam. LAC Trey Pipkins III, Tyler Biadasz, Isaiah World. CAR Mike Jackson, Cam Jackson, Kemoko Turay.",
+  "ARI Andrew Wingard (S) and Jordan Burch (OLB) were carried as Out last week. No Week 12 information was found, so they are NOT in the injuries list and their status is unknown.",
+  "WAS Jeremy McNichols: one search summary said he came off IR, but he was placed on IR Nov 3 and is still listed on IR in a Nov 25 preview. Treated as still on IR.",
+  "WAS Rachaad White (heel) and Lucas Patrick (concussion) were Questionable in Week 11. Their Week 12 status is unknown.",
+  "TB Antoine Winfield Jr. and Josh Hayes were Out in Week 11. Their 'Questionable' entries are placeholders, not real designations. Josh Hayes appears to be on the active roster rather than IR. MRI results for Jacob Parrish and Benjamin Morrison were not reported.",
+  "NE: whether Drake Maye has formally been placed on IR, whether Brenden Schooler is still on NFI (CBS lists him Questionable), Mike Onwenu's season status (conflicting reports), Harold Landry III's PUP status, and the date Marcus Bryant was activated. The CBS Questionable list (Davis, Spillane, Jones, Ben Brown, Rouse) may be left over from the Week 10 report.",
+  "LAC: the ESPN Questionable list (McConkey, Kolar, Henley, Donte Jackson, Williamson) looks stale from Week 11. The date Trey Lance went on IR was not found. No practice-window news for Slater or Derwin James Jr.",
+  "SEA Quenton Nelson (G, knee, Doubtful) comes only from a CBS aggregator entry dated before the bye. His being on Seattle's roster was not independently confirmed. The first name of QB 'Martinez' signed by Seattle was not in the snippets.",
+  "SF: Colton McKivitz's formal IR placement and the replacement right tackle were not confirmed. Christian Kirk's injury (calf vs knee meniscus) is conflicting. Greenlaw and Kareem tags come from a single betting preview.",
+  "Injury types for WAS Dyami Brown and ARI Jeremiyah Love were not found. Several 'starter' flags (Amik Robertson, Okonkwo, Gaines, Simon, Hobbs, Greenlaw) are best guesses.",
+  "WAS: outcome of the reported Brandon Aiyuk free-agent visit is unknown."
+ ],
+ "teams": {
+  "WAS": {
+   "week11_result": "Won 22-20 vs Cincinnati on Monday Night Football (Nov 23, 2026, home). Drew Stevens made a 26-yard field goal on the final play after Evan McPherson's 56-yarder had put CIN up 20-19 in the last minute; second straight game-winning drive for Jayden Daniels. Game played in rain and wind. RB Jacory Croskey-Merritt was activated from IR that day and played.",
+   "qb": {
+    "starter": "Jayden Daniels",
+    "backup": "unverified (no Nov 2026 source found naming the No. 2 QB)",
+    "changed_from_week11": false,
+    "notes": "Schedule file is correct. Daniels started and finished the Nov 23 win over CIN. He was listed on the Week 11 report with a left (non-throwing) elbow injury but practiced in full (he dislocated that elbow in Week 2 vs DAL and later returned). After the game Dan Quinn said his non-throwing hand is 'a little bit swollen' but the team is not concerned and it did not limit him. No Week 12 practice report was available as of Nov 25 (short week after MNF)."
+   },
+   "injuries": [
+    {
+     "player": "Jayden Daniels",
+     "position": "QB",
+     "status": "Probable",
+     "injury": "Left (non-throwing) hand swelling after Nov 23 game and left elbow listed on Week 11 report with full practice. Quinn (Nov 24) not concerned. No Week 12 designation yet",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/jayden-daniels-injury-latest-commanders-110304107.html"
+    },
+    {
+     "player": "Terry McLaurin",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Torn patellar tendon in left knee, had surgery, out for the season (still out)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Laremy Tunsil",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Torn triceps. Washington Post report says chances of returning this season are 'very slim'. No return date per Quinn (still out)",
+     "starter": true,
+     "source": "https://www.si.com/nfl/commanders/onsi/commanders-injury-updates-bengals"
+    },
+    {
+     "player": "Daron Payne",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Foot fracture, season-ending surgery. Placed on IR Nov 3 (still out)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/news/commanders-daron-payne-suffers-season-ending-foot-fracture/"
+    },
+    {
+     "player": "Javon Kinlaw",
+     "position": "DT",
+     "status": "IR",
+     "injury": "MCL, season-ending surgery. Placed on IR Nov 3 (still out)",
+     "starter": true,
+     "source": "https://www.washingtontimes.com/news/2026/nov/3/commanders-send-kinlaw-payne-mcnichols-injured-reserve/"
+    },
+    {
+     "player": "Leo Chenal",
+     "position": "LB",
+     "status": "IR",
+     "injury": "Neck. ESPN lists him on IR since late September (we carried him as Out). Back at the facility but Quinn says too early to know his future and no return date (still out)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders"
+    },
+    {
+     "player": "Dyami Brown",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Still listed on IR in Week 12 preview dated Nov 25. Injury type not found",
+     "starter": false,
+     "source": "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Jeremy McNichols",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Placed on IR Nov 3 and still listed on IR in the Nov 25 SI preview. One search summary claimed he was brought off IR and signed to the active roster but that is unconfirmed and he would not have been eligible yet. Treat as still out",
+     "starter": false,
+     "source": "https://www.washingtontimes.com/news/2026/nov/3/commanders-send-kinlaw-payne-mcnichols-injured-reserve/"
+    },
+    {
+     "player": "Jaylin Lane",
+     "position": "WR",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Jacory Croskey-Merritt",
+     "position": "RB",
+     "status": "Probable",
+     "injury": "ACTIVATED from IR on Nov 23 (groin, missed four games) and played vs CIN that night. Listed Questionable (groin) on the Week 11 report. Remove from absent list",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-jacory-croskey-merritt"
+    },
+    {
+     "player": "Amik Robertson",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Ankle. Questionable on the Week 11 report and still listed Questionable in the Nov 25 Week 12 preview. Starter status not confirmed",
+     "starter": false,
+     "source": "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Chig Okonkwo",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "Back, per ESPN game page listing for the Nov 29 game. No practice report yet. Starter status not confirmed",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873092/commanders-cardinals"
+    }
+   ],
+   "context_notes": [
+    "Short week plus cross-country travel: played Monday night Nov 23 at home, then at Arizona on Sunday Nov 29 (6 days rest). No Week 12 practice report was published as of Nov 25.",
+    "Washington opened as a 7.5-point road favorite. Arizona's QB is undetermined (Carson Beck back spasms or 40-year-old Josh Johnson).",
+    "Interior defensive line is thin: both Daron Payne and Javon Kinlaw are on IR with season-ending surgeries. LT Laremy Tunsil and WR1 Terry McLaurin are also done or nearly done for the year.",
+    "CB Isaac Yiadom was released Nov 23 as the corresponding move for Croskey-Merritt's activation. A Yahoo Week 11 live blog headline said free agent WR Brandon Aiyuk was to visit the Commanders on a Wednesday (outcome not verified).",
+    "Carryover check: STILL OUT (IR) McLaurin, Tunsil, Payne, Kinlaw, Chenal, Dyami Brown, McNichols. ACTIVATED Croskey-Merritt. UNKNOWN Jaylin Lane. Week 11 questionables Rachaad White (heel) and Lucas Patrick (concussion) have no Week 12 status yet."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/winners-losers-commanders-stun-bengals-234311037.html",
+    "https://www.washingtonsun.com/sports/commanders/commanders-bengals-monday-night-football",
+    "https://sports.yahoo.com/articles/jayden-daniels-injury-latest-commanders-110304107.html",
+    "https://www.espn.com/nfl/team/injuries/_/name/wsh/washington-commanders",
+    "https://www.si.com/nfl/commanders/onsi/commanders-injury-updates-bengals",
+    "https://www.cbssports.com/nfl/news/commanders-daron-payne-suffers-season-ending-foot-fracture/",
+    "https://www.washingtontimes.com/news/2026/nov/3/commanders-send-kinlaw-payne-mcnichols-injured-reserve/",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-activate-jacory-croskey-merritt",
+    "https://www.sportsbettingdime.com/news/nfl/final-bengals-vs-commanders-injury-reports-updates-on-rachaad-white-dax-hill-andrei-iosivas-jacory-croskey-merritt/",
+    "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+    "https://www.espn.com/nfl/game/_/gameId/401873092/commanders-cardinals",
+    "https://sports.yahoo.com/articles/commanders-vs-cardinals-odds-opening-110000309.html",
+    "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+   ]
+  },
+  "ARI": {
+   "week11_result": "Lost 34-7 at Kansas City (Nov 22, 2026). Josh Johnson (age 40) started as Arizona's fourth different starting QB in four weeks: 18/31, 155 yards, 1 TD, 0 INT, sacked 3 times. Mahomes threw for 324 yards and 3 TD. LB Cody Simon left in the second half (calf). Cardinals fell to 3-8.",
+   "qb": {
+    "starter": "UNDETERMINED as of Nov 25: Carson Beck if cleared (Questionable, back spasms), otherwise Josh Johnson",
+    "backup": "Josh Johnson if Beck starts, Joey Aguilar (rookie) if Johnson starts",
+    "changed_from_week11": true,
+    "notes": "Schedule file is WRONG: Gardner Minshew was placed on IR Nov 10 with a UCL tear in his elbow and is out for the season. Sequence: Jacoby Brissett (Week 1 starter) was traded to Baltimore at the deadline, Minshew was named starter in Week 9 and got hurt, rookie Carson Beck made his first start in Week 10 vs the Rams, then Beck's back spasms recurred in Thursday practice Nov 19 and he was ruled out Nov 21, so Josh Johnson started Week 11 at KC. Mike LaFleur said he did not think Beck would be out multiple weeks. Beck is listed Questionable in Nov 25 previews but no Week 12 practice report or coach statement was found, and one recap said Johnson may be asked to start again vs Washington. changed_from_week11 is true only if Beck returns. If Johnson starts it is false. WR Devin Duvernay was the emergency third QB in Week 11."
+   },
+   "injuries": [
+    {
+     "player": "Carson Beck",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Back spasms. Flared up Nov 19, DNP Nov 20, ruled out Nov 21 and inactive Nov 22. Listed Questionable for Week 12 in Nov 25 preview. No Week 12 practice participation found",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50553035/cardinals-downgrade-qb-carson-beck-josh-johnson-set-start"
+    },
+    {
+     "player": "Gardner Minshew",
+     "position": "QB",
+     "status": "IR",
+     "injury": "UCL tear in elbow. Placed on IR Nov 10, out for the season",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-qb-gardner-minshew-and-wr-michael-wilson-on-ir"
+    },
+    {
+     "player": "Michael Wilson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Neck injury, placed on IR Nov 10, season-ending (still out)",
+     "starter": true,
+     "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-qb-gardner-minshew-and-wr-michael-wilson-on-ir"
+    },
+    {
+     "player": "Paris Johnson Jr.",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Biceps. Placed on IR Oct 6 and listed as out for the season by IR tracker (still out)",
+     "starter": true,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "James Conner",
+     "position": "RB",
+     "status": "IR",
+     "injury": "On IR. ESPN estimates return Dec 20 and CBS lists Week 15. Coach called it 'not a good injury' (still out)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/ari/arizona-cardinals"
+    },
+    {
+     "player": "Jeremiyah Love",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Still listed on IR in Nov 25 Week 12 preview. Injury type not found (still out)",
+     "starter": true,
+     "source": "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Zachary Carter",
+     "position": "DT",
+     "status": "IR",
+     "injury": "Knee. Listed IR designated-to-return in Nov 25 preview and was ruled out for Week 11. Not yet activated",
+     "starter": false,
+     "source": "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Jon Gaines II",
+     "position": "G",
+     "status": "Questionable",
+     "injury": "Ankle. Out in Week 11 and listed Questionable in Nov 25 preview. Starter status not confirmed",
+     "starter": true,
+     "source": "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Cody Simon",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Calf. Left the Nov 22 game at KC in the second half and listed Questionable in Nov 25 preview. Starter status not confirmed",
+     "starter": true,
+     "source": "https://www.abc15.com/sports/chiefs-rout-injury-plagued-cardinals-34-7"
+    },
+    {
+     "player": "Will Johnson",
+     "position": "CB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged (an undated CBS note mentions a groin injury)",
+     "starter": true,
+     "source": "unverified"
+    },
+    {
+     "player": "Chase Bisontis",
+     "position": "G",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Jalen Brooks",
+     "position": "WR",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Kendrick Bourne",
+     "position": "WR",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Tip Reiman",
+     "position": "TE",
+     "status": "PUP",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    }
+   ],
+   "context_notes": [
+    "QB carousel: Brissett (traded to BAL), Minshew (IR, season over), Beck (rookie, back spasms), Johnson (age 40). Four starters in four weeks. Mike LaFleur is the head coach.",
+    "Roster is heavily depleted on offense: LT Paris Johnson Jr., RBs James Conner and Jeremiyah Love, and WR Michael Wilson are all on IR. Local coverage called the team 'injury-plagued' and 'battered', and an Athlon stock report said the offensive line 'sinks' at KC.",
+    "Arizona is 3-8 and reports describe the season as lost. Washington opened as a 7.5-point road favorite.",
+    "Carryover check: STILL OUT (IR) Conner, Love, Michael Wilson, Paris Johnson Jr., Zachary Carter (designated to return, not activated). UNKNOWN (presumed still IR/PUP) Bisontis, Jalen Brooks, Bourne, Will Johnson, Reiman. UNKNOWN with no Week 12 info at all: Andrew Wingard (S, Out last week) and Jordan Burch (OLB, Out last week), who are not listed in injuries because nothing dated was found."
+   ],
+   "sources": [
+    "https://www.azcardinals.com/news/as-josh-johnson-takes-turn-in-quarterback-shuffle-cardinals-fall-to-chiefs",
+    "https://www.abc15.com/sports/chiefs-rout-injury-plagued-cardinals-34-7",
+    "https://sports.yahoo.com/articles/cardinals-fall-34-7-chiefs-233015448.html",
+    "https://www.espn.com/nfl/story/_/id/50553035/cardinals-downgrade-qb-carson-beck-josh-johnson-set-start",
+    "https://www.nfl.com/news/cardinals-preparing-to-start-josh-johnson-chiefs-carson-beck",
+    "https://www.azcardinals.com/news/carson-beck-back-expected-to-sideline-him-for-chiefs-game-josh-johnson",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-qb-gardner-minshew-and-wr-michael-wilson-on-ir",
+    "https://sports.yahoo.com/nfl/breaking-news/article/cardinals-to-start-rookie-qb-carson-beck-vs-rams-following-gardner-minshew-injury-jacoby-brissett-trade-203135681.html",
+    "https://www.espn.com/nfl/team/injuries/_/name/ari/arizona-cardinals",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/",
+    "https://athlonsports.com/nfl/cardinals-week-11-stock-report-josh-johnson-chiefs",
+    "https://www.si.com/betting/commanders-vs-cardinals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+    "https://sports.yahoo.com/articles/commanders-vs-cardinals-odds-opening-110000309.html",
+    "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+   ]
+  },
+  "SEA": {
+   "week11_result": "BYE in Week 11. Last game was Week 10 (Nov 15, 2026): won 21-13 at Las Vegas with Drew Lock starting (14/17, 240 yards, 2 TD, 0 INT, 2 lost fumbles). Lock is 3-0 as a starter this season.",
+   "qb": {
+    "starter": "Sam Darnold (expected, not official as of Nov 25)",
+    "backup": "Drew Lock",
+    "changed_from_week11": true,
+    "notes": "Schedule file (Darnold) matches the team's stated plan but is not yet official. Darnold missed the last two games (Weeks 9 and 10) with a quad injury and a cracked rib suffered in the Week 8 loss to Chicago, his second injury absence of 2026. He returned to practice Monday Nov 23 in a bonus practice (no injury report issued). Mike Macdonald: 'The plan is for Sam to start. Nothing official yet, we'll see how Wednesday goes.' Macdonald has said Darnold remains the starter when healthy. changed_from_week11 is true relative to Seattle's last game (Lock started Week 10; Week 11 was the bye). If Darnold has a setback, Lock starts. Seattle also signed a QB named Martinez (described as a former UFL MVP) as insurance. Wednesday Nov 25 practice report was not yet available."
+   },
+   "injuries": [
+    {
+     "player": "Sam Darnold",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Quad and cracked rib (Week 8 vs CHI). Missed two games, returned to practice Nov 23. Planned starter pending Nov 25 practice",
+     "starter": true,
+     "source": "https://www.spokesman.com/stories/2026/nov/23/seahawks-qb-sam-darnold-returns-to-practice-as-tea/"
+    },
+    {
+     "player": "Charles Cross",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "High ankle sprain suffered Oct 25. Practiced Nov 23 for the first time since the injury. Status not official",
+     "starter": true,
+     "source": "https://www.world-today-news.com/seahawks-sam-darnold-returns-to-practice-on-track-to-start-vs-49ers-leonard-williams-charles-cross-also-back/"
+    },
+    {
+     "player": "Leonard Williams",
+     "position": "DT",
+     "status": "Questionable",
+     "injury": "Shoulder stinger. Back on the field Nov 23. Status not official",
+     "starter": true,
+     "source": "https://www.world-today-news.com/seahawks-sam-darnold-returns-to-practice-on-track-to-start-vs-49ers-leonard-williams-charles-cross-also-back/"
+    },
+    {
+     "player": "Quenton Nelson",
+     "position": "G",
+     "status": "Doubtful",
+     "injury": "Knee. CBS injury page lists him Doubtful for Week 12 at SF (entry dated about Nov 16, before the bye). Not corroborated by a practice report, treat with caution",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+    },
+    {
+     "player": "George Holani",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Knee (MCL sprain). Placed on IR Nov 23 - NEW since Nov 18",
+     "starter": false,
+     "source": "https://www.cbssports.com/fantasy/football/news/seahawks-george-holani-moved-to-injured-reserve/"
+    },
+    {
+     "player": "Elijah Arroyo",
+     "position": "TE",
+     "status": "IR",
+     "injury": "Shoulder. Reported season-ending per Adam Schefter via DraftKings Nov 24 report (still out)",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+    },
+    {
+     "player": "Julian Neal",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Hamstring. Placed on IR Oct 10. CBS and ESPN estimate return around Week 12 (Nov 29) but no designation to return found (still out)",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/"
+    },
+    {
+     "player": "Jake Bobo",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee, on IR since August. No designation to return found (still out)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "player": "Bud Clark",
+     "position": "S",
+     "status": "IR",
+     "injury": "Ankle, on IR since August. No designation to return found (still out)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "player": "Irvin Charles",
+     "position": "WR",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Mason Richman",
+     "position": "OL",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Robbie Ouzts",
+     "position": "FB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    }
+   ],
+   "context_notes": [
+    "Seattle comes off its bye with 14 days rest. San Francisco played Sunday night Nov 22 in Mexico City and is 9-1, leading the NFC West.",
+    "QB decision is the main variable: Darnold is planned to start but Lock went 3-0 and played well, and the team says it will confirm after Wednesday practice.",
+    "Offensive line health: LT Charles Cross (high ankle) and G Quenton Nelson (knee, listed Doubtful by CBS) are both uncertain. DT Leonard Williams (stinger) returned to practice.",
+    "RB depth: George Holani went on IR Nov 23. Jadarian Price was activated from IR on Nov 2 (before the Nov 18 cutoff).",
+    "Carryover check: STILL OUT (IR) Arroyo (season-ending), Neal, Bobo, Clark. UNKNOWN (presumed still IR) Irvin Charles, Mason Richman, Robbie Ouzts. None activated."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/seahawks-really-optimistic-sam-darnold-185244036.html",
+    "https://www.spokesman.com/stories/2026/nov/23/seahawks-qb-sam-darnold-returns-to-practice-as-tea/",
+    "https://clutchpoints.com/nfl/seattle-seahawks/seahawks-news-mike-macdonald-reveals-plan-start-sam-darnold-in-week-12-49ers",
+    "https://yardbarker.com/nfl/articles/seattle_seahawks_acquire_new_qb_before_49ers_game/s1_17355_44614117",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/drew-lock-tosses-two-tds-in-week-10-win",
+    "https://www.cbssports.com/fantasy/football/news/seahawks-drew-lock-tosses-two-tds-in-week-10/",
+    "https://www.world-today-news.com/seahawks-sam-darnold-returns-to-practice-on-track-to-start-vs-49ers-leonard-williams-charles-cross-also-back/",
+    "https://www.cbssports.com/nfl/teams/sea/seattle-seahawks/injuries/",
+    "https://www.cbssports.com/fantasy/football/news/seahawks-george-holani-moved-to-injured-reserve/",
+    "https://www.si.com/betting/seahawks-vs-49ers-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+    "https://www.espn.com/nfl/game/_/gameId/401873091/seahawks-49ers",
+    "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+    "https://sports.yahoo.com/articles/nfl-week-12-injury-report-202315144.html",
+    "https://www.espn.com/nfl/injuries"
+   ]
+  },
+  "SF": {
+   "week11_result": "Won 35-10 vs Minnesota in Mexico City (Sunday night Nov 22, 2026). Blowout with Brock Purdy starring. 49ers are 9-1. RT Colton McKivitz suffered a fractured and dislocated left ankle and is out for the season.",
+   "qb": {
+    "starter": "Brock Purdy",
+    "backup": "unverified (no Nov 2026 source found naming the No. 2 QB)",
+    "changed_from_week11": false,
+    "notes": "Schedule file is correct. Purdy started and played very well in the Nov 22 win over Minnesota (recaps describe an MVP case). No Purdy injury or practice limitation was found in sources dated Nov 18 or later."
+   },
+   "injuries": [
+    {
+     "player": "Colton McKivitz",
+     "position": "OT",
+     "status": "Out",
+     "injury": "Fractured and dislocated left ankle in Nov 22 game vs MIN - NEW. Reported season-ending by Schefter and Shanahan compared it to Fred Warner's 2025 injury. IR move expected but not confirmed in sources",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg"
+    },
+    {
+     "player": "Deommodore Lenoir",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Foot. Shanahan said Nov 23 he is still dealing with it. Listed Questionable by ESPN and SI",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873091/seahawks-49ers"
+    },
+    {
+     "player": "Dre Greenlaw",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Neck, per Nov 25 SI preview listing. No practice report yet. Starter status not confirmed",
+     "starter": true,
+     "source": "https://www.si.com/betting/seahawks-vs-49ers-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Khalid Kareem",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "Ankle, per Nov 25 SI preview listing. No practice report yet",
+     "starter": false,
+     "source": "https://www.si.com/betting/seahawks-vs-49ers-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+    },
+    {
+     "player": "Nate Hobbs",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Groin or adductor. On IR designated-to-return (Yahoo entry dated Nov 21). Practice window open, not yet activated. ESPN estimates Nov 29. Starter status not confirmed",
+     "starter": true,
+     "source": "https://sports.yahoo.com/nfl/teams/san-francisco/injuries/"
+    },
+    {
+     "player": "Ricky Pearsall",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Right knee PCL, underwent season-ending surgery (still out)",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/49ers-wide-receiver-ricky-pearsall-184735565.html"
+    },
+    {
+     "player": "Christian Kirk",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Still on IR. Yahoo table dated Nov 23 lists knee meniscus while an earlier report cited a calf and Shanahan hoping he could return to practice soon. Conflicting details, not activated",
+     "starter": false,
+     "source": "https://sports.yahoo.com/nfl/teams/san-francisco/injuries/"
+    },
+    {
+     "player": "De'Zhaun Stribling",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Ankle, out since Week 1. No return date found (still out)",
+     "starter": false,
+     "source": "https://nbcbayarea.com/news/sports/nfl/san-francisco-49ers/live-updates-score-highlights-minnesota-vikings-2/4177664"
+    },
+    {
+     "player": "Alfred Collins",
+     "position": "DT",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "CJ West",
+     "position": "DT",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Gracen Halton",
+     "position": "DT",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    }
+   ],
+   "context_notes": [
+    "Right tackle must be replaced: Colton McKivitz is out for the season. The replacement was not named in any source found.",
+    "Travel and rest: 49ers return from an international Sunday night game in Mexico City (Nov 22) to host Seattle, which is coming off a bye with 14 days rest.",
+    "49ers are 9-1 and control the NFC West. Previews describe them as the class of the NFC. Mike Evans is on the roster and active.",
+    "Receiver depth is thin with Pearsall (season-ending), Kirk and Stribling all on IR.",
+    "Carryover check: STILL OUT (IR) Pearsall, Kirk, Stribling, Hobbs (designated to return, could be activated this week). UNKNOWN (presumed still IR) Alfred Collins, CJ West, Gracen Halton. None confirmed activated."
+   ],
+   "sources": [
+    "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/brock-purdy-grades-minnesota-vikings/1982483/",
+    "https://www.nfl.com/news/nfl-week-11-sunday-aftermath-brock-purdy-giants-chiefs-bills",
+    "https://www.espn.com/nfl/story/_/id/50568995/49ers-colton-mckivitz-exits-game-vs-vikings-injuring-lower-leg",
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-lose-right-tackle-colton-mckivitz-for-season-with-fractured-dislocated-ankle",
+    "https://sports.yahoo.com/nfl/teams/san-francisco/injuries/",
+    "https://sports.yahoo.com/articles/49ers-wide-receiver-ricky-pearsall-184735565.html",
+    "https://sports.yahoo.com/articles/49ers-good-news-christian-kirk-155014807.html",
+    "https://nbcbayarea.com/news/sports/nfl/san-francisco-49ers/live-updates-score-highlights-minnesota-vikings-2/4177664",
+    "https://www.si.com/betting/seahawks-vs-49ers-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+    "https://www.espn.com/nfl/game/_/gameId/401873091/seahawks-49ers",
+    "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+   ]
+  },
+  "NE": {
+   "week11_result": "BYE in Week 11. Last game was Week 10 (Nov 15, 2026): lost 35-10 to Detroit in Munich, Germany. Drake Maye fractured his right fibula on the opening drive. Patriots are 5-5.",
+   "qb": {
+    "starter": "Tommy DeVito",
+    "backup": "unverified (no Nov 2026 source found naming the No. 2 QB behind DeVito)",
+    "changed_from_week11": true,
+    "notes": "Schedule file is WRONG: Drake Maye fractured his right fibula in the Week 10 loss to Detroit (no surgery needed) and is expected to miss most or all of the rest of the season (CBS lists expected return Week 16; NFL.com says expected to miss the remainder). Mike Vrabel confirmed on Monday Nov 23 that Tommy DeVito will start at the Chargers. DeVito's first start of 2026 for New England."
+   },
+   "injuries": [
+    {
+     "player": "Drake Maye",
+     "position": "QB",
+     "status": "Out",
+     "injury": "Fractured right fibula (Nov 15 vs DET in Munich), no surgery. Expected to miss the rest of the season or return no earlier than about Week 16. IR placement not confirmed in sources",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50542578/patriots-qb-drake-maye-fractured-fibula-sources-say"
+    },
+    {
+     "player": "A.J. Brown",
+     "position": "WR",
+     "status": "Doubtful",
+     "injury": "Hamstring. Vrabel on WEEI: 'I wouldn't anticipate him playing this week.' Listed Doubtful by CBS",
+     "starter": true,
+     "source": "https://www.patspulpit.com/new-england-patriots-injuries/144976/aj-brown-injury-update-mike-vrabel-confirms-status-nfl-week-12-chargers"
+    },
+    {
+     "player": "Romeo Doubs",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Shoulder, on IR. Absent from practice Tuesday Nov 24. Vrabel said 'maybe later in the week, but it's too soon to tell'. Not designated to return as of Nov 25",
+     "starter": true,
+     "source": "https://heavy.com/sports/nfl/new-england-patriots/patriots-romeo-doubs-practice-injury-update-chargers/"
+    },
+    {
+     "player": "Alijah Vera-Tucker",
+     "position": "G",
+     "status": "IR",
+     "injury": "Hamstring, placed on IR Oct 22. Designated to return and back at practice Nov 23. Could be activated this week but not yet activated",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/mike-vrabel-gives-updates-two-205250598.html"
+    },
+    {
+     "player": "Mike Onwenu",
+     "position": "G",
+     "status": "IR",
+     "injury": "Broken right ankle (Week 2 vs PIT). Sources conflict: one says season over, ESPN lists est. return Nov 29. Not in Boston.com's activation list, so treat as still out",
+     "starter": true,
+     "source": "https://www.bostonglobe.com/2026/11/20/sports/patriots-injury-history-2026-season/"
+    },
+    {
+     "player": "Harold Landry III",
+     "position": "LB",
+     "status": "PUP",
+     "injury": "On PUP. CBS listing dated Nov 15 estimated return Week 12 but no activation found (still out)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Marcus Bryant",
+     "position": "OT",
+     "status": "Probable",
+     "injury": "ACTIVATED from IR earlier this season per Boston.com Nov 23 (listed among linemen already activated). Remove from absent list. Activation date not found",
+     "starter": false,
+     "source": "https://www.boston.com/sports/new-england-patriots/2026/11/23/new-england-patriots-offensive-line-injury-update-ir-romeo-doubs-alijah-vera-tucker/"
+    },
+    {
+     "player": "Brenden Schooler",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "CBS injury page lists him Questionable (which implies he is off NFI) but the date of the listing is unclear. We carried him as NFI. Conflicting",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Carlton Davis III",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Knee. CBS lists Questionable and another preview lists him Out. Listing may predate the bye",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Robert Spillane",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "CBS injury page listing, possibly carried over from the Week 10 report. No Week 12 practice report yet",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Dre'Mont Jones",
+     "position": "DE",
+     "status": "Questionable",
+     "injury": "CBS injury page listing, possibly carried over from the Week 10 report. No Week 12 practice report yet",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Ben Brown",
+     "position": "OL",
+     "status": "Questionable",
+     "injury": "CBS injury page listing, possibly carried over from the Week 10 report. No Week 12 practice report yet",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Walter Rouse",
+     "position": "OT",
+     "status": "Questionable",
+     "injury": "CBS injury page listing, possibly carried over from the Week 10 report. No Week 12 practice report yet",
+     "starter": false,
+     "source": "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/"
+    },
+    {
+     "player": "Bryce Baringer",
+     "position": "P",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": true,
+     "source": "unverified"
+    },
+    {
+     "player": "Eric Butler",
+     "position": "S",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Henry Anderson",
+     "position": "DE",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Isaiah Iton",
+     "position": "DL",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Khalil Jacobs",
+     "position": "LB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Kristian Wilkerson",
+     "position": "WR",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Quintayvious Hutchins",
+     "position": "LB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Reggie Gilliam",
+     "position": "FB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    }
+   ],
+   "context_notes": [
+    "QB change: Tommy DeVito starts for Drake Maye (fractured fibula). Top WR A.J. Brown (hamstring) is not expected to play and Romeo Doubs is still on IR, so the passing game is severely limited.",
+    "Possible backup-vs-backup QB game: Justin Herbert is in the concussion protocol for the Chargers, with DJ Uiagalelei next up.",
+    "New England comes off its bye (14 days rest) after the Germany trip and travels cross-country to play the 1-9 Chargers.",
+    "Offensive line may get help: Alijah Vera-Tucker was designated to return Nov 23 and could be activated. Mike Onwenu remains out.",
+    "Carryover check: STILL OUT Vera-Tucker (IR, designated to return), Doubs (IR), Onwenu (IR), Landry (PUP). RETURNED Marcus Bryant (activated earlier). CONFLICT Schooler (carried NFI, CBS lists Questionable). UNKNOWN (presumed still IR) Baringer, Butler, Anderson, Iton, Jacobs, Wilkerson, Hutchins, Gilliam. Boston Globe (Nov 20) detailed how heavy the Patriots' injury toll has been."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/story/_/id/50542578/patriots-qb-drake-maye-fractured-fibula-sources-say",
+    "https://www.nbcsportsboston.com/nfl/new-england-patriots/drake-maye-injury-patriots-lions-surgery-return/815003/",
+    "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-nov-23",
+    "https://www.cbssports.com/nfl/teams/ne/new-england-patriots/injuries/",
+    "https://www.boston.com/sports/new-england-patriots/2026/11/23/new-england-patriots-offensive-line-injury-update-ir-romeo-doubs-alijah-vera-tucker/",
+    "https://heavy.com/sports/nfl/new-england-patriots/patriots-romeo-doubs-practice-injury-update-chargers/",
+    "https://www.rotowire.com/football/headlines/romeo-doubs-injury-could-practice-later-this-week-649347",
+    "https://sports.yahoo.com/articles/mike-vrabel-gives-updates-two-205250598.html",
+    "https://www.patspulpit.com/new-england-patriots-injuries/144976/aj-brown-injury-update-mike-vrabel-confirms-status-nfl-week-12-chargers",
+    "https://www.bostonglobe.com/2026/11/20/sports/patriots-injury-history-2026-season/",
+    "https://www.espn.com/nfl/team/injuries/_/name/ne/new-england-patriots",
+    "https://sports.yahoo.com/articles/nfl-week-12-injury-report-202315144.html",
+    "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+   ]
+  },
+  "LAC": {
+   "week11_result": "Lost 27-24 to the New York Jets at SoFi Stadium (Nov 22, 2026). Chargers fell to 1-9 and remain winless at home. Justin Herbert (15/21, 131 yards, 2 TD) was sacked 6 times and hit 8 times, played every snap, then reported symptoms and entered the concussion protocol after the game.",
+   "qb": {
+    "starter": "UNDETERMINED as of Nov 25: Justin Herbert if he clears the concussion protocol, otherwise DJ Uiagalelei",
+    "backup": "DJ Uiagalelei (Jake Browning would be elevated from the practice squad as the No. 2 if Herbert is out)",
+    "changed_from_week11": false,
+    "notes": "Schedule file lists Herbert, which is at risk. Herbert entered the concussion protocol after the Nov 22 loss (Jim Harbaugh: he reported symptoms to trainers and doctors) and must pass the five-step protocol with independent neurologist clearance. No Wednesday Nov 25 practice status was found. Harbaugh: 'Uiagalelei would be the next man up, and then we would bring Jake Browning up as well.' Uiagalelei has 7 career regular-season pass attempts (2/7, 24 yards, 1 TD in one mop-up appearance). Trey Lance is on IR (groin). Some outlets speculate the 1-9 Chargers could shut Herbert down. changed_from_week11 becomes true if Uiagalelei starts."
+   },
+   "injuries": [
+    {
+     "player": "Justin Herbert",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Concussion protocol entered after Nov 22 game vs NYJ - NEW. Week 12 status up in the air. No practice report yet",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/story/_/id/50567478/chargers-justin-herbert-lands-concussion-protocol"
+    },
+    {
+     "player": "Trey Lance",
+     "position": "QB",
+     "status": "IR",
+     "injury": "Groin. Placed on IR (Uiagalelei promoted from practice squad in the corresponding move). Date of placement not found",
+     "starter": false,
+     "source": "https://www.chargers.com/news/justin-herbert-injury-update-nfl-protocol-week-12"
+    },
+    {
+     "player": "Derwin James Jr.",
+     "position": "S",
+     "status": "IR",
+     "injury": "Hamstring setback, placed on IR Oct 31. Earliest eligible return is Nov 29 vs NE but no designation to return found (still out)",
+     "starter": true,
+     "source": "https://www.aol.com/articles/chargers-place-derwin-james-injured-205428000.html"
+    },
+    {
+     "player": "Rashawn Slater",
+     "position": "OT",
+     "status": "IR",
+     "injury": "High ankle sprain (Week 4) with surgery, placed on IR Oct 9. ESPN estimates Nov 29 but no practice-window news found (still out)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "player": "Trevor Penning",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Concussion per IR tracker. No activation found (still out)",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Branson Taylor",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Ankle per IR tracker, estimated return about Week 14 (still out)",
+     "starter": false,
+     "source": "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+    },
+    {
+     "player": "Trey Pipkins III",
+     "position": "OT",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": true,
+     "source": "unverified"
+    },
+    {
+     "player": "Tyler Biadasz",
+     "position": "C",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": true,
+     "source": "unverified"
+    },
+    {
+     "player": "Isaiah World",
+     "position": "OT",
+     "status": "NFI",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Ladd McConkey",
+     "position": "WR",
+     "status": "Questionable",
+     "injury": "ESPN game-page listing that appears to be carried over from the Week 11 report (est. return shown as Nov 22). Week 12 status not yet reported, treat as stale",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+    },
+    {
+     "player": "Charlie Kolar",
+     "position": "TE",
+     "status": "Questionable",
+     "injury": "ESPN game-page listing that appears to be carried over from the Week 11 report. Week 12 status not yet reported, treat as stale",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+    },
+    {
+     "player": "Daiyan Henley",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "ESPN game-page listing that appears to be carried over from the Week 11 report. Week 12 status not yet reported, treat as stale",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+    },
+    {
+     "player": "Donte Jackson",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "ESPN game-page listing that appears to be carried over from the Week 11 report. Week 12 status not yet reported, treat as stale",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+    },
+    {
+     "player": "Kendall Williamson",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "ESPN game-page listing that appears to be carried over from the Week 11 report. Week 12 status not yet reported, treat as stale",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers"
+    }
+   ],
+   "context_notes": [
+    "Herbert's concussion-protocol status is the key variable. If he is out, DJ Uiagalelei would make his first NFL start against a Patriots team starting Tommy DeVito.",
+    "Offensive line is decimated (Slater, Pipkins, Biadasz, Penning and Branson Taylor all carried on IR) and allowed 6 sacks and 8 QB hits vs the Jets.",
+    "Chargers are 1-9 and winless at home. Fan and media talk has turned to shutting Herbert down and draft position, so motivation is questionable.",
+    "Carryover check: STILL OUT (IR) Derwin James Jr. (eligible to return Nov 29, not designated), Slater, Penning, Branson Taylor. UNKNOWN (presumed unchanged) Pipkins, Biadasz, Isaiah World (NFI). None confirmed activated. NEW: Trey Lance on IR."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/chargers-lose-justin-herbert-concussion-004811188.html",
+    "https://www.espn.com/nfl/story/_/id/50567478/chargers-justin-herbert-lands-concussion-protocol",
+    "https://www.chargers.com/news/justin-herbert-injury-update-nfl-protocol-week-12",
+    "https://www.si.com/nfl/chargers/onsi/justin-herbert-injury-updates-latest-chargers-week-12-patriots",
+    "https://985thesportshub.com/2026/11/23/it-could-be-a-battle-of-backups-between-patriots-and-chargers-justin-herbert-dj-uiagalelei/",
+    "https://sports.yahoo.com/articles/chargers-vs-jets-good-bad-212105212.html",
+    "https://www.aol.com/articles/chargers-place-derwin-james-injured-205428000.html",
+    "https://www.espn.com/nfl/game/_/gameId/401873093/patriots-chargers",
+    "https://www.espn.com/nfl/injuries",
+    "https://www.sharpfootballanalysis.com/analysis/nfl-injury-report-ir-tracker/"
+   ]
+  },
+  "CAR": {
+   "week11_result": "Won 35-33 vs Baltimore (Nov 22, 2026). Bryce Young led a game-winning drive (22/30, 254 yards, 2 TD, 1 INT), with TD passes to Tetairoa McMillan and Mitchell Evans. WR Jalen Coker was evaluated for a concussion and has since been cleared. Rookie CB Will Lee III had a big game. Panthers are 5-5 and lead the NFC South.",
+   "qb": {
+    "starter": "Bryce Young",
+    "backup": "unverified (no Nov 2026 source found naming the No. 2 QB)",
+    "changed_from_week11": false,
+    "notes": "Schedule file is correct. Young had a foot issue early in Week 11 prep but practiced in full Friday Nov 20, carried no designation, and played the full game vs Baltimore. First Week 12 practice report is due Thursday Nov 26 (Monday night game)."
+   },
+   "injuries": [
+    {
+     "player": "Jaycee Horn",
+     "position": "CB",
+     "status": "IR",
+     "injury": "Quad. Practice window has NOT been opened (Panthers.com Nov 23). Team is eyeing a return Dec 6 at MIN or Dec 13 vs NO. Out for Week 12",
+     "starter": true,
+     "source": "https://www.panthers.com/news/monday-brew-still-finding-things-to-work-on-after-a-win-jalen-coker-jaycee-horn-brady-christensen"
+    },
+    {
+     "player": "Ikem Ekwonu",
+     "position": "OT",
+     "status": "PUP",
+     "injury": "Knee. Dave Canales said he is still a considerable time away (still out)",
+     "starter": true,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/car/carolina-panthers"
+    },
+    {
+     "player": "Taylor Moton",
+     "position": "OT",
+     "status": "IR",
+     "injury": "Fibula fracture, on IR since late October and expected to miss the rest of the season (still out)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/car/carolina-panthers/injuries/"
+    },
+    {
+     "player": "Brady Christensen",
+     "position": "OL",
+     "status": "IR",
+     "injury": "Has practiced for three weeks so his 21-day window is about to expire. Canales Nov 23: 'We're still talking through that.' Activation decision due this week",
+     "starter": false,
+     "source": "https://www.panthers.com/news/monday-brew-still-finding-things-to-work-on-after-a-win-jalen-coker-jaycee-horn-brady-christensen"
+    },
+    {
+     "player": "Jonathon Brooks",
+     "position": "RB",
+     "status": "IR",
+     "injury": "Core-muscle surgery. DraftKings Nov 24 report says his practice window is open. An older report said the team might let the window expire. Not activated",
+     "starter": false,
+     "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+    },
+    {
+     "player": "Nic Scourton",
+     "position": "EDGE",
+     "status": "IR",
+     "injury": "Torn ACL (CBS entry dated Oct 2), season-ending (still out)",
+     "starter": true,
+     "source": "https://www.cbssports.com/nfl/teams/car/carolina-panthers/injuries/"
+    },
+    {
+     "player": "Bobby Okereke",
+     "position": "LB",
+     "status": "Questionable",
+     "injury": "Foot. Inactive in Weeks 10 and 11 and listed TBD in Nov 24 report. No practice report yet",
+     "starter": true,
+     "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+    },
+    {
+     "player": "Jalen Coker",
+     "position": "WR",
+     "status": "Probable",
+     "injury": "Evaluated for concussion Nov 22. Canales said Nov 23 he has cleared the protocol and is expected to play vs TB",
+     "starter": true,
+     "source": "https://nbcsports.com/fantasy/football/player-news/2026-11-23/canales-jalen-coker-cleared-concussion-protocol"
+    },
+    {
+     "player": "Mike Jackson",
+     "position": "CB",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": true,
+     "source": "unverified"
+    },
+    {
+     "player": "Cam Jackson",
+     "position": "DT",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    },
+    {
+     "player": "Kemoko Turay",
+     "position": "EDGE",
+     "status": "IR",
+     "injury": "UNVERIFIED carryover from our Week 11 list: no dated update found on or after Nov 18 2026 and no activation reported, so presumed unchanged",
+     "starter": false,
+     "source": "unverified"
+    }
+   ],
+   "context_notes": [
+    "Monday Night Football at Tampa Bay on Nov 30 (8 days rest for both teams). Billed as a 'massive' NFC South game: Carolina 5-5 leads the division and Tampa Bay is 3-7.",
+    "Tampa Bay won the first meeting 43-13 in Week 7. OLB Jaelan Phillips missed that game (hamstring) and is reported healthy for this one.",
+    "Both starting offensive tackles remain out (Ekwonu on PUP, Moton on IR). The Brady Christensen activation decision is pending.",
+    "Tampa Bay's cornerbacks Jacob Parrish and Benjamin Morrison both left Week 11 and had MRIs, which matters against WR Tetairoa McMillan.",
+    "Carryover check: STILL OUT Horn (IR, window not opened), Ekwonu (PUP), Moton (IR), Scourton (IR), Brooks (IR, window open), Christensen (IR, window open and decision due). UNKNOWN (presumed still IR) Mike Jackson, Cam Jackson, Kemoko Turay. None confirmed activated."
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/panthers-qb-bryce-young-earns-164028796.html",
+    "https://www.fantasypros.com/nfl/news/621937/bryce-young-tosses-pair-touchdowns-week-11-win.php",
+    "https://sports.yahoo.com/articles/bryce-young-not-week-11-185028913.html",
+    "https://www.panthers.com/news/monday-brew-still-finding-things-to-work-on-after-a-win-jalen-coker-jaycee-horn-brady-christensen",
+    "https://nbcsports.com/fantasy/football/player-news/2026-11-23/canales-jalen-coker-cleared-concussion-protocol",
+    "https://www.espn.com/nfl/team/injuries/_/name/car/carolina-panthers",
+    "https://www.cbssports.com/nfl/teams/car/carolina-panthers/injuries/",
+    "https://sports.yahoo.com/articles/panthers-star-talks-massive-week-110802720.html",
+    "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+    "https://www.buccaneers.com/news/bucs-may-be-testing-corner-depth-in-week-12"
+   ]
+  },
+  "TB": {
+   "week11_result": "Lost 31-21 at Detroit (Nov 22, 2026). Buccaneers fell to 3-7. Baker Mayfield (20/33, 187 yards, 2 TD) played through foot and right thumb injuries and was sacked on two straight snaps late. Starting CB Jacob Parrish (back) and his replacement Benjamin Morrison (hamstring) both left the game.",
+   "qb": {
+    "starter": "Baker Mayfield",
+    "backup": "unverified (no Nov 2026 source found naming the No. 2 QB)",
+    "changed_from_week11": false,
+    "notes": "Schedule file is correct. Mayfield is playing through a foot injury (reported as plantar fascia, suffered Week 9 at Chicago) and a right thumb injury. He was DNP on Wednesday Nov 18, listed Questionable for Week 11, and started and finished at Detroit. No Week 12 report yet (first report due Thursday Nov 26 for the Monday game). Expect him to be limited in practice again."
+   },
+   "injuries": [
+    {
+     "player": "Baker Mayfield",
+     "position": "QB",
+     "status": "Questionable",
+     "injury": "Foot (plantar fascia, since Week 9) and right thumb. Questionable in Week 11 and played the whole game Nov 22. Week 12 designation not yet issued",
+     "starter": true,
+     "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-22/mayfield-plays-through-foot-issue-in-week-11-loss"
+    },
+    {
+     "player": "Jacob Parrish",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Back. Left Nov 22 game at DET in the fourth quarter and had an MRI Nov 23. Results not reported - NEW",
+     "starter": true,
+     "source": "https://sports.yahoo.com/articles/two-bucs-cornerbacks-undergo-mris-182125460.html"
+    },
+    {
+     "player": "Benjamin Morrison",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Hamstring. Left Nov 22 game at DET and had an MRI Nov 23. Results not reported - NEW",
+     "starter": false,
+     "source": "https://sports.yahoo.com/articles/two-bucs-cornerbacks-undergo-mris-182125460.html"
+    },
+    {
+     "player": "Antoine Winfield Jr.",
+     "position": "S",
+     "status": "Questionable",
+     "injury": "Ankle. DNP in Week 11 practice and ruled OUT at Detroit. Week 12 status not yet reported, so Questionable is a placeholder",
+     "starter": true,
+     "source": "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+    },
+    {
+     "player": "Josh Hayes",
+     "position": "CB",
+     "status": "Questionable",
+     "injury": "Knee. Ruled OUT on the Week 11 game status report (we carried him as IR, but an IR player would not appear on the status report, so that looks wrong). Week 12 status not yet reported, so Questionable is a placeholder",
+     "starter": false,
+     "source": "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+    },
+    {
+     "player": "Jalen McMillan",
+     "position": "WR",
+     "status": "IR",
+     "injury": "Knee. Todd Bowles earlier suggested he was not likely to return right after the bye. No activation or practice-window news found dated Nov 18 or later (still out)",
+     "starter": false,
+     "source": "https://www.espn.com/nfl/team/injuries/_/name/tb/tampa-bay-buccaneers"
+    }
+   ],
+   "context_notes": [
+    "Monday Night Football vs Carolina on Nov 30 (8 days rest). Tampa Bay is 3-7 and two games behind 5-5 Carolina, so this is close to a must-win. Bowles: 'We're past the mulligan stage of the season.'",
+    "Tampa Bay beat Carolina 43-13 in Week 7.",
+    "Cornerback depth is the main concern: Parrish (NFL leader in passes defensed entering Week 11) and Morrison both had MRIs, Josh Hayes was out, and safety Antoine Winfield Jr. missed Week 11. Morrison allowed 5 catches for 131 yards and 2 TD in 19 snaps at Detroit.",
+    "Mayfield is managing foot and thumb injuries, which limits his mobility. Rookie WR Ted Hurst III caught a late TD at Detroit.",
+    "Carryover check: STILL OUT Jalen McMillan (IR, no update). Josh Hayes was listed Out (not IR) on the Week 11 report, so his roster status needs correcting. Week 12 status unknown."
+   ],
+   "sources": [
+    "https://www.espn.com/nfl/game/_/gameId/401873072/buccaneers-lions",
+    "https://www.buccaneers.com/news/bucs-lose-detroit-lions-week-11-2026-score-31-21",
+    "https://www.nbcsports.com/fantasy/football/player-news/2026-11-22/mayfield-plays-through-foot-issue-in-week-11-loss",
+    "https://www.nfl.com/news/buccaneers-qb-baker-mayfield-injury-week-11",
+    "https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-18-week-11-2026",
+    "https://www.buccaneers.com/news/bucs-may-be-testing-corner-depth-in-week-12",
+    "https://sports.yahoo.com/articles/two-bucs-cornerbacks-undergo-mris-182125460.html",
+    "https://athlonsports.com/nfl/buccaneers-jacob-parrish-back-injury-panthers-monday-night",
+    "https://www.espn.com/nfl/team/injuries/_/name/tb/tampa-bay-buccaneers",
+    "https://www.buccaneers.com/news/buccaneers-panthers-injury-report-oct-23-week-7-2026",
+    "https://www.nfl.com/news/nfl-week-11-injury-report-2026-season"
+   ]
+  }
+ }
+}
