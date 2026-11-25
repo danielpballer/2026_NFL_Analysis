@@ -1,0 +1,753 @@
+{
+  "collected_on": "2026-11-25",
+  "search_calls_used": 40,
+  "unverified": [
+    "No Wednesday Nov 25 practice report was indexed for ANY of the eight teams at collection time. DEN/PIT data is from the Tuesday Nov 24 (estimated/walkthrough) report and official game statuses for the Friday game are not due until Thursday Nov 26. Sunday teams (NO, CIN, LV, CLE, BAL, HOU) have no Week 12 practice participation yet, so their Questionable/Doubtful tags below come from coach comments and ESPN/SI/DraftKings preview listings, not official designations.",
+    "Backup QB names were not surfaced for DEN, PIT, NO, CIN, LV, BAL or HOU. Only CLE (Shedeur Sanders) is confirmed.",
+    "PIT: a CBS tracker headline reading 'Aaron Rodgers (wrist) limited / Joe Burrow full participant' appears to be the recycled 2025 Week 12 article and was discarded. No 2026 report lists Rodgers with an injury, but this could not be positively ruled out.",
+    "PIT: Michael Pittman Jr. had not been activated from IR as of Nov 24 reports. McCarthy said he is very confident Pittman plays Friday. Activation unconfirmed.",
+    "DEN: Tyler Badie and Caleb Lohner are IR-designated-for-return and not activated as of Tuesday. No current-status news found for Drew Sanders, Levelle Bailey, Matt Henningsen, Michael Deiter, Nick Gargiulo (PUP). Jonah Elliss, Eyioma Uwazurike and Frank Crum were described only as 'eligible in the near future' from IR.",
+    "DEN: backup QB and season record not surfaced.",
+    "NO: Week 12 statuses for Erik McCoy, Taliese Fuaga and Martin Emerson Jr. conflict (ESPN lists Out, SI lists Questionable, DraftKings TBD). No news found for carry-over IR/PUP players Barry Wesley, Bryan Bresee, Dalys Beanum, David Long Jr., Dillon Radunz, Jaylan Ford, Mike Heldman, Mason Tipton.",
+    "NO: reason for the release of S Justin Reid (ESPN log: released Nov 19, waived Nov 20) not surfaced.",
+    "CIN: Andrei Iosivas and Jalen Davis were designated to return (Nov 12) and were listed Doubtful then downgraded to Out for Week 11. Whether they have been formally activated to the 53 is unclear. No news on Ja'Sir Taylor or Tanner Hudson. Date of Erick All Jr. ACL confirmation unclear (CBS lists IR as of Oct 27).",
+    "LV: Dont'e Thornton Jr. - the Raiders transactions page snippet says he was activated from IR (with DT Jonah Laulu waived) but is undated and also mentions a 21-day window. Treat as unknown. No news on Carter Runyon, Keyron Crawford, Patrick Johnson. No 2026 status information found for Maxx Crosby.",
+    "LV: exact date of the Kirk Cousins trade to Minnesota not surfaced (it preceded Mendoza's first start in Week 10).",
+    "CLE: no Week 12 practice data after the bye. Teven Jenkins (IR, back) was listed by CBS with 'expected return Week 12' but is not activated. No fresh news on Jeremiah Owusu-Koramoah (PUP, neck - last listing Oct 2), Kalia Davis or Joe Royer. Reason Watson sat Week 9 (Sanders started) not surfaced.",
+    "BAL: no news on Tyler Loop (K, IR), Jovaughn Gwyn. CBS lists Ethan Pocic and Bilhal Kone on IR with an 'expected return Week 12' label but no designation/activation was found. Current backup QB unknown after Kedon Slovis was waived Nov 24 with Tyler Huntley on IR. Current kicker not surfaced.",
+    "HOU: no news on British Brooks, E.J. Speed, Henry To'oTo'o, Ja'Marcus Ingram, Jayden Higgins, K.C. Ossai, M.J. Stewart (all presumed still on IR). Jaylin Noel IR placement confirmed by ESPN log but date ambiguous. Brevin Jordan injury type not surfaced. Site of the Week 11 TNF game vs IND not explicitly confirmed.",
+    "Kickoff time for DEN at PIT conflicts between sources (Broncos site: 1 p.m. MT on Prime Video. ESPN page: 8:00 PM). LV at CLE is Sunday Night Football (8:20 p.m. ET per DraftKings/WKBN)."
+  ],
+  "teams": {
+    "DEN": {
+      "week11_result": "W 38-24 vs LV (Sun Nov 22, in Denver). Rookie RB Jonah Coleman scored 3 TDs and Ja'Quan McMillian had a pick-six. Bo Nix was modest: 19/35, 225 yds, 1 TD, 1 INT.",
+      "qb": {
+        "starter": "Bo Nix",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Nix started and finished Week 11 (12 TD passes on the season). Not on the Tuesday Nov 24 injury report. No QB change. Backup name not surfaced in searches."
+      },
+      "injuries": [
+        {
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "status": "Suspended",
+          "injury": "Not an injury. Sean Payton announced Tue Nov 24 a one-game team suspension for conduct detrimental to the team. Out for Friday at PIT.",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/news/broncos-suspend-rb-j-k-dobbins-one-game-conduct-detrimental-team/"
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Knee. Still on IR, not eligible to return until Week 13 vs MIA (reports Nov 24).",
+          "starter": true,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/178461/broncos-suspend-rb-ahead-of-steelers-matchup-jk-dobbins-black-friday-rj-harvey-tyler-badie"
+        },
+        {
+          "player": "Tyler Badie",
+          "position": "RB",
+          "status": "IR",
+          "injury": "IR - designated for return, practice window open. Not activated as of Tue Nov 24. Would need activation to play Friday.",
+          "starter": false,
+          "source": "https://steelersdepot.com/2026/11/broncos-week-12-tuesday-injury-report-two-listed-as-dnp-one-other-limited-on-short-week/"
+        },
+        {
+          "player": "Caleb Lohner",
+          "position": "TE",
+          "status": "IR",
+          "injury": "IR - designated for return. Not activated as of Tue Nov 24.",
+          "starter": false,
+          "source": "https://steelersdepot.com/2026/11/broncos-week-12-tuesday-injury-report-two-listed-as-dnp-one-other-limited-on-short-week/"
+        },
+        {
+          "player": "Sai'vion Jones",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Hamstring. Did not practice on Tuesday Nov 24 estimated (walkthrough) report. No official game status until Thursday. Short week makes him a real doubt.",
+          "starter": false,
+          "source": "https://www.milehighreport.com/denver-broncos-injuries/193266/broncos-vs-steelers-practice-participation-report-tuesday"
+        },
+        {
+          "player": "Taylor Rapp",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Quadricep. Limited on Tuesday Nov 24 estimated report. No official game status yet.",
+          "starter": false,
+          "source": "https://www.milehighreport.com/denver-broncos-injuries/193266/broncos-vs-steelers-practice-participation-report-tuesday"
+        },
+        {
+          "player": "Brandon Jones",
+          "position": "S",
+          "status": "Probable",
+          "injury": "Hamstring. Missed time recently but upgraded to full participant (estimated) on Tuesday Nov 24. Expected to play.",
+          "starter": true,
+          "source": "https://www.denverbroncos.com/news/injuryreport/injury-report-s-brandon-jones-estimated-as-full-practice-participant-ahead-of-week-12-game-vs-steelers"
+        },
+        {
+          "player": "Jonah Elliss",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Still on IR. Described Nov 24 only as eligible to return in the near future (with Uwazurike and Crum). No designation found.",
+          "starter": false,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/178461/broncos-suspend-rb-ahead-of-steelers-matchup-jk-dobbins-black-friday-rj-harvey-tyler-badie"
+        },
+        {
+          "player": "Eyioma Uwazurike",
+          "position": "DL",
+          "status": "IR",
+          "injury": "Still on IR. Eligible to return in the near future per Nov 24 report. No designation found.",
+          "starter": false,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/178461/broncos-suspend-rb-ahead-of-steelers-matchup-jk-dobbins-black-friday-rj-harvey-tyler-badie"
+        },
+        {
+          "player": "Frank Crum",
+          "position": "OT",
+          "status": "IR",
+          "injury": "Still on IR. Eligible to return in the near future per Nov 24 report. No designation found.",
+          "starter": false,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/178461/broncos-suspend-rb-ahead-of-steelers-matchup-jk-dobbins-black-friday-rj-harvey-tyler-badie"
+        }
+      ],
+      "context_notes": [
+        "Short week: Sunday home game then Friday road game at Pittsburgh (5 days rest, cross-country travel). Tuesday was a walkthrough so the report is an estimate. Game statuses come Thursday.",
+        "Backfield is thin: Dobbins suspended, Harvey on IR, Badie not yet activated. Rookie Jonah Coleman (3 TDs in Week 11) is the lead back, with practice-squad backs Jaret Patterson and/or Cody Schrader candidates for elevation.",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): Drew Sanders (LB, IR), Levelle Bailey (LB, IR), Matt Henningsen (DL, IR), Michael Deiter (OL, IR), Nick Gargiulo (G, PUP).",
+        "Denver's defense faces a Steelers line missing G Mason McCormick (IR) and coming off a multi-sack game allowed vs PHI."
+      ],
+      "sources": [
+        "https://www.milehighreport.com/denver-broncos-injuries/193266/broncos-vs-steelers-practice-participation-report-tuesday",
+        "https://www.denverbroncos.com/news/injuryreport/injury-report-s-brandon-jones-estimated-as-full-practice-participant-ahead-of-week-12-game-vs-steelers",
+        "https://www.cbssports.com/nfl/news/broncos-suspend-rb-j-k-dobbins-one-game-conduct-detrimental-team/",
+        "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/178461/broncos-suspend-rb-ahead-of-steelers-matchup-jk-dobbins-black-friday-rj-harvey-tyler-badie",
+        "https://steelersdepot.com/2026/11/broncos-week-12-tuesday-injury-report-two-listed-as-dnp-one-other-limited-on-short-week/",
+        "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-tuesday-nov-24",
+        "https://www.denverbroncos.com/video/full-game-highlights-broncos-38-raiders-24-week-11",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-22/bo-nix-does-little-in-high-scoring-week-11-win",
+        "https://sports.yahoo.com/articles/broncos-week-11-stock-report-122821181.html"
+      ]
+    },
+    "PIT": {
+      "week11_result": "L 16-19 at PHI (Sun Nov 22). Steelers fell to 6-4. Aaron Rodgers was sacked multiple times behind a reshuffled interior line. Jake Elliott hit 4 FGs (incl. 53 and 55). OLB Alex Highsmith left with an ankle injury. Second straight loss (lost to CIN on SNF in Week 10).",
+      "qb": {
+        "starter": "Aaron Rodgers",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Rodgers played the full Week 11 game (late 20-yd TD to Max Hurleman). He does not appear on the Tuesday Nov 24 injury report. A search-result headline about a Rodgers wrist injury is the 2025 Week 12 article and was discarded. Backup name not surfaced."
+      },
+      "injuries": [
+        {
+          "player": "Alex Highsmith",
+          "position": "OLB",
+          "status": "Doubtful",
+          "injury": "Ankle, injured Nov 22 at PHI. Did not practice Tue Nov 24. Mike McCarthy: it is going to be tough for him to make it this week. ESPN lists Doubtful. Official status due Thursday.",
+          "starter": true,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/178456/steelers-alex-highsmith-misses-practice-with-ankle-injury-week-12-broncos-injury-report-roster-news-nick-herbig"
+        },
+        {
+          "player": "Nick Herbig",
+          "position": "OLB",
+          "status": "Questionable",
+          "injury": "Hip/ribs. Ruled out for Week 11 at PHI. Limited on Tue Nov 24 (first steps back, was in the rehab group Monday). Would start if Highsmith sits.",
+          "starter": false,
+          "source": "https://steelersdepot.com/2026/11/steelers-week-12-tuesday-injury-report-two-players-sit-out-herbig-takes-first-steps-back/"
+        },
+        {
+          "player": "Ben Skowronek",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Calf (recurring). Did not practice Tue Nov 24. No official status yet.",
+          "starter": false,
+          "source": "https://sports.yahoo.com/nfl/articles/veteran-steelers-wr-unexpectedly-back-214412178.html"
+        },
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Foot. STILL ON IR as of Nov 24 (returned to practice Nov 18, full participant Tue Nov 24). McCarthy said Monday he is very confident Pittman will be out there this week. Needs activation before Friday - not yet confirmed.",
+          "starter": true,
+          "source": "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-injury-news-good-bad-news-broncos-game"
+        },
+        {
+          "player": "Mason McCormick",
+          "position": "G",
+          "status": "IR",
+          "injury": "Placed on Reserve/Injured Nov 18 after being hurt in the Week 10 SNF loss to CIN. Had started all 9 games. Out at least 4 games.",
+          "starter": true,
+          "source": "https://www.steelers.com/news/steelers-make-roster-moves-x8364"
+        },
+        {
+          "player": "DeShon Elliott",
+          "position": "S",
+          "status": "Probable",
+          "injury": "Knee (hurt in pregame warmups before the Week 10 CIN game, missed Week 11). Returned to practice in full on Tue Nov 24. Expected back vs DEN.",
+          "starter": true,
+          "source": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/178456/steelers-alex-highsmith-misses-practice-with-ankle-injury-week-12-broncos-injury-report-roster-news-nick-herbig"
+        },
+        {
+          "player": "Gennings Dunker",
+          "position": "G",
+          "status": "IR",
+          "injury": "Knee. Returned to practice the week of Nov 18 and practiced fully Tue Nov 24 but remains on Reserve/Injured (window open).",
+          "starter": false,
+          "source": "https://steelersdepot.com/2026/11/steelers-week-12-tuesday-injury-report-two-players-sit-out-herbig-takes-first-steps-back/"
+        }
+      ],
+      "context_notes": [
+        "RETURNED: WR Roman Wilson was activated from IR on Sat Nov 21 and played at PHI. DL Derrick Harmon was activated Nov 14. Remove Wilson from the absent list.",
+        "Head coach is Mike McCarthy (2026). Short week at home after a road loss: 5 days rest, Black Friday game on Prime Video.",
+        "Edge depth is the pressure point: Highsmith doubtful and Herbig limited. Jack Sawyer and KJ Henry (signed to the 53 from the practice squad Nov 21) would fill in. Interior OL is without McCormick. Rodgers was sacked multiple times at PHI.",
+        "WR Brandon Smith re-signed to the practice squad Nov 24 (cannot be elevated again this season).",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): Daequan Hardy (CB, IR), Jack Driscoll (OT, IR), Logan Lee (DT, IR), Sebastian Joseph-Day (DT, IR), Donte Kent (CB, PUP)."
+      ],
+      "sources": [
+        "https://www.behindthesteelcurtain.com/pittsburgh-steelers-injuries/178456/steelers-alex-highsmith-misses-practice-with-ankle-injury-week-12-broncos-injury-report-roster-news-nick-herbig",
+        "https://steelersdepot.com/2026/11/steelers-week-12-tuesday-injury-report-two-players-sit-out-herbig-takes-first-steps-back/",
+        "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-injury-news-good-bad-news-broncos-game",
+        "https://sports.yahoo.com/nfl/articles/veteran-steelers-wr-unexpectedly-back-214412178.html",
+        "https://www.steelers.com/news/steelers-make-roster-moves-x8364",
+        "https://steelersdepot.com/2026/11/steelers-make-several-roster-moves-saturday-2/",
+        "https://steelersdepot.com/2026/11/steelers-make-roster-move-tuesday-2/",
+        "https://www.behindthesteelcurtain.com/pittsburgh-steelers-roster/178453/steelers-sign-familiar-face-at-wr-brandon-smith-depth-chart-broncos-week-12-roster-news",
+        "https://www.steelers.com/news/steelers-fall-to-eagles-19-16",
+        "https://www.philadelphiaeagles.com/news/steelers-vs-eagles-game-recap-2026-nfl-week-11-salute-to-service-saquon-barkley-devonta-smith-aaron-rodgers-tj-watt",
+        "https://www.espn.com/nfl/game/_/gameId/401873083/broncos-steelers"
+      ]
+    },
+    "NO": {
+      "week11_result": "L 13-21 at CHI (Sun Nov 22). Saints fell to 3-7. Trailed 16-0 by mid-2nd quarter. Tyler Shough 25/42, 222 yds, 1 TD, 1 INT and was sacked 6 times including a safety, behind a line missing C Erik McCoy and OT Taliese Fuaga. TE Juwan Johnson hurt his hamstring in the game.",
+      "qb": {
+        "starter": "Tyler Shough",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Shough started and finished Week 11. No injury or benching news. Criticized for bailing from clean pockets. Backup name not surfaced."
+      },
+      "injuries": [
+        {
+          "player": "Erik McCoy",
+          "position": "C",
+          "status": "Doubtful",
+          "injury": "Biceps. Inactive Week 11 at CHI. Kellen Moore said it is not long-term and not expected to need surgery. ESPN lists him Out for Nov 29, DraftKings (Nov 24) TBD. No Week 12 practice data yet - status is an estimate.",
+          "starter": true,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Taliese Fuaga",
+          "position": "OT",
+          "status": "Doubtful",
+          "injury": "Left knee sprain. Was doubtful for Week 11 and did not practice Wed Nov 18. ESPN lists Out for Nov 29, SI preview Questionable, DraftKings TBD. Status is an estimate pending practice reports.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873087/saints-bengals"
+        },
+        {
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Hamstring, injured Nov 22 at CHI. Kellen Moore said Monday Nov 23 he was still undergoing further medical evaluation.",
+          "starter": true,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Martin Emerson Jr.",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Concussion (protocol). ESPN lists Out for Nov 29, SI preview Questionable, DraftKings TBD. Must clear protocol.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873087/saints-bengals"
+        },
+        {
+          "player": "Pete Werner",
+          "position": "LB",
+          "status": "Questionable",
+          "injury": "Hamstring. Did not practice Wed Nov 18. Listed Questionable by ESPN and SI for Nov 29.",
+          "starter": true,
+          "source": "https://www.si.com/betting/saints-vs-bengals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+        },
+        {
+          "player": "Decamerion Richardson",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "Thigh. Listed Questionable on ESPN's game page for Nov 29.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873087/saints-bengals"
+        },
+        {
+          "player": "Asim Richards",
+          "position": "OT",
+          "status": "Doubtful",
+          "injury": "Unspecified. Listed Doubtful in the SI Week 12 betting preview. Not corroborated elsewhere.",
+          "starter": false,
+          "source": "https://www.si.com/betting/saints-vs-bengals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+        },
+        {
+          "player": "Christen Miller",
+          "position": "DT",
+          "status": "IR",
+          "injury": "Knee. Placed on IR Nov 14 (rookie second-round pick). Still out.",
+          "starter": false,
+          "source": "https://sports.yahoo.com/articles/saints-roster-moves-second-round-222451620.html"
+        }
+      ],
+      "context_notes": [
+        "Offensive line is the story: McCoy (C) and Fuaga (OT) both missed Week 11 and Shough took 6 sacks plus a safety. Both remain in doubt for Cincinnati.",
+        "S Justin Reid is off the roster: ESPN's log shows him released Nov 19 / waived Nov 20. Reason not surfaced.",
+        "Earlier returns (before Nov 18): RB Travis Etienne activated from IR Nov 14. OT Kelvin Banks Jr. and WR Jordyn Tyson activated Nov 8.",
+        "Head coach Kellen Moore. Saints are 3-7 and playing a second straight road game. A Yahoo/SI item ('Ten Saints on injury report, over half not taking part in practice') exists but its date/contents were not retrievable.",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): Barry Wesley (OT, IR), Bryan Bresee (DT, IR), Dalys Beanum (CB, IR), David Long Jr. (CB, IR), Dillon Radunz (OL, IR), Jaylan Ford (LB, IR), Mike Heldman (EDGE, IR), Mason Tipton (WR, PUP)."
+      ],
+      "sources": [
+        "https://www.neworleanssaints.com/game-day/2026/reg-week11/bears-vs-saints/recap",
+        "https://www.neworleanssaints.com/game-day/2026/reg-week11/bears-vs-saints/box-score",
+        "https://sports.yahoo.com/articles/saints-week-11-stock-report-134500812.html",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.espn.com/nfl/game/_/gameId/401873087/saints-bengals",
+        "https://www.si.com/betting/saints-vs-bengals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026",
+        "https://www.espn.com/nfl/team/transactions/_/name/no/new-orleans-saints",
+        "https://sports.yahoo.com/articles/saints-roster-moves-second-round-222451620.html",
+        "https://www.cbssports.com/nfl/teams/no/new-orleans-saints/injuries/",
+        "https://sports.yahoo.com/articles/ten-saints-injury-report-over-115631365.html"
+      ]
+    },
+    "CIN": {
+      "week11_result": "L 20-22 at WAS (Monday Night Football, Nov 23). Drew Stevens hit a 26-yd FG as time expired after Washington drove 64 yards in 34 seconds. Snapped the Bengals' five-game win streak. Bengals now 7-3. Joe Burrow 28/40, 300 yds, 2 TD.",
+      "qb": {
+        "starter": "Joe Burrow",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Burrow had an illness during Week 11 prep but was removed from the injury report and played the full MNF game. No injury reported from the game. Backup name not surfaced."
+      },
+      "injuries": [
+        {
+          "player": "Dalton Risner",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Knee. Ruled out and inactive for Week 11 MNF (Jalen Rivers started at RG). Listed Questionable by ESPN/SI for Nov 29, DraftKings TBD. Short week works against him.",
+          "starter": true,
+          "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/206210/commanders-injury-report-dalton-risner-dax-hill-dylan-fairchild"
+        },
+        {
+          "player": "Kyle Dugger",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Left quadriceps. Practiced fully last week for the first time since Week 7 but was inactive Monday Nov 23. Listed Questionable by SI.",
+          "starter": false,
+          "source": "https://www.cincyjungle.com/cincinnati-bengals-injuries/206401/commanders-inactives-dax-hill-dylan-fairchild-amik-robertson"
+        },
+        {
+          "player": "Oren Burks",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Groin. Placed on Reserve/Injured Nov 21 (new since Nov 18). Core special-teamer.",
+          "starter": false,
+          "source": "https://www.bengals.com/news/rosternews"
+        },
+        {
+          "player": "Erick All Jr.",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Torn right ACL, season-ending surgery (Zac Taylor confirmed). CBS lists IR as of Oct 27.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/cin/cincinnati-bengals"
+        },
+        {
+          "player": "Andrei Iosivas",
+          "position": "WR",
+          "status": "IR",
+          "injury": "Thumb. Designated to return Nov 12 (practice window open). Listed Doubtful then downgraded to Out for Week 11. ESPN shows IR-R. Activation not confirmed - could return Week 12.",
+          "starter": false,
+          "source": "https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football"
+        },
+        {
+          "player": "Jalen Davis",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Designated to return from IR. Listed Doubtful then downgraded to Out for Week 11. Activation not confirmed.",
+          "starter": false,
+          "source": "https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football"
+        },
+        {
+          "player": "Cashius Howell",
+          "position": "DE",
+          "status": "IR",
+          "injury": "Placed on IR Nov 3. Still out (no return designation found).",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/transactions/_/name/cin/cincinnati-bengals"
+        }
+      ],
+      "context_notes": [
+        "RETURNED: LB Swayze Bozeman (forearm, IR since Oct 12) and G Brian Parker II were activated from IR to the 53 on Mon Nov 23 before the Commanders game. Remove both from the absent list.",
+        "Short week for Cincinnati: Monday night road game, then Sunday 1 p.m. ET at home (6 days rest). Wednesday's report will likely be an estimate.",
+        "CB Dax Hill (illness) and G Dylan Fairchild (oblique) were questionable for Week 11 but both played.",
+        "Bengals were criticized for late-game management vs WAS (sack and incompletion forced a 56-yd FG try, then defense gave up a 34-second drive).",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): Ja'Sir Taylor (CB, IR), Tanner Hudson (TE, IR)."
+      ],
+      "sources": [
+        "https://www.bengals.com/news/bengals-commanders-recap-postgame-notes-quotes-stats-week-11-2026-monday-night-football",
+        "https://www.skysports.com/nfl/news/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-23/joe-burrow-snaps-historic-streak-bengals-fall",
+        "https://www.cincyjungle.com/cincinnati-bengals-roster/206385/swayze-bozeman-brian-parker-josh-kattus-practice-squad-commanders-game",
+        "https://atozsports.com/nfl/cincinnati-bengals-news/bengals-activate-swayze-bozeman-brian-parker-ii-off-injured-reserve-week-11-at-commanders/",
+        "https://www.cincyjungle.com/cincinnati-bengals-injuries/206210/commanders-injury-report-dalton-risner-dax-hill-dylan-fairchild",
+        "https://www.cincyjungle.com/cincinnati-bengals-injuries/206401/commanders-inactives-dax-hill-dylan-fairchild-amik-robertson",
+        "https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football",
+        "https://www.espn.com/nfl/team/transactions/_/name/cin/cincinnati-bengals",
+        "https://www.espn.com/nfl/team/injuries/_/name/cin/cincinnati-bengals",
+        "https://www.bengals.com/news/rosternews",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.si.com/betting/saints-vs-bengals-prediction-odds-spread-injuries-trends-for-nfl-week-12-2026"
+      ]
+    },
+    "LV": {
+      "week11_result": "L 24-38 at DEN (Sun Nov 22). Raiders fell to 4-7, third straight loss. Rookie Fernando Mendoza (2nd career start) went 18/37, 267 yds, 3 TD, 1 INT (end-zone pick before halftime) and threw a pick-six. Three DTs (Adam Butler, Tim Keenan III, JJ Pegues) left injured. TE Brock Bowers was inactive.",
+      "qb": {
+        "starter": "Fernando Mendoza",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "The schedule file is correct: rookie Mendoza has started the last two games (Weeks 10 and 11) and Klint Kubiak said Monday he has seen improvement. Week 12 at CLE is his third start and prime-time debut. Kirk Cousins was traded to Minnesota (which also explains the file's MIN Kirk Cousins). QB Brett Rypien signed to the practice squad Nov 16. Active-roster backup not surfaced."
+      },
+      "injuries": [
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Ankle and quadriceps. Inactive Week 11 at DEN (DNP Wed, limited Thu/Fri last week). Kubiak said postgame Nov 22 he is optimistic Bowers plays at CLE, but called it a significant injury. No Week 12 practice data yet.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-22/kubiak-optimistic-about-bowers-ankle-quad-wk-12"
+        },
+        {
+          "player": "Adam Butler",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Concussion. Ruled out late in the first half Nov 22 at DEN. In protocol. Kubiak had no update Monday.",
+          "starter": true,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Tim Keenan III",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Knee. Left the Nov 22 game at DEN. Kubiak had no update Monday. (Signed to the active roster from the practice squad Nov 10.)",
+          "starter": false,
+          "source": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-sees-improvement-through-2-raiders-starts-for-fernando-mendoza-3918538/"
+        },
+        {
+          "player": "JJ Pegues",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Forearm. Left the Nov 22 game at DEN. Kubiak had no update Monday.",
+          "starter": false,
+          "source": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-sees-improvement-through-2-raiders-starts-for-fernando-mendoza-3918538/"
+        },
+        {
+          "player": "Tonka Hemingway",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Stinger. Ruled out and inactive Week 11. Kubiak said Monday he is optimistic Hemingway returns Sunday at CLE.",
+          "starter": false,
+          "source": "https://www.reviewjournal.com/sports/raiders/klint-kubiak-sees-improvement-through-2-raiders-starts-for-fernando-mendoza-3918538/"
+        }
+      ],
+      "context_notes": [
+        "Defensive tackle depth is in crisis: Butler (concussion), Keenan (knee), Pegues (forearm) all hurt at DEN, Hemingway (stinger) already out. Raiders signed DT David Blay and CB A.J. Woods to the practice squad Nov 24 (released OT Amari Kight and CB Greedy Vance).",
+        "Game is Sunday Night Football in Cleveland (8:20 p.m. ET), second straight road game. Raiders 4-7 on a three-game losing streak. Browns come off a bye and are unbeaten at home.",
+        "Head coach Klint Kubiak. Kirk Cousins was traded to the Vikings for 2027 draft compensation, handing the job to the rookie Mendoza.",
+        "WR Dont'e Thornton Jr.: the Raiders transactions page says he was activated from Reserve/Injured (DT Jonah Laulu waived) but the snippet is undated - status unknown. No news on Carter Runyon (TE, IR), Keyron Crawford (DE, IR), Patrick Johnson (DE, IR) - presumed still out. No 2026 status info found on Maxx Crosby."
+      ],
+      "sources": [
+        "https://www.denverbroncos.com/video/full-game-highlights-broncos-38-raiders-24-week-11",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-fernando-mendoza-with-two-starts-against-two-elite-defenses-ive-seen-improvement",
+        "https://www.reviewjournal.com/sports/raiders/klint-kubiak-sees-improvement-through-2-raiders-starts-for-fernando-mendoza-3918538/",
+        "https://sports.yahoo.com/articles/fernando-mendoza-shows-made-raiders-012249622.html",
+        "https://www.nbcsports.com/fantasy/football/player-news/2026-11-22/kubiak-optimistic-about-bowers-ankle-quad-wk-12",
+        "https://www.rotowire.com/football/headlines/brock-bowers-injury-coach-optimistic-about-week-12-availability-649252",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.espn.com/nfl/team/transactions/_/name/lv/las-vegas-raiders",
+        "https://www.raiders.com/news/transactions",
+        "https://nfltraderumors.co/raiders-made-four-p-squad-moves/",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-dl-tim-keenan-to-the-active-roster-from-the-practice-squad",
+        "https://www.espn.com/nfl/game/_/gameId/401873086/raiders-browns"
+      ]
+    },
+    "CLE": {
+      "week11_result": "BYE in Week 11 (14 days rest). Last game Week 10, Sun Nov 15: W 27-24 vs HOU - erased a 17-0 deficit, Quinshon Judkins scored the winning TD with under a minute left, Deshaun Watson had his third straight 300-yard game. Browns are 6-4 and unbeaten at home.",
+      "qb": {
+        "starter": "Deshaun Watson",
+        "backup": "Shedeur Sanders",
+        "changed_from_week11": false,
+        "notes": "The schedule file is correct. Sanders started Week 9 in Watson's place (19/31, 297 yds, 2 TD) and there was a brief controversy, but Todd Monken named Watson the starter for Week 10 citing the full body of work, and Watson then led a comeback win over Houston (his sixth game-winning drive of the season). No change reported over the bye. Monken said he does not view the job week-to-week."
+      },
+      "injuries": [
+        {
+          "player": "Ronnie Hickman",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Concussion. Inactive Week 10 after not practicing all that week. Listed Questionable by ESPN/CBS for Nov 29 (CBS entry last updated Nov 16). Bye week helps. No Week 12 practice data yet.",
+          "starter": true,
+          "source": "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/"
+        },
+        {
+          "player": "Raheim Sanders",
+          "position": "RB",
+          "status": "IR",
+          "injury": "Designated for return from IR on Tue Nov 24 (21-day practice window opened). Not activated - still out unless activated before Sunday.",
+          "starter": false,
+          "source": "https://www.wkbn.com/sports/cleveland-browns/injured-browns-running-back-returns-to-practice/"
+        },
+        {
+          "player": "Teven Jenkins",
+          "position": "G",
+          "status": "IR",
+          "injury": "Back. Placed on IR Oct 24. CBS lists expected return Week 12 (eligible) but no designation or activation was found as of Nov 24.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/"
+        },
+        {
+          "player": "Jeremiah Owusu-Koramoah",
+          "position": "LB",
+          "status": "PUP",
+          "injury": "Neck. On Reserve/PUP (last listing found dated Oct 2). No newer status - still out.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Rest edge: Browns off their bye (14 days) and home for the first of three straight home games. Raiders are on a second straight road trip and a three-game skid.",
+        "Sunday Night Football (8:15/8:20 p.m. ET) at Huntington Bank Field. Head coach Todd Monken.",
+        "Browns worked out four defensive linemen during the week (Dawgs By Nature) - possible D-line depth move coming.",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): Kalia Davis (DT, IR), Joe Royer (TE, NFI)."
+      ],
+      "sources": [
+        "https://www.clevelandbrowns.com/game-day/2026/reg-week10/browns-vs-texans/recap",
+        "https://www.clevelandbrowns.com/news/browns-erase-17-point-deficit-to-beat-texans-in-week-10-by-the-numbers",
+        "https://sports.yahoo.com/nfl/houston-texans-cleveland-browns-20261115005/",
+        "https://www.espn.com/nfl/story/_/id/50453932/browns-todd-monken-explains-call-start-deshaun-watson",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
+        "https://www.cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026/",
+        "https://www.wkbn.com/sports/cleveland-browns/injured-browns-running-back-returns-to-practice/",
+        "https://heavy.com/sports/nfl/cleveland-browns/browns-announce-new-move-on-injured-playmaker/",
+        "https://www.cbssports.com/nfl/teams/cle/cleveland-browns/injuries/",
+        "https://www.dawgsbynature.com/cleveland-browns-news/138885/browns-work-out-roster-workout-nnadi-saunders-stille",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.espn.com/nfl/game/_/gameId/401873086/raiders-browns"
+      ]
+    },
+    "BAL": {
+      "week11_result": "L 33-35 at CAR (Sun Nov 22). Sixth straight loss, Ravens now 4-7. Four turnovers (three lost fumbles including a Derrick Henry 4th-quarter fumble, plus a game-ending Jacoby Brissett INT). Returner LaJohntay Wester muffed two punts. CB Marlon Humphrey was a healthy scratch for disciplinary reasons.",
+      "qb": {
+        "starter": "Jacoby Brissett",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "The odd-looking file entry is correct. Lamar Jackson broke and dislocated his right thumb in Week 8 vs BUF (Nov 1), had surgery and is on IR with a 6-9/10 week timeline (ESPN est. return Dec 27. DraftKings says a chance at Week 16). Brissett, added to the 53 mid-season, started Week 11 (24/37, 276 yds, 1 TD, 1 INT) and remains the starter. Backup is unclear: Tyler Huntley is on IR and reserve QB Kedon Slovis was waived Nov 24."
+      },
+      "injuries": [
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Fractured and dislocated right thumb (Week 8 vs BUF, Nov 1), surgery. On IR. Out 6-9 weeks. Jesse Minter gave no new update Mon Nov 23.",
+          "starter": true,
+          "source": "https://www.nfl.com/news/ravens-lamar-jackson-right-thumb-out-6-9-weeks-expects-to-return-this-season"
+        },
+        {
+          "player": "Tyler Huntley",
+          "position": "QB",
+          "status": "IR",
+          "injury": "Listed on IR/reserve in the DraftKings Nov 24 report. Injury not specified.",
+          "starter": false,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Nnamdi Madubuike",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Hamstring. Did not practice during Week 11 prep. Listed Questionable by ESPN and SI for Nov 29. No Week 12 practice data yet.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens"
+        },
+        {
+          "player": "Jaylinn Hawkins",
+          "position": "S",
+          "status": "Questionable",
+          "injury": "Knee. Listed Questionable by ESPN and SI for Nov 29.",
+          "starter": false,
+          "source": "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1"
+        },
+        {
+          "player": "Marlon Humphrey",
+          "position": "CB",
+          "status": "Questionable",
+          "injury": "NOT an injury. Healthy scratch at CAR for disciplinary reasons (reported as podcast-related). Back at the facility Mon Nov 23 but Minter would not commit to him playing at HOU.",
+          "starter": true,
+          "source": "https://espn.com/nfl/story/_/id/50577306/ravens-noncommittal-whether-cb-humphrey-play-sunday"
+        },
+        {
+          "player": "Tavius Robinson",
+          "position": "OLB",
+          "status": "IR",
+          "injury": "Still listed on IR/reserve in the DraftKings Nov 24 report.",
+          "starter": true,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "status": "IR",
+          "injury": "Still listed on IR/reserve in the DraftKings Nov 24 report.",
+          "starter": false,
+          "source": "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+        },
+        {
+          "player": "Ethan Pocic",
+          "position": "C",
+          "status": "IR",
+          "injury": "Still on IR (DraftKings Nov 24). CBS lists expected return Week 12 (eligible) but no designation/activation found.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        },
+        {
+          "player": "Bilhal Kone",
+          "position": "CB",
+          "status": "IR",
+          "injury": "Still on IR. CBS lists expected return Week 12 (eligible) but no designation/activation found.",
+          "starter": false,
+          "source": "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/"
+        }
+      ],
+      "context_notes": [
+        "Team in freefall: six straight losses, 4-7, team site calls the situation dire and Houston a must-win. Head coach Jesse Minter (first season).",
+        "Roster moves Tue Nov 24: waived WR/returner LaJohntay Wester (two muffed punts at CAR) and reserve QB Kedon Slovis. Punt-return job is open - rookie WR Elijah Sarratt and S Malaki Starks are candidates.",
+        "Locker-room/discipline issue: Marlon Humphrey was benched as a healthy scratch in Week 11 and his Week 12 status is undecided.",
+        "Ball security: four fumbles (three lost) plus a late INT at Carolina. Defense gave up 35 to a 5-5 Panthers team.",
+        "Second straight road game. Week 11 carry-overs with no news found (presumed still out, unverified): Tyler Loop (K, IR), Jovaughn Gwyn (G, IR)."
+      ],
+      "sources": [
+        "https://sports.yahoo.com/nfl/baltimore-ravens-carolina-panthers-20261122029/",
+        "https://www.pff.com/news/nfl-week-11-recap-baltimore-ravens-33-carolina-panthers-35-2",
+        "https://www.baltimoreravens.com/news/ravens-sixth-straight-loss-carolina-self-inflicted-wounds-dire-situation-defensive-issues-breakdown-week-11",
+        "https://www.nfl.com/news/ravens-lamar-jackson-right-thumb-out-6-9-weeks-expects-to-return-this-season",
+        "https://www.espn.com/nfl/story/_/id/50349558/ravens-lamar-jackson-rest-game-thumb-injury",
+        "https://bolavip.com/en/nfl/why-isnt-lamar-jackson-playing-today-for-ravens-vs-panthers-in-2026-nfl-week-11",
+        "https://www.baltimoreravens.com/news/ravens-waive-lajohntay-wester-kedon-slovis-returner-quarterback",
+        "https://92q.com/5920813/baltimore-ravens-waive-lajohntay-wester-kedon-slovis/",
+        "https://espn.com/nfl/story/_/id/50577306/ravens-noncommittal-whether-cb-humphrey-play-sunday",
+        "https://www.espn.com/nfl/team/injuries/_/name/bal/baltimore-ravens",
+        "https://www.cbssports.com/nfl/teams/bal/baltimore-ravens/injuries/",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/",
+        "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1"
+      ]
+    },
+    "HOU": {
+      "week11_result": "W 26-3 vs IND (Thursday Night Football, Nov 19). Texans improved to 4-6. C.J. Stroud threw for 194 yds and 3 TDs (Nico Collins 42, Kayshon Boutte 24, Marlin Klein 13) and the defense dominated. Played without RB Woody Marks, DE Danielle Hunter and WR Marvin Harrison Jr.",
+      "qb": {
+        "starter": "C.J. Stroud",
+        "backup": "unverified",
+        "changed_from_week11": false,
+        "notes": "Stroud started and played well in Week 11. No 2026 injury found (a concussion item in search results is from the 2025 season and was discarded). Backup name not surfaced."
+      },
+      "injuries": [
+        {
+          "player": "Danielle Hunter",
+          "position": "DE",
+          "status": "Questionable",
+          "injury": "Hamstring. Has not practiced since Nov 12 and missed Week 11. DeMeco Ryans said Mon Nov 23 he is still progressing - team less hopeful than for Marks. Leans doubtful until he practices.",
+          "starter": true,
+          "source": "https://www.si.com/nfl/texans/onsi/texans-provide-updates-on-danielle-hunter-woody-marks-ahead-of-week-12"
+        },
+        {
+          "player": "Marvin Harrison Jr.",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Hamstring. Did not practice all of Week 11 prep and missed the IND game. Availability uncertain (described as relatively short-term). Listed Questionable by ESPN/SI.",
+          "starter": true,
+          "source": "https://sportstalk790.iheart.com/featured/what-s-on-matt-s-mind/content/2026-11-24-texans-woody-marks-expected-back-from-concussion-vs-ravens/"
+        },
+        {
+          "player": "Woody Marks",
+          "position": "RB",
+          "status": "Questionable",
+          "injury": "Concussion (Week 10 at CLE), missed Week 11. Ryans on Nov 23: trending in the right direction, hopeful to have him Sunday. Expected to practice Wed Nov 25 but must clear protocol.",
+          "starter": true,
+          "source": "https://athlonsports.com/nfl/texans-ravens-demeco-ryans-woody-marks"
+        },
+        {
+          "player": "Brevin Jordan",
+          "position": "TE",
+          "status": "Questionable",
+          "injury": "Injury not specified. Was Out in Week 11. Listed Questionable in ESPN and SI Week 12 previews.",
+          "starter": false,
+          "source": "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1"
+        },
+        {
+          "player": "Kayshon Boutte",
+          "position": "WR",
+          "status": "Questionable",
+          "injury": "Unspecified. Listed Questionable in the SI Week 12 preview (he played and scored in Week 11).",
+          "starter": false,
+          "source": "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1"
+        },
+        {
+          "player": "Wyatt Teller",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Unspecified. Listed Questionable on ESPN's Ravens-Texans game page.",
+          "starter": true,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873085/ravens-texans"
+        },
+        {
+          "player": "Keylan Rutledge",
+          "position": "G",
+          "status": "Questionable",
+          "injury": "Unspecified. Listed Questionable on ESPN's game page and in SI's preview.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/game/_/gameId/401873085/ravens-texans"
+        },
+        {
+          "player": "Sheldon Rankins",
+          "position": "DT",
+          "status": "Questionable",
+          "injury": "Unspecified. Listed Questionable in SI's Week 12 preview.",
+          "starter": true,
+          "source": "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1"
+        },
+        {
+          "player": "Azeez Al-Shaair",
+          "position": "LB",
+          "status": "IR",
+          "injury": "Groin. Placed on IR Nov 17. Earliest return Week 15 vs JAX.",
+          "starter": true,
+          "source": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-azeez-al-shaair-on-injured-reserve"
+        },
+        {
+          "player": "Jaylin Noel",
+          "position": "WR",
+          "status": "IR",
+          "injury": "On IR per ESPN transaction log (date ambiguous). No return designation found.",
+          "starter": false,
+          "source": "https://www.espn.com/nfl/team/transactions/_/name/hou/houston-texans"
+        }
+      ],
+      "context_notes": [
+        "Rest edge: Texans have 10 days off after a Thursday night blowout win and are at home. Ravens are on a second straight road game and a six-game losing streak.",
+        "Key availability calls for Sunday: Hunter (hamstring), Harrison Jr. (hamstring), Marks (concussion). Wednesday Nov 25 practice was the first real checkpoint and was not yet reported at collection time.",
+        "Roster moves: CB Jaylin Smith activated from IR Nov 19. LB Jake Hummel activated Nov 14. Chris Braswell moved to practice squad injured Nov 23.",
+        "Texans are 4-6 (lost 27-24 at CLE in Week 10 after leading 17-0). Head coach DeMeco Ryans.",
+        "Week 11 carry-overs with no news found (presumed still out, unverified): British Brooks (FB, IR), E.J. Speed (LB, IR), Henry To'oTo'o (LB, IR), Ja'Marcus Ingram (CB, IR), Jayden Higgins (WR, IR), K.C. Ossai (LB, IR), M.J. Stewart (S, IR)."
+      ],
+      "sources": [
+        "https://www.espn.com/nfl/recap/_/gameId/401873066",
+        "https://www.houstonpress.com/news/nfl-week-11-recap-texans-throttle-hapless-colts-on-thursday-night-26-3/",
+        "https://sports.yahoo.com/articles/stroud-dominates-texans-blowout-over-135014596.html",
+        "https://athlonsports.com/nfl/texans-ravens-demeco-ryans-woody-marks",
+        "https://www.si.com/nfl/texans/onsi/texans-provide-updates-on-danielle-hunter-woody-marks-ahead-of-week-12",
+        "https://www.rotowire.com/football/headlines/woody-marks-injury-trending-in-right-direction-for-week-12-649362",
+        "https://sportstalk790.iheart.com/featured/what-s-on-matt-s-mind/content/2026-11-24-texans-woody-marks-expected-back-from-concussion-vs-ravens/",
+        "https://www.si.com/betting/ravens-vs-texans-prediction-odds-spread-injuries-trends-for-nfl-week-12-01m85jp47wh1",
+        "https://www.espn.com/nfl/game/_/gameId/401873085/ravens-texans",
+        "https://www.espn.com/nfl/team/transactions/_/name/hou/houston-texans",
+        "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-azeez-al-shaair-on-injured-reserve",
+        "https://www.cbssports.com/nfl/teams/hou/houston-texans/injuries/",
+        "https://dknetwork.draftkings.com/2026/11/24/nfl-injury-report-week-12/"
+      ]
+    }
+  }
+}
